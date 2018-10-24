@@ -1,0 +1,3 @@
+### Mindustry Documentation
+
+[Blocks](blocks/)
