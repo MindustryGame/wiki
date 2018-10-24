@@ -170,7 +170,7 @@ Health is 80
 Consumes:  
 - 1 lava (per third)
 
-## Incenerator
+## Incinerator
 Health is 90  
 Consumes:  
 - Any item  
