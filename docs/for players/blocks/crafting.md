@@ -1,4 +1,5 @@
 Note: Third is 60th of a second
+
 > In 1267, the medieval scientist Roger Bacon stated the times of full moons as a  number of hours, minutes, seconds, thirds, and fourths (horae, minuta, secunda, tertia, and quarta) after noon on specified calendar dates. 
 
 ## Smelter
