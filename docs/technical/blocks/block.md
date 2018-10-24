@@ -123,132 +123,132 @@ Whether the overdrive projector can boost this block
 
 # Methods
 
-# getByProduction (takes Array<Block> + Content result) static
+### getByProduction (takes Array<Block> + Content result) static
 
-# canBreak (returns Boolean, takes Tile tile)
+### canBreak (returns Boolean, takes Tile tile)
 
-# dropsItem (returns Boolean, takes Item item)
+### dropsItem (returns Boolean, takes Item item)
 
-# updatePowerGraph (takes Tile tile)
+### updatePowerGraph (takes Tile tile)
 
-# powerGraphRemoved (takes Tile tile)
+### powerGraphRemoved (takes Tile tile)
 
-# getPowerConnections (returns Array<Tile> tile, takes Tile + Array<Tile> out)
+### getPowerConnections (returns Array<Tile> tile, takes Tile + Array<Tile> out)
 
-# isLayer (returns Boolean, takes Tile tile)
+### isLayer (returns Boolean, takes Tile tile)
 
-# isLayer2 (returns Boolean, takes Tile tile)
+### isLayer2 (returns Boolean, takes Tile tile)
 
-# drawLayer (takes Tile tile)
+### drawLayer (takes Tile tile)
 
-# drawLayer2 (takes Tile tile)
+### drawLayer2 (takes Tile tile)
 
-# drawSelect (takes Tile tile)
+### drawSelect (takes Tile tile)
 
-# drawPlace (takes Integer x + Integer y + Integer rotation + Boolean valid)
+### drawPlace (takes Integer x + Integer y + Integer rotation + Boolean valid)
 
-# playerPlaced (takes Tile tile)
+### playerPlaced (takes Tile tile)
 
-# removed (takes Tile tile)
+### removed (takes Tile tile)
 
-# placed (takes Tile tile)
+### placed (takes Tile tile)
 
-# unitOn (takes Tile tile + Unit unit)
+### unitOn (takes Tile tile + Unit unit)
 
-# canPlaceOn (takes Tile tile)
+### canPlaceOn (takes Tile tile)
 
-# useContent (takes Tile tile + UnlockableContent content)
+### useContent (takes Tile tile + UnlockableContent content)
 
-# getContentType (returns ContentType)
+### getContentType (returns ContentType)
 By default returns ContentType.block
 
-# getContentName (returns String)
+### getContentName (returns String)
 By default returns variable name
 
-# init ()
+### init ()
 
-# load ()
+### load ()
 
-# transformLinks (takes Tile tile + Integer oldWidth + Integer oldHeight + Integer newWidth + Integer newHeight + Integer shiftX + Integer shiftY)
+### transformLinks (takes Tile tile + Integer oldWidth + Integer oldHeight + Integer newWidth + Integer newHeight + Integer shiftX + Integer shiftY)
 
-# tapped (takes Tile tile + Player player)
+### tapped (takes Tile tile + Player player)
 
-# getCursor (returns CursorType, takes Tile tile)
+### getCursor (returns CursorType, takes Tile tile)
 By default 
 if configurable is true returns CursorType.hand
 else returns CursorType.normal
 
-# buildTable (takes Tile tile + Table table)
+### buildTable (takes Tile tile + Table table)
 
-# onConfigureTileTapped (returns Boolean, takes Tile tile + Tile other)
+### onConfigureTileTapped (returns Boolean, takes Tile tile + Tile other)
 By default check if tile is not other
 
-# shouldShowConfigure (returns Boolean, takes Tile tile + Player player)
+### shouldShowConfigure (returns Boolean, takes Tile tile + Player player)
 By default returns true
 
-# shouldHideConfigure (returns Boolean, takes Tile tile + Player player)
+### shouldHideConfigure (returns Boolean, takes Tile tile + Player player)
 By default returns false
 
-# syntethic (returns Boolean)
+### syntethic (returns Boolean)
 By default if either update, destructible or solid are true returns true
 
-# drawConfigure (takes Tile tile)
+### drawConfigure (takes Tile tile)
 
-# setStats ()
+### setStats ()
 
-# setBars ()
+### setBars ()
 
-# name (returns String)
+### name (returns String)
 By default returns variable name
 
-# isSolidFor (returns Boolean, takes Tile tile)
+### isSolidFor (returns Boolean, takes Tile tile)
 By default returns false
 
-# canReplace (returns Boolean, takes Block other)
+### canReplace (returns Boolean, takes Block other)
 
-# handleDamage (returns Float, takes Tile tile + Float amount)
+### handleDamage (returns Float, takes Tile tile + Float amount)
 By default returns amount
 
-# handleBulletHit (takes TileEntity entity + Bullet bullet)
+### handleBulletHit (takes TileEntity entity + Bullet bullet)
 By default call entity.damage with arguments bullet.getDamage
 
-# Update (takes Tile tile)
+### Update (takes Tile tile)
 
-# isAccessible (returns Boolean)
+### isAccessible (returns Boolean)
 By default returns true if variable hasItems AND itemCapacity is more than zero (0)
 
-# afterDestroyed (takes Tile tile + TileEntity entity)
+### afterDestroyed (takes Tile tile + TileEntity entity)
 
-# onDestroyed (takes Tile tile)
+### onDestroyed (takes Tile tile)
 
-# getFlammability (returns Float, takes Tile tile)
+### getFlammability (returns Float, takes Tile tile)
 
-# getEditorIcon (returns TextureRegion)
+### getEditorIcon (returns TextureRegion)
 
-# getIcon (returns TextureRegion[])
+### getIcon (returns TextureRegion[])
 
-# getBlockIcon (returns TextureRegion[])
+### getBlockIcon (returns TextureRegion[])
 
-# getCompactIcon (returns TextureRegion[])
+### getCompactIcon (returns TextureRegion[])
 
-# iconRegion (returns TextureRegion, takes TextureRegion src)
+### iconRegion (returns TextureRegion, takes TextureRegion src)
 Crops a region to 8*8
 
-# hasEntity (returns Boolean)
+### hasEntity (returns Boolean)
 By default returns true if destructible or update is true
 
-# newEntity (returns TileEntity) 
+### newEntity (returns TileEntity) 
 By default returns new TileEntity
 
-# draw (takes Tile tile)
+### draw (takes Tile tile)
 
-# drawNonLayer (takes Tile tile)
+### drawNonLayer (takes Tile tile)
 
-# drawShadow (takes Tile tile)
+### drawShadow (takes Tile tile)
 
-# offset (returns Float)
+### offset (returns Float)
 
-# isMultiblock (returns Boolean)
+### isMultiblock (returns Boolean)
 By default returns true if variable size is larger than one (1)
 
-# getDebugInfo (returns Array<Object>, takes Tile tile)
+### getDebugInfo (returns Array<Object>, takes Tile tile)
