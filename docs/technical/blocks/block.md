@@ -1,4 +1,12 @@
-# Variables:
+extends BaseBlock
+
+## Constructor (String name)
+set name as name
+get Bundles.get("block.[name].name", name) set formalName
+get Bundles.get("block.[name].description") set as fullDescription
+set solid false
+
+# Variables
 
 ### name (String)
 Internal name for the block, is final
