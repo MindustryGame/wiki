@@ -1,127 +1,127 @@
-## Variables:
+# Variables:
 
-# name (String)
+### name (String)
 Internal name for the block, is final
 
-# formalName (String)
+### formalName (String)
 Displayed name for the block
 
-# fullDescription (String)
+### fullDescription (String)
 Description of the block, is final
 
-# update (Boolean)
+### update (Boolean)
 Whether the block has a tile entity and should update
 
-# destructible (Boolean)
+### destructible (Boolean)
 Whether the block has health and can be destroyed
 
-# solid (Boolean)
+### solid (Boolean)
 Whether the block is solid
 
-# solidifes (Boolean)
+### solidifes (Boolean)
 Whether this block can be solid
 
-# rotate (Boolean)
+### rotate (Boolean)
 Whether this block is rotateable
 
-# breakable (Boolean)
+### breakable (Boolean)
 Whether you can break/deconstruct this block
 
-# placeableOn (Boolean, true)
+### placeableOn (Boolean, true)
 Whether you can place blocks on this block (as a floor)
 
-# health (Integer, -1)
+### health (Integer, -1)
 Tile entity health
 
-# baseExplosiveness (Float, 0f)
+### baseExplosiveness (Float, 0f)
 The base explosiveness of the block
 
-# floating (Boolean, false)
+### floating (Boolean, false)
 Whether this block can be placed on liquids
 
-# drops (ItemStack, null)
+### drops (ItemStack, null)
 Items that are dropped when the block is destroyed
 
-# size (Integer, 1)
+### size (Integer, 1)
 The size of the block, the block size is size*size
 
-# expanded (Boolean, false)
+### expanded (Boolean, false)
 Whether to draw the block in the expanded draw range
 
-# timers (Integer, 0)
+### timers (Integer, 0)
 Max of timers used
 
-# cacheLayer (CacheLayer, CacheLayer.normal)
+### cacheLayer (CacheLayer, CacheLayer.normal)
 Only used for 'cached' rendering
 
-# layer (Layer, null)
+### layer (Layer, null)
 The layer to draw extra graphics on
 
-# layer2 (Layer, null)
+### layer2 (Layer, null)
 The extra layer to draw extra extra graphics on
 
-# alwaysReplace (Boolean, false)
+### alwaysReplace (Boolean, false)
 Whether this block will be replaced in all cases
 
-# instantTransfer (Boolean, false)
+### instantTransfer (Boolean, false)
 Whether this block has instant transfer checking. Used for calculations to prevent infinite loops
 
-# group (BlockGroup, BlockGroup.none)
+### group (BlockGroup, BlockGroup.none)
 The block group. Unless canReplace method return false, blocks in the same group can replace each other
 
-# bars (BlockBars, new BlockBars)
+### bars (BlockBars, new BlockBars)
 List of displayed block status bars. Defaults to health bar.
 
-# stats (BlockStats, new BlockStats)
+### stats (BlockStats, new BlockStats)
 List of block stats
 
-# flags (EnumSet<BlockFlag>)
+### flags (EnumSet<BlockFlag>)
 List of block flags, used for AI indexing
 
-# autoSleep (Boolean)
+### autoSleep (Boolean)
 Whether to automatically set the entity to 'sleeping' when created
 
-# shadow (String, null)
+### shadow (String, null)
 The name of the shadow region to load. Null to indicate normal shadow
 
-# configurable (Boolean)
+### configurable (Boolean)
 Whether this block can be tapped and selected to configure
 
-# consumesTap (Boolean)
+### consumesTap (Boolean)
 Whether this block consumes touchDown events when Tapped
 
-# minimapColor (Color, Color.CLEAR)
+### minimapColor (Color, Color.CLEAR)
 The color of the block when displayed on the minimap or map preview
 
-# viewRange (Float, 10f)
+### viewRange (Float, 10f)
 View range of this block type. Use a value that is less than zero (0) to disable
 
-# turretIcon (Boolean, false)
+### turretIcon (Boolean, false)
 Whether the top icon is outlined, like a turret
 
-# targetable (Boolean, true)
+### targetable (Boolean, true)
 Whether units can target this block
 
-# canOverdrive (Boolean, true)
+### canOverdrive (Boolean, true)
 Whether the overdrive projector can boost this block
 
-# tempTiles (Array<Tile>, new Array) protected
+### tempTiles (Array<Tile>, new Array) protected
 
-# tempColor (Color, new Color) protected
+### tempColor (Color, new Color) protected
 
-# blockIcon (TextureRegion[])
+### blockIcon (TextureRegion[])
 
-# icon (TextureRegion[])
+### icon (TextureRegion[])
 
-# compactIcon (TextureRegion[])
+### compactIcon (TextureRegion[])
 
-# editorIcon (TextureRegion)
+### editorIcon (TextureRegion)
 
-# shadowRegion (TextureRegion)
+### shadowRegion (TextureRegion)
 
-# region (TextureRegion)
+### region (TextureRegion)
 
-## Methods
+# Methods
 
 # getByProduction (takes Array<Block> + Content result) static
 
