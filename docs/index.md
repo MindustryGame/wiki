@@ -1,3 +1,3 @@
 ### Mindustry Documentation
 
-[Blocks](blocks/)
+This is documentation for the game [Mindustry](https://github.com/Anuken/Mindustry)
