@@ -123,132 +123,132 @@ Whether the overdrive projector can boost this block
 
 # Methods
 
-### getByProduction (takes Array<Block> + Content result) static
+### static getByProduction (Array<Block>, Content result)
 
-### canBreak (returns Boolean, takes Tile tile)
+### Boolean canBreak (Tile tile)
 
-### dropsItem (returns Boolean, takes Item item)
+### Boolean dropsItem (Item item)
 
-### updatePowerGraph (takes Tile tile)
+### updatePowerGraph (Tile tile)
 
-### powerGraphRemoved (takes Tile tile)
+### powerGraphRemoved (Tile tile)
 
-### getPowerConnections (returns Array<Tile> tile, takes Tile + Array<Tile> out)
+### Array<Tile> getPowerConnections (Tile tile, Array<Tile> out)
 
-### isLayer (returns Boolean, takes Tile tile)
+### Boolean isLayer (Tile tile)
 
-### isLayer2 (returns Boolean, takes Tile tile)
+### Boolean isLayer2 (Tile tile)
 
-### drawLayer (takes Tile tile)
+### drawLayer (Tile tile)
 
-### drawLayer2 (takes Tile tile)
+### drawLayer2 (Tile tile)
 
-### drawSelect (takes Tile tile)
+### drawSelect (Tile tile)
 
-### drawPlace (takes Integer x + Integer y + Integer rotation + Boolean valid)
+### drawPlace (Integer x, Integer y, Integer rotation, Boolean valid)
 
-### playerPlaced (takes Tile tile)
+### playerPlaced (Tile tile)
 
-### removed (takes Tile tile)
+### removed (Tile tile)
 
-### placed (takes Tile tile)
+### placed (Tile tile)
 
-### unitOn (takes Tile tile + Unit unit)
+### unitOn (Tile tile, Unit unit)
 
-### canPlaceOn (takes Tile tile)
+### canPlaceOn (Tile tile)
 
-### useContent (takes Tile tile + UnlockableContent content)
+### useContent (Tile tile, UnlockableContent content)
 
-### getContentType (returns ContentType)
+### ContentType getContentType ()
 By default returns ContentType.block
 
-### getContentName (returns String)
+### String getContentName ()
 By default returns variable name
 
 ### init ()
 
 ### load ()
 
-### transformLinks (takes Tile tile + Integer oldWidth + Integer oldHeight + Integer newWidth + Integer newHeight + Integer shiftX + Integer shiftY)
+### transformLinks (Tile tile, Integer oldWidth, Integer oldHeight, Integer newWidth, Integer newHeight, Integer shiftX, Integer shiftY)
 
-### tapped (takes Tile tile + Player player)
+### tapped (Tile tile, Player player)
 
-### getCursor (returns CursorType, takes Tile tile)
+### CursorType getCursor (Tile tile)
 By default 
 if configurable is true returns CursorType.hand
 else returns CursorType.normal
 
-### buildTable (takes Tile tile + Table table)
+### buildTable (Tile tile, Table table)
 
-### onConfigureTileTapped (returns Boolean, takes Tile tile + Tile other)
+### Boolean onConfigureTileTapped (Tile tile, Tile other)
 By default check if tile is not other
 
-### shouldShowConfigure (returns Boolean, takes Tile tile + Player player)
+### Boolean shouldShowConfigure (Tile tile, Player player)
 By default returns true
 
-### shouldHideConfigure (returns Boolean, takes Tile tile + Player player)
+### Boolean shouldHideConfigure (Tile tile, Player player)
 By default returns false
 
-### syntethic (returns Boolean)
+### Boolean syntethic ()
 By default if either update, destructible or solid are true returns true
 
-### drawConfigure (takes Tile tile)
+### drawConfigure (Tile tile)
 
 ### setStats ()
 
 ### setBars ()
 
-### name (returns String)
+### String name ()
 By default returns variable name
 
-### isSolidFor (returns Boolean, takes Tile tile)
+### Boolean isSolidFor (Tile tile)
 By default returns false
 
-### canReplace (returns Boolean, takes Block other)
+### Boolean canReplace (Block other)
 
-### handleDamage (returns Float, takes Tile tile + Float amount)
+### Float handleDamage (Tile tile, Float amount)
 By default returns amount
 
-### handleBulletHit (takes TileEntity entity + Bullet bullet)
+### handleBulletHit (TileEntity entity, Bullet bullet)
 By default call entity.damage with arguments bullet.getDamage
 
-### Update (takes Tile tile)
+### Update (Tile tile)
 
-### isAccessible (returns Boolean)
+### Boolean isAccessible ()
 By default returns true if variable hasItems AND itemCapacity is more than zero (0)
 
-### afterDestroyed (takes Tile tile + TileEntity entity)
+### afterDestroyed (Tile tile, TileEntity entity)
 
-### onDestroyed (takes Tile tile)
+### onDestroyed (Tile tile)
 
-### getFlammability (returns Float, takes Tile tile)
+### Float getFlammability (Tile tile)
 
-### getEditorIcon (returns TextureRegion)
+### TextureRegion getEditorIcon ()
 
-### getIcon (returns TextureRegion[])
+### TextureRegion[] getIcon ()
 
-### getBlockIcon (returns TextureRegion[])
+### TextureRegion[] getBlockIcon ()
 
-### getCompactIcon (returns TextureRegion[])
+### TextureRegion[] getCompactIcon ()
 
-### iconRegion (returns TextureRegion, takes TextureRegion src)
-Crops a region to 8*8
+### TextureRegion iconRegion (TextureRegion src)
+Crops src region to 8*8
 
-### hasEntity (returns Boolean)
+### Boolean hasEntity ()
 By default returns true if destructible or update is true
 
-### newEntity (returns TileEntity) 
+### TileEntity newEntity () 
 By default returns new TileEntity
 
-### draw (takes Tile tile)
+### draw (Tile tile)
 
-### drawNonLayer (takes Tile tile)
+### drawNonLayer (Tile tile)
 
-### drawShadow (takes Tile tile)
+### drawShadow (Tile tile)
 
-### offset (returns Float)
+### Float offset ()
 
-### isMultiblock (returns Boolean)
+### Boolean isMultiblock ()
 By default returns true if variable size is larger than one (1)
 
-### getDebugInfo (returns Array<Object>, takes Tile tile)
+### Array<Object> getDebugInfo (Tile tile)
