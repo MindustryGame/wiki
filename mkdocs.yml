@@ -1,4 +1,5 @@
 site_name: Mindustry Documentation
 site_url: https://mindustrymodders.gitlab.io/mindustry-documentation
 theme: readthedocs
-extra_css: style.css
+extra_css: 
+  - ./style.css
