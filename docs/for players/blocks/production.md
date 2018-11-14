@@ -14,7 +14,7 @@ For Drills, Liquid-Boosted PR can be calculated by multiplying the Base PR by 2.
 
 | Name                  | Size | Power Use | Base PR | Drillables
 |-----------------------|------|-----------|---------|-----------
-| Mechanical Drill      | 2x2  | N/A       | 0.2     | SA CP LE CO
+| Mechanical Drill      | 2x2  | N/A       | 0.2     |    SA CP LE CO
 | Pneumatic Drill       | 2x2  | N/A       | 0.25    | ST SA CP LE CO TI 
 | Laser Drill           | 2x2  | .11       | 0.42    | ST SA CP LE CO TI TH
 | Airblast Drill        | 3x3  | .3        | 1       | ST SA CP LE CO TI TH
