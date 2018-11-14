@@ -15,5 +15,3 @@ pages:
     - public
   only:
   - master
-
-theme: readthedocs
