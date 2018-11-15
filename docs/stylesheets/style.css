@@ -2,6 +2,10 @@
   max-width: 100% !important;
 }
 
-.md-header {
+.wy-side-nav-search {
   background-color: #d4816b;
+}
+
+.wy-side-nav-search input[type=text] {
+  border: none !important;
 }
