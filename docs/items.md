@@ -1,17 +1,18 @@
-## Default values
-Explosiveness is 0  
-Flammability is 0  
-Radioactivity is 0  
-Fluxiness is 0  
-Hardness is 0  
+# Items
 
-## Copper
-Color is 0xD99D73  
-Is a material  
-Hardness is 1  
-Cost is 0.6  
-Generated ore  
-Always unlocked  
+Items are one of the integral parts of Mindustry. They can serve as fuel, ammo, or building material.
+## Flags 
+
+* N - Naturally generated
+* M - Man-made, e.g. with a Production or Crafting block
+* C - Can be put into the Core
+
+| Name                  | Flags | Cost | Hardness | Radioactivity | Flammability | Explosiveness | Fluxiness | Color   |
+|-----------------------|-------|------|----------|---------------|--------------|---------------|-----------|---------|
+| **[ST]** Stone        | N M C | ?    | 3        | 0             | 0            | 0             | 0         | #777777 | 
+| **[SA]** Sand         | N M C | ?    | 0        | 0             | 0            | 0             | 0.5       | #e3d39e |
+| **[CP]** Copper       | N M C | 0.6  | 1        | 0             | 0            | 0             | 0         | #d99d73 |
+| **[LE]** Lead         | N M C | 0.9  | 1        | 0             | 0            | 0             | 0         | #8c7fa9
 
 ## Lead
 Color is 0x8C7FA9  
