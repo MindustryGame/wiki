@@ -5,89 +5,83 @@ Items are one of the integral parts of Mindustry. They can serve as fuel, ammo, 
 
 * N - Naturally generated
 * M - Man-made, e.g. with a Production or Crafting block
-* C - Can be put into the Core
+* E - Can be obtained from destroying an enemy
+* B - Is used as a building material
 
-| Name                  | Flags | Cost | Hardness | Radioactivity | Flammability | Explosiveness | Fluxiness | Color   |
-|-----------------------|-------|------|----------|---------------|--------------|---------------|-----------|---------|
-| **[ST]** Stone        | N M C | ?    | 3        | 0             | 0            | 0             | 0         | #777777 | 
-| **[SA]** Sand         | N M C | ?    | 0        | 0             | 0            | 0             | 0.5       | #e3d39e |
-| **[CP]** Copper       | N M C | 0.6  | 1        | 0             | 0            | 0             | 0         | #d99d73 |
-| **[LE]** Lead         | N M C | 0.9  | 1        | 0             | 0            | 0             | 0         | #8c7fa9
+| Name                    | Flags                  | Cost | Hardness | Radioactivity | Flammability | Explosiveness | Fluxiness | Color   |
+|-------------------------|------------------------|------|----------|---------------|--------------|---------------|-----------|---------|
+| **[ST]** Stone          | NM                     | 3    | 3        |               |              |               |           | #777777 | 
+| **[SA]** Sand           | NM                     | 3    |          |               |              |               | 0.5       | #e3d39e |
+| **[CP]** Copper         | NMBE                   | 0.6  | 1        |               |              |               |           | #d99d73 |
+| **[LE]** Lead           | NMBE                   | 0.9  | 1        |               |              |               |           | #8c7fa9 |
+| **[CO]** Coal           | NM                     | 3    | 2        |               | 0.5          | 0.2           |           | #272727 |
+| **[TI]** Titanium       | NMB                    | 1.1  | 3        |               |              |               |           | #8da1e3 |
+| **[TH]** Thorium        | NMB                    | 1.4  | 4        | 0.5           |              | 0.1           |           | #f9a3c7 |
+| **[DA]** Dense Alloy    | &nbsp;&nbsp;&nbsp; MBE | 1.2  |          |               |              |               |           | #b2c6d2 |
+| **[SI]** Silicon        | &nbsp;&nbsp;&nbsp; MBE | 0.9  |          |               |              |               |           | #53565c |
+| **[PL]** Plastanium     | &nbsp;&nbsp;&nbsp; MB  | 1.6  |          |               | 0.1          | 0.1           |           | #cdb97f |
+| **[PF]** Phase Fabric   | &nbsp;&nbsp;&nbsp; MB  | 1.5  |          | 0.3           |              |               | 0.9       | #f4ba6e |
+| **[SA]** Surge Alloy    | &nbsp;&nbsp;&nbsp; MB  | 3    |          |               |              |               |           | #f3e979 |
+| **[BM]** Biomatter      | &nbsp;&nbsp;&nbsp; M   | 3    |          |               | 0.4          |               | 0.3       | #648b55 |
+| **[BC]** Blast Compound | &nbsp;&nbsp;&nbsp; M   | 3    |          |               | 0.2          | 0.6           |           | #ff795e |
+| **[PY]** Pyratite       | &nbsp;&nbsp;&nbsp; M   | 3    |          |               | 0.7          | 0.2           |           | #ffaa5f |
 
-## Lead
-Color is 0x8C7FA9  
-Is a material  
-Hardness is 1  
-Cost is 0.9  
-Generated ore  
+## Stone
 
-## Dense alloy
-Color is 0xB2C6D2  
-Is a material  
-Cost is 1.2  
+A material that is common and almost useless. It can be turned to sand and be melted into Lava, though.
 
-## Coal
-Color is 0x272727  
-Explosiveness is 0.2  
-Flammability is 0.5  
-Hardness is 2  
-Generated ore  
+## Sand 
+
+Used to make Silicon, and as flux. Other than that, it's unfortunate you can't throw some towards enemies.
+
+## Copper 
+
+The beginner's material; the most basic one for the most basic blocks, used as the most basic ammo. When melted with Lead, Dense Alloy is produced. 
+
+## Lead 
+
+A heavy material, though that doesn't matter. When melted with Copper, Dense Alloy is produced. It is also used as a major ingredient for power-related things.
+
+## Coal 
+
+The basic fuel. It can be used as fuel by a Combustion Generator to generate power. It is also used by the Smelter as fuel to make Dense Alloy.
 
 ## Titanium
-Color is 0x8DA1E3  
-Is a material  
-Cost is 1.1  
-Generated ore  
+
+A cool and speedy material. By that I mean it makes items go faster and is an ingredient for a liquid that cools down blocks quicker than water.
 
 ## Thorium
-Color is 0xF9A3C7  
-Is a material  
-Explosiveness is 0.1  
-Hardness is 4  
-Radioactivity is 0.5  
-Cost is 1.4  
-Generated ore  
 
-## Stone 
-Color is 0x777777  
-Hardness is 3  
+Watch out, this thing is radioactive! When used in a controlled environment such as in a Reactor and cooled, it generates massive amounts of power.
 
-## Silicon 
-Color is 0x53565C  
-Is a material  
-Cost is 0.9  
+## Dense Alloy 
+
+A strong material, suitable for walls, mechs, blocks, and even half-decent ammo.
+
+## Silicon
+
+We're entering the technology age with this material. Make computerized units that can fight for you, or make even more electricity.
 
 ## Plastanium
-Color is 0xCDB97F  
-Is a material  
-Flammability is 0.1  
-Explosiveness is 0.1  
-Cost is 1.6  
 
-## Phasematter
-Color is 0xF4BA6E  
-Is a material  
-Cost is 1.5  
+To say it short, a C4 bomb disguised as green cheese play food.
 
-## Surge alloy
-Color is 0xF3E979  
-Is a material  
+## Phase Fabric
+
+These may look like stalks of wheat but please don't put them in your mouth. They are radioactive, and will also probably turn you into air.
+
+## Surge Alloy
+
+Having this electrifying Kraft Singles American Cheese means you've played through enough that you can contribute to discussions on the Discord. Other than walls and ammo, though, they're pretty plain.
 
 ## Biomatter
-Color is 0x648B55  
-Flammability is 0.4  
-Fluxiness is 0.2  
 
-## Sand
-Color is 0xE3D39E  
-Fluxiness is 0.5  
+Somehow this saturated goosecrap can be burned.
 
-## Blast compound
-Color is 0xFF795E  
-Flammability is 0.2  
-Explosiveness is 0.6  
+## Blast Compound
 
-## Pyratite 
-Color is 0xFFAA5F  
-Flammability is 0.7  
-Explosiveness is 0.2  
+Kaboom. 20 enemies clustered together is nothing for this powerful ammo.
+
+## Pyratite
+
+Let your enemies and their bases burn. This material is the most flammable, as its name (pyra) suggests.
