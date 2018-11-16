@@ -3,6 +3,8 @@ Here are the basics
 ## Mech Mining
 If you do not start near copper patches, it might be difficult to begin your game. Having copper income is the very first thing you need to setup, because all drills and conveyors use soley copper. 
 
+To mine, tap on a single ore sqare. The mech will start mining with a laser. You will see ore flying out of the patch. 
+
 If a copper mine is close enough to your core, your mech will automatically put the mined ore into inventory.
 If a copper mine is not close enogh, the mined ore will fly onto your mech. There is not a good way to determine how much ore your mech is carrying, but your mech will stop mining once it is full. 
 You can only hold one type of material at a time.
