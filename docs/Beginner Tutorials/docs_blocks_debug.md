@@ -1,15 +1,15 @@
-## Power void
+Here are the basics
+
+## Building
 Power capacity is 3.4028235e+38  
 
-## Power infinite
+## Deconstructing
 Power capacity is 10000  
 Max nodes is 100  
 
-## Item source
+## Mining
 Nothing to note  
 
-## Item Void
+## Conveyors
 Nothing to note  
 
-## Liquid source
-Liquid capacity is 100  
