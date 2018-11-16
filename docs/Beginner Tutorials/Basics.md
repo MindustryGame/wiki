@@ -1,5 +1,22 @@
 Here are the basics
 
+## Beginning
+Start by getting ore. Copper should be priority #1, for you only need copper to build the first drill tier and conveyors. 
+1. Mine with your Mech (see Mech Mining on this page)
+2. Mine with a drill (you start with 0 copper, so you will need to get 45 copper to get your first drill + the)
+3. Let your spirit drone mine Copper for you (see Spirit Drone on this page)
+
+Once you have a good Copper income, you can mine Lead. Lead can be mined with the tier 1 drill as well. 
+
+After lead, Dense Alloy should be produced. Please see Advanced Concepts for the materials processing of Dense Alloy, Silicone, Titanium, Thorium, Plastanium, Phase Fabric, and Surge Alloy. 
+
+## Block Basics
+Here are a few basics / tips as to how to understand block behaviors. 
+Conveyors moving in will deposit into the block
+Conveyors moving away will be output. 
+Blocks that produce can directly place into other block as an input 
+SEE EXAMPLE
+
 ## Mech Mining
 If you do not start near copper patches, it might be difficult to begin your game. Having copper income is the very first thing you need to setup, because all drills and conveyors use soley copper. 
 
@@ -14,6 +31,8 @@ You can pick things off of a conveyor. Click on the conveyor. The conveyor conte
 
 ## Spirit Drone
 A single spirit drone will spawn for you. The drone will mine, help build, and repare blocks. If the drone dies, a new one will build from the core shortly. 
+
+You cannot control what the spirit done does. The drones will prioritize helping you build over repairing. The spirit drone does not seem to have any priority as to what type of ore it will mine. 
 
 ## Building
 Building things is very simple. First, select what you want to build from your currently unlocked blocks in the bottom right. When you select it, you will get an in-game tutorial.
