@@ -1,11 +1,12 @@
 Here are the basics
 
 ## Building
-Power capacity is 3.4028235e+38  
+Tap to build, tap and hold and drag to build in a line
 
 ## Deconstructing
-Power capacity is 10000  
-Max nodes is 100  
+Tap the hammer in the bottom left
+You are now in deconstruct mode
+Tap to assign this building for deconstruction
 
 ## Mining
 Nothing to note  
@@ -13,3 +14,6 @@ Nothing to note
 ## Conveyors
 Nothing to note  
 
+
+// <img src="image link"/>
+// ![](image link)
