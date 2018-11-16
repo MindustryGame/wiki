@@ -17,3 +17,8 @@ Nothing to note
 
 // <img src="image link"/>
 // ![](image link)
+
+
+// HTML
+// <img src="image link"/>
+// style="width: __px"
