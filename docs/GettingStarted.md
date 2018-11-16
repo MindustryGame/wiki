@@ -1,6 +1,6 @@
 # Getting Started
 
-Getting started with Mindustry is easy. 
+Getting started with Mindustry is easy. This article covers how to install Mindustry on different platforms and situations. 
 
 ## Typical Setup
 
