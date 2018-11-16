@@ -52,7 +52,7 @@ Please keep in mind that doing this does not make you automatically cool. Use th
 
 A dedicated machine is highly recommended for this.
 
-1. Again, if you haven't already, install JRE 8.
+1. If you haven't already, install at least JRE and JDK 8.
 2. Download the desired server release from [itch.io](itch.io), or compile one yourself. 
 3. Open a terminal or TTY session in the directory the file is placed in.
 4. Run `java -jar server-release.jar`. The commands are explained in the `help` command.
