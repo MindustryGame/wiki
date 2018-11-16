@@ -9,7 +9,7 @@ This is your typical, run-of-the-mill setup process.
 ### Desktop
 
 1. Visit the game's [itch.io page](https://anuke.itch.io/mindustry), then download a copy of the game from there. **The latest build is `alpha-59`, which we refer to as Build 59.**
-2. Once the `.zip` file is downloaded, unzip it. Usually that is just done by opening it like normal. When it's done navigate to the folder it extracted into.
+2. Once the `.zip` file is downloaded, unzip it. Usually that is just done by opening it like normal. When it's done, navigate to the folder it extracted into.
 3. 
     1. **For Windows users**, simply open `desktop-release.exe`. Enjoy!
     2. **For MacOS or Linux users**:
@@ -34,7 +34,7 @@ Unfortunately, **iOS only goes up to 3.5 build 40.** The latest builds are not a
 
 ## For Contributors
 
-If you would like to contribute to the game's source code, the best way to go is to compile the game yourself or use the builds provided [here](https://jenkins.hellomouse.net/job/mindustry/). To compile it yourself,
+If you would like to contribute to the game's source code, the best way to go is to compile the game yourself or use the builds provided [here](https://jenkins.hellomouse.net/job/mindustry/). To compile it yourself:
 
 1. If you haven't already, install at least JRE and JDK 8. 
 2. Open a terminal in the root directory, then run these commands: 
@@ -44,7 +44,7 @@ If you would like to contribute to the game's source code, the best way to go is
     2. For Linux:
         1. Running: `./gradlew desktop:run`
         2. Building: `./gradlew desktop:dist`
-    3. For Server builds, replace `desktop` with `server`.
+    3. For Server builds, replace `desktop` with `server`. Example: `./gradlew server:run`
 
 ## For aspiring server hosts
 
