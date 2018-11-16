@@ -10,10 +10,8 @@ To drop off the mined ore or current mech inventory, tap and hold on a spot near
 
 You can pick things off of a conveyor. Click on the conveyor. The conveyor contects will show up. Tap on the icon to pick it off the belt and add it to your mech's inventory. This is very useful when there is one material blocking the path due to a contamination or error. 
 
-##Spirit Drone
-
-##
-
+## Spirit Drone
+A single spirit drone will spawn for you. The drone will mine, help build, and repare blocks. If the drone dies, a new one will build from the core shortly. 
 
 ## Building
 Building things is very simple. First, select what you want to build from your currently unlocked blocks in the bottom right. When you select it, you will get an in-game tutorial.
