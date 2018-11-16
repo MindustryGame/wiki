@@ -17,9 +17,6 @@ This is your typical, run-of-the-mill setup process.
         2. Go through the installation process and follow the instructions. 
         3. Run `desktop-release.jar`. Have fun!
 
-If you would like the **absolute latest** bleeding edge builds for every commit, they are found [here](https://jenkins.hellomouse.net/job/mindustry/). **<u>Using these builds is not recommended for regular users.</u> They are extremely unstable.**
-
-
 ### Android
 
 This particular section covers how to install Mindustry's **latest builds** on Android. You might be here because you don't know what sort of Mindustry everyone's talking about on the Discord, or heard of `build 59`. If so, please read on.
@@ -48,9 +45,9 @@ If you would like to contribute to the game's source code, the best way to go is
 
 ## For aspiring server hosts
 
-Please keep in mind that doing this does not make you automatically cool. Use the local LAN feature if you only want to play with a friend.
+Please keep in mind that doing this does not make you automatically cool. Use the local LAN feature if you only want to play with a friend under your home network.
 
-A dedicated machine is highly recommended for this.
+A dedicated Linux or Windows machine is highly recommended for this.
 
 1. If you haven't already, install at least JRE and JDK 8.
 2. Download the desired server release from [itch.io](itch.io), or compile one yourself. 
