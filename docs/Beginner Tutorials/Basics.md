@@ -6,6 +6,7 @@ Here are the basics
 <img src="https://i.imgur.com/HOiVEDe.png" width=20% height=20%>
 
 Start by getting ore. Copper should be priority #1, for you only need copper to build the first drill tier and conveyors. 
+
 1. Mine with your Mech (see [this](##Mech-Mining))
 2. Mine with a drill (you start with 0 copper, so you will need to get 45 copper to get your first drill + conveyors)
 3. Let your spirit drone mine Copper for you (see Spirit Drone on this page)
