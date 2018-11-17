@@ -14,10 +14,10 @@ Once you have a good Copper income, you can mine Lead. Lead can be mined with th
 
 After lead, Dense Alloy should be produced. Please see Advanced Concepts for the materials processing of Dense Alloy, Silicone, Titanium, Thorium, Plastanium, Phase Fabric, and Surge Alloy. 
 
-## Block Basics
+## Input / Output Basics
 Here are a few basics / tips as to how to understand block input/output behaviors. 
 
-- Conveyors moving away from a produciton block will be output.
+1. Conveyors moving away from a produciton block will be output.
 
 <img src="https://i.imgur.com/D5Wwe3B.png" width=50% height=50%>
 
@@ -25,7 +25,7 @@ This drill will mine and put ore on all conveyors that take the ore away from th
 
 Notice that a conveyor moving into the Core deposits the material into the core inventory. Once a material is in the Core inventory, you can use it to build immediatly, regardless of location. 
 
--  Conveyors moving towards a block will be an input for the block (only if applicable). 
+2.  Conveyors moving towards a block will be an input for the block (only if applicable). 
 
 <img src="https://i.imgur.com/6XgN8CG.png" width=50% height=50%>
 
@@ -33,7 +33,7 @@ In this example, a Smelter is turning 2 Lead, 1 Copper, and 1 Coal into 1 Dense 
 
 A block that takes materials as inputs will not accept any materials that it cannot utilize.
 
-- Blocks that output can directly place into other block as an input .
+3. Blocks that output can directly place into other block as an input .
 
 <img src="https://i.imgur.com/msDRUmX.png" width=50% height=50%>
 
