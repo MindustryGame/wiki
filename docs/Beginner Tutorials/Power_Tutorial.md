@@ -6,11 +6,10 @@ yellow bar
 power loss
 
 ## Power Blocks
-Power capacity is 10000  
-Max nodes is 100  
+
 
 ## Tips and Tricks
-Nothing to note  
+Tip 1
 
 
 
