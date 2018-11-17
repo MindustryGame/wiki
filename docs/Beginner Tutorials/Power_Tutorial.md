@@ -4,9 +4,9 @@ This is a full tutorial on how to setup and utilize power. To properly understan
 
 Some blocks need power to run. To determine if a block needs power, click on the '?' icon when clicking on a block in the build screen. The block will need power if it has:
 
-Power
-    Power Capacity: X power units
-    Power use: Y power units/second
+Power <br>
+    Power Capacity: X power units <br>
+    Power use: Y power units/second <br>
 
 All of the blocks in the power build menu (in the build menu, the lightning bolt icon category) do not need power, but will either supply power or distribute power. 
 
@@ -18,8 +18,22 @@ A block that uses power has a power use stat and also has power capacity. The bl
 
 ## Setting up Power
 
-The first thing to be aware of is POWER GENERATION BLOCKS SHARE POWER IF THEY ARE TOUCHING. This includes power nodes! This means
+The first thing to be aware of is POWER GENERATION BLOCKS SHARE POWER IF THEY ARE TOUCHING. This includes power nodes! 
 
+See example
+
+Power Nodes connect to 4 things. Because power generation blocks touching act like one big power source,a node can connect to any item in the network. 
+
+To connect something using a power node, click the node. The range of the node will show up. Then all available options for connection will appear as a red circle. Currently connected blocks will be a blue circle with a yellow wire connection. Once the node has used all of its available connections, all possible blocks will have a red cirlce with a red cross in it. 
+
+Insert Picture
+
+Power recommendations:
+
+Burn coal to get silicone setup
+use water for turbines or faster coal production (ratio source needed)
+use solar panels to start thorium
+setup thorium reactor (use solar for water generation)
 
 
 
