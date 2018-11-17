@@ -1,15 +1,11 @@
-Here are the basics
+Here is the math for proper ratios for all things
 
-## Building
-Power capacity is 3.4028235e+38  
+# Power
+## Combustion Generator
 
-## Deconstructing
-Power capacity is 10000  
-Max nodes is 100  
 
-## Mining
-Nothing to note  
+# Crafting
+## Silicone
+## Dense Alloy
 
-## Conveyors
-Nothing to note  
 
