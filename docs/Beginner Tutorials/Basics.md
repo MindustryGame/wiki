@@ -1,9 +1,13 @@
 Here are the basics
 
-## Beginning
+## Basics
+The goal of the game is to not die! You die when your core reaches 0 health. This is your core:
+
+<img src="https://i.imgur.com/HOiVEDe.png" width=20% height=20%>
+
 Start by getting ore. Copper should be priority #1, for you only need copper to build the first drill tier and conveyors. 
 1. Mine with your Mech (see Mech Mining on this page)
-2. Mine with a drill (you start with 0 copper, so you will need to get 45 copper to get your first drill + the)
+2. Mine with a drill (you start with 0 copper, so you will need to get 45 copper to get your first drill + converyors)
 3. Let your spirit drone mine Copper for you (see Spirit Drone on this page)
 
 Once you have a good Copper income, you can mine Lead. Lead can be mined with the tier 1 drill as well. 
@@ -11,11 +15,29 @@ Once you have a good Copper income, you can mine Lead. Lead can be mined with th
 After lead, Dense Alloy should be produced. Please see Advanced Concepts for the materials processing of Dense Alloy, Silicone, Titanium, Thorium, Plastanium, Phase Fabric, and Surge Alloy. 
 
 ## Block Basics
-Here are a few basics / tips as to how to understand block behaviors. 
-Conveyors moving in will deposit into the block
-Conveyors moving away will be output. 
-Blocks that produce can directly place into other block as an input 
-SEE EXAMPLE
+Here are a few basics / tips as to how to understand block input/output behaviors. 
+
+- Conveyors moving away from a produciton block will be output.
+
+<img src="https://i.imgur.com/D5Wwe3B.png" width=50% height=50%>
+
+This drill will mine and put ore on all conveyors that take the ore away from the drill. In this example, the drill will put Lead on all 7 conveyors, but not the eight one because that conveyor moves towards the drill. The drill will prioritize each path evenly. If a path is blocked, it is not considered as an output.
+
+Notice that a conveyor moving into the Core deposits the material into the core inventory. Once a material is in the Core inventory, you can use it to build immediatly, regardless of location. 
+
+-  Conveyors moving towards a block will be an input for the block (only if applicable). 
+
+<img src="https://i.imgur.com/6XgN8CG.png" width=50% height=50%>
+
+In this example, a Smelter is turning 2 Lead, 1 Copper, and 1 Coal into 1 Dense Alloy. The Smelter is smart enough to know that the belts moving towards the Smelter are inputs and the one conveyor moving away is the output. 
+
+A block that takes materials as inputs will not accept any materials that it cannot utilize.
+
+- Blocks that output can directly place into other block as an input .
+
+<img src="https://i.imgur.com/msDRUmX.png" width=50% height=50%>
+
+This last example is a Pneumatic Drill mining stone and using a Pulverizer to turn stone into sand. A pulverizer turns stone into sand by using power. Notice the drill does not use any conveyors; the stone directly goes into the pulverizer. 
 
 ## Mech Mining
 If you do not start near copper patches, it might be difficult to begin your game. Having copper income is the very first thing you need to setup, because all drills and conveyors use soley copper. 
@@ -66,11 +88,3 @@ Nothing to note
 
 
 
-
-// <img src="image link"/>
-// ![](image link)
-
-
-// HTML
-// <img src="image link"/>
-// style="width: __px"
