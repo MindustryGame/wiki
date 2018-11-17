@@ -1,15 +1,8 @@
-Here are the basics
+# Frequently Asked Questions
 
-## Building
-Power capacity is 3.4028235e+38  
-
-## Deconstructing
-Power capacity is 10000  
-Max nodes is 100  
-
-## Mining
-Nothing to note  
-
-## Conveyors
-Nothing to note  
-
+1. How to unlock everything?
+    You must play in Sectors (unlocks in multiplayer, waves, sandbox or freebuild do not carry over!)
+    Once a block is unlocked in sectors, it is unlocked accross all modes. 
+    To unlock something, you must own the amount of material to build it in your inventory. 
+    To unlock everything, you must have 650 Surge Alloy, 600 Plastanium, 200 Phase Fabric, 600 Thorium, 0 Biomatter, 0 Pyratite, 0 Blast Comound, and a handful of the remaining materials (Silicone, Dense Alloy, Copper, Titanium, Lead)
+2. 
