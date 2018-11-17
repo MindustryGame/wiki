@@ -19,7 +19,7 @@ Items are one of the integral parts of Mindustry. They can serve as fuel, ammo, 
 | **[TH]** Thorium        | NMB                    | 1.4  | 4        | 0.5           |              | 0.1           |           | #f9a3c7 |
 | **[DA]** Dense Alloy    | &nbsp;&nbsp;&nbsp; MBE | 1.2  |          |               |              |               |           | #b2c6d2 |
 | **[SI]** Silicon        | &nbsp;&nbsp;&nbsp; MBE | 0.9  |          |               |              |               |           | #53565c |
-| **[PL]** Plastanium     | &nbsp;&nbsp;&nbsp; MB  | 1.6  |          |               | 0.1          | 0.1           |           | #cdb97f |
+| **[PL]** Plastanium     | &nbsp;&nbsp;&nbsp; MB  | 1.6  |          |               | 0.1          | 0.1           |           | #cbd97f |
 | **[PF]** Phase Fabric   | &nbsp;&nbsp;&nbsp; MB  | 1.5  |          | 0.3           |              |               | 0.9       | #f4ba6e |
 | **[SU]** Surge Alloy    | &nbsp;&nbsp;&nbsp; MB  | 3    |          |               |              |               |           | #f3e979 |
 | **[BM]** Biomatter      | &nbsp;&nbsp;&nbsp; M   | 3    |          |               | 0.4          |               | 0.3       | #648b55 |
