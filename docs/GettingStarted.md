@@ -11,11 +11,11 @@ This is your typical, run-of-the-mill setup process.
 1. Visit the game's [itch.io page](https://anuke.itch.io/mindustry), then download a copy of the game from there. **The latest build is `alpha-59`, which we refer to as Build 59.**
 2. Once the `.zip` file is downloaded, unzip it. Usually that is just done by opening it like normal. When it's done, navigate to the folder it extracted into.
 3. 
-    1. **For Windows users**, simply open `desktop-release.exe`. Enjoy!
-    2. **For MacOS or Linux users**:
-        1. If you don't already have it installed, install the **Java Runtime Environment** or JRE. [Download it here.](https://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html) *Make sure you download the right executable for your system!*
-        2. Go through the installation process and follow the instructions. 
-        3. Run `desktop-release.jar`. Have fun!
+    1. **Windows**: simply open `desktop-release.exe`.
+    2. **MacOS**: run `Mindustry.app.`
+    3. **Linux**: run `Mindustry`. 
+
+If you have JRE already installed (which is recommended), you can also run `desktop-release.jar` on Windows and Linux.
 
 ### Android
 
