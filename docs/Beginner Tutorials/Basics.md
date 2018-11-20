@@ -72,9 +72,9 @@ While building, drones will stop assisting and quickly mine ores that are runnin
 
 ### Tips and Tricks
 - You can confirm a block, cancel the build (this will stop your mech from building, but the confirmed build will remain) and continue this one block a time to set up a large queue. This can be helpful when you want to get something started, but need to address something else first. Drones will not work on these queues, so this is only a placeholder.
-- Containers making contact with your Core will act like extra inventory for your Core. This not only gives more inventory space, but allows for more space to input raw materials, as well as output raw materials from your inventory (See Unloader).
+- Containers making contact with your Core will act like extra inventory for your Core. This not only gives more inventory space, but allows for more space to input raw materials, as well as output raw materials from your inventory (See Unloader) An Unloader will take materials out of both the Core or connected Containers because they now share the same inventory space.
 
-<img src="https://i.imgur.com/jZQnCcO.png" width=50% height=50%>
+<img src="https://i.imgur.com/jZQnCcO.png" >
 
 
 
