@@ -27,7 +27,7 @@ This particular section covers how to install Mindustry's **latest builds** on A
 
 ### iOS
 
-Unfortunately, **iOS only goes up to 3.5 build 40.** The latest builds are not available to download on said platform because of the cost of having it on the App Store. Again, we apologize for the inconvenience.
+The latest released builds are available on Apple TestFlight.
 
 ## For Contributors
 
