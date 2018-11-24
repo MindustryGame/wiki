@@ -9,3 +9,9 @@
 .wy-side-nav-search input[type=text] {
   border: none !important;
 }
+
+img#spr {
+  width: 1.2em;
+  margin-left: 5px;
+  margin-top: -3px;
+}
