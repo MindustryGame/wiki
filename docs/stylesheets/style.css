@@ -15,3 +15,9 @@ img#spr {
   margin-left: 5px;
   margin-top: -3px;
 }
+
+img#ind {
+  width: 1.1em;
+  margin-top: -3px;
+  position: inline;
+}
