@@ -19,7 +19,7 @@ If you have JRE already installed (which is recommended), you can also run `desk
 
 ### Android
 
-This particular section covers how to install Mindustry's **latest builds** on Android. You might be here because you don't know what sort of Mindustry everyone's talking about on the Discord, or heard of `build 59`. If so, please read on.
+This particular section covers how to install Mindustry's **latest builds** on Android. You might be here because you don't know what sort of Mindustry everyone's talking about on the Discord, or heard of `build 61`. If so, please read on.
 
 1. Open Google Play Store and visit Mindustry's entry.
 2. Scroll down a bit and notice the "Become a beta tester" section. Press "Join now" and confirm. Fully signing up will take a while, so be patient.
