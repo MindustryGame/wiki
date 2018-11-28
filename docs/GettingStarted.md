@@ -8,7 +8,7 @@ This is your typical, run-of-the-mill setup process.
 
 ### Desktop
 
-1. Visit the game's [itch.io page](https://anuke.itch.io/mindustry), then download a copy of the game from there. **The latest build is `alpha-59`, which we refer to as Build 59.**
+1. Visit the game's [itch.io page](https://anuke.itch.io/mindustry), then download a copy of the game from there. **The latest build is `alpha-61`, which we refer to as Build 61.**
 2. Once the `.zip` file is downloaded, unzip it. Usually that is just done by opening it like normal. When it's done, navigate to the folder it extracted into.
 3. 
     1. **Windows**: simply open `desktop-release.exe`.
