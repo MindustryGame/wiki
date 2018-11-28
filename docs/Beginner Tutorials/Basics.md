@@ -34,11 +34,19 @@ In this example, a Smelter is turning 2 Lead, 1 Copper, and 1 Coal into 1 Dense 
 
 A block that takes materials as inputs will not accept any materials that it cannot utilize.
 
+Here is a quick summary of inputs and outputs.
+
+<img src="https://i.imgur.com/8zHJdox.png" width=50% height=50%>
+
+Any conveyor facing towards the block will be considered an input. Any conveyor facing away or tanget to the block is considered an output. This doesn't make much sense for a drill, since drills cannot take any solid item inputs. But this will apply for other crafting blocks which will be covered later. 
+
 **3. Blocks that output can directly place into other blocks.**
 
 <img src="https://i.imgur.com/msDRUmX.png" width=50% height=50%>
 
 This last example is a Pneumatic Drill mining stone and using a Pulverizer to turn stone into sand. A pulverizer turns stone into sand by using power. Notice the drill does not use any conveyors; **the stone goes directly into the pulverizer**. 
+
+Please note that direct insertion is considered an output and will be the same output priority as a conveyor or other blocks. 
 
 ## Mech Mining
 If you do not start near copper patches, it might be difficult to begin your game. Having copper income is the very first thing you need to setup, because all drills and conveyors use copper. 
