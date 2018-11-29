@@ -30,7 +30,7 @@ Radioactivity is the potency of the material in nuclear-based blocks like the RT
 
 ### Flammability
 
-As its suggests, it is the measure of flammability of an item. It is also the speed at which it burns and the speed at which it spreads across blocks that are made of it. 
+As it suggests, it is the measure of flammability of an item. It is also the speed at which it burns and the speed at which it spreads across blocks that are made of it, and enemies which are hit by it as a projectile. 
 
 For example, Plastanium burns slower than coal, which burns much slower than Pyratite. Furthermore, when Pyratite is used as ammo, it will burn enemies faster and stronger than Blast Compound.
 
