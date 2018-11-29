@@ -32,7 +32,7 @@ For example, Plastanium<img src="../img/pl.png" id="spr"> burns slower than coal
 
 As it suggests, it is the measure of explosiveness of an item or liquid. That is most useful in an ammunition application, where the most explosive item (not liquid) will deal the largest damage over the largest area. Blast Compound<img src="../img/bc.png" id="spr"> is the most explosive item as its name, "Blast", suggests.
 
-Oil<img src="../img/oil.png" id="spr"> is the most and only explosive liquid. If shot from a Wave and set on fire using Pyratite, it will burn and explode enemies that are around it. The same thing goes for Liquid Tanks and the such that are filled with it.
+Oil<img src="../img/oil.png" id="spr"> is the most and only explosive liquid. If shot from a Wave and set on fire using Pyratite or Lava, it will burn and explode enemies that are around it. The same thing goes for Liquid Tanks and the such that are filled with it.
 
 **Tip:** Keep explosive material protected and separate from your Core or any exposed lines, unless it is needed. It is highly explosive and when triggered, will deal damage to surrounding blocks as well. Read the previous tip, too.
 
@@ -60,14 +60,14 @@ Viscosity determines the speed at which a liquid flows. A higher viscosity means
 
 The status effect of the liquid is passed on to an entity that is hit by it or is standing on it. 
 
-### Melting
+### Melting<img src="../img/lava.png" id="spr">
 
 Lava has the "melting" status effect, which means that enemies that are hit by it (from a Wave) or are standing on a puddle of it will start burning and melting. 
 
-### Tarred 
+### Tarred<img src="../img/oil.png" id="spr">
 
 With the "tarred" status effect, enemies will move slower and be more susceptible to fire.
 
-### Freezing
+### Freezing<img src="../img/cryo.png" id="spr">
 
 Enemies will move extremely slow as they freeze. This is useful for slowing down swift air enemies to make them easier to shoot. 
