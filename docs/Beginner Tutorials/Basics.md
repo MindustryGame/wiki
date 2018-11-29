@@ -34,11 +34,14 @@ In this example, a Smelter is turning 2 Lead, 1 Copper, and 1 Coal into 1 Dense 
 
 A block that takes materials as inputs will not accept any materials that it cannot utilize.
 
-Here is a quick summary of inputs and outputs.
+### Here is a quick summary of inputs and outputs.
 
-<img src="https://i.imgur.com/8zHJdox.png" width=50% height=50%>
+<img src="https://i.imgur.com/8zHJdox.png" width=40% height=40%>
 
-Any conveyor facing towards the block will be considered an input. Any conveyor facing away or tanget to the block is considered an output. This doesn't make much sense for a drill, since drills cannot take any solid item inputs. But this will apply for other crafting blocks which will be covered later. 
+<p> A <span style="color:green"> GREEN </span> arrow is an input. A <span style="color:red"> RED </span> arrow is a possible output. </p>
+
+
+Any conveyor facing towards the block will be considered an input. Any conveyor facing away or tanget to the block is considered an output. This doesn't make much sense for a drill, since drills cannot take any solid item inputs. But this will apply for other crafting blocks which will be covered later. (This concept also applies for liquids, also covered later)
 
 **3. Blocks that output can directly place into other blocks.**
 
