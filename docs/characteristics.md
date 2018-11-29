@@ -40,7 +40,7 @@ For example, Plastanium<img src="../img/pl.png" id="spr"> burns slower than coal
 
 As it suggest, it is the measure of explosiveness of an item. That is most useful in an ammunition application, where the most explosive item will deal the largest damage over the largest area. Blast Compound<img src="../img/bc.png" id="spr"> is the most explosive item as its name, "Blast", suggests.
 
-**Tip:** Keep explosive material protected and separate from your Core or any exposed lines, unless it is needed. It is highly explosive and when triggered, will deal amage to surrounding blocks as well. Read the previous tip, too.
+**Tip:** Keep explosive material protected and separate from your Core or any exposed lines, unless it is needed. It is highly explosive and when triggered, will deal damage to surrounding blocks as well. Read the previous tip, too.
 
 ### Fluxiness
 
@@ -48,4 +48,4 @@ Fluxiness is the measure of the ability of an item to be used as flux. Flux is e
 
 For example, a Smelter will accept Sand as a flux, and thus use less of its regular ingredients. The same goes for the Arc Smelter and Silicon Smelter.
 
-**Tip:** In many maps, Sand is an extremely abundant material, so a line saturated with Sand combined with a Vault or Container system 
+**Tip:** In many maps, Sand is an extremely abundant material, so a line saturated with Sand combined with a Vault or Container system that distributes it widely is good practice if you have tons of production.
