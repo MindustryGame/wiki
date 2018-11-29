@@ -62,7 +62,7 @@ If a mine (any ore square) is close enough to your core, the items will automati
 
 You can only hold one type of material at a time.
 
-To drop off the mined ore or current mech inventory, in mobile, tap and hold on a spot near your mech. On desktop, drag from your mech to the recipient. On mobile, a small icon (a circle with the ore icon) will appear. On desktop, the recipient block will display its outline. Drag this over the core to deposit it in your core inventory. Drag it into any **crafting block** to drop it off in the block. Drag it to an empty space to discard it. 
+To drop off the mined ore or current mech inventory, on mobile, tap and hold on a spot near your mech. On desktop, drag from your mech to the recipient. On mobile, a small icon (a circle with the ore icon) will appear. The recipient block will display its outline. Drag this over the core to deposit it in the core inventory. Drag it into any **crafting block** to drop it off in the block. Drag it to an empty space to discard it. 
 
 <img src="https://i.imgur.com/UPCjX8R.png" width=50% height=50%>
 
