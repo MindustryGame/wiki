@@ -47,3 +47,27 @@ For example, a Smelter will accept Sand, Phase Fabric, and Biomatter as flux, an
 ## Heat Capacity [Liquids]
 
 Heat capacity is the measure of the effectiveness of a liquid in absorbing and dissipating heat. The higher the Heat Cap., the faster it will cool things like the Thorium Reactor down. 
+
+## Temperature [Liquids]
+
+The temperature of a liquid.
+
+## Viscosity [Liquids]
+
+Viscosity determines the speed at which a liquid flows. A higher viscosity means it flows slower, while a lower one means it flows much faster.
+
+## Status Effect [Liquids]
+
+The status effect of the liquid is passed on to an entity that is hit by it or is standing on it. 
+
+### Melting
+
+Lava has the "melting" status effect, which means that enemies that are hit by it (from a Wave) or are standing on a puddle of it will start burning and melting. 
+
+### Tarred 
+
+With the "tarred" status effect, enemies will move slower and be more susceptible to fire.
+
+### Freezing
+
+Enemies will move extremely slow as they freeze. This is useful for slowing down swift air enemies to make them easier to shoot. 
