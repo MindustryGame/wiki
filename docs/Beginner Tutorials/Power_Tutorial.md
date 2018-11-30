@@ -1,93 +1,59 @@
-# Basics 
+This is a full tutorial on how to setup and utilize power. To properly understand proper ratios, please see the Analysis tab. 
 
-**The goal of the game is to not die! You die when your core reaches 0 health.** This is your core:
+## Intro
 
-<img src="https://i.imgur.com/HOiVEDe.png" width=20% height=20%>
+Many blocks later on in the game need power to run. To determine if a block needs power, click on the '?' icon when clicking on a block in the build screen. The block will need power if it says:
 
-Start by getting ore. Copper should be priority #1, for you only need copper to build the first drill tier and conveyors. 
+```
+Power
+    Power Capacity: *n* power units
+    Power use: *n* power units/second
+```
 
-1. Mine with your Mech (see [this](##Mech-Mining))
-2. Mine with a drill (you start with 0 copper, so you will need to get 45 copper to get your first drill + conveyors)
-3. Let your spirit drone mine Copper for you (see Spirit Drone on this page)
+You can also determine if a block needs power by hovering your mouse over it and checking the yellow icons on the left. If it has a lightning icon with a red mark, that means it requires power.
 
-Once you have a good Copper income, you can mine Lead. Lead can be mined with the tier 1 drill as well. 
+All of the blocks in the power build menu (in the build menu, the lightning bolt icon category) do not need power, but will either produce or distribute power. 
 
-After lead, Dense Alloy should be produced. Please see Advanced Concepts for the materials processing of Dense Alloy, Silicone, Titanium, Thorium, Plastanium, Phase Fabric, and Surge Alloy. 
+### Power Capacity
+Power capacity is how much power the block stores. If it is producing extra power, it will start to store this excess power in it's power capacity. This is shown with a **yellow bar** when clicking on the block. Both power production blocks and power consumtion blocks have power capacity. If excess power is being produced, first the production block will fill, and then the power generation block. (WHEN WILL BATTERY PRIORITIZE? need to check build60)  
 
-## Input / Output Basics
+- If the yellow bar is empty or very low, most or all of it's input power is being used.
+- If the block has a full yellow bar, it making more than enough power and will stop producing power. 
+- If the block has a perfect power input to power use ratio, the yellow bar will not fill. This is because there is no excess power. 
 
-Here are a few basics / tips to understanding block input/output behaviors. 
+### Power Use
+A block that uses power has both a power-use stat and a power capacity stat. The block will use all power that is needed to meet its power use requirements. If not enough power is supplied, a crossed off lightning icon will appear when clicking on the block, the yellow bar will be low, and the block will have drastically reduced production.
+The rate of reuced production is proportional to the amount of power needed. For example, a drill with only half the power will drill at a quarter of the speed! 
 
-**1. Conveyors moving away from a production block will be output.** 
+## Setting up Power
 
-<img src="https://i.imgur.com/D5Wwe3B.png" width=40%>
+The first thing to be aware of is **power generation blocks share power when they are touching**. This includes power nodes!
 
-This drill will mine and put ore on all conveyors that take the ore away from the drill. In this example, the drill will put Lead on all 7 conveyors, but not the eight one because that conveyor moves towards the drill. The drill will prioritize each path evenly. If a path is blocked, it is not considered as an output.
+<img src="https://i.imgur.com/cvhgmBZ.png" width=40%>
 
-Notice that a conveyor moving into the Core deposits the material into the core inventory. Once a material is in the Core inventory, you can use it to build immediately, regardless of location. 
+*Two small power nodes are touching each other while the third one is touching the Pulverizer, which is getting full power. Note that the touching nodes and node touching Pulverizer are not wired with a node connection, only proximitity touching.*
 
-**2. Conveyors moving towards a block will be an input for the block (only if applicable).** 
+<img src="https://i.imgur.com/bu5gtnn.gif" width=20% align="right">
 
-<img src="https://i.imgur.com/bNa2WF3.png" width=40%>
+Small Power Nodes, which are 1x1 in size, connect to a maximum of 4 things. Because power generation blocks touching act like one big power source, a node can connect to any block in the network. 
 
-In this example, a Smelter is turning 2 Lead<img src="../../img/le.png" id="spr">, 1 Copper<img src="../../img/cp.png" id="spr">, and 1 Coal<img src="../../img/co.png" id="spr"> into 1 Dense Alloy<img src="../../img/da.png" id="spr">. The Smelter is smart enough to know that the belts moving towards the Smelter are inputs and the one conveyor moving away is the output. 
+To connect something using a power node, click the node. The range of the node will show up. Then all available options for connection will appear as a red circle. Currently connected blocks will be a purple circle with a yellow wire connection. Once the node has used all of its available connections, all possible blocks will have a red circle with a red cross in it.
 
-A block that takes materials as inputs will not accept any materials that it cannot utilize.
+### Power recommendations:
 
-### Here is a quick summary of inputs and outputs.
+1. Coal must be burnt in a Combustion Generator in order to power Silicon Smelters.
+2. Once Silicon is made, Solar Panels should be built. Optional: Combustion Generators can be upgraded to Turbine Generators. They are much more efficent but require water. (POWER LOSS? see ratios. need to research)
+3. A Thorium Reactor should be made next. It gives 66 power/s with 30 Thorium and proper cooling. For proper cooling, please see Ratios page. 
+4. Large Solar Panels are very useful, and very easy to use. They require no work and give a good amount of power.
 
-<img src="https://i.imgur.com/8zHJdox.png" width=30%>
 
-<p> A <span style="color:green"> GREEN </span> arrow is an input. A <span style="color:red"> RED </span> arrow is a possible output. </p>
+## Power Blocks
+//not sure what to put here!
+
+## Tips and Tricks
+Tip 1
+- Power Grid (WIP)
 
 
-Any conveyor facing towards the block will be considered an input. Any conveyor facing away from the block is considered an output. This doesn't make much sense for a drill, since drills cannot take any solid item inputs. But this will apply for other crafting blocks which will be covered later. (This concept also applies for liquids, also covered later)
 
-**3. Blocks that output can directly place into other blocks.**
 
-<img src="https://i.imgur.com/I34YWec.png" width=50%>
-
-This last example is a Pneumatic Drill mining stone and using a Pulverizer to turn it into sand. A pulverizer turns stone into sand by using power. Notice the drill does not use any conveyors; **the stone goes directly into the pulverizer**. 
-
-Please note that touching blocks are considered outputs and will be the same output priority as a conveyor or other blocks. 
-
-## Mech Mining
-
-If you do not start near copper patches, it might be difficult to begin your game. Having copper income is the very first thing you need to set up, because all drills and conveyors use copper. 
-
-To mine, tap on a single ore square. The mech will start mining with a laser. You will see ore flying out of the patch. 
-
-<img src="https://i.imgur.com/qt2Zfi4.png" width=50%>
-
-If a mine (any ore square) is close enough to your core, the items will automatically fly right to the core. If a mine is not close enough, the mined ore will fly onto your mech. There is not a good way to determine how much ore your mech is carrying, but your mech will stop mining once it is full. You will also notice that your mech is much slower than before.
-
-**You can only hold one type of material at a time.**
-
-To drop off the mined ore or current mech inventory, on mobile, tap and hold on a spot near your mech. On desktop, drag from your mech to the recipient. A small icon (a circle with the ore icon) will appear. The recipient block will display its outline if it can accept the item. Drag this over the core to deposit it in the core inventory. Drag it into any block which accepts the item to drop it off in the block. Drag it to an empty space to discard it. 
-
-<img src="https://i.imgur.com/idmOzE8.png" width=50%>
-
-You can pick things off of a conveyor. Click on the conveyor. The conveyor contents will show up. Tap/click on the icon to pick it off the belt and add it to your mech's inventory. This is very useful when there is one item blocking the path due to a contamination or error. You can also take items out of any block that accepts or produces items.
-
-<img src="https://i.imgur.com/uNQQaWO.gif" width=50%>
-
-In the above example, the Smelter cannot produce Dense Alloy because it lacks Copper. Why? Because the conveyor has 1 Titanium, which the Smelter cannot accept, thus, it backs up the rest of the conveyor.
-
-## Spirit Drone
-
-<img src="https://i.imgur.com/QzrxKY4.png" align=right width=14%>
-
-A single spirit drone will spawn for you. This and other drones will mine, help build, and repair blocks. If the spirit drone originating from your core dies, a new one will spawn from the core shortly. 
-
-**You cannot control what drones do.** The drones' priorities go as follows:
-
-Mine Ores > Assist in building > Repair blocks
-
-While building, drones will stop assisting and quickly mine ores that are running out. 
-
-### Tips and Tricks
-
-- You can confirm a block, cancel the build (this will stop your mech from building, but the confirmed build will remain) and continue this one block a time to set up a large queue. This can be helpful when you want to get something started, but need to address something else first. Drones will not work on these queues, so this is only a placeholder.
-- Containers making contact with your Core will act like extra inventory for your Core. This not only gives more inventory space, but allows for more space to input raw materials, as well as output raw materials from your inventory (See Unloader) An Unloader will take materials out of both the Core or connected Containers because they now share the same inventory space.
-
-<img src="https://i.imgur.com/vcXy8EZ.png" width=40%>
