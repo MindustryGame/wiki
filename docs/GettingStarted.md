@@ -8,7 +8,7 @@ This is your typical, run-of-the-mill setup process.
 
 ### Desktop
 
-1. Visit the game's [itch.io page](https://anuke.itch.io/mindustry), then download a copy of the game from there. **The latest build is `alpha-62`, which we refer to as Build 62.**
+1. Visit the game's [itch.io page](https://anuke.itch.io/mindustry), then download a copy of the game from there. **The latest build is `alpha-63`, which we refer to as Build 63.**
 2. Once the `.zip` file is downloaded, unzip it. Usually that is just done by opening it like normal. When it's done, navigate to the folder it extracted into.
 3. 
     1. **Windows**: simply open `desktop-release.exe`.
@@ -19,7 +19,7 @@ If you have JRE already installed (which is recommended), you can also run `desk
 
 ### Android
 
-This particular section covers how to install Mindustry's **latest builds** on Android. You might be here because you don't know what sort of Mindustry everyone's talking about on the Discord, or heard of `build 62`. If so, please read on.
+This particular section covers how to install Mindustry's **latest builds** on Android. You might be here because you don't know what sort of Mindustry everyone's talking about on the Discord, or heard of `build 63`. If so, please read on.
 
 1. Open Google Play Store and visit Mindustry's entry.
 2. Scroll down a bit and notice the "Become a beta tester" section. Press "Join now" and confirm. Fully signing up will take a while, so be patient.
