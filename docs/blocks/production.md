@@ -1,6 +1,6 @@
 # Production Blocks
 
-Production Rate (PR) are max-per-sec values **which assume your TPS is 60**.
+Production Rate (PR) are max-per-sec values **which assume your FPS is 60**.
 
 <sup>!</sup> means the resource is required.
 
