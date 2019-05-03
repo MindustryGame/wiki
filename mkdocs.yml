@@ -1,5 +1,5 @@
 site_name: Mindustry Documentation
-site_url: https://mindustry-wiki.gitlab.io/wiki
+site_url: https://mindustrygame.github.io/wiki/
 theme: readthedocs
 extra_css:
   - 'stylesheets/style.css'
