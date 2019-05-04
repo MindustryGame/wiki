@@ -4,9 +4,6 @@ python: 3.6
 
 branches: master
 
-install: 
-  - pip install readthedocs
-
 before_deploy:
   - mkdocs build
 
