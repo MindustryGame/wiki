@@ -4,6 +4,8 @@ python: 3.6
 
 branches: master
 
+install: mkdocs-material
+
 before_deploy:
   - mkdocs build
 
