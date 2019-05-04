@@ -1,0 +1,19 @@
+image: python
+
+python: 3.6
+
+branches: master
+
+install: 
+  - pip install readthedocs
+
+before_deploy:
+  - mkdocs build
+
+deploy: 
+  provider: pages
+  skip_cleanup: true
+  github_token: $github_token
+  local_dir: site
+  on: 
+    branch: master
