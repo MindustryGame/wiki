@@ -6,7 +6,7 @@ branches: master
 
 install: pip install mkdocs
 
-before_deploy: mkdocs build --verbose --clean --strict
+script: mkdocs build --verbose --clean --strict 
 
 deploy: 
   provider: pages
