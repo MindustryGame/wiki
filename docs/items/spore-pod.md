@@ -16,11 +16,15 @@
 
 --- 
 
-##### Produced in: <br>[![Cultivator](../../../wiki/docs/images/cultivator-icon-small.png)](../../../wiki/docs/blocks/production/cultivator.md) 
+##### Produced in: <br>[![Cultivator](../images/cultivator-icon-small.png)](../blocks/production/cultivator.md) 
 
-##### Required for: <br>[![Blast Mixer](../../../wiki/docs/images/blast-mixer-icon-small.png)](../../../wiki/docs/blocks/crafting/blast-mixer.md) [![Spore Press](../../../wiki/docs/images/spore-press-icon-small.png)](../../../wiki/docs/blocks/crafting/spore-press.md) [![Combustion Generator](../../../wiki/docs/images/combustion-generator-icon-small.png)](../../../wiki/docs/blocks/power/combustion-generator.md) [![Turbine Generator](../../../wiki/docs/images/turbine-generator-icon-small.png)](../../../wiki/docs/blocks/power/turbine-generator.md) 
+##### Required for: <br>[![Blast Mixer](../images/blast-mixer-icon-small.png)](../blocks/crafting/blast-mixer.md) [![Spore Press](../images/spore-press-icon-small.png)](../blocks/crafting/spore-press.md) [![Combustion Generator](../images/combustion-generator-icon-small.png)](../blocks/power/combustion-generator.md) [![Turbine Generator](../images/turbine-generator-icon-small.png)](../blocks/power/turbine-generator.md) 
 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
+
+
 
 
 

@@ -17,11 +17,15 @@
 
 --- 
 
-##### Produced in: <br>[![Kiln](../../../wiki/docs/images/kiln-icon-small.png)](../../../wiki/docs/blocks/crafting/kiln.md) 
+##### Produced in: <br>[![Kiln](../images/kiln-icon-small.png)](../blocks/crafting/kiln.md) 
 
 
-##### Used to build: <br>[![Conduit](../../../wiki/docs/images/conduit-icon-small.png)](../../../wiki/docs/blocks/liquid/conduit.md) [![Pulse Conduit](../../../wiki/docs/images/pulse-conduit-icon-small.png)](../../../wiki/docs/blocks/liquid/pulse-conduit.md) [![Liquid Router](../../../wiki/docs/images/liquid-router-icon-small.png)](../../../wiki/docs/blocks/liquid/liquid-router.md) [![Liquid Tank](../../../wiki/docs/images/liquid-tank-icon-small.png)](../../../wiki/docs/blocks/liquid/liquid-tank.md) [![Liquid Junction](../../../wiki/docs/images/liquid-junction-icon-small.png)](../../../wiki/docs/blocks/liquid/liquid-junction.md) [![Bridge Conduit](../../../wiki/docs/images/bridge-conduit-icon-small.png)](../../../wiki/docs/blocks/liquid/bridge-conduit.md) [![Phase Conduit](../../../wiki/docs/images/phase-conduit-icon-small.png)](../../../wiki/docs/blocks/liquid/phase-conduit.md) [![Thermal Generator](../../../wiki/docs/images/thermal-generator-icon-small.png)](../../../wiki/docs/blocks/power/thermal-generator.md) [![Differential Generator](../../../wiki/docs/images/differential-generator-icon-small.png)](../../../wiki/docs/blocks/power/differential-generator.md) [![Thorium Reactor](../../../wiki/docs/images/thorium-reactor-icon-small.png)](../../../wiki/docs/blocks/power/thorium-reactor.md) [![Impact Reactor](../../../wiki/docs/images/impact-reactor-icon-small.png)](../../../wiki/docs/blocks/power/impact-reactor.md) [![Wave](../../../wiki/docs/images/wave-icon-small.png)](../../../wiki/docs/blocks/turret/wave.md) 
+##### Used to build: <br>[![Conduit](../images/conduit-icon-small.png)](../blocks/liquid/conduit.md) [![Pulse Conduit](../images/pulse-conduit-icon-small.png)](../blocks/liquid/pulse-conduit.md) [![Liquid Router](../images/liquid-router-icon-small.png)](../blocks/liquid/liquid-router.md) [![Liquid Tank](../images/liquid-tank-icon-small.png)](../blocks/liquid/liquid-tank.md) [![Liquid Junction](../images/liquid-junction-icon-small.png)](../blocks/liquid/liquid-junction.md) [![Bridge Conduit](../images/bridge-conduit-icon-small.png)](../blocks/liquid/bridge-conduit.md) [![Phase Conduit](../images/phase-conduit-icon-small.png)](../blocks/liquid/phase-conduit.md) [![Thermal Generator](../images/thermal-generator-icon-small.png)](../blocks/power/thermal-generator.md) [![Differential Generator](../images/differential-generator-icon-small.png)](../blocks/power/differential-generator.md) [![Thorium Reactor](../images/thorium-reactor-icon-small.png)](../blocks/power/thorium-reactor.md) [![Impact Reactor](../images/impact-reactor-icon-small.png)](../blocks/power/impact-reactor.md) [![Wave](../images/wave-icon-small.png)](../blocks/turret/wave.md) 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
+
+
 
 
 

@@ -16,11 +16,15 @@
 
 --- 
 
-##### Produced in: <br>[![Blast Mixer](../../../wiki/docs/images/blast-mixer-icon-small.png)](../../../wiki/docs/blocks/crafting/blast-mixer.md) 
+##### Produced in: <br>[![Blast Mixer](../images/blast-mixer-icon-small.png)](../blocks/crafting/blast-mixer.md) 
 
-##### Required for: <br>[![Combustion Generator](../../../wiki/docs/images/combustion-generator-icon-small.png)](../../../wiki/docs/blocks/power/combustion-generator.md) [![Turbine Generator](../../../wiki/docs/images/turbine-generator-icon-small.png)](../../../wiki/docs/blocks/power/turbine-generator.md) [![Impact Reactor](../../../wiki/docs/images/impact-reactor-icon-small.png)](../../../wiki/docs/blocks/power/impact-reactor.md) [![Crawler Mech Factory](../../../wiki/docs/images/crawler-factory-icon-small.png)](../../../wiki/docs/blocks/units/crawler-factory.md) 
+##### Required for: <br>[![Combustion Generator](../images/combustion-generator-icon-small.png)](../blocks/power/combustion-generator.md) [![Turbine Generator](../images/turbine-generator-icon-small.png)](../blocks/power/turbine-generator.md) [![Impact Reactor](../images/impact-reactor-icon-small.png)](../blocks/power/impact-reactor.md) [![Crawler Mech Factory](../images/crawler-factory-icon-small.png)](../blocks/units/crawler-factory.md) 
 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
+
+
 
 
 

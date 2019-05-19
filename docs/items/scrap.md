@@ -16,11 +16,15 @@
 
 --- 
 
-##### Produced in: <br>[![Mechanical Drill](../../../wiki/docs/images/mechanical-drill-icon-small.png)](../../../wiki/docs/blocks/production/mechanical-drill.md) [![Pneumatic Drill](../../../wiki/docs/images/pneumatic-drill-icon-small.png)](../../../wiki/docs/blocks/production/pneumatic-drill.md) [![Laser Drill](../../../wiki/docs/images/laser-drill-icon-small.png)](../../../wiki/docs/blocks/production/laser-drill.md) [![Airblast Drill](../../../wiki/docs/images/blast-drill-icon-small.png)](../../../wiki/docs/blocks/production/blast-drill.md) 
+##### Produced in: <br>[![Mechanical Drill](../images/mechanical-drill-icon-small.png)](../blocks/production/mechanical-drill.md) [![Pneumatic Drill](../images/pneumatic-drill-icon-small.png)](../blocks/production/pneumatic-drill.md) [![Laser Drill](../images/laser-drill-icon-small.png)](../blocks/production/laser-drill.md) [![Airblast Drill](../images/blast-drill-icon-small.png)](../blocks/production/blast-drill.md) 
 
-##### Required for: <br>[![Melter](../../../wiki/docs/images/melter-icon-small.png)](../../../wiki/docs/blocks/crafting/melter.md) [![Pulverizer](../../../wiki/docs/images/pulverizer-icon-small.png)](../../../wiki/docs/blocks/crafting/pulverizer.md) 
+##### Required for: <br>[![Melter](../images/melter-icon-small.png)](../blocks/crafting/melter.md) [![Pulverizer](../images/pulverizer-icon-small.png)](../blocks/crafting/pulverizer.md) 
 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
+
+
 
 
 
