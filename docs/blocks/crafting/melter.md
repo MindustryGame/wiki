@@ -1,6 +1,6 @@
 # Melter 
 ![Melter](../../images/melter-icon-large.png)   
-[![Copper](../../../../wiki/docs/images/item-copper-medium.png)](../../../../wiki/docs/items/copper.md)x60 [![Lead](../../../../wiki/docs/images/item-lead-medium.png)](../../../../wiki/docs/items/lead.md)x70 [![Graphite](../../../../wiki/docs/images/item-graphite-medium.png)](../../../../wiki/docs/items/graphite.md)x90 
+[![Copper](../../images/item-copper-medium.png)](../../items/copper.md)x60 [![Lead](../../images/item-lead-medium.png)](../../items/lead.md)x70 [![Graphite](../../images/item-graphite-medium.png)](../../items/graphite.md)x90 
 
 *"Melts down scrap into slag for further processing or usage in turrets."*
 
@@ -34,6 +34,7 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
 
 
 

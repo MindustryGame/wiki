@@ -1,6 +1,6 @@
 # Impact Reactor 
 ![Impact Reactor](../../images/impact-reactor-icon-large.png)   
-[![Lead](../../../../wiki/docs/images/item-lead-medium.png)](../../../../wiki/docs/items/lead.md)x1000 [![Metaglass](../../../../wiki/docs/images/item-metaglass-medium.png)](../../../../wiki/docs/items/metaglass.md)x500 [![Graphite](../../../../wiki/docs/images/item-graphite-medium.png)](../../../../wiki/docs/items/graphite.md)x800 [![Thorium](../../../../wiki/docs/images/item-thorium-medium.png)](../../../../wiki/docs/items/thorium.md)x200 [![Silicon](../../../../wiki/docs/images/item-silicon-medium.png)](../../../../wiki/docs/items/silicon.md)x600 [![Surge Alloy](../../../../wiki/docs/images/item-surge-alloy-medium.png)](../../../../wiki/docs/items/surge-alloy.md)x500 
+[![Lead](../../images/item-lead-medium.png)](../../items/lead.md)x1000 [![Metaglass](../../images/item-metaglass-medium.png)](../../items/metaglass.md)x500 [![Graphite](../../images/item-graphite-medium.png)](../../items/graphite.md)x800 [![Thorium](../../images/item-thorium-medium.png)](../../items/thorium.md)x200 [![Silicon](../../images/item-silicon-medium.png)](../../items/silicon.md)x600 [![Surge Alloy](../../images/item-surge-alloy-medium.png)](../../items/surge-alloy.md)x500 
 
 
 
@@ -33,6 +33,7 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
 
 
 

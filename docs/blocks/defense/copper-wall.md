@@ -1,6 +1,6 @@
 # Copper Wall 
 ![Copper Wall](../../images/copper-wall-icon-large.png)   
-[![Copper](../../../../wiki/docs/images/item-copper-medium.png)](../../../../wiki/docs/items/copper.md)x12 
+[![Copper](../../images/item-copper-medium.png)](../../items/copper.md)x12 
 
 *"A cheap defensive block.
 Useful for protecting the core and turrets in the first few waves."*
@@ -17,6 +17,7 @@ Useful for protecting the core and turrets in the first few waves."*
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
 
 
 

@@ -1,4 +1,5 @@
-# ![Slag](../images/liquid-slag.png) Slag 
+# Slag 
+![Slag](../images/liquid-slag.png)  
 
 | Property      | Value |
 | ----------- | ----------- |
@@ -11,10 +12,11 @@
 
 --- 
 
-##### Produced in: <br>[![Melter](../../../wiki/docs/images/melter-icon-small.png)](../../../wiki/docs/blocks/crafting/melter.md) 
+##### Produced in: <br>[![Melter](../images/melter-icon-small.png)](../blocks/crafting/melter.md) 
 
-##### Required for: <br>[![Separator](../../../wiki/docs/images/separator-icon-small.png)](../../../wiki/docs/blocks/crafting/separator.md) 
+##### Required for: <br>[![Separator](../images/separator-icon-small.png)](../blocks/crafting/separator.md) 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
 
 
 

@@ -1,6 +1,6 @@
 # Conduit 
 ![Conduit](../../images/conduit-icon-large.png)   
-[![Metaglass](../../../../wiki/docs/images/item-metaglass-medium.png)](../../../../wiki/docs/items/metaglass.md)x1 
+[![Metaglass](../../images/item-metaglass-medium.png)](../../items/metaglass.md)x1 
 
 *"Basic liquid transport block. Works like a conveyor, but with liquids. Best used with extractors, pumps or other conduits."*
 
@@ -20,6 +20,7 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
 
 
 

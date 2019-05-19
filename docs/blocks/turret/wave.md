@@ -1,6 +1,6 @@
 # Wave 
 ![Wave](../../images/wave-icon-large.png)   
-[![Lead](../../../../wiki/docs/images/item-lead-medium.png)](../../../../wiki/docs/items/lead.md)x150 [![Metaglass](../../../../wiki/docs/images/item-metaglass-medium.png)](../../../../wiki/docs/items/metaglass.md)x90 
+[![Lead](../../images/item-lead-medium.png)](../../items/lead.md)x150 [![Metaglass](../../images/item-metaglass-medium.png)](../../items/metaglass.md)x90 
 
 *"A medium-sized rapid-fire turret which shoots liquid bubbles."*
 
@@ -30,6 +30,7 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
 
 
 

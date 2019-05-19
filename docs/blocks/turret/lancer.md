@@ -1,6 +1,6 @@
 # Lancer 
 ![Lancer](../../images/lancer-icon-large.png)   
-[![Copper](../../../../wiki/docs/images/item-copper-medium.png)](../../../../wiki/docs/items/copper.md)x50 [![Lead](../../../../wiki/docs/images/item-lead-medium.png)](../../../../wiki/docs/items/lead.md)x100 [![Silicon](../../../../wiki/docs/images/item-silicon-medium.png)](../../../../wiki/docs/items/silicon.md)x90 
+[![Copper](../../images/item-copper-medium.png)](../../items/copper.md)x50 [![Lead](../../images/item-lead-medium.png)](../../items/lead.md)x100 [![Silicon](../../images/item-silicon-medium.png)](../../items/silicon.md)x90 
 
 *"A medium-sized turret which shoots charged electricity beams."*
 
@@ -38,6 +38,7 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
 
 
 

@@ -1,6 +1,6 @@
 # Bridge Conduit 
 ![Bridge Conduit](../../images/bridge-conduit-icon-large.png)   
-[![Metaglass](../../../../wiki/docs/images/item-metaglass-medium.png)](../../../../wiki/docs/items/metaglass.md)x8 [![Titanium](../../../../wiki/docs/images/item-titanium-medium.png)](../../../../wiki/docs/items/titanium.md)x8 
+[![Metaglass](../../images/item-metaglass-medium.png)](../../items/metaglass.md)x8 [![Titanium](../../images/item-titanium-medium.png)](../../items/titanium.md)x8 
 
 *"Advanced liquid transport block. Allows transporting liquids over up to 3 tiles of any terrain or building."*
 
@@ -20,6 +20,7 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
 
 
 

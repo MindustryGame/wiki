@@ -1,6 +1,6 @@
 # Swarmer 
 ![Swarmer](../../images/swarmer-icon-large.png)   
-[![Graphite](../../../../wiki/docs/images/item-graphite-medium.png)](../../../../wiki/docs/items/graphite.md)x70 [![Titanium](../../../../wiki/docs/images/item-titanium-medium.png)](../../../../wiki/docs/items/titanium.md)x70 [![Silicon](../../../../wiki/docs/images/item-silicon-medium.png)](../../../../wiki/docs/items/silicon.md)x60 [![Plastanium](../../../../wiki/docs/images/item-plastanium-medium.png)](../../../../wiki/docs/items/plastanium.md)x90 
+[![Graphite](../../images/item-graphite-medium.png)](../../items/graphite.md)x70 [![Titanium](../../images/item-titanium-medium.png)](../../items/titanium.md)x70 [![Silicon](../../images/item-silicon-medium.png)](../../items/silicon.md)x60 [![Plastanium](../../images/item-plastanium-medium.png)](../../items/plastanium.md)x90 
 
 *"A medium-sized turret which shoots burst missiles."*
 
@@ -35,6 +35,7 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
 
 
 

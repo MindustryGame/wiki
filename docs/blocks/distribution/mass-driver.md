@@ -1,6 +1,6 @@
 # Mass Driver 
 ![Mass Driver](../../images/mass-driver-icon-large.png)   
-[![Lead](../../../../wiki/docs/images/item-lead-medium.png)](../../../../wiki/docs/items/lead.md)x250 [![Titanium](../../../../wiki/docs/images/item-titanium-medium.png)](../../../../wiki/docs/items/titanium.md)x250 [![Thorium](../../../../wiki/docs/images/item-thorium-medium.png)](../../../../wiki/docs/items/thorium.md)x100 [![Silicon](../../../../wiki/docs/images/item-silicon-medium.png)](../../../../wiki/docs/items/silicon.md)x150 
+[![Lead](../../images/item-lead-medium.png)](../../items/lead.md)x250 [![Titanium](../../images/item-titanium-medium.png)](../../items/titanium.md)x250 [![Thorium](../../images/item-thorium-medium.png)](../../items/thorium.md)x100 [![Silicon](../../images/item-silicon-medium.png)](../../items/silicon.md)x150 
 
 *"Ultimate item transport block. Collects several items and then shoots them to another mass driver over a long range."*
 
@@ -24,6 +24,7 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
 
 
 

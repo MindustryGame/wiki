@@ -1,4 +1,5 @@
-# ![Cryofluid](../images/liquid-cryofluid.png) Cryofluid 
+# Cryofluid 
+![Cryofluid](../images/liquid-cryofluid.png)  
 
 | Property      | Value |
 | ----------- | ----------- |
@@ -11,10 +12,11 @@
 
 --- 
 
-##### Produced in: <br>[![Cryofluid Mixer](../../../wiki/docs/images/cryofluidmixer-icon-small.png)](../../../wiki/docs/blocks/crafting/cryofluidmixer.md) 
+##### Produced in: <br>[![Cryofluid Mixer](../images/cryofluidmixer-icon-small.png)](../blocks/crafting/cryofluidmixer.md) 
 
-##### Required for: <br>[![Force Projector](../../../wiki/docs/images/force-projector-icon-small.png)](../../../wiki/docs/blocks/effect/force-projector.md) [![Differential Generator](../../../wiki/docs/images/differential-generator-icon-small.png)](../../../wiki/docs/blocks/power/differential-generator.md) [![Thorium Reactor](../../../wiki/docs/images/thorium-reactor-icon-small.png)](../../../wiki/docs/blocks/power/thorium-reactor.md) [![Impact Reactor](../../../wiki/docs/images/impact-reactor-icon-small.png)](../../../wiki/docs/blocks/power/impact-reactor.md) [![Duo](../../../wiki/docs/images/duo-icon-small.png)](../../../wiki/docs/blocks/turret/duo.md) [![Scatter](../../../wiki/docs/images/scatter-icon-small.png)](../../../wiki/docs/blocks/turret/scatter.md) [![Scorch](../../../wiki/docs/images/scorch-icon-small.png)](../../../wiki/docs/blocks/turret/scorch.md) [![Hail](../../../wiki/docs/images/hail-icon-small.png)](../../../wiki/docs/blocks/turret/hail.md) [![Lancer](../../../wiki/docs/images/lancer-icon-small.png)](../../../wiki/docs/blocks/turret/lancer.md) [![Arc](../../../wiki/docs/images/arc-icon-small.png)](../../../wiki/docs/blocks/turret/arc.md) [![Swarmer](../../../wiki/docs/images/swarmer-icon-small.png)](../../../wiki/docs/blocks/turret/swarmer.md) [![Salvo](../../../wiki/docs/images/salvo-icon-small.png)](../../../wiki/docs/blocks/turret/salvo.md) [![Ripple](../../../wiki/docs/images/ripple-icon-small.png)](../../../wiki/docs/blocks/turret/ripple.md) [![Cyclone](../../../wiki/docs/images/cyclone-icon-small.png)](../../../wiki/docs/blocks/turret/cyclone.md) [![Fuse](../../../wiki/docs/images/fuse-icon-small.png)](../../../wiki/docs/blocks/turret/fuse.md) [![Spectre](../../../wiki/docs/images/spectre-icon-small.png)](../../../wiki/docs/blocks/turret/spectre.md) [![Meltdown](../../../wiki/docs/images/meltdown-icon-small.png)](../../../wiki/docs/blocks/turret/meltdown.md) 
+##### Required for: <br>[![Force Projector](../images/force-projector-icon-small.png)](../blocks/effect/force-projector.md) [![Differential Generator](../images/differential-generator-icon-small.png)](../blocks/power/differential-generator.md) [![Thorium Reactor](../images/thorium-reactor-icon-small.png)](../blocks/power/thorium-reactor.md) [![Impact Reactor](../images/impact-reactor-icon-small.png)](../blocks/power/impact-reactor.md) [![Duo](../images/duo-icon-small.png)](../blocks/turret/duo.md) [![Scatter](../images/scatter-icon-small.png)](../blocks/turret/scatter.md) [![Scorch](../images/scorch-icon-small.png)](../blocks/turret/scorch.md) [![Hail](../images/hail-icon-small.png)](../blocks/turret/hail.md) [![Lancer](../images/lancer-icon-small.png)](../blocks/turret/lancer.md) [![Arc](../images/arc-icon-small.png)](../blocks/turret/arc.md) [![Swarmer](../images/swarmer-icon-small.png)](../blocks/turret/swarmer.md) [![Salvo](../images/salvo-icon-small.png)](../blocks/turret/salvo.md) [![Ripple](../images/ripple-icon-small.png)](../blocks/turret/ripple.md) [![Cyclone](../images/cyclone-icon-small.png)](../blocks/turret/cyclone.md) [![Fuse](../images/fuse-icon-small.png)](../blocks/turret/fuse.md) [![Spectre](../images/spectre-icon-small.png)](../blocks/turret/spectre.md) [![Meltdown](../images/meltdown-icon-small.png)](../blocks/turret/meltdown.md) 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
 
 
 

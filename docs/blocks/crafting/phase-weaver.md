@@ -1,6 +1,6 @@
 # Phase Weaver 
 ![Phase Weaver](../../images/phase-weaver-icon-large.png)   
-[![Lead](../../../../wiki/docs/images/item-lead-medium.png)](../../../../wiki/docs/items/lead.md)x240 [![Thorium](../../../../wiki/docs/images/item-thorium-medium.png)](../../../../wiki/docs/items/thorium.md)x150 [![Silicon](../../../../wiki/docs/images/item-silicon-medium.png)](../../../../wiki/docs/items/silicon.md)x260 
+[![Lead](../../images/item-lead-medium.png)](../../items/lead.md)x240 [![Thorium](../../images/item-thorium-medium.png)](../../items/thorium.md)x150 [![Silicon](../../images/item-silicon-medium.png)](../../items/silicon.md)x260 
 
 *"Produces phase fabric from radioactive thorium and high amounts of sand."*
 
@@ -30,6 +30,7 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
 
 
 

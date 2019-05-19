@@ -1,6 +1,6 @@
 # Cyclone 
 ![Cyclone](../../images/cyclone-icon-large.png)   
-[![Copper](../../../../wiki/docs/images/item-copper-medium.png)](../../../../wiki/docs/items/copper.md)x400 [![Titanium](../../../../wiki/docs/images/item-titanium-medium.png)](../../../../wiki/docs/items/titanium.md)x250 [![Plastanium](../../../../wiki/docs/images/item-plastanium-medium.png)](../../../../wiki/docs/items/plastanium.md)x160 
+[![Copper](../../images/item-copper-medium.png)](../../items/copper.md)x400 [![Titanium](../../images/item-titanium-medium.png)](../../items/titanium.md)x250 [![Plastanium](../../images/item-plastanium-medium.png)](../../items/plastanium.md)x160 
 
 *"A large rapid fire turret."*
 
@@ -35,6 +35,7 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
 
 
 

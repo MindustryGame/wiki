@@ -1,4 +1,5 @@
-# ![Oil](../images/liquid-oil.png) Oil 
+# Oil 
+![Oil](../images/liquid-oil.png)  
 
 | Property      | Value |
 | ----------- | ----------- |
@@ -11,10 +12,11 @@
 
 --- 
 
-##### Produced in: <br>[![Spore Press](../../../wiki/docs/images/spore-press-icon-small.png)](../../../wiki/docs/blocks/crafting/spore-press.md) [![Mechanical Pump](../../../wiki/docs/images/mechanical-pump-icon-small.png)](../../../wiki/docs/blocks/liquid/mechanical-pump.md) [![Rotary Pump](../../../wiki/docs/images/rotary-pump-icon-small.png)](../../../wiki/docs/blocks/liquid/rotary-pump.md) [![Thermal Pump](../../../wiki/docs/images/thermal-pump-icon-small.png)](../../../wiki/docs/blocks/liquid/thermal-pump.md) [![Water Extractor](../../../wiki/docs/images/water-extractor-icon-small.png)](../../../wiki/docs/blocks/production/water-extractor.md) [![Oil Extractor](../../../wiki/docs/images/oil-extractor-icon-small.png)](../../../wiki/docs/blocks/production/oil-extractor.md) 
+##### Produced in: <br>[![Spore Press](../images/spore-press-icon-small.png)](../blocks/crafting/spore-press.md) [![Mechanical Pump](../images/mechanical-pump-icon-small.png)](../blocks/liquid/mechanical-pump.md) [![Rotary Pump](../images/rotary-pump-icon-small.png)](../blocks/liquid/rotary-pump.md) [![Thermal Pump](../images/thermal-pump-icon-small.png)](../blocks/liquid/thermal-pump.md) [![Water Extractor](../images/water-extractor-icon-small.png)](../blocks/production/water-extractor.md) [![Oil Extractor](../images/oil-extractor-icon-small.png)](../blocks/production/oil-extractor.md) 
 
-##### Required for: <br>[![Plastanium Compressor](../../../wiki/docs/images/plastanium-compressor-icon-small.png)](../../../wiki/docs/blocks/crafting/plastanium-compressor.md) [![Coal Centrifuge](../../../wiki/docs/images/coal-centrifuge-icon-small.png)](../../../wiki/docs/blocks/crafting/coal-centrifuge.md) 
+##### Required for: <br>[![Plastanium Compressor](../images/plastanium-compressor-icon-small.png)](../blocks/crafting/plastanium-compressor.md) [![Coal Centrifuge](../images/coal-centrifuge-icon-small.png)](../blocks/crafting/coal-centrifuge.md) 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
 
 
 

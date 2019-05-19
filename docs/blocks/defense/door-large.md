@@ -1,6 +1,6 @@
 # Large Door 
 ![Large Door](../../images/door-large-icon-large.png)   
-[![Titanium](../../../../wiki/docs/images/item-titanium-medium.png)](../../../../wiki/docs/items/titanium.md)x48 [![Silicon](../../../../wiki/docs/images/item-silicon-medium.png)](../../../../wiki/docs/items/silicon.md)x32 
+[![Titanium](../../images/item-titanium-medium.png)](../../items/titanium.md)x48 [![Silicon](../../images/item-silicon-medium.png)](../../items/silicon.md)x32 
 
 *"A large door that can be opened and closed by tapping on it.
 If opened, enemies can shoot and move through.
@@ -18,6 +18,7 @@ Spans multiple tiles."*
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
 
 
 

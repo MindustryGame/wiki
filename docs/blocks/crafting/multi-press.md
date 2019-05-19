@@ -1,6 +1,6 @@
 # Multi-Press 
 ![Multi-Press](../../images/multi-press-icon-large.png)   
-[![Lead](../../../../wiki/docs/images/item-lead-medium.png)](../../../../wiki/docs/items/lead.md)x200 [![Graphite](../../../../wiki/docs/images/item-graphite-medium.png)](../../../../wiki/docs/items/graphite.md)x100 [![Titanium](../../../../wiki/docs/images/item-titanium-medium.png)](../../../../wiki/docs/items/titanium.md)x200 [![Silicon](../../../../wiki/docs/images/item-silicon-medium.png)](../../../../wiki/docs/items/silicon.md)x50 
+[![Lead](../../images/item-lead-medium.png)](../../items/lead.md)x200 [![Graphite](../../images/item-graphite-medium.png)](../../items/graphite.md)x100 [![Titanium](../../images/item-titanium-medium.png)](../../items/titanium.md)x200 [![Silicon](../../images/item-silicon-medium.png)](../../items/silicon.md)x50 
 
 
 
@@ -33,6 +33,7 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
 
 
 

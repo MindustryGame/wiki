@@ -1,6 +1,6 @@
 # Thorium Wall 
 ![Thorium Wall](../../images/thorium-wall-icon-large.png)   
-[![Thorium](../../../../wiki/docs/images/item-thorium-medium.png)](../../../../wiki/docs/items/thorium.md)x12 
+[![Thorium](../../images/item-thorium-medium.png)](../../items/thorium.md)x12 
 
 *"A strong defensive block.
 Good protection from enemies."*
@@ -17,6 +17,7 @@ Good protection from enemies."*
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
 
 
 

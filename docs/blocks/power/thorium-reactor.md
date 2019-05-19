@@ -1,6 +1,6 @@
 # Thorium Reactor 
 ![Thorium Reactor](../../images/thorium-reactor-icon-large.png)   
-[![Lead](../../../../wiki/docs/images/item-lead-medium.png)](../../../../wiki/docs/items/lead.md)x600 [![Metaglass](../../../../wiki/docs/images/item-metaglass-medium.png)](../../../../wiki/docs/items/metaglass.md)x100 [![Graphite](../../../../wiki/docs/images/item-graphite-medium.png)](../../../../wiki/docs/items/graphite.md)x300 [![Thorium](../../../../wiki/docs/images/item-thorium-medium.png)](../../../../wiki/docs/items/thorium.md)x300 [![Silicon](../../../../wiki/docs/images/item-silicon-medium.png)](../../../../wiki/docs/items/silicon.md)x400 
+[![Lead](../../images/item-lead-medium.png)](../../items/lead.md)x600 [![Metaglass](../../images/item-metaglass-medium.png)](../../items/metaglass.md)x100 [![Graphite](../../images/item-graphite-medium.png)](../../items/graphite.md)x300 [![Thorium](../../images/item-thorium-medium.png)](../../items/thorium.md)x300 [![Silicon](../../images/item-silicon-medium.png)](../../items/silicon.md)x400 
 
 *"Generates huge amounts of power from highly radioactive thorium. Requires constant cooling. Will explode violently if insufficient amounts of coolant are supplied. Power output depends on fullness, with base power generated at full capacity."*
 
@@ -33,6 +33,7 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
 
 
 

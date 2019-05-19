@@ -1,6 +1,6 @@
 # Pulverizer 
 ![Pulverizer](../../images/pulverizer-icon-large.png)   
-[![Copper](../../../../wiki/docs/images/item-copper-medium.png)](../../../../wiki/docs/items/copper.md)x60 [![Lead](../../../../wiki/docs/images/item-lead-medium.png)](../../../../wiki/docs/items/lead.md)x50 
+[![Copper](../../images/item-copper-medium.png)](../../items/copper.md)x60 [![Lead](../../images/item-lead-medium.png)](../../items/lead.md)x50 
 
 *"Crushes scrap into sand. Useful when there is a lack of natural sand."*
 
@@ -30,6 +30,7 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
 
 
 
