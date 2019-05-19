@@ -1,5 +1,4 @@
-# Airblast Drill 
-![Airblast Drill](../../images/blast-drill-icon-large.png)   
+# Airblast Drill ![Airblast Drill](../../images/blast-drill-icon-large.png)   
 [![Copper](../../images/item-copper-medium.png)](../../items/copper.md)x130 [![Titanium](../../images/item-titanium-medium.png)](../../items/titanium.md)x100 [![Thorium](../../images/item-thorium-medium.png)](../../items/thorium.md)x100 [![Silicon](../../images/item-silicon-medium.png)](../../items/silicon.md)x120 
 
 *"The ultimate drill. Requires large amounts of power."*
