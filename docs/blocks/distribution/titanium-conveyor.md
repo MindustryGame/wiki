@@ -1,5 +1,6 @@
-# ![Titanium Conveyor](../../images/titanium-conveyor-icon-large.png) Titanium Conveyor 
-##### [![Copper](../../images/item-copper-medium.png)](../../items/copper.md)x2 [![Lead](../../images/item-lead-medium.png)](../../items/lead.md)x1 [![Titanium](../../images/item-titanium-medium.png)](../../items/titanium.md)x1 
+# Titanium Conveyor 
+![Titanium Conveyor](../../images/titanium-conveyor-icon-large.png)   
+[![Copper](../../../../wiki/docs/images/item-copper-medium.png)](../../../../wiki/docs/items/copper.md)x2 [![Lead](../../../../wiki/docs/images/item-lead-medium.png)](../../../../wiki/docs/items/lead.md)x1 [![Titanium](../../../../wiki/docs/images/item-titanium-medium.png)](../../../../wiki/docs/items/titanium.md)x1 
 
 *"Advanced item transport block. Moves items faster than standard conveyors."*
 
@@ -20,3 +21,7 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
+
+

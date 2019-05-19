@@ -1,5 +1,6 @@
-# ![Vault](../../images/vault-icon-large.png) Vault 
-##### [![Titanium](../../images/item-titanium-medium.png)](../../items/titanium.md)x500 [![Thorium](../../images/item-thorium-medium.png)](../../items/thorium.md)x250 
+# Vault 
+![Vault](../../images/vault-icon-large.png)   
+[![Titanium](../../../../wiki/docs/images/item-titanium-medium.png)](../../../../wiki/docs/items/titanium.md)x500 [![Thorium](../../../../wiki/docs/images/item-thorium-medium.png)](../../../../wiki/docs/items/thorium.md)x250 
 
 *"Stores a large amount of items of each type. An[LIGHT_GRAY] unloader[] can be used to retrieve items from the vault."*
 
@@ -19,3 +20,7 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
+
+

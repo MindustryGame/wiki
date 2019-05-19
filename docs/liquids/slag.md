@@ -11,7 +11,11 @@
 
 --- 
 
-##### Produced in: <br>[![Melter](../../../Mindustry-Wiki-Generator/output/images/melter-icon-small.png)](../../../Mindustry-Wiki-Generator/output/blocks/crafting/melter.md) 
+##### Produced in: <br>[![Melter](../../../wiki/docs/images/melter-icon-small.png)](../../../wiki/docs/blocks/crafting/melter.md) 
 
-##### Required for: <br>[![Separator](../../../Mindustry-Wiki-Generator/output/images/separator-icon-small.png)](../../../Mindustry-Wiki-Generator/output/blocks/crafting/separator.md) 
+##### Required for: <br>[![Separator](../../../wiki/docs/images/separator-icon-small.png)](../../../wiki/docs/blocks/crafting/separator.md) 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
+
+

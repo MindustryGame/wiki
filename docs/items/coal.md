@@ -1,4 +1,5 @@
-# ![Coal](../images/item-coal.png) Coal 
+# Coal 
+![Coal](../images/item-coal.png)  
 
 | Property      | Value |
 | ----------- | ----------- |
@@ -15,8 +16,12 @@
 
 --- 
 
-##### Produced in: <br>[![Coal Centrifuge](../../../Mindustry-Wiki-Generator/output/images/coal-centrifuge-icon-small.png)](../../../Mindustry-Wiki-Generator/output/blocks/crafting/coal-centrifuge.md) [![Mechanical Drill](../../../Mindustry-Wiki-Generator/output/images/mechanical-drill-icon-small.png)](../../../Mindustry-Wiki-Generator/output/blocks/production/mechanical-drill.md) [![Pneumatic Drill](../../../Mindustry-Wiki-Generator/output/images/pneumatic-drill-icon-small.png)](../../../Mindustry-Wiki-Generator/output/blocks/production/pneumatic-drill.md) [![Laser Drill](../../../Mindustry-Wiki-Generator/output/images/laser-drill-icon-small.png)](../../../Mindustry-Wiki-Generator/output/blocks/production/laser-drill.md) [![Airblast Drill](../../../Mindustry-Wiki-Generator/output/images/blast-drill-icon-small.png)](../../../Mindustry-Wiki-Generator/output/blocks/production/blast-drill.md) 
+##### Produced in: <br>[![Coal Centrifuge](../../../wiki/docs/images/coal-centrifuge-icon-small.png)](../../../wiki/docs/blocks/crafting/coal-centrifuge.md) [![Mechanical Drill](../../../wiki/docs/images/mechanical-drill-icon-small.png)](../../../wiki/docs/blocks/production/mechanical-drill.md) [![Pneumatic Drill](../../../wiki/docs/images/pneumatic-drill-icon-small.png)](../../../wiki/docs/blocks/production/pneumatic-drill.md) [![Laser Drill](../../../wiki/docs/images/laser-drill-icon-small.png)](../../../wiki/docs/blocks/production/laser-drill.md) [![Airblast Drill](../../../wiki/docs/images/blast-drill-icon-small.png)](../../../wiki/docs/blocks/production/blast-drill.md) 
 
-##### Required for: <br>[![Graphite Press](../../../Mindustry-Wiki-Generator/output/images/graphite-press-icon-small.png)](../../../Mindustry-Wiki-Generator/output/blocks/crafting/graphite-press.md) [![Multi-Press](../../../Mindustry-Wiki-Generator/output/images/multi-press-icon-small.png)](../../../Mindustry-Wiki-Generator/output/blocks/crafting/multi-press.md) [![Silicon Smelter](../../../Mindustry-Wiki-Generator/output/images/silicon-smelter-icon-small.png)](../../../Mindustry-Wiki-Generator/output/blocks/crafting/silicon-smelter.md) [![Pyratite Mixer](../../../Mindustry-Wiki-Generator/output/images/pyratite-mixer-icon-small.png)](../../../Mindustry-Wiki-Generator/output/blocks/crafting/pyratite-mixer.md) [![Combustion Generator](../../../Mindustry-Wiki-Generator/output/images/combustion-generator-icon-small.png)](../../../Mindustry-Wiki-Generator/output/blocks/power/combustion-generator.md) [![Turbine Generator](../../../Mindustry-Wiki-Generator/output/images/turbine-generator-icon-small.png)](../../../Mindustry-Wiki-Generator/output/blocks/power/turbine-generator.md) 
+##### Required for: <br>[![Graphite Press](../../../wiki/docs/images/graphite-press-icon-small.png)](../../../wiki/docs/blocks/crafting/graphite-press.md) [![Multi-Press](../../../wiki/docs/images/multi-press-icon-small.png)](../../../wiki/docs/blocks/crafting/multi-press.md) [![Silicon Smelter](../../../wiki/docs/images/silicon-smelter-icon-small.png)](../../../wiki/docs/blocks/crafting/silicon-smelter.md) [![Pyratite Mixer](../../../wiki/docs/images/pyratite-mixer-icon-small.png)](../../../wiki/docs/blocks/crafting/pyratite-mixer.md) [![Combustion Generator](../../../wiki/docs/images/combustion-generator-icon-small.png)](../../../wiki/docs/blocks/power/combustion-generator.md) [![Turbine Generator](../../../wiki/docs/images/turbine-generator-icon-small.png)](../../../wiki/docs/blocks/power/turbine-generator.md) 
 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
+
+

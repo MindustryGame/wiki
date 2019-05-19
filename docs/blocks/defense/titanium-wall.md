@@ -1,5 +1,6 @@
-# ![Titanium Wall](../../images/titanium-wall-icon-large.png) Titanium Wall 
-##### [![Titanium](../../images/item-titanium-medium.png)](../../items/titanium.md)x12 
+# Titanium Wall 
+![Titanium Wall](../../images/titanium-wall-icon-large.png)   
+[![Titanium](../../../../wiki/docs/images/item-titanium-medium.png)](../../../../wiki/docs/items/titanium.md)x12 
 
 
 
@@ -14,3 +15,7 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
+
+

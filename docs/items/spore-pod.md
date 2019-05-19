@@ -1,4 +1,5 @@
-# ![Spore Pod](../images/item-spore-pod.png) Spore Pod 
+# Spore Pod 
+![Spore Pod](../images/item-spore-pod.png)  
 
 | Property      | Value |
 | ----------- | ----------- |
@@ -15,8 +16,12 @@
 
 --- 
 
-##### Produced in: <br>[![Cultivator](../../../Mindustry-Wiki-Generator/output/images/cultivator-icon-small.png)](../../../Mindustry-Wiki-Generator/output/blocks/production/cultivator.md) 
+##### Produced in: <br>[![Cultivator](../../../wiki/docs/images/cultivator-icon-small.png)](../../../wiki/docs/blocks/production/cultivator.md) 
 
-##### Required for: <br>[![Blast Mixer](../../../Mindustry-Wiki-Generator/output/images/blast-mixer-icon-small.png)](../../../Mindustry-Wiki-Generator/output/blocks/crafting/blast-mixer.md) [![Spore Press](../../../Mindustry-Wiki-Generator/output/images/spore-press-icon-small.png)](../../../Mindustry-Wiki-Generator/output/blocks/crafting/spore-press.md) [![Combustion Generator](../../../Mindustry-Wiki-Generator/output/images/combustion-generator-icon-small.png)](../../../Mindustry-Wiki-Generator/output/blocks/power/combustion-generator.md) [![Turbine Generator](../../../Mindustry-Wiki-Generator/output/images/turbine-generator-icon-small.png)](../../../Mindustry-Wiki-Generator/output/blocks/power/turbine-generator.md) 
+##### Required for: <br>[![Blast Mixer](../../../wiki/docs/images/blast-mixer-icon-small.png)](../../../wiki/docs/blocks/crafting/blast-mixer.md) [![Spore Press](../../../wiki/docs/images/spore-press-icon-small.png)](../../../wiki/docs/blocks/crafting/spore-press.md) [![Combustion Generator](../../../wiki/docs/images/combustion-generator-icon-small.png)](../../../wiki/docs/blocks/power/combustion-generator.md) [![Turbine Generator](../../../wiki/docs/images/turbine-generator-icon-small.png)](../../../wiki/docs/blocks/power/turbine-generator.md) 
 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
+
+

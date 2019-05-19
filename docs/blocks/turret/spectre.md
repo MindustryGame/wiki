@@ -1,5 +1,6 @@
-# ![Spectre](../../images/spectre-icon-large.png) Spectre 
-##### [![Copper](../../images/item-copper-medium.png)](../../items/copper.md)x700 [![Graphite](../../images/item-graphite-medium.png)](../../items/graphite.md)x600 [![Thorium](../../images/item-thorium-medium.png)](../../items/thorium.md)x500 [![Plastanium](../../images/item-plastanium-medium.png)](../../items/plastanium.md)x350 [![Surge Alloy](../../images/item-surge-alloy-medium.png)](../../items/surge-alloy.md)x500 
+# Spectre 
+![Spectre](../../images/spectre-icon-large.png)   
+[![Copper](../../../../wiki/docs/images/item-copper-medium.png)](../../../../wiki/docs/items/copper.md)x700 [![Graphite](../../../../wiki/docs/images/item-graphite-medium.png)](../../../../wiki/docs/items/graphite.md)x600 [![Thorium](../../../../wiki/docs/images/item-thorium-medium.png)](../../../../wiki/docs/items/thorium.md)x500 [![Plastanium](../../../../wiki/docs/images/item-plastanium-medium.png)](../../../../wiki/docs/items/plastanium.md)x350 [![Surge Alloy](../../../../wiki/docs/images/item-surge-alloy-medium.png)](../../../../wiki/docs/items/surge-alloy.md)x500 
 
 *"A large turret which shoots two powerful bullets at once."*
 
@@ -37,3 +38,7 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
+
+

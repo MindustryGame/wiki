@@ -1,4 +1,5 @@
-# ![Blast Compound](../images/item-blast-compound.png) Blast Compound 
+# Blast Compound 
+![Blast Compound](../images/item-blast-compound.png)  
 
 | Property      | Value |
 | ----------- | ----------- |
@@ -15,8 +16,12 @@
 
 --- 
 
-##### Produced in: <br>[![Blast Mixer](../../../Mindustry-Wiki-Generator/output/images/blast-mixer-icon-small.png)](../../../Mindustry-Wiki-Generator/output/blocks/crafting/blast-mixer.md) 
+##### Produced in: <br>[![Blast Mixer](../../../wiki/docs/images/blast-mixer-icon-small.png)](../../../wiki/docs/blocks/crafting/blast-mixer.md) 
 
-##### Required for: <br>[![Combustion Generator](../../../Mindustry-Wiki-Generator/output/images/combustion-generator-icon-small.png)](../../../Mindustry-Wiki-Generator/output/blocks/power/combustion-generator.md) [![Turbine Generator](../../../Mindustry-Wiki-Generator/output/images/turbine-generator-icon-small.png)](../../../Mindustry-Wiki-Generator/output/blocks/power/turbine-generator.md) [![Impact Reactor](../../../Mindustry-Wiki-Generator/output/images/impact-reactor-icon-small.png)](../../../Mindustry-Wiki-Generator/output/blocks/power/impact-reactor.md) [![Crawler Mech Factory](../../../Mindustry-Wiki-Generator/output/images/crawler-factory-icon-small.png)](../../../Mindustry-Wiki-Generator/output/blocks/units/crawler-factory.md) 
+##### Required for: <br>[![Combustion Generator](../../../wiki/docs/images/combustion-generator-icon-small.png)](../../../wiki/docs/blocks/power/combustion-generator.md) [![Turbine Generator](../../../wiki/docs/images/turbine-generator-icon-small.png)](../../../wiki/docs/blocks/power/turbine-generator.md) [![Impact Reactor](../../../wiki/docs/images/impact-reactor-icon-small.png)](../../../wiki/docs/blocks/power/impact-reactor.md) [![Crawler Mech Factory](../../../wiki/docs/images/crawler-factory-icon-small.png)](../../../wiki/docs/blocks/units/crawler-factory.md) 
 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
+
+

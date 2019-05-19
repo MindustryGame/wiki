@@ -1,5 +1,6 @@
-# ![Ripple](../../images/ripple-icon-large.png) Ripple 
-##### [![Copper](../../images/item-copper-medium.png)](../../items/copper.md)x300 [![Graphite](../../images/item-graphite-medium.png)](../../items/graphite.md)x270 [![Titanium](../../images/item-titanium-medium.png)](../../items/titanium.md)x120 
+# Ripple 
+![Ripple](../../images/ripple-icon-large.png)   
+[![Copper](../../../../wiki/docs/images/item-copper-medium.png)](../../../../wiki/docs/items/copper.md)x300 [![Graphite](../../../../wiki/docs/images/item-graphite-medium.png)](../../../../wiki/docs/items/graphite.md)x270 [![Titanium](../../../../wiki/docs/images/item-titanium-medium.png)](../../../../wiki/docs/items/titanium.md)x120 
 
 *"A large artillery turret which fires several shots simultaneously."*
 
@@ -34,3 +35,7 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
+
+

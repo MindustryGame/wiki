@@ -1,4 +1,5 @@
-# ![Pyratite](../images/item-pyratite.png) Pyratite 
+# Pyratite 
+![Pyratite](../images/item-pyratite.png)  
 
 | Property      | Value |
 | ----------- | ----------- |
@@ -15,8 +16,12 @@
 
 --- 
 
-##### Produced in: <br>[![Pyratite Mixer](../../../Mindustry-Wiki-Generator/output/images/pyratite-mixer-icon-small.png)](../../../Mindustry-Wiki-Generator/output/blocks/crafting/pyratite-mixer.md) 
+##### Produced in: <br>[![Pyratite Mixer](../../../wiki/docs/images/pyratite-mixer-icon-small.png)](../../../wiki/docs/blocks/crafting/pyratite-mixer.md) 
 
-##### Required for: <br>[![Blast Mixer](../../../Mindustry-Wiki-Generator/output/images/blast-mixer-icon-small.png)](../../../Mindustry-Wiki-Generator/output/blocks/crafting/blast-mixer.md) [![Combustion Generator](../../../Mindustry-Wiki-Generator/output/images/combustion-generator-icon-small.png)](../../../Mindustry-Wiki-Generator/output/blocks/power/combustion-generator.md) [![Turbine Generator](../../../Mindustry-Wiki-Generator/output/images/turbine-generator-icon-small.png)](../../../Mindustry-Wiki-Generator/output/blocks/power/turbine-generator.md) [![Differential Generator](../../../Mindustry-Wiki-Generator/output/images/differential-generator-icon-small.png)](../../../Mindustry-Wiki-Generator/output/blocks/power/differential-generator.md) 
+##### Required for: <br>[![Blast Mixer](../../../wiki/docs/images/blast-mixer-icon-small.png)](../../../wiki/docs/blocks/crafting/blast-mixer.md) [![Combustion Generator](../../../wiki/docs/images/combustion-generator-icon-small.png)](../../../wiki/docs/blocks/power/combustion-generator.md) [![Turbine Generator](../../../wiki/docs/images/turbine-generator-icon-small.png)](../../../wiki/docs/blocks/power/turbine-generator.md) [![Differential Generator](../../../wiki/docs/images/differential-generator-icon-small.png)](../../../wiki/docs/blocks/power/differential-generator.md) 
 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
+
+

@@ -1,5 +1,6 @@
-# ![Water Extractor](../../images/water-extractor-icon-large.png) Water Extractor 
-##### [![Copper](../../images/item-copper-medium.png)](../../items/copper.md)x50 [![Lead](../../images/item-lead-medium.png)](../../items/lead.md)x40 [![Graphite](../../images/item-graphite-medium.png)](../../items/graphite.md)x50 
+# Water Extractor 
+![Water Extractor](../../images/water-extractor-icon-large.png)   
+[![Copper](../../../../wiki/docs/images/item-copper-medium.png)](../../../../wiki/docs/items/copper.md)x50 [![Lead](../../../../wiki/docs/images/item-lead-medium.png)](../../../../wiki/docs/items/lead.md)x40 [![Graphite](../../../../wiki/docs/images/item-graphite-medium.png)](../../../../wiki/docs/items/graphite.md)x50 
 
 *"Extracts water from the ground. Use it when there is no lake nearby."*
 
@@ -27,3 +28,7 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
+
+

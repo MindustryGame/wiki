@@ -1,5 +1,6 @@
-# ![Cultivator](../../images/cultivator-icon-large.png) Cultivator 
-##### [![Copper](../../images/item-copper-medium.png)](../../items/copper.md)x20 [![Lead](../../images/item-lead-medium.png)](../../items/lead.md)x50 [![Silicon](../../images/item-silicon-medium.png)](../../items/silicon.md)x20 
+# Cultivator 
+![Cultivator](../../images/cultivator-icon-large.png)   
+[![Copper](../../../../wiki/docs/images/item-copper-medium.png)](../../../../wiki/docs/items/copper.md)x20 [![Lead](../../../../wiki/docs/images/item-lead-medium.png)](../../../../wiki/docs/items/lead.md)x50 [![Silicon](../../../../wiki/docs/images/item-silicon-medium.png)](../../../../wiki/docs/items/silicon.md)x20 
 
 *"Cultivates tiny concentrations of spores into industry-ready pods."*
 
@@ -33,3 +34,7 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
+
+

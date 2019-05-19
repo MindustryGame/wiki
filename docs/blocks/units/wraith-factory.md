@@ -1,5 +1,6 @@
-# ![Wraith Fighter Factory](../../images/wraith-factory-icon-large.png) Wraith Fighter Factory 
-##### [![Lead](../../images/item-lead-medium.png)](../../items/lead.md)x80 [![Titanium](../../images/item-titanium-medium.png)](../../items/titanium.md)x60 [![Silicon](../../images/item-silicon-medium.png)](../../items/silicon.md)x90 
+# Wraith Fighter Factory 
+![Wraith Fighter Factory](../../images/wraith-factory-icon-large.png)   
+[![Lead](../../../../wiki/docs/images/item-lead-medium.png)](../../../../wiki/docs/items/lead.md)x80 [![Titanium](../../../../wiki/docs/images/item-titanium-medium.png)](../../../../wiki/docs/items/titanium.md)x60 [![Silicon](../../../../wiki/docs/images/item-silicon-medium.png)](../../../../wiki/docs/items/silicon.md)x90 
 
 *"Produces fast, hit-and-run interceptor units."*
 
@@ -25,3 +26,7 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
+
+

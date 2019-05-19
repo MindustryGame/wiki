@@ -1,5 +1,6 @@
-# ![Mechanical Drill](../../images/mechanical-drill-icon-large.png) Mechanical Drill 
-##### [![Copper](../../images/item-copper-medium.png)](../../items/copper.md)x25 
+# Mechanical Drill 
+![Mechanical Drill](../../images/mechanical-drill-icon-large.png)   
+[![Copper](../../../../wiki/docs/images/item-copper-medium.png)](../../../../wiki/docs/items/copper.md)x25 
 
 *"A cheap drill. When placed on appropriate tiles, outputs items at a slow pace indefinitely."*
 
@@ -33,3 +34,7 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
+
+

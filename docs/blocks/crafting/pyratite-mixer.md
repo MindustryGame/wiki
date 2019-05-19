@@ -1,5 +1,6 @@
-# ![Pyratite Mixer](../../images/pyratite-mixer-icon-large.png) Pyratite Mixer 
-##### [![Copper](../../images/item-copper-medium.png)](../../items/copper.md)x100 [![Lead](../../images/item-lead-medium.png)](../../items/lead.md)x50 
+# Pyratite Mixer 
+![Pyratite Mixer](../../images/pyratite-mixer-icon-large.png)   
+[![Copper](../../../../wiki/docs/images/item-copper-medium.png)](../../../../wiki/docs/items/copper.md)x100 [![Lead](../../../../wiki/docs/images/item-lead-medium.png)](../../../../wiki/docs/items/lead.md)x50 
 
 *"Mixes coal, lead and sand into highly flammable pyratite."*
 
@@ -29,3 +30,7 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
+
+

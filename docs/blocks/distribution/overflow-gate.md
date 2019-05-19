@@ -1,5 +1,6 @@
-# ![Overflow Gate](../../images/overflow-gate-icon-large.png) Overflow Gate 
-##### [![Copper](../../images/item-copper-medium.png)](../../items/copper.md)x8 [![Lead](../../images/item-lead-medium.png)](../../items/lead.md)x4 
+# Overflow Gate 
+![Overflow Gate](../../images/overflow-gate-icon-large.png)   
+[![Copper](../../../../wiki/docs/images/item-copper-medium.png)](../../../../wiki/docs/items/copper.md)x8 [![Lead](../../../../wiki/docs/images/item-lead-medium.png)](../../../../wiki/docs/items/lead.md)x4 
 
 *"A combination splitter and router that only outputs to the left and right if the front path is blocked."*
 
@@ -19,3 +20,7 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
+
+

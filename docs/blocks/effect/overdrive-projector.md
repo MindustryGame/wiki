@@ -1,5 +1,6 @@
-# ![Overdrive Projector](../../images/overdrive-projector-icon-large.png) Overdrive Projector 
-##### [![Lead](../../images/item-lead-medium.png)](../../items/lead.md)x200 [![Titanium](../../images/item-titanium-medium.png)](../../items/titanium.md)x150 [![Silicon](../../images/item-silicon-medium.png)](../../items/silicon.md)x150 [![Plastanium](../../images/item-plastanium-medium.png)](../../items/plastanium.md)x60 
+# Overdrive Projector 
+![Overdrive Projector](../../images/overdrive-projector-icon-large.png)   
+[![Lead](../../../../wiki/docs/images/item-lead-medium.png)](../../../../wiki/docs/items/lead.md)x200 [![Titanium](../../../../wiki/docs/images/item-titanium-medium.png)](../../../../wiki/docs/items/titanium.md)x150 [![Silicon](../../../../wiki/docs/images/item-silicon-medium.png)](../../../../wiki/docs/items/silicon.md)x150 [![Plastanium](../../../../wiki/docs/images/item-plastanium-medium.png)](../../../../wiki/docs/items/plastanium.md)x60 
 
 *"Increases the speed of nearby buildings like drills and conveyors."*
 
@@ -33,3 +34,7 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
+
+

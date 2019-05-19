@@ -1,5 +1,6 @@
-# ![Differential Generator](../../images/differential-generator-icon-large.png) Differential Generator 
-##### [![Copper](../../images/item-copper-medium.png)](../../items/copper.md)x140 [![Lead](../../images/item-lead-medium.png)](../../items/lead.md)x200 [![Metaglass](../../images/item-metaglass-medium.png)](../../items/metaglass.md)x100 [![Titanium](../../images/item-titanium-medium.png)](../../items/titanium.md)x100 [![Silicon](../../images/item-silicon-medium.png)](../../items/silicon.md)x130 
+# Differential Generator 
+![Differential Generator](../../images/differential-generator-icon-large.png)   
+[![Copper](../../../../wiki/docs/images/item-copper-medium.png)](../../../../wiki/docs/items/copper.md)x140 [![Lead](../../../../wiki/docs/images/item-lead-medium.png)](../../../../wiki/docs/items/lead.md)x200 [![Metaglass](../../../../wiki/docs/images/item-metaglass-medium.png)](../../../../wiki/docs/items/metaglass.md)x100 [![Titanium](../../../../wiki/docs/images/item-titanium-medium.png)](../../../../wiki/docs/items/titanium.md)x100 [![Silicon](../../../../wiki/docs/images/item-silicon-medium.png)](../../../../wiki/docs/items/silicon.md)x130 
 
 
 
@@ -31,3 +32,7 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
+
+

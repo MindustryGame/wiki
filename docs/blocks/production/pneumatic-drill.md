@@ -1,5 +1,6 @@
-# ![Pneumatic Drill](../../images/pneumatic-drill-icon-large.png) Pneumatic Drill 
-##### [![Copper](../../images/item-copper-medium.png)](../../items/copper.md)x60 [![Graphite](../../images/item-graphite-medium.png)](../../items/graphite.md)x50 
+# Pneumatic Drill 
+![Pneumatic Drill](../../images/pneumatic-drill-icon-large.png)   
+[![Copper](../../../../wiki/docs/images/item-copper-medium.png)](../../../../wiki/docs/items/copper.md)x60 [![Graphite](../../../../wiki/docs/images/item-graphite-medium.png)](../../../../wiki/docs/items/graphite.md)x50 
 
 *"An improved drill which is faster and able to process harder materials by making use of air pressure."*
 
@@ -33,3 +34,7 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
+
+

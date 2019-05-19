@@ -1,5 +1,6 @@
-# ![RTG Generator](../../images/rtg-generator-icon-large.png) RTG Generator 
-##### [![Lead](../../images/item-lead-medium.png)](../../items/lead.md)x200 [![Thorium](../../images/item-thorium-medium.png)](../../items/thorium.md)x100 [![Silicon](../../images/item-silicon-medium.png)](../../items/silicon.md)x150 [![Plastanium](../../images/item-plastanium-medium.png)](../../items/plastanium.md)x150 [![Phase Fabric](../../images/item-phase-fabric-medium.png)](../../items/phase-fabric.md)x50 
+# RTG Generator 
+![RTG Generator](../../images/rtg-generator-icon-large.png)   
+[![Lead](../../../../wiki/docs/images/item-lead-medium.png)](../../../../wiki/docs/items/lead.md)x200 [![Thorium](../../../../wiki/docs/images/item-thorium-medium.png)](../../../../wiki/docs/items/thorium.md)x100 [![Silicon](../../../../wiki/docs/images/item-silicon-medium.png)](../../../../wiki/docs/items/silicon.md)x150 [![Plastanium](../../../../wiki/docs/images/item-plastanium-medium.png)](../../../../wiki/docs/items/plastanium.md)x150 [![Phase Fabric](../../../../wiki/docs/images/item-phase-fabric-medium.png)](../../../../wiki/docs/items/phase-fabric.md)x50 
 
 *"A radioisotope thermoelectric generator which does not require cooling but provides less power than a thorium reactor."*
 
@@ -28,3 +29,7 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
+
+

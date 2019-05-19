@@ -1,5 +1,6 @@
-# ![Router](../../images/router-icon-large.png) Router 
-##### [![Copper](../../images/item-copper-medium.png)](../../items/copper.md)x6 
+# Router 
+![Router](../../images/router-icon-large.png)   
+[![Copper](../../../../wiki/docs/images/item-copper-medium.png)](../../../../wiki/docs/items/copper.md)x6 
 
 *"Accepts items from one direction and outputs them to up to 3 other directions equally. Useful for splitting the materials from one source to multiple targets."*
 
@@ -19,3 +20,7 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
+
+

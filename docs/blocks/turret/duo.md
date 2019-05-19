@@ -1,5 +1,6 @@
-# ![Duo](../../images/duo-icon-large.png) Duo 
-##### [![Copper](../../images/item-copper-medium.png)](../../items/copper.md)x70 
+# Duo 
+![Duo](../../images/duo-icon-large.png)   
+[![Copper](../../../../wiki/docs/images/item-copper-medium.png)](../../../../wiki/docs/items/copper.md)x70 
 
 *"A small, cheap turret. Useful against ground units."*
 
@@ -34,3 +35,7 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
+
+

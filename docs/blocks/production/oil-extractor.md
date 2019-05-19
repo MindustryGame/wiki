@@ -1,5 +1,6 @@
-# ![Oil Extractor](../../images/oil-extractor-icon-large.png) Oil Extractor 
-##### [![Copper](../../images/item-copper-medium.png)](../../items/copper.md)x300 [![Lead](../../images/item-lead-medium.png)](../../items/lead.md)x230 [![Graphite](../../images/item-graphite-medium.png)](../../items/graphite.md)x350 [![Thorium](../../images/item-thorium-medium.png)](../../items/thorium.md)x230 [![Silicon](../../images/item-silicon-medium.png)](../../items/silicon.md)x150 
+# Oil Extractor 
+![Oil Extractor](../../images/oil-extractor-icon-large.png)   
+[![Copper](../../../../wiki/docs/images/item-copper-medium.png)](../../../../wiki/docs/items/copper.md)x300 [![Lead](../../../../wiki/docs/images/item-lead-medium.png)](../../../../wiki/docs/items/lead.md)x230 [![Graphite](../../../../wiki/docs/images/item-graphite-medium.png)](../../../../wiki/docs/items/graphite.md)x350 [![Thorium](../../../../wiki/docs/images/item-thorium-medium.png)](../../../../wiki/docs/items/thorium.md)x230 [![Silicon](../../../../wiki/docs/images/item-silicon-medium.png)](../../../../wiki/docs/items/silicon.md)x150 
 
 *"Uses large amounts of power in order to extract oil from sand. Use it when there is no direct source of oil nearby."*
 
@@ -33,3 +34,7 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
+
+

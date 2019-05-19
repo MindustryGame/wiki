@@ -1,5 +1,6 @@
-# ![Javelin Ship Pad](../../images/javelin-ship-pad-icon-large.png) Javelin Ship Pad 
-##### [![Lead](../../images/item-lead-medium.png)](../../items/lead.md)x350 [![Titanium](../../images/item-titanium-medium.png)](../../items/titanium.md)x500 [![Silicon](../../images/item-silicon-medium.png)](../../items/silicon.md)x450 [![Plastanium](../../images/item-plastanium-medium.png)](../../items/plastanium.md)x400 [![Phase Fabric](../../images/item-phase-fabric-medium.png)](../../items/phase-fabric.md)x200 
+# Javelin Ship Pad 
+![Javelin Ship Pad](../../images/javelin-ship-pad-icon-large.png)   
+[![Lead](../../../../wiki/docs/images/item-lead-medium.png)](../../../../wiki/docs/items/lead.md)x350 [![Titanium](../../../../wiki/docs/images/item-titanium-medium.png)](../../../../wiki/docs/items/titanium.md)x500 [![Silicon](../../../../wiki/docs/images/item-silicon-medium.png)](../../../../wiki/docs/items/silicon.md)x450 [![Plastanium](../../../../wiki/docs/images/item-plastanium-medium.png)](../../../../wiki/docs/items/plastanium.md)x400 [![Phase Fabric](../../../../wiki/docs/images/item-phase-fabric-medium.png)](../../../../wiki/docs/items/phase-fabric.md)x200 
 
 *"Leave your current vessel and change into a strong and fast interceptor with lightning weapons.
 Use the pad by double tapping while standing on it."*
@@ -24,3 +25,7 @@ Use the pad by double tapping while standing on it."*
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
+
+

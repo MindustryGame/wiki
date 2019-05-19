@@ -1,5 +1,6 @@
-# ![Thermal Generator](../../images/thermal-generator-icon-large.png) Thermal Generator 
-##### [![Copper](../../images/item-copper-medium.png)](../../items/copper.md)x80 [![Lead](../../images/item-lead-medium.png)](../../items/lead.md)x100 [![Metaglass](../../images/item-metaglass-medium.png)](../../items/metaglass.md)x80 [![Graphite](../../images/item-graphite-medium.png)](../../items/graphite.md)x70 [![Silicon](../../images/item-silicon-medium.png)](../../items/silicon.md)x70 
+# Thermal Generator 
+![Thermal Generator](../../images/thermal-generator-icon-large.png)   
+[![Copper](../../../../wiki/docs/images/item-copper-medium.png)](../../../../wiki/docs/items/copper.md)x80 [![Lead](../../../../wiki/docs/images/item-lead-medium.png)](../../../../wiki/docs/items/lead.md)x100 [![Metaglass](../../../../wiki/docs/images/item-metaglass-medium.png)](../../../../wiki/docs/items/metaglass.md)x80 [![Graphite](../../../../wiki/docs/images/item-graphite-medium.png)](../../../../wiki/docs/items/graphite.md)x70 [![Silicon](../../../../wiki/docs/images/item-silicon-medium.png)](../../../../wiki/docs/items/silicon.md)x70 
 
 *"Generates power when placed in hot locations."*
 
@@ -19,3 +20,7 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
+
+

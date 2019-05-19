@@ -1,5 +1,6 @@
-# ![Kiln](../../images/kiln-icon-large.png) Kiln 
-##### [![Copper](../../images/item-copper-medium.png)](../../items/copper.md)x120 [![Lead](../../images/item-lead-medium.png)](../../items/lead.md)x60 [![Graphite](../../images/item-graphite-medium.png)](../../items/graphite.md)x60 
+# Kiln 
+![Kiln](../../images/kiln-icon-large.png)   
+[![Copper](../../../../wiki/docs/images/item-copper-medium.png)](../../../../wiki/docs/items/copper.md)x120 [![Lead](../../../../wiki/docs/images/item-lead-medium.png)](../../../../wiki/docs/items/lead.md)x60 [![Graphite](../../../../wiki/docs/images/item-graphite-medium.png)](../../../../wiki/docs/items/graphite.md)x60 
 
 *"Smelts sand and lead into metaglass. Requires small amounts of power."*
 
@@ -29,3 +30,7 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
+
+

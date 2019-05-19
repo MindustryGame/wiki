@@ -1,5 +1,6 @@
-# ![Fortress Mech Factory](../../images/fortress-factory-icon-large.png) Fortress Mech Factory 
-##### [![Lead](../../images/item-lead-medium.png)](../../items/lead.md)x220 [![Thorium](../../images/item-thorium-medium.png)](../../items/thorium.md)x200 [![Silicon](../../images/item-silicon-medium.png)](../../items/silicon.md)x150 [![Phase Fabric](../../images/item-phase-fabric-medium.png)](../../items/phase-fabric.md)x50 [![Surge Alloy](../../images/item-surge-alloy-medium.png)](../../items/surge-alloy.md)x100 
+# Fortress Mech Factory 
+![Fortress Mech Factory](../../images/fortress-factory-icon-large.png)   
+[![Lead](../../../../wiki/docs/images/item-lead-medium.png)](../../../../wiki/docs/items/lead.md)x220 [![Thorium](../../../../wiki/docs/images/item-thorium-medium.png)](../../../../wiki/docs/items/thorium.md)x200 [![Silicon](../../../../wiki/docs/images/item-silicon-medium.png)](../../../../wiki/docs/items/silicon.md)x150 [![Phase Fabric](../../../../wiki/docs/images/item-phase-fabric-medium.png)](../../../../wiki/docs/items/phase-fabric.md)x50 [![Surge Alloy](../../../../wiki/docs/images/item-surge-alloy-medium.png)](../../../../wiki/docs/items/surge-alloy.md)x100 
 
 *"Produces heavy artillery ground units."*
 
@@ -25,3 +26,7 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
+
+

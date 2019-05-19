@@ -1,5 +1,6 @@
-# ![Silicon Smelter](../../images/silicon-smelter-icon-large.png) Silicon Smelter 
-##### [![Copper](../../images/item-copper-medium.png)](../../items/copper.md)x60 [![Lead](../../images/item-lead-medium.png)](../../items/lead.md)x50 
+# Silicon Smelter 
+![Silicon Smelter](../../images/silicon-smelter-icon-large.png)   
+[![Copper](../../../../wiki/docs/images/item-copper-medium.png)](../../../../wiki/docs/items/copper.md)x60 [![Lead](../../../../wiki/docs/images/item-lead-medium.png)](../../../../wiki/docs/items/lead.md)x50 
 
 *"Reduces sand with highly pure coal in order to produce silicon."*
 
@@ -29,3 +30,7 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
+
+

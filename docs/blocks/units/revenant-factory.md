@@ -1,5 +1,6 @@
-# ![Revenant Fighter Factory](../../images/revenant-factory-icon-large.png) Revenant Fighter Factory 
-##### [![Lead](../../images/item-lead-medium.png)](../../items/lead.md)x300 [![Titanium](../../images/item-titanium-medium.png)](../../items/titanium.md)x400 [![Silicon](../../images/item-silicon-medium.png)](../../items/silicon.md)x400 [![Plastanium](../../images/item-plastanium-medium.png)](../../items/plastanium.md)x300 [![Surge Alloy](../../images/item-surge-alloy-medium.png)](../../items/surge-alloy.md)x100 
+# Revenant Fighter Factory 
+![Revenant Fighter Factory](../../images/revenant-factory-icon-large.png)   
+[![Lead](../../../../wiki/docs/images/item-lead-medium.png)](../../../../wiki/docs/items/lead.md)x300 [![Titanium](../../../../wiki/docs/images/item-titanium-medium.png)](../../../../wiki/docs/items/titanium.md)x400 [![Silicon](../../../../wiki/docs/images/item-silicon-medium.png)](../../../../wiki/docs/items/silicon.md)x400 [![Plastanium](../../../../wiki/docs/images/item-plastanium-medium.png)](../../../../wiki/docs/items/plastanium.md)x300 [![Surge Alloy](../../../../wiki/docs/images/item-surge-alloy-medium.png)](../../../../wiki/docs/items/surge-alloy.md)x100 
 
 *"Produces heavy laser air units."*
 
@@ -25,3 +26,7 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
+
+

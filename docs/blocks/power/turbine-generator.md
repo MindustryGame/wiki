@@ -1,5 +1,6 @@
-# ![Turbine Generator](../../images/turbine-generator-icon-large.png) Turbine Generator 
-##### [![Copper](../../images/item-copper-medium.png)](../../items/copper.md)x70 [![Lead](../../images/item-lead-medium.png)](../../items/lead.md)x80 [![Graphite](../../images/item-graphite-medium.png)](../../items/graphite.md)x50 [![Silicon](../../images/item-silicon-medium.png)](../../items/silicon.md)x60 
+# Turbine Generator 
+![Turbine Generator](../../images/turbine-generator-icon-large.png)   
+[![Copper](../../../../wiki/docs/images/item-copper-medium.png)](../../../../wiki/docs/items/copper.md)x70 [![Lead](../../../../wiki/docs/images/item-lead-medium.png)](../../../../wiki/docs/items/lead.md)x80 [![Graphite](../../../../wiki/docs/images/item-graphite-medium.png)](../../../../wiki/docs/items/graphite.md)x50 [![Silicon](../../../../wiki/docs/images/item-silicon-medium.png)](../../../../wiki/docs/items/silicon.md)x60 
 
 *"More efficient than a combustion generator, but requires additional water."*
 
@@ -32,3 +33,7 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
+
+

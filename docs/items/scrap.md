@@ -1,4 +1,5 @@
-# ![Scrap](../images/item-scrap.png) Scrap 
+# Scrap 
+![Scrap](../images/item-scrap.png)  
 
 | Property      | Value |
 | ----------- | ----------- |
@@ -15,8 +16,12 @@
 
 --- 
 
-##### Produced in: <br>[![Mechanical Drill](../../../Mindustry-Wiki-Generator/output/images/mechanical-drill-icon-small.png)](../../../Mindustry-Wiki-Generator/output/blocks/production/mechanical-drill.md) [![Pneumatic Drill](../../../Mindustry-Wiki-Generator/output/images/pneumatic-drill-icon-small.png)](../../../Mindustry-Wiki-Generator/output/blocks/production/pneumatic-drill.md) [![Laser Drill](../../../Mindustry-Wiki-Generator/output/images/laser-drill-icon-small.png)](../../../Mindustry-Wiki-Generator/output/blocks/production/laser-drill.md) [![Airblast Drill](../../../Mindustry-Wiki-Generator/output/images/blast-drill-icon-small.png)](../../../Mindustry-Wiki-Generator/output/blocks/production/blast-drill.md) 
+##### Produced in: <br>[![Mechanical Drill](../../../wiki/docs/images/mechanical-drill-icon-small.png)](../../../wiki/docs/blocks/production/mechanical-drill.md) [![Pneumatic Drill](../../../wiki/docs/images/pneumatic-drill-icon-small.png)](../../../wiki/docs/blocks/production/pneumatic-drill.md) [![Laser Drill](../../../wiki/docs/images/laser-drill-icon-small.png)](../../../wiki/docs/blocks/production/laser-drill.md) [![Airblast Drill](../../../wiki/docs/images/blast-drill-icon-small.png)](../../../wiki/docs/blocks/production/blast-drill.md) 
 
-##### Required for: <br>[![Melter](../../../Mindustry-Wiki-Generator/output/images/melter-icon-small.png)](../../../Mindustry-Wiki-Generator/output/blocks/crafting/melter.md) [![Pulverizer](../../../Mindustry-Wiki-Generator/output/images/pulverizer-icon-small.png)](../../../Mindustry-Wiki-Generator/output/blocks/crafting/pulverizer.md) 
+##### Required for: <br>[![Melter](../../../wiki/docs/images/melter-icon-small.png)](../../../wiki/docs/blocks/crafting/melter.md) [![Pulverizer](../../../wiki/docs/images/pulverizer-icon-small.png)](../../../wiki/docs/blocks/crafting/pulverizer.md) 
 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
+
+
