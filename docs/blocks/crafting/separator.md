@@ -1,5 +1,5 @@
-# Separator 
-<img id="spr" src="../../../images/separator-icon-large.png"></img>
+# <img id="spr" src="../../../images/separator-icon-large.png"></img> Separator 
+
 <a href="../../../items/copper.md"><img id="spr" src="../../../images/item-copper-medium.png"/></a>x60 <a href="../../../items/titanium.md"><img id="spr" src="../../../images/item-titanium-medium.png"/></a>x50 
 
 *"Extracts useful minerals from slag."*
@@ -34,6 +34,7 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
 
 
 

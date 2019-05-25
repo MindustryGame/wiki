@@ -1,5 +1,5 @@
-# Overflow Gate 
-<img id="spr" src="../../../images/overflow-gate-icon-large.png"></img>
+# <img id="spr" src="../../../images/overflow-gate-icon-large.png"></img> Overflow Gate 
+
 <a href="../../../items/copper.md"><img id="spr" src="../../../images/item-copper-medium.png"/></a>x8 <a href="../../../items/lead.md"><img id="spr" src="../../../images/item-lead-medium.png"/></a>x4 
 
 *"A combination splitter and router that only outputs to the left and right if the front path is blocked."*
@@ -20,6 +20,7 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
 
 
 

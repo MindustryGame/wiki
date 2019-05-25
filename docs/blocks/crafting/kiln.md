@@ -1,5 +1,5 @@
-# Kiln 
-<img id="spr" src="../../../images/kiln-icon-large.png"></img>
+# <img id="spr" src="../../../images/kiln-icon-large.png"></img> Kiln 
+
 <a href="../../../items/copper.md"><img id="spr" src="../../../images/item-copper-medium.png"/></a>x120 <a href="../../../items/lead.md"><img id="spr" src="../../../images/item-lead-medium.png"/></a>x60 <a href="../../../items/graphite.md"><img id="spr" src="../../../images/item-graphite-medium.png"/></a>x60 
 
 *"Smelts sand and lead into metaglass. Requires small amounts of power."*
@@ -30,6 +30,7 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
 
 
 

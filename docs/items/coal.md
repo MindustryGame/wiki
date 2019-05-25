@@ -1,5 +1,5 @@
-# Coal 
-<img id="spr" src="../../images/item-coal.png"></img>
+# <img id="spr" src="../../images/item-coal.png"></img> Coal 
+
 
 *"A common and readily available fuel."*  
 
@@ -21,6 +21,7 @@
 ##### Required for: <br><a href="../../blocks/crafting/graphite-press.md"><img id="spr" src="../../images/graphite-press-icon-small.png"/></a> <a href="../../blocks/crafting/multi-press.md"><img id="spr" src="../../images/multi-press-icon-small.png"/></a> <a href="../../blocks/crafting/silicon-smelter.md"><img id="spr" src="../../images/silicon-smelter-icon-small.png"/></a> <a href="../../blocks/crafting/pyratite-mixer.md"><img id="spr" src="../../images/pyratite-mixer-icon-small.png"/></a> <a href="../../blocks/power/combustion-generator.md"><img id="spr" src="../../images/combustion-generator-icon-small.png"/></a> <a href="../../blocks/power/turbine-generator.md"><img id="spr" src="../../images/turbine-generator-icon-small.png"/></a> 
 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
 
 
 

@@ -1,5 +1,5 @@
-# Oil 
-<img id="spr" src="../../images/liquid-oil.png"></img>
+# <img id="spr" src="../../images/liquid-oil.png"></img> Oil 
+
 
 | Property      | Value |
 | ----------- | ----------- |
@@ -16,6 +16,7 @@
 
 ##### Required for: <br><a href="../../blocks/crafting/plastanium-compressor.md"><img id="spr" src="../../images/plastanium-compressor-icon-small.png"/></a> <a href="../../blocks/crafting/coal-centrifuge.md"><img id="spr" src="../../images/coal-centrifuge-icon-small.png"/></a> 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
 
 
 

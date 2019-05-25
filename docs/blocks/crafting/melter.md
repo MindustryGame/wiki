@@ -1,5 +1,5 @@
-# Melter 
-<img id="spr" src="../../../images/melter-icon-large.png"></img>
+# <img id="spr" src="../../../images/melter-icon-large.png"></img> Melter 
+
 <a href="../../../items/copper.md"><img id="spr" src="../../../images/item-copper-medium.png"/></a>x60 <a href="../../../items/lead.md"><img id="spr" src="../../../images/item-lead-medium.png"/></a>x70 <a href="../../../items/graphite.md"><img id="spr" src="../../../images/item-graphite-medium.png"/></a>x90 
 
 *"Melts down scrap into slag for further processing or usage in turrets."*
@@ -34,6 +34,7 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
 
 
 

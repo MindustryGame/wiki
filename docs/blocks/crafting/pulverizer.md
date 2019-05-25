@@ -1,5 +1,5 @@
-# Pulverizer 
-<img id="spr" src="../../../images/pulverizer-icon-large.png"></img>
+# <img id="spr" src="../../../images/pulverizer-icon-large.png"></img> Pulverizer 
+
 <a href="../../../items/copper.md"><img id="spr" src="../../../images/item-copper-medium.png"/></a>x60 <a href="../../../items/lead.md"><img id="spr" src="../../../images/item-lead-medium.png"/></a>x50 
 
 *"Crushes scrap into sand. Useful when there is a lack of natural sand."*
@@ -30,6 +30,7 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
 
 
 

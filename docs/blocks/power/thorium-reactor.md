@@ -1,5 +1,5 @@
-# Thorium Reactor 
-<img id="spr" src="../../../images/thorium-reactor-icon-large.png"></img>
+# <img id="spr" src="../../../images/thorium-reactor-icon-large.png"></img> Thorium Reactor 
+
 <a href="../../../items/lead.md"><img id="spr" src="../../../images/item-lead-medium.png"/></a>x600 <a href="../../../items/metaglass.md"><img id="spr" src="../../../images/item-metaglass-medium.png"/></a>x100 <a href="../../../items/graphite.md"><img id="spr" src="../../../images/item-graphite-medium.png"/></a>x300 <a href="../../../items/thorium.md"><img id="spr" src="../../../images/item-thorium-medium.png"/></a>x300 <a href="../../../items/silicon.md"><img id="spr" src="../../../images/item-silicon-medium.png"/></a>x400 
 
 *"Generates huge amounts of power from highly radioactive thorium. Requires constant cooling. Will explode violently if insufficient amounts of coolant are supplied. Power output depends on fullness, with base power generated at full capacity."*
@@ -33,6 +33,7 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
 
 
 

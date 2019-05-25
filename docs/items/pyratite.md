@@ -1,5 +1,5 @@
-# Pyratite 
-<img id="spr" src="../../images/item-pyratite.png"></img>
+# <img id="spr" src="../../images/item-pyratite.png"></img> Pyratite 
+
 
 *"An extremely flammable substance used in incendiary weapons."*  
 
@@ -21,6 +21,7 @@
 ##### Required for: <br><a href="../../blocks/crafting/blast-mixer.md"><img id="spr" src="../../images/blast-mixer-icon-small.png"/></a> <a href="../../blocks/power/combustion-generator.md"><img id="spr" src="../../images/combustion-generator-icon-small.png"/></a> <a href="../../blocks/power/turbine-generator.md"><img id="spr" src="../../images/turbine-generator-icon-small.png"/></a> <a href="../../blocks/power/differential-generator.md"><img id="spr" src="../../images/differential-generator-icon-small.png"/></a> 
 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
 
 
 

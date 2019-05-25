@@ -1,5 +1,5 @@
-# Coal Centrifuge 
-<img id="spr" src="../../../images/coal-centrifuge-icon-large.png"></img>
+# <img id="spr" src="../../../images/coal-centrifuge-icon-large.png"></img> Coal Centrifuge 
+
 <a href="../../../items/lead.md"><img id="spr" src="../../../images/item-lead-medium.png"/></a>x60 <a href="../../../items/graphite.md"><img id="spr" src="../../../images/item-graphite-medium.png"/></a>x80 <a href="../../../items/titanium.md"><img id="spr" src="../../../images/item-titanium-medium.png"/></a>x40 
 
 
@@ -33,6 +33,7 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
 
 
 

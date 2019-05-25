@@ -1,5 +1,5 @@
-# Multi-Press 
-<img id="spr" src="../../../images/multi-press-icon-large.png"></img>
+# <img id="spr" src="../../../images/multi-press-icon-large.png"></img> Multi-Press 
+
 <a href="../../../items/lead.md"><img id="spr" src="../../../images/item-lead-medium.png"/></a>x200 <a href="../../../items/graphite.md"><img id="spr" src="../../../images/item-graphite-medium.png"/></a>x100 <a href="../../../items/titanium.md"><img id="spr" src="../../../images/item-titanium-medium.png"/></a>x200 <a href="../../../items/silicon.md"><img id="spr" src="../../../images/item-silicon-medium.png"/></a>x50 
 
 
@@ -33,6 +33,7 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
 
 
 

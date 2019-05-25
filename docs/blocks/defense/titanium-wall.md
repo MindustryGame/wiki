@@ -1,5 +1,5 @@
-# Titanium Wall 
-<img id="spr" src="../../../images/titanium-wall-icon-large.png"></img>
+# <img id="spr" src="../../../images/titanium-wall-icon-large.png"></img> Titanium Wall 
+
 <a href="../../../items/titanium.md"><img id="spr" src="../../../images/item-titanium-medium.png"/></a>x12 
 
 
@@ -15,6 +15,7 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
 
 
 

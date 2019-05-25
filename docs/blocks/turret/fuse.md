@@ -1,5 +1,5 @@
-# Fuse 
-<img id="spr" src="../../../images/fuse-icon-large.png"></img>
+# <img id="spr" src="../../../images/fuse-icon-large.png"></img> Fuse 
+
 <a href="../../../items/copper.md"><img id="spr" src="../../../images/item-copper-medium.png"/></a>x450 <a href="../../../items/graphite.md"><img id="spr" src="../../../images/item-graphite-medium.png"/></a>x450 <a href="../../../items/surge-alloy.md"><img id="spr" src="../../../images/item-surge-alloy-medium.png"/></a>x250 
 
 *"A large turret which shoots powerful short-range beams."*
@@ -35,6 +35,7 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
 
 
 

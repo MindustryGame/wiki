@@ -1,5 +1,5 @@
-# Water Extractor 
-<img id="spr" src="../../../images/water-extractor-icon-large.png"></img>
+# <img id="spr" src="../../../images/water-extractor-icon-large.png"></img> Water Extractor 
+
 <a href="../../../items/copper.md"><img id="spr" src="../../../images/item-copper-medium.png"/></a>x50 <a href="../../../items/lead.md"><img id="spr" src="../../../images/item-lead-medium.png"/></a>x40 <a href="../../../items/graphite.md"><img id="spr" src="../../../images/item-graphite-medium.png"/></a>x50 
 
 *"Extracts water from the ground. Use it when there is no lake nearby."*
@@ -28,6 +28,7 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
 
 
 

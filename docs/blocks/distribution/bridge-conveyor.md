@@ -1,5 +1,5 @@
-# Bridge Conveyor 
-<img id="spr" src="../../../images/bridge-conveyor-icon-large.png"></img>
+# <img id="spr" src="../../../images/bridge-conveyor-icon-large.png"></img> Bridge Conveyor 
+
 <a href="../../../items/copper.md"><img id="spr" src="../../../images/item-copper-medium.png"/></a>x8 <a href="../../../items/lead.md"><img id="spr" src="../../../images/item-lead-medium.png"/></a>x8 
 
 *"Advanced item transport block. Allows transporting items over up to 3 tiles of any terrain or building."*
@@ -20,6 +20,7 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
 
 
 

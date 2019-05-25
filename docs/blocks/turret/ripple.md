@@ -1,5 +1,5 @@
-# Ripple 
-<img id="spr" src="../../../images/ripple-icon-large.png"></img>
+# <img id="spr" src="../../../images/ripple-icon-large.png"></img> Ripple 
+
 <a href="../../../items/copper.md"><img id="spr" src="../../../images/item-copper-medium.png"/></a>x300 <a href="../../../items/graphite.md"><img id="spr" src="../../../images/item-graphite-medium.png"/></a>x270 <a href="../../../items/titanium.md"><img id="spr" src="../../../images/item-titanium-medium.png"/></a>x120 
 
 *"A large artillery turret which fires several shots simultaneously."*
@@ -35,6 +35,7 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
 
 
 

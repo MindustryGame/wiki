@@ -1,5 +1,5 @@
-# Cyclone 
-<img id="spr" src="../../../images/cyclone-icon-large.png"></img>
+# <img id="spr" src="../../../images/cyclone-icon-large.png"></img> Cyclone 
+
 <a href="../../../items/copper.md"><img id="spr" src="../../../images/item-copper-medium.png"/></a>x400 <a href="../../../items/titanium.md"><img id="spr" src="../../../images/item-titanium-medium.png"/></a>x250 <a href="../../../items/plastanium.md"><img id="spr" src="../../../images/item-plastanium-medium.png"/></a>x160 
 
 *"A large rapid fire turret."*
@@ -35,6 +35,7 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
 
 
 

@@ -1,5 +1,5 @@
-# Large Door 
-<img id="spr" src="../../../images/door-large-icon-large.png"></img>
+# <img id="spr" src="../../../images/door-large-icon-large.png"></img> Large Door 
+
 <a href="../../../items/titanium.md"><img id="spr" src="../../../images/item-titanium-medium.png"/></a>x48 <a href="../../../items/silicon.md"><img id="spr" src="../../../images/item-silicon-medium.png"/></a>x32 
 
 *"A large door that can be opened and closed by tapping on it.
@@ -18,6 +18,7 @@ Spans multiple tiles."*
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
 
 
 

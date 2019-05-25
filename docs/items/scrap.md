@@ -1,5 +1,5 @@
-# Scrap 
-<img id="spr" src="../../images/item-scrap.png"></img>
+# <img id="spr" src="../../images/item-scrap.png"></img> Scrap 
+
 
 *"Leftover remnants of old structures and units. Contains trace amounts of many different metals."*  
 
@@ -21,6 +21,7 @@
 ##### Required for: <br><a href="../../blocks/crafting/melter.md"><img id="spr" src="../../images/melter-icon-small.png"/></a> <a href="../../blocks/crafting/pulverizer.md"><img id="spr" src="../../images/pulverizer-icon-small.png"/></a> 
 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
 
 
 

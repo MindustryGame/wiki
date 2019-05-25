@@ -1,5 +1,5 @@
-# Cryofluid Mixer 
-<img id="spr" src="../../../images/cryofluidmixer-icon-large.png"></img>
+# <img id="spr" src="../../../images/cryofluidmixer-icon-large.png"></img> Cryofluid Mixer 
+
 <a href="../../../items/lead.md"><img id="spr" src="../../../images/item-lead-medium.png"/></a>x130 <a href="../../../items/thorium.md"><img id="spr" src="../../../images/item-thorium-medium.png"/></a>x90 <a href="../../../items/silicon.md"><img id="spr" src="../../../images/item-silicon-medium.png"/></a>x80 
 
 *"Combines water and titanium into cryofluid which is much more efficient for cooling."*
@@ -34,6 +34,7 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
 
 
 

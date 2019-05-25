@@ -1,5 +1,5 @@
-# Pyratite Mixer 
-<img id="spr" src="../../../images/pyratite-mixer-icon-large.png"></img>
+# <img id="spr" src="../../../images/pyratite-mixer-icon-large.png"></img> Pyratite Mixer 
+
 <a href="../../../items/copper.md"><img id="spr" src="../../../images/item-copper-medium.png"/></a>x100 <a href="../../../items/lead.md"><img id="spr" src="../../../images/item-lead-medium.png"/></a>x50 
 
 *"Mixes coal, lead and sand into highly flammable pyratite."*
@@ -30,6 +30,7 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
 
 
 

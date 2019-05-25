@@ -1,5 +1,5 @@
-# Arc 
-<img id="spr" src="../../../images/arc-icon-large.png"></img>
+# <img id="spr" src="../../../images/arc-icon-large.png"></img> Arc 
+
 <a href="../../../items/copper.md"><img id="spr" src="../../../images/item-copper-medium.png"/></a>x70 <a href="../../../items/lead.md"><img id="spr" src="../../../images/item-lead-medium.png"/></a>x70 
 
 *"A small close-range turret which shoots electricity in a random arc towards the enemy."*
@@ -38,6 +38,7 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
 
 
 

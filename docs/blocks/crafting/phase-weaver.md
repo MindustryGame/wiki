@@ -1,5 +1,5 @@
-# Phase Weaver 
-<img id="spr" src="../../../images/phase-weaver-icon-large.png"></img>
+# <img id="spr" src="../../../images/phase-weaver-icon-large.png"></img> Phase Weaver 
+
 <a href="../../../items/lead.md"><img id="spr" src="../../../images/item-lead-medium.png"/></a>x240 <a href="../../../items/thorium.md"><img id="spr" src="../../../images/item-thorium-medium.png"/></a>x150 <a href="../../../items/silicon.md"><img id="spr" src="../../../images/item-silicon-medium.png"/></a>x260 
 
 *"Produces phase fabric from radioactive thorium and high amounts of sand."*
@@ -30,6 +30,7 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
 
 
 

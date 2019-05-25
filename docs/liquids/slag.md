@@ -1,5 +1,5 @@
-# Slag 
-<img id="spr" src="../../images/liquid-slag.png"></img>
+# <img id="spr" src="../../images/liquid-slag.png"></img> Slag 
+
 
 | Property      | Value |
 | ----------- | ----------- |
@@ -16,6 +16,7 @@
 
 ##### Required for: <br><a href="../../blocks/crafting/separator.md"><img id="spr" src="../../images/separator-icon-small.png"/></a> 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
 
 
 

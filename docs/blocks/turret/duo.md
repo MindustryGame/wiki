@@ -1,5 +1,5 @@
-# Duo 
-<img id="spr" src="../../../images/duo-icon-large.png"></img>
+# <img id="spr" src="../../../images/duo-icon-large.png"></img> Duo 
+
 <a href="../../../items/copper.md"><img id="spr" src="../../../images/item-copper-medium.png"/></a>x70 
 
 *"A small, cheap turret. Useful against ground units."*
@@ -35,6 +35,7 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
 
 
 

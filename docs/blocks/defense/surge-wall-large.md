@@ -1,5 +1,5 @@
-# Large Surge Wall 
-<img id="spr" src="../../../images/surge-wall-large-icon-large.png"></img>
+# <img id="spr" src="../../../images/surge-wall-large-icon-large.png"></img> Large Surge Wall 
+
 <a href="../../../items/surge-alloy.md"><img id="spr" src="../../../images/item-surge-alloy-medium.png"/></a>x48 
 
 *"The strongest defensive block.
@@ -18,6 +18,7 @@ Spans multiple tiles."*
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
 
 
 

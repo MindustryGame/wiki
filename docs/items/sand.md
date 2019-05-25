@@ -1,5 +1,5 @@
-# Sand 
-<img id="spr" src="../../images/item-sand.png"></img>
+# <img id="spr" src="../../images/item-sand.png"></img> Sand 
+
 
 *"A common material that is used extensively in smelting, both in alloying and as a flux."*  
 
@@ -21,6 +21,7 @@
 ##### Required for: <br><a href="../../blocks/crafting/silicon-smelter.md"><img id="spr" src="../../images/silicon-smelter-icon-small.png"/></a> <a href="../../blocks/crafting/kiln.md"><img id="spr" src="../../images/kiln-icon-small.png"/></a> <a href="../../blocks/crafting/phase-weaver.md"><img id="spr" src="../../images/phase-weaver-icon-small.png"/></a> <a href="../../blocks/crafting/pyratite-mixer.md"><img id="spr" src="../../images/pyratite-mixer-icon-small.png"/></a> <a href="../../blocks/production/oil-extractor.md"><img id="spr" src="../../images/oil-extractor-icon-small.png"/></a> 
 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
 
 
 

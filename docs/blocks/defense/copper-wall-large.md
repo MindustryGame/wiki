@@ -1,5 +1,5 @@
-# Large Copper Wall 
-<img id="spr" src="../../../images/copper-wall-large-icon-large.png"></img>
+# <img id="spr" src="../../../images/copper-wall-large-icon-large.png"></img> Large Copper Wall 
+
 <a href="../../../items/copper.md"><img id="spr" src="../../../images/item-copper-medium.png"/></a>x48 
 
 *"A cheap defensive block.
@@ -18,6 +18,7 @@ Spans multiple tiles."*
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
 
 
 

@@ -1,5 +1,5 @@
-# Power Node 
-<img id="spr" src="../../../images/power-node-icon-large.png"></img>
+# <img id="spr" src="../../../images/power-node-icon-large.png"></img> Power Node 
+
 <a href="../../../items/copper.md"><img id="spr" src="../../../images/item-copper-medium.png"/></a>x2 <a href="../../../items/lead.md"><img id="spr" src="../../../images/item-lead-medium.png"/></a>x6 
 
 *"Transmits power to connected nodes. Up to four power sources, sinks or nodes can be connected. The node will receive power from or supply power to any adjacent blocks."*
@@ -20,6 +20,7 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
 
 
 

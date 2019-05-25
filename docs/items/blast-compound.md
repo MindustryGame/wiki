@@ -1,5 +1,5 @@
-# Blast Compound 
-<img id="spr" src="../../images/item-blast-compound.png"></img>
+# <img id="spr" src="../../images/item-blast-compound.png"></img> Blast Compound 
+
 
 *"A volatile compound used in bombs and explosives. While it can burned as fuel, this is not advised."*  
 
@@ -21,6 +21,7 @@
 ##### Required for: <br><a href="../../blocks/power/combustion-generator.md"><img id="spr" src="../../images/combustion-generator-icon-small.png"/></a> <a href="../../blocks/power/turbine-generator.md"><img id="spr" src="../../images/turbine-generator-icon-small.png"/></a> <a href="../../blocks/power/impact-reactor.md"><img id="spr" src="../../images/impact-reactor-icon-small.png"/></a> <a href="../../blocks/units/crawler-factory.md"><img id="spr" src="../../images/crawler-factory-icon-small.png"/></a> 
 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
 
 
 
