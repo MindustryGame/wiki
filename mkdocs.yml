@@ -1,5 +1,6 @@
 site_name: Mindustry Wiki
 site_url: https://mindustrygame.github.io/wiki/
-theme: readthedocs
+theme: 
+    name: 'rtd-dropdown'
 extra_css:
   - 'stylesheets/style.css'

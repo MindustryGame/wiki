@@ -16,11 +16,12 @@
 
 --- 
 
-##### Produced in: <br><a href="/wiki/blocks/crafting/blast-mixer"><img id="spr" src="/wiki/images/blast-mixer-icon-small.png"/></a> 
+##### Produced in <br><a href="/wiki/blocks/crafting/blast-mixer"><img id="spr" src="/wiki/images/blast-mixer-icon-small.png"/></a> 
 
-##### Required for: <br><a href="/wiki/blocks/power/combustion-generator"><img id="spr" src="/wiki/images/combustion-generator-icon-small.png"/></a> <a href="/wiki/blocks/power/turbine-generator"><img id="spr" src="/wiki/images/turbine-generator-icon-small.png"/></a> <a href="/wiki/blocks/power/impact-reactor"><img id="spr" src="/wiki/images/impact-reactor-icon-small.png"/></a> <a href="/wiki/blocks/units/crawler-factory"><img id="spr" src="/wiki/images/crawler-factory-icon-small.png"/></a> 
+##### Required for <br><a href="/wiki/blocks/power/combustion-generator"><img id="spr" src="/wiki/images/combustion-generator-icon-small.png"/></a> <a href="/wiki/blocks/power/turbine-generator"><img id="spr" src="/wiki/images/turbine-generator-icon-small.png"/></a> <a href="/wiki/blocks/power/impact-reactor"><img id="spr" src="/wiki/images/impact-reactor-icon-small.png"/></a> <a href="/wiki/blocks/units/crawler-factory"><img id="spr" src="/wiki/images/crawler-factory-icon-small.png"/></a> 
 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
 
 
 
