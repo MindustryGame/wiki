@@ -1,6 +1,6 @@
 # Liquid Tank 
-<img id="spr" src="../../images/liquid-tank-icon-large.png"></img>
-<a href="../../items/metaglass.md"><img id="spr" src="../../images/item-metaglass-medium.png"/></a>x50 <a href="../../items/titanium.md"><img id="spr" src="../../images/item-titanium-medium.png"/></a>x50 
+<img id="spr" src="../../../images/liquid-tank-icon-large.png"></img>
+<a href="../../../items/metaglass.md"><img id="spr" src="../../../images/item-metaglass-medium.png"/></a>x50 <a href="../../../items/titanium.md"><img id="spr" src="../../../images/item-titanium-medium.png"/></a>x50 
 
 *"Stores a large amount of liquids. Use it for creating buffers when there is a non-constant demand of materials or as a safeguard for cooling vital blocks."*
 
@@ -20,6 +20,8 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
 
 
 

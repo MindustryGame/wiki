@@ -1,6 +1,6 @@
 # Large Battery 
-<img id="spr" src="../../images/battery-large-icon-large.png"></img>
-<a href="../../items/lead.md"><img id="spr" src="../../images/item-lead-medium.png"/></a>x80 <a href="../../items/titanium.md"><img id="spr" src="../../images/item-titanium-medium.png"/></a>x40 <a href="../../items/silicon.md"><img id="spr" src="../../images/item-silicon-medium.png"/></a>x40 
+<img id="spr" src="../../../images/battery-large-icon-large.png"></img>
+<a href="../../../items/lead.md"><img id="spr" src="../../../images/item-lead-medium.png"/></a>x80 <a href="../../../items/titanium.md"><img id="spr" src="../../../images/item-titanium-medium.png"/></a>x40 <a href="../../../items/silicon.md"><img id="spr" src="../../../images/item-silicon-medium.png"/></a>x40 
 
 *"Stores much more power than a regular battery."*
 
@@ -20,6 +20,8 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
 
 
 

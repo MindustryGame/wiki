@@ -1,6 +1,6 @@
 # Ghoul Bomber Factory 
-<img id="spr" src="../../images/ghoul-factory-icon-large.png"></img>
-<a href="../../items/lead.md"><img id="spr" src="../../images/item-lead-medium.png"/></a>x130 <a href="../../items/titanium.md"><img id="spr" src="../../images/item-titanium-medium.png"/></a>x100 <a href="../../items/silicon.md"><img id="spr" src="../../images/item-silicon-medium.png"/></a>x220 <a href="../../items/plastanium.md"><img id="spr" src="../../images/item-plastanium-medium.png"/></a>x80 
+<img id="spr" src="../../../images/ghoul-factory-icon-large.png"></img>
+<a href="../../../items/lead.md"><img id="spr" src="../../../images/item-lead-medium.png"/></a>x130 <a href="../../../items/titanium.md"><img id="spr" src="../../../images/item-titanium-medium.png"/></a>x100 <a href="../../../items/silicon.md"><img id="spr" src="../../../images/item-silicon-medium.png"/></a>x220 <a href="../../../items/plastanium.md"><img id="spr" src="../../../images/item-plastanium-medium.png"/></a>x80 
 
 *"Produces heavy carpet bombers."*
 
@@ -26,6 +26,8 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
 
 
 

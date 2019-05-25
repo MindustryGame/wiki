@@ -1,6 +1,6 @@
 # Spectre 
-<img id="spr" src="../../images/spectre-icon-large.png"></img>
-<a href="../../items/copper.md"><img id="spr" src="../../images/item-copper-medium.png"/></a>x700 <a href="../../items/graphite.md"><img id="spr" src="../../images/item-graphite-medium.png"/></a>x600 <a href="../../items/thorium.md"><img id="spr" src="../../images/item-thorium-medium.png"/></a>x500 <a href="../../items/plastanium.md"><img id="spr" src="../../images/item-plastanium-medium.png"/></a>x350 <a href="../../items/surge-alloy.md"><img id="spr" src="../../images/item-surge-alloy-medium.png"/></a>x500 
+<img id="spr" src="../../../images/spectre-icon-large.png"></img>
+<a href="../../../items/copper.md"><img id="spr" src="../../../images/item-copper-medium.png"/></a>x700 <a href="../../../items/graphite.md"><img id="spr" src="../../../images/item-graphite-medium.png"/></a>x600 <a href="../../../items/thorium.md"><img id="spr" src="../../../images/item-thorium-medium.png"/></a>x500 <a href="../../../items/plastanium.md"><img id="spr" src="../../../images/item-plastanium-medium.png"/></a>x350 <a href="../../../items/surge-alloy.md"><img id="spr" src="../../../images/item-surge-alloy-medium.png"/></a>x500 
 
 *"A large turret which shoots two powerful bullets at once."*
 
@@ -38,6 +38,8 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
 
 
 

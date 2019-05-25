@@ -1,6 +1,6 @@
 # Impact Reactor 
-<img id="spr" src="../../images/impact-reactor-icon-large.png"></img>
-<a href="../../items/lead.md"><img id="spr" src="../../images/item-lead-medium.png"/></a>x1000 <a href="../../items/metaglass.md"><img id="spr" src="../../images/item-metaglass-medium.png"/></a>x500 <a href="../../items/graphite.md"><img id="spr" src="../../images/item-graphite-medium.png"/></a>x800 <a href="../../items/thorium.md"><img id="spr" src="../../images/item-thorium-medium.png"/></a>x200 <a href="../../items/silicon.md"><img id="spr" src="../../images/item-silicon-medium.png"/></a>x600 <a href="../../items/surge-alloy.md"><img id="spr" src="../../images/item-surge-alloy-medium.png"/></a>x500 
+<img id="spr" src="../../../images/impact-reactor-icon-large.png"></img>
+<a href="../../../items/lead.md"><img id="spr" src="../../../images/item-lead-medium.png"/></a>x1000 <a href="../../../items/metaglass.md"><img id="spr" src="../../../images/item-metaglass-medium.png"/></a>x500 <a href="../../../items/graphite.md"><img id="spr" src="../../../images/item-graphite-medium.png"/></a>x800 <a href="../../../items/thorium.md"><img id="spr" src="../../../images/item-thorium-medium.png"/></a>x200 <a href="../../../items/silicon.md"><img id="spr" src="../../../images/item-silicon-medium.png"/></a>x600 <a href="../../../items/surge-alloy.md"><img id="spr" src="../../../images/item-surge-alloy-medium.png"/></a>x500 
 
 
 
@@ -33,6 +33,8 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
 
 
 

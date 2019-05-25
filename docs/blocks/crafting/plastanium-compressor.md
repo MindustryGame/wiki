@@ -1,6 +1,6 @@
 # Plastanium Compressor 
-<img id="spr" src="../../images/plastanium-compressor-icon-large.png"></img>
-<a href="../../items/lead.md"><img id="spr" src="../../images/item-lead-medium.png"/></a>x230 <a href="../../items/graphite.md"><img id="spr" src="../../images/item-graphite-medium.png"/></a>x120 <a href="../../items/titanium.md"><img id="spr" src="../../images/item-titanium-medium.png"/></a>x160 <a href="../../items/silicon.md"><img id="spr" src="../../images/item-silicon-medium.png"/></a>x160 
+<img id="spr" src="../../../images/plastanium-compressor-icon-large.png"></img>
+<a href="../../../items/lead.md"><img id="spr" src="../../../images/item-lead-medium.png"/></a>x230 <a href="../../../items/graphite.md"><img id="spr" src="../../../images/item-graphite-medium.png"/></a>x120 <a href="../../../items/titanium.md"><img id="spr" src="../../../images/item-titanium-medium.png"/></a>x160 <a href="../../../items/silicon.md"><img id="spr" src="../../../images/item-silicon-medium.png"/></a>x160 
 
 *"Produces plastanium from oil and titanium."*
 
@@ -34,6 +34,8 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
 
 
 

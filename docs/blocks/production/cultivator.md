@@ -1,6 +1,6 @@
 # Cultivator 
-<img id="spr" src="../../images/cultivator-icon-large.png"></img>
-<a href="../../items/copper.md"><img id="spr" src="../../images/item-copper-medium.png"/></a>x20 <a href="../../items/lead.md"><img id="spr" src="../../images/item-lead-medium.png"/></a>x50 <a href="../../items/silicon.md"><img id="spr" src="../../images/item-silicon-medium.png"/></a>x20 
+<img id="spr" src="../../../images/cultivator-icon-large.png"></img>
+<a href="../../../items/copper.md"><img id="spr" src="../../../images/item-copper-medium.png"/></a>x20 <a href="../../../items/lead.md"><img id="spr" src="../../../images/item-lead-medium.png"/></a>x50 <a href="../../../items/silicon.md"><img id="spr" src="../../../images/item-silicon-medium.png"/></a>x20 
 
 *"Cultivates tiny concentrations of spores into industry-ready pods."*
 
@@ -34,6 +34,8 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
 
 
 

@@ -1,6 +1,6 @@
 # Rotary Pump 
-<img id="spr" src="../../images/rotary-pump-icon-large.png"></img>
-<a href="../../items/copper.md"><img id="spr" src="../../images/item-copper-medium.png"/></a>x140 <a href="../../items/lead.md"><img id="spr" src="../../images/item-lead-medium.png"/></a>x100 <a href="../../items/titanium.md"><img id="spr" src="../../images/item-titanium-medium.png"/></a>x70 <a href="../../items/silicon.md"><img id="spr" src="../../images/item-silicon-medium.png"/></a>x40 
+<img id="spr" src="../../../images/rotary-pump-icon-large.png"></img>
+<a href="../../../items/copper.md"><img id="spr" src="../../../images/item-copper-medium.png"/></a>x140 <a href="../../../items/lead.md"><img id="spr" src="../../../images/item-lead-medium.png"/></a>x100 <a href="../../../items/titanium.md"><img id="spr" src="../../../images/item-titanium-medium.png"/></a>x70 <a href="../../../items/silicon.md"><img id="spr" src="../../../images/item-silicon-medium.png"/></a>x40 
 
 *"An advanced pump which doubles up speed by using power."*
 
@@ -28,6 +28,8 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
 
 
 

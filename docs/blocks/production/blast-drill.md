@@ -1,6 +1,6 @@
 # Airblast Drill 
-<img id="spr" src="../../images/blast-drill-icon-large.png"></img>
-<a href="../../items/copper.md"><img id="spr" src="../../images/item-copper-medium.png"/></a>x130 <a href="../../items/titanium.md"><img id="spr" src="../../images/item-titanium-medium.png"/></a>x100 <a href="../../items/thorium.md"><img id="spr" src="../../images/item-thorium-medium.png"/></a>x100 <a href="../../items/silicon.md"><img id="spr" src="../../images/item-silicon-medium.png"/></a>x120 
+<img id="spr" src="../../../images/blast-drill-icon-large.png"></img>
+<a href="../../../items/copper.md"><img id="spr" src="../../../images/item-copper-medium.png"/></a>x130 <a href="../../../items/titanium.md"><img id="spr" src="../../../images/item-titanium-medium.png"/></a>x100 <a href="../../../items/thorium.md"><img id="spr" src="../../../images/item-thorium-medium.png"/></a>x100 <a href="../../../items/silicon.md"><img id="spr" src="../../../images/item-silicon-medium.png"/></a>x120 
 
 *"The ultimate drill. Requires large amounts of power."*
 
@@ -38,6 +38,8 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
 
 
 

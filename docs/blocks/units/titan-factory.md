@@ -1,6 +1,6 @@
 # Titan Mech Factory 
-<img id="spr" src="../../images/titan-factory-icon-large.png"></img>
-<a href="../../items/lead.md"><img id="spr" src="../../images/item-lead-medium.png"/></a>x140 <a href="../../items/thorium.md"><img id="spr" src="../../images/item-thorium-medium.png"/></a>x90 <a href="../../items/silicon.md"><img id="spr" src="../../images/item-silicon-medium.png"/></a>x90 
+<img id="spr" src="../../../images/titan-factory-icon-large.png"></img>
+<a href="../../../items/lead.md"><img id="spr" src="../../../images/item-lead-medium.png"/></a>x140 <a href="../../../items/thorium.md"><img id="spr" src="../../../images/item-thorium-medium.png"/></a>x90 <a href="../../../items/silicon.md"><img id="spr" src="../../../images/item-silicon-medium.png"/></a>x90 
 
 *"Produces advanced, armored ground units."*
 
@@ -26,6 +26,8 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
 
 
 

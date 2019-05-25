@@ -1,6 +1,6 @@
 # Wave 
-<img id="spr" src="../../images/wave-icon-large.png"></img>
-<a href="../../items/lead.md"><img id="spr" src="../../images/item-lead-medium.png"/></a>x150 <a href="../../items/metaglass.md"><img id="spr" src="../../images/item-metaglass-medium.png"/></a>x90 
+<img id="spr" src="../../../images/wave-icon-large.png"></img>
+<a href="../../../items/lead.md"><img id="spr" src="../../../images/item-lead-medium.png"/></a>x150 <a href="../../../items/metaglass.md"><img id="spr" src="../../../images/item-metaglass-medium.png"/></a>x90 
 
 *"A medium-sized rapid-fire turret which shoots liquid bubbles."*
 
@@ -30,6 +30,8 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
 
 
 

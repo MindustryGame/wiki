@@ -1,6 +1,6 @@
 # Phantom Drone Factory 
-<img id="spr" src="../../images/phantom-factory-icon-large.png"></img>
-<a href="../../items/lead.md"><img id="spr" src="../../images/item-lead-medium.png"/></a>x110 <a href="../../items/titanium.md"><img id="spr" src="../../images/item-titanium-medium.png"/></a>x90 <a href="../../items/thorium.md"><img id="spr" src="../../images/item-thorium-medium.png"/></a>x80 <a href="../../items/silicon.md"><img id="spr" src="../../images/item-silicon-medium.png"/></a>x210 
+<img id="spr" src="../../../images/phantom-factory-icon-large.png"></img>
+<a href="../../../items/lead.md"><img id="spr" src="../../../images/item-lead-medium.png"/></a>x110 <a href="../../../items/titanium.md"><img id="spr" src="../../../images/item-titanium-medium.png"/></a>x90 <a href="../../../items/thorium.md"><img id="spr" src="../../../images/item-thorium-medium.png"/></a>x80 <a href="../../../items/silicon.md"><img id="spr" src="../../../images/item-silicon-medium.png"/></a>x210 
 
 *"Produces advanced drone units which are significantly more effective than a spirit drone."*
 
@@ -26,6 +26,8 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
 
 
 

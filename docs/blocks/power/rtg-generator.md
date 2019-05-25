@@ -1,6 +1,6 @@
 # RTG Generator 
-<img id="spr" src="../../images/rtg-generator-icon-large.png"></img>
-<a href="../../items/lead.md"><img id="spr" src="../../images/item-lead-medium.png"/></a>x200 <a href="../../items/thorium.md"><img id="spr" src="../../images/item-thorium-medium.png"/></a>x100 <a href="../../items/silicon.md"><img id="spr" src="../../images/item-silicon-medium.png"/></a>x150 <a href="../../items/plastanium.md"><img id="spr" src="../../images/item-plastanium-medium.png"/></a>x150 <a href="../../items/phase-fabric.md"><img id="spr" src="../../images/item-phase-fabric-medium.png"/></a>x50 
+<img id="spr" src="../../../images/rtg-generator-icon-large.png"></img>
+<a href="../../../items/lead.md"><img id="spr" src="../../../images/item-lead-medium.png"/></a>x200 <a href="../../../items/thorium.md"><img id="spr" src="../../../images/item-thorium-medium.png"/></a>x100 <a href="../../../items/silicon.md"><img id="spr" src="../../../images/item-silicon-medium.png"/></a>x150 <a href="../../../items/plastanium.md"><img id="spr" src="../../../images/item-plastanium-medium.png"/></a>x150 <a href="../../../items/phase-fabric.md"><img id="spr" src="../../../images/item-phase-fabric-medium.png"/></a>x50 
 
 *"A radioisotope thermoelectric generator which does not require cooling but provides less power than a thorium reactor."*
 
@@ -29,6 +29,8 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
 
 
 

@@ -1,6 +1,6 @@
 # Alloy Smelter 
-<img id="spr" src="../../images/alloy-smelter-icon-large.png"></img>
-<a href="../../items/lead.md"><img id="spr" src="../../images/item-lead-medium.png"/></a>x160 <a href="../../items/thorium.md"><img id="spr" src="../../images/item-thorium-medium.png"/></a>x140 <a href="../../items/silicon.md"><img id="spr" src="../../images/item-silicon-medium.png"/></a>x160 
+<img id="spr" src="../../../images/alloy-smelter-icon-large.png"></img>
+<a href="../../../items/lead.md"><img id="spr" src="../../../images/item-lead-medium.png"/></a>x160 <a href="../../../items/thorium.md"><img id="spr" src="../../../images/item-thorium-medium.png"/></a>x140 <a href="../../../items/silicon.md"><img id="spr" src="../../../images/item-silicon-medium.png"/></a>x160 
 
 *"Produces surge alloy from titanium, lead, silicon and copper."*
 
@@ -30,6 +30,8 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
 
 
 

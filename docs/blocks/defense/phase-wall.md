@@ -1,6 +1,6 @@
 # Phase Wall 
-<img id="spr" src="../../images/phase-wall-icon-large.png"></img>
-<a href="../../items/phase-fabric.md"><img id="spr" src="../../images/item-phase-fabric-medium.png"/></a>x12 
+<img id="spr" src="../../../images/phase-wall-icon-large.png"></img>
+<a href="../../../items/phase-fabric.md"><img id="spr" src="../../../images/item-phase-fabric-medium.png"/></a>x12 
 
 *"Not as strong as a thorium wall but will deflect bullets unless they are too powerful."*
 
@@ -16,6 +16,8 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
 
 
 

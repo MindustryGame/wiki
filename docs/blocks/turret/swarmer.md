@@ -1,6 +1,6 @@
 # Swarmer 
-<img id="spr" src="../../images/swarmer-icon-large.png"></img>
-<a href="../../items/graphite.md"><img id="spr" src="../../images/item-graphite-medium.png"/></a>x70 <a href="../../items/titanium.md"><img id="spr" src="../../images/item-titanium-medium.png"/></a>x70 <a href="../../items/silicon.md"><img id="spr" src="../../images/item-silicon-medium.png"/></a>x60 <a href="../../items/plastanium.md"><img id="spr" src="../../images/item-plastanium-medium.png"/></a>x90 
+<img id="spr" src="../../../images/swarmer-icon-large.png"></img>
+<a href="../../../items/graphite.md"><img id="spr" src="../../../images/item-graphite-medium.png"/></a>x70 <a href="../../../items/titanium.md"><img id="spr" src="../../../images/item-titanium-medium.png"/></a>x70 <a href="../../../items/silicon.md"><img id="spr" src="../../../images/item-silicon-medium.png"/></a>x60 <a href="../../../items/plastanium.md"><img id="spr" src="../../../images/item-plastanium-medium.png"/></a>x90 
 
 *"A medium-sized turret which shoots burst missiles."*
 
@@ -35,6 +35,8 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
 
 
 
