@@ -1,6 +1,6 @@
-# <img id="spr" src="../../../images/trident-ship-pad-icon-large.png"></img> Trident Ship Pad 
+# <img id="spr" src="/wiki/images/trident-ship-pad-icon-large.png"></img> Trident Ship Pad 
 
-<a href="../../../items/copper.md"><img id="spr" src="../../../images/item-copper-medium.png"/></a>x250 <a href="../../../items/lead.md"><img id="spr" src="../../../images/item-lead-medium.png"/></a>x250 <a href="../../../items/titanium.md"><img id="spr" src="../../../images/item-titanium-medium.png"/></a>x300 <a href="../../../items/silicon.md"><img id="spr" src="../../../images/item-silicon-medium.png"/></a>x250 <a href="../../../items/plastanium.md"><img id="spr" src="../../../images/item-plastanium-medium.png"/></a>x200 
+<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-large.png"/></a>x250 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-large.png"/></a>x250 <a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-large.png"/></a>x300 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-large.png"/></a>x250 <a href="/wiki/items/plastanium"><img id="spr" src="/wiki/images/item-plastanium-large.png"/></a>x200 
 
 *"Leave your current vessel and change into a reasonably well armored heavy bomber.
 Use the pad by double tapping while standing on it."*
@@ -25,6 +25,8 @@ Use the pad by double tapping while standing on it."*
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
 
 
 

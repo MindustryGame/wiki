@@ -1,6 +1,6 @@
-# <img id="spr" src="../../../images/salvo-icon-large.png"></img> Salvo 
+# <img id="spr" src="/wiki/images/salvo-icon-large.png"></img> Salvo 
 
-<a href="../../../items/copper.md"><img id="spr" src="../../../images/item-copper-medium.png"/></a>x210 <a href="../../../items/graphite.md"><img id="spr" src="../../../images/item-graphite-medium.png"/></a>x190 <a href="../../../items/titanium.md"><img id="spr" src="../../../images/item-titanium-medium.png"/></a>x120 
+<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-large.png"/></a>x210 <a href="/wiki/items/graphite"><img id="spr" src="/wiki/images/item-graphite-large.png"/></a>x190 <a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-large.png"/></a>x120 
 
 *"A medium-sized turret which fires shots in salvos."*
 
@@ -35,6 +35,8 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
 
 
 

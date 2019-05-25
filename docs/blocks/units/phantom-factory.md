@@ -1,6 +1,6 @@
-# <img id="spr" src="../../../images/phantom-factory-icon-large.png"></img> Phantom Drone Factory 
+# <img id="spr" src="/wiki/images/phantom-factory-icon-large.png"></img> Phantom Drone Factory 
 
-<a href="../../../items/lead.md"><img id="spr" src="../../../images/item-lead-medium.png"/></a>x110 <a href="../../../items/titanium.md"><img id="spr" src="../../../images/item-titanium-medium.png"/></a>x90 <a href="../../../items/thorium.md"><img id="spr" src="../../../images/item-thorium-medium.png"/></a>x80 <a href="../../../items/silicon.md"><img id="spr" src="../../../images/item-silicon-medium.png"/></a>x210 
+<a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-large.png"/></a>x110 <a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-large.png"/></a>x90 <a href="/wiki/items/thorium"><img id="spr" src="/wiki/images/item-thorium-large.png"/></a>x80 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-large.png"/></a>x210 
 
 *"Produces advanced drone units which are significantly more effective than a spirit drone."*
 
@@ -26,6 +26,8 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
 
 
 

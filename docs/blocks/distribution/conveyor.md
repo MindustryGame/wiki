@@ -1,6 +1,6 @@
-# <img id="spr" src="../../../images/conveyor-icon-large.png"></img> Conveyor 
+# <img id="spr" src="/wiki/images/conveyor-icon-large.png"></img> Conveyor 
 
-<a href="../../../items/copper.md"><img id="spr" src="../../../images/item-copper-medium.png"/></a>x1 
+<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-large.png"/></a>x1 
 
 *"Basic item transport block. Moves items forward and automatically deposits them into turrets or crafters. Rotatable."*
 
@@ -21,6 +21,8 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
 
 
 

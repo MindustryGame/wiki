@@ -1,6 +1,6 @@
-# <img id="spr" src="../../../images/revenant-factory-icon-large.png"></img> Revenant Fighter Factory 
+# <img id="spr" src="/wiki/images/revenant-factory-icon-large.png"></img> Revenant Fighter Factory 
 
-<a href="../../../items/lead.md"><img id="spr" src="../../../images/item-lead-medium.png"/></a>x300 <a href="../../../items/titanium.md"><img id="spr" src="../../../images/item-titanium-medium.png"/></a>x400 <a href="../../../items/silicon.md"><img id="spr" src="../../../images/item-silicon-medium.png"/></a>x400 <a href="../../../items/plastanium.md"><img id="spr" src="../../../images/item-plastanium-medium.png"/></a>x300 <a href="../../../items/surge-alloy.md"><img id="spr" src="../../../images/item-surge-alloy-medium.png"/></a>x100 
+<a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-large.png"/></a>x300 <a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-large.png"/></a>x400 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-large.png"/></a>x400 <a href="/wiki/items/plastanium"><img id="spr" src="/wiki/images/item-plastanium-large.png"/></a>x300 <a href="/wiki/items/surge-alloy"><img id="spr" src="/wiki/images/item-surge-alloy-large.png"/></a>x100 
 
 *"Produces heavy laser air units."*
 
@@ -26,6 +26,8 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
 
 
 

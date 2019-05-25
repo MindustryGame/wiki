@@ -1,6 +1,6 @@
-# <img id="spr" src="../../../images/spirit-factory-icon-large.png"></img> Spirit Drone Factory 
+# <img id="spr" src="/wiki/images/spirit-factory-icon-large.png"></img> Spirit Drone Factory 
 
-<a href="../../../items/copper.md"><img id="spr" src="../../../images/item-copper-medium.png"/></a>x70 <a href="../../../items/lead.md"><img id="spr" src="../../../images/item-lead-medium.png"/></a>x110 <a href="../../../items/silicon.md"><img id="spr" src="../../../images/item-silicon-medium.png"/></a>x80 
+<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-large.png"/></a>x70 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-large.png"/></a>x110 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-large.png"/></a>x80 
 
 *"Produces light drones which mine ore and repair blocks."*
 
@@ -26,6 +26,8 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
 
 
 

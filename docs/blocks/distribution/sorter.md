@@ -1,6 +1,6 @@
-# <img id="spr" src="../../../images/sorter-icon-large.png"></img> Sorter 
+# <img id="spr" src="/wiki/images/sorter-icon-large.png"></img> Sorter 
 
-<a href="../../../items/copper.md"><img id="spr" src="../../../images/item-copper-medium.png"/></a>x4 <a href="../../../items/lead.md"><img id="spr" src="../../../images/item-lead-medium.png"/></a>x4 
+<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-large.png"/></a>x4 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-large.png"/></a>x4 
 
 *"Sorts items. If an item matches the selection, it is allowed to pass. Otherwise, the item is outputted to the left and right."*
 
@@ -16,6 +16,8 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
 
 
 

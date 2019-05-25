@@ -1,6 +1,6 @@
-# <img id="spr" src="../../../images/differential-generator-icon-large.png"></img> Differential Generator 
+# <img id="spr" src="/wiki/images/differential-generator-icon-large.png"></img> Differential Generator 
 
-<a href="../../../items/copper.md"><img id="spr" src="../../../images/item-copper-medium.png"/></a>x140 <a href="../../../items/lead.md"><img id="spr" src="../../../images/item-lead-medium.png"/></a>x200 <a href="../../../items/metaglass.md"><img id="spr" src="../../../images/item-metaglass-medium.png"/></a>x100 <a href="../../../items/titanium.md"><img id="spr" src="../../../images/item-titanium-medium.png"/></a>x100 <a href="../../../items/silicon.md"><img id="spr" src="../../../images/item-silicon-medium.png"/></a>x130 
+<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-large.png"/></a>x140 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-large.png"/></a>x200 <a href="/wiki/items/metaglass"><img id="spr" src="/wiki/images/item-metaglass-large.png"/></a>x100 <a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-large.png"/></a>x100 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-large.png"/></a>x130 
 
 
 
@@ -32,6 +32,8 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
 
 
 

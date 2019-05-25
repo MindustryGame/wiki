@@ -1,6 +1,6 @@
-# <img id="spr" src="../../../images/thermal-pump-icon-large.png"></img> Thermal Pump 
+# <img id="spr" src="/wiki/images/thermal-pump-icon-large.png"></img> Thermal Pump 
 
-<a href="../../../items/copper.md"><img id="spr" src="../../../images/item-copper-medium.png"/></a>x160 <a href="../../../items/lead.md"><img id="spr" src="../../../images/item-lead-medium.png"/></a>x130 <a href="../../../items/titanium.md"><img id="spr" src="../../../images/item-titanium-medium.png"/></a>x80 <a href="../../../items/thorium.md"><img id="spr" src="../../../images/item-thorium-medium.png"/></a>x70 <a href="../../../items/silicon.md"><img id="spr" src="../../../images/item-silicon-medium.png"/></a>x60 
+<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-large.png"/></a>x160 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-large.png"/></a>x130 <a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-large.png"/></a>x80 <a href="/wiki/items/thorium"><img id="spr" src="/wiki/images/item-thorium-large.png"/></a>x70 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-large.png"/></a>x60 
 
 *"The ultimate pump."*
 
@@ -28,6 +28,8 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
 
 
 

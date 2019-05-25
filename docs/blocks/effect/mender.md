@@ -1,6 +1,6 @@
-# <img id="spr" src="../../../images/mender-icon-large.png"></img> Mender 
+# <img id="spr" src="/wiki/images/mender-icon-large.png"></img> Mender 
 
-<a href="../../../items/copper.md"><img id="spr" src="../../../images/item-copper-medium.png"/></a>x50 <a href="../../../items/lead.md"><img id="spr" src="../../../images/item-lead-medium.png"/></a>x60 
+<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-large.png"/></a>x50 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-large.png"/></a>x60 
 
 
 
@@ -33,6 +33,8 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
 
 
 

@@ -1,6 +1,6 @@
-# <img id="spr" src="../../../images/thermal-generator-icon-large.png"></img> Thermal Generator 
+# <img id="spr" src="/wiki/images/thermal-generator-icon-large.png"></img> Thermal Generator 
 
-<a href="../../../items/copper.md"><img id="spr" src="../../../images/item-copper-medium.png"/></a>x80 <a href="../../../items/lead.md"><img id="spr" src="../../../images/item-lead-medium.png"/></a>x100 <a href="../../../items/metaglass.md"><img id="spr" src="../../../images/item-metaglass-medium.png"/></a>x80 <a href="../../../items/graphite.md"><img id="spr" src="../../../images/item-graphite-medium.png"/></a>x70 <a href="../../../items/silicon.md"><img id="spr" src="../../../images/item-silicon-medium.png"/></a>x70 
+<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-large.png"/></a>x80 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-large.png"/></a>x100 <a href="/wiki/items/metaglass"><img id="spr" src="/wiki/images/item-metaglass-large.png"/></a>x80 <a href="/wiki/items/graphite"><img id="spr" src="/wiki/images/item-graphite-large.png"/></a>x70 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-large.png"/></a>x70 
 
 *"Generates power when placed in hot locations."*
 
@@ -20,6 +20,8 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
 
 
 

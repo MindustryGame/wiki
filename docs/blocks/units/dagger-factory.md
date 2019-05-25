@@ -1,6 +1,6 @@
-# <img id="spr" src="../../../images/dagger-factory-icon-large.png"></img> Dagger Mech Factory 
+# <img id="spr" src="/wiki/images/dagger-factory-icon-large.png"></img> Dagger Mech Factory 
 
-<a href="../../../items/lead.md"><img id="spr" src="../../../images/item-lead-medium.png"/></a>x90 <a href="../../../items/silicon.md"><img id="spr" src="../../../images/item-silicon-medium.png"/></a>x70 
+<a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-large.png"/></a>x90 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-large.png"/></a>x70 
 
 *"Produces basic ground units."*
 
@@ -26,6 +26,8 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
 
 
 

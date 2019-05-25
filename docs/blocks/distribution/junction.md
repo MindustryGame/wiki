@@ -1,6 +1,6 @@
-# <img id="spr" src="../../../images/junction-icon-large.png"></img> Junction 
+# <img id="spr" src="/wiki/images/junction-icon-large.png"></img> Junction 
 
-<a href="../../../items/copper.md"><img id="spr" src="../../../images/item-copper-medium.png"/></a>x3 
+<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-large.png"/></a>x3 
 
 *"Acts as a bridge for two crossing conveyor belts. Useful in situations with two different conveyors carrying different materials to different locations."*
 
@@ -16,6 +16,8 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
 
 
 

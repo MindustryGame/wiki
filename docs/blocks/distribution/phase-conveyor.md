@@ -1,6 +1,6 @@
-# <img id="spr" src="../../../images/phase-conveyor-icon-large.png"></img> Phase Conveyor 
+# <img id="spr" src="/wiki/images/phase-conveyor-icon-large.png"></img> Phase Conveyor 
 
-<a href="../../../items/lead.md"><img id="spr" src="../../../images/item-lead-medium.png"/></a>x20 <a href="../../../items/graphite.md"><img id="spr" src="../../../images/item-graphite-medium.png"/></a>x20 <a href="../../../items/silicon.md"><img id="spr" src="../../../images/item-silicon-medium.png"/></a>x15 <a href="../../../items/phase-fabric.md"><img id="spr" src="../../../images/item-phase-fabric-medium.png"/></a>x10 
+<a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-large.png"/></a>x20 <a href="/wiki/items/graphite"><img id="spr" src="/wiki/images/item-graphite-large.png"/></a>x20 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-large.png"/></a>x15 <a href="/wiki/items/phase-fabric"><img id="spr" src="/wiki/images/item-phase-fabric-large.png"/></a>x10 
 
 *"Advanced item transport block. Uses power to teleport items to a connected phase conveyor over several tiles."*
 
@@ -24,6 +24,8 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
 
 
 

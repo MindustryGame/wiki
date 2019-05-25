@@ -1,6 +1,6 @@
-# <img id="spr" src="../../../images/liquid-junction-icon-large.png"></img> Liquid Junction 
+# <img id="spr" src="/wiki/images/liquid-junction-icon-large.png"></img> Liquid Junction 
 
-<a href="../../../items/metaglass.md"><img id="spr" src="../../../images/item-metaglass-medium.png"/></a>x4 <a href="../../../items/titanium.md"><img id="spr" src="../../../images/item-titanium-medium.png"/></a>x4 
+<a href="/wiki/items/metaglass"><img id="spr" src="/wiki/images/item-metaglass-large.png"/></a>x4 <a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-large.png"/></a>x4 
 
 *"Acts as a bridge for two crossing conduits. Useful in situations with two different conduits carrying different liquids to different locations."*
 
@@ -16,6 +16,8 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
 
 
 

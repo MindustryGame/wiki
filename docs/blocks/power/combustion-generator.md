@@ -1,6 +1,6 @@
-# <img id="spr" src="../../../images/combustion-generator-icon-large.png"></img> Combustion Generator 
+# <img id="spr" src="/wiki/images/combustion-generator-icon-large.png"></img> Combustion Generator 
 
-<a href="../../../items/copper.md"><img id="spr" src="../../../images/item-copper-medium.png"/></a>x50 <a href="../../../items/lead.md"><img id="spr" src="../../../images/item-lead-medium.png"/></a>x30 
+<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-large.png"/></a>x50 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-large.png"/></a>x30 
 
 *"Generates power by burning oil or flammable materials."*
 
@@ -29,6 +29,8 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
 
 
 

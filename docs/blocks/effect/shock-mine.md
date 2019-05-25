@@ -1,6 +1,6 @@
-# <img id="spr" src="../../../images/shock-mine-icon-large.png"></img> Shock Mine 
+# <img id="spr" src="/wiki/images/shock-mine-icon-large.png"></img> Shock Mine 
 
-<a href="../../../items/lead.md"><img id="spr" src="../../../images/item-lead-medium.png"/></a>x50 <a href="../../../items/silicon.md"><img id="spr" src="../../../images/item-silicon-medium.png"/></a>x25 
+<a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-large.png"/></a>x50 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-large.png"/></a>x25 
 
 *"Damages enemies stepping on the mine. Nearly invisible to the enemy."*
 
@@ -16,6 +16,8 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
 
 
 

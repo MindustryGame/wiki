@@ -1,6 +1,6 @@
-# <img id="spr" src="../../../images/titanium-wall-large-icon-large.png"></img> Large Titanium Wall 
+# <img id="spr" src="/wiki/images/titanium-wall-large-icon-large.png"></img> Large Titanium Wall 
 
-<a href="../../../items/titanium.md"><img id="spr" src="../../../images/item-titanium-medium.png"/></a>x48 
+<a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-large.png"/></a>x48 
 
 
 
@@ -15,6 +15,8 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
 
 
 

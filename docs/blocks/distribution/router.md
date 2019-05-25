@@ -1,6 +1,6 @@
-# <img id="spr" src="../../../images/router-icon-large.png"></img> Router 
+# <img id="spr" src="/wiki/images/router-icon-large.png"></img> Router 
 
-<a href="../../../items/copper.md"><img id="spr" src="../../../images/item-copper-medium.png"/></a>x6 
+<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-large.png"/></a>x6 
 
 *"Accepts items from one direction and outputs them to up to 3 other directions equally. Useful for splitting the materials from one source to multiple targets."*
 
@@ -20,6 +20,8 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
 
 
 

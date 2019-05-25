@@ -1,6 +1,6 @@
-# <img id="spr" src="../../../images/crawler-factory-icon-large.png"></img> Crawler Mech Factory 
+# <img id="spr" src="/wiki/images/crawler-factory-icon-large.png"></img> Crawler Mech Factory 
 
-<a href="../../../items/lead.md"><img id="spr" src="../../../images/item-lead-medium.png"/></a>x100 <a href="../../../items/silicon.md"><img id="spr" src="../../../images/item-silicon-medium.png"/></a>x80 
+<a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-large.png"/></a>x100 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-large.png"/></a>x80 
 
 
 
@@ -25,6 +25,8 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
 
 
 

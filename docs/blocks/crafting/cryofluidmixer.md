@@ -1,6 +1,6 @@
-# <img id="spr" src="../../../images/cryofluidmixer-icon-large.png"></img> Cryofluid Mixer 
+# <img id="spr" src="/wiki/images/cryofluidmixer-icon-large.png"></img> Cryofluid Mixer 
 
-<a href="../../../items/lead.md"><img id="spr" src="../../../images/item-lead-medium.png"/></a>x130 <a href="../../../items/thorium.md"><img id="spr" src="../../../images/item-thorium-medium.png"/></a>x90 <a href="../../../items/silicon.md"><img id="spr" src="../../../images/item-silicon-medium.png"/></a>x80 
+<a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-large.png"/></a>x130 <a href="/wiki/items/thorium"><img id="spr" src="/wiki/images/item-thorium-large.png"/></a>x90 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-large.png"/></a>x80 
 
 *"Combines water and titanium into cryofluid which is much more efficient for cooling."*
 
@@ -34,6 +34,8 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
 
 
 

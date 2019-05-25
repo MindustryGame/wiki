@@ -1,6 +1,6 @@
-# <img id="spr" src="../../../images/dart-mech-pad-icon-large.png"></img> Alpha Mech Pad 
+# <img id="spr" src="/wiki/images/dart-mech-pad-icon-large.png"></img> Alpha Mech Pad 
 
-<a href="../../../items/copper.md"><img id="spr" src="../../../images/item-copper-medium.png"/></a>x150 <a href="../../../items/lead.md"><img id="spr" src="../../../images/item-lead-medium.png"/></a>x200 <a href="../../../items/graphite.md"><img id="spr" src="../../../images/item-graphite-medium.png"/></a>x100 
+<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-large.png"/></a>x150 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-large.png"/></a>x200 <a href="/wiki/items/graphite"><img id="spr" src="/wiki/images/item-graphite-large.png"/></a>x100 
 
 
 
@@ -23,6 +23,8 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
 
 
 

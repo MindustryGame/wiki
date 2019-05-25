@@ -1,6 +1,6 @@
-# <img id="spr" src="../../../images/solar-panel-large-icon-large.png"></img> Large Solar Panel 
+# <img id="spr" src="/wiki/images/solar-panel-large-icon-large.png"></img> Large Solar Panel 
 
-<a href="../../../items/lead.md"><img id="spr" src="../../../images/item-lead-medium.png"/></a>x200 <a href="../../../items/silicon.md"><img id="spr" src="../../../images/item-silicon-medium.png"/></a>x290 <a href="../../../items/phase-fabric.md"><img id="spr" src="../../../images/item-phase-fabric-medium.png"/></a>x30 
+<a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-large.png"/></a>x200 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-large.png"/></a>x290 <a href="/wiki/items/phase-fabric"><img id="spr" src="/wiki/images/item-phase-fabric-large.png"/></a>x30 
 
 *"Provides much better power supply than a standard solar panel, but is also much more expensive to build."*
 
@@ -20,6 +20,8 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
 
 
 

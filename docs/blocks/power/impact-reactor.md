@@ -1,6 +1,6 @@
-# <img id="spr" src="../../../images/impact-reactor-icon-large.png"></img> Impact Reactor 
+# <img id="spr" src="/wiki/images/impact-reactor-icon-large.png"></img> Impact Reactor 
 
-<a href="../../../items/lead.md"><img id="spr" src="../../../images/item-lead-medium.png"/></a>x1000 <a href="../../../items/metaglass.md"><img id="spr" src="../../../images/item-metaglass-medium.png"/></a>x500 <a href="../../../items/graphite.md"><img id="spr" src="../../../images/item-graphite-medium.png"/></a>x800 <a href="../../../items/thorium.md"><img id="spr" src="../../../images/item-thorium-medium.png"/></a>x200 <a href="../../../items/silicon.md"><img id="spr" src="../../../images/item-silicon-medium.png"/></a>x600 <a href="../../../items/surge-alloy.md"><img id="spr" src="../../../images/item-surge-alloy-medium.png"/></a>x500 
+<a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-large.png"/></a>x1000 <a href="/wiki/items/metaglass"><img id="spr" src="/wiki/images/item-metaglass-large.png"/></a>x500 <a href="/wiki/items/graphite"><img id="spr" src="/wiki/images/item-graphite-large.png"/></a>x800 <a href="/wiki/items/thorium"><img id="spr" src="/wiki/images/item-thorium-large.png"/></a>x200 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-large.png"/></a>x600 <a href="/wiki/items/surge-alloy"><img id="spr" src="/wiki/images/item-surge-alloy-large.png"/></a>x500 
 
 
 
@@ -33,6 +33,8 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
 
 
 

@@ -1,6 +1,6 @@
-# <img id="spr" src="../../../images/pulse-conduit-icon-large.png"></img> Pulse Conduit 
+# <img id="spr" src="/wiki/images/pulse-conduit-icon-large.png"></img> Pulse Conduit 
 
-<a href="../../../items/metaglass.md"><img id="spr" src="../../../images/item-metaglass-medium.png"/></a>x2 <a href="../../../items/titanium.md"><img id="spr" src="../../../images/item-titanium-medium.png"/></a>x1 
+<a href="/wiki/items/metaglass"><img id="spr" src="/wiki/images/item-metaglass-large.png"/></a>x2 <a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-large.png"/></a>x1 
 
 *"Advanced liquid transport block. Transports liquids faster and stores more than standard conduits."*
 
@@ -20,6 +20,8 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
 
 
 

@@ -1,6 +1,6 @@
-# <img id="spr" src="../../../images/hail-icon-large.png"></img> Hail 
+# <img id="spr" src="/wiki/images/hail-icon-large.png"></img> Hail 
 
-<a href="../../../items/copper.md"><img id="spr" src="../../../images/item-copper-medium.png"/></a>x80 <a href="../../../items/graphite.md"><img id="spr" src="../../../images/item-graphite-medium.png"/></a>x35 
+<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-large.png"/></a>x80 <a href="/wiki/items/graphite"><img id="spr" src="/wiki/images/item-graphite-large.png"/></a>x35 
 
 *"A small artillery turret."*
 
@@ -35,6 +35,8 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
 
 
 

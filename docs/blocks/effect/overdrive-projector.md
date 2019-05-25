@@ -1,6 +1,6 @@
-# <img id="spr" src="../../../images/overdrive-projector-icon-large.png"></img> Overdrive Projector 
+# <img id="spr" src="/wiki/images/overdrive-projector-icon-large.png"></img> Overdrive Projector 
 
-<a href="../../../items/lead.md"><img id="spr" src="../../../images/item-lead-medium.png"/></a>x200 <a href="../../../items/titanium.md"><img id="spr" src="../../../images/item-titanium-medium.png"/></a>x150 <a href="../../../items/silicon.md"><img id="spr" src="../../../images/item-silicon-medium.png"/></a>x150 <a href="../../../items/plastanium.md"><img id="spr" src="../../../images/item-plastanium-medium.png"/></a>x60 
+<a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-large.png"/></a>x200 <a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-large.png"/></a>x150 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-large.png"/></a>x150 <a href="/wiki/items/plastanium"><img id="spr" src="/wiki/images/item-plastanium-large.png"/></a>x60 
 
 *"Increases the speed of nearby buildings like drills and conveyors."*
 
@@ -34,6 +34,8 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
 
 
 
