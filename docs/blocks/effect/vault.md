@@ -1,6 +1,6 @@
 # <img id="spr" src="/wiki/images/vault-icon-large.png"></img> Vault 
 
-<a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-large.png"/></a>x500 <a href="/wiki/items/thorium"><img id="spr" src="/wiki/images/item-thorium-large.png"/></a>x250 
+<a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-xlarge.png"/></a>x500 <a href="/wiki/items/thorium"><img id="spr" src="/wiki/images/item-thorium-xlarge.png"/></a>x250 
 
 *"Stores a large amount of items of each type. An[LIGHT_GRAY] unloader[] can be used to retrieve items from the vault."*
 
@@ -20,6 +20,7 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
 
 
 

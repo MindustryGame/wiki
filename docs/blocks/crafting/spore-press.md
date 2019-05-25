@@ -1,6 +1,6 @@
 # <img id="spr" src="/wiki/images/spore-press-icon-large.png"></img> Spore Press 
 
-<a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-large.png"/></a>x70 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-large.png"/></a>x60 
+<a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x70 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x60 
 
 *"Compresses spore pods into oil."*
 
@@ -34,6 +34,7 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
 
 
 

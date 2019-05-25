@@ -1,6 +1,6 @@
 # <img id="spr" src="/wiki/images/water-extractor-icon-large.png"></img> Water Extractor 
 
-<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-large.png"/></a>x50 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-large.png"/></a>x40 <a href="/wiki/items/graphite"><img id="spr" src="/wiki/images/item-graphite-large.png"/></a>x50 
+<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x50 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x40 <a href="/wiki/items/graphite"><img id="spr" src="/wiki/images/item-graphite-xlarge.png"/></a>x50 
 
 *"Extracts water from the ground. Use it when there is no lake nearby."*
 
@@ -28,6 +28,7 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
 
 
 

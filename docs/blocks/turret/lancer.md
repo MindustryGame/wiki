@@ -1,6 +1,6 @@
 # <img id="spr" src="/wiki/images/lancer-icon-large.png"></img> Lancer 
 
-<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-large.png"/></a>x50 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-large.png"/></a>x100 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-large.png"/></a>x90 
+<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x50 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x100 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x90 
 
 *"A medium-sized turret which shoots charged electricity beams."*
 
@@ -38,6 +38,7 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
 
 
 

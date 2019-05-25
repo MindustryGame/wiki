@@ -1,6 +1,6 @@
 # <img id="spr" src="/wiki/images/separator-icon-large.png"></img> Separator 
 
-<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-large.png"/></a>x60 <a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-large.png"/></a>x50 
+<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x60 <a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-xlarge.png"/></a>x50 
 
 *"Extracts useful minerals from slag."*
 
@@ -34,6 +34,7 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
 
 
 

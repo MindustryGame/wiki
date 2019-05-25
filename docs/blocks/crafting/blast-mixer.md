@@ -1,6 +1,6 @@
 # <img id="spr" src="/wiki/images/blast-mixer-icon-large.png"></img> Blast Mixer 
 
-<a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-large.png"/></a>x60 <a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-large.png"/></a>x40 
+<a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x60 <a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-xlarge.png"/></a>x40 
 
 *"Uses oil for transforming pyratite into the less flammable but more explosive blast compound."*
 
@@ -30,6 +30,7 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
 
 
 

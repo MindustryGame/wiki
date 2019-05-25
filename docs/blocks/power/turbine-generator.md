@@ -1,6 +1,6 @@
 # <img id="spr" src="/wiki/images/turbine-generator-icon-large.png"></img> Turbine Generator 
 
-<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-large.png"/></a>x70 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-large.png"/></a>x80 <a href="/wiki/items/graphite"><img id="spr" src="/wiki/images/item-graphite-large.png"/></a>x50 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-large.png"/></a>x60 
+<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x70 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x80 <a href="/wiki/items/graphite"><img id="spr" src="/wiki/images/item-graphite-xlarge.png"/></a>x50 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x60 
 
 *"More efficient than a combustion generator, but requires additional water."*
 
@@ -33,6 +33,7 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
 
 
 

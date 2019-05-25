@@ -1,6 +1,6 @@
 # <img id="spr" src="/wiki/images/spectre-icon-large.png"></img> Spectre 
 
-<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-large.png"/></a>x700 <a href="/wiki/items/graphite"><img id="spr" src="/wiki/images/item-graphite-large.png"/></a>x600 <a href="/wiki/items/thorium"><img id="spr" src="/wiki/images/item-thorium-large.png"/></a>x500 <a href="/wiki/items/plastanium"><img id="spr" src="/wiki/images/item-plastanium-large.png"/></a>x350 <a href="/wiki/items/surge-alloy"><img id="spr" src="/wiki/images/item-surge-alloy-large.png"/></a>x500 
+<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x700 <a href="/wiki/items/graphite"><img id="spr" src="/wiki/images/item-graphite-xlarge.png"/></a>x600 <a href="/wiki/items/thorium"><img id="spr" src="/wiki/images/item-thorium-xlarge.png"/></a>x500 <a href="/wiki/items/plastanium"><img id="spr" src="/wiki/images/item-plastanium-xlarge.png"/></a>x350 <a href="/wiki/items/surge-alloy"><img id="spr" src="/wiki/images/item-surge-alloy-xlarge.png"/></a>x500 
 
 *"A large turret which shoots two powerful bullets at once."*
 
@@ -38,6 +38,7 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
 
 
 

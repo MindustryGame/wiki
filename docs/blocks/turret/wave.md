@@ -1,6 +1,6 @@
 # <img id="spr" src="/wiki/images/wave-icon-large.png"></img> Wave 
 
-<a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-large.png"/></a>x150 <a href="/wiki/items/metaglass"><img id="spr" src="/wiki/images/item-metaglass-large.png"/></a>x90 
+<a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x150 <a href="/wiki/items/metaglass"><img id="spr" src="/wiki/images/item-metaglass-xlarge.png"/></a>x90 
 
 *"A medium-sized rapid-fire turret which shoots liquid bubbles."*
 
@@ -30,6 +30,7 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
 
 
 

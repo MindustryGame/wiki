@@ -1,6 +1,6 @@
 # <img id="spr" src="/wiki/images/alloy-smelter-icon-large.png"></img> Alloy Smelter 
 
-<a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-large.png"/></a>x160 <a href="/wiki/items/thorium"><img id="spr" src="/wiki/images/item-thorium-large.png"/></a>x140 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-large.png"/></a>x160 
+<a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x160 <a href="/wiki/items/thorium"><img id="spr" src="/wiki/images/item-thorium-xlarge.png"/></a>x140 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x160 
 
 *"Produces surge alloy from titanium, lead, silicon and copper."*
 
@@ -30,6 +30,7 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
 
 
 

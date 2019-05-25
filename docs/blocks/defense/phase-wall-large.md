@@ -1,6 +1,6 @@
 # <img id="spr" src="/wiki/images/phase-wall-large-icon-large.png"></img> Large Phase Wall 
 
-<a href="/wiki/items/phase-fabric"><img id="spr" src="/wiki/images/item-phase-fabric-large.png"/></a>x48 
+<a href="/wiki/items/phase-fabric"><img id="spr" src="/wiki/images/item-phase-fabric-xlarge.png"/></a>x48 
 
 *"Not as strong as a thorium wall but will deflect bullets unless they are too powerful.
 Spans multiple tiles."*
@@ -17,6 +17,7 @@ Spans multiple tiles."*
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
 
 
 

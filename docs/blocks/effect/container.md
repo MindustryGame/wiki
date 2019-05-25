@@ -1,6 +1,6 @@
 # <img id="spr" src="/wiki/images/container-icon-large.png"></img> Container 
 
-<a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-large.png"/></a>x200 
+<a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-xlarge.png"/></a>x200 
 
 *"Stores a small amount of items of each type. An[LIGHT_GRAY] unloader[] can be used to retrieve items from the container."*
 
@@ -20,6 +20,7 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
 
 
 

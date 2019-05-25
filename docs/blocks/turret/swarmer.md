@@ -1,6 +1,6 @@
 # <img id="spr" src="/wiki/images/swarmer-icon-large.png"></img> Swarmer 
 
-<a href="/wiki/items/graphite"><img id="spr" src="/wiki/images/item-graphite-large.png"/></a>x70 <a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-large.png"/></a>x70 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-large.png"/></a>x60 <a href="/wiki/items/plastanium"><img id="spr" src="/wiki/images/item-plastanium-large.png"/></a>x90 
+<a href="/wiki/items/graphite"><img id="spr" src="/wiki/images/item-graphite-xlarge.png"/></a>x70 <a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-xlarge.png"/></a>x70 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x60 <a href="/wiki/items/plastanium"><img id="spr" src="/wiki/images/item-plastanium-xlarge.png"/></a>x90 
 
 *"A medium-sized turret which shoots burst missiles."*
 
@@ -35,6 +35,7 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
 
 
 
