@@ -4,7 +4,7 @@ python: 3.6
 
 branches: master
 
-install: pip install mkdocs mkdocs-rtd-dropdown
+install: pip install mkdocs
 
 script: mkdocs build
 
