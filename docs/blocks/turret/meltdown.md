@@ -1,6 +1,6 @@
 # Meltdown 
-![Meltdown](../../images/meltdown-icon-large.png)   
-[![Copper](../../images/item-copper-medium.png)](../../items/copper.md)x500 [![Lead](../../images/item-lead-medium.png)](../../items/lead.md)x700 [![Graphite](../../images/item-graphite-medium.png)](../../items/graphite.md)x600 [![Silicon](../../images/item-silicon-medium.png)](../../items/silicon.md)x650 [![Surge Alloy](../../images/item-surge-alloy-medium.png)](../../items/surge-alloy.md)x650 
+<img id="spr" src="../../images/meltdown-icon-large.png"></img>
+<a href="../../items/copper.md"><img id="spr" src="../../images/item-copper-medium.png"/></a>x500 <a href="../../items/lead.md"><img id="spr" src="../../images/item-lead-medium.png"/></a>x700 <a href="../../items/graphite.md"><img id="spr" src="../../images/item-graphite-medium.png"/></a>x600 <a href="../../items/silicon.md"><img id="spr" src="../../images/item-silicon-medium.png"/></a>x650 <a href="../../items/surge-alloy.md"><img id="spr" src="../../images/item-surge-alloy-medium.png"/></a>x650 
 
 *"A large turret which shoots powerful long-range beams."*
 
@@ -37,6 +37,9 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
+
 
 
 

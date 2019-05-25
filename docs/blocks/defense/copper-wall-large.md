@@ -1,6 +1,6 @@
 # Large Copper Wall 
-![Large Copper Wall](../../images/copper-wall-large-icon-large.png)   
-[![Copper](../../images/item-copper-medium.png)](../../items/copper.md)x48 
+<img id="spr" src="../../images/copper-wall-large-icon-large.png"></img>
+<a href="../../items/copper.md"><img id="spr" src="../../images/item-copper-medium.png"/></a>x48 
 
 *"A cheap defensive block.
 Useful for protecting the core and turrets in the first few waves.
@@ -18,6 +18,9 @@ Spans multiple tiles."*
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
+
 
 
 

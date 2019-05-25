@@ -1,6 +1,6 @@
 # Fuse 
-![Fuse](../../images/fuse-icon-large.png)   
-[![Copper](../../images/item-copper-medium.png)](../../items/copper.md)x450 [![Graphite](../../images/item-graphite-medium.png)](../../items/graphite.md)x450 [![Surge Alloy](../../images/item-surge-alloy-medium.png)](../../items/surge-alloy.md)x250 
+<img id="spr" src="../../images/fuse-icon-large.png"></img>
+<a href="../../items/copper.md"><img id="spr" src="../../images/item-copper-medium.png"/></a>x450 <a href="../../items/graphite.md"><img id="spr" src="../../images/item-graphite-medium.png"/></a>x450 <a href="../../items/surge-alloy.md"><img id="spr" src="../../images/item-surge-alloy-medium.png"/></a>x250 
 
 *"A large turret which shoots powerful short-range beams."*
 
@@ -35,6 +35,9 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
+
 
 
 

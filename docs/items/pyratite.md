@@ -1,5 +1,5 @@
 # Pyratite 
-![Pyratite](../images/item-pyratite.png)  
+<img id="spr" src="../images/item-pyratite.png"></img>
 
 *"An extremely flammable substance used in incendiary weapons."*  
 
@@ -11,16 +11,19 @@
 |Flammability|140%|
 |Explosiveness|40%|
 |Radioactivity|0%|
-|Naturally Occurring|No
+|Naturally Occurring|No|
 |Hardness|0|
 
 --- 
 
-##### Produced in: <br>[![Pyratite Mixer](../images/pyratite-mixer-icon-small.png)](../blocks/crafting/pyratite-mixer.md) 
+##### Produced in: <br><a href="../blocks/crafting/pyratite-mixer.md"><img id="spr" src="../images/pyratite-mixer-icon-small.png"/></a> 
 
-##### Required for: <br>[![Blast Mixer](../images/blast-mixer-icon-small.png)](../blocks/crafting/blast-mixer.md) [![Combustion Generator](../images/combustion-generator-icon-small.png)](../blocks/power/combustion-generator.md) [![Turbine Generator](../images/turbine-generator-icon-small.png)](../blocks/power/turbine-generator.md) [![Differential Generator](../images/differential-generator-icon-small.png)](../blocks/power/differential-generator.md) 
+##### Required for: <br><a href="../blocks/crafting/blast-mixer.md"><img id="spr" src="../images/blast-mixer-icon-small.png"/></a> <a href="../blocks/power/combustion-generator.md"><img id="spr" src="../images/combustion-generator-icon-small.png"/></a> <a href="../blocks/power/turbine-generator.md"><img id="spr" src="../images/turbine-generator-icon-small.png"/></a> <a href="../blocks/power/differential-generator.md"><img id="spr" src="../images/differential-generator-icon-small.png"/></a> 
 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
+
 
 
 

@@ -1,6 +1,6 @@
 # Plastanium Compressor 
-![Plastanium Compressor](../../images/plastanium-compressor-icon-large.png)   
-[![Lead](../../images/item-lead-medium.png)](../../items/lead.md)x230 [![Graphite](../../images/item-graphite-medium.png)](../../items/graphite.md)x120 [![Titanium](../../images/item-titanium-medium.png)](../../items/titanium.md)x160 [![Silicon](../../images/item-silicon-medium.png)](../../items/silicon.md)x160 
+<img id="spr" src="../../images/plastanium-compressor-icon-large.png"></img>
+<a href="../../items/lead.md"><img id="spr" src="../../images/item-lead-medium.png"/></a>x230 <a href="../../items/graphite.md"><img id="spr" src="../../images/item-graphite-medium.png"/></a>x120 <a href="../../items/titanium.md"><img id="spr" src="../../images/item-titanium-medium.png"/></a>x160 <a href="../../items/silicon.md"><img id="spr" src="../../images/item-silicon-medium.png"/></a>x160 
 
 *"Produces plastanium from oil and titanium."*
 
@@ -34,6 +34,9 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
+
 
 
 

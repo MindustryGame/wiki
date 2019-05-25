@@ -1,6 +1,6 @@
 # Large Thorium Wall 
-![Large Thorium Wall](../../images/thorium-wall-large-icon-large.png)   
-[![Thorium](../../images/item-thorium-medium.png)](../../items/thorium.md)x48 
+<img id="spr" src="../../images/thorium-wall-large-icon-large.png"></img>
+<a href="../../items/thorium.md"><img id="spr" src="../../images/item-thorium-medium.png"/></a>x48 
 
 *"A strong defensive block.
 Good protection from enemies.
@@ -18,6 +18,9 @@ Spans multiple tiles."*
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
+
 
 
 

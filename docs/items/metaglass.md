@@ -1,5 +1,5 @@
 # Metaglass 
-![Metaglass](../images/item-metaglass.png)  
+<img id="spr" src="../images/item-metaglass.png"></img>
 
 *"A super-tough glass compound. Extensively used for liquid distribution and storage."*  
 
@@ -11,17 +11,20 @@
 |Flammability|0%|
 |Explosiveness|0%|
 |Radioactivity|0%|
-|Naturally Occurring|No
+|Naturally Occurring|No|
 |Build Cost|150%|
 |Hardness|0|
 
 --- 
 
-##### Produced in: <br>[![Kiln](../images/kiln-icon-small.png)](../blocks/crafting/kiln.md) 
+##### Produced in: <br><a href="../blocks/crafting/kiln.md"><img id="spr" src="../images/kiln-icon-small.png"/></a> 
 
 
-##### Used to build: <br>[![Conduit](../images/conduit-icon-small.png)](../blocks/liquid/conduit.md) [![Pulse Conduit](../images/pulse-conduit-icon-small.png)](../blocks/liquid/pulse-conduit.md) [![Liquid Router](../images/liquid-router-icon-small.png)](../blocks/liquid/liquid-router.md) [![Liquid Tank](../images/liquid-tank-icon-small.png)](../blocks/liquid/liquid-tank.md) [![Liquid Junction](../images/liquid-junction-icon-small.png)](../blocks/liquid/liquid-junction.md) [![Bridge Conduit](../images/bridge-conduit-icon-small.png)](../blocks/liquid/bridge-conduit.md) [![Phase Conduit](../images/phase-conduit-icon-small.png)](../blocks/liquid/phase-conduit.md) [![Thermal Generator](../images/thermal-generator-icon-small.png)](../blocks/power/thermal-generator.md) [![Differential Generator](../images/differential-generator-icon-small.png)](../blocks/power/differential-generator.md) [![Thorium Reactor](../images/thorium-reactor-icon-small.png)](../blocks/power/thorium-reactor.md) [![Impact Reactor](../images/impact-reactor-icon-small.png)](../blocks/power/impact-reactor.md) [![Wave](../images/wave-icon-small.png)](../blocks/turret/wave.md) 
+##### Used to build: <br><a href="../blocks/liquid/conduit.md"><img id="spr" src="../images/conduit-icon-small.png"/></a> <a href="../blocks/liquid/pulse-conduit.md"><img id="spr" src="../images/pulse-conduit-icon-small.png"/></a> <a href="../blocks/liquid/liquid-router.md"><img id="spr" src="../images/liquid-router-icon-small.png"/></a> <a href="../blocks/liquid/liquid-tank.md"><img id="spr" src="../images/liquid-tank-icon-small.png"/></a> <a href="../blocks/liquid/liquid-junction.md"><img id="spr" src="../images/liquid-junction-icon-small.png"/></a> <a href="../blocks/liquid/bridge-conduit.md"><img id="spr" src="../images/bridge-conduit-icon-small.png"/></a> <a href="../blocks/liquid/phase-conduit.md"><img id="spr" src="../images/phase-conduit-icon-small.png"/></a> <a href="../blocks/power/thermal-generator.md"><img id="spr" src="../images/thermal-generator-icon-small.png"/></a> <a href="../blocks/power/differential-generator.md"><img id="spr" src="../images/differential-generator-icon-small.png"/></a> <a href="../blocks/power/thorium-reactor.md"><img id="spr" src="../images/thorium-reactor-icon-small.png"/></a> <a href="../blocks/power/impact-reactor.md"><img id="spr" src="../images/impact-reactor-icon-small.png"/></a> <a href="../blocks/turret/wave.md"><img id="spr" src="../images/wave-icon-small.png"/></a> 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
+
 
 
 

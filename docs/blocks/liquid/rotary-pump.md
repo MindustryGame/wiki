@@ -1,6 +1,6 @@
 # Rotary Pump 
-![Rotary Pump](../../images/rotary-pump-icon-large.png)   
-[![Copper](../../images/item-copper-medium.png)](../../items/copper.md)x140 [![Lead](../../images/item-lead-medium.png)](../../items/lead.md)x100 [![Titanium](../../images/item-titanium-medium.png)](../../items/titanium.md)x70 [![Silicon](../../images/item-silicon-medium.png)](../../items/silicon.md)x40 
+<img id="spr" src="../../images/rotary-pump-icon-large.png"></img>
+<a href="../../items/copper.md"><img id="spr" src="../../images/item-copper-medium.png"/></a>x140 <a href="../../items/lead.md"><img id="spr" src="../../images/item-lead-medium.png"/></a>x100 <a href="../../items/titanium.md"><img id="spr" src="../../images/item-titanium-medium.png"/></a>x70 <a href="../../items/silicon.md"><img id="spr" src="../../images/item-silicon-medium.png"/></a>x40 
 
 *"An advanced pump which doubles up speed by using power."*
 
@@ -28,6 +28,9 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
+
 
 
 

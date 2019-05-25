@@ -1,5 +1,5 @@
 # Spore Pod 
-![Spore Pod](../images/item-spore-pod.png)  
+<img id="spr" src="../images/item-spore-pod.png"></img>
 
 *"Used for conversion into oil, explosives and fuel."*  
 
@@ -11,16 +11,19 @@
 |Flammability|104%|
 |Explosiveness|0%|
 |Radioactivity|0%|
-|Naturally Occurring|No
+|Naturally Occurring|No|
 |Hardness|0|
 
 --- 
 
-##### Produced in: <br>[![Cultivator](../images/cultivator-icon-small.png)](../blocks/production/cultivator.md) 
+##### Produced in: <br><a href="../blocks/production/cultivator.md"><img id="spr" src="../images/cultivator-icon-small.png"/></a> 
 
-##### Required for: <br>[![Blast Mixer](../images/blast-mixer-icon-small.png)](../blocks/crafting/blast-mixer.md) [![Spore Press](../images/spore-press-icon-small.png)](../blocks/crafting/spore-press.md) [![Combustion Generator](../images/combustion-generator-icon-small.png)](../blocks/power/combustion-generator.md) [![Turbine Generator](../images/turbine-generator-icon-small.png)](../blocks/power/turbine-generator.md) 
+##### Required for: <br><a href="../blocks/crafting/blast-mixer.md"><img id="spr" src="../images/blast-mixer-icon-small.png"/></a> <a href="../blocks/crafting/spore-press.md"><img id="spr" src="../images/spore-press-icon-small.png"/></a> <a href="../blocks/power/combustion-generator.md"><img id="spr" src="../images/combustion-generator-icon-small.png"/></a> <a href="../blocks/power/turbine-generator.md"><img id="spr" src="../images/turbine-generator-icon-small.png"/></a> 
 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
+
 
 
 

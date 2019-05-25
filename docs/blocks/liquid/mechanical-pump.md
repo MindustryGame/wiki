@@ -1,6 +1,6 @@
 # Mechanical Pump 
-![Mechanical Pump](../../images/mechanical-pump-icon-large.png)   
-[![Copper](../../images/item-copper-medium.png)](../../items/copper.md)x30 [![Lead](../../images/item-lead-medium.png)](../../items/lead.md)x20 
+<img id="spr" src="../../images/mechanical-pump-icon-large.png"></img>
+<a href="../../items/copper.md"><img id="spr" src="../../images/item-copper-medium.png"/></a>x30 <a href="../../items/lead.md"><img id="spr" src="../../images/item-lead-medium.png"/></a>x20 
 
 *"A cheap pump with slow output, but no power consumption."*
 
@@ -24,6 +24,9 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
+
 
 
 

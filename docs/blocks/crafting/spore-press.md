@@ -1,6 +1,6 @@
 # Spore Press 
-![Spore Press](../../images/spore-press-icon-large.png)   
-[![Lead](../../images/item-lead-medium.png)](../../items/lead.md)x70 [![Silicon](../../images/item-silicon-medium.png)](../../items/silicon.md)x60 
+<img id="spr" src="../../images/spore-press-icon-large.png"></img>
+<a href="../../items/lead.md"><img id="spr" src="../../images/item-lead-medium.png"/></a>x70 <a href="../../items/silicon.md"><img id="spr" src="../../images/item-silicon-medium.png"/></a>x60 
 
 *"Compresses spore pods into oil."*
 
@@ -34,6 +34,9 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
+
 
 
 

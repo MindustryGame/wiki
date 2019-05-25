@@ -1,6 +1,6 @@
 # Scatter 
-![Scatter](../../images/scatter-icon-large.png)   
-[![Copper](../../images/item-copper-medium.png)](../../items/copper.md)x170 [![Lead](../../images/item-lead-medium.png)](../../items/lead.md)x90 
+<img id="spr" src="../../images/scatter-icon-large.png"></img>
+<a href="../../items/copper.md"><img id="spr" src="../../images/item-copper-medium.png"/></a>x170 <a href="../../items/lead.md"><img id="spr" src="../../images/item-lead-medium.png"/></a>x90 
 
 *"A medium-sized anti-air turret. Sprays clumps of lead or scrap flak at enemy units."*
 
@@ -35,6 +35,9 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
+
 
 
 

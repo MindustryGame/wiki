@@ -1,6 +1,6 @@
 # Thermal Pump 
-![Thermal Pump](../../images/thermal-pump-icon-large.png)   
-[![Copper](../../images/item-copper-medium.png)](../../items/copper.md)x160 [![Lead](../../images/item-lead-medium.png)](../../items/lead.md)x130 [![Titanium](../../images/item-titanium-medium.png)](../../items/titanium.md)x80 [![Thorium](../../images/item-thorium-medium.png)](../../items/thorium.md)x70 [![Silicon](../../images/item-silicon-medium.png)](../../items/silicon.md)x60 
+<img id="spr" src="../../images/thermal-pump-icon-large.png"></img>
+<a href="../../items/copper.md"><img id="spr" src="../../images/item-copper-medium.png"/></a>x160 <a href="../../items/lead.md"><img id="spr" src="../../images/item-lead-medium.png"/></a>x130 <a href="../../items/titanium.md"><img id="spr" src="../../images/item-titanium-medium.png"/></a>x80 <a href="../../items/thorium.md"><img id="spr" src="../../images/item-thorium-medium.png"/></a>x70 <a href="../../items/silicon.md"><img id="spr" src="../../images/item-silicon-medium.png"/></a>x60 
 
 *"The ultimate pump."*
 
@@ -28,6 +28,9 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
+
 
 
 

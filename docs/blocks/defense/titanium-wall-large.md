@@ -1,6 +1,6 @@
 # Large Titanium Wall 
-![Large Titanium Wall](../../images/titanium-wall-large-icon-large.png)   
-[![Titanium](../../images/item-titanium-medium.png)](../../items/titanium.md)x48 
+<img id="spr" src="../../images/titanium-wall-large-icon-large.png"></img>
+<a href="../../items/titanium.md"><img id="spr" src="../../images/item-titanium-medium.png"/></a>x48 
 
 
 
@@ -15,6 +15,9 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
+
 
 
 

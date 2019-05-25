@@ -1,6 +1,6 @@
 # Oil Extractor 
-![Oil Extractor](../../images/oil-extractor-icon-large.png)   
-[![Copper](../../images/item-copper-medium.png)](../../items/copper.md)x300 [![Lead](../../images/item-lead-medium.png)](../../items/lead.md)x230 [![Graphite](../../images/item-graphite-medium.png)](../../items/graphite.md)x350 [![Thorium](../../images/item-thorium-medium.png)](../../items/thorium.md)x230 [![Silicon](../../images/item-silicon-medium.png)](../../items/silicon.md)x150 
+<img id="spr" src="../../images/oil-extractor-icon-large.png"></img>
+<a href="../../items/copper.md"><img id="spr" src="../../images/item-copper-medium.png"/></a>x300 <a href="../../items/lead.md"><img id="spr" src="../../images/item-lead-medium.png"/></a>x230 <a href="../../items/graphite.md"><img id="spr" src="../../images/item-graphite-medium.png"/></a>x350 <a href="../../items/thorium.md"><img id="spr" src="../../images/item-thorium-medium.png"/></a>x230 <a href="../../items/silicon.md"><img id="spr" src="../../images/item-silicon-medium.png"/></a>x150 
 
 *"Uses large amounts of power in order to extract oil from sand. Use it when there is no direct source of oil nearby."*
 
@@ -34,6 +34,9 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
+
 
 
 

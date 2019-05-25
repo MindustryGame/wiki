@@ -1,6 +1,6 @@
 # Revenant Fighter Factory 
-![Revenant Fighter Factory](../../images/revenant-factory-icon-large.png)   
-[![Lead](../../images/item-lead-medium.png)](../../items/lead.md)x300 [![Titanium](../../images/item-titanium-medium.png)](../../items/titanium.md)x400 [![Silicon](../../images/item-silicon-medium.png)](../../items/silicon.md)x400 [![Plastanium](../../images/item-plastanium-medium.png)](../../items/plastanium.md)x300 [![Surge Alloy](../../images/item-surge-alloy-medium.png)](../../items/surge-alloy.md)x100 
+<img id="spr" src="../../images/revenant-factory-icon-large.png"></img>
+<a href="../../items/lead.md"><img id="spr" src="../../images/item-lead-medium.png"/></a>x300 <a href="../../items/titanium.md"><img id="spr" src="../../images/item-titanium-medium.png"/></a>x400 <a href="../../items/silicon.md"><img id="spr" src="../../images/item-silicon-medium.png"/></a>x400 <a href="../../items/plastanium.md"><img id="spr" src="../../images/item-plastanium-medium.png"/></a>x300 <a href="../../items/surge-alloy.md"><img id="spr" src="../../images/item-surge-alloy-medium.png"/></a>x100 
 
 *"Produces heavy laser air units."*
 
@@ -26,6 +26,9 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
+
 
 
 

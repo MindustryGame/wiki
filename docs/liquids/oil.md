@@ -1,5 +1,5 @@
 # Oil 
-![Oil](../images/liquid-oil.png)  
+<img id="spr" src="../images/liquid-oil.png"></img>
 
 | Property      | Value |
 | ----------- | ----------- |
@@ -12,10 +12,13 @@
 
 --- 
 
-##### Produced in: <br>[![Spore Press](../images/spore-press-icon-small.png)](../blocks/crafting/spore-press.md) [![Mechanical Pump](../images/mechanical-pump-icon-small.png)](../blocks/liquid/mechanical-pump.md) [![Rotary Pump](../images/rotary-pump-icon-small.png)](../blocks/liquid/rotary-pump.md) [![Thermal Pump](../images/thermal-pump-icon-small.png)](../blocks/liquid/thermal-pump.md) [![Water Extractor](../images/water-extractor-icon-small.png)](../blocks/production/water-extractor.md) [![Oil Extractor](../images/oil-extractor-icon-small.png)](../blocks/production/oil-extractor.md) 
+##### Produced in: <br><a href="../blocks/crafting/spore-press.md"><img id="spr" src="../images/spore-press-icon-small.png"/></a> <a href="../blocks/liquid/mechanical-pump.md"><img id="spr" src="../images/mechanical-pump-icon-small.png"/></a> <a href="../blocks/liquid/rotary-pump.md"><img id="spr" src="../images/rotary-pump-icon-small.png"/></a> <a href="../blocks/liquid/thermal-pump.md"><img id="spr" src="../images/thermal-pump-icon-small.png"/></a> <a href="../blocks/production/water-extractor.md"><img id="spr" src="../images/water-extractor-icon-small.png"/></a> <a href="../blocks/production/oil-extractor.md"><img id="spr" src="../images/oil-extractor-icon-small.png"/></a> 
 
-##### Required for: <br>[![Plastanium Compressor](../images/plastanium-compressor-icon-small.png)](../blocks/crafting/plastanium-compressor.md) [![Coal Centrifuge](../images/coal-centrifuge-icon-small.png)](../blocks/crafting/coal-centrifuge.md) 
+##### Required for: <br><a href="../blocks/crafting/plastanium-compressor.md"><img id="spr" src="../images/plastanium-compressor-icon-small.png"/></a> <a href="../blocks/crafting/coal-centrifuge.md"><img id="spr" src="../images/coal-centrifuge-icon-small.png"/></a> 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
+
 
 
 

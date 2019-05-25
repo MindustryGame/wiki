@@ -1,5 +1,5 @@
 # Cryofluid 
-![Cryofluid](../images/liquid-cryofluid.png)  
+<img id="spr" src="../images/liquid-cryofluid.png"></img>
 
 | Property      | Value |
 | ----------- | ----------- |
@@ -12,10 +12,13 @@
 
 --- 
 
-##### Produced in: <br>[![Cryofluid Mixer](../images/cryofluidmixer-icon-small.png)](../blocks/crafting/cryofluidmixer.md) 
+##### Produced in: <br><a href="../blocks/crafting/cryofluidmixer.md"><img id="spr" src="../images/cryofluidmixer-icon-small.png"/></a> 
 
-##### Required for: <br>[![Force Projector](../images/force-projector-icon-small.png)](../blocks/effect/force-projector.md) [![Differential Generator](../images/differential-generator-icon-small.png)](../blocks/power/differential-generator.md) [![Thorium Reactor](../images/thorium-reactor-icon-small.png)](../blocks/power/thorium-reactor.md) [![Impact Reactor](../images/impact-reactor-icon-small.png)](../blocks/power/impact-reactor.md) [![Duo](../images/duo-icon-small.png)](../blocks/turret/duo.md) [![Scatter](../images/scatter-icon-small.png)](../blocks/turret/scatter.md) [![Scorch](../images/scorch-icon-small.png)](../blocks/turret/scorch.md) [![Hail](../images/hail-icon-small.png)](../blocks/turret/hail.md) [![Lancer](../images/lancer-icon-small.png)](../blocks/turret/lancer.md) [![Arc](../images/arc-icon-small.png)](../blocks/turret/arc.md) [![Swarmer](../images/swarmer-icon-small.png)](../blocks/turret/swarmer.md) [![Salvo](../images/salvo-icon-small.png)](../blocks/turret/salvo.md) [![Ripple](../images/ripple-icon-small.png)](../blocks/turret/ripple.md) [![Cyclone](../images/cyclone-icon-small.png)](../blocks/turret/cyclone.md) [![Fuse](../images/fuse-icon-small.png)](../blocks/turret/fuse.md) [![Spectre](../images/spectre-icon-small.png)](../blocks/turret/spectre.md) [![Meltdown](../images/meltdown-icon-small.png)](../blocks/turret/meltdown.md) 
+##### Required for: <br><a href="../blocks/effect/force-projector.md"><img id="spr" src="../images/force-projector-icon-small.png"/></a> <a href="../blocks/power/differential-generator.md"><img id="spr" src="../images/differential-generator-icon-small.png"/></a> <a href="../blocks/power/thorium-reactor.md"><img id="spr" src="../images/thorium-reactor-icon-small.png"/></a> <a href="../blocks/power/impact-reactor.md"><img id="spr" src="../images/impact-reactor-icon-small.png"/></a> <a href="../blocks/turret/duo.md"><img id="spr" src="../images/duo-icon-small.png"/></a> <a href="../blocks/turret/scatter.md"><img id="spr" src="../images/scatter-icon-small.png"/></a> <a href="../blocks/turret/scorch.md"><img id="spr" src="../images/scorch-icon-small.png"/></a> <a href="../blocks/turret/hail.md"><img id="spr" src="../images/hail-icon-small.png"/></a> <a href="../blocks/turret/lancer.md"><img id="spr" src="../images/lancer-icon-small.png"/></a> <a href="../blocks/turret/arc.md"><img id="spr" src="../images/arc-icon-small.png"/></a> <a href="../blocks/turret/swarmer.md"><img id="spr" src="../images/swarmer-icon-small.png"/></a> <a href="../blocks/turret/salvo.md"><img id="spr" src="../images/salvo-icon-small.png"/></a> <a href="../blocks/turret/ripple.md"><img id="spr" src="../images/ripple-icon-small.png"/></a> <a href="../blocks/turret/cyclone.md"><img id="spr" src="../images/cyclone-icon-small.png"/></a> <a href="../blocks/turret/fuse.md"><img id="spr" src="../images/fuse-icon-small.png"/></a> <a href="../blocks/turret/spectre.md"><img id="spr" src="../images/spectre-icon-small.png"/></a> <a href="../blocks/turret/meltdown.md"><img id="spr" src="../images/meltdown-icon-small.png"/></a> 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
+
 
 
 

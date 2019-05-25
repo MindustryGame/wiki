@@ -1,6 +1,6 @@
 # Phase Conduit 
-![Phase Conduit](../../images/phase-conduit-icon-large.png)   
-[![Metaglass](../../images/item-metaglass-medium.png)](../../items/metaglass.md)x40 [![Titanium](../../images/item-titanium-medium.png)](../../items/titanium.md)x20 [![Silicon](../../images/item-silicon-medium.png)](../../items/silicon.md)x15 [![Phase Fabric](../../images/item-phase-fabric-medium.png)](../../items/phase-fabric.md)x10 
+<img id="spr" src="../../images/phase-conduit-icon-large.png"></img>
+<a href="../../items/metaglass.md"><img id="spr" src="../../images/item-metaglass-medium.png"/></a>x40 <a href="../../items/titanium.md"><img id="spr" src="../../images/item-titanium-medium.png"/></a>x20 <a href="../../items/silicon.md"><img id="spr" src="../../images/item-silicon-medium.png"/></a>x15 <a href="../../items/phase-fabric.md"><img id="spr" src="../../images/item-phase-fabric-medium.png"/></a>x10 
 
 *"Advanced liquid transport block. Uses power to teleport liquids to a connected phase conduit over several tiles."*
 
@@ -24,6 +24,9 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
+
 
 
 

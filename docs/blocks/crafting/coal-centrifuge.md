@@ -1,6 +1,6 @@
 # Coal Centrifuge 
-![Coal Centrifuge](../../images/coal-centrifuge-icon-large.png)   
-[![Lead](../../images/item-lead-medium.png)](../../items/lead.md)x60 [![Graphite](../../images/item-graphite-medium.png)](../../items/graphite.md)x80 [![Titanium](../../images/item-titanium-medium.png)](../../items/titanium.md)x40 
+<img id="spr" src="../../images/coal-centrifuge-icon-large.png"></img>
+<a href="../../items/lead.md"><img id="spr" src="../../images/item-lead-medium.png"/></a>x60 <a href="../../items/graphite.md"><img id="spr" src="../../images/item-graphite-medium.png"/></a>x80 <a href="../../items/titanium.md"><img id="spr" src="../../images/item-titanium-medium.png"/></a>x40 
 
 
 
@@ -33,6 +33,9 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
+
 
 
 

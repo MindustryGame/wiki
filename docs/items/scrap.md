@@ -1,5 +1,5 @@
 # Scrap 
-![Scrap](../images/item-scrap.png)  
+<img id="spr" src="../images/item-scrap.png"></img>
 
 *"Leftover remnants of old structures and units. Contains trace amounts of many different metals."*  
 
@@ -11,16 +11,19 @@
 |Flammability|0%|
 |Explosiveness|0%|
 |Radioactivity|0%|
-|Naturally Occurring|Yes
+|Naturally Occurring|Yes|
 |Hardness|0|
 
 --- 
 
-##### Produced in: <br>[![Mechanical Drill](../images/mechanical-drill-icon-small.png)](../blocks/production/mechanical-drill.md) [![Pneumatic Drill](../images/pneumatic-drill-icon-small.png)](../blocks/production/pneumatic-drill.md) [![Laser Drill](../images/laser-drill-icon-small.png)](../blocks/production/laser-drill.md) [![Airblast Drill](../images/blast-drill-icon-small.png)](../blocks/production/blast-drill.md) 
+##### Produced in: <br><a href="../blocks/production/mechanical-drill.md"><img id="spr" src="../images/mechanical-drill-icon-small.png"/></a> <a href="../blocks/production/pneumatic-drill.md"><img id="spr" src="../images/pneumatic-drill-icon-small.png"/></a> <a href="../blocks/production/laser-drill.md"><img id="spr" src="../images/laser-drill-icon-small.png"/></a> <a href="../blocks/production/blast-drill.md"><img id="spr" src="../images/blast-drill-icon-small.png"/></a> 
 
-##### Required for: <br>[![Melter](../images/melter-icon-small.png)](../blocks/crafting/melter.md) [![Pulverizer](../images/pulverizer-icon-small.png)](../blocks/crafting/pulverizer.md) 
+##### Required for: <br><a href="../blocks/crafting/melter.md"><img id="spr" src="../images/melter-icon-small.png"/></a> <a href="../blocks/crafting/pulverizer.md"><img id="spr" src="../images/pulverizer-icon-small.png"/></a> 
 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
+
 
 
 

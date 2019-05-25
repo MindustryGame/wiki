@@ -1,6 +1,6 @@
 # Surge Wall 
-![Surge Wall](../../images/surge-wall-icon-large.png)   
-[![Surge Alloy](../../images/item-surge-alloy-medium.png)](../../items/surge-alloy.md)x12 
+<img id="spr" src="../../images/surge-wall-icon-large.png"></img>
+<a href="../../items/surge-alloy.md"><img id="spr" src="../../images/item-surge-alloy-medium.png"/></a>x12 
 
 *"The strongest defensive block.
 Has a small chance of triggering lightning towards the attacker."*
@@ -17,6 +17,9 @@ Has a small chance of triggering lightning towards the attacker."*
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
+
 
 
 

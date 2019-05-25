@@ -1,6 +1,6 @@
 # Large Power Node 
-![Large Power Node](../../images/power-node-large-icon-large.png)   
-[![Lead](../../images/item-lead-medium.png)](../../items/lead.md)x20 [![Titanium](../../images/item-titanium-medium.png)](../../items/titanium.md)x10 [![Silicon](../../images/item-silicon-medium.png)](../../items/silicon.md)x6 
+<img id="spr" src="../../images/power-node-large-icon-large.png"></img>
+<a href="../../items/lead.md"><img id="spr" src="../../images/item-lead-medium.png"/></a>x20 <a href="../../items/titanium.md"><img id="spr" src="../../images/item-titanium-medium.png"/></a>x10 <a href="../../items/silicon.md"><img id="spr" src="../../images/item-silicon-medium.png"/></a>x6 
 
 *"Has a larger radius than the power node and connects to up to six power sources, sinks or nodes."*
 
@@ -20,6 +20,9 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
+
 
 
 

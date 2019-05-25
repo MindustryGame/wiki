@@ -1,6 +1,6 @@
 # Force Projector 
-![Force Projector](../../images/force-projector-icon-large.png)   
-[![Lead](../../images/item-lead-medium.png)](../../items/lead.md)x200 [![Titanium](../../images/item-titanium-medium.png)](../../items/titanium.md)x150 [![Silicon](../../images/item-silicon-medium.png)](../../items/silicon.md)x250 
+<img id="spr" src="../../images/force-projector-icon-large.png"></img>
+<a href="../../items/lead.md"><img id="spr" src="../../images/item-lead-medium.png"/></a>x200 <a href="../../items/titanium.md"><img id="spr" src="../../images/item-titanium-medium.png"/></a>x150 <a href="../../items/silicon.md"><img id="spr" src="../../images/item-silicon-medium.png"/></a>x250 
 
 *"Creates a hexagonal force field around itself, protecting buildings and units inside from damage through bullets."*
 
@@ -34,6 +34,9 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
+
 
 
 

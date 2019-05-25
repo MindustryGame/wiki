@@ -1,6 +1,6 @@
 # Fortress Mech Factory 
-![Fortress Mech Factory](../../images/fortress-factory-icon-large.png)   
-[![Lead](../../images/item-lead-medium.png)](../../items/lead.md)x220 [![Thorium](../../images/item-thorium-medium.png)](../../items/thorium.md)x200 [![Silicon](../../images/item-silicon-medium.png)](../../items/silicon.md)x150 [![Phase Fabric](../../images/item-phase-fabric-medium.png)](../../items/phase-fabric.md)x50 [![Surge Alloy](../../images/item-surge-alloy-medium.png)](../../items/surge-alloy.md)x100 
+<img id="spr" src="../../images/fortress-factory-icon-large.png"></img>
+<a href="../../items/lead.md"><img id="spr" src="../../images/item-lead-medium.png"/></a>x220 <a href="../../items/thorium.md"><img id="spr" src="../../images/item-thorium-medium.png"/></a>x200 <a href="../../items/silicon.md"><img id="spr" src="../../images/item-silicon-medium.png"/></a>x150 <a href="../../items/phase-fabric.md"><img id="spr" src="../../images/item-phase-fabric-medium.png"/></a>x50 <a href="../../items/surge-alloy.md"><img id="spr" src="../../images/item-surge-alloy-medium.png"/></a>x100 
 
 *"Produces heavy artillery ground units."*
 
@@ -26,6 +26,9 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
+
 
 
 

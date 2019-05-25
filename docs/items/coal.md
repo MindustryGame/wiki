@@ -1,5 +1,5 @@
 # Coal 
-![Coal](../images/item-coal.png)  
+<img id="spr" src="../images/item-coal.png"></img>
 
 *"A common and readily available fuel."*  
 
@@ -11,16 +11,19 @@
 |Flammability|100%|
 |Explosiveness|40%|
 |Radioactivity|0%|
-|Naturally Occurring|Yes
+|Naturally Occurring|Yes|
 |Hardness|2|
 
 --- 
 
-##### Produced in: <br>[![Coal Centrifuge](../images/coal-centrifuge-icon-small.png)](../blocks/crafting/coal-centrifuge.md) [![Mechanical Drill](../images/mechanical-drill-icon-small.png)](../blocks/production/mechanical-drill.md) [![Pneumatic Drill](../images/pneumatic-drill-icon-small.png)](../blocks/production/pneumatic-drill.md) [![Laser Drill](../images/laser-drill-icon-small.png)](../blocks/production/laser-drill.md) [![Airblast Drill](../images/blast-drill-icon-small.png)](../blocks/production/blast-drill.md) 
+##### Produced in: <br><a href="../blocks/crafting/coal-centrifuge.md"><img id="spr" src="../images/coal-centrifuge-icon-small.png"/></a> <a href="../blocks/production/mechanical-drill.md"><img id="spr" src="../images/mechanical-drill-icon-small.png"/></a> <a href="../blocks/production/pneumatic-drill.md"><img id="spr" src="../images/pneumatic-drill-icon-small.png"/></a> <a href="../blocks/production/laser-drill.md"><img id="spr" src="../images/laser-drill-icon-small.png"/></a> <a href="../blocks/production/blast-drill.md"><img id="spr" src="../images/blast-drill-icon-small.png"/></a> 
 
-##### Required for: <br>[![Graphite Press](../images/graphite-press-icon-small.png)](../blocks/crafting/graphite-press.md) [![Multi-Press](../images/multi-press-icon-small.png)](../blocks/crafting/multi-press.md) [![Silicon Smelter](../images/silicon-smelter-icon-small.png)](../blocks/crafting/silicon-smelter.md) [![Pyratite Mixer](../images/pyratite-mixer-icon-small.png)](../blocks/crafting/pyratite-mixer.md) [![Combustion Generator](../images/combustion-generator-icon-small.png)](../blocks/power/combustion-generator.md) [![Turbine Generator](../images/turbine-generator-icon-small.png)](../blocks/power/turbine-generator.md) 
+##### Required for: <br><a href="../blocks/crafting/graphite-press.md"><img id="spr" src="../images/graphite-press-icon-small.png"/></a> <a href="../blocks/crafting/multi-press.md"><img id="spr" src="../images/multi-press-icon-small.png"/></a> <a href="../blocks/crafting/silicon-smelter.md"><img id="spr" src="../images/silicon-smelter-icon-small.png"/></a> <a href="../blocks/crafting/pyratite-mixer.md"><img id="spr" src="../images/pyratite-mixer-icon-small.png"/></a> <a href="../blocks/power/combustion-generator.md"><img id="spr" src="../images/combustion-generator-icon-small.png"/></a> <a href="../blocks/power/turbine-generator.md"><img id="spr" src="../images/turbine-generator-icon-small.png"/></a> 
 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
+
 
 
 

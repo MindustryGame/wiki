@@ -1,6 +1,6 @@
 # Laser Drill 
-![Laser Drill](../../images/laser-drill-icon-large.png)   
-[![Copper](../../images/item-copper-medium.png)](../../items/copper.md)x70 [![Graphite](../../images/item-graphite-medium.png)](../../items/graphite.md)x90 [![Titanium](../../images/item-titanium-medium.png)](../../items/titanium.md)x50 [![Silicon](../../images/item-silicon-medium.png)](../../items/silicon.md)x60 
+<img id="spr" src="../../images/laser-drill-icon-large.png"></img>
+<a href="../../items/copper.md"><img id="spr" src="../../images/item-copper-medium.png"/></a>x70 <a href="../../items/graphite.md"><img id="spr" src="../../images/item-graphite-medium.png"/></a>x90 <a href="../../items/titanium.md"><img id="spr" src="../../images/item-titanium-medium.png"/></a>x50 <a href="../../items/silicon.md"><img id="spr" src="../../images/item-silicon-medium.png"/></a>x60 
 
 *"Allows drilling even faster through laser technology, but requires power. Additionally, radioactive thorium can be retrieved with this drill."*
 
@@ -38,6 +38,9 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
+
 
 
 

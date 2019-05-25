@@ -1,6 +1,6 @@
 # Unloader 
-![Unloader](../../images/unloader-icon-large.png)   
-[![Titanium](../../images/item-titanium-medium.png)](../../items/titanium.md)x50 [![Silicon](../../images/item-silicon-medium.png)](../../items/silicon.md)x60 
+<img id="spr" src="../../images/unloader-icon-large.png"></img>
+<a href="../../items/titanium.md"><img id="spr" src="../../images/item-titanium-medium.png"/></a>x50 <a href="../../items/silicon.md"><img id="spr" src="../../images/item-silicon-medium.png"/></a>x60 
 
 *"Unloads items from a container, vault or core onto a conveyor or directly into an adjacent block. The type of item to be unloaded can be changed by tapping on the unloader."*
 
@@ -20,6 +20,9 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
+
 
 
 

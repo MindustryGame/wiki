@@ -1,6 +1,6 @@
 # Phase Conveyor 
-![Phase Conveyor](../../images/phase-conveyor-icon-large.png)   
-[![Lead](../../images/item-lead-medium.png)](../../items/lead.md)x20 [![Graphite](../../images/item-graphite-medium.png)](../../items/graphite.md)x20 [![Silicon](../../images/item-silicon-medium.png)](../../items/silicon.md)x15 [![Phase Fabric](../../images/item-phase-fabric-medium.png)](../../items/phase-fabric.md)x10 
+<img id="spr" src="../../images/phase-conveyor-icon-large.png"></img>
+<a href="../../items/lead.md"><img id="spr" src="../../images/item-lead-medium.png"/></a>x20 <a href="../../items/graphite.md"><img id="spr" src="../../images/item-graphite-medium.png"/></a>x20 <a href="../../items/silicon.md"><img id="spr" src="../../images/item-silicon-medium.png"/></a>x15 <a href="../../items/phase-fabric.md"><img id="spr" src="../../images/item-phase-fabric-medium.png"/></a>x10 
 
 *"Advanced item transport block. Uses power to teleport items to a connected phase conveyor over several tiles."*
 
@@ -24,6 +24,9 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
+
 
 
 

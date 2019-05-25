@@ -1,6 +1,6 @@
 # Incinerator 
-![Incinerator](../../images/incinerator-icon-large.png)   
-[![Lead](../../images/item-lead-medium.png)](../../items/lead.md)x30 [![Graphite](../../images/item-graphite-medium.png)](../../items/graphite.md)x10 
+<img id="spr" src="../../images/incinerator-icon-large.png"></img>
+<a href="../../items/lead.md"><img id="spr" src="../../images/item-lead-medium.png"/></a>x30 <a href="../../items/graphite.md"><img id="spr" src="../../images/item-graphite-medium.png"/></a>x10 
 
 *"Gets rid of any excess item or liquid."*
 
@@ -24,6 +24,9 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
+
 
 
 
