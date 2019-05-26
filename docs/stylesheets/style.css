@@ -11,7 +11,13 @@
 }
 
 img#spr {
-  width: 1.8em;
+  width: 1.6em;
+  margin-left: 5px;
+  margin-top: -3px;
+}
+
+img#sprlist {
+  width: 1.6em;
   margin-top: 4px;
 }
 
