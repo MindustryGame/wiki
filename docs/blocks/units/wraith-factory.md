@@ -19,13 +19,16 @@
 
 |Input/Output||
 | --- | --- |
-|Input|![item-silicon](../../images/item-silicon.png) 10 Silicon ![item-titanium](../../images/item-titanium.png) 10 Titanium  |
+|Input|<a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x10 <a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-xlarge.png"/></a>x10  |
 |Production Time|30  seconds  |
 |Max Active Units|4    |
 
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
+
 
 
 

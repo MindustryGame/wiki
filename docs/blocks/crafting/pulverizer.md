@@ -23,13 +23,16 @@
 
 |Input/Output||
 | --- | --- |
-|Input|![item-scrap](../../images/item-scrap.png) 1 Scrap  |
-|Output|![item-sand](../../images/item-sand.png) 1 Sand  |
+|Input|<a href="/wiki/items/scrap"><img id="spr" src="/wiki/images/item-scrap-xlarge.png"/></a>x1  |
+|Output|<a href="/wiki/items/sand"><img id="spr" src="/wiki/images/item-sand-xlarge.png"/></a>x1  |
 |Production Time|0.67  seconds  |
 
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
+
 
 
 

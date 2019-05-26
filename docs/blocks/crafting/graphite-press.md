@@ -18,13 +18,16 @@
 
 |Input/Output||
 | --- | --- |
-|Input|![item-coal](../../images/item-coal.png) 2 Coal  |
-|Output|![item-graphite](../../images/item-graphite.png) 1 Graphite  |
+|Input|<a href="/wiki/items/coal"><img id="spr" src="/wiki/images/item-coal-xlarge.png"/></a>x2  |
+|Output|<a href="/wiki/items/graphite"><img id="spr" src="/wiki/images/item-graphite-xlarge.png"/></a>x1  |
 |Production Time|1.5  seconds  |
 
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
+
 
 
 

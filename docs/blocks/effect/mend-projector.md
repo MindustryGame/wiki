@@ -28,12 +28,15 @@
 
 |Optional Enhancements||
 | --- | --- |
-|Booster|![item-phase-fabric](../../images/item-phase-fabric.png) 1 Phase Fabric  |
+|Booster|<a href="/wiki/items/phase-fabric"><img id="spr" src="/wiki/images/item-phase-fabric-xlarge.png"/></a>x1  |
 |Boost Effect|6.25  blocks  1.86 x speed  |
 
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
+
 
 
 

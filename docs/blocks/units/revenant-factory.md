@@ -19,13 +19,16 @@
 
 |Input/Output||
 | --- | --- |
-|Input|![item-silicon](../../images/item-silicon.png) 80 Silicon ![item-titanium](../../images/item-titanium.png) 80 Titanium ![item-plastanium](../../images/item-plastanium.png) 50 Plastanium  |
+|Input|<a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x80 <a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-xlarge.png"/></a>x80 <a href="/wiki/items/plastanium"><img id="spr" src="/wiki/images/item-plastanium-xlarge.png"/></a>x50  |
 |Production Time|133.33  seconds  |
 |Max Active Units|4    |
 
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
+
 
 
 

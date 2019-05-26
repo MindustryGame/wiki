@@ -23,7 +23,7 @@
 
 |Input/Output||
 | --- | --- |
-|Input|![liquid-water](../../images/liquid-water.png) 30 /sec Water / ![liquid-cryofluid](../../images/liquid-cryofluid.png) 30 /sec Cryofluid  |
+|Input|<a href="/wiki/liquids/water"><img id="spr" src="/wiki/images/liquid-Water.png"/></a> 30/sec / <a href="/wiki/liquids/cryofluid"><img id="spr" src="/wiki/images/liquid-Cryofluid.png"/></a> 30/sec  |
 
 |Shooting||
 | --- | --- |
@@ -37,6 +37,9 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
+
 
 
 

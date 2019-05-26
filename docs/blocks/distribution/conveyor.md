@@ -16,11 +16,14 @@
 |Items||
 | --- | --- |
 |Item Capacity|4  items  |
-|Move Speed|1.8  items/second  |
+|Move Speed|4.5  items/second  |
 
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
+
 
 
 

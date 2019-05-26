@@ -18,13 +18,16 @@
 
 |Input/Output||
 | --- | --- |
-|Input|![item-blast-compound](../../images/item-blast-compound.png) 10 Blast Compound  |
+|Input|<a href="/wiki/items/blast-compound"><img id="spr" src="/wiki/images/item-blast-compound-xlarge.png"/></a>x10  |
 |Production Time|20  seconds  |
 |Max Active Units|4    |
 
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
+
 
 
 

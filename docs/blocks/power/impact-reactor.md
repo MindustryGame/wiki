@@ -27,12 +27,15 @@
 
 |Input/Output||
 | --- | --- |
-|Input|![item-blast-compound](../../images/item-blast-compound.png) 1 Blast Compound  ![liquid-cryofluid](../../images/liquid-cryofluid.png) 15 /sec Cryofluid  |
+|Input|<a href="/wiki/items/blast-compound"><img id="spr" src="/wiki/images/item-blast-compound-xlarge.png"/></a>x1  <a href="/wiki/liquids/cryofluid"><img id="spr" src="/wiki/images/liquid-Cryofluid.png"/></a> 15/sec  |
 |Production Time|1.5  seconds  |
 
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
+
 
 
 

@@ -23,13 +23,16 @@
 
 |Input/Output||
 | --- | --- |
-|Input|![item-titanium](../../images/item-titanium.png) 2 Titanium ![item-lead](../../images/item-lead.png) 4 Lead ![item-silicon](../../images/item-silicon.png) 3 Silicon ![item-copper](../../images/item-copper.png) 3 Copper  |
-|Output|![item-surge-alloy](../../images/item-surge-alloy.png) 1 Surge Alloy  |
+|Input|<a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-xlarge.png"/></a>x2 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x4 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x3 <a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x3  |
+|Output|<a href="/wiki/items/surge-alloy"><img id="spr" src="/wiki/images/item-surge-alloy-xlarge.png"/></a>x1  |
 |Production Time|1.25  seconds  |
 
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
+
 
 
 

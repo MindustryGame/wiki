@@ -27,13 +27,16 @@
 
 |Input/Output||
 | --- | --- |
-|Input|![liquid-water](../../images/liquid-water.png) 24 Water  |
-|Output|![item-spore-pod](../../images/item-spore-pod.png) 1 Spore Pod  |
+|Input|<a href="/wiki/liquids/water"><img id="spr" src="/wiki/images/liquid-Water.png"/></a>x24  |
+|Output|<a href="/wiki/items/spore-pod"><img id="spr" src="/wiki/images/item-spore-pod-xlarge.png"/></a>x1  |
 |Production Time|2.67  seconds  |
 
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
+
 
 
 

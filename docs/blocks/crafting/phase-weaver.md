@@ -23,13 +23,16 @@
 
 |Input/Output||
 | --- | --- |
-|Input|![item-thorium](../../images/item-thorium.png) 4 Thorium ![item-sand](../../images/item-sand.png) 10 Sand  |
-|Output|![item-phase-fabric](../../images/item-phase-fabric.png) 1 Phase Fabric  |
+|Input|<a href="/wiki/items/thorium"><img id="spr" src="/wiki/images/item-thorium-xlarge.png"/></a>x4 <a href="/wiki/items/sand"><img id="spr" src="/wiki/images/item-sand-xlarge.png"/></a>x10  |
+|Output|<a href="/wiki/items/phase-fabric"><img id="spr" src="/wiki/images/item-phase-fabric-xlarge.png"/></a>x1  |
 |Production Time|2  seconds  |
 
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
+
 
 
 

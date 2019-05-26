@@ -27,12 +27,15 @@
 
 |Optional Enhancements||
 | --- | --- |
-|Booster|![item-silicon](../../images/item-silicon.png) 1 Silicon  |
+|Booster|<a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x1  |
 |Boost Effect|2.5  blocks  2 x speed  |
 
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
+
 
 
 

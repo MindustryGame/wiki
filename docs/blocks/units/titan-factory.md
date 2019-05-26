@@ -19,13 +19,16 @@
 
 |Input/Output||
 | --- | --- |
-|Input|![item-silicon](../../images/item-silicon.png) 20 Silicon ![item-thorium](../../images/item-thorium.png) 30 Thorium  |
+|Input|<a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x20 <a href="/wiki/items/thorium"><img id="spr" src="/wiki/images/item-thorium-xlarge.png"/></a>x30  |
 |Production Time|56.67  seconds  |
 |Max Active Units|4    |
 
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
+
 
 
 

@@ -19,13 +19,16 @@
 
 |Input/Output||
 | --- | --- |
-|Input|![item-silicon](../../images/item-silicon.png) 70 Silicon ![item-lead](../../images/item-lead.png) 80 Lead ![item-titanium](../../images/item-titanium.png) 80 Titanium  |
+|Input|<a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x70 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x80 <a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-xlarge.png"/></a>x80  |
 |Production Time|121.67  seconds  |
 |Max Active Units|2    |
 
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
+
 
 
 

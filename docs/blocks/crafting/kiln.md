@@ -23,13 +23,16 @@
 
 |Input/Output||
 | --- | --- |
-|Input|![item-lead](../../images/item-lead.png) 1 Lead ![item-sand](../../images/item-sand.png) 1 Sand  |
-|Output|![item-metaglass](../../images/item-metaglass.png) 1 Metaglass  |
+|Input|<a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x1 <a href="/wiki/items/sand"><img id="spr" src="/wiki/images/item-sand-xlarge.png"/></a>x1  |
+|Output|<a href="/wiki/items/metaglass"><img id="spr" src="/wiki/images/item-metaglass-xlarge.png"/></a>x1  |
 |Production Time|0.5  seconds  |
 
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
+
 
 
 

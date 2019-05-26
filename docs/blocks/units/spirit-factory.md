@@ -19,13 +19,16 @@
 
 |Input/Output||
 | --- | --- |
-|Input|![item-silicon](../../images/item-silicon.png) 30 Silicon ![item-lead](../../images/item-lead.png) 30 Lead  |
+|Input|<a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x30 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x30  |
 |Production Time|95  seconds  |
 |Max Active Units|2    |
 
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
+
 
 
 

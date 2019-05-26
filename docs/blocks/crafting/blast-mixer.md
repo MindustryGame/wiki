@@ -23,13 +23,16 @@
 
 |Input/Output||
 | --- | --- |
-|Input|![item-pyratite](../../images/item-pyratite.png) 1 Pyratite ![item-spore-pod](../../images/item-spore-pod.png) 1 Spore Pod  |
-|Output|![item-blast-compound](../../images/item-blast-compound.png) 1 Blast Compound  |
+|Input|<a href="/wiki/items/pyratite"><img id="spr" src="/wiki/images/item-pyratite-xlarge.png"/></a>x1 <a href="/wiki/items/spore-pod"><img id="spr" src="/wiki/images/item-spore-pod-xlarge.png"/></a>x1  |
+|Output|<a href="/wiki/items/blast-compound"><img id="spr" src="/wiki/images/item-blast-compound-xlarge.png"/></a>x1  |
 |Production Time|1.33  seconds  |
 
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
+
 
 
 

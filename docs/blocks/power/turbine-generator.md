@@ -27,12 +27,15 @@
 
 |Input/Output||
 | --- | --- |
-|Input|![item-coal](../../images/item-coal.png) Coal / ![item-spore-pod](../../images/item-spore-pod.png) Spore Pod / ![item-blast-compound](../../images/item-blast-compound.png) Blast Compound / ![item-pyratite](../../images/item-pyratite.png) Pyratite  ![liquid-water](../../images/liquid-water.png) 3 /sec Water  |
+|Input|<a href="/wiki/items/coal"><img id="spr" src="/wiki/images/item-coal-xlarge.png"/></a> / <a href="/wiki/items/spore-pod"><img id="spr" src="/wiki/images/item-spore-pod-xlarge.png"/></a> / <a href="/wiki/items/blast-compound"><img id="spr" src="/wiki/images/item-blast-compound-xlarge.png"/></a> / <a href="/wiki/items/pyratite"><img id="spr" src="/wiki/images/item-pyratite-xlarge.png"/></a>  <a href="/wiki/liquids/water"><img id="spr" src="/wiki/images/liquid-Water.png"/></a> 3/sec  |
 |Production Time|0.67  seconds  |
 
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
+
 
 
 

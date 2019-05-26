@@ -26,13 +26,16 @@
 
 |Input/Output||
 | --- | --- |
-|Input|![item-coal](../../images/item-coal.png) 4 Coal  ![liquid-water](../../images/liquid-water.png) 3 Water  |
-|Output|![item-graphite](../../images/item-graphite.png) 2 Graphite  |
+|Input|<a href="/wiki/items/coal"><img id="spr" src="/wiki/images/item-coal-xlarge.png"/></a>x4  <a href="/wiki/liquids/water"><img id="spr" src="/wiki/images/liquid-Water.png"/></a>x3  |
+|Output|<a href="/wiki/items/graphite"><img id="spr" src="/wiki/images/item-graphite-xlarge.png"/></a>x2  |
 |Production Time|0.5  seconds  |
 
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
+
 
 
 

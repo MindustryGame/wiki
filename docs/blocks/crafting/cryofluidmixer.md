@@ -27,13 +27,16 @@
 
 |Input/Output||
 | --- | --- |
-|Input|![item-titanium](../../images/item-titanium.png) 1 Titanium  ![liquid-water](../../images/liquid-water.png) 6 /sec Water  |
-|Output|![liquid-cryofluid](../../images/liquid-cryofluid.png) 6 Cryofluid  |
+|Input|<a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-xlarge.png"/></a>x1  <a href="/wiki/liquids/water"><img id="spr" src="/wiki/images/liquid-Water.png"/></a> 6/sec  |
+|Output|<a href="/wiki/liquids/cryofluid"><img id="spr" src="/wiki/images/liquid-Cryofluid.png"/></a>x6  |
 |Production Time|1  seconds  |
 
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
+
 
 
 

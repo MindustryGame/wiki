@@ -26,12 +26,15 @@
 
 |Input/Output||
 | --- | --- |
-|Input|![item-pyratite](../../images/item-pyratite.png) 1 Pyratite  ![liquid-cryofluid](../../images/liquid-cryofluid.png) 12 /sec Cryofluid  |
+|Input|<a href="/wiki/items/pyratite"><img id="spr" src="/wiki/images/item-pyratite-xlarge.png"/></a>x1  <a href="/wiki/liquids/cryofluid"><img id="spr" src="/wiki/images/liquid-Cryofluid.png"/></a> 12/sec  |
 |Production Time|0.83  seconds  |
 
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
+
 
 
 

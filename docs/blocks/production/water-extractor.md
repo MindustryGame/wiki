@@ -23,11 +23,14 @@
 
 |Input/Output||
 | --- | --- |
-|Output|![liquid-water](../../images/liquid-water.png) 7.8 /sec Water  |
+|Output|<a href="/wiki/liquids/water"><img id="spr" src="/wiki/images/liquid-Water.png"/></a> 7.8/sec  |
 
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
+
 
 
 

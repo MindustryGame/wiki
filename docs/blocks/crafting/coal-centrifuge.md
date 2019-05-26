@@ -26,13 +26,16 @@
 
 |Input/Output||
 | --- | --- |
-|Input|![liquid-oil](../../images/liquid-oil.png) 2.7 Oil  |
-|Output|![item-coal](../../images/item-coal.png) 1 Coal  |
+|Input|<a href="/wiki/liquids/oil"><img id="spr" src="/wiki/images/liquid-Oil.png"/></a>x2.7  |
+|Output|<a href="/wiki/items/coal"><img id="spr" src="/wiki/images/item-coal-xlarge.png"/></a>x1  |
 |Production Time|0.5  seconds  |
 
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
+
 
 
 
