@@ -28,12 +28,13 @@
 |Input/Output||
 | --- | --- |
 |Input|<a href="/wiki/items/spore-pod"><img id="spr" src="/wiki/images/item-spore-pod-xlarge.png"/></a>x1  |
-|Output|<a href="/wiki/liquids/oil"><img id="spr" src="/wiki/images/liquid-Oil.png"/></a>x6  |
+|Output|<a href="/wiki/liquids/oil"><img id="spr" src="/wiki/images/liquid-oil.png"/></a>x6  |
 |Production Time|0.33  seconds  |
 
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
 
 
 

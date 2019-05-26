@@ -27,13 +27,14 @@
 
 |Input/Output||
 | --- | --- |
-|Input|<a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-xlarge.png"/></a>x2  <a href="/wiki/liquids/oil"><img id="spr" src="/wiki/images/liquid-Oil.png"/></a> 15/sec  |
+|Input|<a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-xlarge.png"/></a>x2  <a href="/wiki/liquids/oil"><img id="spr" src="/wiki/images/liquid-oil.png"/></a> 15/sec  |
 |Output|<a href="/wiki/items/plastanium"><img id="spr" src="/wiki/images/item-plastanium-xlarge.png"/></a>x1  |
 |Production Time|1  seconds  |
 
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
 
 
 

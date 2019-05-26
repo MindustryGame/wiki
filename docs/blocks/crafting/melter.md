@@ -28,12 +28,13 @@
 |Input/Output||
 | --- | --- |
 |Input|<a href="/wiki/items/scrap"><img id="spr" src="/wiki/images/item-scrap-xlarge.png"/></a>x1  |
-|Output|<a href="/wiki/liquids/slag"><img id="spr" src="/wiki/images/liquid-Slag.png"/></a>x2  |
+|Output|<a href="/wiki/liquids/slag"><img id="spr" src="/wiki/images/liquid-slag.png"/></a>x2  |
 |Production Time|0.17  seconds  |
 
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
 
 
 
