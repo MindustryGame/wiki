@@ -28,12 +28,13 @@
 
 |Optional Enhancements||
 | --- | --- |
-|Booster|<a href="/wiki/items/phase-fabric"><img id="spr" src="/wiki/images/item-phase-fabric-xlarge.png"/></a>x1  <a href="/wiki/liquids/water"><img id="spr" src="/wiki/images/liquid-water.png"/></a> 6/sec / <a href="/wiki/liquids/cryofluid"><img id="spr" src="/wiki/images/liquid-cryofluid.png"/></a> 6/sec  |
+|Booster|<a href="/wiki/items/phase-fabric"><img id="spr" src="/wiki/images/item-phase-fabric-xlarge.png"/></a>x1  <a href="/wiki/liquids/water"><img id="spr" src="/wiki/images/liquid-water.png"/></a>6/sec / <a href="/wiki/liquids/cryofluid"><img id="spr" src="/wiki/images/liquid-cryofluid.png"/></a>6/sec  |
 |Boost Effect|10  blocks  |
 
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
 
 
 

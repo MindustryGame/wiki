@@ -27,13 +27,14 @@
 
 |Input/Output||
 | --- | --- |
-|Input|<a href="/wiki/items/sand"><img id="spr" src="/wiki/images/item-sand-xlarge.png"/></a>x1  <a href="/wiki/liquids/water"><img id="spr" src="/wiki/images/liquid-water.png"/></a> 9/sec  |
-|Output|<a href="/wiki/liquids/oil"><img id="spr" src="/wiki/images/liquid-oil.png"/></a> 15/sec  |
+|Input|<a href="/wiki/items/sand"><img id="spr" src="/wiki/images/item-sand-xlarge.png"/></a>x1  <a href="/wiki/liquids/water"><img id="spr" src="/wiki/images/liquid-water.png"/></a>9/sec  |
+|Output|<a href="/wiki/liquids/oil"><img id="spr" src="/wiki/images/liquid-oil.png"/></a>15/sec  |
 |Production Time|1.67  seconds  |
 
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
 
 
 
