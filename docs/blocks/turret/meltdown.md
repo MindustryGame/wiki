@@ -15,7 +15,7 @@
 
 |Power||
 | --- | --- |
-|Power Use|600  power units/second  |
+|Power Use|840  power units/second  |
 
 |Liquids||
 | --- | --- |
@@ -37,6 +37,7 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
 
 
 

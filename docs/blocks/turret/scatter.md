@@ -19,13 +19,13 @@
 
 |Shooting||
 | --- | --- |
-|Range|22.5  blocks  |
+|Range|21.25  blocks  |
 |Inaccuracy|17  degrees  |
 |Shots|2    |
-|Shots/Second|8    |
+|Shots/Second|6.67    |
 |Targets Air|Yes  |
 |Targets Ground|No  |
-|Ammo|![item-scrap-medium](../../images/item-scrap-medium.png) Scrap <br> • **3** damage <br> • **26** area dmg ~** 3.0** tiles <br> • **3**x ammo multiplier <br> • **0.5**x fire rate <br>![item-lead-medium](../../images/item-lead-medium.png) Lead <br> • **3** damage <br> • **35** area dmg ~** 1.9** tiles <br> • **3**x ammo multiplier <br> |
+|Ammo|![item-scrap-medium](../../images/item-scrap-medium.png) Scrap <br> • **3** damage <br> • **22** area dmg ~** 3.0** tiles <br> • **3**x ammo multiplier <br> • **0.5**x fire rate <br>![item-lead-medium](../../images/item-lead-medium.png) Lead <br> • **3** damage <br> • **27** area dmg ~** 1.9** tiles <br> • **3**x ammo multiplier <br> |
 
 |Optional Enhancements||
 | --- | --- |
@@ -35,6 +35,7 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
 
 
 

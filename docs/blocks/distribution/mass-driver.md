@@ -15,7 +15,7 @@
 
 |Power||
 | --- | --- |
-|Power Use|120  power units/second  |
+|Power Use|105  power units/second  |
 
 |Items||
 | --- | --- |
@@ -24,6 +24,7 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
 
 
 

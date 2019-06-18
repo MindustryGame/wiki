@@ -15,11 +15,12 @@
 
 |Items||
 | --- | --- |
-|Item Capacity|1  items  |
+|Item Capacity|10  items  |
 
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
 
 
 
