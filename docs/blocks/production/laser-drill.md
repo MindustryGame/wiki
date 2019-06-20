@@ -1,6 +1,6 @@
 # <img id="spr" src="/wiki/images/laser-drill-icon-large.png"></img> Laser Drill 
 
-<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x70 <a href="/wiki/items/graphite"><img id="spr" src="/wiki/images/item-graphite-xlarge.png"/></a>x90 <a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-xlarge.png"/></a>x50 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x60 
+<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x70 <a href="/wiki/items/graphite"><img id="spr" src="/wiki/images/item-graphite-xlarge.png"/></a>x60 <a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-xlarge.png"/></a>x40 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x60 
 
 *"Allows drilling even faster through laser technology, but requires power. Additionally, radioactive thorium can be retrieved with this drill."*
 
@@ -11,7 +11,7 @@
 |Solid|Yes|
 |Health|360    |
 |Size|3x3  |
-|Build Time|3.72  seconds  |
+|Build Time|3.05  seconds  |
 
 |Power||
 | --- | --- |
@@ -38,6 +38,7 @@
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
 
 
 
