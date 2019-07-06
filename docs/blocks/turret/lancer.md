@@ -29,6 +29,7 @@
 |Shots/Second|0.67    |
 |Targets Air|No  |
 |Targets Ground|Yes  |
+|Damage|140    |
 
 |Optional Enhancements||
 | --- | --- |

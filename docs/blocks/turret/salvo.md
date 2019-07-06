@@ -9,7 +9,7 @@
 | --- | --- |
 |Internal Name|`salvo`|
 |Solid|Yes|
-|Health|360    |
+|Health|960    |
 |Size|2x2  |
 |Build Time|6.92  seconds  |
 

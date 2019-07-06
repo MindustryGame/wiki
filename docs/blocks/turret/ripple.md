@@ -9,7 +9,7 @@
 | --- | --- |
 |Internal Name|`ripple`|
 |Solid|Yes|
-|Health|550    |
+|Health|1170    |
 |Size|3x3  |
 |Build Time|9  seconds  |
 

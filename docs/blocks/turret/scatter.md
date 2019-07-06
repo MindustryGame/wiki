@@ -9,7 +9,7 @@
 | --- | --- |
 |Internal Name|`scatter`|
 |Solid|Yes|
-|Health|1040    |
+|Health|800    |
 |Size|2x2  |
 |Build Time|2.47  seconds  |
 

@@ -33,6 +33,7 @@
 |Shots/Second|1.2    |
 |Targets Air|Yes  |
 |Targets Ground|Yes  |
+|Damage|840  /sec  |
 
 
 --- 
