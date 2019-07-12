@@ -71,3 +71,7 @@ With the "tarred" status effect, enemies will move slower and be more susceptibl
 ### Freezing<img src="../img/cryo.png" id="spr">
 
 Enemies will move extremely slow as they freeze. This is useful for slowing down swift air enemies to make them easier to shoot. 
+
+### Drowning<img src="../img/liquid-water.png" id="spr">
+
+Ground based mechs will "drown" in deeper water, however in almost all situations the enemies will avoid the substance.
