@@ -2,7 +2,7 @@
 
 **The goal of the game is to not die! You die when your core reaches 0 health.** This is your core:
 
-<img src="https://i.imgur.com/HOiVEDe.png" width=20% height=20%>
+<img src="https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/storage/core-shard.png" width=20% height=20%>
 
 Start by getting ore. Copper should be priority #1, for you only need copper to build the first drill tier and conveyors. 
 
