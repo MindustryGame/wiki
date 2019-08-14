@@ -1,4 +1,4 @@
-# <img id="spr" src="/wiki/images/item-trident-ship.png"></img> Trident 
+# <img id="spr" src="/wiki/images/mech-icon-trident-ship.png"></img> Trident 
 
 
 

@@ -1,4 +1,4 @@
-# <img id="spr" src="/wiki/images/item-fortress.png"></img> Fortress 
+# <img id="spr" src="/wiki/images/unit-icon-fortress.png"></img> Fortress 
 
 
 

@@ -1,4 +1,4 @@
-# <img id="spr" src="/wiki/images/item-dagger.png"></img> Dagger 
+# <img id="spr" src="/wiki/images/unit-icon-dagger.png"></img> Dagger 
 
 
 

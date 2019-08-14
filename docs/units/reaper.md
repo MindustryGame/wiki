@@ -1,4 +1,4 @@
-# <img id="spr" src="/wiki/images/item-reaper.png"></img> Reaper 
+# <img id="spr" src="/wiki/images/unit-icon-reaper.png"></img> Reaper 
 
 
 

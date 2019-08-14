@@ -1,4 +1,4 @@
-# <img id="spr" src="/wiki/images/item-javelin-ship.png"></img> Javelin 
+# <img id="spr" src="/wiki/images/mech-icon-javelin-ship.png"></img> Javelin 
 
 
 

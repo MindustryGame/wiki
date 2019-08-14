@@ -1,4 +1,4 @@
-# <img id="spr" src="/wiki/images/item-tau-mech.png"></img> Tau 
+# <img id="spr" src="/wiki/images/mech-icon-tau-mech.png"></img> Tau 
 
 
 

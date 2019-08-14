@@ -1,4 +1,4 @@
-# <img id="spr" src="/wiki/images/item-titan.png"></img> Titan 
+# <img id="spr" src="/wiki/images/unit-icon-titan.png"></img> Titan 
 
 
 

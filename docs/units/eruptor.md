@@ -1,4 +1,4 @@
-# <img id="spr" src="/wiki/images/item-eruptor.png"></img> Eruptor 
+# <img id="spr" src="/wiki/images/unit-icon-eruptor.png"></img> Eruptor 
 
 
 

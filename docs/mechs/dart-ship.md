@@ -1,4 +1,4 @@
-# <img id="spr" src="/wiki/images/item-dart-ship.png"></img> Dart 
+# <img id="spr" src="/wiki/images/mech-icon-dart-ship.png"></img> Dart 
 
 
 

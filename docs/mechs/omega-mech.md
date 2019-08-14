@@ -1,4 +1,4 @@
-# <img id="spr" src="/wiki/images/item-omega-mech.png"></img> Omega 
+# <img id="spr" src="/wiki/images/mech-icon-omega-mech.png"></img> Omega 
 
 
 

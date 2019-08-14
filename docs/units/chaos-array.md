@@ -1,4 +1,4 @@
-# <img id="spr" src="/wiki/images/item-chaos-array.png"></img> Chaos Array 
+# <img id="spr" src="/wiki/images/unit-icon-chaos-array.png"></img> Chaos Array 
 
 
 

@@ -1,4 +1,4 @@
-# <img id="spr" src="/wiki/images/item-ghoul.png"></img> Ghoul Bomber 
+# <img id="spr" src="/wiki/images/unit-icon-ghoul.png"></img> Ghoul Bomber 
 
 
 

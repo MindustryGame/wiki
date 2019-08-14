@@ -1,4 +1,4 @@
-# <img id="spr" src="/wiki/images/item-glaive-ship.png"></img> Glaive 
+# <img id="spr" src="/wiki/images/mech-icon-glaive-ship.png"></img> Glaive 
 
 
 

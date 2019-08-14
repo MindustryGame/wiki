@@ -1,4 +1,4 @@
-# <img id="spr" src="/wiki/images/item-draug.png"></img> Draug Miner Drone 
+# <img id="spr" src="/wiki/images/unit-icon-draug.png"></img> Draug Miner Drone 
 
 
 

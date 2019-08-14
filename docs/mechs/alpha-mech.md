@@ -1,4 +1,4 @@
-# <img id="spr" src="/wiki/images/item-alpha-mech.png"></img> Alpha 
+# <img id="spr" src="/wiki/images/mech-icon-alpha-mech.png"></img> Alpha 
 
 
 

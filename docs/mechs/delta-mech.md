@@ -1,4 +1,4 @@
-# <img id="spr" src="/wiki/images/item-delta-mech.png"></img> Delta 
+# <img id="spr" src="/wiki/images/mech-icon-delta-mech.png"></img> Delta 
 
 
 
