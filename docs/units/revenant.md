@@ -1,4 +1,4 @@
-# <img id="spr" src="/wiki/images/unit-icon-revenant.png"></img> Revenant 
+# <img id="spr" src="/wiki/images/revenant.png"></img> Revenant 
 
 
 

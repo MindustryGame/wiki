@@ -1,4 +1,4 @@
-# <img id="spr" src="/wiki/images/unit-icon-wraith.png"></img> Wraith Fighter 
+# <img id="spr" src="/wiki/images/wraith.png"></img> Wraith Fighter 
 
 
 

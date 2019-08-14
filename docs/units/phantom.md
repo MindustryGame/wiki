@@ -1,4 +1,4 @@
-# <img id="spr" src="/wiki/images/unit-icon-phantom.png"></img> Phantom Builder Drone 
+# <img id="spr" src="/wiki/images/phantom.png"></img> Phantom Builder Drone 
 
 
 

@@ -1,4 +1,4 @@
-# <img id="spr" src="/wiki/images/unit-icon-spirit.png"></img> Spirit Repair Drone 
+# <img id="spr" src="/wiki/images/spirit.png"></img> Spirit Repair Drone 
 
 
 
