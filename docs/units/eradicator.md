@@ -1,6 +1,7 @@
-# <img id="spr" src="/wiki/images/eradicator.png"></img> Eradicator 
+# <img id="spr" src="/wiki/images/unit-icon-eradicator.png"></img> Eradicator 
 
 
+*"Unknown..."*  
 
 | Property      | Value |
 | ----------- | ----------- |

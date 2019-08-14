@@ -1,6 +1,7 @@
 # <img id="spr" src="/wiki/images/spirit.png"></img> Spirit Repair Drone 
 
 
+*"A modified draug drone, designed for repair instead of mining. Automatically fixes any damaged blocks in the area."*  
 
 | Property      | Value |
 | ----------- | ----------- |

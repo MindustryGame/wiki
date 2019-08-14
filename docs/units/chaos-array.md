@@ -1,6 +1,7 @@
-# <img id="spr" src="/wiki/images/chaos-array.png"></img> Chaos Array 
+# <img id="spr" src="/wiki/images/unit-icon-chaos-array.png"></img> Chaos Array 
 
 
+*"Unknown..."*  
 
 | Property      | Value |
 | ----------- | ----------- |

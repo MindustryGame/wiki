@@ -1,6 +1,7 @@
 # <img id="spr" src="/wiki/images/revenant.png"></img> Revenant 
 
 
+*"A heavy, hovering missile array."*  
 
 | Property      | Value |
 | ----------- | ----------- |

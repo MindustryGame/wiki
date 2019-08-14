@@ -1,6 +1,7 @@
-# <img id="spr" src="/wiki/images/titan.png"></img> Titan 
+# <img id="spr" src="/wiki/images/unit-icon-titan.png"></img> Titan 
 
 
+*"An advanced, armored ground unit. Attacks both ground and air targets. Equipped with two miniature Scorch-class flamethrowers."*  
 
 | Property      | Value |
 | ----------- | ----------- |

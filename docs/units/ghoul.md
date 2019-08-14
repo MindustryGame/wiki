@@ -1,6 +1,7 @@
 # <img id="spr" src="/wiki/images/ghoul.png"></img> Ghoul Bomber 
 
 
+*"A heavy carpet bomber. Rips through enemy structures, targeting critical infrastructure."*  
 
 | Property      | Value |
 | ----------- | ----------- |

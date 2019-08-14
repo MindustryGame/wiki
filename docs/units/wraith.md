@@ -1,6 +1,7 @@
 # <img id="spr" src="/wiki/images/wraith.png"></img> Wraith Fighter 
 
 
+*"A fast, hit-and-run interceptor unit. Targets power generators."*  
 
 | Property      | Value |
 | ----------- | ----------- |

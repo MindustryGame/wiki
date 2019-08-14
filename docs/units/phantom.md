@@ -1,6 +1,7 @@
 # <img id="spr" src="/wiki/images/phantom.png"></img> Phantom Builder Drone 
 
 
+*"An advanced drone unit. Follows users. Assists in block construction."*  
 
 | Property      | Value |
 | ----------- | ----------- |
