@@ -1,6 +1,6 @@
 # <img id="spr" src="/wiki/images/thermal-pump-icon-large.png"></img> Thermal Pump 
 
-<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x160 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x130 <a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-xlarge.png"/></a>x80 <a href="/wiki/items/thorium"><img id="spr" src="/wiki/images/item-thorium-xlarge.png"/></a>x70 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x60 
+<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x80 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x65 <a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-xlarge.png"/></a>x40 <a href="/wiki/items/thorium"><img id="spr" src="/wiki/images/item-thorium-xlarge.png"/></a>x35 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x30 
 
 *"The ultimate pump."*
 
@@ -11,7 +11,7 @@
 |Solid|Yes|
 |Health|360    |
 |Size|3x3  |
-|Build Time|6.27  seconds  |
+|Build Time|3.13  seconds  |
 
 |Power||
 | --- | --- |
@@ -23,7 +23,7 @@
 
 |Input/Output||
 | --- | --- |
-|Output|117  liquid units/second  |
+|Output|90  liquid units/second  |
 
 
 --- 

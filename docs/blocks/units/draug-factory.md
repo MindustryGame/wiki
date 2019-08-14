@@ -1,7 +1,8 @@
 # <img id="spr" src="/wiki/images/draug-factory-icon-large.png"></img> Draug Miner Drone Factory 
 
-<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x60 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x140 
+<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x30 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x70 
 
+*"Produces Draug mining drones."*
 
 
 |General||
@@ -10,7 +11,7 @@
 |Solid|No|
 |Health|160    |
 |Size|2x2  |
-|Build Time|2.13  seconds  |
+|Build Time|1.07  seconds  |
 
 |Power||
 | --- | --- |
@@ -19,7 +20,7 @@
 |Input/Output||
 | --- | --- |
 |Input| |
-|Production Time|83.33  seconds  |
+|Production Time|41.67  seconds  |
 |Max Active Units|2    |
 
 

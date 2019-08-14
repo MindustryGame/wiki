@@ -1,8 +1,8 @@
 # <img id="spr" src="/wiki/images/blast-mixer-icon-large.png"></img> Blast Mixer 
 
-<a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x60 <a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-xlarge.png"/></a>x40 
+<a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x30 <a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-xlarge.png"/></a>x20 
 
-*"Uses oil for transforming pyratite into the less flammable but more explosive blast compound."*
+*"Crushes and mixes clusters of spores with pyratite to produce blast compound."*
 
 
 |General||
@@ -11,7 +11,7 @@
 |Solid|Yes|
 |Health|60    |
 |Size|2x2  |
-|Build Time|1.37  seconds  |
+|Build Time|0.68  seconds  |
 
 |Power||
 | --- | --- |

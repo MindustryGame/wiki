@@ -1,9 +1,8 @@
 # <img id="spr" src="/wiki/images/door-icon-large.png"></img> Door 
 
-<a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-xlarge.png"/></a>x12 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x8 
+<a href="/wiki/items/graphite"><img id="spr" src="/wiki/images/item-graphite-xlarge.png"/></a>x6 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x4 
 
-*"A small door that can be opened and closed by tapping on it.
-If opened, enemies can shoot and move through."*
+*"A small door. Can be opened or closed by tapping."*
 
 
 |General||
@@ -12,7 +11,7 @@ If opened, enemies can shoot and move through."*
 |Solid|No|
 |Health|400    |
 |Size|1x1  |
-|Build Time|0.31  seconds  |
+|Build Time|0.15  seconds  |
 
 
 --- 

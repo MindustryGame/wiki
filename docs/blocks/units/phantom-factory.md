@@ -1,8 +1,8 @@
 # <img id="spr" src="/wiki/images/phantom-factory-icon-large.png"></img> Phantom Builder Drone Factory 
 
-<a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x110 <a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-xlarge.png"/></a>x90 <a href="/wiki/items/thorium"><img id="spr" src="/wiki/images/item-thorium-xlarge.png"/></a>x80 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x210 
+<a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x55 <a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-xlarge.png"/></a>x45 <a href="/wiki/items/thorium"><img id="spr" src="/wiki/images/item-thorium-xlarge.png"/></a>x40 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x105 
 
-*"Produces advanced drone units which are significantly more effective than a spirit drone."*
+*"Produces advanced construction drones."*
 
 
 |General||
@@ -11,7 +11,7 @@
 |Solid|No|
 |Health|160    |
 |Size|2x2  |
-|Build Time|7.05  seconds  |
+|Build Time|3.53  seconds  |
 
 |Power||
 | --- | --- |
@@ -19,8 +19,8 @@
 
 |Input/Output||
 | --- | --- |
-|Input|<a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x70 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x80 <a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-xlarge.png"/></a>x80  |
-|Production Time|121.67  seconds  |
+|Input|<a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x30 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x20 <a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-xlarge.png"/></a>x10  |
+|Production Time|60.83  seconds  |
 |Max Active Units|2    |
 
 

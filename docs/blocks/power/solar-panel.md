@@ -1,6 +1,6 @@
 # <img id="spr" src="/wiki/images/solar-panel-icon-large.png"></img> Solar Panel 
 
-<a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x20 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x30 
+<a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x10 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x15 
 
 *"Provides a small amount of power from the sun."*
 
@@ -11,7 +11,7 @@
 |Solid|Yes|
 |Health|40    |
 |Size|1x1  |
-|Build Time|0.63  seconds  |
+|Build Time|0.32  seconds  |
 
 |Power||
 | --- | --- |

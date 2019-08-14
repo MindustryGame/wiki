@@ -1,7 +1,8 @@
 # <img id="spr" src="/wiki/images/multi-press-icon-large.png"></img> Multi-Press 
 
-<a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x200 <a href="/wiki/items/graphite"><img id="spr" src="/wiki/images/item-graphite-xlarge.png"/></a>x100 <a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-xlarge.png"/></a>x200 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x50 
+<a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x100 <a href="/wiki/items/graphite"><img id="spr" src="/wiki/images/item-graphite-xlarge.png"/></a>x50 <a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-xlarge.png"/></a>x100 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x25 
 
+*"An upgraded version of the graphite press. Employs water and power to process coal quickly and efficiently."*
 
 
 |General||
@@ -10,7 +11,7 @@
 |Solid|Yes|
 |Health|60    |
 |Size|3x3  |
-|Build Time|8  seconds  |
+|Build Time|4  seconds  |
 
 |Power||
 | --- | --- |

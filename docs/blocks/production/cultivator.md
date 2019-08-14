@@ -1,8 +1,8 @@
 # <img id="spr" src="/wiki/images/cultivator-icon-large.png"></img> Cultivator 
 
-<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x20 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x50 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x20 
+<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x10 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x25 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x10 
 
-*"Cultivates tiny concentrations of spores into industry-ready pods."*
+*"Cultivates tiny concentrations of spores in the atmosphere into industry-ready pods."*
 
 
 |General||
@@ -11,7 +11,7 @@
 |Solid|Yes|
 |Health|60    |
 |Size|2x2  |
-|Build Time|1.02  seconds  |
+|Build Time|0.51  seconds  |
 
 |Power||
 | --- | --- |
@@ -27,9 +27,9 @@
 
 |Input/Output||
 | --- | --- |
-|Input|<a href="/wiki/liquids/water"><img id="spr" src="/wiki/images/liquid-water.png"/></a>x24  |
+|Input|<a href="/wiki/liquids/water"><img id="spr" src="/wiki/images/liquid-water.png"/></a>x25.2  |
 |Output|<a href="/wiki/items/spore-pod"><img id="spr" src="/wiki/images/item-spore-pod-xlarge.png"/></a>x1  |
-|Production Time|2.67  seconds  |
+|Production Time|2.33  seconds  |
 
 
 --- 

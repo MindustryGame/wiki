@@ -1,8 +1,8 @@
 # <img id="spr" src="/wiki/images/salvo-icon-large.png"></img> Salvo 
 
-<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x210 <a href="/wiki/items/graphite"><img id="spr" src="/wiki/images/item-graphite-xlarge.png"/></a>x190 <a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-xlarge.png"/></a>x120 
+<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x105 <a href="/wiki/items/graphite"><img id="spr" src="/wiki/images/item-graphite-xlarge.png"/></a>x95 <a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-xlarge.png"/></a>x60 
 
-*"A medium-sized turret which fires shots in salvos."*
+*"A larger, more advanced version of the Duo turret. Fires quick salvos of bullets at the enemy."*
 
 
 |General||
@@ -11,7 +11,7 @@
 |Solid|Yes|
 |Health|960    |
 |Size|2x2  |
-|Build Time|6.92  seconds  |
+|Build Time|3.46  seconds  |
 
 |Liquids||
 | --- | --- |
@@ -22,10 +22,10 @@
 |Range|18.75  blocks  |
 |Inaccuracy|0  degrees  |
 |Shots|4    |
-|Shots/Second|8    |
+|Shots/Second|6.32    |
 |Targets Air|Yes  |
 |Targets Ground|Yes  |
-|Ammo|![item-copper-medium](../../images/item-copper-medium.png) Copper <br> • **9** damage <br>![item-graphite-medium](../../images/item-graphite-medium.png) Graphite <br> • **18** damage <br> • **2**x ammo multiplier <br> • **0.6**x fire rate <br>![item-pyratite-medium](../../images/item-pyratite-medium.png) Pyratite <br> • **11** damage <br> • **incendiary** <br>![item-silicon-medium](../../images/item-silicon-medium.png) Silicon <br> • **9** damage <br> • **3**x ammo multiplier <br> • **1.4**x fire rate <br> • **homing** <br>![item-thorium-medium](../../images/item-thorium-medium.png) Thorium <br> • **29** damage <br> • **2**x ammo multiplier <br> |
+|Ammo|![item-copper-medium](../../images/item-copper-medium.png) Copper <br> • **9** damage <br> • **2**x ammo multiplier <br>![item-graphite-medium](../../images/item-graphite-medium.png) Graphite <br> • **18** damage <br> • **4**x ammo multiplier <br> • **0.6**x fire rate <br>![item-pyratite-medium](../../images/item-pyratite-medium.png) Pyratite <br> • **11** damage <br> • **2**x ammo multiplier <br> • **incendiary** <br>![item-silicon-medium](../../images/item-silicon-medium.png) Silicon <br> • **9** damage <br> • **5**x ammo multiplier <br> • **1.4**x fire rate <br> • **homing** <br>![item-thorium-medium](../../images/item-thorium-medium.png) Thorium <br> • **29** damage <br> • **4**x ammo multiplier <br> |
 
 |Optional Enhancements||
 | --- | --- |

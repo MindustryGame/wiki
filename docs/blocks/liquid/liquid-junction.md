@@ -1,6 +1,6 @@
 # <img id="spr" src="/wiki/images/liquid-junction-icon-large.png"></img> Liquid Junction 
 
-<a href="/wiki/items/metaglass"><img id="spr" src="/wiki/images/item-metaglass-xlarge.png"/></a>x4 <a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-xlarge.png"/></a>x4 
+<a href="/wiki/items/metaglass"><img id="spr" src="/wiki/images/item-metaglass-xlarge.png"/></a>x2 <a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-xlarge.png"/></a>x2 
 
 *"Acts as a bridge for two crossing conduits. Useful in situations with two different conduits carrying different liquids to different locations."*
 
@@ -11,7 +11,7 @@
 |Solid|Yes|
 |Health|40    |
 |Size|1x1  |
-|Build Time|0.17  seconds  |
+|Build Time|0.08  seconds  |
 
 
 --- 

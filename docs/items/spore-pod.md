@@ -1,14 +1,14 @@
 # <img id="spr" src="/wiki/images/item-spore-pod.png"></img> Spore Pod 
 
 
-*"Used for conversion into oil, explosives and fuel."*  
+*"A pod of synthetic spores, synthesized from atmospheric concentrations for industrial purposes. Used for conversion into oil, explosives and fuel."*  
 
 | Property      | Value |
 | ----------- | ----------- |
 |Internal Name|`spore-pod`|
 |Color|`7457ce`|
 |Type|Resource|
-|Flammability|104%|
+|Flammability|115%|
 |Explosiveness|0%|
 |Radioactivity|0%|
 |Naturally Occurring|No|

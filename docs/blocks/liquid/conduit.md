@@ -2,7 +2,7 @@
 
 <a href="/wiki/items/metaglass"><img id="spr" src="/wiki/images/item-metaglass-xlarge.png"/></a>x1 
 
-*"Basic liquid transport block. Works like a conveyor, but with liquids. Best used with extractors, pumps or other conduits."*
+*"Basic liquid transport block. Moves liquids forward. Used in conjunction with pumps and other conduits."*
 
 
 |General||

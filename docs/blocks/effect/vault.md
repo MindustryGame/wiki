@@ -1,8 +1,8 @@
 # <img id="spr" src="/wiki/images/vault-icon-large.png"></img> Vault 
 
-<a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-xlarge.png"/></a>x500 <a href="/wiki/items/thorium"><img id="spr" src="/wiki/images/item-thorium-xlarge.png"/></a>x250 
+<a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-xlarge.png"/></a>x250 <a href="/wiki/items/thorium"><img id="spr" src="/wiki/images/item-thorium-xlarge.png"/></a>x125 
 
-*"Stores a large amount of items of each type. An[LIGHT_GRAY] unloader[] can be used to retrieve items from the vault."*
+*"Stores a large amount of items of each type. An unloader block can be used to retrieve items from the vault."*
 
 
 |General||
@@ -11,7 +11,7 @@
 |Solid|Yes|
 |Health|360    |
 |Size|3x3  |
-|Build Time|12.92  seconds  |
+|Build Time|6.46  seconds  |
 
 |Items||
 | --- | --- |

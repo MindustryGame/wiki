@@ -1,8 +1,8 @@
 # <img id="spr" src="/wiki/images/cryofluidmixer-icon-large.png"></img> Cryofluid Mixer 
 
-<a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x130 <a href="/wiki/items/thorium"><img id="spr" src="/wiki/images/item-thorium-xlarge.png"/></a>x90 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x80 
+<a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x65 <a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-xlarge.png"/></a>x60 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x40 
 
-*"Combines water and titanium into cryofluid which is much more efficient for cooling."*
+*"Mixes water and fine titanium powder into cryofluid. Essential for thorium reactor usage."*
 
 
 |General||
@@ -11,7 +11,7 @@
 |Solid|Yes|
 |Health|60    |
 |Size|2x2  |
-|Build Time|4.23  seconds  |
+|Build Time|2.29  seconds  |
 
 |Power||
 | --- | --- |
@@ -27,9 +27,9 @@
 
 |Input/Output||
 | --- | --- |
-|Input|<a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-xlarge.png"/></a>x1  <a href="/wiki/liquids/water"><img id="spr" src="/wiki/images/liquid-water.png"/></a>6/sec  |
-|Output|<a href="/wiki/liquids/cryofluid"><img id="spr" src="/wiki/images/liquid-cryofluid.png"/></a>x6  |
-|Production Time|1  seconds  |
+|Input|<a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-xlarge.png"/></a>x1  <a href="/wiki/liquids/water"><img id="spr" src="/wiki/images/liquid-water.png"/></a>x24  |
+|Output|<a href="/wiki/liquids/cryofluid"><img id="spr" src="/wiki/images/liquid-cryofluid.png"/></a>x24  |
+|Production Time|2  seconds  |
 
 
 --- 

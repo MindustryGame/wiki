@@ -1,8 +1,8 @@
 # <img id="spr" src="/wiki/images/phase-wall-large-icon-large.png"></img> Large Phase Wall 
 
-<a href="/wiki/items/phase-fabric"><img id="spr" src="/wiki/images/item-phase-fabric-xlarge.png"/></a>x48 
+<a href="/wiki/items/phase-fabric"><img id="spr" src="/wiki/images/item-phase-fabric-xlarge.png"/></a>x24 
 
-*"Not as strong as a thorium wall but will deflect bullets unless they are too powerful.
+*"A wall coated with special phase-based reflective compound. Deflects most bullets upon impact.
 Spans multiple tiles."*
 
 
@@ -12,7 +12,7 @@ Spans multiple tiles."*
 |Solid|Yes|
 |Health|2400    |
 |Size|2x2  |
-|Build Time|1.04  seconds  |
+|Build Time|0.52  seconds  |
 
 
 --- 

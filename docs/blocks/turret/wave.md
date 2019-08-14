@@ -1,8 +1,8 @@
 # <img id="spr" src="/wiki/images/wave-icon-large.png"></img> Wave 
 
-<a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x150 <a href="/wiki/items/metaglass"><img id="spr" src="/wiki/images/item-metaglass-xlarge.png"/></a>x90 
+<a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x75 <a href="/wiki/items/metaglass"><img id="spr" src="/wiki/images/item-metaglass-xlarge.png"/></a>x45 
 
-*"A medium-sized rapid-fire turret which shoots liquid bubbles."*
+*"A medium-sized turret. Shoots streams of liquid at enemies. Automatically extinguishes fires when supplied with water."*
 
 
 |General||
@@ -11,7 +11,7 @@
 |Solid|Yes|
 |Health|1000    |
 |Size|2x2  |
-|Build Time|4  seconds  |
+|Build Time|2  seconds  |
 
 |Liquids||
 | --- | --- |
@@ -25,7 +25,7 @@
 |Shots/Second|30    |
 |Targets Air|Yes  |
 |Targets Ground|Yes  |
-|Ammo|![liquid-water](../../images/liquid-water.png) Water <br> • **0.7** knockback <br>![liquid-slag](../../images/liquid-slag.png) Slag <br> • **4** damage <br> • **0.6** knockback <br> • **incendiary** <br>![liquid-cryofluid](../../images/liquid-cryofluid.png) Cryofluid <br> • **0.6** knockback <br> • **freezing** <br>![liquid-oil](../../images/liquid-oil.png) Oil <br> • **0.6** knockback <br> • **tarred** <br> |
+|Ammo|![liquid-water](../../images/liquid-water.png) Water <br> • **2**x ammo multiplier <br> • **0.7** knockback <br>![liquid-slag](../../images/liquid-slag.png) Slag <br> • **4** damage <br> • **2**x ammo multiplier <br> • **0.6** knockback <br> • **incendiary** <br>![liquid-cryofluid](../../images/liquid-cryofluid.png) Cryofluid <br> • **2**x ammo multiplier <br> • **0.6** knockback <br> • **freezing** <br>![liquid-oil](../../images/liquid-oil.png) Oil <br> • **2**x ammo multiplier <br> • **0.6** knockback <br> • **tarred** <br> |
 
 
 --- 

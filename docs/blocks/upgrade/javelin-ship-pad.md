@@ -1,9 +1,9 @@
 # <img id="spr" src="/wiki/images/javelin-ship-pad-icon-large.png"></img> Javelin Ship Pad 
 
-<a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x350 <a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-xlarge.png"/></a>x500 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x450 <a href="/wiki/items/plastanium"><img id="spr" src="/wiki/images/item-plastanium-xlarge.png"/></a>x400 <a href="/wiki/items/phase-fabric"><img id="spr" src="/wiki/images/item-phase-fabric-xlarge.png"/></a>x200 
+<a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x175 <a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-xlarge.png"/></a>x250 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x225 <a href="/wiki/items/plastanium"><img id="spr" src="/wiki/images/item-plastanium-xlarge.png"/></a>x200 <a href="/wiki/items/phase-fabric"><img id="spr" src="/wiki/images/item-phase-fabric-xlarge.png"/></a>x100 
 
-*"Leave your current vessel and change into a strong and fast interceptor with lightning weapons.
-Use the pad by double tapping while standing on it."*
+*"Provides transformation into a quick, lightly-armored interceptor.
+Use by tapping while standing on it."*
 
 
 |General||
@@ -12,7 +12,7 @@ Use the pad by double tapping while standing on it."*
 |Solid|No|
 |Health|160    |
 |Size|2x2  |
-|Build Time|31.42  seconds  |
+|Build Time|15.71  seconds  |
 
 |Power||
 | --- | --- |

@@ -1,8 +1,8 @@
 # <img id="spr" src="/wiki/images/battery-icon-large.png"></img> Battery 
 
-<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x8 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x40 
+<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x4 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x20 
 
-*"Stores power whenever there is an abundance and provides power whenever there is a shortage, as long as there is capacity left."*
+*"Stores power as a buffer in times of surplus energy. Outputs power in times of deficit."*
 
 
 |General||
@@ -11,7 +11,7 @@
 |Solid|Yes|
 |Health|40    |
 |Size|1x1  |
-|Build Time|0.53  seconds  |
+|Build Time|0.27  seconds  |
 
 |Power||
 | --- | --- |

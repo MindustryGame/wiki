@@ -1,8 +1,8 @@
 # <img id="spr" src="/wiki/images/water-extractor-icon-large.png"></img> Water Extractor 
 
-<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x50 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x40 <a href="/wiki/items/graphite"><img id="spr" src="/wiki/images/item-graphite-xlarge.png"/></a>x50 
+<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x25 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x20 <a href="/wiki/items/graphite"><img id="spr" src="/wiki/images/item-graphite-xlarge.png"/></a>x25 
 
-*"Extracts water from the ground. Use it when there is no lake nearby."*
+*"Extracts groundwater. Used in locations with no surface water available."*
 
 
 |General||
@@ -11,7 +11,7 @@
 |Solid|Yes|
 |Health|160    |
 |Size|2x2  |
-|Build Time|1.72  seconds  |
+|Build Time|0.86  seconds  |
 
 |Power||
 | --- | --- |

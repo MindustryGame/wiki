@@ -1,9 +1,9 @@
 # <img id="spr" src="/wiki/images/thorium-wall-large-icon-large.png"></img> Large Thorium Wall 
 
-<a href="/wiki/items/thorium"><img id="spr" src="/wiki/images/item-thorium-xlarge.png"/></a>x48 
+<a href="/wiki/items/thorium"><img id="spr" src="/wiki/images/item-thorium-xlarge.png"/></a>x24 
 
 *"A strong defensive block.
-Good protection from enemies.
+Decent protection from enemies.
 Spans multiple tiles."*
 
 
@@ -13,7 +13,7 @@ Spans multiple tiles."*
 |Solid|Yes|
 |Health|3200    |
 |Size|2x2  |
-|Build Time|0.88  seconds  |
+|Build Time|0.44  seconds  |
 
 
 --- 

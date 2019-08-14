@@ -1,6 +1,6 @@
 # <img id="spr" src="/wiki/images/copper-wall-icon-large.png"></img> Copper Wall 
 
-<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x12 
+<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x6 
 
 *"A cheap defensive block.
 Useful for protecting the core and turrets in the first few waves."*
@@ -12,7 +12,7 @@ Useful for protecting the core and turrets in the first few waves."*
 |Solid|Yes|
 |Health|320    |
 |Size|1x1  |
-|Build Time|0.1  seconds  |
+|Build Time|0.05  seconds  |
 
 
 --- 

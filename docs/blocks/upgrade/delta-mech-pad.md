@@ -1,9 +1,9 @@
 # <img id="spr" src="/wiki/images/delta-mech-pad-icon-large.png"></img> Delta Mech Pad 
 
-<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x400 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x350 <a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-xlarge.png"/></a>x350 <a href="/wiki/items/thorium"><img id="spr" src="/wiki/images/item-thorium-xlarge.png"/></a>x300 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x450 
+<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x200 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x175 <a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-xlarge.png"/></a>x175 <a href="/wiki/items/thorium"><img id="spr" src="/wiki/images/item-thorium-xlarge.png"/></a>x150 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x225 
 
-*"Leave your current vessel and change into a fast, lightly-armored mech made for hit-and-run attacks.
-Use the pad by double tapping while standing on it."*
+*"Provides transformation into a lightly armored hit-and-run attack mech.
+Use by tapping while standing on it."*
 
 
 |General||
@@ -12,7 +12,7 @@ Use the pad by double tapping while standing on it."*
 |Solid|No|
 |Health|160    |
 |Size|2x2  |
-|Build Time|24.75  seconds  |
+|Build Time|12.38  seconds  |
 
 |Power||
 | --- | --- |

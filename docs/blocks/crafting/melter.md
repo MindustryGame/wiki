@@ -1,8 +1,8 @@
 # <img id="spr" src="/wiki/images/melter-icon-large.png"></img> Melter 
 
-<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x60 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x70 <a href="/wiki/items/graphite"><img id="spr" src="/wiki/images/item-graphite-xlarge.png"/></a>x90 
+<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x30 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x35 <a href="/wiki/items/graphite"><img id="spr" src="/wiki/images/item-graphite-xlarge.png"/></a>x45 
 
-*"Melts down scrap into slag for further processing or usage in turrets."*
+*"Melts down scrap into slag for further processing or usage in wave turrets."*
 
 
 |General||
@@ -11,7 +11,7 @@
 |Solid|Yes|
 |Health|200    |
 |Size|1x1  |
-|Build Time|2.82  seconds  |
+|Build Time|1.41  seconds  |
 
 |Power||
 | --- | --- |

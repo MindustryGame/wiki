@@ -1,8 +1,8 @@
 # <img id="spr" src="/wiki/images/power-node-icon-large.png"></img> Power Node 
 
-<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x2 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x6 
+<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x1 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x3 
 
-*"Transmits power to connected nodes. Up to four power sources, sinks or nodes can be connected. The node will receive power from or supply power to any adjacent blocks."*
+*"Transmits power to connected nodes. The node will receive power from or supply power to any adjacent blocks."*
 
 
 |General||
@@ -11,7 +11,7 @@
 |Solid|Yes|
 |Health|40    |
 |Size|1x1  |
-|Build Time|0.09  seconds  |
+|Build Time|0.04  seconds  |
 
 |Power||
 | --- | --- |

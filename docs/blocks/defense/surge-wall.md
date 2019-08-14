@@ -1,9 +1,9 @@
 # <img id="spr" src="/wiki/images/surge-wall-icon-large.png"></img> Surge Wall 
 
-<a href="/wiki/items/surge-alloy"><img id="spr" src="/wiki/images/item-surge-alloy-xlarge.png"/></a>x12 
+<a href="/wiki/items/surge-alloy"><img id="spr" src="/wiki/images/item-surge-alloy-xlarge.png"/></a>x6 
 
-*"The strongest defensive block.
-Has a small chance of triggering lightning towards the attacker."*
+*"An extremely durable defensive block.
+Builds up charge on bullet contact, releasing it randomly."*
 
 
 |General||
@@ -12,7 +12,7 @@ Has a small chance of triggering lightning towards the attacker."*
 |Solid|Yes|
 |Health|920    |
 |Size|1x1  |
-|Build Time|0.2  seconds  |
+|Build Time|0.1  seconds  |
 
 
 --- 

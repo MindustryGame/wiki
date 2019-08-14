@@ -1,8 +1,8 @@
 # <img id="spr" src="/wiki/images/silicon-smelter-icon-large.png"></img> Silicon Smelter 
 
-<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x60 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x50 
+<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x30 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x25 
 
-*"Reduces sand with highly pure coal in order to produce silicon."*
+*"Reduces sand with pure coal. Produces silicon."*
 
 
 |General||
@@ -11,7 +11,7 @@
 |Solid|Yes|
 |Health|60    |
 |Size|2x2  |
-|Build Time|1.08  seconds  |
+|Build Time|0.54  seconds  |
 
 |Power||
 | --- | --- |

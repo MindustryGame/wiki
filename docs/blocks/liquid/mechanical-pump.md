@@ -1,6 +1,6 @@
 # <img id="spr" src="/wiki/images/mechanical-pump-icon-large.png"></img> Mechanical Pump 
 
-<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x30 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x20 
+<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x15 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x10 
 
 *"A cheap pump with slow output, but no power consumption."*
 
@@ -11,7 +11,7 @@
 |Solid|Yes|
 |Health|40    |
 |Size|1x1  |
-|Build Time|0.48  seconds  |
+|Build Time|0.24  seconds  |
 
 |Liquids||
 | --- | --- |

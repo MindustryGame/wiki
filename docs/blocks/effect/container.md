@@ -1,8 +1,8 @@
 # <img id="spr" src="/wiki/images/container-icon-large.png"></img> Container 
 
-<a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-xlarge.png"/></a>x200 
+<a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-xlarge.png"/></a>x100 
 
-*"Stores a small amount of items of each type. An[LIGHT_GRAY] unloader[] can be used to retrieve items from the container."*
+*"Stores a small amount of items of each type. An unloader block can be used to retrieve items from the container."*
 
 
 |General||
@@ -11,7 +11,7 @@
 |Solid|Yes|
 |Health|160    |
 |Size|2x2  |
-|Build Time|3.33  seconds  |
+|Build Time|1.67  seconds  |
 
 |Items||
 | --- | --- |

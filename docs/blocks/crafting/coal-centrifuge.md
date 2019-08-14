@@ -1,7 +1,8 @@
 # <img id="spr" src="/wiki/images/coal-centrifuge-icon-large.png"></img> Coal Centrifuge 
 
-<a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x60 <a href="/wiki/items/graphite"><img id="spr" src="/wiki/images/item-graphite-xlarge.png"/></a>x80 <a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-xlarge.png"/></a>x40 
+<a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x30 <a href="/wiki/items/graphite"><img id="spr" src="/wiki/images/item-graphite-xlarge.png"/></a>x40 <a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-xlarge.png"/></a>x20 
 
+*"Solidifes oil into chunks of coal."*
 
 
 |General||
@@ -10,7 +11,7 @@
 |Solid|Yes|
 |Health|60    |
 |Size|2x2  |
-|Build Time|2.7  seconds  |
+|Build Time|1.35  seconds  |
 
 |Power||
 | --- | --- |

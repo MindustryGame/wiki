@@ -1,8 +1,8 @@
 # <img id="spr" src="/wiki/images/spirit-factory-icon-large.png"></img> Spirit Repair Drone Factory 
 
-<a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x110 <a href="/wiki/items/metaglass"><img id="spr" src="/wiki/images/item-metaglass-xlarge.png"/></a>x70 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x90 
+<a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x55 <a href="/wiki/items/metaglass"><img id="spr" src="/wiki/images/item-metaglass-xlarge.png"/></a>x45 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x45 
 
-*"Produces light drones which mine ore and repair blocks."*
+*"Produces Spirit structural repair drones."*
 
 
 |General||
@@ -11,7 +11,7 @@
 |Solid|No|
 |Health|160    |
 |Size|2x2  |
-|Build Time|4.23  seconds  |
+|Build Time|2.37  seconds  |
 
 |Power||
 | --- | --- |
@@ -19,8 +19,8 @@
 
 |Input/Output||
 | --- | --- |
-|Input|<a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x30 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x30  |
-|Production Time|95  seconds  |
+|Input|<a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x15 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x15  |
+|Production Time|58.33  seconds  |
 |Max Active Units|2    |
 
 

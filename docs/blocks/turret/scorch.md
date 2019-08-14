@@ -1,7 +1,8 @@
 # <img id="spr" src="/wiki/images/scorch-icon-large.png"></img> Scorch 
 
-<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x50 <a href="/wiki/items/graphite"><img id="spr" src="/wiki/images/item-graphite-xlarge.png"/></a>x45 
+<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x25 <a href="/wiki/items/graphite"><img id="spr" src="/wiki/images/item-graphite-xlarge.png"/></a>x22 
 
+*"Burns any ground enemies close to it. Highly effective at close range."*
 
 
 |General||
@@ -10,7 +11,7 @@
 |Solid|Yes|
 |Health|400    |
 |Size|1x1  |
-|Build Time|1.17  seconds  |
+|Build Time|0.57  seconds  |
 
 |Liquids||
 | --- | --- |

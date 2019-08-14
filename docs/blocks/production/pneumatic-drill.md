@@ -1,8 +1,8 @@
 # <img id="spr" src="/wiki/images/pneumatic-drill-icon-large.png"></img> Pneumatic Drill 
 
-<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x35 <a href="/wiki/items/graphite"><img id="spr" src="/wiki/images/item-graphite-xlarge.png"/></a>x15 
+<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x18 <a href="/wiki/items/graphite"><img id="spr" src="/wiki/images/item-graphite-xlarge.png"/></a>x10 
 
-*"An improved drill which is faster and able to process harder materials by making use of air pressure."*
+*"An improved drill, capable of mining titanium. Mines at a faster pace than a mechanical drill."*
 
 
 |General||
@@ -11,7 +11,7 @@
 |Solid|Yes|
 |Health|160    |
 |Size|2x2  |
-|Build Time|0.54  seconds  |
+|Build Time|0.32  seconds  |
 
 |Liquids||
 | --- | --- |
@@ -24,7 +24,7 @@
 |Input/Output||
 | --- | --- |
 |Drillables| |
-|Base Drill Speed|0.5  items/second  |
+|Base Drill Speed|0.6  items/second  |
 
 |Optional Enhancements||
 | --- | --- |

@@ -1,8 +1,8 @@
 # <img id="spr" src="/wiki/images/thorium-reactor-icon-large.png"></img> Thorium Reactor 
 
-<a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x600 <a href="/wiki/items/metaglass"><img id="spr" src="/wiki/images/item-metaglass-xlarge.png"/></a>x100 <a href="/wiki/items/graphite"><img id="spr" src="/wiki/images/item-graphite-xlarge.png"/></a>x300 <a href="/wiki/items/thorium"><img id="spr" src="/wiki/images/item-thorium-xlarge.png"/></a>x300 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x400 
+<a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x300 <a href="/wiki/items/metaglass"><img id="spr" src="/wiki/images/item-metaglass-xlarge.png"/></a>x50 <a href="/wiki/items/graphite"><img id="spr" src="/wiki/images/item-graphite-xlarge.png"/></a>x150 <a href="/wiki/items/thorium"><img id="spr" src="/wiki/images/item-thorium-xlarge.png"/></a>x150 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x200 
 
-*"Generates huge amounts of power from highly radioactive thorium. Requires constant cooling. Will explode violently if insufficient amounts of coolant are supplied. Power output depends on fullness, with base power generated at full capacity."*
+*"Generates significant amounts of power from thorium. Requires constant cooling. Will explode violently if insufficient amounts of coolant are supplied. Power output depends on fullness, with base power generated at full capacity."*
 
 
 |General||
@@ -11,7 +11,7 @@
 |Solid|Yes|
 |Health|700    |
 |Size|3x3  |
-|Build Time|25.33  seconds  |
+|Build Time|12.67  seconds  |
 
 |Power||
 | --- | --- |
@@ -28,7 +28,7 @@
 |Input/Output||
 | --- | --- |
 |Input|<a href="/wiki/items/thorium"><img id="spr" src="/wiki/images/item-thorium-xlarge.png"/></a>x1  <a href="/wiki/liquids/cryofluid"><img id="spr" src="/wiki/images/liquid-cryofluid.png"/></a>6/sec  |
-|Production Time|2  seconds  |
+|Production Time|6  seconds  |
 
 
 --- 

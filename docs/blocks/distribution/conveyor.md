@@ -2,7 +2,7 @@
 
 <a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x1 
 
-*"Basic item transport block. Moves items forward and automatically deposits them into turrets or crafters. Rotatable."*
+*"Basic item transport block. Moves items forward and automatically deposits them into blocks. Rotatable."*
 
 
 |General||

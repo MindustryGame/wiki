@@ -1,9 +1,9 @@
 # <img id="spr" src="/wiki/images/omega-mech-pad-icon-large.png"></img> Omega Mech Pad 
 
-<a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x450 <a href="/wiki/items/graphite"><img id="spr" src="/wiki/images/item-graphite-xlarge.png"/></a>x550 <a href="/wiki/items/thorium"><img id="spr" src="/wiki/images/item-thorium-xlarge.png"/></a>x600 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x650 <a href="/wiki/items/surge-alloy"><img id="spr" src="/wiki/images/item-surge-alloy-xlarge.png"/></a>x240 
+<a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x225 <a href="/wiki/items/graphite"><img id="spr" src="/wiki/images/item-graphite-xlarge.png"/></a>x275 <a href="/wiki/items/thorium"><img id="spr" src="/wiki/images/item-thorium-xlarge.png"/></a>x300 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x325 <a href="/wiki/items/surge-alloy"><img id="spr" src="/wiki/images/item-surge-alloy-xlarge.png"/></a>x120 
 
-*"Leave your current vessel and change into a bulky and well-armored mech, made for front-line assaults.
-Use the pad by double tapping while standing on it."*
+*"Provides transformation into a heavily-armored missile mech.
+Use by tapping while standing on it."*
 
 
 |General||
@@ -12,7 +12,7 @@ Use the pad by double tapping while standing on it."*
 |Solid|No|
 |Health|360    |
 |Size|3x3  |
-|Build Time|38.08  seconds  |
+|Build Time|19.04  seconds  |
 
 |Power||
 | --- | --- |

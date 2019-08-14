@@ -1,7 +1,10 @@
 # <img id="spr" src="/wiki/images/titanium-wall-large-icon-large.png"></img> Large Titanium Wall 
 
-<a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-xlarge.png"/></a>x48 
+<a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-xlarge.png"/></a>x24 
 
+*"A moderately strong defensive block.
+Provides moderate protection from enemies.
+Spans multiple tiles."*
 
 
 |General||
@@ -10,7 +13,7 @@
 |Solid|Yes|
 |Health|1760    |
 |Size|2x2  |
-|Build Time|0.8  seconds  |
+|Build Time|0.4  seconds  |
 
 
 --- 

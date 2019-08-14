@@ -1,6 +1,6 @@
 # <img id="spr" src="/wiki/images/junction-icon-large.png"></img> Junction 
 
-<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x3 
+<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x1 
 
 *"Acts as a bridge for two crossing conveyor belts. Useful in situations with two different conveyors carrying different materials to different locations."*
 
@@ -11,7 +11,7 @@
 |Solid|Yes|
 |Health|30    |
 |Size|1x1  |
-|Build Time|0.03  seconds  |
+|Build Time|0.01  seconds  |
 
 
 --- 

@@ -1,8 +1,8 @@
 # <img id="spr" src="/wiki/images/arc-icon-large.png"></img> Arc 
 
-<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x70 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x70 
+<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x35 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x35 
 
-*"A small close-range turret which shoots electricity in a random arc towards the enemy."*
+*"A small close-range electric turret. Fires arcs of electricity at enemies."*
 
 
 |General||
@@ -11,7 +11,7 @@
 |Solid|Yes|
 |Health|260    |
 |Size|1x1  |
-|Build Time|1.4  seconds  |
+|Build Time|0.7  seconds  |
 
 |Power||
 | --- | --- |

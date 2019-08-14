@@ -1,8 +1,8 @@
 # <img id="spr" src="/wiki/images/combustion-generator-icon-large.png"></img> Combustion Generator 
 
-<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x50 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x30 
+<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x25 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x15 
 
-*"Generates power by burning oil or flammable materials."*
+*"Generates power by burning flammable materials, such as coal."*
 
 
 |General||
@@ -11,7 +11,7 @@
 |Solid|Yes|
 |Health|40    |
 |Size|1x1  |
-|Build Time|0.77  seconds  |
+|Build Time|0.38  seconds  |
 
 |Power||
 | --- | --- |
@@ -24,7 +24,7 @@
 |Input/Output||
 | --- | --- |
 |Input|<a href="/wiki/items/coal"><img id="spr" src="/wiki/images/item-coal-xlarge.png"/></a> / <a href="/wiki/items/spore-pod"><img id="spr" src="/wiki/images/item-spore-pod-xlarge.png"/></a> / <a href="/wiki/items/blast-compound"><img id="spr" src="/wiki/images/item-blast-compound-xlarge.png"/></a> / <a href="/wiki/items/pyratite"><img id="spr" src="/wiki/images/item-pyratite-xlarge.png"/></a>  |
-|Production Time|1  seconds  |
+|Production Time|2  seconds  |
 
 
 --- 

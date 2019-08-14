@@ -1,8 +1,8 @@
 # <img id="spr" src="/wiki/images/meltdown-icon-large.png"></img> Meltdown 
 
-<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x500 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x700 <a href="/wiki/items/graphite"><img id="spr" src="/wiki/images/item-graphite-xlarge.png"/></a>x600 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x650 <a href="/wiki/items/surge-alloy"><img id="spr" src="/wiki/images/item-surge-alloy-xlarge.png"/></a>x650 
+<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x250 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x350 <a href="/wiki/items/graphite"><img id="spr" src="/wiki/images/item-graphite-xlarge.png"/></a>x300 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x325 <a href="/wiki/items/surge-alloy"><img id="spr" src="/wiki/images/item-surge-alloy-xlarge.png"/></a>x325 
 
-*"A large turret which shoots powerful long-range beams."*
+*"A massive laser cannon. Charges and fires a persistent laser beam at nearby enemies. Requires coolant to operate."*
 
 
 |General||
@@ -11,7 +11,7 @@
 |Solid|Yes|
 |Health|3200    |
 |Size|4x4  |
-|Build Time|41.83  seconds  |
+|Build Time|20.92  seconds  |
 
 |Power||
 | --- | --- |
