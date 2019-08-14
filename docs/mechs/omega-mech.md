@@ -1,6 +1,7 @@
 # <img id="spr" src="/wiki/images/mech-icon-omega-mech.png"></img> Omega 
 
 
+*"A bulky and well-armored mech, made for front-line assaults. Its armor can block up to 90% of incoming damage."*  
 
 | Property      | Value |
 | ----------- | ----------- |

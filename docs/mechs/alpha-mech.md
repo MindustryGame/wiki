@@ -1,6 +1,7 @@
 # <img id="spr" src="/wiki/images/mech-icon-alpha-mech.png"></img> Alpha 
 
 
+*"The standard control mech. Based on a Dagger unit, with upgraded armor and building capabilities. Has more damage output than a Dart ship."*  
 
 | Property      | Value |
 | ----------- | ----------- |

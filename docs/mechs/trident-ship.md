@@ -1,6 +1,7 @@
 # <img id="spr" src="/wiki/images/mech-icon-trident-ship.png"></img> Trident 
 
 
+*"A heavy bomber, built for construction and destroying enemy fortifications. Reasonably well armored."*  
 
 | Property      | Value |
 | ----------- | ----------- |

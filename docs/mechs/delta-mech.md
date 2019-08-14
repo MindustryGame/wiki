@@ -1,6 +1,7 @@
 # <img id="spr" src="/wiki/images/mech-icon-delta-mech.png"></img> Delta 
 
 
+*"A fast, lightly-armored mech made for hit-and-run attacks. Does little damage against structures, but can kill large groups of enemy units very quickly with its arc lightning weapons."*  
 
 | Property      | Value |
 | ----------- | ----------- |

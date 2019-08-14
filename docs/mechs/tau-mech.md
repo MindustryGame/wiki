@@ -1,6 +1,7 @@
 # <img id="spr" src="/wiki/images/mech-icon-tau-mech.png"></img> Tau 
 
 
+*"The support mech. Heals allied blocks by shooting at them. Can heal allies in a radius with its repair ability."*  
 
 | Property      | Value |
 | ----------- | ----------- |

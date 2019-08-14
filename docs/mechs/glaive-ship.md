@@ -1,6 +1,7 @@
 # <img id="spr" src="/wiki/images/mech-icon-glaive-ship.png"></img> Glaive 
 
 
+*"A large, well-armored gunship. Equipped with an incendiary repeater. Highly maneuverable."*  
 
 | Property      | Value |
 | ----------- | ----------- |

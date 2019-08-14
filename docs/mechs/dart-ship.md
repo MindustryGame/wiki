@@ -1,6 +1,7 @@
 # <img id="spr" src="/wiki/images/mech-icon-dart-ship.png"></img> Dart 
 
 
+*"The standard control ship. Reasonably fast and light, but has little offensive capability and low mining speed."*  
 
 | Property      | Value |
 | ----------- | ----------- |
