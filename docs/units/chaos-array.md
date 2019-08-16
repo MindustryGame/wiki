@@ -6,7 +6,7 @@
 | Property      | Value |
 | ----------- | ----------- |
 |Internal Name|`chaos-array`|
-|Health|4000|
+|Health|3000|
 |Speed|0.12|
 |Mass|5|
 |Max Velocity|0.68|

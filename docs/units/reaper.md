@@ -6,7 +6,7 @@
 | Property      | Value |
 | ----------- | ----------- |
 |Internal Name|`reaper`|
-|Health|13000|
+|Health|11000|
 |Speed|0.01|
 |Mass|30|
 |Max Velocity|0.6|

@@ -6,7 +6,7 @@
 | Property      | Value |
 | ----------- | ----------- |
 |Internal Name|`lich`|
-|Health|7000|
+|Health|6000|
 |Speed|0.01|
 |Mass|20|
 |Max Velocity|0.6|

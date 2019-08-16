@@ -6,7 +6,7 @@
 | Property      | Value |
 | ----------- | ----------- |
 |Internal Name|`eradicator`|
-|Health|10000|
+|Health|9000|
 |Speed|0.12|
 |Mass|5|
 |Max Velocity|0.68|
