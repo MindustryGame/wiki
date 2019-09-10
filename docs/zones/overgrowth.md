@@ -15,6 +15,6 @@ The enemy has established an outpost here. Build Titan units. Destroy it. Reclai
 
 --- 
 
-##### Preceded by <br><a href="/wiki/zones/craters"><img id="sprlist" src="/wiki/images/zone-craters.png"/></a> <a href="/wiki/zones/fungalPass"><img id="sprlist" src="/wiki/images/zone-fungalPass.png"/></a> 
+##### Preceded by <br><a href="/wiki/zones/craters"><img id="zonespr" src="/wiki/images/zone-craters.png"/></a> <a href="/wiki/zones/fungalPass"><img id="zonespr" src="/wiki/images/zone-fungalPass.png"/></a> 
 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)

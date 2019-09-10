@@ -17,5 +17,5 @@ Move on."
 --- 
 
 
-##### Required for <br><a href="/wiki/zones/desertWastes"><img id="sprlist" src="/wiki/images/zone-desertWastes.png"/></a> <a href="/wiki/zones/frozenForest"><img id="sprlist" src="/wiki/images/zone-frozenForest.png"/></a> 
+##### Required for <br><a href="/wiki/zones/desertWastes"><img id="zonespr" src="/wiki/images/zone-desertWastes.png"/></a> <a href="/wiki/zones/frozenForest"><img id="zonespr" src="/wiki/images/zone-frozenForest.png"/></a> 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)

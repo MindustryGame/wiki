@@ -16,7 +16,7 @@ Begin the venture into power. Build combustion generators. Learn to use menders.
 
 --- 
 
-##### Preceded by <br><a href="/wiki/zones/groundZero"><img id="sprlist" src="/wiki/images/zone-groundZero.png"/></a> 
+##### Preceded by <br><a href="/wiki/zones/groundZero"><img id="zonespr" src="/wiki/images/zone-groundZero.png"/></a> 
 
-##### Required for <br><a href="/wiki/zones/craters"><img id="sprlist" src="/wiki/images/zone-craters.png"/></a> <a href="/wiki/zones/stainedMountains"><img id="sprlist" src="/wiki/images/zone-stainedMountains.png"/></a> 
+##### Required for <br><a href="/wiki/zones/craters"><img id="zonespr" src="/wiki/images/zone-craters.png"/></a> <a href="/wiki/zones/stainedMountains"><img id="zonespr" src="/wiki/images/zone-stainedMountains.png"/></a> 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)

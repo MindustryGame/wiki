@@ -17,7 +17,7 @@ This landing location cannot be guaranteed."
 
 --- 
 
-##### Preceded by <br><a href="/wiki/zones/groundZero"><img id="sprlist" src="/wiki/images/zone-groundZero.png"/></a> 
+##### Preceded by <br><a href="/wiki/zones/groundZero"><img id="zonespr" src="/wiki/images/zone-groundZero.png"/></a> 
 
-##### Required for <br><a href="/wiki/zones/saltFlats"><img id="sprlist" src="/wiki/images/zone-saltFlats.png"/></a> <a href="/wiki/zones/ruinousShores"><img id="sprlist" src="/wiki/images/zone-ruinousShores.png"/></a> 
+##### Required for <br><a href="/wiki/zones/saltFlats"><img id="zonespr" src="/wiki/images/zone-saltFlats.png"/></a> <a href="/wiki/zones/ruinousShores"><img id="zonespr" src="/wiki/images/zone-ruinousShores.png"/></a> 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)

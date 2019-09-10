@@ -17,7 +17,7 @@ Research oil processing technology if possible."
 
 --- 
 
-##### Preceded by <br><a href="/wiki/zones/ruinousShores"><img id="sprlist" src="/wiki/images/zone-ruinousShores.png"/></a> 
+##### Preceded by <br><a href="/wiki/zones/ruinousShores"><img id="zonespr" src="/wiki/images/zone-ruinousShores.png"/></a> 
 
-##### Required for <br><a href="/wiki/zones/desolateRift"><img id="sprlist" src="/wiki/images/zone-desolateRift.png"/></a> 
+##### Required for <br><a href="/wiki/zones/desolateRift"><img id="zonespr" src="/wiki/images/zone-desolateRift.png"/></a> 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)

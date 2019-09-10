@@ -16,6 +16,6 @@ The enemy has erected a resource storage complex here. Eradicate their core. Lea
 
 --- 
 
-##### Preceded by <br><a href="/wiki/zones/desertWastes"><img id="sprlist" src="/wiki/images/zone-desertWastes.png"/></a> 
+##### Preceded by <br><a href="/wiki/zones/desertWastes"><img id="zonespr" src="/wiki/images/zone-desertWastes.png"/></a> 
 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)

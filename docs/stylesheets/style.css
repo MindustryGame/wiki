@@ -28,7 +28,9 @@ img#ind {
 }
 
 img#zonespr {
-  width: 1.6em;
+  width: auto !important;
+  height: 1.6em !important;
+  size: auto;
   margin-left: 5px;
   margin-top: -3px;
   border: 2px solid dimgray;

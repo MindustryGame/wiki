@@ -16,7 +16,7 @@ Use Dagger and Crawler units. Take out the two cores."
 
 --- 
 
-##### Preceded by <br><a href="/wiki/zones/stainedMountains"><img id="sprlist" src="/wiki/images/zone-stainedMountains.png"/></a> 
+##### Preceded by <br><a href="/wiki/zones/stainedMountains"><img id="zonespr" src="/wiki/images/zone-stainedMountains.png"/></a> 
 
-##### Required for <br><a href="/wiki/zones/overgrowth"><img id="sprlist" src="/wiki/images/zone-overgrowth.png"/></a> <a href="/wiki/zones/nuclearComplex"><img id="sprlist" src="/wiki/images/zone-nuclearComplex.png"/></a> 
+##### Required for <br><a href="/wiki/zones/overgrowth"><img id="zonespr" src="/wiki/images/zone-overgrowth.png"/></a> <a href="/wiki/zones/nuclearComplex"><img id="zonespr" src="/wiki/images/zone-nuclearComplex.png"/></a> 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)

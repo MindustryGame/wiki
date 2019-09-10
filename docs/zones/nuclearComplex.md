@@ -17,6 +17,6 @@ The enemy is present here in great numbers, constantly scouting for attackers."
 
 --- 
 
-##### Preceded by <br><a href="/wiki/zones/fungalPass"><img id="sprlist" src="/wiki/images/zone-fungalPass.png"/></a> 
+##### Preceded by <br><a href="/wiki/zones/fungalPass"><img id="zonespr" src="/wiki/images/zone-fungalPass.png"/></a> 
 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)

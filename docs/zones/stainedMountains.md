@@ -17,7 +17,7 @@ The enemy presence is greater here. Do not give them time to send their stronges
 
 --- 
 
-##### Preceded by <br><a href="/wiki/zones/frozenForest"><img id="sprlist" src="/wiki/images/zone-frozenForest.png"/></a> 
+##### Preceded by <br><a href="/wiki/zones/frozenForest"><img id="zonespr" src="/wiki/images/zone-frozenForest.png"/></a> 
 
-##### Required for <br><a href="/wiki/zones/fungalPass"><img id="sprlist" src="/wiki/images/zone-fungalPass.png"/></a> 
+##### Required for <br><a href="/wiki/zones/fungalPass"><img id="zonespr" src="/wiki/images/zone-fungalPass.png"/></a> 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)

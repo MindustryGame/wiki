@@ -15,7 +15,7 @@ Continue the expansion outwards. Rediscover the technology."
 
 --- 
 
-##### Preceded by <br><a href="/wiki/zones/desertWastes"><img id="sprlist" src="/wiki/images/zone-desertWastes.png"/></a> <a href="/wiki/zones/craters"><img id="sprlist" src="/wiki/images/zone-craters.png"/></a> 
+##### Preceded by <br><a href="/wiki/zones/desertWastes"><img id="zonespr" src="/wiki/images/zone-desertWastes.png"/></a> <a href="/wiki/zones/craters"><img id="zonespr" src="/wiki/images/zone-craters.png"/></a> 
 
-##### Required for <br><a href="/wiki/zones/tarFields"><img id="sprlist" src="/wiki/images/zone-tarFields.png"/></a> 
+##### Required for <br><a href="/wiki/zones/tarFields"><img id="zonespr" src="/wiki/images/zone-tarFields.png"/></a> 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)

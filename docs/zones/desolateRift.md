@@ -14,6 +14,6 @@
 
 --- 
 
-##### Preceded by <br><a href="/wiki/zones/tarFields"><img id="sprlist" src="/wiki/images/zone-tarFields.png"/></a> 
+##### Preceded by <br><a href="/wiki/zones/tarFields"><img id="zonespr" src="/wiki/images/zone-tarFields.png"/></a> 
 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)

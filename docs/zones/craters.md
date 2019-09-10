@@ -14,7 +14,7 @@
 
 --- 
 
-##### Preceded by <br><a href="/wiki/zones/frozenForest"><img id="sprlist" src="/wiki/images/zone-frozenForest.png"/></a> 
+##### Preceded by <br><a href="/wiki/zones/frozenForest"><img id="zonespr" src="/wiki/images/zone-frozenForest.png"/></a> 
 
-##### Required for <br><a href="/wiki/zones/ruinousShores"><img id="sprlist" src="/wiki/images/zone-ruinousShores.png"/></a> <a href="/wiki/zones/overgrowth"><img id="sprlist" src="/wiki/images/zone-overgrowth.png"/></a> 
+##### Required for <br><a href="/wiki/zones/ruinousShores"><img id="zonespr" src="/wiki/images/zone-ruinousShores.png"/></a> <a href="/wiki/zones/overgrowth"><img id="zonespr" src="/wiki/images/zone-overgrowth.png"/></a> 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
