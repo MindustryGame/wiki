@@ -1,7 +1,5 @@
 # <img id="spr" src="/wiki/images/separator-icon-large.png"></img> Separator 
 
-<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x30 <a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-xlarge.png"/></a>x25 
-
 *"Separates slag into its mineral components. Outputs the cooled result."*
 
 
@@ -12,6 +10,7 @@
 |Health|160    |
 |Size|2x2  |
 |Build Time|0.67  seconds  |
+|Build Cost|<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x30 <a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-xlarge.png"/></a>x25  |
 
 |Power||
 | --- | --- |

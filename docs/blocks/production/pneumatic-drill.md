@@ -1,7 +1,5 @@
 # <img id="spr" src="/wiki/images/pneumatic-drill-icon-large.png"></img> Pneumatic Drill 
 
-<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x18 <a href="/wiki/items/graphite"><img id="spr" src="/wiki/images/item-graphite-xlarge.png"/></a>x10 
-
 *"An improved drill, capable of mining titanium. Mines at a faster pace than a mechanical drill."*
 
 
@@ -12,6 +10,7 @@
 |Health|160    |
 |Size|2x2  |
 |Build Time|0.32  seconds  |
+|Build Cost|<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x18 <a href="/wiki/items/graphite"><img id="spr" src="/wiki/images/item-graphite-xlarge.png"/></a>x10  |
 
 |Liquids||
 | --- | --- |

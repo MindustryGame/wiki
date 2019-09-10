@@ -1,7 +1,5 @@
 # <img id="spr" src="/wiki/images/hail-icon-large.png"></img> Hail 
 
-<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x40 <a href="/wiki/items/graphite"><img id="spr" src="/wiki/images/item-graphite-xlarge.png"/></a>x17 
-
 *"A small, long-range artillery turret."*
 
 
@@ -12,6 +10,7 @@
 |Health|260    |
 |Size|1x1  |
 |Build Time|0.62  seconds  |
+|Build Cost|<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x40 <a href="/wiki/items/graphite"><img id="spr" src="/wiki/images/item-graphite-xlarge.png"/></a>x17  |
 
 |Liquids||
 | --- | --- |

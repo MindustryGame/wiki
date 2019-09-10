@@ -1,7 +1,5 @@
 # <img id="spr" src="/wiki/images/cultivator-icon-large.png"></img> Cultivator 
 
-<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x10 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x25 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x10 
-
 *"Cultivates tiny concentrations of spores in the atmosphere into industry-ready pods."*
 
 
@@ -12,6 +10,7 @@
 |Health|60    |
 |Size|2x2  |
 |Build Time|0.51  seconds  |
+|Build Cost|<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x10 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x25 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x10  |
 
 |Power||
 | --- | --- |

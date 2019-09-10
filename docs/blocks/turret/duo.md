@@ -1,7 +1,5 @@
 # <img id="spr" src="/wiki/images/duo-icon-large.png"></img> Duo 
 
-<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x35 
-
 *"A small, cheap turret. Useful against ground units."*
 
 
@@ -12,6 +10,7 @@
 |Health|250    |
 |Size|1x1  |
 |Build Time|0.29  seconds  |
+|Build Cost|<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x35  |
 
 |Liquids||
 | --- | --- |

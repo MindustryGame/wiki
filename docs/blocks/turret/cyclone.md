@@ -1,7 +1,5 @@
 # <img id="spr" src="/wiki/images/cyclone-icon-large.png"></img> Cyclone 
 
-<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x200 <a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-xlarge.png"/></a>x125 <a href="/wiki/items/plastanium"><img id="spr" src="/wiki/images/item-plastanium-xlarge.png"/></a>x80 
-
 *"A large anti-air and anti-ground turret. Fires explosive clumps of flak at nearby units."*
 
 
@@ -12,6 +10,7 @@
 |Health|1305    |
 |Size|3x3  |
 |Build Time|5.48  seconds  |
+|Build Cost|<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x200 <a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-xlarge.png"/></a>x125 <a href="/wiki/items/plastanium"><img id="spr" src="/wiki/images/item-plastanium-xlarge.png"/></a>x80  |
 
 |Liquids||
 | --- | --- |

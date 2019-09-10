@@ -1,7 +1,5 @@
 # <img id="spr" src="/wiki/images/salvo-icon-large.png"></img> Salvo 
 
-<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x105 <a href="/wiki/items/graphite"><img id="spr" src="/wiki/images/item-graphite-xlarge.png"/></a>x95 <a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-xlarge.png"/></a>x60 
-
 *"A larger, more advanced version of the Duo turret. Fires quick salvos of bullets at the enemy."*
 
 
@@ -12,6 +10,7 @@
 |Health|960    |
 |Size|2x2  |
 |Build Time|3.46  seconds  |
+|Build Cost|<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x105 <a href="/wiki/items/graphite"><img id="spr" src="/wiki/images/item-graphite-xlarge.png"/></a>x95 <a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-xlarge.png"/></a>x60  |
 
 |Liquids||
 | --- | --- |

@@ -1,7 +1,5 @@
 # <img id="spr" src="/wiki/images/arc-icon-large.png"></img> Arc 
 
-<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x35 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x35 
-
 *"A small close-range electric turret. Fires arcs of electricity at enemies."*
 
 
@@ -11,11 +9,12 @@
 |Solid|Yes|
 |Health|260    |
 |Size|1x1  |
-|Build Time|0.7  seconds  |
+|Build Time|0.88  seconds  |
+|Build Cost|<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x35 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x50  |
 
 |Power||
 | --- | --- |
-|Power Use|54  power units/second  |
+|Power Use|90  power units/second  |
 
 |Liquids||
 | --- | --- |
@@ -23,13 +22,13 @@
 
 |Shooting||
 | --- | --- |
-|Range|11.88  blocks  |
+|Range|11.25  blocks  |
 |Inaccuracy|0  degrees  |
 |Shots|1    |
-|Shots/Second|2.5    |
+|Shots/Second|1.71    |
 |Targets Air|No  |
 |Targets Ground|Yes  |
-|Damage|25    |
+|Damage|21    |
 
 |Optional Enhancements||
 | --- | --- |

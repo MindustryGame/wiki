@@ -1,7 +1,5 @@
 # <img id="spr" src="/wiki/images/repair-point-icon-large.png"></img> Repair Point 
 
-<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x15 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x15 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x15 
-
 *"Continuously heals the closest damaged unit in its vicinity."*
 
 
@@ -12,6 +10,7 @@
 |Health|40    |
 |Size|1x1  |
 |Build Time|0.5  seconds  |
+|Build Cost|<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x15 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x15 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x15  |
 
 |Power||
 | --- | --- |

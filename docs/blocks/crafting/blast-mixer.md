@@ -1,7 +1,5 @@
 # <img id="spr" src="/wiki/images/blast-mixer-icon-large.png"></img> Blast Mixer 
 
-<a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x30 <a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-xlarge.png"/></a>x20 
-
 *"Crushes and mixes clusters of spores with pyratite to produce blast compound."*
 
 
@@ -12,6 +10,7 @@
 |Health|60    |
 |Size|2x2  |
 |Build Time|0.68  seconds  |
+|Build Cost|<a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x30 <a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-xlarge.png"/></a>x20  |
 
 |Power||
 | --- | --- |

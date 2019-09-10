@@ -1,7 +1,5 @@
 # <img id="spr" src="/wiki/images/combustion-generator-icon-large.png"></img> Combustion Generator 
 
-<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x25 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x15 
-
 *"Generates power by burning flammable materials, such as coal."*
 
 
@@ -12,6 +10,7 @@
 |Health|40    |
 |Size|1x1  |
 |Build Time|0.38  seconds  |
+|Build Cost|<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x25 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x15  |
 
 |Power||
 | --- | --- |

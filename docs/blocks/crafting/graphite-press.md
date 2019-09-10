@@ -1,7 +1,5 @@
 # <img id="spr" src="/wiki/images/graphite-press-icon-large.png"></img> Graphite Press 
 
-<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x75 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x30 
-
 *"Compresses chunks of coal into pure sheets of graphite."*
 
 
@@ -12,6 +10,7 @@
 |Health|60    |
 |Size|2x2  |
 |Build Time|0.98  seconds  |
+|Build Cost|<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x75 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x30  |
 
 |Items||
 | --- | --- |

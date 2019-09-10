@@ -1,7 +1,5 @@
 # <img id="spr" src="/wiki/images/ripple-icon-large.png"></img> Ripple 
 
-<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x150 <a href="/wiki/items/graphite"><img id="spr" src="/wiki/images/item-graphite-xlarge.png"/></a>x135 <a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-xlarge.png"/></a>x60 
-
 *"An extremely powerful artillery turret. Shoots clusters of shells at enemies over long distances."*
 
 
@@ -12,6 +10,7 @@
 |Health|1170    |
 |Size|3x3  |
 |Build Time|4.5  seconds  |
+|Build Cost|<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x150 <a href="/wiki/items/graphite"><img id="spr" src="/wiki/images/item-graphite-xlarge.png"/></a>x135 <a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-xlarge.png"/></a>x60  |
 
 |Liquids||
 | --- | --- |

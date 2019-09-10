@@ -1,7 +1,5 @@
 # <img id="spr" src="/wiki/images/mend-projector-icon-large.png"></img> Mend Projector 
 
-<a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x100 <a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-xlarge.png"/></a>x25 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x40 
-
 *"An upgraded version of the Mender. Repairs blocks in its vicinity.
 Optionally uses phase fabric to boost range and efficiency."*
 
@@ -13,6 +11,7 @@ Optionally uses phase fabric to boost range and efficiency."*
 |Health|320    |
 |Size|2x2  |
 |Build Time|2.12  seconds  |
+|Build Cost|<a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x100 <a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-xlarge.png"/></a>x25 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x40  |
 
 |Power||
 | --- | --- |

@@ -1,7 +1,5 @@
 # <img id="spr" src="/wiki/images/crawler-factory-icon-large.png"></img> Crawler Mech Factory 
 
-<a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x45 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x30 
-
 *"Produces fast self-destructing swarm units."*
 
 
@@ -12,6 +10,7 @@
 |Health|160    |
 |Size|2x2  |
 |Build Time|0.93  seconds  |
+|Build Cost|<a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x45 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x30  |
 
 |Power||
 | --- | --- |

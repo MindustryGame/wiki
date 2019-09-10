@@ -1,7 +1,5 @@
 # <img id="spr" src="/wiki/images/fuse-icon-large.png"></img> Fuse 
 
-<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x225 <a href="/wiki/items/graphite"><img id="spr" src="/wiki/images/item-graphite-xlarge.png"/></a>x225 <a href="/wiki/items/thorium"><img id="spr" src="/wiki/images/item-thorium-xlarge.png"/></a>x100 
-
 *"A large, close-range energy turret. Fires three piercing beams at nearby enemies."*
 
 
@@ -12,6 +10,7 @@
 |Health|1980    |
 |Size|3x3  |
 |Build Time|7.46  seconds  |
+|Build Cost|<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x225 <a href="/wiki/items/graphite"><img id="spr" src="/wiki/images/item-graphite-xlarge.png"/></a>x225 <a href="/wiki/items/thorium"><img id="spr" src="/wiki/images/item-thorium-xlarge.png"/></a>x100  |
 
 |Liquids||
 | --- | --- |

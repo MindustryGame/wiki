@@ -1,7 +1,5 @@
 # <img id="spr" src="/wiki/images/ghoul-factory-icon-large.png"></img> Ghoul Bomber Factory 
 
-<a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x65 <a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-xlarge.png"/></a>x75 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x110 
-
 *"Produces heavy carpet bombers."*
 
 
@@ -12,6 +10,7 @@
 |Health|360    |
 |Size|3x3  |
 |Build Time|3.47  seconds  |
+|Build Cost|<a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x65 <a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-xlarge.png"/></a>x75 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x110  |
 
 |Power||
 | --- | --- |

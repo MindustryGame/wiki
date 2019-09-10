@@ -1,7 +1,5 @@
 # <img id="spr" src="/wiki/images/pyratite-mixer-icon-large.png"></img> Pyratite Mixer 
 
-<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x50 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x25 
-
 *"Mixes coal, lead and sand into highly flammable pyratite."*
 
 
@@ -12,6 +10,7 @@
 |Health|60    |
 |Size|2x2  |
 |Build Time|0.71  seconds  |
+|Build Cost|<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x50 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x25  |
 
 |Power||
 | --- | --- |

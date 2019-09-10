@@ -1,7 +1,5 @@
 # <img id="spr" src="/wiki/images/pulverizer-icon-large.png"></img> Pulverizer 
 
-<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x30 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x25 
-
 *"Crushes scrap into fine sand."*
 
 
@@ -12,6 +10,7 @@
 |Health|60    |
 |Size|1x1  |
 |Build Time|0.54  seconds  |
+|Build Cost|<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x30 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x25  |
 
 |Power||
 | --- | --- |

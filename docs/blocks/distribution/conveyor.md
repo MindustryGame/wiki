@@ -1,7 +1,5 @@
 # <img id="spr" src="/wiki/images/conveyor-icon-large.png"></img> Conveyor 
 
-<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x1 
-
 *"Basic item transport block. Moves items forward and automatically deposits them into blocks. Rotatable."*
 
 
@@ -12,6 +10,7 @@
 |Health|45    |
 |Size|1x1  |
 |Build Time|0.01  seconds  |
+|Build Cost|<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x1  |
 
 |Items||
 | --- | --- |

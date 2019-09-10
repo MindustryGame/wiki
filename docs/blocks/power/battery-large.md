@@ -1,7 +1,5 @@
 # <img id="spr" src="/wiki/images/battery-large-icon-large.png"></img> Large Battery 
 
-<a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x40 <a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-xlarge.png"/></a>x20 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x20 
-
 *"Stores much more power than a regular battery."*
 
 
@@ -12,6 +10,7 @@
 |Health|360    |
 |Size|3x3  |
 |Build Time|1.07  seconds  |
+|Build Cost|<a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x40 <a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-xlarge.png"/></a>x20 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x20  |
 
 |Power||
 | --- | --- |

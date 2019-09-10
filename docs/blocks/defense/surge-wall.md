@@ -1,7 +1,5 @@
 # <img id="spr" src="/wiki/images/surge-wall-icon-large.png"></img> Surge Wall 
 
-<a href="/wiki/items/surge-alloy"><img id="spr" src="/wiki/images/item-surge-alloy-xlarge.png"/></a>x6 
-
 *"An extremely durable defensive block.
 Builds up charge on bullet contact, releasing it randomly."*
 
@@ -13,6 +11,7 @@ Builds up charge on bullet contact, releasing it randomly."*
 |Health|920    |
 |Size|1x1  |
 |Build Time|0.1  seconds  |
+|Build Cost|<a href="/wiki/items/surge-alloy"><img id="spr" src="/wiki/images/item-surge-alloy-xlarge.png"/></a>x6  |
 
 
 --- 

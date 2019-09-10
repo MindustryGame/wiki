@@ -1,7 +1,5 @@
 # <img id="spr" src="/wiki/images/phase-weaver-icon-large.png"></img> Phase Weaver 
 
-<a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x120 <a href="/wiki/items/thorium"><img id="spr" src="/wiki/images/item-thorium-xlarge.png"/></a>x75 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x130 
-
 *"Synthesizes phase fabric from radioactive thorium and sand. Requires massive amounts of power to function."*
 
 
@@ -12,6 +10,7 @@
 |Health|60    |
 |Size|2x2  |
 |Build Time|4.51  seconds  |
+|Build Cost|<a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x120 <a href="/wiki/items/thorium"><img id="spr" src="/wiki/images/item-thorium-xlarge.png"/></a>x75 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x130  |
 
 |Power||
 | --- | --- |
@@ -19,7 +18,7 @@
 
 |Items||
 | --- | --- |
-|Item Capacity|10  items  |
+|Item Capacity|20  items  |
 
 |Input/Output||
 | --- | --- |

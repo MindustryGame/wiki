@@ -9,7 +9,7 @@
 |Color|`272727`|
 |Type|Resource|
 |Flammability|100%|
-|Explosiveness|40%|
+|Explosiveness|20%|
 |Radioactivity|0%|
 |Naturally Occurring|Yes|
 |Hardness|2|

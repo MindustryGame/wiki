@@ -1,7 +1,5 @@
 # <img id="spr" src="/wiki/images/overdrive-projector-icon-large.png"></img> Overdrive Projector 
 
-<a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x100 <a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-xlarge.png"/></a>x75 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x75 <a href="/wiki/items/plastanium"><img id="spr" src="/wiki/images/item-plastanium-xlarge.png"/></a>x30 
-
 *"Increases the speed of nearby buildings.
 Optionally uses phase fabric to boost range and efficiency."*
 
@@ -13,6 +11,7 @@ Optionally uses phase fabric to boost range and efficiency."*
 |Health|160    |
 |Size|2x2  |
 |Build Time|4.07  seconds  |
+|Build Cost|<a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x100 <a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-xlarge.png"/></a>x75 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x75 <a href="/wiki/items/plastanium"><img id="spr" src="/wiki/images/item-plastanium-xlarge.png"/></a>x30  |
 
 |Power||
 | --- | --- |

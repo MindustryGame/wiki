@@ -1,7 +1,5 @@
 # <img id="spr" src="/wiki/images/mechanical-drill-icon-large.png"></img> Mechanical Drill 
 
-<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x12 
-
 *"A cheap drill. When placed on appropriate tiles, outputs items at a slow pace indefinitely. Only capable of mining basic resources."*
 
 
@@ -12,6 +10,7 @@
 |Health|160    |
 |Size|2x2  |
 |Build Time|0.1  seconds  |
+|Build Cost|<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x12  |
 
 |Liquids||
 | --- | --- |

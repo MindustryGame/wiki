@@ -1,7 +1,5 @@
 # <img id="spr" src="/wiki/images/mender-icon-large.png"></img> Mender 
 
-<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x25 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x30 
-
 *"Periodically repairs blocks in its vicinity. Keeps defenses repaired in-between waves.
 Optionally uses silicon to boost range and efficiency."*
 
@@ -13,6 +11,7 @@ Optionally uses silicon to boost range and efficiency."*
 |Health|80    |
 |Size|1x1  |
 |Build Time|0.56  seconds  |
+|Build Cost|<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x25 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x30  |
 
 |Power||
 | --- | --- |

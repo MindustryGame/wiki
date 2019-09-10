@@ -1,7 +1,5 @@
 # <img id="spr" src="/wiki/images/dart-mech-pad-icon-large.png"></img> Alpha Mech Pad 
 
-<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x75 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x100 <a href="/wiki/items/graphite"><img id="spr" src="/wiki/images/item-graphite-xlarge.png"/></a>x50 
-
 *"Provides transformation into a basic attack mech.
 Use by tapping while standing on it."*
 
@@ -13,6 +11,7 @@ Use by tapping while standing on it."*
 |Health|160    |
 |Size|2x2  |
 |Build Time|2.63  seconds  |
+|Build Cost|<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x75 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x100 <a href="/wiki/items/graphite"><img id="spr" src="/wiki/images/item-graphite-xlarge.png"/></a>x50  |
 
 |Power||
 | --- | --- |

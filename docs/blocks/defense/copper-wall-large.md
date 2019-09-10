@@ -1,7 +1,5 @@
 # <img id="spr" src="/wiki/images/copper-wall-large-icon-large.png"></img> Large Copper Wall 
 
-<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x24 
-
 *"A cheap defensive block.
 Useful for protecting the core and turrets in the first few waves.
 Spans multiple tiles."*
@@ -14,6 +12,7 @@ Spans multiple tiles."*
 |Health|1280    |
 |Size|2x2  |
 |Build Time|0.2  seconds  |
+|Build Cost|<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x24  |
 
 
 --- 

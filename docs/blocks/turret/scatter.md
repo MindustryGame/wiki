@@ -1,7 +1,5 @@
 # <img id="spr" src="/wiki/images/scatter-icon-large.png"></img> Scatter 
 
-<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x85 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x45 
-
 *"An essential anti-air turret. Sprays clumps of lead or scrap flak at enemy units."*
 
 
@@ -12,6 +10,7 @@
 |Health|800    |
 |Size|2x2  |
 |Build Time|1.23  seconds  |
+|Build Cost|<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x85 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x45  |
 
 |Liquids||
 | --- | --- |

@@ -1,7 +1,5 @@
 # <img id="spr" src="/wiki/images/spore-press-icon-large.png"></img> Spore Press 
 
-<a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x35 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x30 
-
 *"Compresses spore pods under extreme pressure to synthesize oil."*
 
 
@@ -12,6 +10,7 @@
 |Health|320    |
 |Size|2x2  |
 |Build Time|0.81  seconds  |
+|Build Cost|<a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x35 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x30  |
 
 |Power||
 | --- | --- |

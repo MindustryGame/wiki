@@ -1,7 +1,5 @@
 # <img id="spr" src="/wiki/images/force-projector-icon-large.png"></img> Force Projector 
 
-<a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x100 <a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-xlarge.png"/></a>x75 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x125 
-
 *"Creates a hexagonal force field around itself, protecting buildings and units inside from damage.
 Overheats if too much damage is sustained. Optionally uses coolant to prevent overheating. Phase fabric can be used to increase shield size."*
 
@@ -13,6 +11,7 @@ Overheats if too much damage is sustained. Optionally uses coolant to prevent ov
 |Health|360    |
 |Size|3x3  |
 |Build Time|4.08  seconds  |
+|Build Cost|<a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x100 <a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-xlarge.png"/></a>x75 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x125  |
 
 |Power||
 | --- | --- |

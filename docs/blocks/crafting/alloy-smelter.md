@@ -1,7 +1,5 @@
 # <img id="spr" src="/wiki/images/alloy-smelter-icon-large.png"></img> Alloy Smelter 
 
-<a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x80 <a href="/wiki/items/thorium"><img id="spr" src="/wiki/images/item-thorium-xlarge.png"/></a>x70 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x80 
-
 *"Combines titanium, lead, silicon and copper to produce surge alloy."*
 
 
@@ -12,6 +10,7 @@
 |Health|60    |
 |Size|3x3  |
 |Build Time|3.28  seconds  |
+|Build Cost|<a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x80 <a href="/wiki/items/thorium"><img id="spr" src="/wiki/images/item-thorium-xlarge.png"/></a>x70 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x80  |
 
 |Power||
 | --- | --- |
