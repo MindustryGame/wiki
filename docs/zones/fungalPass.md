@@ -9,6 +9,7 @@ Use Dagger and Crawler units. Take out the two cores."
 | Property      | Value |
 | ----------- | ----------- |
 |Internal Name|`fungalPass`|
+|Mode|Attack|
 |Launch Wave|none|
 |Launch Period|10|
 |Starting Loadout|<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x250 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x250 <a href="/wiki/items/metaglass"><img id="spr" src="/wiki/images/item-metaglass-xlarge.png"/></a>x100 <a href="/wiki/items/graphite"><img id="spr" src="/wiki/images/item-graphite-xlarge.png"/></a>x100 |

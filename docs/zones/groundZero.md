@@ -9,6 +9,7 @@ Move on."
 | Property      | Value |
 | ----------- | ----------- |
 |Internal Name|`groundZero`|
+|Mode|Survival|
 |Launch Wave|5|
 |Launch Period|5|
 |Starting Loadout|<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x3999 |

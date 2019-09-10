@@ -10,6 +10,7 @@ This landing location cannot be guaranteed."
 | Property      | Value |
 | ----------- | ----------- |
 |Internal Name|`desertWastes`|
+|Mode|Survival|
 |Launch Wave|20|
 |Launch Period|10|
 |Starting Loadout|<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x120 |

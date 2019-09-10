@@ -10,6 +10,7 @@ The enemy presence is greater here. Do not give them time to send their stronges
 | Property      | Value |
 | ----------- | ----------- |
 |Internal Name|`stainedMountains`|
+|Mode|Survival|
 |Launch Wave|10|
 |Launch Period|10|
 |Starting Loadout|<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x200 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x50 |

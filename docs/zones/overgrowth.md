@@ -8,6 +8,7 @@ The enemy has established an outpost here. Build Titan units. Destroy it. Reclai
 | Property      | Value |
 | ----------- | ----------- |
 |Internal Name|`overgrowth`|
+|Mode|Attack|
 |Launch Wave|12|
 |Launch Period|4|
 |Starting Loadout|<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x1500 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x1000 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x500 <a href="/wiki/items/metaglass"><img id="spr" src="/wiki/images/item-metaglass-xlarge.png"/></a>x250 |

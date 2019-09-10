@@ -10,6 +10,7 @@ Research oil processing technology if possible."
 | Property      | Value |
 | ----------- | ----------- |
 |Internal Name|`tarFields`|
+|Mode|Survival|
 |Launch Wave|15|
 |Launch Period|10|
 |Starting Loadout|<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x250 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x100 |

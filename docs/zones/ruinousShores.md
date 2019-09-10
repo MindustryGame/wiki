@@ -8,6 +8,7 @@ Continue the expansion outwards. Rediscover the technology."
 | Property      | Value |
 | ----------- | ----------- |
 |Internal Name|`ruinousShores`|
+|Mode|Survival|
 |Launch Wave|20|
 |Launch Period|20|
 |Starting Loadout|<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x140 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x50 |

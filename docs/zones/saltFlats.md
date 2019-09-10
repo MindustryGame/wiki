@@ -9,6 +9,7 @@ The enemy has erected a resource storage complex here. Eradicate their core. Lea
 | Property      | Value |
 | ----------- | ----------- |
 |Internal Name|`saltFlats`|
+|Mode|Attack|
 |Launch Wave|10|
 |Launch Period|5|
 |Starting Loadout|<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x200 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x200 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x200 |

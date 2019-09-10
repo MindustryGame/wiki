@@ -10,6 +10,7 @@ The enemy is present here in great numbers, constantly scouting for attackers."
 | Property      | Value |
 | ----------- | ----------- |
 |Internal Name|`nuclearComplex`|
+|Mode|Survival|
 |Launch Wave|30|
 |Launch Period|15|
 |Starting Loadout|<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x1250 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x1500 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x400 <a href="/wiki/items/metaglass"><img id="spr" src="/wiki/images/item-metaglass-xlarge.png"/></a>x250 |
