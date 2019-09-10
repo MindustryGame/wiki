@@ -1,15 +1,15 @@
-# <img id="spr" src="/wiki/images/zone-craters.png"></img> The Craters 
+# <img id="zonespr" src="/wiki/images/zone-craters.png"></img> The Craters 
 
-<img src="/wiki/images/zone-craters.png"></img>
+<img id="zone" src="/wiki/images/zone-craters.png"></img>
 
-*"Water has accumulated in this crater, relic of the old wars. Reclaim the area. Collect sand. Smelt metaglass. Pump water to cool turrets and drills."*
+"Water has accumulated in this crater, relic of the old wars. Reclaim the area. Collect sand. Smelt metaglass. Pump water to cool turrets and drills."
 
 | Property      | Value |
 | ----------- | ----------- |
 |Internal Name|`craters`|
 |Launch Wave|10|
 |Launch Period|10|
-|Starting Loadout|<a href="/wiki/items/copper"><img id="sprlist" src="/wiki/images/item-copper-xlarge.png"/></a> |
+|Starting Loadout|<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x100 |
 |Resources|<a href="/wiki/items/copper"><img id="sprlist" src="/wiki/images/item-copper-xlarge.png"/></a> <a href="/wiki/items/lead"><img id="sprlist" src="/wiki/images/item-lead-xlarge.png"/></a> <a href="/wiki/items/sand"><img id="sprlist" src="/wiki/images/item-sand-xlarge.png"/></a> <a href="/wiki/items/coal"><img id="sprlist" src="/wiki/images/item-coal-xlarge.png"/></a> <a href="/wiki/items/scrap"><img id="sprlist" src="/wiki/images/item-scrap-xlarge.png"/></a> |
 
 --- 

@@ -26,3 +26,16 @@ img#ind {
   margin-top: -3px;
   position: inline;
 }
+
+img#zonespr {
+  width: 1.6em;
+  margin-left: 5px;
+  margin-top: -3px;
+  border: 2px solid dimgray;
+  border-radius: 8px;
+}
+
+img#zone {
+    border: 5px solid dimgray;
+    border-radius: 10px;
+}
