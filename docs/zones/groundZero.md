@@ -12,7 +12,7 @@ Move on."
 |Mode|Survival|
 |Launch Wave|5|
 |Launch Period|5|
-|Starting Loadout|<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x3999 |
+|Starting Loadout|<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x60 |
 |Resources|<a href="/wiki/items/copper"><img id="sprlist" src="/wiki/images/item-copper-xlarge.png"/></a> <a href="/wiki/items/lead"><img id="sprlist" src="/wiki/images/item-lead-xlarge.png"/></a> <a href="/wiki/items/scrap"><img id="sprlist" src="/wiki/images/item-scrap-xlarge.png"/></a> |
 
 --- 
