@@ -21,7 +21,7 @@
 |Range|23.13  blocks  |
 |Inaccuracy|10  degrees  |
 |Shots|4    |
-|Shots/Second|6    |
+|Shots/Second|1.5    |
 |Targets Air|Yes  |
 |Targets Ground|Yes  |
 |Ammo|![item-blast-compound-medium](../../images/item-blast-compound-medium.png) Blast Compound <br> • **10** damage <br> • **30** area dmg ~** 3.8** tiles <br> • **4**x ammo multiplier <br> • **homing** <br>![item-pyratite-medium](../../images/item-pyratite-medium.png) Pyratite <br> • **12** damage <br> • **10** area dmg ~** 1.3** tiles <br> • **2**x ammo multiplier <br> • **incendiary** <br> • **homing** <br>![item-surge-alloy-medium](../../images/item-surge-alloy-medium.png) Surge Alloy <br> • **15** damage <br> • **22** area dmg ~** 3.8** tiles <br> • **2**x ammo multiplier <br> • **homing** <br> • **shock** <br> |

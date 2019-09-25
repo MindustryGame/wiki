@@ -21,7 +21,7 @@
 |Range|11.25  blocks  |
 |Inaccuracy|0  degrees  |
 |Shots|3    |
-|Shots/Second|5.14    |
+|Shots/Second|1.71    |
 |Targets Air|Yes  |
 |Targets Ground|Yes  |
 |Ammo|![item-graphite-medium](../../images/item-graphite-medium.png) Graphite <br> • **105** damage <br> • **2**x ammo multiplier <br> |
