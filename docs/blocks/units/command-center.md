@@ -1,7 +1,7 @@
 # <img id="spr" src="/wiki/images/command-center-icon-large.png"></img> Command Center 
 
 *"Issues movement commands to allied units across the map.
-Causes units to patrol, attack an enemy core or retreat to the core/factory. When no enemy core is present, units will default to patrolling under the attack command."*
+Causes units to rally, attack an enemy core or retreat to the core/factory. When no enemy core is present, units will default to patrolling under the attack command."*
 
 
 |General||

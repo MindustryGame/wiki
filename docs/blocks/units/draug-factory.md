@@ -20,7 +20,7 @@
 | --- | --- |
 |Input| |
 |Production Time|41.67  seconds  |
-|Max Active Units|2    |
+|Max Active Units|1    |
 
 
 --- 

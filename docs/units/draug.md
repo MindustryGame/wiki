@@ -6,7 +6,7 @@
 | Property      | Value |
 | ----------- | ----------- |
 |Internal Name|`draug`|
-|Health|60|
+|Health|80|
 |Speed|0.3|
 |Mass|1|
 |Max Velocity|1.2|
