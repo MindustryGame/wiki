@@ -53,8 +53,8 @@ In general, content is defined through `json` files located in a few special fol
       - `someliquid.png`
     - `<any other sprites you use>/`
  
-See the [the example](https://github.com/Anuken/ExampleMod) to see what this hierarchy like in a real mod.
+See the [example](https://github.com/Anuken/ExampleMod) to see what this hierarchy like in a real mod.
 
-### Making a block
+#### Creating a new block
 
 //TODO
