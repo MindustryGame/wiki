@@ -26,3 +26,35 @@ There are two ways to import a mod:
 1) Copy-paste the mod's folder into Mindustry's mod folder. On Steam, this is located in Mindustry's Steam installation directory: `steam/steamapps/common/Mindustry/mods`. On other desktop versions, this is located in `%appdata%/Mindustry/mods`. 
 2) Zip up the contents of the mod folder (**not** the folder itself - only its contents) and import it through the file chooser in `Main Menu -> Mods -> Import Mod`. If a mod is already zipped up, skip the first step. This is not recommended for mod development, as you will have to re-import the mod every time you change something. 
 
+## Creating Content, Folder Structure
+
+In general, content is defined through `json` files located in a few special folders. The exact format of these files depends on the type of content you're making, but in general, the structure is:
+
+- `<mod root folder>` - *the root folder for your mod*
+  - `bundles/` - *the folder where the names and strings for your blocks are stored*
+    - `bundle.properties` - *the bundle for a specific language; bundle.properties would be the default (english)*
+    - `<bundles for other languages, like bundle_ru.properties>`
+  - `content` - *where content files is defined, e.g. units, zones, blocks, items*
+    - `blocks/` - *all blocks must go here*
+      - `someblock1.json` - *defines a block named 'someblock1'*
+    - `items/` - *all items must go here*
+      - `someitem.json` - *defines an item named 'someitem'*
+    - `<any other content folders, e.g. for units>`
+  - `sprites/` - *all sprites for the blocks and items you add must go here*
+    - `blocks/` - *technically, it's not required to put your sprites in separate folders, but it's good practice*
+      - `crafting/` - *sprites for someblock1, etc*
+        - `someblock1.png`
+        - `someblock2.png`
+      - `environment/` - *sprites for environmental floors and ores*
+        - `somefloor1.png`
+        - `someore1.png`
+    - `items/` - *sprites for items and liquids*
+      - `someitem.png`
+      - `someliquid.png`
+    - `<any other sprites you use>/`
+ 
+See the [the example](https://github.com/Anuken/ExampleMod) to see what this hierarchy like in a real mod.
+
+### Making a block
+
+//TODO
