@@ -57,4 +57,24 @@ See the [example](https://github.com/Anuken/ExampleMod) to see what this hierarc
 
 #### Creating a new block
 
-//TODO
+Each type of block needs a few base properties:
+- Its `type`. This can range from things like `ItemTurret` to `Floor` to `Wall`. Each type of block had a different set of configuration options. A full, descriptive list of block types will be available soon.
+- A `name` and `description`. While these are technically optional, they are highly recommended.
+
+An example of these properties:
+
+```json
+{
+    "type": "Wall",
+    "name": "White Wall",
+    "description": "A completely blank wall. Note that this text is displayed in the block's info menu."
+}
+
+```
+
+Most further properties depending the `type` of block you've set. 
+See the example mod to learn about some of the properties that different types of blocks can have.
+
+//TODO help wanted!
+
+#### Items & Other Content
