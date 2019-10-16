@@ -84,7 +84,7 @@ Every item needs also their properties:
 -A `name` and `description`. They are, as you would guess, technically optional but also highly recommended.
 -Atributes. Also optional, and if left unchanged are set to 0 by default, with value of 1 being 100%. There are 3 atribute types: Flammability, Explosiveness and Radioactivity. Liquids instead of Radioactivity have Heat capacity, Viscosity and Temperature. Heat capacity is set to 50 by default.
 -`color`, which dictates in what color items are presented in item sources. Liquids also flow with their respective color, as their sprites only reffer as icons of the said liquid.
--`cost`, which dictates how much frames is needed for an item to be consumed upon construction. Walls have a special build time multiplier in this regard.
+-`cost`, which dictates how much frames is needed for an item to be consumed upon construction. Walls have a special build time multiplier in this regard. Materials and materials only should have this, and it is not optional either
 -`Hardness`, which is unneeded, unless you want material to be obtained via ores. 
 
 An example of these properties:
