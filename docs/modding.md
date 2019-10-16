@@ -78,3 +78,26 @@ See the example mod to learn about some of the properties that different types o
 //TODO help wanted!
 
 #### Items & Other Content
+
+Every item needs also their properties:
+-It's `type`. For items there are 2 (technically 3, if you consider Liquids): Material and Resource. The difference between the two is that Core accepts Materials, but not resources. Liquids are "resources" what require conduits, and act very differently.
+-A `name` and `description`. They are, as you would guess, technically optional but also highly recommended.
+-Atributes. Also optional, and if left unchanged are set to 0 by default, with value of 1 being 100%. There are 3 atribute types: Flammability, Explosiveness and Radioactivity. Liquids instead of Radioactivity have Heat capacity, Viscosity and Temperature. Heat capacity is set to 50 by default.
+-`color`, which dictates in what color items are presented in item sources. Liquids also flow with their respective color, as their sprites only reffer as icons of the said liquid.
+-`cost`, which dictates how much frames is needed for an item to be consumed upon construction. Walls have a special build time multiplier in this regard.
+-`Hardness`, which is unneeded, unless you want material to be obtained via ores. 
+
+An example of these properties:
+
+```json
+{
+    "type": "liquid",
+    "name": "Blood",
+    "description": "Perfect for making your base appear cursed.",
+    "flammability": 1,
+    "viscosity": 0.237,
+    "temperature": 0.35,
+    "color": "8a0303"
+}
+
+```
