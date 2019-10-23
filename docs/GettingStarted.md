@@ -29,7 +29,7 @@ There are two different versions of Mindustry on the Play Store; Mindsutry and M
 
 ### iOS
 
-The latest released builds are available on Apple TestFlight. (i actually dont know because I do not own an apple device please review this.)
+The latest released builds are available on iOS devices only for purchase.
 
 ## For Contributors
 
