@@ -1,3 +1,5 @@
+**NOTICE: A lot of the content on this page is not up-to-date and refers to an older version of the game.**
+
 # Basics 
 
 **The goal of the game is to not die! You die when your core reaches 0 health.** This is your core:
