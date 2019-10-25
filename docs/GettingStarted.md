@@ -25,7 +25,15 @@ If you have JRE already installed (which is recommended), you can also run `desk
 
 ### Android
 
-There are two different versions of Mindustry on the Play Store; Mindsutry and Mindustry Classic. If you want to get the latest releases of Mindustry, go get Mindustry. Otherwise, if you want the old classic version, you can get Mindustry Classic.
+#### Play Store
+
+There are two different versions of Mindustry on the Play Store; Mindsutry and Mindustry Classic. If you want to get the latest releases of Mindustry, go get **Mindustry**. Otherwise, if you want the old classic version, you can get **Mindustry Classic**.
+
+#### F-Droid
+
+F-Droid is an open source app repository that makes sure all apps are secure and not tampered with. First, you will have to download the F-Droid app [here.](https://f-droid.org/) After it has installed, you can install Mindustry from there.
+
+Notice: You will usually get the latest updates through the Play Store before F-Droid.
 
 ### iOS
 
