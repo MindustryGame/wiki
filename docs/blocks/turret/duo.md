@@ -24,7 +24,7 @@
 |Shots/Second|3    |
 |Targets Air|Yes  |
 |Targets Ground|Yes  |
-|Ammo|![pyratite1](../../images/pyratite1.png) Pyratite <br> • **11** damage <br> • **2**x ammo multiplier <br> • **incendiary** <br>![example-mod-electrum1](../../images/example-mod-electrum1.png) Electrum <br> • **30** damage <br> • **2**x ammo multiplier <br> • **0.5**x fire rate <br>![silicon1](../../images/silicon1.png) Silicon <br> • **9** damage <br> • **5**x ammo multiplier <br> • **1.4**x fire rate <br> • **homing** <br>![copper1](../../images/copper1.png) Copper <br> • **9** damage <br> • **2**x ammo multiplier <br>![graphite1](../../images/graphite1.png) Graphite <br> • **18** damage <br> • **4**x ammo multiplier <br> • **0.6**x fire rate <br> |
+|Ammo|![copper1](../../images/copper1.png) Copper <br> • **9** damage <br> • **2**x ammo multiplier <br>![graphite1](../../images/graphite1.png) Graphite <br> • **18** damage <br> • **4**x ammo multiplier <br> • **0.6**x fire rate <br>![pyratite1](../../images/pyratite1.png) Pyratite <br> • **11** damage <br> • **2**x ammo multiplier <br> • **incendiary** <br>![silicon1](../../images/silicon1.png) Silicon <br> • **9** damage <br> • **5**x ammo multiplier <br> • **1.4**x fire rate <br> • **homing** <br> |
 
 |Optional Enhancements||
 | --- | --- |
