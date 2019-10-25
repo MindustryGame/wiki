@@ -9,7 +9,7 @@
 |Solid|No|
 |Health|400    |
 |Size|1x1  |
-|Build Time|0.15  seconds  |
+|Build Time|0.77  seconds  |
 |Build Cost|<a href="/wiki/items/graphite"><img id="spr" src="/wiki/images/item-graphite-xlarge.png"/></a>x6 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x4  |
 
 

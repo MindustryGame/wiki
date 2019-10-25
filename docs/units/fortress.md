@@ -1,4 +1,4 @@
-# <img id="spr" src="/wiki/images/unit-icon-fortress.png"></img> Fortress 
+# <img id="spr" src="/wiki/images/fortress.png"></img> Fortress 
 
 
 *"A heavy artillery mech. Equipped with two modified Hail-type cannons for long-range assault on enemy structures and units."*  

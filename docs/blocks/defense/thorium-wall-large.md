@@ -11,7 +11,7 @@ Spans multiple tiles."*
 |Solid|Yes|
 |Health|3200    |
 |Size|2x2  |
-|Build Time|0.44  seconds  |
+|Build Time|2.2  seconds  |
 |Build Cost|<a href="/wiki/items/thorium"><img id="spr" src="/wiki/images/item-thorium-xlarge.png"/></a>x24  |
 
 

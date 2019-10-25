@@ -12,7 +12,7 @@
 |Max Velocity|10|
 |Item Capacity|30|
 |Drill Power|1|
-|Mine Speed|90%|
+|Mine Speed|300%|
 |Build Speed|110%|
 
 --- 

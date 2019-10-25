@@ -24,12 +24,11 @@
 |Shots/Second|3    |
 |Targets Air|Yes  |
 |Targets Ground|Yes  |
-|Ammo|![item-copper-medium](../../images/item-copper-medium.png) Copper <br> • **9** damage <br> • **2**x ammo multiplier <br>![item-graphite-medium](../../images/item-graphite-medium.png) Graphite <br> • **18** damage <br> • **4**x ammo multiplier <br> • **0.6**x fire rate <br>![item-pyratite-medium](../../images/item-pyratite-medium.png) Pyratite <br> • **11** damage <br> • **2**x ammo multiplier <br> • **incendiary** <br>![item-silicon-medium](../../images/item-silicon-medium.png) Silicon <br> • **9** damage <br> • **5**x ammo multiplier <br> • **1.4**x fire rate <br> • **homing** <br> |
+|Ammo|![pyratite1](../../images/pyratite1.png) Pyratite <br> • **11** damage <br> • **2**x ammo multiplier <br> • **incendiary** <br>![example-mod-electrum1](../../images/example-mod-electrum1.png) Electrum <br> • **30** damage <br> • **2**x ammo multiplier <br> • **0.5**x fire rate <br>![silicon1](../../images/silicon1.png) Silicon <br> • **9** damage <br> • **5**x ammo multiplier <br> • **1.4**x fire rate <br> • **homing** <br>![copper1](../../images/copper1.png) Copper <br> • **9** damage <br> • **2**x ammo multiplier <br>![graphite1](../../images/graphite1.png) Graphite <br> • **18** damage <br> • **4**x ammo multiplier <br> • **0.6**x fire rate <br> |
 
 |Optional Enhancements||
 | --- | --- |
-|Booster|<a href="/wiki/liquids/water"><img id="spr" src="/wiki/images/liquid-water.png"/></a>12/sec / <a href="/wiki/liquids/cryofluid"><img id="spr" src="/wiki/images/liquid-cryofluid.png"/></a>12/sec  |
-|Boost Effect|2 x speed  |
+|Booster|<a href="/wiki/liquids/water"><img id="spr" src="/wiki/images/liquid-water.png"/></a>12/sec / <a href="/wiki/liquids/cryofluid"><img id="spr" src="/wiki/images/liquid-cryofluid.png"/></a>12/sec  ![water1](../../images/water1.png) Water <br> • **1.4**x fire rate ![cryofluid1](../../images/cryofluid1.png) Cryofluid <br> • **1.9**x fire rate <br> |
 
 
 --- 

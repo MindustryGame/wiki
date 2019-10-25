@@ -10,7 +10,7 @@ Decent protection from enemies."*
 |Solid|Yes|
 |Health|800    |
 |Size|1x1  |
-|Build Time|0.11  seconds  |
+|Build Time|0.55  seconds  |
 |Build Cost|<a href="/wiki/items/thorium"><img id="spr" src="/wiki/images/item-thorium-xlarge.png"/></a>x6  |
 
 

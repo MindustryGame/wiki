@@ -11,7 +11,7 @@ Spans multiple tiles."*
 |Solid|Yes|
 |Health|1760    |
 |Size|2x2  |
-|Build Time|0.4  seconds  |
+|Build Time|2  seconds  |
 |Build Cost|<a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-xlarge.png"/></a>x24  |
 
 

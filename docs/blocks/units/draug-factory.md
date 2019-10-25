@@ -14,7 +14,7 @@
 
 |Power||
 | --- | --- |
-|Power Use|66  power units/second  |
+|Power Use|72  power units/second  |
 
 |Input/Output||
 | --- | --- |

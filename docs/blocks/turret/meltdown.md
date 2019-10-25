@@ -22,14 +22,14 @@
 
 |Input/Output||
 | --- | --- |
-|Input|<a href="/wiki/liquids/water"><img id="spr" src="/wiki/images/liquid-water.png"/></a>30/sec / <a href="/wiki/liquids/cryofluid"><img id="spr" src="/wiki/images/liquid-cryofluid.png"/></a>30/sec  |
+|Input|<a href="/wiki/liquids/water"><img id="spr" src="/wiki/images/liquid-water.png"/></a>30/sec / <a href="/wiki/liquids/cryofluid"><img id="spr" src="/wiki/images/liquid-cryofluid.png"/></a>30/sec  ![water1](../../images/water1.png) Water <br> • **1.0**x fire rate ![cryofluid1](../../images/cryofluid1.png) Cryofluid <br> • **2.3**x fire rate <br> |
 
 |Shooting||
 | --- | --- |
 |Range|23.75  blocks  |
 |Inaccuracy|0  degrees  |
 |Shots|1    |
-|Shots/Second|1.2    |
+|Shots/Second|0.75    |
 |Targets Air|Yes  |
 |Targets Ground|Yes  |
 |Damage|840  /sec  |

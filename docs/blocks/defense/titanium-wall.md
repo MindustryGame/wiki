@@ -10,7 +10,7 @@ Provides moderate protection from enemies."*
 |Solid|Yes|
 |Health|440    |
 |Size|1x1  |
-|Build Time|0.1  seconds  |
+|Build Time|0.5  seconds  |
 |Build Cost|<a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-xlarge.png"/></a>x6  |
 
 

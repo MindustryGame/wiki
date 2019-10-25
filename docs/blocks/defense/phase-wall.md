@@ -9,7 +9,7 @@
 |Solid|Yes|
 |Health|600    |
 |Size|1x1  |
-|Build Time|0.13  seconds  |
+|Build Time|0.65  seconds  |
 |Build Cost|<a href="/wiki/items/phase-fabric"><img id="spr" src="/wiki/images/item-phase-fabric-xlarge.png"/></a>x6  |
 
 

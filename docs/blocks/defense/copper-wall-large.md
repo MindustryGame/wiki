@@ -11,7 +11,7 @@ Spans multiple tiles."*
 |Solid|Yes|
 |Health|1280    |
 |Size|2x2  |
-|Build Time|0.2  seconds  |
+|Build Time|1  seconds  |
 |Build Cost|<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x24  |
 
 

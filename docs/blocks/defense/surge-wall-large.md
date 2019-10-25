@@ -11,7 +11,7 @@ Spans multiple tiles."*
 |Solid|Yes|
 |Health|3680    |
 |Size|2x2  |
-|Build Time|0.4  seconds  |
+|Build Time|2  seconds  |
 |Build Cost|<a href="/wiki/items/surge-alloy"><img id="spr" src="/wiki/images/item-surge-alloy-xlarge.png"/></a>x24  |
 
 

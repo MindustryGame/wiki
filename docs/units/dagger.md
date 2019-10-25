@@ -1,4 +1,4 @@
-# <img id="spr" src="/wiki/images/unit-icon-dagger.png"></img> Dagger 
+# <img id="spr" src="/wiki/images/dagger.png"></img> Dagger 
 
 
 *"The most basic ground mech. Cheap to produce. Overwhelming when used in swarms."*  

@@ -14,13 +14,13 @@
 
 |Power||
 | --- | --- |
-|Power Use|48  power units/second  |
+|Power Use|72  power units/second  |
 
 |Input/Output||
 | --- | --- |
-|Input|<a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x15 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x15  |
-|Production Time|58.33  seconds  |
-|Max Active Units|2    |
+|Input|<a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x30 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x30  |
+|Production Time|66.67  seconds  |
+|Max Active Units|1    |
 
 
 --- 

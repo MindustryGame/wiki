@@ -1,4 +1,4 @@
-# <img id="spr" src="/wiki/images/unit-icon-eruptor.png"></img> Eruptor 
+# <img id="spr" src="/wiki/images/eruptor.png"></img> Eruptor 
 
 
 *"A heavy mech designed to take down structures. Fires a stream of slag at enemy fortifications, melting them and setting volatiles on fire."*  

@@ -10,7 +10,7 @@ Spans multiple tiles."*
 |Solid|Yes|
 |Health|2400    |
 |Size|2x2  |
-|Build Time|0.52  seconds  |
+|Build Time|2.6  seconds  |
 |Build Cost|<a href="/wiki/items/phase-fabric"><img id="spr" src="/wiki/images/item-phase-fabric-xlarge.png"/></a>x24  |
 
 

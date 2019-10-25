@@ -6,8 +6,8 @@
 | Property      | Value |
 | ----------- | ----------- |
 |Internal Name|`spirit`|
-|Health|60|
-|Speed|0.4|
+|Health|100|
+|Speed|0.42|
 |Mass|1|
 |Max Velocity|1.6|
 

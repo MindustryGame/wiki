@@ -9,8 +9,8 @@
 |Solid|Yes|
 |Health|40    |
 |Size|1x1  |
-|Build Time|0.17  seconds  |
-|Build Cost|<a href="/wiki/items/metaglass"><img id="spr" src="/wiki/images/item-metaglass-xlarge.png"/></a>x4 <a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-xlarge.png"/></a>x4  |
+|Build Time|0.27  seconds  |
+|Build Cost|<a href="/wiki/items/metaglass"><img id="spr" src="/wiki/images/item-metaglass-xlarge.png"/></a>x8 <a href="/wiki/items/graphite"><img id="spr" src="/wiki/images/item-graphite-xlarge.png"/></a>x4  |
 
 |Liquids||
 | --- | --- |

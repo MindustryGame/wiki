@@ -1,6 +1,6 @@
 # <img id="spr" src="/wiki/images/unloader-icon-large.png"></img> Unloader 
 
-*"Unloads items from a container, vault or core onto a conveyor or directly into an adjacent block. The type of item to be unloaded can be changed by tapping."*
+*"Unloads items from any nearby non-transportation block. The type of item to be unloaded can be changed by tapping."*
 
 
 |General||

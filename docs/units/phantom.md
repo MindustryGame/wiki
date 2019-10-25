@@ -6,7 +6,7 @@
 | Property      | Value |
 | ----------- | ----------- |
 |Internal Name|`phantom`|
-|Health|220|
+|Health|400|
 |Speed|0.45|
 |Mass|2|
 |Max Velocity|1.9|
