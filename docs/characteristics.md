@@ -1,6 +1,6 @@
-**NOTICE: A lot of the content on this page is not up-to-date and refers to an older version of the game.**
-
 # Characteristics
+
+**NOTICE: A lot of the content on this page is not up-to-date and refers to an older version of the game.**
 
 ## Cost [Items]
 
