@@ -24,4 +24,6 @@ On the App Store, distributing the game there costs a lot, as a developer will n
 
 ## Are Anuke and Anuken diifferent people?
 
-They are very well the same person. Anuke(n) uses both aliases because [insert next addition here]
+They are very well the same person. Anuke(n) uses "Anuken" when "Anuke" is taken.
+
+> I usually use Anuken when Anuke is taken as a username. -Anuken
