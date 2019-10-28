@@ -11,7 +11,7 @@ Continue the expansion outwards. Rediscover the technology."
 |Mode|Survival|
 |Launch Wave|20|
 |Launch Period|20|
-|Starting Loadout|<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x400 |
+|Starting Loadout|<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x140 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x50 |
 |Resources|<a href="/wiki/items/copper"><img id="sprlist" src="/wiki/images/item-copper-xlarge.png"/></a> <a href="/wiki/items/lead"><img id="sprlist" src="/wiki/images/item-lead-xlarge.png"/></a> <a href="/wiki/items/sand"><img id="sprlist" src="/wiki/images/item-sand-xlarge.png"/></a> <a href="/wiki/items/coal"><img id="sprlist" src="/wiki/images/item-coal-xlarge.png"/></a> <a href="/wiki/items/scrap"><img id="sprlist" src="/wiki/images/item-scrap-xlarge.png"/></a> |
 
 --- 

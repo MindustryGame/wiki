@@ -32,7 +32,7 @@
 |Optional Enhancements||
 | --- | --- |
 |Booster|<a href="/wiki/liquids/water"><img id="spr" src="/wiki/images/liquid-water.png"/></a>6/sec  |
-|Boost Effect|1.6 x speed  |
+|Boost Effect|2.56 x speed  |
 
 
 --- 
