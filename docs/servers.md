@@ -14,20 +14,21 @@ To establish a dedicated server, a dedicated Linux or Windows machine is **highl
 2. Download the desired server release from [itch.io](itch.io), or compile one yourself. 
 3. Open a terminal or TTY session then change `cd` to the directory the JAR is placed in.
 4. Run `java -jar server.jar` using Command Prompt (on Windows) or your favorite terminal (on Linux and Mac). The commands are explained in the `help` command.
-3. If you are using Windows to run your server, use your favorite search engine to look up how to add rules to your Windows Firewall, as it blocks that port most of the time. Make sure to allow **port 6567 TCP and UDP**.
+5. Start hosting a map with `host <mapname> [mode]` after you configured your server.
+6. If you are using Windows to run your server, use your favorite search engine to look up how to add rules to your Windows Firewall, as it blocks that port most of the time. Make sure to allow **port 6567 TCP and UDP**.
 
-If you want your server to be publicly available around the world, then read the following. If not, then you are done! Before starting though, be sure that you have permission to your router's admin settings. 
+If you want your server to be publicly available around the world, then read the following. If not, then you are done! 
+It is recommended that you use a domain name or DNS service to mask your IP for public servers for ease of use, or use a cloud service e.g. Amazon AWS or a dedicated server/vm provided by hosting provider which is much safer. Again **do your research**.
 
-Most importantly, **never share your public IP with the public, unless you acknowledge the implications of doing so!** Your public IP is tied to your household, and if it falls into the wrong hands, it can be used to **easily** find your approximate location, even down to the city or block you live in. There is more that can happen; such as DoS attacks, data and information exploitation and collection, and unwanted access to other open ports in your network. **Exercise caution, do your research, and use a VPN if possible.**
-
-If you would like to host a public server for public use, it is recommended that you use a domain name or DNS service to mask your IP a little bit, or use a cloud service e.g. Amazon AWS which is much safer. Again **do your research**.
+### About Runnung A Dedicated Server At Home
+Most importantly, **never share your public IP with the public if your hosting from your home, unless you acknowledge the implications of doing so!** Your public IP is tied to your household, and if it falls into the wrong hands, it can be used to **easily** find your approximate location, even down to the city or block you live in. There is more that can happen; such as DoS attacks, data and information exploitation and collection, and unwanted access to other open ports in your network. **Exercise caution, do your research, and use a VPN if possible.**
 
 1. Find the make/model of your router. This is usually on a sticker on the bottom or back of the router.
 2. Use your favorite search engine to search 'port forward [your router make/model/name here]' and use the guide to foward **port 6567 TCP and UDP**. These instructions are different for every router, so be sure to read your guide thoroughly!
 3. You can use a service such as [You Get Signal](https://www.yougetsignal.com/tools/open-ports/) to check if you have done your portforwarding correctly. 
 
-## Local LAN Servers
+## Local LAN & Steam Servers
 
-A local LAN server is a server that is built into the game, and can be started using the "Host Multiplayer Game" button in the in-game menu. It is meant to be simple and straightforward, for sessions between a few players under a LAN network (aka in your household's WiFi network). It is not really meant for several players, as it takes more and more resources from your device to be able to use it that way; for that you will need a dedicated server mentioned above. It can only run when the game is open, and is immediately terminated when it is closed.
+A local LAN or Steam server is a server that is built into the game, and can be started using the "Host Multiplayer Game" button in the in-game menu. It is meant to be simple and straightforward, for sessions between a few players under a LAN network (aka in your household's WiFi network). It is not really meant for several players, as it takes more and more resources from your device to be able to use it that way; for that you will need a dedicated server mentioned above. It can only run when the game is open, and is immediately terminated when it is closed.
 
 You can connect to one using the "Join Game" button under the "Play" menu. Unlike dedicated servers, your device will automatically find the host device and it will ususally appear in the server list without you having to enter the host's IP address in.
