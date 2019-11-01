@@ -23,7 +23,7 @@ This defines what the mod will look like in the 'Mods' menu after it is imported
 ## Importing Your Mods
 
 There are two ways to import a mod:  
-1) Copy-paste the mod's folder into Mindustry's mod folder. On Steam, this is located in Mindustry's Steam installation directory: `steam/steamapps/common/Mindustry/mods`. On other desktop versions, this is located in `%appdata%/Mindustry/mods`.   
+1) Copy-paste the mod's folder into Mindustry's mod folder. On Steam, this is located in Mindustry's Steam installation directory: `steam/steamapps/common/Mindustry/saves/mods`. On other desktop versions, this is located in `%appdata%/Mindustry/mods`.   
 2) Zip up the contents of the mod folder (**not** the folder itself - only its contents) and import it through the file chooser in `Main Menu -> Mods -> Import Mod`. If a mod is already zipped up, skip the first step. This is not recommended for mod development, as you will have to re-import the mod every time you change something. 
 
 ## Creating Content, Folder Structure
