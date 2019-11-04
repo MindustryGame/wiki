@@ -18,9 +18,10 @@ To establish a dedicated server, a dedicated Linux or Windows machine is **highl
 6. If you are using Windows to run your server, use your favorite search engine to look up how to add rules to your Windows Firewall, as it blocks that port most of the time. Make sure to allow **port 6567 TCP and UDP**.
 
 If you want your server to be publicly available around the world, then read the following. If not, then you are done! 
-It is recommended that you use a domain name or DNS service to mask your IP for public servers for ease of use, or use a cloud service e.g. Amazon AWS or a dedicated server/vm provided by hosting provider which is much safer. Again **do your research**.
+It is recommended and that you use a domain name or DNS service to mask your IP for public servers for ease of use, or even better, use a cloud service e.g. Amazon AWS or a dedicated server/VM from a hosting provider such as Linode or DigitalOcean, which is much safer. **Do your research**, and determine which option best fits your needs.
 
 ### About Runnung A Dedicated Server At Home
+
 Most importantly, **never share your public IP with the public if your hosting from your home, unless you acknowledge the implications of doing so!** Your public IP is tied to your household, and if it falls into the wrong hands, it can be used to **easily** find your approximate location, even down to the city or block you live in. There is more that can happen; such as DoS attacks, data and information exploitation and collection, and unwanted access to other open ports in your network. **Exercise caution, do your research, and use a VPN if possible.**
 
 1. Find the make/model of your router. This is usually on a sticker on the bottom or back of the router.
