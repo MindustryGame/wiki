@@ -15,6 +15,7 @@
 |Power||
 | --- | --- |
 |Power Range|30  blocks  |
+|Max Connections|2    |
 
 
 --- 

@@ -1,6 +1,6 @@
 # <img id="spr" src="/wiki/images/power-node-large-icon-large.png"></img> Large Power Node 
 
-*"An advanced power node with greater range and more connections."*
+*"An advanced power node with greater range."*
 
 
 |General||
@@ -15,6 +15,7 @@
 |Power||
 | --- | --- |
 |Power Range|9.5  blocks  |
+|Max Connections|30    |
 
 
 --- 
