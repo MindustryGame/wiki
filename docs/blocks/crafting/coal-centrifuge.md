@@ -1,4 +1,4 @@
-# <img id="spr" src="/wiki/images/coal-centrifuge-icon-large.png"></img> Coal Centrifuge 
+# <img id="spr" src="/wiki/images/block-coal-centrifuge-large.png"></img> Coal Centrifuge
 
 *"Solidifes oil into chunks of coal."*
 

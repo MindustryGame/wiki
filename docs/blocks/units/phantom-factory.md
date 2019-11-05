@@ -1,4 +1,4 @@
-# <img id="spr" src="/wiki/images/phantom-factory-icon-large.png"></img> Phantom Builder Drone Factory 
+# <img id="spr" src="/wiki/images/block-phantom-factory-large.png"></img> Phantom Builder Drone Factory
 
 *"Produces advanced construction drones."*
 

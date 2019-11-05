@@ -1,4 +1,4 @@
-# <img id="spr" src="/wiki/images/ripple-icon-large.png"></img> Ripple 
+# <img id="spr" src="/wiki/images/block-ripple-large.png"></img> Ripple
 
 *"An extremely powerful artillery turret. Shoots clusters of shells at enemies over long distances."*
 

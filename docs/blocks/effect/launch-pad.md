@@ -1,4 +1,4 @@
-# <img id="spr" src="/wiki/images/launch-pad-icon-large.png"></img> Launch Pad 
+# <img id="spr" src="/wiki/images/block-launch-pad-large.png"></img> Launch Pad
 
 *"Launches batches of items without any need for a core launch."*
 

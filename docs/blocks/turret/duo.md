@@ -1,4 +1,4 @@
-# <img id="spr" src="/wiki/images/duo-icon-large.png"></img> Duo 
+# <img id="spr" src="/wiki/images/block-duo-large.png"></img> Duo
 
 *"A small, cheap turret. Useful against ground units."*
 

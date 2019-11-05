@@ -1,4 +1,4 @@
-# <img id="spr" src="/wiki/images/revenant-factory-icon-large.png"></img> Revenant Fighter Factory 
+# <img id="spr" src="/wiki/images/block-revenant-factory-large.png"></img> Revenant Fighter Factory
 
 *"Produces heavy missile-based units."*
 

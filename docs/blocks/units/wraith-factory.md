@@ -1,4 +1,4 @@
-# <img id="spr" src="/wiki/images/wraith-factory-icon-large.png"></img> Wraith Fighter Factory 
+# <img id="spr" src="/wiki/images/block-wraith-factory-large.png"></img> Wraith Fighter Factory
 
 *"Produces fast, hit-and-run interceptor units."*
 

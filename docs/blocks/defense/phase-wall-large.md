@@ -1,4 +1,4 @@
-# <img id="spr" src="/wiki/images/phase-wall-large-icon-large.png"></img> Large Phase Wall 
+# <img id="spr" src="/wiki/images/block-phase-wall-large-large.png"></img> Large Phase Wall
 
 *"A wall coated with special phase-based reflective compound. Deflects most bullets upon impact.
 Spans multiple tiles."*

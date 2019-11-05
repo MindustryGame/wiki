@@ -1,4 +1,4 @@
-# <img id="spr" src="/wiki/images/scorch-icon-large.png"></img> Scorch 
+# <img id="spr" src="/wiki/images/block-scorch-large.png"></img> Scorch
 
 *"Burns any ground enemies close to it. Highly effective at close range."*
 

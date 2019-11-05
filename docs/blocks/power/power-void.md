@@ -1,4 +1,4 @@
-# <img id="spr" src="/wiki/images/power-void-icon-large.png"></img> Power Void 
+# <img id="spr" src="/wiki/images/block-power-void-large.png"></img> Power Void
 
 *"Voids all power inputted into it. Sandbox only."*
 

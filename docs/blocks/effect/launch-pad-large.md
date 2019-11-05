@@ -1,4 +1,4 @@
-# <img id="spr" src="/wiki/images/launch-pad-large-icon-large.png"></img> Large Launch Pad 
+# <img id="spr" src="/wiki/images/block-launch-pad-large-large.png"></img> Large Launch Pad
 
 *"An improved version of the launch pad. Stores more items. Launches more frequently."*
 

@@ -1,4 +1,4 @@
-# <img id="spr" src="/wiki/images/swarmer-icon-large.png"></img> Swarmer 
+# <img id="spr" src="/wiki/images/block-swarmer-large.png"></img> Swarmer
 
 *"A medium-sized missile turret. Attacks both air and ground enemies. Fires homing missiles."*
 

@@ -1,4 +1,4 @@
-# <img id="spr" src="/wiki/images/turbine-generator-icon-large.png"></img> Steam Generator 
+# <img id="spr" src="/wiki/images/block-turbine-generator-large.png"></img> Steam Generator
 
 *"An advanced combustion generator. More efficient, but requires additional water for generating steam."*
 

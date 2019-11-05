@@ -1,4 +1,4 @@
-# <img id="spr" src="/wiki/images/mech-icon-javelin-ship.png"></img> Javelin 
+# <img id="spr" src="/wiki/images/mech-javelin-ship-full.png"></img> Javelin
 
 
 *"A hit-and-run strike ship. While initially slow, it can accelerate to great speeds and fly by enemy outposts, dealing large amounts of damage with its lightning and missiles."*  
@@ -17,5 +17,5 @@
 
 --- 
 
-##### Created in <br><a href="/wiki/blocks/upgrade/javelin-ship-pad"><img id="sprlist" src="/wiki/images/javelin-ship-pad-icon-small.png"/></a> 
+##### Created in <br><a href="/wiki/blocks/upgrade/javelin-ship-pad"><img id="sprlist" src="/wiki/images/block-javelin-ship-pad-small.png"/></a> 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)

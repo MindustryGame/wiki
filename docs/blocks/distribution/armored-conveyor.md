@@ -1,4 +1,4 @@
-# <img id="spr" src="/wiki/images/armored-conveyor-icon-large.png"></img> Armored Conveyor 
+# <img id="spr" src="/wiki/images/block-armored-conveyor-large.png"></img> Armored Conveyor
 
 *"Moves items at the same speed as titanium conveyors, but possesses more armor. Does not accept inputs from the sides from anything but other conveyor belts."*
 

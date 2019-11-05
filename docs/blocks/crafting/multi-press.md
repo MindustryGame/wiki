@@ -1,4 +1,4 @@
-# <img id="spr" src="/wiki/images/multi-press-icon-large.png"></img> Multi-Press 
+# <img id="spr" src="/wiki/images/block-multi-press-large.png"></img> Multi-Press
 
 *"An upgraded version of the graphite press. Employs water and power to process coal quickly and efficiently."*
 

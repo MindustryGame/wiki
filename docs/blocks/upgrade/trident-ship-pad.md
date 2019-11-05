@@ -1,4 +1,4 @@
-# <img id="spr" src="/wiki/images/trident-ship-pad-icon-large.png"></img> Trident Ship Pad 
+# <img id="spr" src="/wiki/images/block-trident-ship-pad-large.png"></img> Trident Ship Pad
 
 *"Provides transformation into a heavy support bomber.
 Use by tapping while standing on it."*

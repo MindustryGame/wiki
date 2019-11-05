@@ -1,4 +1,4 @@
-# <img id="spr" src="/wiki/images/thermal-generator-icon-large.png"></img> Thermal Generator 
+# <img id="spr" src="/wiki/images/block-thermal-generator-large.png"></img> Thermal Generator
 
 *"Generates power when placed in hot locations."*
 

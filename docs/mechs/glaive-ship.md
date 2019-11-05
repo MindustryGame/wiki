@@ -1,4 +1,4 @@
-# <img id="spr" src="/wiki/images/mech-icon-glaive-ship.png"></img> Glaive 
+# <img id="spr" src="/wiki/images/mech-glaive-ship-full.png"></img> Glaive
 
 
 *"A large, well-armored gunship. Equipped with an incendiary repeater. Highly maneuverable."*  
@@ -17,5 +17,5 @@
 
 --- 
 
-##### Created in <br><a href="/wiki/blocks/upgrade/glaive-ship-pad"><img id="sprlist" src="/wiki/images/glaive-ship-pad-icon-small.png"/></a> 
+##### Created in <br><a href="/wiki/blocks/upgrade/glaive-ship-pad"><img id="sprlist" src="/wiki/images/block-glaive-ship-pad-small.png"/></a> 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)

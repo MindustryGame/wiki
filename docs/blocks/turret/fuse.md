@@ -1,4 +1,4 @@
-# <img id="spr" src="/wiki/images/fuse-icon-large.png"></img> Fuse 
+# <img id="spr" src="/wiki/images/block-fuse-large.png"></img> Fuse
 
 *"A large, close-range energy turret. Fires three piercing beams at nearby enemies."*
 

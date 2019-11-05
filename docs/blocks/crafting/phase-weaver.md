@@ -1,4 +1,4 @@
-# <img id="spr" src="/wiki/images/phase-weaver-icon-large.png"></img> Phase Weaver 
+# <img id="spr" src="/wiki/images/block-phase-weaver-large.png"></img> Phase Weaver
 
 *"Synthesizes phase fabric from radioactive thorium and sand. Requires massive amounts of power to function."*
 

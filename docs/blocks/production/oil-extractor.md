@@ -1,4 +1,4 @@
-# <img id="spr" src="/wiki/images/oil-extractor-icon-large.png"></img> Oil Extractor 
+# <img id="spr" src="/wiki/images/block-oil-extractor-large.png"></img> Oil Extractor
 
 *"Uses large amounts of power, sand and water to drill for oil."*
 

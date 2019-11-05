@@ -1,4 +1,4 @@
-# <img id="spr" src="/wiki/images/melter-icon-large.png"></img> Melter 
+# <img id="spr" src="/wiki/images/block-melter-large.png"></img> Melter
 
 *"Melts down scrap into slag for further processing or usage in wave turrets."*
 

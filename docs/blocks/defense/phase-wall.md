@@ -1,4 +1,4 @@
-# <img id="spr" src="/wiki/images/phase-wall-icon-large.png"></img> Phase Wall 
+# <img id="spr" src="/wiki/images/block-phase-wall-large.png"></img> Phase Wall
 
 *"A wall coated with special phase-based reflective compound. Deflects most bullets upon impact."*
 

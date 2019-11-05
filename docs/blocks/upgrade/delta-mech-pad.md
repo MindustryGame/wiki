@@ -1,4 +1,4 @@
-# <img id="spr" src="/wiki/images/delta-mech-pad-icon-large.png"></img> Delta Mech Pad 
+# <img id="spr" src="/wiki/images/block-delta-mech-pad-large.png"></img> Delta Mech Pad
 
 *"Provides transformation into a lightly armored hit-and-run attack mech.
 Use by tapping while standing on it."*

@@ -1,4 +1,4 @@
-# <img id="spr" src="/wiki/images/thorium-wall-large-icon-large.png"></img> Large Thorium Wall 
+# <img id="spr" src="/wiki/images/block-thorium-wall-large-large.png"></img> Large Thorium Wall
 
 *"A strong defensive block.
 Decent protection from enemies.

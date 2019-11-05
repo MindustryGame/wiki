@@ -1,4 +1,4 @@
-# <img id="spr" src="/wiki/images/cryofluidmixer-icon-large.png"></img> Cryofluid Mixer 
+# <img id="spr" src="/wiki/images/block-cryofluidmixer-large.png"></img> Cryofluid Mixer
 
 *"Mixes water and fine titanium powder into cryofluid. Essential for thorium reactor usage."*
 

@@ -1,4 +1,4 @@
-# <img id="spr" src="/wiki/images/surge-tower-icon-large.png"></img> Surge Tower 
+# <img id="spr" src="/wiki/images/block-surge-tower-large.png"></img> Surge Tower
 
 *"An extremely long-range power node with fewer available connections."*
 

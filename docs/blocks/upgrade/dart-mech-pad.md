@@ -1,4 +1,4 @@
-# <img id="spr" src="/wiki/images/dart-mech-pad-icon-large.png"></img> Alpha Mech Pad 
+# <img id="spr" src="/wiki/images/block-dart-mech-pad-large.png"></img> Alpha Mech Pad
 
 *"Provides transformation into a basic attack mech.
 Use by tapping while standing on it."*

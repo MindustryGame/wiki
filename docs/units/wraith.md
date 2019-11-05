@@ -13,5 +13,5 @@
 
 --- 
 
-##### Created in <br><a href="/wiki/blocks/units/wraith-factory"><img id="sprlist" src="/wiki/images/wraith-factory-icon-small.png"/></a> 
+##### Created in <br><a href="/wiki/blocks/units/wraith-factory"><img id="sprlist" src="/wiki/images/block-wraith-factory-small.png"/></a> 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)

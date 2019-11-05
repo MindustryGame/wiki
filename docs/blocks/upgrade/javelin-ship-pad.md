@@ -1,4 +1,4 @@
-# <img id="spr" src="/wiki/images/javelin-ship-pad-icon-large.png"></img> Javelin Ship Pad 
+# <img id="spr" src="/wiki/images/block-javelin-ship-pad-large.png"></img> Javelin Ship Pad
 
 *"Provides transformation into a quick, lightly-armored interceptor.
 Use by tapping while standing on it."*

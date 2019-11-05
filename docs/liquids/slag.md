@@ -12,7 +12,7 @@
 
 --- 
 
-##### Produced in <br><a href="/wiki/blocks/crafting/melter"><img id="sprlist" src="/wiki/images/melter-icon-small.png"/></a> 
+##### Produced in <br><a href="/wiki/blocks/crafting/melter"><img id="sprlist" src="/wiki/images/block-melter-small.png"/></a> 
 
-##### Required for <br><a href="/wiki/blocks/crafting/separator"><img id="sprlist" src="/wiki/images/separator-icon-small.png"/></a> <a href="/wiki/blocks/turret/wave"><img id="sprlist" src="/wiki/images/wave-icon-small.png"/></a> 
+##### Required for <br><a href="/wiki/blocks/crafting/separator"><img id="sprlist" src="/wiki/images/block-separator-small.png"/></a> <a href="/wiki/blocks/turret/wave"><img id="sprlist" src="/wiki/images/block-wave-small.png"/></a> 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)

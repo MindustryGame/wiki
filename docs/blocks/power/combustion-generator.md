@@ -1,4 +1,4 @@
-# <img id="spr" src="/wiki/images/combustion-generator-icon-large.png"></img> Combustion Generator 
+# <img id="spr" src="/wiki/images/block-combustion-generator-large.png"></img> Combustion Generator
 
 *"Generates power by burning flammable materials, such as coal."*
 

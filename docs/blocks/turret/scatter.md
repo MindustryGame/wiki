@@ -1,4 +1,4 @@
-# <img id="spr" src="/wiki/images/scatter-icon-large.png"></img> Scatter 
+# <img id="spr" src="/wiki/images/block-scatter-large.png"></img> Scatter
 
 *"An essential anti-air turret. Sprays clumps of lead or scrap flak at enemy units."*
 

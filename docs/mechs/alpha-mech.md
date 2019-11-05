@@ -1,4 +1,4 @@
-# <img id="spr" src="/wiki/images/mech-icon-alpha-mech.png"></img> Alpha 
+# <img id="spr" src="/wiki/images/mech-alpha-mech-full.png"></img> Alpha
 
 
 *"The standard control mech. Based on a Dagger unit, with upgraded armor and building capabilities. Has more damage output than a Dart ship."*  
@@ -17,5 +17,5 @@
 
 --- 
 
-##### Created in <br><a href="/wiki/blocks/upgrade/dart-mech-pad"><img id="sprlist" src="/wiki/images/dart-mech-pad-icon-small.png"/></a> 
+##### Created in <br><a href="/wiki/blocks/upgrade/dart-mech-pad"><img id="sprlist" src="/wiki/images/block-dart-mech-pad-small.png"/></a> 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)

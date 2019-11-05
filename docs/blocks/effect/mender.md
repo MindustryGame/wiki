@@ -1,4 +1,4 @@
-# <img id="spr" src="/wiki/images/mender-icon-large.png"></img> Mender 
+# <img id="spr" src="/wiki/images/block-mender-large.png"></img> Mender
 
 *"Periodically repairs blocks in its vicinity. Keeps defenses repaired in-between waves.
 Optionally uses silicon to boost range and efficiency."*

@@ -1,4 +1,4 @@
-# <img id="spr" src="/wiki/images/wave-icon-large.png"></img> Wave 
+# <img id="spr" src="/wiki/images/block-wave-large.png"></img> Wave
 
 *"A medium-sized turret. Shoots streams of liquid at enemies. Automatically extinguishes fires when supplied with water."*
 

@@ -1,4 +1,4 @@
-# <img id="spr" src="/wiki/images/mech-icon-trident-ship.png"></img> Trident 
+# <img id="spr" src="/wiki/images/mech-trident-ship-full.png"></img> Trident
 
 
 *"A heavy bomber, built for construction and destroying enemy fortifications. Reasonably well armored."*  
@@ -17,5 +17,5 @@
 
 --- 
 
-##### Created in <br><a href="/wiki/blocks/upgrade/trident-ship-pad"><img id="sprlist" src="/wiki/images/trident-ship-pad-icon-small.png"/></a> 
+##### Created in <br><a href="/wiki/blocks/upgrade/trident-ship-pad"><img id="sprlist" src="/wiki/images/block-trident-ship-pad-small.png"/></a> 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)

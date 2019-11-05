@@ -1,4 +1,4 @@
-# <img id="spr" src="/wiki/images/overflow-gate-icon-large.png"></img> Overflow Gate 
+# <img id="spr" src="/wiki/images/block-overflow-gate-large.png"></img> Overflow Gate
 
 *"A combination splitter and router. Only outputs to the left and right if the front path is blocked."*
 

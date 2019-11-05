@@ -1,4 +1,4 @@
-# <img id="spr" src="/wiki/images/solar-panel-large-icon-large.png"></img> Large Solar Panel 
+# <img id="spr" src="/wiki/images/block-solar-panel-large-large.png"></img> Large Solar Panel
 
 *"A significantly more efficient version of the standard solar panel."*
 

@@ -1,4 +1,4 @@
-# <img id="spr" src="/wiki/images/tau-mech-pad-icon-large.png"></img> Tau Mech Pad 
+# <img id="spr" src="/wiki/images/block-tau-mech-pad-large.png"></img> Tau Mech Pad
 
 *"Provides transformation into an advanced support mech.
 Use by tapping while standing on it."*

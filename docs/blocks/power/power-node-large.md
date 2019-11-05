@@ -1,4 +1,4 @@
-# <img id="spr" src="/wiki/images/power-node-large-icon-large.png"></img> Large Power Node 
+# <img id="spr" src="/wiki/images/block-power-node-large-large.png"></img> Large Power Node
 
 *"An advanced power node with greater range."*
 

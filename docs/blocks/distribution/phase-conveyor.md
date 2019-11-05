@@ -1,4 +1,4 @@
-# <img id="spr" src="/wiki/images/phase-conveyor-icon-large.png"></img> Phase Conveyor 
+# <img id="spr" src="/wiki/images/block-phase-conveyor-large.png"></img> Phase Conveyor
 
 *"Advanced item transport block. Uses power to teleport items to a connected phase conveyor over several tiles."*
 

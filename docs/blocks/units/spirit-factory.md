@@ -1,4 +1,4 @@
-# <img id="spr" src="/wiki/images/spirit-factory-icon-large.png"></img> Spirit Repair Drone Factory 
+# <img id="spr" src="/wiki/images/block-spirit-factory-large.png"></img> Spirit Repair Drone Factory
 
 *"Produces Spirit structural repair drones."*
 

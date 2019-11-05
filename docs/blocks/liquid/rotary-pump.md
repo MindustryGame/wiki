@@ -1,4 +1,4 @@
-# <img id="spr" src="/wiki/images/rotary-pump-icon-large.png"></img> Rotary Pump 
+# <img id="spr" src="/wiki/images/block-rotary-pump-large.png"></img> Rotary Pump
 
 *"An advanced pump. Pumps more liquid, but requires power."*
 

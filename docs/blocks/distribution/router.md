@@ -1,4 +1,4 @@
-# <img id="spr" src="/wiki/images/router-icon-large.png"></img> Router 
+# <img id="spr" src="/wiki/images/block-router-large.png"></img> Router
 
 *"Accepts items, then outputs them to up to 3 other directions equally. Useful for splitting the materials from one source to multiple targets.
 

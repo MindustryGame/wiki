@@ -1,4 +1,4 @@
-# <img id="spr" src="/wiki/images/thermal-pump-icon-large.png"></img> Thermal Pump 
+# <img id="spr" src="/wiki/images/block-thermal-pump-large.png"></img> Thermal Pump
 
 *"The ultimate pump."*
 

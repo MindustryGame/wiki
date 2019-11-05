@@ -1,4 +1,4 @@
-# <img id="spr" src="/wiki/images/scrap-wall-huge-icon-large.png"></img> Huge Scrap Wall 
+# <img id="spr" src="/wiki/images/block-scrap-wall-huge-large.png"></img> Huge Scrap Wall
 
 
 

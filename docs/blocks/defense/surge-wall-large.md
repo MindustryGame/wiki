@@ -1,4 +1,4 @@
-# <img id="spr" src="/wiki/images/surge-wall-large-icon-large.png"></img> Large Surge Wall 
+# <img id="spr" src="/wiki/images/block-surge-wall-large-large.png"></img> Large Surge Wall
 
 *"An extremely durable defensive block.
 Builds up charge on bullet contact, releasing it randomly.

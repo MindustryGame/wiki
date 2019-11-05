@@ -1,4 +1,4 @@
-# <img id="spr" src="/wiki/images/fortress-factory-icon-large.png"></img> Fortress Mech Factory 
+# <img id="spr" src="/wiki/images/block-fortress-factory-large.png"></img> Fortress Mech Factory
 
 *"Produces heavy artillery ground units."*
 

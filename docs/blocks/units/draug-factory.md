@@ -1,4 +1,4 @@
-# <img id="spr" src="/wiki/images/draug-factory-icon-large.png"></img> Draug Miner Drone Factory 
+# <img id="spr" src="/wiki/images/block-draug-factory-large.png"></img> Draug Miner Drone Factory
 
 *"Produces Draug mining drones."*
 

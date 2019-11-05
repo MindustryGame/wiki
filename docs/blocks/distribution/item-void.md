@@ -1,4 +1,4 @@
-# <img id="spr" src="/wiki/images/item-void-icon-large.png"></img> Item Void 
+# <img id="spr" src="/wiki/images/block-item-void-large.png"></img> Item Void
 
 *"Destroys any items. Sandbox only."*
 

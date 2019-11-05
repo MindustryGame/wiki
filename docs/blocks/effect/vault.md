@@ -1,4 +1,4 @@
-# <img id="spr" src="/wiki/images/vault-icon-large.png"></img> Vault 
+# <img id="spr" src="/wiki/images/block-vault-large.png"></img> Vault
 
 *"Stores a large amount of items of each type. An unloader block can be used to retrieve items from the vault."*
 

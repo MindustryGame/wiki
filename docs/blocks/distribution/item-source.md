@@ -1,4 +1,4 @@
-# <img id="spr" src="/wiki/images/item-source-icon-large.png"></img> Item Source 
+# <img id="spr" src="/wiki/images/block-item-source-large.png"></img> Item Source
 
 *"Infinitely outputs items. Sandbox only."*
 

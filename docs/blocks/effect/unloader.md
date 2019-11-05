@@ -1,4 +1,4 @@
-# <img id="spr" src="/wiki/images/unloader-icon-large.png"></img> Unloader 
+# <img id="spr" src="/wiki/images/block-unloader-large.png"></img> Unloader
 
 *"Unloads items from any nearby non-transportation block. The type of item to be unloaded can be changed by tapping."*
 

@@ -1,4 +1,4 @@
-# <img id="spr" src="/wiki/images/titan-factory-icon-large.png"></img> Titan Mech Factory 
+# <img id="spr" src="/wiki/images/block-titan-factory-large.png"></img> Titan Mech Factory
 
 *"Produces advanced, armored ground units."*
 

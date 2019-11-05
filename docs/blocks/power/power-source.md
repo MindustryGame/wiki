@@ -1,4 +1,4 @@
-# <img id="spr" src="/wiki/images/power-source-icon-large.png"></img> Power Infinite 
+# <img id="spr" src="/wiki/images/block-power-source-large.png"></img> Power Infinite
 
 *"Infinitely outputs power. Sandbox only."*
 

@@ -1,4 +1,4 @@
-# <img id="spr" src="/wiki/images/glaive-ship-pad-icon-large.png"></img> Glaive Ship Pad 
+# <img id="spr" src="/wiki/images/block-glaive-ship-pad-large.png"></img> Glaive Ship Pad
 
 *"Provides transformation into a large, well-armored gunship.
 Use by tapping while standing on it."*

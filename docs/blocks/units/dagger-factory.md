@@ -1,4 +1,4 @@
-# <img id="spr" src="/wiki/images/dagger-factory-icon-large.png"></img> Dagger Mech Factory 
+# <img id="spr" src="/wiki/images/block-dagger-factory-large.png"></img> Dagger Mech Factory
 
 *"Produces basic ground units."*
 

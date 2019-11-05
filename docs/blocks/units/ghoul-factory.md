@@ -1,4 +1,4 @@
-# <img id="spr" src="/wiki/images/ghoul-factory-icon-large.png"></img> Ghoul Bomber Factory 
+# <img id="spr" src="/wiki/images/block-ghoul-factory-large.png"></img> Ghoul Bomber Factory
 
 *"Produces heavy carpet bombers."*
 

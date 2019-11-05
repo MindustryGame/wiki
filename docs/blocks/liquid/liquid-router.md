@@ -1,4 +1,4 @@
-# <img id="spr" src="/wiki/images/liquid-router-icon-large.png"></img> Liquid Router 
+# <img id="spr" src="/wiki/images/block-liquid-router-large.png"></img> Liquid Router
 
 *"Accepts liquids from one direction and outputs them to up to 3 other directions equally. Can also store a certain amount of liquid. Useful for splitting the liquids from one source to multiple targets."*
 

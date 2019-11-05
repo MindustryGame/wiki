@@ -1,4 +1,4 @@
-# <img id="spr" src="/wiki/images/titanium-wall-icon-large.png"></img> Titanium Wall 
+# <img id="spr" src="/wiki/images/block-titanium-wall-large.png"></img> Titanium Wall
 
 *"A moderately strong defensive block.
 Provides moderate protection from enemies."*

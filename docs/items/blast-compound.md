@@ -16,8 +16,8 @@
 
 --- 
 
-##### Produced in <br><a href="/wiki/blocks/crafting/blast-mixer"><img id="sprlist" src="/wiki/images/blast-mixer-icon-small.png"/></a> 
+##### Produced in <br><a href="/wiki/blocks/crafting/blast-mixer"><img id="sprlist" src="/wiki/images/block-blast-mixer-small.png"/></a> 
 
-##### Required for <br><a href="/wiki/blocks/power/combustion-generator"><img id="sprlist" src="/wiki/images/combustion-generator-icon-small.png"/></a> <a href="/wiki/blocks/power/turbine-generator"><img id="sprlist" src="/wiki/images/turbine-generator-icon-small.png"/></a> <a href="/wiki/blocks/power/impact-reactor"><img id="sprlist" src="/wiki/images/impact-reactor-icon-small.png"/></a> <a href="/wiki/blocks/turret/swarmer"><img id="sprlist" src="/wiki/images/swarmer-icon-small.png"/></a> <a href="/wiki/blocks/turret/ripple"><img id="sprlist" src="/wiki/images/ripple-icon-small.png"/></a> <a href="/wiki/blocks/turret/cyclone"><img id="sprlist" src="/wiki/images/cyclone-icon-small.png"/></a> 
+##### Required for <br><a href="/wiki/blocks/power/combustion-generator"><img id="sprlist" src="/wiki/images/block-combustion-generator-small.png"/></a> <a href="/wiki/blocks/power/turbine-generator"><img id="sprlist" src="/wiki/images/block-turbine-generator-small.png"/></a> <a href="/wiki/blocks/power/impact-reactor"><img id="sprlist" src="/wiki/images/block-impact-reactor-small.png"/></a> <a href="/wiki/blocks/turret/swarmer"><img id="sprlist" src="/wiki/images/block-swarmer-small.png"/></a> <a href="/wiki/blocks/turret/ripple"><img id="sprlist" src="/wiki/images/block-ripple-small.png"/></a> <a href="/wiki/blocks/turret/cyclone"><img id="sprlist" src="/wiki/images/block-cyclone-small.png"/></a> 
 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)

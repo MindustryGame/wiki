@@ -1,4 +1,4 @@
-# <img id="spr" src="/wiki/images/copper-wall-icon-large.png"></img> Copper Wall 
+# <img id="spr" src="/wiki/images/block-copper-wall-large.png"></img> Copper Wall
 
 *"A cheap defensive block.
 Useful for protecting the core and turrets in the first few waves."*

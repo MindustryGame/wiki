@@ -1,4 +1,4 @@
-# <img id="spr" src="/wiki/images/mech-icon-omega-mech.png"></img> Omega 
+# <img id="spr" src="/wiki/images/mech-omega-mech-full.png"></img> Omega
 
 
 *"A bulky and well-armored mech, made for front-line assaults. Its armor can block up to 90% of incoming damage."*  
@@ -17,5 +17,5 @@
 
 --- 
 
-##### Created in <br><a href="/wiki/blocks/upgrade/omega-mech-pad"><img id="sprlist" src="/wiki/images/omega-mech-pad-icon-small.png"/></a> 
+##### Created in <br><a href="/wiki/blocks/upgrade/omega-mech-pad"><img id="sprlist" src="/wiki/images/block-omega-mech-pad-small.png"/></a> 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)

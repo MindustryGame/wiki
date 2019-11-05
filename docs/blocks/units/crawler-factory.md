@@ -1,4 +1,4 @@
-# <img id="spr" src="/wiki/images/crawler-factory-icon-large.png"></img> Crawler Mech Factory 
+# <img id="spr" src="/wiki/images/block-crawler-factory-large.png"></img> Crawler Mech Factory
 
 *"Produces fast self-destructing swarm units."*
 

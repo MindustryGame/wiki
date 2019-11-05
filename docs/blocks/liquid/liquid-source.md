@@ -1,4 +1,4 @@
-# <img id="spr" src="/wiki/images/liquid-source-icon-large.png"></img> Liquid Source 
+# <img id="spr" src="/wiki/images/block-liquid-source-large.png"></img> Liquid Source
 
 *"Infinitely outputs liquids. Sandbox only."*
 

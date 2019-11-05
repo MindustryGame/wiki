@@ -1,4 +1,4 @@
-# <img id="spr" src="/wiki/images/door-icon-large.png"></img> Door 
+# <img id="spr" src="/wiki/images/block-door-large.png"></img> Door
 
 *"A small door. Can be opened or closed by tapping."*
 

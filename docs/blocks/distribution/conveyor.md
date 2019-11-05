@@ -1,4 +1,4 @@
-# <img id="spr" src="/wiki/images/conveyor-icon-large.png"></img> Conveyor 
+# <img id="spr" src="/wiki/images/block-conveyor-large.png"></img> Conveyor
 
 *"Basic item transport block. Moves items forward and automatically deposits them into blocks. Rotatable."*
 

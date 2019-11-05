@@ -1,4 +1,4 @@
-# <img id="spr" src="/wiki/images/mech-icon-tau-mech.png"></img> Tau 
+# <img id="spr" src="/wiki/images/mech-tau-mech-full.png"></img> Tau
 
 
 *"The support mech. Heals allied blocks by shooting at them. Can heal allies in a radius with its repair ability."*  
@@ -17,5 +17,5 @@
 
 --- 
 
-##### Created in <br><a href="/wiki/blocks/upgrade/tau-mech-pad"><img id="sprlist" src="/wiki/images/tau-mech-pad-icon-small.png"/></a> 
+##### Created in <br><a href="/wiki/blocks/upgrade/tau-mech-pad"><img id="sprlist" src="/wiki/images/block-tau-mech-pad-small.png"/></a> 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)

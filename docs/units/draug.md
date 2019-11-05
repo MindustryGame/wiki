@@ -13,5 +13,5 @@
 
 --- 
 
-##### Created in <br><a href="/wiki/blocks/units/draug-factory"><img id="sprlist" src="/wiki/images/draug-factory-icon-small.png"/></a> 
+##### Created in <br><a href="/wiki/blocks/units/draug-factory"><img id="sprlist" src="/wiki/images/block-draug-factory-small.png"/></a> 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)

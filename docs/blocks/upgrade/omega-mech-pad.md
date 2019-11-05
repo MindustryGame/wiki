@@ -1,4 +1,4 @@
-# <img id="spr" src="/wiki/images/omega-mech-pad-icon-large.png"></img> Omega Mech Pad 
+# <img id="spr" src="/wiki/images/block-omega-mech-pad-large.png"></img> Omega Mech Pad
 
 *"Provides transformation into a heavily-armored missile mech.
 Use by tapping while standing on it."*

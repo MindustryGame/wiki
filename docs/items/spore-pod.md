@@ -16,8 +16,8 @@
 
 --- 
 
-##### Produced in <br><a href="/wiki/blocks/production/cultivator"><img id="sprlist" src="/wiki/images/cultivator-icon-small.png"/></a> 
+##### Produced in <br><a href="/wiki/blocks/production/cultivator"><img id="sprlist" src="/wiki/images/block-cultivator-small.png"/></a> 
 
-##### Required for <br><a href="/wiki/blocks/crafting/blast-mixer"><img id="sprlist" src="/wiki/images/blast-mixer-icon-small.png"/></a> <a href="/wiki/blocks/crafting/spore-press"><img id="sprlist" src="/wiki/images/spore-press-icon-small.png"/></a> <a href="/wiki/blocks/power/combustion-generator"><img id="sprlist" src="/wiki/images/combustion-generator-icon-small.png"/></a> <a href="/wiki/blocks/power/turbine-generator"><img id="sprlist" src="/wiki/images/turbine-generator-icon-small.png"/></a> 
+##### Required for <br><a href="/wiki/blocks/crafting/blast-mixer"><img id="sprlist" src="/wiki/images/block-blast-mixer-small.png"/></a> <a href="/wiki/blocks/crafting/spore-press"><img id="sprlist" src="/wiki/images/block-spore-press-small.png"/></a> <a href="/wiki/blocks/power/combustion-generator"><img id="sprlist" src="/wiki/images/block-combustion-generator-small.png"/></a> <a href="/wiki/blocks/power/turbine-generator"><img id="sprlist" src="/wiki/images/block-turbine-generator-small.png"/></a> 
 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)

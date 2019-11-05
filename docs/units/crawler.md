@@ -13,5 +13,5 @@
 
 --- 
 
-##### Created in <br><a href="/wiki/blocks/units/crawler-factory"><img id="sprlist" src="/wiki/images/crawler-factory-icon-small.png"/></a> 
+##### Created in <br><a href="/wiki/blocks/units/crawler-factory"><img id="sprlist" src="/wiki/images/block-crawler-factory-small.png"/></a> 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
