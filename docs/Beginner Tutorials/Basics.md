@@ -10,11 +10,10 @@ Start by getting ore. Copper should be priority #1, for you only need copper to 
 
 1. Mine with your Mech (see [this](##Mech-Mining))
 2. Mine with a drill (you start with 0 copper, so you will need to get 45 copper to get your first drill + conveyors)
-3. Let your spirit drone mine Copper for you (see Spirit Drone on this page)
 
 Once you have a good Copper income, you can mine Lead. Lead can be mined with the tier 1 drill as well. 
 
-After lead, Dense Alloy should be produced. Please see Advanced Concepts for the materials processing of Dense Alloy, Silicone, Titanium, Thorium, Plastanium, Phase Fabric, and Surge Alloy. 
+After lead, Graphite should be produced. Please see Advanced Concepts for the materials processing of Graphite, Silicone, Titanium, Thorium, Plastanium, Phase Fabric, and Surge Alloy. 
 
 ## Input / Output Basics
 
@@ -22,17 +21,19 @@ Here are a few basics / tips to understanding block input/output behaviors.
 
 **1. Conveyors moving away from a production block will be output.** 
 
-<img src="https://i.imgur.com/D5Wwe3B.png" width=40%>
+<img src="https://i.imgur.com/DbSlVrr.png" width=40%>
 
-This drill will mine and put ore on all conveyors that take the ore away from the drill. In this example, the drill will put Lead on all 7 conveyors, but not the eight one because that conveyor moves towards the drill. The drill will prioritize each path evenly. If a path is blocked, it is not considered as an output.
+This drill will mine and put ore on all conveyors that take the ore away from the drill. In this example, the drill will put Copper on all 7 conveyors, but not the eight one because that conveyor moves towards the drill. The drill will prioritize each path evenly. If a path is blocked it is not considered as an output, but all output blocks will output on disconnected paths until they fill up enough to become blocked.
 
 Notice that a conveyor moving into the Core deposits the material into the core inventory. Once a material is in the Core inventory, you can use it to build immediately, regardless of location. 
 
+Sand, Coal, Pyratite, Blast Compound, Spore Pods, Scrap, and all liquids are not collected at the core, but merely used as inputs to create other resources.
+
 **2. Conveyors moving towards a block will be an input for the block (only if applicable).** 
 
-<img src="https://i.imgur.com/bNa2WF3.png" width=40%>
+<img src="https://i.imgur.com/k4nEXyE.png" width=40%>
 
-In this example, a Smelter is turning 2 Lead<img src="../../img/le.png" id="spr">, 1 Copper<img src="../../img/cp.png" id="spr">, and 1 Coal<img src="../../img/co.png" id="spr"> into 1 Dense Alloy<img src="../../img/da.png" id="spr">. The Smelter is smart enough to know that the belts moving towards the Smelter are inputs and the one conveyor moving away is the output. 
+In this example, Silicon Smelter is turning Coal and Sand into Silicon. The Smelter is smart enough to know that the belts moving towards the Smelter are inputs and the one conveyor moving away is the output. 
 
 A block that takes materials as inputs will not accept any materials that it cannot utilize.
 
@@ -47,11 +48,17 @@ Any conveyor facing towards the block will be considered an input. Any conveyor 
 
 **3. Blocks that output can directly place into other blocks.**
 
-<img src="https://i.imgur.com/I34YWec.png" width=50%>
+<img src="https://i.imgur.com/rWqgxYu.png" width=50%>
 
-This last example is a Pneumatic Drill mining stone and using a Pulverizer to turn it into sand. A pulverizer turns stone into sand by using power. Notice the drill does not use any conveyors; **the stone goes directly into the pulverizer**. 
+This last example is a Mechanical Drill mining coal and using a Graphite Press to turn it into graphite. Notice the drill does not use any conveyors; **the coal goes directly into the Graphite Press**. 
 
 Please note that touching blocks are considered outputs and will be the same output priority as a conveyor or other blocks. 
+
+### Routers
+
+<img src="https://i.imgur.com/Mo11b6s.png" width=50%>
+
+Do not place routers containing inputs directly next to Crafting factories, as the output of the factory will enter the router and clog the input line, as seen above. Always use at least one conveyor of seperation.
 
 ## Mech Mining
 
@@ -59,9 +66,9 @@ If you do not start near copper patches, it might be difficult to begin your gam
 
 To mine, tap on a single ore square. The mech will start mining with a laser. You will see ore flying out of the patch. 
 
-<img src="https://i.imgur.com/qt2Zfi4.png" width=50%>
+<img src="https://i.imgur.com/MIMCv14.png" width=50%>
 
-If a mine (any ore square) is close enough to your core, the items will automatically fly right to the core. If a mine is not close enough, the mined ore will fly onto your mech. There is not a good way to determine how much ore your mech is carrying, but your mech will stop mining once it is full. You will also notice that your mech is much slower than before.
+If a mine (any ore square) is close enough to your core, the items will automatically fly right to the core. If a mine is not close enough, the mined ore will fly onto your mech. The the amount of material you are carrying will be displayed on your mech. Each mech has a limit to the number of items it can carry, detailed on their individual pages. You will also notice that your mech is much slower than before.
 
 **You can only hold one type of material at a time.**
 
@@ -75,19 +82,25 @@ You can pick things off of a conveyor. Click on the conveyor. The conveyor conte
 
 In the above example, the Smelter cannot produce Dense Alloy because it lacks Copper. Why? Because the conveyor has 1 Titanium, which the Smelter cannot accept, thus, it backs up the rest of the conveyor.
 
-## Spirit Drone
+## Drones
 
 <img src="https://i.imgur.com/QzrxKY4.png" align=right width=14%>
 
-A single spirit drone will spawn for you. This and other drones will mine, help build, and repair blocks. If the spirit drone originating from your core dies, a new one will spawn from the core shortly. 
+Drones are small autonomous units that will help your mech perform basic functions. There are three types:
 
-**You cannot control what drones do.** The drones' priorities go as follows:
+* **Draug Miner Drone:** This type of drone can mine copper and lead. It will mine whichever one you have the least of. If the deposits are near your core, it will automatically unload, otherwise, it will mine until it is full then deliver. It is therefore recommended to leave at least some empty patches of both copper and lead near your core so the drones do not have to fly far.
+* **Spirit Repair Drone:** This type of drone will shoot green repair lasers at any damaged blocks, and will fly around in search of them.
+* **Phantom Builder Drone:** This drone will help players construct and tear down all objects they decide to make. It will follow players and congregate around current constructions. Phantom Builder Drones will only help build objects a player is currently constructing; it will not build planned constructions on its own, nor finish constructions that were stopped before completion.
 
-Mine Ores > Assist in building > Repair blocks
+**You cannot control what drones do.** 
 
-While building, drones will stop assisting and quickly mine ores that are running out. 
+## Power
 
-### Tips and Tricks
+Power is necessary to operate most crafting factories, all minion-builders, and some advanced extractors.
+
+It is always recommended to have more power than needed: most advanced generators' inputs require power to be constructed, such as Blast Compound, which required for Impact Reactors to run, and having a small power loss can quickly spiral out of control if the currently insufficient generators also run out of inputs due to reduced or completely halted production. Additionally, all advanced ore extractors require power, and a power loss can completely shut down economies that have moved to mostly using those extractors.
+
+## Tips and Tricks
 
 - You can confirm a block, cancel the build (this will stop your mech from building, but the confirmed build will remain) and continue this one block a time to set up a large queue. This can be helpful when you want to get something started, but need to address something else first. Drones will not work on these queues, so this is only a placeholder.
 - Containers making contact with your Core will act like extra inventory for your Core. This not only gives more inventory space, but allows for more space to input raw materials, as well as output raw materials from your inventory (See Unloader) An Unloader will take materials out of both the Core or connected Containers because they now share the same inventory space.
