@@ -21,7 +21,7 @@ Here are a few basics / tips to understanding block input/output behaviors.
 
 **1. Conveyors moving away from a production block will be output.** 
 
-<img src="https://i.imgur.com/DbSlVrr.png" width=40%>
+<img src="../../screenshots/ConveyerBasics.PNG" width=40%>
 
 This drill will mine and put ore on all conveyors that take the ore away from the drill. In this example, the drill will put Copper on all 7 conveyors, but not the eight one because that conveyor moves towards the drill. The drill will prioritize each path evenly. If a path is blocked it is not considered as an output, but all output blocks will output on disconnected paths until they fill up enough to become blocked.
 
@@ -31,7 +31,7 @@ Sand, Coal, Pyratite, Blast Compound, Spore Pods, Scrap, and all liquids are not
 
 **2. Conveyors moving towards a block will be an input for the block (only if applicable).** 
 
-<img src="https://i.imgur.com/k4nEXyE.png" width=40%>
+<img src="../../screenshots/InputsBasics.PNG" width=40%>
 
 In this example, Silicon Smelter is turning Coal and Sand into Silicon. The Smelter is smart enough to know that the belts moving towards the Smelter are inputs and the one conveyor moving away is the output. 
 
@@ -48,7 +48,7 @@ Any conveyor facing towards the block will be considered an input. Any conveyor 
 
 **3. Blocks that output can directly place into other blocks.**
 
-<img src="https://i.imgur.com/rWqgxYu.png" width=50%>
+<img src="../../screenshots/graphiteBasics.PNG" width=50%>
 
 This last example is a Mechanical Drill mining coal and using a Graphite Press to turn it into graphite. Notice the drill does not use any conveyors; **the coal goes directly into the Graphite Press**. 
 
@@ -56,7 +56,7 @@ Please note that touching blocks are considered outputs and will be the same out
 
 ### Routers
 
-<img src="https://i.imgur.com/Mo11b6s.png" width=50%>
+<img src="../../screenshots/routerBasics.PNG" width=50%>
 
 Do not place routers containing inputs directly next to Crafting factories, as the output of the factory will enter the router and clog the input line, as seen above. Always use at least one conveyor of seperation.
 
@@ -66,7 +66,7 @@ If you do not start near copper patches, it might be difficult to begin your gam
 
 To mine, tap on a single ore square. The mech will start mining with a laser. You will see ore flying out of the patch. 
 
-<img src="https://i.imgur.com/MIMCv14.png" width=50%>
+<img src="../../screenshots/mechMiningbasics.PNG" width=50%>
 
 If a mine (any ore square) is close enough to your core, the items will automatically fly right to the core. If a mine is not close enough, the mined ore will fly onto your mech. The the amount of material you are carrying will be displayed on your mech. Each mech has a limit to the number of items it can carry, detailed on their individual pages. You will also notice that your mech is much slower than before.
 
