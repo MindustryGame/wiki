@@ -9,8 +9,8 @@
 |Solid|No|
 |Health|180    |
 |Size|1x1  |
-|Build Time|0.04  seconds  |
-|Build Cost|<a href="/wiki/items/metaglass"><img id="spr" src="/wiki/images/item-metaglass-xlarge.png"/></a>x1 <a href="/wiki/items/thorium"><img id="spr" src="/wiki/images/item-thorium-xlarge.png"/></a>x1  |
+|Build Time|0.06  seconds  |
+|Build Cost|<a href="/wiki/items/metaglass"><img id="spr" src="/wiki/images/item-metaglass-xlarge.png"/></a>x1 <a href="/wiki/items/thorium"><img id="spr" src="/wiki/images/item-thorium-xlarge.png"/></a>x1 <a href="/wiki/items/plastanium"><img id="spr" src="/wiki/images/item-plastanium-xlarge.png"/></a>x1  |
 
 |Items||
 | --- | --- |

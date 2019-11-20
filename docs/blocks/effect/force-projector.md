@@ -16,7 +16,6 @@ Overheats if too much damage is sustained. Optionally uses coolant to prevent ov
 |Power||
 | --- | --- |
 |Power Use|180  power units/second  12  power units/second  |
-|Power/Damage|0.1  power units  |
 
 |Liquids||
 | --- | --- |

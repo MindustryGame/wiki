@@ -26,7 +26,7 @@
 
 |Input/Output||
 | --- | --- |
-|Input|<a href="/wiki/items/thorium"><img id="spr" src="/wiki/images/item-thorium-xlarge.png"/></a>x1  <a href="/wiki/liquids/cryofluid"><img id="spr" src="/wiki/images/liquid-cryofluid.png"/></a>6/sec  |
+|Input|<a href="/wiki/items/thorium"><img id="spr" src="/wiki/images/item-thorium-xlarge.png"/></a>x1  <a href="/wiki/liquids/cryofluid"><img id="spr" src="/wiki/images/liquid-cryofluid.png"/></a>2.4/sec  |
 |Production Time|6  seconds  |
 
 
