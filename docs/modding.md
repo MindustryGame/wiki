@@ -80,7 +80,7 @@ See the example mod to learn about some of the properties that different types o
 With different kinds of turrets come different types and properties here is a list of the differents kind of turret and some of there in game representant.
 
 |Type|Turret|
-|:---|:----:|
+|:---|-----:|
 |DoubleTurret|Duo|
 |BurstTurret|Scatter|
 |ItemTurret|Scorch|
@@ -89,14 +89,24 @@ With different kinds of turrets come different types and properties here is a li
 |ChargeTurret|Lancer|
 |PowerTurret|Arc|
 |LaserTurret|Meltdown|
-
+most of theyse propeties can be ommited, some specials propeties are explain later.
 |Propertie|Type|Avalable on|Note|
 |:--------|:--:|:---------:|---:|
+|name|quoted string | All |  |
+|description|quoted string| All |  |
+|targetAir|boolean| All |define if the turret target flying ennemies|
+|targetGround|boolean| All |define if the turrettarget walking ennemies|
+|health|integer| All ||
+|size|integer| All ||
+|inaccuracy|integer| All |represent in degree the inaccuracy of the turret|
+|reload|integer| All | time in tick needed by the turret to reload|
+|recoil|integer| All | only graphic|
+|range|integer| All ||
+|category|quoted string| All | define in wich group the turret will be added in the building menu as it's a turret "turret" is highly recomended|
 |||||
 |||||
 |||||
-|||||
-|||||
+
 //TODO help wanted!
 
 #### Items & Other Content
