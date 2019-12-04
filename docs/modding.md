@@ -108,18 +108,18 @@ most of theyse propeties can be ommited, some specials propeties are explain lat
 |health|integer| All ||
 |shootShake|integer| All |//need note|
 |shots|integer| All |how many bullets are shot per shoot|
-|shootCone|integer| All except ArtilleryTurret,ChargeTurret,BurstTurret |//need note|
+|shootCone|integer| All except ArtilleryTurret, ChargeTurret, BurstTurret |//need note|
 |powerUse|integer| All | how much power consume the turret |
-|shootEffect|[color=#ff0000]help needed[/color]|[color=#ff0000]help needed[/color]|[color=#ff0000]help needed[/color]|
-|smokeEffect|[color=#ff0000]help needed[/color]|[color=#ff0000]help needed[/color]|[color=#ff0000]help needed[/color]|
-|shootSound|[color=#ff0000]help needed[/color]|[color=#ff0000]help needed[/color]|[color=#ff0000]help needed[/color]|
-|chargeEffect|[color=#ff0000]help needed[/color]|ChargeTurret|[color=#ff0000]help needed[/color]|
-|chargeEffects|[color=#ff0000]help needed[/color]|ChargeTurret|[color=#ff0000]help needed[/color]|
-|chargeBeginEffect|[color=#ff0000]help needed[/color]|ChargeTurret|[color=#ff0000]help needed[/color]|
+|shootEffect|<span style='color:red'>help needed</span>|<span style='color:red'>help needed</span>|<span style='color:red'>help needed</span>|
+|smokeEffect|<span style='color:red'>help needed</span>|<span style='color:red'>help needed</span>|<span style='color:red'>help needed</span>|
+|shootSound|<span style='color:red'>help needed</span>|<span style='color:red'>help needed</span>|<span style='color:red'>help needed</span>|
+|chargeEffect|<span style='color:red'>help needed</span>|ChargeTurret|<span style='color:red'>help needed</span>|
+|chargeEffects|<span style='color:red'>help needed</span>|ChargeTurret|<span style='color:red'>help needed</span>|
+|chargeBeginEffect|<span style='color:red'>help needed</span>|ChargeTurret|<span style='color:red'>help needed</span>|
 |rotatespeed|integer| All | define how fast your turret rotate |
-|coolantMultiplier|[color=#ff0000]help needed[/color]|[color=#ff0000]help needed[/color]|[color=#ff0000]help needed[/color]|
-|burstSpacing|[color=#ff0000]help needed[/color]|BurstTurret|[color=#ff0000]help needed[/color]|
-|xRand|[color=#ff0000]help needed[/color]|BurstTurret|[color=#ff0000]help needed[/color]|
+|coolantMultiplier|<span style='color:red'>help needed</span>|<span style='color:red'>help needed</span>|<span style='color:red'>help needed</span>|
+|burstSpacing|<span style='color:red'>help needed</span>|BurstTurret|<span style='color:red'>help needed</span>|
+|xRand|<span style='color:red'>help needed</span>|BurstTurret|<span style='color:red'>help needed</span>|
 
 
 //TODO help wanted!
