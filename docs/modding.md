@@ -89,7 +89,9 @@ With different kinds of turrets come different types and properties here is a li
 |ChargeTurret|Lancer|
 |PowerTurret|Arc|
 |LaserTurret|Meltdown|
+
 most of theyse propeties can be ommited, some specials propeties are explain later.
+
 |Propertie|Type|Avalable on|Note|
 |:--------|:--:|:---------:|---:|
 |name|quoted string | All |  |
@@ -103,9 +105,22 @@ most of theyse propeties can be ommited, some specials propeties are explain lat
 |recoil|integer| All | only graphic|
 |range|integer| All ||
 |category|quoted string| All | define in wich group the turret will be added in the building menu as it's a turret "turret" is highly recomended|
-|||||
-|||||
-|||||
+|health|integer| All ||
+|shootShake|integer| All |//need note|
+|shots|integer| All |how many bullets are shot per shoot|
+|shootCone|integer| All except ArtilleryTurret,ChargeTurret,BurstTurret |//need note|
+|powerUse|integer| All | how much power consume the turret |
+|shootEffect|[color=#ff0000]help needed[/color]|[color=#ff0000]help needed[/color]|[color=#ff0000]help needed[/color]|
+|smokeEffect|[color=#ff0000]help needed[/color]|[color=#ff0000]help needed[/color]|[color=#ff0000]help needed[/color]|
+|shootSound|[color=#ff0000]help needed[/color]|[color=#ff0000]help needed[/color]|[color=#ff0000]help needed[/color]|
+|chargeEffect|[color=#ff0000]help needed[/color]|ChargeTurret|[color=#ff0000]help needed[/color]|
+|chargeEffects|[color=#ff0000]help needed[/color]|ChargeTurret|[color=#ff0000]help needed[/color]|
+|chargeBeginEffect|[color=#ff0000]help needed[/color]|ChargeTurret|[color=#ff0000]help needed[/color]|
+|rotatespeed|integer| All | define how fast your turret rotate |
+|coolantMultiplier|[color=#ff0000]help needed[/color]|[color=#ff0000]help needed[/color]|[color=#ff0000]help needed[/color]|
+|burstSpacing|[color=#ff0000]help needed[/color]|BurstTurret|[color=#ff0000]help needed[/color]|
+|xRand|[color=#ff0000]help needed[/color]|BurstTurret|[color=#ff0000]help needed[/color]|
+
 
 //TODO help wanted!
 
