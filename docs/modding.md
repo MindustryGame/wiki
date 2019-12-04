@@ -75,6 +75,29 @@ An example of these properties:
 Most further properties depending the `type` of block you've set. 
 See the example mod to learn about some of the properties that different types of blocks can have.
 
+#### Turrets types
+
+With different kinds of turrets come different types and properties here is a list of the differents kind of turret and some of there in game representant.
+
+|Type|Turret|
+|:---|:----:|
+|DoubleTurret|Duo|
+|BurstTurret|Scatter|
+|ItemTurret|Scorch|
+|ArtilleryTurret|Hail|
+|LiquidTurret|Wave|
+|ChargeTurret|Lancer|
+|PowerTurret|Arc|
+|LaserTurret|Meltdown|
+
+|Propertie|Type|Avalable on|Note|
+|:--------|:--:|:---------:|---:|
+|||||
+|||||
+|||||
+|||||
+|||||
 //TODO help wanted!
 
 #### Items & Other Content
+
