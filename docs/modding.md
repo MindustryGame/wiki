@@ -121,6 +121,7 @@ most of theyse propeties can be ommited, some specials propeties are explain lat
 |burstSpacing|<span style='color:red'>help needed</span>|BurstTurret|<span style='color:red'>help needed</span>|
 |xRand|<span style='color:red'>help needed</span>|BurstTurret|<span style='color:red'>help needed</span>|
 
+there is other field that need a bit more explain than the Note column allow like the ammo, requirements, research fields
 
 //TODO help wanted!
 
