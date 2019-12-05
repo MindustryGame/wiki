@@ -75,9 +75,9 @@ An example of these properties:
 Most further properties depending the `type` of block you've set. 
 See the example mod to learn about some of the properties that different types of blocks can have.
 
-#### Turrets types
+#### Turrets
 
-With different kinds of turrets come different types and properties here is a list of the differents kind of turret and some of there in game representant.
+With different kinds of turrets come different types and properties. Here is a list of the different kinds of turrets and what they represent in-game.
 
 |Type|Turret|
 |:---|-----:|
@@ -90,26 +90,25 @@ With different kinds of turrets come different types and properties here is a li
 |PowerTurret|Arc|
 |LaserTurret|Meltdown|
 
-most of theyse propeties can be ommited, some specials propeties are explain later.
+Notice that not all in-game turrets are mentioned. That is because there are only *types* of turrets, e.g. the ArtilleryTurret is a turret type that shoots slow, long range AoE shots. Turrets like the Hail and Ripple. Most of these properties can be ommited, some special propeties will be explained later.
 
-|Propertie|Type|Avalable on|Note|
+|Property|Type|Avalable on|Note|
 |:--------|:--:|:---------:|---:|
-|name|quoted string | All |  |
-|description|quoted string| All |  |
-|targetAir|boolean| All |define if the turret target flying ennemies|
-|targetGround|boolean| All |define if the turrettarget walking ennemies|
-|health|integer| All ||
-|size|integer| All ||
-|inaccuracy|integer| All |represent in degree the inaccuracy of the turret|
-|reload|integer| All | time in tick needed by the turret to reload|
-|recoil|integer| All | only graphic|
-|range|integer| All ||
-|category|quoted string| All | define in wich group the turret will be added in the building menu as it's a turret "turret" is highly recomended|
-|health|integer| All ||
+|name|quoted string | All |In-game name|
+|description|quoted string| All |In-game description of the turret|
+|targetAir|boolean| All |Defines whether the turret can target flying enemies|
+|targetGround|boolean| All |Defines whether the turret can target walking or ground enemies|
+|health|integer| All |Health|
+|size|integer| All |Width and Height (square)|
+|inaccuracy|integer| All |The angle of innacuracy of the turret represented in degrees|
+|reload|integer| All |Time in ticks between each reload|
+|recoil|integer| All |How far the turret 'jerks back' when shooting|
+|range|integer| All |The turret's range|
+|category|quoted string| All | Defines which group the turret will be added in the building menu as it's a turret. "turret" is highly recomended|
 |shootShake|integer| All |//need note|
-|shots|integer| All |how many bullets are shot per shoot|
+|shots|integer| All |How many bullets are shot per shot|
 |shootCone|integer| All except ArtilleryTurret, ChargeTurret, BurstTurret |//need note|
-|powerUse|integer| All | how much power consume the turret |
+|powerUse|integer| All | How much power the turret consumes if it's electric |
 |shootEffect|<span style='color:red'>help needed</span>|<span style='color:red'>help needed</span>|<span style='color:red'>help needed</span>|
 |smokeEffect|<span style='color:red'>help needed</span>|<span style='color:red'>help needed</span>|<span style='color:red'>help needed</span>|
 |shootSound|<span style='color:red'>help needed</span>|<span style='color:red'>help needed</span>|<span style='color:red'>help needed</span>|
