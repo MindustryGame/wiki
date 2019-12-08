@@ -22,7 +22,7 @@ On the App Store, distributing the game there costs a lot, as a developer will n
 - If you are fluent in a language that Mindustry doesn't support yet, or if you want to contribute to the ones already there, stop by the #translations channel, and ask about it. You can contribute to the current bundles and open a PR in the game's repo.
 - If you want to contribute to this wiki, please contact Anuke or Luxray5474. They'll let you know what you should do and how we roll.
 
-## Are Anuke and Anuken diifferent people?
+## Are Anuke and Anuken different people?
 
 They are very well the same person. Anuke(n) uses "Anuken" when "Anuke" is taken.
 
