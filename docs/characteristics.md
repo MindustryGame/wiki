@@ -38,14 +38,6 @@ Oil<img src="../img/oil.png" id="spr"> is the most and only explosive liquid. If
 
 **Tip:** Keep explosive material protected and separate from your Core or any exposed lines, unless it is needed. It is highly explosive and when triggered, will deal damage to surrounding blocks as well. Read the previous tip, too.
 
-## Fluxiness [Items]
-
-Fluxiness is the measure of the ability of an item to be used as flux. Flux is essentially a 'filler' system, substituting the regular resources with masses of cheaper ones. 
-
-For example, a Smelter will accept Sand, Phase Fabric, and Biomatter as flux, and thus use less of its regular ingredients. The same goes for the Arc Smelter and Alloy Smelter.
-
-**Tip:** In many maps, Sand is an extremely abundant material, so a line saturated with Sand combined with a Vault or Container system that distributes it widely is good practice if you have tons of production.
-
 ## Heat Capacity [Liquids]
 
 Heat capacity is the measure of the effectiveness of a liquid in absorbing and dissipating heat. The higher the Heat Cap., the faster it will cool things like the Thorium Reactor down. 
