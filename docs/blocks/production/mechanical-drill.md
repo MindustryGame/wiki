@@ -22,7 +22,7 @@
 
 |Input/Output||
 | --- | --- |
-|Drillables| |
+|Drillables|![sand1](../../images/sand1.png) Sand ![darksand1](../../images/darksand1.png) Dark Sand ![ore-copper1](../../images/ore-copper1.png) Copper ![ore-lead1](../../images/ore-lead1.png) Lead ![ore-scrap1](../../images/ore-scrap1.png) Scrap ![ore-coal1](../../images/ore-coal1.png) Coal  |
 |Base Drill Speed|0.4  items/second  |
 
 |Optional Enhancements||

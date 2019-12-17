@@ -16,6 +16,10 @@
 | --- | --- |
 |Power Use|60  power units/second  |
 
+|Shooting||
+| --- | --- |
+|Range|8.13  blocks  |
+
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
