@@ -41,3 +41,12 @@ img#zone {
     border: 5px solid dimgray;
     border-radius: 10px;
 }
+
+.wy-menu-vertical .subnav a {
+    display: flex;
+    align-items: center;
+}
+
+.wy-menu-vertical .subnav a img {
+    margin-right: 5px;
+}
