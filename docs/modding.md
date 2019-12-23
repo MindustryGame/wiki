@@ -293,7 +293,7 @@ The content of these files should look as follows:
     description: Description of thing.
 
 |field|type|notes|
-|-
+|---|---|---|
 |type|String|Content type of this object.|
 |name|String|Displayed name of content.|
 |description|String|Displayed description of content.|
@@ -752,7 +752,7 @@ Block is the base type of all blocks in the game. All blocks have at least one s
 Fields for all objects that are blocks.
 
 |field|type|default|notes|
-|-
+|---|---|---|---|
 |update|boolean|&#xa0;|whether this block has a tile entity that updates|
 |destructible|boolean|&#xa0;|whether this block has health and can be destroyed|
 |unloadable|boolean|true|whether unloaders work on this block|
@@ -809,7 +809,7 @@ Sprites:
 This type is commonly used in block type with it's field `consumes`, it's a type that allows your block to consume something, and how this field works is up to the specific type extension you're using.
 
 |field|type|notes|
-|-
+|---|---|---|
 |item|String|shorthand for `items`|
 |items|[ConsumeItems](#ConsumeItems)|consume a number of different items|
 |liquid|[ConsumeLiquid](#ConsumeLiquid)|consume a single liquid|
@@ -841,7 +841,7 @@ For example with [ConsumeItems](#ConsumeItems) and [ConsumeLiquid](#ConsumeLiqui
 [Abstract](#org4b8a73e) type which defines a type of resource that a block can consume.
 
 |field|type|default|notes|
-|-
+|---|---|---|---|
 |optional|boolean|&#xa0;|consumer will not influence consumer validity.|
 |booster|boolean|&#xa0;|consumer will be displayed as a boost input.|
 |update|boolean|true|&#xa0;|
@@ -855,7 +855,7 @@ Extends [Consume](#Consume)
 Type to consume ItemStacks.
 
 |field|type|
-|-
+|---|---|
 |items|[ [ItemStack](#ItemStack) ]|
 
 
@@ -867,7 +867,7 @@ Extends [Consume](#Consume)
 Type to consume a LiquidStack.
 
 |field|type|default|notes|
-|-
+|---|---|---|---|
 |liquid|String|&#xa0;|the name of [liquid](#Liquid) type consumed|
 |amount|float|&#xa0;|amount used per frame|
 |timePeriod|float|60|how much time is taken to use this liquid, example: a normal ConsumeLiquid with 10/s and a 10 second timePeriod would display as *100 seconds*, but without a time override it would display as *10 liquid/second*. This is used for generic crafters.|
@@ -881,7 +881,7 @@ Extends [Consume](#Consume)
 Type to consume or buffer power.
 
 |field|type|notes|
-|-
+|---|---|---|
 |usage|float|The maximum amount of power which can be processed per tick. This might influence efficiency or load a buffer|
 |capacity|float|The maximum power capacity in power units.|
 |buffered|boolean|True if the module can store power.|
@@ -895,7 +895,7 @@ Type to consume or buffer power.
 Type for blocks which may store a buffer of items or liquid.
 
 |field|type|default|
-|-
+|---|---|---|
 |hasItems|boolean|&#xa0;|
 |hasLiquids|boolean|&#xa0;|
 |hasPower|boolean|&#xa0;|
@@ -923,7 +923,7 @@ Extends [Block](#Block)
 Type used for floors themselves or extended to make ores and other things.
 
 |field|type|default|notes|
-|-
+|---|---|---|---|
 |variants|int|3|number of different variant regions to use.|
 |edge|String|stone|edge fallback, used mainly for ores.|
 |speedMultiplier|float|1|multiplies unit velocity by this when walked on.|
@@ -978,7 +978,7 @@ For example:
 Extends [OverlayFloor](#OverlayFloor)
 
 |field|default|
-|-
+|---|---|
 |variants|3|
 
 
@@ -988,13 +988,13 @@ Extends [OverlayFloor](#OverlayFloor)
 Extends [Block](#Block)
 
 |field|type|
-|-
+|---|---|
 |variants|int|
 
 Defaults:
 
 |field|default|
-|-
+|---|---|
 |breakable|true|
 |alwaysReplace|true|
 
@@ -1007,7 +1007,7 @@ Extends [Rock](#Rock)
 Defaults:
 
 |field|default|
-|-
+|---|---|
 |breakable|false|
 |alwaysReplace|false|
 |solid|true|
@@ -1039,7 +1039,7 @@ Extends [Block](#Block)
 Defaults:
 
 |field|default|
-|-
+|---|---|
 |solid|true|
 |layer|power|
 |expanded|true|
@@ -1055,7 +1055,7 @@ Defaults:
 Extends [Block](#Block)
 
 |field|type|default|notes|
-|-
+|---|---|---|---|
 |outputItem|[ItemStack](#ItemStack)|&#xa0;|one item stack|
 |outputLiquid|[LiquidStack](#LiquidStack)|&#xa0;|one liquid stack|
 |craftTime|float|80|&#xa0;|
@@ -1066,7 +1066,7 @@ Extends [Block](#Block)
 Defaults:
 
 |field|default|
-|-
+|---|---|
 |update|true|
 |solid|true|
 |hasItems|true|
@@ -1084,7 +1084,7 @@ Extends [GenericCrafter](#GenericCrafter)
 A GenericCrafter with a new glowing region drawn on top.
 
 |field|type|default|
-|-
+|---|---|---|
 |flameColor|[Color](#Color)|ffc999|
 
 Sprite suffix:
@@ -1100,7 +1100,7 @@ Extends [Block](#Block)
 Separator takes liquid as an input, and will produce items from it's stack randomly, using the amount of items in the stack as probability. Separator can't accept items as input, as it will output all the items you put in it, regardless of what you put in `results`.
 
 |field|type|default|notes|
-|-
+|---|---|---|---|
 |results|[ [ItemStack](#ItemStack) ]|&#xa0;|**[required]**|
 |craftTime|float|&#xa0;|&#xa0;|
 |spinnerRadius|float|2.5|&#xa0;|
@@ -1113,7 +1113,7 @@ Separator takes liquid as an input, and will produce items from it's stack rando
 Defaults:
 
 |field|default|
-|-
+|---|---|
 |update|true|
 |solid|true|
 |hasItems|true|
@@ -1136,7 +1136,7 @@ Extends [PowerBlock](#PowerBlock)
 Deafults:
 
 |field|default|
-|-
+|---|---|
 |consumesPower||
 
 
@@ -1148,7 +1148,7 @@ Extends [PowerNode](#PowerNode)
 Defaults:
 
 |field|default|
-|-
+|---|---|
 |maxNodes|100|
 |outputsPower|true|
 |consumesPower|false|
@@ -1162,7 +1162,7 @@ Extends [Block](#Block)
 Defaults:
 
 |field|default|
-|-
+|---|---|
 |hasItems|true|
 |update|true|
 |solid|true|
@@ -1178,7 +1178,7 @@ Extends [Block](#Block)
 Defaults:
 
 |field|default|
-|-
+|---|---|
 |update|true|
 |solid|true|
 
@@ -1191,7 +1191,7 @@ Extends [Block](#Block)
 Defaults:
 
 |field|default|
-|-
+|---|---|
 |hasLiquids|true|
 |update|true|
 |solid|true|
@@ -1210,14 +1210,14 @@ Defaults:
 Extends [Block](#Block)
 
 |field|type|default|
-|-
+|---|---|---|
 |maxTextLength|int|220|
 |maxNewlines|int|24|
 
 Defaults:
 
 |field|default|
-|-
+|---|---|
 |solid|true|
 |configurable|true|
 |destructible|true|
@@ -1233,13 +1233,13 @@ Defaults:
 Extends [Block](#Block)
 
 |field|type|default|
-|-
+|---|---|---|
 |variants|int|0|
 
 Defaults:
 
 |field|default|
-|-
+|---|---|
 |solid|true|
 |destructible|true|
 |group|walls|
@@ -1252,7 +1252,7 @@ Defaults:
 Extends [Wall](#Wall) &#x2013; Wall that deflects low damage bullets.
 
 |field|type|default|
-|-
+|---|---|---|
 |hitTime|float|10|
 |maxDamageDeflect|float|10|
 
@@ -1263,7 +1263,7 @@ Extends [Wall](#Wall) &#x2013; Wall that deflects low damage bullets.
 Extends [Wall](#Wall) &#x2013; Wall that creates lightning when shot.
 
 |field|type|default|
-|-
+|---|---|---|
 |lightningChance|float|0.05|
 |lightningDamage|float|15|
 |lightningLength|int|17|
@@ -1275,14 +1275,14 @@ Extends [Wall](#Wall) &#x2013; Wall that creates lightning when shot.
 Extends [Wall](#Wall)
 
 |field|type|default|
-|-
+|---|---|---|
 |openfx|[Effect](#Effect)|dooropen|
 |closefx|[Effect](#Effect)|doorclose|
 
 Defaults:
 
 |field|default|
-|-
+|---|---|
 |solid|false|
 |solidfies|true|
 |consumesTap|true|
@@ -1298,7 +1298,7 @@ Sprites:
 Extends [Block](#Block)
 
 |field|type|default|
-|-
+|---|---|---|
 |color|[Color](#Color)|84f491|
 |phase|[Color](#Color)|ffd59e|
 |reload|float|250|
@@ -1319,7 +1319,7 @@ Sprites:
 Extends [Block](#Block)
 
 |field|type|default|
-|-
+|---|---|---|
 |color|[Color](#Color)|feb380|
 |phase|[Color](#Color)|ffd59e|
 |reload|float|60|
@@ -1332,7 +1332,7 @@ Extends [Block](#Block)
 Defaults:
 
 |field|default|
-|-
+|---|---|
 |solid|true|
 |update|true|
 |hasPower|true|
@@ -1350,7 +1350,7 @@ Sprites:
 Extends [Block](#Block)
 
 |field|type|default|
-|-
+|---|---|---|
 |phaseUseTime|float|350|
 |phaseRadiusBoost|float|80|
 |radius|float|101.7|
@@ -1363,7 +1363,7 @@ Extends [Block](#Block)
 Defaults:
 
 |field|default|
-|-
+|---|---|
 |update|true|
 |solid|true|
 |hasPower|true|
@@ -1390,7 +1390,7 @@ Sprites:
 Extends [Block](#Block)
 
 |field|type|default|
-|-
+|---|---|---|
 |cooldown|float|80|
 |tileDamage|float|5|
 |damage|float|13|
@@ -1400,7 +1400,7 @@ Extends [Block](#Block)
 Defaults:
 
 |field|default|
-|-
+|---|---|
 |update|false|
 |destructible|true|
 |solid|false|
@@ -1422,7 +1422,7 @@ This section is for turret types. All turrets shoot [BulletType](#BulletType), a
 The purpose of a turret type is to be a `Block` that shoots bullets. `Turret` is the base type for all turrets, it's *abstract* meaning it shouldn't be used directly, but everything which extends it will get it's fields.
 
 |field|type|default|notes|
-|-
+|---|---|---|---|
 |heatColor|[Color](#Color)|turretHeat|The color of the `-heat` sprite.|
 |shootEffect|[Effect](#Effect)|none|An effect fired on tile in the direction the turret is aiming when it shoots.|
 |smokeEffect|[Effect](#Effect)|none|An effect fired on tile in the direction the turret is aiming when it shoots.|
@@ -1448,7 +1448,7 @@ The purpose of a turret type is to be a `Block` that shoots bullets. `Turret` is
 Defaults:
 
 |field|default|
-|-
+|---|---|
 |priority|turret|
 |update|true|
 |solid|true|
@@ -1472,7 +1472,7 @@ Sprites-Override:
 Extends [Turret](#Turret) &#x2013; This is a base type that turrets which use [Liquid](#Liquid) to cool themselves extend from.
 
 |field|type|default|notes|
-|-
+|---|---|---|---|
 |coolantMultiplier|float|5|How much reload is lowered by for each unit of liquid of heat capacity.|
 |coolEffect|[Effect](#Effect)|shoot|&#xa0;|
 
@@ -1507,14 +1507,14 @@ This type is a turret that uses items as ammo. The key to the `ammo` field shoul
 Here we're using `copper` to shoot `standardCopper` (built-in bullet) and `metalglass` to shoot a custom bullet of type `MissileBulletType`.
 
 |field|type|default|notes|
-|-
+|---|---|---|---|
 |maxAmmo|int|30|&#xa0;|
 |ammo|{ String: [BulletType](#BulletType) }|&#xa0;|String is the name of an [Item](#Item), which will be used to select the type of bullet which will be shot.|
 
 Defaults:
 
 |field|default|
-|-
+|---|---|
 |hasItems|true|
 
 
@@ -1541,13 +1541,13 @@ For example you could do something like this:
     }
 
 |fields|type|notes|
-|-
+|---|---|---|
 |ammo|{ String: [BulletType](#BulletType) }|object with [Liquid](#Liquid) names to bullet types.|
 
 Defaults:
 
 |fields|default|
-|-
+|---|---|
 |hasLiquids|true|
 |activeSound|spray|
 
@@ -1560,13 +1560,13 @@ Extends [ItemTurret](#ItemTurret)
 ItemTurret that shoots from two side-by-side barrels.
 
 |field|type|default|
-|-
+|---|---|---|
 |shotWidth|float|2|
 
 Default:
 
 |field|default|
-|-
+|---|---|
 |shots|2|
 
 
@@ -1576,7 +1576,7 @@ Default:
 Extends [ItemTurret](#ItemTurret) &#x2013; Artillery turrets have special shooting calculations done to hit targets.
 
 |field|default|
-|-
+|---|---|
 |targetAir|false|
 
 
@@ -1586,7 +1586,7 @@ Extends [ItemTurret](#ItemTurret) &#x2013; Artillery turrets have special shooti
 Extends [ItemTurret](#ItemTurret) &#x2013; Turrets capable of bursts of specially spaced bullets, separated by long reload times.
 
 |field|type|default|
-|-
+|---|---|---|
 |burstSpacing|float|5|
 
 
@@ -1596,14 +1596,14 @@ Extends [ItemTurret](#ItemTurret) &#x2013; Turrets capable of bursts of speciall
 Extends [CooledTurret](#CooledTurret) &#x2013; Turret which uses power has ammo to shoot.
 
 |field|type|default|notes|
-|-
+|---|---|---|---|
 |shootType|[BulletType](#BulletType)|&#xa0;|**[required]**|
 |powerUse|float|1|&#xa0;|
 
 Defaults:
 
 |field|default|
-|-
+|---|---|
 |hasPower|true|
 
 
@@ -1613,7 +1613,7 @@ Defaults:
 Extends [PowerTurret](#PowerTurret)
 
 |field|type|default|
-|-
+|---|---|---|
 |chargeTime|float|30|
 |chargeEffects|int|5|
 |chargeMaxDelay|float|10|
@@ -1627,14 +1627,14 @@ Extends [PowerTurret](#PowerTurret)
 Extends [PowerTurret](#PowerTurret)
 
 |field|type|default|notes|
-|-
+|---|---|---|---|
 |firingMoveFract|float|0.25|rotatespeed fraction when turret is shooting|
 |shootDuration|float|100|&#xa0;|
 
 Defaults:
 
 |field|default|
-|-
+|---|---|
 |canOverdrive|false|
 |coolantMultiplier|1|
 
@@ -1654,13 +1654,13 @@ Doesn't update shoot if:
 Extends [Block](#Block)
 
 |field|type|default|
-|-
+|---|---|---|
 |speed|float|0|
 
 Default:
 
 |field|default|
-|-
+|---|---|
 |rotate|true|
 |update|true|
 |layer|overlay|
@@ -1688,14 +1688,14 @@ Extends [Conveyor](#Conveyor)  -A type of conveyor don't accept item coming from
 Extends [Block](#Block)
 
 |field|type|default|notes|
-|-
+|---|---|---|---|
 |speed|float|26|frames taken to go through this junction|
 |capacity|capacity|6|&#xa0;|
 
 Defaults:
 
 |field|default|
-|-
+|---|---|
 |update|true|
 |solid|true|
 |instantTransfer|true|
@@ -1709,14 +1709,14 @@ Defaults:
 Extends [Block](#Block)
 
 |field|type|default|
-|-
+|---|---|---|
 |range|int|&#xa0;|
 |transportTime|float|2|
 
 Defaults:
 
 |field|default|
-|-
+|---|---|
 |update|true|
 |solid|true|
 |hasPower|true|
@@ -1744,7 +1744,7 @@ Extends [ItemBridge](#ItemBridge)
 Defaults:
 
 |field|default|
-|-
+|---|---|
 |hasItems|true|
 
 
@@ -1754,14 +1754,14 @@ Defaults:
 Extends [ExtendingItemBridge](#ExtendingItemBridge)
 
 |field|type|default|
-|-
+|---|---|---|
 |speed|float|40|
 |bufferCapacity|int|50|
 
 Defaults:
 
 |field|default|
-|-
+|---|---|
 |hasItems|true|
 |hasPower|false|
 
@@ -1772,13 +1772,13 @@ Defaults:
 Extends [Block](#Block)
 
 |field|type|default|notes|
-|-
+|---|---|---|---|
 |invert|boolean|&#xa0;|**[optional]**|
 
 Defaults:
 
 |field|default|
-|-
+|---|---|
 |update|true|
 |solid|true|
 |instantTransfer|true|
@@ -1793,13 +1793,13 @@ Defaults:
 Extends [Block](#Block)
 
 |field|type|default|
-|-
+|---|---|---|
 |speed|float|1|
 
 Defaults:
 
 |field|default|
-|-
+|---|---|
 |hasItems|true|
 |solid|true|
 |update|true|
@@ -1813,7 +1813,7 @@ Defaults:
 Extends [Block](#Block) &#x2013; Uses `driverBolt` to transfer items.
 
 |field|type|default|
-|-
+|---|---|---|
 |range|float|&#xa0;|
 |rotateSpeed|float|0.04|
 |translation|float|7|
@@ -1832,7 +1832,7 @@ Notes:
 Defaults:
 
 |field|default|
-|-
+|---|---|
 |update|true|
 |solid|true|
 |posConfig|true|
@@ -1859,7 +1859,7 @@ Extends [Block](#Block) &#x2013; For blocks that can carry liquids. Apart from t
 Defaults:
 
 |field|default|
-|-
+|---|---|
 |update|true|
 |solid|true|
 |hasLiquids|true|
@@ -1879,11 +1879,11 @@ Sprites:
 Extends [LiquidBlock](#LiquidBlock)
 
 |field|type|default|
-|-
+|---|---|---|
 |pumpAmount|float|1|
 
 |field|default|
-|-
+|---|---|
 |layer|overlay|
 |group|liquids|
 |floating|true|
@@ -1895,13 +1895,13 @@ Extends [LiquidBlock](#LiquidBlock)
 Extends [LiquidBlock](#LiquidBlock)
 
 |field|type|
-|-
+|---|---|
 |leakResistance|float|
 
 Defaults:
 
 |field|default|
-|-
+|---|---|
 |rotate|true|
 |solid|false|
 |floating|true|
@@ -1919,7 +1919,7 @@ Sprites:
 Defaults:
 
 |field|default|
-|-
+|---|---|
 |leakResistance|10|
 
 Sprites:
@@ -1935,7 +1935,7 @@ Sprites:
 Defaults:
 
 |field|default|
-|-
+|---|---|
 |rotate|true|
 
 Sprites:
@@ -1967,7 +1967,7 @@ Extends [LiquidBlock](#LiquidBlock)
 Extends [LiquidBridge](#LiquidBridge)
 
 |field|default|
-|-
+|---|---|
 |hasItems|false|
 |hasLiquids|true|
 |outputsLiquid|true|
@@ -1980,7 +1980,7 @@ Extends [LiquidBridge](#LiquidBridge)
 Extends [ExtendingItemBridge](#ExtendingItemBridge)
 
 |field|default|
-|-
+|---|---|
 |hasItems|false|
 |hasLiquids|true|
 |outputsLiquid|true|
@@ -1999,7 +1999,7 @@ Extends [ExtendingItemBridge](#ExtendingItemBridge)
 Defaults:
 
 |field|default|
-|-
+|---|---|
 |update|true|
 |solid|true|
 |hasPower|true|
@@ -2012,14 +2012,14 @@ Defaults:
 Extends [PowerBlock](#PowerBlock)
 
 |field|type|default|
-|-
+|---|---|---|
 |laserRange|float|6|
 |maxNodes|int|3|
 
 Defaults:
 
 |field|default|
-|-
+|---|---|
 |expanded|true|
 |layer|power|
 |configurable|true|
@@ -2035,7 +2035,7 @@ Extends [PowerBlock](#PowerBlock)
 Defaults:
 
 |field|default|
-|-
+|---|---|
 |consumesPower|false|
 |outputsPower|true|
 
@@ -2048,7 +2048,7 @@ Extends [PowerDistributor](#PowerDistributor) &#x2013; Just a change of defaults
 Defauts:
 
 |field|default|
-|-
+|---|---|
 |outputsPower|true|
 |consumesPower|true|
 
@@ -2061,13 +2061,13 @@ Extends [PowerDistributor](#PowerDistributor)
 Power generators will produce power with their [Consumers](#Consumers) type.
 
 |field|type|notes|
-|-
+|---|---|---|
 |powerProduction|float|Power produced per tick at 100% (`1.0`) efficiency; 1 `powerProduction` is approximately `60 pu/s`.|
 
 Defaults:
 
 |field|default|
-|-
+|---|---|
 |baseExplosiveness|5|
 |sync|true|
 
@@ -2078,7 +2078,7 @@ Defaults:
 Extends [PowerGenerator](#PowerGenerator) &#x2013; Generates power with the heat [attribute](#Attributes) of a tile. Power production is `powerProduction * heat`, and `heat` must be greater then `0.01`.
 
 |field|type|default|notes|
-|-
+|---|---|---|---|
 |generateEffect|[Effect](#Effect)|none|&#xa0;|
 
 
@@ -2095,7 +2095,7 @@ Notes:
 *(this type doesn't produce power)*
 
 |field|type|default|notes|
-|-
+|---|---|---|---|
 |minItemEfficiency|float|0.2|&#xa0;|
 |itemDuration|float|70|number of ticks during which a single item will produce power.|
 |minLiquidEfficiency|float|0.2|&#xa0;|
@@ -2132,7 +2132,7 @@ Extends [ItemLiquidGenerator](#ItemLiquidGenerator) &#x2013; Generates power fro
 Defaults:
 
 |field|default|
-|-
+|---|---|
 |hasItems|true|
 |hasLiquids|false|
 
@@ -2153,7 +2153,7 @@ Notes:
 Extends [PowerGenerator](#PowerGenerator) &#x2013; Generates power relative to how many items are in storage, and explodes if it runs out of coolant.
 
 |field|type|default|notes|
-|-
+|---|---|---|---|
 |lightColor|[Color](#Color)|7f19ea|**[new v99 (268)]**|
 |coolColor|[Color](#Color)|ffffff00|&#xa0;|
 |hotColor|[Color](#Color)|ff9575a3|&#xa0;|
@@ -2168,7 +2168,7 @@ Extends [PowerGenerator](#PowerGenerator) &#x2013; Generates power relative to h
 Defaults:
 
 |field|default|
-|-
+|---|---|
 |itemCapacity|30|
 |liquidCapacity|30|
 |hasItems|true|
@@ -2186,7 +2186,7 @@ Extra Sprites:
 Extends [PowerGenerator](#PowerGenerator) &#x2013; Generator that uses power and has a startup time.
 
 |field|type|default|notes|
-|-
+|---|---|---|---|
 |plasmas|int|4|number of plasma sprites|
 |warmupSpeed|float|0.001|&#xa0;|
 |itemDuration|float|60|&#xa0;|
@@ -2198,7 +2198,7 @@ Extends [PowerGenerator](#PowerGenerator) &#x2013; Generator that uses power and
 Defaults:
 
 |field|default|
-|-
+|---|---|
 |hasPower|true|
 |hasLiquids|true|
 |liquidCapacity|30|
@@ -2220,7 +2220,7 @@ Extends [Block](#Block)
 Defaults:
 
 |field|default|
-|-
+|---|---|
 |rotate|true|
 |update|true|
 |solid|true|
@@ -2237,14 +2237,14 @@ Sprites:
 **[new type v99 (268)]** &#x2013; Extends [Block](#Block)
 
 |field|type|default|
-|-
+|---|---|---|
 |brightness|float|0.9|
 |radius|float|200|
 
 Defaults:
 
 |field|default|
-|-
+|---|---|
 |hasPower|true|
 |update|true|
 |configurable|true|
@@ -2264,7 +2264,7 @@ Sprites:
 Extends [Block](#Block) &#x2013; Types which can be placed on ore blocks to extract the [OreBlock](#OreBlock)'s item.
 
 |field|type|default|notes|
-|-
+|---|---|---|---|
 |tier|int|&#xa0;|Maximum tier of blocks this drill can mine.|
 |drillTime|float|300|Base time to drill one ore, in frames.|
 |liquidBoostIntensity|float|1.6|How many times faster the drill will progress when boosted by liquid.|
@@ -2280,7 +2280,7 @@ Extends [Block](#Block) &#x2013; Types which can be placed on ore blocks to extr
 Defaults:
 
 |field|default|
-|-
+|---|---|
 |update|true|
 |solid|true|
 |layer|overlay|
@@ -2304,7 +2304,7 @@ Sprites:
 Extends [Pump](#Pump) &#x2013; Pump that makes liquid from solids and takes in power. Only works on solid floor blocks.
 
 |field|type|default|
-|-
+|---|---|---|
 |result|[Liquid](#Liquid)|water|
 |updateEffect|[Effect](#Effect)|none|
 |updateEffectChance|float|0.02|
@@ -2314,7 +2314,7 @@ Extends [Pump](#Pump) &#x2013; Pump that makes liquid from solids and takes in p
 Defaults:
 
 |field|default|
-|-
+|---|---|
 |hasPower|true|
 
 Sprites:
@@ -2328,13 +2328,13 @@ Sprites:
 Extends [GenericCrafter](#GenericCrafter)
 
 |field|type|default|
-|-
+|---|---|---|
 |recurrence|float|6|
 
 Defaults:
 
 |field|default|
-|-
+|---|---|
 |craftEffect|none|
 
 Sprites:
@@ -2349,13 +2349,13 @@ Sprites:
 Extends [SolidPump](#SolidPump)
 
 |field|default|
-|-
+|---|---|
 |itemUseTime|100|
 
 Defaults:
 
 |field|default|
-|-
+|---|---|
 |hasItems|true|
 
 Sprites:
@@ -2371,14 +2371,14 @@ Sprites:
 Extends [Block](#Block)
 
 |field|type|default|
-|-
+|---|---|---|
 |effect|[Effect](#Effect)|fuelburn|
 |flameColor|[Color](#Color)|ffad9d|
 
 Defaults:
 
 |field|default|
-|-
+|---|---|
 |hasPower|true|
 |hasLiquid|true|
 |update|true|
@@ -2395,7 +2395,7 @@ Defaults:
 Extends [Block](#Block) &#x2013; Block which can repair units within range, with a laser.
 
 |field|type|default|
-|-
+|---|---|---|
 |repairRadius|float|50|
 |repairSpeed|float|0.3|
 |powerUse|float|&#xa0;|
@@ -2403,7 +2403,7 @@ Extends [Block](#Block) &#x2013; Block which can repair units within range, with
 Defaults:
 
 |field|default|
-|-
+|---|---|
 |update|true|
 |solid|true|
 |hasPower|true|
@@ -2422,7 +2422,7 @@ Extra sprites:
 Extends [block](#Block) &#x2013; A block can produce units
 
 |field|type|default|
-|-
+|---|---|---|
 |produceTime|float|1000|
 |launchVelocity|float|0|
 |maxSpawn|int|4|
@@ -2431,7 +2431,7 @@ Extends [block](#Block) &#x2013; A block can produce units
 Defaults:
 
 |field|default|
-|-
+|---|---|
 |update|true|
 |hasPower|true|
 |hasItems|true|
@@ -2449,7 +2449,7 @@ Sprite suffix:
 Extends [Block](#Block) &#x2013; A block which can issue commands to your unit.
 
 |field|type|default|
-|-
+|---|---|---|
 |topColor|[Color](#Color)|command|
 |bottomColor|[Color](#Color)|5e5e5e|
 |effect|[Effect](#Effect)|commandSend|
@@ -2457,7 +2457,7 @@ Extends [Block](#Block) &#x2013; A block which can issue commands to your unit.
 Defaults:
 
 |field|default|
-|-
+|---|---|
 |flags|comandCenter|
 |destructible|true|
 |solid|true|
@@ -2470,14 +2470,14 @@ Defaults:
 Extends [Block](#Block) &#x2013; A block which will spawn a player in a mech.
 
 |field|type|default|
-|-
+|---|---|---|
 |mech|[Mech](#Mech)|none|
 |buildTime|float|60 \* 5|
 
 Defaults:
 
 |field|default|
-|-
+|---|---|
 |update|true|
 |solid|true|
 |hasPower|true|
@@ -2497,7 +2497,7 @@ Defaults:
 Defaults:
 
 |field|default|
-|-
+|---|---|
 |hasItems|true|
 
 
@@ -2507,13 +2507,13 @@ Defaults:
 Extends [StorageBlock](#StorageBlock)
 
 |field|type|default|
-|-
+|---|---|---|
 |mech|Mech|starter|
 
 Defaults:
 
 |field|default|
-|-
+|---|---|
 |solid|true|
 |update|true|
 |hasItems|true|
@@ -2530,7 +2530,7 @@ Extends [StorageBlock](#StorageBlock)
 Defaults:
 
 |field|default|
-|-
+|---|---|
 |solid|true|
 |destructible|true|
 |update|false|
@@ -2544,13 +2544,13 @@ Extends [Block](#Block)
 A block which can take items from [StorageBlock](#StorageBlock), like [Vault](#Vault), [CoreBlock](#CoreBlock) or [Crafters](#Crafting).
 
 |field|type|default|
-|-
+|---|---|---|
 |speed|float|1|
 
 Defaults:
 
 |field|default|
-|-
+|---|---|
 |solid|true|
 |health|70|
 |update|false|
@@ -2570,13 +2570,13 @@ Extends [StroageBlock](#StorageBlock)
 A block which can launch materials.
 
 |field|type|default|
-|-
+|---|---|---|
 |launchTime|float|none|
 
 Defaults:
 
 |field|default|
-|-
+|---|---|
 |update|true|
 |hasItems|true|
 |solid|true|
@@ -2657,7 +2657,7 @@ Groups for blocks to build on top of each other:
 Extends [Content](#Content) &#x2013; It's the object that can ride conveyors, sorters and be stored in containers, and is commonly used in crafters.
 
 |field|type|default|notes|
-|-
+|---|---|---|---|
 |color|[Color](#Color)|black|hex string of color|
 |type|[ItemType](#ItemType)|resource|used for tabs and core acceptance|
 |explosiveness|float|0|how explosive this item is.|
@@ -2690,7 +2690,7 @@ As an `object`:
     amount: 5
 
 |field|type|notes|
-|-
+|---|---|---|
 |item|string|The name of an [Item](#Item).|
 |amount|int|The amount of said item.|
 
@@ -2703,7 +2703,7 @@ Extends [Content](#Content)
 Type which defines the properties of a liquid. Like [Item](#Item) this will go into it's own subdirectory `content/liquids/liquid-name.json`, and from it's stem name you can reuse it from your other mod content.
 
 |field|type|default|notes|
-|-
+|---|---|---|---|
 |color|[Color](#Color)|&#xa0;|**[required]** color of liquid|
 |barColor|[Color](#Color)|&#xa0;|*[optional]* color used in bars.|
 |lightColor|[Color](#Color)|&#xa0;|Color used to draw lights. Note that the alpha channel is used to dictate brightness.|
@@ -2734,7 +2734,7 @@ As an `object`:
     amount: 0.5
 
 |field|type|notes|
-|-
+|---|---|---|
 |liquid|string|The name of a [Liquid](#Liquid).|
 |amount|float|The amount of said liquid.|
 
@@ -2745,7 +2745,7 @@ As an `object`:
 Weapons are used by units and mechs alike. A weapon is a type used to shoot bullets [bullets](#BulletType) just like turrets *(except that they don't have an `ammo` mapping)*. Weapons can only shoot one type of bullet, which you define in the `bullet` field.
 
 |field|type|default|notes|
-|-
+|---|---|---|---|
 |name|String|&#xa0;|used to fetch the sprite of the weapon|
 |nimPlayerDist|float|20|minimum cursor distance from player, fixes 'cross-eyed' shooting.|
 |sequenceNum|int|0|&#xa0;|
@@ -2777,7 +2777,7 @@ Sprite:
 Extends [Content](#Content)
 
 |field|type|default|
-|-
+|---|---|---|
 |type|[BaseUnit](#BaseUnit)|&#xa0;|
 |health|float|60|
 |hitsize|float|7|
@@ -2818,7 +2818,7 @@ Extends [Content](#Content)
 Mechs are the player controlled entities. They shoot [bullets](#BulletType) just like turrets from their [weapon](#Weapon).
 
 |field|type|default|
-|-
+|---|---|---|
 |flying|boolean|&#xa0;|
 |speed|float|1.1|
 |maxSpeed|float|10|
@@ -2879,7 +2879,7 @@ Every `Zone` has a `Generator`, which once initialized, `MapGenerator` will run 
 It is entirely possible to produce a custom schematic, but take note that this schematic must contain a `CoreBlock` within it.
 
 |field|type|default|notes|
-|-
+|---|---|---|---|
 |baseLaunchCost|[ [ItemStack](#ItemStack) ]|&#xa0;|&#xa0;|
 |launchCost|[ [ItemStack](#ItemStack) ]|&#xa0;|&#xa0;|
 |startingItems|[ [ItemStack](#ItemStack) ]|&#xa0;|Items you start with on the map.|
@@ -2942,7 +2942,7 @@ Built-in zones:
 *Not be be confused with [Effect](#Effect)*, a status effect will give an entity special properties. It is currently **not possible to add custom status effects**. &#x2013; Status effects are used as transitions between intermediate effects. If some a `wet` unit gets `shocked` it then gets 20 damage.
 
 |field|type|default|&#xa0;|
-|-
+|---|---|---|---|
 |damageMultiplier|float|1|&#xa0;|
 |armorMultiplier|float|1|&#xa0;|
 |speedMultiplier|float|1|&#xa0;|
@@ -2962,7 +2962,7 @@ Built-in status effects:
     
     
 |    field|    value|
-|-
+|---|---|
     
 |    damage|    0.06|
     
@@ -2978,7 +2978,7 @@ Built-in status effects:
     
     
 |    field|    value|
-|-
+|---|---|
     
 |    speedMultiplier|    0.6|
     
@@ -2996,7 +2996,7 @@ Built-in status effects:
     
     
 |    field|    value|
-|-
+|---|---|
     
 |    speedMultiplier|    0.9|
     
@@ -3012,7 +3012,7 @@ Built-in status effects:
     
     
 |    field|    value|
-|-
+|---|---|
     
 |    speedMultiplier|    0.8|
     
@@ -3034,7 +3034,7 @@ Built-in status effects:
     
     
 |    field|    value|
-|-
+|---|---|
     
 |    speedMultiplier|    0.6|
     
@@ -3050,7 +3050,7 @@ Built-in status effects:
     
     
 |    field|    value|
-|-
+|---|---|
     
 |    armorMultiplier|    0.95|
     
@@ -3072,7 +3072,7 @@ Built-in status effects:
     
     
 |    field|    value|
-|-
+|---|---|
     
 |    armorMultiplier|    3|
 
@@ -3082,7 +3082,7 @@ Built-in status effects:
     
     
 |    field|    value|
-|-
+|---|---|
     
 |    armorMultiplier|    3|
     
@@ -3100,7 +3100,7 @@ Built-in status effects:
     
     
 |    field|    value|
-|-
+|---|---|
     
 |    damage|    0.1|
 
@@ -3193,7 +3193,7 @@ Here's an example of a custom bullet:
 ![img](images/green-cyan-oil-slag-missiles.png)
 
 |field|type|default|notes|
-|-
+|---|---|---|---|
 |lifetime|float|&#xa0;|amount of ticks it will lasts|
 |speed|float|&#xa0;|inital speed of bullet|
 |damage|float|&#xa0;|collision damage|
@@ -3250,7 +3250,7 @@ This types purpose is to give basic bullets their sprites. The `bulletSprite` wi
 ![img](images/router-bullets.png)
 
 |field|type|default|&#xa0;|
-|-
+|---|---|---|---|
 |bulletWidth|float|5|&#xa0;|
 |bulletHeight|float|7|&#xa0;|
 |bulletShrink|float|0.5|&#xa0;|
@@ -3281,13 +3281,13 @@ Extends [BasicBulletType](#BasicBulletType)
 Makes special calculations to give the effect that the bullet is going up and back down.
 
 |field|type|default|
-|-
+|---|---|---|
 |trailEffect|[Effect](#Effect)|artilleryTrail|
 
 Defaults:
 
 |field|default|
-|-
+|---|---|
 |collidesTiles|false|
 |collides|false|
 |collidesAir|false|
@@ -3302,13 +3302,13 @@ Defaults:
 Extends [BasicBulletType](#BasicBulletType)
 
 |field|type|default|notes|
-|-
+|---|---|---|---|
 |explodeRange|float|30|The range at which the bullets explode from enemies.|
 
 Defaults:
 
 |field|type|
-|-
+|---|---|
 |splashDamage|15|
 |splashDamageRadius|34|
 |hitEffect|flakExplosionBig|
@@ -3326,7 +3326,7 @@ Weave is simple a sin wave with the following equation.
     rotation = sin(time/scale) * magnitude
 
 |field|type|default|notes|
-|-
+|---|---|---|---|
 |trailColor|[Color](#Color)|missileYellowBack|Color of the trail effect.|
 |weaveScale|float|0|A larger `weaveScale` means a longer wave.|
 |weaveMag|float|-1|A higher `weaveMag` means a higher (wider) wave.|
@@ -3334,7 +3334,7 @@ Weave is simple a sin wave with the following equation.
 Defaults:
 
 |field|default|
-|-
+|---|---|
 |bulletSprite|missile|
 
 
@@ -3346,7 +3346,7 @@ Extends [BasicBulletType](#BasicBulletType)
 Defaults:
 
 |field|default|
-|-
+|---|---|
 |collidesTiles|false|
 |collides|false|
 |bulletShrink|0.7|
@@ -3363,13 +3363,13 @@ Defaults:
 Extends [BulletType](#BulletType) &#x2013; Bullets that can heal blocks of the same team as the shooter.
 
 |field|type|default|
-|-
+|---|---|---|
 |healPercent|float|3|
 
 Defaults:
 
 |field|default|
-|-
+|---|---|
 |shootEffect|shootHeal|
 |smokeEffect|hitLaser|
 |hitEffect|hitLaser|
@@ -3383,13 +3383,13 @@ Defaults:
 Extends [BulletType](#BulletType)
 
 |field|type|default|notes|
-|-
+|---|---|---|---|
 |liquid|String|null|**[required]** name of [Liquid](#Liquid)|
 
 Defaults:
 
 |field|default|
-|-
+|---|---|
 |lifetime|74|
 |statusDuration|90|
 |despawnEffect|none|
@@ -3408,7 +3408,7 @@ Extends [BulletType](#BulletType)
 Defaults:
 
 |field|default|
-|-
+|---|---|
 |collidesTiles|false|
 |lifetime|200|
 |despawnEffect|smeltsmoke|
@@ -3497,7 +3497,7 @@ Types which implement Objective are as follows:
     
     
 |    field|    type|    notes|
-|-
+|---|---|---|
     
 |    zone|    String|    target [Zone](#Zone) name|
     
@@ -3511,7 +3511,7 @@ Types which implement Objective are as follows:
     
     
 |    field|    type|    notes|
-|-
+|---|---|---|
     
 |    zone|    String|    target [Zone](#Zone) name|
 
@@ -3522,7 +3522,7 @@ Types which implement Objective are as follows:
     
     
 |    field|    type|    notes|
-|-
+|---|---|---|
     
 |    block|    String|    target [Block](#Block) name|
 
