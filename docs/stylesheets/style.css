@@ -43,10 +43,17 @@ img#zone {
 }
 
 .wy-menu-vertical .subnav a {
-    display: flex;
-    align-items: center;
+  padding-right:4px;
+  display: flex;
+  align-items: center;
 }
 
 .wy-menu-vertical .subnav a img {
-    margin-right: 5px;
+  order:-1;
+}
+
+.wy-menu-vertical .subnav a::before {
+  content: " ";
+  flex-basis: 5px;
+  order: 0;
 }
