@@ -713,9 +713,9 @@ For example:
 -   `ticks` *sometimes called `frames`,* are assumed to be 60/1 second;
 -   `tilesize` is 8 units internally;
 -   to calculate range out of `lifetime` and `speed` you can do `lifetime * speed = range`;
--   <a id="orgb8dc6f3"></a> what is `abstract`? all you need to know about abstract types, is this is a Java specific term, which means you cannot instantiate/initialize this specific type by itself. If you do so you'll probably get an *"initialization exception"* of some kind;
+-   <a id="orgdb78fe9"></a> what is `abstract`? all you need to know about abstract types, is this is a Java specific term, which means you cannot instantiate/initialize this specific type by itself. If you do so you'll probably get an *"initialization exception"* of some kind;
 -   what is a `NullPointerException`? This is an error message that indicates a field is null and shouldn't be null, meaning one of the required fields may be missing;
--   <a id="org2a6d2a0"></a> what is `bleeding-edge`? This is the developer version of Mindustry, specifically it's refering to the Github master branch. Changes on bleeding-edge usually make it into Mindustry in the next release.
+-   <a id="orgcafc2a6"></a> what is `bleeding-edge`? This is the developer version of Mindustry, specifically it's refering to the Github master branch. Changes on bleeding-edge usually make it into Mindustry in the next release.
 
 
 <a id="Change%20Log"></a>
@@ -1276,7 +1276,7 @@ For example with [ConsumeItems](#ConsumeItems) and [ConsumeLiquid](#ConsumeLiqui
 
 ## Consume
 
-[Abstract](#orgb8dc6f3) type which defines a type of resource that a block can consume.
+[Abstract](#orgdb78fe9) type which defines a type of resource that a block can consume.
 
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
@@ -1468,7 +1468,7 @@ Type to consume or buffer power.
 
 ## BlockStorage
 
-[Abstract](#orgb8dc6f3) type that extends [Content](#Content)
+[Abstract](#orgdb78fe9) type that extends [Content](#Content)
 
 Type for blocks which may store a buffer of items or liquid.
 
@@ -3240,12 +3240,12 @@ Defaults:
 
 <tr>
 <td class="org-left">consumes</td>
-<td class="org-left">[cold-liquid](#org40d3d1d)</td>
+<td class="org-left">[cold-liquid](#org0403084)</td>
 </tr>
 </tbody>
 </table>
 
-<a id="org40d3d1d"></a>[cold-liquid](#org40d3d1d):
+<a id="org0403084"></a>[cold-liquid](#org0403084):
 
 -   temperature less then 0.5
 -   flammability less then 0.1
@@ -3380,7 +3380,7 @@ This section is for turret types. All turrets shoot [BulletType](#BulletType), a
 
 ### Turret
 
-[Abstract](#orgb8dc6f3) type which extends [Block](#Block)
+[Abstract](#orgdb78fe9) type which extends [Block](#Block)
 
 The purpose of a turret type is to be a `Block` that shoots bullets. `Turret` is the base type for all turrets, it's *abstract* meaning it shouldn't be used directly, but everything which extends it will get it's fields.
 
@@ -5410,7 +5410,7 @@ Extends [ExtendingItemBridge](#ExtendingItemBridge)
 
 ### PowerBlock
 
-[Abstract](#orgb8dc6f3) type which extends [Block](#Block)
+[Abstract](#orgdb78fe9) type which extends [Block](#Block)
 
 Defaults:
 
@@ -7256,7 +7256,7 @@ Defaults:
 
 ### StorageBlock
 
-[Abstract](#orgb8dc6f3) type which extends [Block](#Block)
+[Abstract](#orgdb78fe9) type which extends [Block](#Block)
 
 Defaults:
 
@@ -9193,7 +9193,7 @@ Flags used by for cache render:
 
 ## BulletType
 
-[Abstract](#orgb8dc6f3) type which extends [Content](#Content)
+[Abstract](#orgdb78fe9) type which extends [Content](#Content)
 
 BulletType can either be an object `{}` or a `"string"`, where a string would be reusing [Built-in Bullets](#Built-in%20Bullets) and an object would be making a custom one.
 
@@ -9856,9 +9856,7 @@ Extends [BasicBulletType](#BasicBulletType)
 
 Weave is simple a sin wave with the following equation.
 
-\begin{equation}
-r = \sin(\frac{t}{s}) \cdot m
-\end{equation}
+    rotation = sin(time/scale) * magnitude
 
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
