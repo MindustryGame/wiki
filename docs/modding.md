@@ -2958,151 +2958,87 @@ Built-in status effects:
 
 -   `burning`
     
-    
-    
-    
-|    field|    value|
-|---|---|
-    
-|    damage|    0.06|
-    
-    
-|    effect|    burning|
+    |field|value|
+    |---|---|
+    |damage|0.06|
+    |effect|burning|
     
     -   opposites: `wet` `freezing`
     -   tarred: 1 damage and keeps burning
 
 -   `freezing`
     
-    
-    
-    
-|    field|    value|
-|---|---|
-    
-|    speedMultiplier|    0.6|
-    
-    
-|    armorMultiplier|    0.8|
-    
-    
-|    effect|    freezing|
+    |field|value|
+    |---|---|
+    |speedMultiplier|0.6|
+    |armorMultiplier|0.8|
+    |effect|freezing|
     
     -   opposites: `melting` `burning`
 
 -   `wet`
     
-    
-    
-    
-|    field|    value|
-|---|---|
-    
-|    speedMultiplier|    0.9|
-    
-    
-|    effect|    wet|
+    |field|value|
+    |---|---|
+    |speedMultiplier|0.9|
+    |effect|wet|
     
     -   opposites: `burning`
     -   shocked: 20 damage
 
 -   `melting`
     
-    
-    
-    
-|    field|    value|
-|---|---|
-    
-|    speedMultiplier|    0.8|
-    
-    
-|    armorMultiplier|    0.8|
-    
-    
-|    damage|    0.3|
-    
-    
-|    effect|    melting|
+    |field|value|
+    |---|---|
+    |speedMultiplier|0.8|
+    |armorMultiplier|0.8|
+    |damage|0.3|
+    |effect|melting|
     
     -   opposites: `wet` `freezing`
     -   tarred: keeps melting
 
 -   `tarred`
     
-    
-    
-    
-|    field|    value|
-|---|---|
-    
-|    speedMultiplier|    0.6|
-    
-    
-|    effect|    oily|
+    |field|value|
+    |---|---|
+    |speedMultiplier|0.6|
+    |effect|oily|
     
     -   burning: keeps burning
     -   melting: keeps burning
 
 -   `overdrive`
     
-    
-    
-    
-|    field|    value|
-|---|---|
-    
-|    armorMultiplier|    0.95|
-    
-    
-|    speedMultiplier|    1.15|
-    
-    
-|    damageMultiplier|    1.4|
-    
-    
-|    damage|    -0.01|
-    
-    
-|    effect|    overdriven|
+    |field|value|
+    |---|---|
+    |armorMultiplier|0.95|
+    |speedMultiplier|1.15|
+    |damageMultiplier|1.4|
+    |damage|-0.01|
+    |effect|overdriven|
 
 -   `shielded`
     
-    
-    
-    
-|    field|    value|
-|---|---|
-    
-|    armorMultiplier|    3|
+    |field|value|
+    |---|---|
+    |armorMultiplier|3|
 
 -   `boss`
     
-    
-    
-    
-|    field|    value|
-|---|---|
-    
-|    armorMultiplier|    3|
-    
-    
-|    damageMultiplier|    3|
-    
-    
-|    speedMultiplier|    1.1|
+    |field|value|
+    |---|---|
+    |armorMultiplier|3|
+    |damageMultiplier|3|
+    |speedMultiplier|1.1|
 
 -   `shocked` &#x2013; Does nothing.
 
 -   `corroded`
     
-    
-    
-    
-|    field|    value|
-|---|---|
-    
-|    damage|    0.1|
+    |field|value|
+    |---|---|
+    |damage|0.1|
 
 
 
@@ -3492,39 +3428,22 @@ Types which implement Objective are as follows:
 
 -   `ZoneWave` &#x2013; complete if best wave within `zone` is heigher then target `wave`
     
-    
-    
-    
-    
-|    field|    type|    notes|
-|---|---|---|
-    
-|    zone|    String|    target [Zone](#Zone) name|
-    
-    
-|    wave|    int|    target wave to reach|
+    |field|type|notes|
+    |---|---|---|
+    |zone|String|target [Zone](#Zone) name|
+    |wave|int|target wave to reach|
 
 -   `Launched` &#x2013; complete if core launched from `zone`
     
-    
-    
-    
-    
-|    field|    type|    notes|
-|---|---|---|
-    
-|    zone|    String|    target [Zone](#Zone) name|
+    |field|type|notes|
+    |---|---|---|
+    |zone|String|target [Zone](#Zone) name|
 
 -   `Unlock` &#x2013; complete if `block` is unlocked
     
-    
-    
-    
-    
-|    field|    type|    notes|
-|---|---|---|
-    
-|    block|    String|    target [Block](#Block) name|
+    |field|type|notes|
+    |---|---|---|
+    |block|String|target [Block](#Block) name|
 
 
 
