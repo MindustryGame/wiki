@@ -713,9 +713,9 @@ For example:
 -   `ticks` *sometimes called `frames`,* are assumed to be 60/1 second;
 -   `tilesize` is 8 units internally;
 -   to calculate range out of `lifetime` and `speed` you can do `lifetime * speed = range`;
--   <a id="orgdb78fe9"></a> what is `abstract`? all you need to know about abstract types, is this is a Java specific term, which means you cannot instantiate/initialize this specific type by itself. If you do so you'll probably get an *"initialization exception"* of some kind;
+-   <a id="org4b8a73e"></a> what is `abstract`? all you need to know about abstract types, is this is a Java specific term, which means you cannot instantiate/initialize this specific type by itself. If you do so you'll probably get an *"initialization exception"* of some kind;
 -   what is a `NullPointerException`? This is an error message that indicates a field is null and shouldn't be null, meaning one of the required fields may be missing;
--   <a id="orgcafc2a6"></a> what is `bleeding-edge`? This is the developer version of Mindustry, specifically it's refering to the Github master branch. Changes on bleeding-edge usually make it into Mindustry in the next release.
+-   <a id="orgb8ac4f8"></a> what is `bleeding-edge`? This is the developer version of Mindustry, specifically it's refering to the Github master branch. Changes on bleeding-edge usually make it into Mindustry in the next release.
 
 
 <a id="Change%20Log"></a>
@@ -1276,7 +1276,7 @@ For example with [ConsumeItems](#ConsumeItems) and [ConsumeLiquid](#ConsumeLiqui
 
 ## Consume
 
-[Abstract](#orgdb78fe9) type which defines a type of resource that a block can consume.
+[Abstract](#org4b8a73e) type which defines a type of resource that a block can consume.
 
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
@@ -1468,7 +1468,7 @@ Type to consume or buffer power.
 
 ## BlockStorage
 
-[Abstract](#orgdb78fe9) type that extends [Content](#Content)
+[Abstract](#org4b8a73e) type that extends [Content](#Content)
 
 Type for blocks which may store a buffer of items or liquid.
 
@@ -3240,12 +3240,12 @@ Defaults:
 
 <tr>
 <td class="org-left">consumes</td>
-<td class="org-left">[cold-liquid](#org0403084)</td>
+<td class="org-left">[cold-liquid](#org82f4eca)</td>
 </tr>
 </tbody>
 </table>
 
-<a id="org0403084"></a>[cold-liquid](#org0403084):
+<a id="org82f4eca"></a>[cold-liquid](#org82f4eca):
 
 -   temperature less then 0.5
 -   flammability less then 0.1
@@ -3380,7 +3380,7 @@ This section is for turret types. All turrets shoot [BulletType](#BulletType), a
 
 ### Turret
 
-[Abstract](#orgdb78fe9) type which extends [Block](#Block)
+[Abstract](#org4b8a73e) type which extends [Block](#Block)
 
 The purpose of a turret type is to be a `Block` that shoots bullets. `Turret` is the base type for all turrets, it's *abstract* meaning it shouldn't be used directly, but everything which extends it will get it's fields.
 
@@ -5410,7 +5410,7 @@ Extends [ExtendingItemBridge](#ExtendingItemBridge)
 
 ### PowerBlock
 
-[Abstract](#orgdb78fe9) type which extends [Block](#Block)
+[Abstract](#org4b8a73e) type which extends [Block](#Block)
 
 Defaults:
 
@@ -7256,7 +7256,7 @@ Defaults:
 
 ### StorageBlock
 
-[Abstract](#orgdb78fe9) type which extends [Block](#Block)
+[Abstract](#org4b8a73e) type which extends [Block](#Block)
 
 Defaults:
 
@@ -8698,25 +8698,25 @@ Built-in loadouts:
     
         bXNjaAB4nD2K2wqAIBiD5ymibnoRn6YnEP1BwUMoBL19FuJ2sbFvUFgYZDaJsLeQrkinN9UJHImsNzlYE7WrIUastuSbnlKx2VJJt+8IQGGKdfO/8J5yrGJSMegLg+YUIA==
     
-    ![img](img/basicShard.png)
+    ![img](images/basicShard.png)
 
 -   advancedShard
     
         bXNjaAB4nD2LjQqAIAyET7OMIOhFfJqeYMxBgSkYCL199gu33fFtB4tOwUTaBCP5QpHFzwtl32DahBeKK1NwPq8hoOcUixwpY+CUxe3XIwBbB/pa6tadVCUP02hgHvp5vZq/0b7pBHPYFOQ=
     
-    ![img](img/advancedShard.png)
+    ![img](images/advancedShard.png)
 
 -   basicFoundation
     
         bXNjaAB4nD1OSQ6DMBBzFhVu8BG+0X8MQyoiJTNSukj8nlCi2Adbtg/GA4OBF8oB00rvyE/9ykafqOIw58A7SWRKy1ZiShhZ5RcOLZhYS1hefQ1gRIeptH9jq/qW2lvc1d2tgWsOfVX/tOwE86AYBA==
     
-    ![img](img/basicFoundation.png)
+    ![img](images/basicFoundation.png)
 
 -   basicNucleus
     
         bXNjaAB4nD2MUQqAIBBEJy0s6qOLdJXuYNtCgikYBd2+LNmdj308hkGHtkId7M4YFns4mk/yfB4a48602eDI+mlNznu0FMPFd0wYKCaewl8F0EOueqM+yKSLVfJrNKWnSw/FZGzEGXFG9sy/px4gEBW1
     
-    ![img](img/basicNucleus.png)
+    ![img](images/basicNucleus.png)
 
 Built-in zones:
 
@@ -9193,7 +9193,7 @@ Flags used by for cache render:
 
 ## BulletType
 
-[Abstract](#orgdb78fe9) type which extends [Content](#Content)
+[Abstract](#org4b8a73e) type which extends [Content](#Content)
 
 BulletType can either be an object `{}` or a `"string"`, where a string would be reusing [Built-in Bullets](#Built-in%20Bullets) and an object would be making a custom one.
 
@@ -9231,7 +9231,7 @@ Here's an example of a custom bullet:
         }
     }
 
-![img](img/green-cyan-oil-slag-missiles.png)
+![img](images/green-cyan-oil-slag-missiles.png)
 
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
@@ -9582,7 +9582,7 @@ This types purpose is to give basic bullets their sprites. The `bulletSprite` wi
         "bulletSprite": "test-mod-router"
     }
 
-![img](img/router-bullets.png)
+![img](images/router-bullets.png)
 
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
