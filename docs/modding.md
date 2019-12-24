@@ -1,179 +1,5 @@
 
-# Table of Contents
-
-1.  [Overview](#Overview)
-    1.  [Directory Structure](#Directory%20Structure)
-    2.  [Hjson](#Hjson)
-    3.  [`mod.json`](#~mod.json~)
-    4.  [Content](#Content)
-    5.  [Types](#Types)
-    6.  [Tech Tree](#Tech%20Tree)
-    7.  [Sprites](#Sprites)
-    8.  [Sound](#Sound)
-    9.  [Dependencies](#Dependencies)
-    10. [Bundles](#Bundles)
-    11. [Markup](#Markup)
-        -   [Built-in Colors](#Built-in%20Colors)
-    12. [Schematic](#Schematic)
-    13. [Scripts](#Scripts)
-    14. [FAQ](#FAQ)
-    15. [Change Log](#Change%20Log)
-        -   [Dec 09](#74dc31b10a82763d4f1ff29d32ae430ee87b9def)
-        -   [Dec 08](#268f3cc3c)
-        -   [Dec 04](#a087df077)
-        -   [Nov 26](#a5fbc0756)
-        -   [Nov 22](#2d4270406)
-        -   [Nov 22](#2c61fcdfa)
-        -   [Nov 20](#968f3ace3)
-2.  [World](#World)
-    1.  [Block](#Block)
-    2.  [Consumers](#Consumers)
-    3.  [Consume](#Consume)
-        -   [ConsumeItems](#ConsumeItems)
-        -   [ConsumeLiquid](#ConsumeLiquid)
-        -   [ConsumePower](#ConsumePower)
-    4.  [BlockStorage](#BlockStorage)
-    5.  [Environment](#Environment)
-        -   [Floor](#Floor)
-        -   [OverlayFloor](#OverlayFloor)
-        -   [DoubleOverlayFloor](#DoubleOverlayFloor)
-        -   [OreBlock](#OreBlock)
-        -   [Rock](#Rock)
-        -   [StaticWall](#StaticWall)
-        -   [StaticTree](#StaticTree)
-        -   [TreeBlock](#TreeBlock)
-    6.  [Crafting](#Crafting)
-        -   [GenericCrafter](#GenericCrafter)
-        -   [GenericSmelter](#GenericSmelter)
-        -   [Separator](#Separator)
-    7.  [Sandbox](#Sandbox)
-        -   [PowerVoid](#PowerVoid)
-        -   [PowerSource](#PowerSource)
-        -   [ItemSource](#ItemSource)
-        -   [ItemVoid](#ItemVoid)
-        -   [LiquidSource](#LiquidSource)
-    8.  [Logic](#Logic)
-        -   [MessageBlock](#MessageBlock)
-    9.  [Defense](#Defense)
-        -   [Wall](#Wall)
-        -   [DeflectorWall](#DeflectorWall)
-        -   [SurgeWall](#SurgeWall)
-        -   [Door](#Door)
-        -   [MendProjector](#MendProjector)
-        -   [OverdriveProjector](#OverdriveProjector)
-        -   [ForceProjector](#ForceProjector)
-            -   [cold-liquid](#cold-liquid)
-        -   [ShockMine](#ShockMine)
-    10. [Turrets](#Turrets)
-        -   [Turret](#Turret)
-        -   [CooledTurret](#CooledTurret)
-        -   [ItemTurret](#ItemTurret)
-        -   [LiquidTurret](#LiquidTurret)
-        -   [DoubleTurret](#DoubleTurret)
-        -   [ArtilleryTurret](#ArtilleryTurret)
-        -   [BurstTurret](#BurstTurret)
-        -   [PowerTurret](#PowerTurret)
-        -   [ChargeTurret](#ChargeTurret)
-        -   [LaserTurret](#LaserTurret)
-    11. [Distribution](#Distribution)
-        -   [Conveyor](#Conveyor)
-        -   [ArmoredConveyor](#ArmoredConveyor)
-        -   [Junction](#Junction)
-        -   [ItemBridge](#ItemBridge)
-        -   [ExtendingItemBridge](#ExtendingItemBridge)
-        -   [BufferedItemBridge](#BufferedItemBridge)
-        -   [Sorter](#Sorter)
-        -   [OverflowGate](#OverflowGate)
-        -   [MassDriver](#MassDriver)
-    12. [Liquid Blocks](#Liquid%20Blocks)
-        -   [LiquidBlock](#LiquidBlock)
-        -   [Pump](#Pump)
-        -   [Conduit](#Conduit)
-        -   [ArmoredConduit](#ArmoredConduit)
-        -   [LiquidOverflowGate](#LiquidOverflowGate)
-        -   [LiquidRouter](#LiquidRouter)
-        -   [LiquidTank](#LiquidTank)
-        -   [LiquidJunction](#LiquidJunction)
-        -   [LiquidBridge](#LiquidBridge)
-        -   [LiquidExtendingBridge](#LiquidExtendingBridge)
-    13. [Power](#Power)
-        -   [PowerBlock](#PowerBlock)
-        -   [PowerNode](#PowerNode)
-        -   [PowerDistributor](#PowerDistributor)
-        -   [Battery](#Battery)
-        -   [PowerGenerator](#PowerGenerator)
-            -   [ThermalGenerator](#ThermalGenerator)
-            -   [ItemLiquidGenerator](#ItemLiquidGenerator)
-            -   [SingleTypeGenerator](#SingleTypeGenerator)
-            -   [BurnerGenerator](#BurnerGenerator)
-            -   [DecayGenerator](#DecayGenerator)
-            -   [SolarGenerator](#SolarGenerator)
-            -   [NuclearReactor](#NuclearReactor)
-            -   [ImpactReactor](#ImpactReactor)
-        -   [PowerDiode](#PowerDiode)
-        -   [LightBlock](#LightBlock)
-    14. [Production](#Production)
-        -   [Drill](#Drill)
-        -   [SolidPump](#SolidPump)
-        -   [Cultivator](#Cultivator)
-        -   [Fracker](#Fracker)
-        -   [Incinerator](#Incinerator)
-    15. [Unit Blocks](#Unit%20Blocks)
-        -   [RepairPoint](#RepairPoint)
-        -   [UnitFactory](#UnitFactory)
-        -   [CommandCenter](#CommandCenter)
-        -   [MechPad](#MechPad)
-    16. [Storage](#Storage)
-        -   [StorageBlock](#StorageBlock)
-        -   [CoreBlock](#CoreBlock)
-        -   [Vault](#Vault)
-        -   [Unloader](#Unloader)
-        -   [LaunchPad](#LaunchPad)
-    17. [Attributes](#Attributes)
-    18. [Attribute](#Attribute)
-    19. [BuildVisibility](#BuildVisibility)
-    20. [BlockGroup](#BlockGroup)
-3.  [Type](#Type)
-    1.  [Item](#Item)
-        -   [ItemType](#ItemType)
-    2.  [ItemStack](#ItemStack)
-    3.  [Liquid](#Liquid)
-    4.  [LiquidStack](#LiquidStack)
-    5.  [Weapon](#Weapon)
-    6.  [UnitType](#UnitType)
-    7.  [Mech](#Mech)
-    8.  [Category](#Category)
-    9.  [Zone](#Zone)
-    10. [StatusEffect](#StatusEffect)
-4.  [Graphics](#Graphics)
-    1.  [Layer](#Layer)
-    2.  [Color](#Color)
-    3.  [CacheLayer](#CacheLayer)
-5.  [Entities](#Entities)
-    1.  [BulletType](#BulletType)
-        -   [BasicBulletType](#BasicBulletType)
-            -   [ArtilleryBulletType](#ArtilleryBulletType)
-            -   [FlakBulletType](#FlakBulletType)
-            -   [MissileBulletType](#MissileBulletType)
-            -   [BombBulletType](#BombBulletType)
-        -   [HealBulletType](#HealBulletType)
-        -   [LiquidBulletType](#LiquidBulletType)
-        -   [MassDriverBolt](#MassDriverBolt)
-        -   [Built-in Bullets](#Built-in%20Bullets)
-    2.  [BaseUnit](#BaseUnit)
-    3.  [Effect](#Effect)
-    4.  [TargetPriority](#TargetPriority)
-6.  [Objective](#Objective)
-7.  [Other](#Other)
-    1.  [Mindustry Source Structure](#Mindustry%20Source%20Structure)
-
-
-
-Submit `test` pull requests, issues or suggestions on Github: <https://github.com/SimonWoodburyForget/mindustry-modding>
-
-
-
-# Overview
+# Modding
 
 Mindustry mods are simply directories of assests. You reuse existing types and can use different values to initialize them, and you can even overwrite initialization of vanilla content.
 
@@ -267,7 +93,7 @@ Notes:
 -   `name` will be used to reference to your mod, so name it carefully;
 -   `displayName` this will be used as a display name for the UI, which you can use to add formatting to said name;
 -   `description` of the mod will be rendered in the ingame mod manager, so keep it short and to the point;
--   `dependencies` is optional, if you want to know more about that, go to the [dependencies](#Dependencies) section;
+-   `dependencies` is optional, if you want to know more about that, go to the [dependencies](#dependencies) section;
 -   `minGameVersion` is the minimum build version of the game.
 
 
@@ -278,12 +104,12 @@ Notes:
 
 At the root of your project directory you can have a `content/` directory, this is where all the JSON/HJSON data goes for your content, and in this directory you have subdirectories for the various content types, these are the current common ones:
 
--   `content/items/` for [items](#Item), like `copper` and `surge-alloy`;
--   `content/blocks/` for [blocks](#Block), like turrets and floors;
--   `content/mechs/` for [mechs](#Mech), like `tau` and `glaive`;
--   `content/liquids/` for [liquids](#Liquid), like `water` and `slag`;
--   `content/units/` for flying or ground [units](#UnitType), like `reaper` and `dagger`;
--   `content/zones/` for [zones](#Zone), configuration of campaign maps.
+-   `content/items/` for [items](#item), like `copper` and `surge-alloy`;
+-   `content/blocks/` for [blocks](#block), like turrets and floors;
+-   `content/mechs/` for [mechs](#mech), like `tau` and `glaive`;
+-   `content/liquids/` for [liquids](#liquid), like `water` and `slag`;
+-   `content/units/` for flying or ground [units](#unittype), like `reaper` and `dagger`;
+-   `content/zones/` for [zones](#zone), configuration of campaign maps.
 
 This is important, because it's how Mindustry will know which types to lookup. &#x2013; How you name your files is also important as the stem `name` of your path `content/blocks/<name>.json` is going to be used to reference it.
 
@@ -498,7 +324,7 @@ List of filenames relative to languages:
 
 The text renderer uses a simple makeup language for coloring text.
 
--   `[name]` sets the color by name, there's a few [built-in colors](#Built-in%20Colors);
+-   `[name]` sets the color by name, there's a few [built-in colors](#builtincolors);
 -   `[#rrggbb]` / `[#rrggbbaa]` sets the color by hex value, with each value being anything from `00` to `ff`:
     -   `rr` is the red value,
     -   `gg` is the green value,
@@ -563,7 +389,7 @@ Example:
 
 ## Schematic
 
-Fields that require the type `Schematic` can either take a built-in loadout *(see the [Zone](#Zone) section)* a base64 string, or the stem name of a `.msch` file in the `schematics/` subdirectory.
+Fields that require the type `Schematic` can either take a built-in loadout *(see the [Zone](#zone section)* a base64 string, or the stem name of a `.msch` file in the `schematics/` subdirectory.
 
 *As of now, the only purpose of schematics is to give a zone a loadout.*
 
@@ -746,7 +572,7 @@ This is a log of changes done on the Mindustry Master branch that affected the m
 
 ## Block
 
-Extends [BlockStorage](#BlockStorage)
+Extends [BlockStorage](#blockstorage)
 
 Block is the base type of all blocks in the game. All blocks have at least one sprite, which is picked relative to the blocks name.
 
@@ -821,7 +647,7 @@ Notes:
 
 -   you shouldn't have `power` and `powerBuffered`.
 
-For example with [ConsumeItems](#ConsumeItems) and [ConsumeLiquid](#ConsumeLiquid):
+For example with [ConsumeItems](#ConsumeItems) and [ConsumeLiquid](#consumeliquid):
 
     items: {
       items: [
@@ -839,7 +665,7 @@ For example with [ConsumeItems](#ConsumeItems) and [ConsumeLiquid](#ConsumeLiqui
 
 ## Consume
 
-[Abstract](#FAQ) type which defines a type of resource that a block can consume.
+[Abstract](#faq) type which defines a type of resource that a block can consume.
 
 |field|type|default|notes|
 |---|---|---|---|
@@ -851,7 +677,7 @@ For example with [ConsumeItems](#ConsumeItems) and [ConsumeLiquid](#ConsumeLiqui
 
 ### ConsumeItems
 
-Extends [Consume](#Consume)
+Extends [Consume](#consume)
 
 Type to consume ItemStacks.
 
@@ -863,7 +689,7 @@ Type to consume ItemStacks.
 
 ### ConsumeLiquid
 
-Extends [Consume](#Consume)
+Extends [Consume](#consume)
 
 Type to consume a LiquidStack.
 
@@ -877,7 +703,7 @@ Type to consume a LiquidStack.
 
 ### ConsumePower
 
-Extends [Consume](#Consume)
+Extends [Consume](#consume)
 
 Type to consume or buffer power.
 
@@ -891,7 +717,7 @@ Type to consume or buffer power.
 
 ## BlockStorage
 
-[Abstract](#FAQ) type that extends [Content](#Content)
+[Abstract](#FAQ) type that extends [Content](#content)
 
 Type for blocks which may store a buffer of items or liquid.
 
@@ -919,7 +745,7 @@ Environmental blocks are blocks that must be placed from the editor, and they're
 
 ### Floor
 
-Extends [Block](#Block)
+Extends [Block](#block)
 
 Type used for floors themselves or extended to make ores and other things.
 
@@ -956,7 +782,7 @@ Sprites:
 
 ### OverlayFloor
 
-Extends [Floor](#Floor)
+Extends [Floor](#floor)
 
 For example:
 
@@ -966,7 +792,7 @@ For example:
 
 ### DoubleOverlayFloor
 
-Extends [OverlayFloor](#OverlayFloor)
+Extends [OverlayFloor](#overlayfloor)
 
 For example:
 
@@ -976,7 +802,7 @@ For example:
 
 ### OreBlock
 
-Extends [OverlayFloor](#OverlayFloor)
+Extends [OverlayFloor](#overlayfloor)
 
 |field|default|
 |---|---|
@@ -986,7 +812,7 @@ Extends [OverlayFloor](#OverlayFloor)
 
 ### Rock
 
-Extends [Block](#Block)
+Extends [Block](#block)
 
 |field|type|
 |---|---|
@@ -1003,7 +829,7 @@ Defaults:
 
 ### StaticWall
 
-Extends [Rock](#Rock)
+Extends [Rock](#rock)
 
 Defaults:
 
@@ -1022,7 +848,7 @@ Sprites:
 
 ### StaticTree
 
-Extends [StaticWall](#StaticWall)
+Extends [StaticWall](#staticwall)
 
 For example:
 
@@ -1035,7 +861,7 @@ For example:
 
 ### TreeBlock
 
-Extends [Block](#Block)
+Extends [Block](#block)
 
 Defaults:
 
@@ -1053,7 +879,7 @@ Defaults:
 
 ### GenericCrafter
 
-Extends [Block](#Block)
+Extends [Block](#block)
 
 |field|type|default|notes|
 |---|---|---|---|
@@ -1080,7 +906,7 @@ Defaults:
 
 ### GenericSmelter
 
-Extends [GenericCrafter](#GenericCrafter)
+Extends [GenericCrafter](#genericcrafter)
 
 A GenericCrafter with a new glowing region drawn on top.
 
@@ -1096,7 +922,7 @@ Sprite suffix:
 
 ### Separator
 
-Extends [Block](#Block)
+Extends [Block](#block)
 
 Separator takes liquid as an input, and will produce items from it's stack randomly, using the amount of items in the stack as probability. Separator can't accept items as input, as it will output all the items you put in it, regardless of what you put in `results`.
 
@@ -1132,7 +958,7 @@ Sprite suffixes:
 
 ### PowerVoid
 
-Extends [PowerBlock](#PowerBlock)
+Extends [PowerBlock](#powerblock)
 
 Deafults:
 
@@ -1144,7 +970,7 @@ Deafults:
 
 ### PowerSource
 
-Extends [PowerNode](#PowerNode)
+Extends [PowerNode](#powernode)
 
 Defaults:
 
@@ -1158,7 +984,7 @@ Defaults:
 
 ### ItemSource
 
-Extends [Block](#Block)
+Extends [Block](#block)
 
 Defaults:
 
@@ -1174,7 +1000,7 @@ Defaults:
 
 ### ItemVoid
 
-Extends [Block](#Block)
+Extends [Block](#block)
 
 Defaults:
 
@@ -1187,7 +1013,7 @@ Defaults:
 
 ### LiquidSource
 
-Extends [Block](#Block)
+Extends [Block](#block)
 
 Defaults:
 
@@ -1208,7 +1034,7 @@ Defaults:
 
 ### MessageBlock
 
-Extends [Block](#Block)
+Extends [Block](#block)
 
 |field|type|default|
 |---|---|---|
@@ -1231,7 +1057,7 @@ Defaults:
 
 ### Wall
 
-Extends [Block](#Block)
+Extends [Block](#block)
 
 |field|type|default|
 |---|---|---|
@@ -1250,7 +1076,7 @@ Defaults:
 
 ### DeflectorWall
 
-Extends [Wall](#Wall) &#x2013; Wall that deflects low damage bullets.
+Extends [Wall](#wall) &#x2013; Wall that deflects low damage bullets.
 
 |field|type|default|
 |---|---|---|
@@ -1261,7 +1087,7 @@ Extends [Wall](#Wall) &#x2013; Wall that deflects low damage bullets.
 
 ### SurgeWall
 
-Extends [Wall](#Wall) &#x2013; Wall that creates lightning when shot.
+Extends [Wall](#wall) &#x2013; Wall that creates lightning when shot.
 
 |field|type|default|
 |---|---|---|
@@ -1273,7 +1099,7 @@ Extends [Wall](#Wall) &#x2013; Wall that creates lightning when shot.
 
 ### Door
 
-Extends [Wall](#Wall)
+Extends [Wall](#wall)
 
 |field|type|default|
 |---|---|---|
@@ -1296,7 +1122,7 @@ Sprites:
 
 ### MendProjector
 
-Extends [Block](#Block)
+Extends [Block](#block)
 
 |field|type|default|
 |---|---|---|
@@ -1317,7 +1143,7 @@ Sprites:
 
 ### OverdriveProjector
 
-Extends [Block](#Block)
+Extends [Block](#block)
 
 |field|type|default|
 |---|---|---|
@@ -1348,7 +1174,7 @@ Sprites:
 
 ### ForceProjector
 
-Extends [Block](#Block)
+Extends [Block](#block)
 
 |field|type|default|
 |---|---|---|
@@ -1391,7 +1217,7 @@ Sprites:
 
 ### ShockMine
 
-Extends [Block](#Block)
+Extends [Block](#block)
 
 |field|type|default|
 |---|---|---|
@@ -1415,13 +1241,13 @@ Defaults:
 
 ## Turrets
 
-This section is for turret types. All turrets shoot [BulletType](#BulletType), and this means [LiquidTurret](#LiquidTurret) can shoot [MissileBulletType](#MissileBulletType) and [ItemTurret](#ItemTurret) can shoot [LiquidBulletType](#LiquidBulletType).
+This section is for turret types. All turrets shoot [BulletType](#BulletType), and this means [LiquidTurret](#LiquidTurret) can shoot [MissileBulletType](#MissileBulletType) and [ItemTurret](#ItemTurret) can shoot [LiquidBulletType](#liquidbullettype).
 
 
 
 ### Turret
 
-[Abstract](#FAQ) type which extends [Block](#Block)
+[Abstract](#FAQ) type which extends [Block](#block)
 
 The purpose of a turret type is to be a `Block` that shoots bullets. `Turret` is the base type for all turrets, it's *abstract* meaning it shouldn't be used directly, but everything which extends it will get it's fields.
 
@@ -1473,7 +1299,7 @@ Sprites-Override:
 
 ### CooledTurret
 
-Extends [Turret](#Turret) &#x2013; This is a base type that turrets which use [Liquid](#Liquid) to cool themselves extend from.
+Extends [Turret](#Turret) &#x2013; This is a base type that turrets which use [Liquid](#liquid) to cool themselves extend from.
 
 |field|type|default|notes|
 |---|---|---|---|
@@ -1489,9 +1315,9 @@ Notes:
 
 ### ItemTurret
 
-Extends [CooledTurret](#CooledTurret)
+Extends [CooledTurret](#cooledturret)
 
-This type is a turret that uses items as ammo. The key to the `ammo` field should be the name of an [Item](#Item), while the value may be any [Built-in Bullets](#Built-in%20Bullets) or a [BulletType](#BulletType) itself.
+This type is a turret that uses items as ammo. The key to the `ammo` field should be the name of an [Item](#Item), while the value may be any [Built-in Bullets](#Built-in%20Bullets) or a [BulletType](#bullettype) itself.
 
     type: ItemTurret
     ammo: {
@@ -1525,9 +1351,9 @@ Defaults:
 
 ### LiquidTurret
 
-Extends [Turret](#Turret)
+Extends [Turret](#turret)
 
-This type is just a turret that uses liquid as ammo. The key to `ammo` must be the name of a [Liquid](#Liquid), while the value may either be the name of any [Built-in Bullets](#Built-in%20Bullets) or a [BulletType](#BulletType) itself.
+This type is just a turret that uses liquid as ammo. The key to `ammo` must be the name of a [Liquid](#Liquid), while the value may either be the name of any [Built-in Bullets](#Built-in%20Bullets) or a [BulletType](#bullettype) itself.
 
 For example you could do something like this:
 
@@ -1559,7 +1385,7 @@ Defaults:
 
 ### DoubleTurret
 
-Extends [ItemTurret](#ItemTurret)
+Extends [ItemTurret](#itemturret)
 
 ItemTurret that shoots from two side-by-side barrels.
 
@@ -1577,7 +1403,7 @@ Default:
 
 ### ArtilleryTurret
 
-Extends [ItemTurret](#ItemTurret) &#x2013; Artillery turrets have special shooting calculations done to hit targets.
+Extends [ItemTurret](#itemturret) &#x2013; Artillery turrets have special shooting calculations done to hit targets.
 
 |field|default|
 |---|---|
@@ -1587,7 +1413,7 @@ Extends [ItemTurret](#ItemTurret) &#x2013; Artillery turrets have special shooti
 
 ### BurstTurret
 
-Extends [ItemTurret](#ItemTurret) &#x2013; Turrets capable of bursts of specially spaced bullets, separated by long reload times.
+Extends [ItemTurret](#itemturret) &#x2013; Turrets capable of bursts of specially spaced bullets, separated by long reload times.
 
 |field|type|default|
 |---|---|---|
@@ -1597,7 +1423,7 @@ Extends [ItemTurret](#ItemTurret) &#x2013; Turrets capable of bursts of speciall
 
 ### PowerTurret
 
-Extends [CooledTurret](#CooledTurret) &#x2013; Turret which uses power has ammo to shoot.
+Extends [CooledTurret](#cooledturret) &#x2013; Turret which uses power has ammo to shoot.
 
 |field|type|default|notes|
 |---|---|---|---|
@@ -1614,7 +1440,7 @@ Defaults:
 
 ### ChargeTurret
 
-Extends [PowerTurret](#PowerTurret)
+Extends [PowerTurret](#powerturret)
 
 |field|type|default|
 |---|---|---|
@@ -1628,7 +1454,7 @@ Extends [PowerTurret](#PowerTurret)
 
 ### LaserTurret
 
-Extends [PowerTurret](#PowerTurret)
+Extends [PowerTurret](#powerturret)
 
 |field|type|default|notes|
 |---|---|---|---|
@@ -1655,7 +1481,7 @@ Doesn't update shoot if:
 
 ### Conveyor
 
-Extends [Block](#Block)
+Extends [Block](#block)
 
 |field|type|default|
 |---|---|---|
@@ -1683,13 +1509,13 @@ Sprite suffix:
 
 ### ArmoredConveyor
 
-Extends [Conveyor](#Conveyor)  -A type of conveyor don't accept item coming from side
+Extends [Conveyor](#conveyor)  -A type of conveyor don't accept item coming from side
 
 
 
 ### Junction
 
-Extends [Block](#Block)
+Extends [Block](#block)
 
 |field|type|default|notes|
 |---|---|---|---|
@@ -1710,7 +1536,7 @@ Defaults:
 
 ### ItemBridge
 
-Extends [Block](#Block)
+Extends [Block](#block)
 
 |field|type|default|
 |---|---|---|
@@ -1743,7 +1569,7 @@ Sprites:
 
 ### ExtendingItemBridge
 
-Extends [ItemBridge](#ItemBridge)
+Extends [ItemBridge](#itembridge)
 
 Defaults:
 
@@ -1755,7 +1581,7 @@ Defaults:
 
 ### BufferedItemBridge
 
-Extends [ExtendingItemBridge](#ExtendingItemBridge)
+Extends [ExtendingItemBridge](#extendingitembridge)
 
 |field|type|default|
 |---|---|---|
@@ -1773,7 +1599,7 @@ Defaults:
 
 ### Sorter
 
-Extends [Block](#Block)
+Extends [Block](#block)
 
 |field|type|default|notes|
 |---|---|---|---|
@@ -1794,7 +1620,7 @@ Defaults:
 
 ### OverflowGate
 
-Extends [Block](#Block)
+Extends [Block](#block)
 
 |field|type|default|
 |---|---|---|
@@ -1814,7 +1640,7 @@ Defaults:
 
 ### MassDriver
 
-Extends [Block](#Block) &#x2013; Uses `driverBolt` to transfer items.
+Extends [Block](#block) &#x2013; Uses `driverBolt` to transfer items.
 
 |field|type|default|
 |---|---|---|
@@ -1858,7 +1684,7 @@ Sprites:
 
 ### LiquidBlock
 
-Extends [Block](#Block) &#x2013; For blocks that can carry liquids. Apart from the better defaults, it also fetches extra sprites.
+Extends [Block](#block) &#x2013; For blocks that can carry liquids. Apart from the better defaults, it also fetches extra sprites.
 
 Defaults:
 
@@ -1880,7 +1706,7 @@ Sprites:
 
 ### Pump
 
-Extends [LiquidBlock](#LiquidBlock)
+Extends [LiquidBlock](#liquidblock)
 
 |field|type|default|
 |---|---|---|
@@ -1896,7 +1722,7 @@ Extends [LiquidBlock](#LiquidBlock)
 
 ### Conduit
 
-Extends [LiquidBlock](#LiquidBlock)
+Extends [LiquidBlock](#liquidblock)
 
 |field|type|
 |---|---|
@@ -1918,7 +1744,7 @@ Sprites:
 
 ### ArmoredConduit
 
-**[new type v99 (268)]** &#x2013; Extends [Conduit](#Conduit)
+**[new type v99 (268)]** &#x2013; Extends [Conduit](#conduit)
 
 Defaults:
 
@@ -1934,7 +1760,7 @@ Sprites:
 
 ### LiquidOverflowGate
 
-**[new type v99 (268)]** &#x2013; Extends [LiquidBlock](#LiquidBlock)
+**[new type v99 (268)]** &#x2013; Extends [LiquidBlock](#liquidblock)
 
 Defaults:
 
@@ -1950,25 +1776,25 @@ Sprites:
 
 ### LiquidRouter
 
-Extends [LiquidBlock](#LiquidBlock)
+Extends [LiquidBlock](#liquidblock)
 
 
 
 ### LiquidTank
 
-Extends [LiquidRouter](#LiquidRouter)
+Extends [LiquidRouter](#liquidrouter)
 
 
 
 ### LiquidJunction
 
-Extends [LiquidBlock](#LiquidBlock)
+Extends [LiquidBlock](#liquidblock)
 
 
 
 ### LiquidBridge
 
-Extends [LiquidBridge](#LiquidBridge)
+Extends [LiquidBridge](#liquidbridge)
 
 |field|default|
 |---|---|
@@ -1981,7 +1807,7 @@ Extends [LiquidBridge](#LiquidBridge)
 
 ### LiquidExtendingBridge
 
-Extends [ExtendingItemBridge](#ExtendingItemBridge)
+Extends [ExtendingItemBridge](#extendingitembridge)
 
 |field|default|
 |---|---|
@@ -1998,7 +1824,7 @@ Extends [ExtendingItemBridge](#ExtendingItemBridge)
 
 ### PowerBlock
 
-[Abstract](#FAQ) type which extends [Block](#Block)
+[Abstract](#FAQ) type which extends [Block](#block)
 
 Defaults:
 
@@ -2013,7 +1839,7 @@ Defaults:
 
 ### PowerNode
 
-Extends [PowerBlock](#PowerBlock)
+Extends [PowerBlock](#powerblock)
 
 |field|type|default|
 |---|---|---|
@@ -2034,7 +1860,7 @@ Defaults:
 
 ### PowerDistributor
 
-Extends [PowerBlock](#PowerBlock)
+Extends [PowerBlock](#powerblock)
 
 Defaults:
 
@@ -2047,7 +1873,7 @@ Defaults:
 
 ### Battery
 
-Extends [PowerDistributor](#PowerDistributor) &#x2013; Just a change of defaults for batteries.
+Extends [PowerDistributor](#powerdistributor) &#x2013; Just a change of defaults for batteries.
 
 Defauts:
 
@@ -2060,9 +1886,9 @@ Defauts:
 
 ### PowerGenerator
 
-Extends [PowerDistributor](#PowerDistributor)
+Extends [PowerDistributor](#powerdistributor)
 
-Power generators will produce power with their [Consumers](#Consumers) type.
+Power generators will produce power with their [Consumers](#consumers) type.
 
 |field|type|notes|
 |---|---|---|
@@ -2079,7 +1905,7 @@ Defaults:
 
 #### ThermalGenerator
 
-Extends [PowerGenerator](#PowerGenerator) &#x2013; Generates power with the heat [attribute](#Attributes) of a tile. Power production is `powerProduction * heat`, and `heat` must be greater then `0.01`.
+Extends [PowerGenerator](#PowerGenerator) &#x2013; Generates power with the heat [attribute](#attributes) of a tile. Power production is `powerProduction * heat`, and `heat` must be greater then `0.01`.
 
 |field|type|default|notes|
 |---|---|---|---|
@@ -2089,7 +1915,7 @@ Extends [PowerGenerator](#PowerGenerator) &#x2013; Generates power with the heat
 
 #### ItemLiquidGenerator
 
-Extends [PowerGenerator](#PowerGenerator) &#x2013; Base of power generation blocks.
+Extends [PowerGenerator](#powergenerator) &#x2013; Base of power generation blocks.
 
 Notes:
 
@@ -2119,19 +1945,19 @@ Extra sprites:
 
 #### SingleTypeGenerator
 
-Extends [ItemLiquidGenerator](#ItemLiquidGenerator) &#x2013; Generates power from an item.
+Extends [ItemLiquidGenerator](#itemliquidgenerator) &#x2013; Generates power from an item.
 
 
 
 #### BurnerGenerator
 
-Extends [ItemLiquidGenerator](#ItemLiquidGenerator) &#x2013; Generates power from item flamability.
+Extends [ItemLiquidGenerator](#itemliquidgenerator) &#x2013; Generates power from item flamability.
 
 
 
 #### DecayGenerator
 
-Extends [ItemLiquidGenerator](#ItemLiquidGenerator) &#x2013; Generates power from item radioactivity.
+Extends [ItemLiquidGenerator](#itemliquidgenerator) &#x2013; Generates power from item radioactivity.
 
 Defaults:
 
@@ -2144,7 +1970,7 @@ Defaults:
 
 #### SolarGenerator
 
-Extends [PowerGenerator](#PowerGenerator) &#x2013; A generator that always produces 100% efficiency power.
+Extends [PowerGenerator](#powergenerator) &#x2013; A generator that always produces 100% efficiency power.
 
 Notes:
 
@@ -2154,7 +1980,7 @@ Notes:
 
 #### NuclearReactor
 
-Extends [PowerGenerator](#PowerGenerator) &#x2013; Generates power relative to how many items are in storage, and explodes if it runs out of coolant.
+Extends [PowerGenerator](#powergenerator) &#x2013; Generates power relative to how many items are in storage, and explodes if it runs out of coolant.
 
 |field|type|default|notes|
 |---|---|---|---|
@@ -2187,7 +2013,7 @@ Extra Sprites:
 
 #### ImpactReactor
 
-Extends [PowerGenerator](#PowerGenerator) &#x2013; Generator that uses power and has a startup time.
+Extends [PowerGenerator](#powergenerator) &#x2013; Generator that uses power and has a startup time.
 
 |field|type|default|notes|
 |---|---|---|---|
@@ -2219,7 +2045,7 @@ Sprites:
 
 ### PowerDiode
 
-Extends [Block](#Block)
+Extends [Block](#block)
 
 Defaults:
 
@@ -2238,7 +2064,7 @@ Sprites:
 
 ### LightBlock
 
-**[new type v99 (268)]** &#x2013; Extends [Block](#Block)
+**[new type v99 (268)]** &#x2013; Extends [Block](#block)
 
 |field|type|default|
 |---|---|---|
@@ -2265,7 +2091,7 @@ Sprites:
 
 ### Drill
 
-Extends [Block](#Block) &#x2013; Types which can be placed on ore blocks to extract the [OreBlock](#OreBlock)'s item.
+Extends [Block](#Block) &#x2013; Types which can be placed on ore blocks to extract the [OreBlock](#oreblock)'s item.
 
 |field|type|default|notes|
 |---|---|---|---|
@@ -2305,7 +2131,7 @@ Sprites:
 
 ### SolidPump
 
-Extends [Pump](#Pump) &#x2013; Pump that makes liquid from solids and takes in power. Only works on solid floor blocks.
+Extends [Pump](#pump) &#x2013; Pump that makes liquid from solids and takes in power. Only works on solid floor blocks.
 
 |field|type|default|
 |---|---|---|
@@ -2329,7 +2155,7 @@ Sprites:
 
 ### Cultivator
 
-Extends [GenericCrafter](#GenericCrafter)
+Extends [GenericCrafter](#genericcrafter)
 
 |field|type|default|
 |---|---|---|
@@ -2350,7 +2176,7 @@ Sprites:
 
 ### Fracker
 
-Extends [SolidPump](#SolidPump)
+Extends [SolidPump](#solidpump)
 
 |field|default|
 |---|---|
@@ -2372,7 +2198,7 @@ Sprites:
 
 ### Incinerator
 
-Extends [Block](#Block)
+Extends [Block](#block)
 
 |field|type|default|
 |---|---|---|
@@ -2396,7 +2222,7 @@ Defaults:
 
 ### RepairPoint
 
-Extends [Block](#Block) &#x2013; Block which can repair units within range, with a laser.
+Extends [Block](#block) &#x2013; Block which can repair units within range, with a laser.
 
 |field|type|default|
 |---|---|---|
@@ -2423,7 +2249,7 @@ Extra sprites:
 
 ### UnitFactory
 
-Extends [block](#Block) &#x2013; A block can produce units
+Extends [block](#block) &#x2013; A block can produce units
 
 |field|type|default|
 |---|---|---|
@@ -2450,7 +2276,7 @@ Sprite suffix:
 
 ### CommandCenter
 
-Extends [Block](#Block) &#x2013; A block which can issue commands to your unit.
+Extends [Block](#block) &#x2013; A block which can issue commands to your unit.
 
 |field|type|default|
 |---|---|---|
@@ -2471,7 +2297,7 @@ Defaults:
 
 ### MechPad
 
-Extends [Block](#Block) &#x2013; A block which will spawn a player in a mech.
+Extends [Block](#block) &#x2013; A block which will spawn a player in a mech.
 
 |field|type|default|
 |---|---|---|
@@ -2496,7 +2322,7 @@ Defaults:
 
 ### StorageBlock
 
-[Abstract](#FAQ) type which extends [Block](#Block)
+[Abstract](#FAQ) type which extends [Block](#block)
 
 Defaults:
 
@@ -2508,7 +2334,7 @@ Defaults:
 
 ### CoreBlock
 
-Extends [StorageBlock](#StorageBlock)
+Extends [StorageBlock](#storageblock)
 
 |field|type|default|
 |---|---|---|
@@ -2529,7 +2355,7 @@ Defaults:
 
 ### Vault
 
-Extends [StorageBlock](#StorageBlock)
+Extends [StorageBlock](#storageblock)
 
 Defaults:
 
@@ -2543,9 +2369,9 @@ Defaults:
 
 ### Unloader
 
-Extends [Block](#Block)
+Extends [Block](#block)
 
-A block which can take items from [StorageBlock](#StorageBlock), like [Vault](#Vault), [CoreBlock](#CoreBlock) or [Crafters](#Crafting).
+A block which can take items from [StorageBlock](#StorageBlock), like [Vault](#Vault), [CoreBlock](#CoreBlock) or [Crafters](#crafting).
 
 |field|type|default|
 |---|---|---|
@@ -2569,7 +2395,7 @@ Sprites:
 
 ### LaunchPad
 
-Extends [StroageBlock](#StorageBlock)
+Extends [StroageBlock](#storageblock)
 
 A block which can launch materials.
 
@@ -2589,7 +2415,7 @@ Defaults:
 
 ## Attributes
 
-An object with an array of [attribute](#Attribute). Used in the `Floor` type to give a tile specific properties, like *hottness* or *sporness* for efficiency of various systems, like ThermalPumps and WaterExtractors.
+An object with an array of [attribute](#attribute). Used in the `Floor` type to give a tile specific properties, like *hottness* or *sporness* for efficiency of various systems, like ThermalPumps and WaterExtractors.
 
 `array` has 4 items:
 
@@ -2604,7 +2430,7 @@ An object with an array of [attribute](#Attribute). Used in the `Floor` type to 
             "array": [ 100, 1, 0.5, 0.1]
         }
     
-    You could use it inside of [Floor](#Floor) type as such:
+    You could use it inside of [Floor](#floor) type as such:
     
         {
             "type": "Floor",
@@ -2658,7 +2484,7 @@ Groups for blocks to build on top of each other:
 
 ## Item
 
-Extends [Content](#Content) &#x2013; It's the object that can ride conveyors, sorters and be stored in containers, and is commonly used in crafters.
+Extends [Content](#content) &#x2013; It's the object that can ride conveyors, sorters and be stored in containers, and is commonly used in crafters.
 
 |field|type|default|notes|
 |---|---|---|---|
@@ -2702,9 +2528,9 @@ As an `object`:
 
 ## Liquid
 
-Extends [Content](#Content)
+Extends [Content](#content)
 
-Type which defines the properties of a liquid. Like [Item](#Item) this will go into it's own subdirectory `content/liquids/liquid-name.json`, and from it's stem name you can reuse it from your other mod content.
+Type which defines the properties of a liquid. Like [Item](#item) this will go into it's own subdirectory `content/liquids/liquid-name.json`, and from it's stem name you can reuse it from your other mod content.
 
 |field|type|default|notes|
 |---|---|---|---|
@@ -2746,7 +2572,7 @@ As an `object`:
 
 ## Weapon
 
-Weapons are used by units and mechs alike. A weapon is a type used to shoot bullets [bullets](#BulletType) just like turrets *(except that they don't have an `ammo` mapping)*. Weapons can only shoot one type of bullet, which you define in the `bullet` field.
+Weapons are used by units and mechs alike. A weapon is a type used to shoot bullets [bullets](#bullettype just like turrets except that they dont have an ammo mapping)*. Weapons can only shoot one type of bullet, which you define in the `bullet` field.
 
 |field|type|default|notes|
 |---|---|---|---|
@@ -2778,7 +2604,7 @@ Sprite:
 
 ## UnitType
 
-Extends [Content](#Content)
+Extends [Content](#content)
 
 |field|type|default|
 |---|---|---|
@@ -2817,9 +2643,9 @@ Sprites:
 
 ## Mech
 
-Extends [Content](#Content)
+Extends [Content](#content)
 
-Mechs are the player controlled entities. They shoot [bullets](#BulletType) just like turrets from their [weapon](#Weapon).
+Mechs are the player controlled entities. They shoot [bullets](#BulletType) just like turrets from their [weapon](#weapon).
 
 |field|type|default|
 |---|---|---|
@@ -2874,7 +2700,7 @@ Categories for building menu:
 
 ## Zone
 
-Extends [Content](#Content)
+Extends [Content](#content)
 
 A `Zone` is a type that takes a map *(named the same as the json's filename)* and puts it into campaign. *(a zone isn't a map)*
 
@@ -2943,7 +2769,7 @@ Built-in zones:
 
 ## StatusEffect
 
-*Not be be confused with [Effect](#Effect)*, a status effect will give an entity special properties. It is currently **not possible to add custom status effects**. &#x2013; Status effects are used as transitions between intermediate effects. If some a `wet` unit gets `shocked` it then gets 20 damage.
+*Not be be confused with [Effect](#effect)*, a status effect will give an entity special properties. It is currently **not possible to add custom status effects**. &#x2013; Status effects are used as transitions between intermediate effects. If some a `wet` unit gets `shocked` it then gets 20 damage.
 
 |field|type|default|&#xa0;|
 |---|---|---|---|
@@ -3092,13 +2918,13 @@ Flags used by for cache render:
 
 ## BulletType
 
-[Abstract](#FAQ) type which extends [Content](#Content)
+[Abstract](#FAQ) type which extends [Content](#content)
 
-BulletType can either be an object `{}` or a `"string"`, where a string would be reusing [Built-in Bullets](#Built-in%20Bullets) and an object would be making a custom one.
+BulletType can either be an object `{}` or a `"string"`, where a string would be reusing [Built-in Bullets](#builtinbullets) and an object would be making a custom one.
 
 There are two major categories of bullet types:
 
--   [BasicBulletType](#BasicBulletType) and,
+-   [BasicBulletType](#basicbullettype) and,
 -   other special bullets.
 
 Here's an example of a custom bullet:
@@ -3178,7 +3004,7 @@ Here's an example of a custom bullet:
 
 ### BasicBulletType
 
-Extends [BulletType](#BulletType)
+Extends [BulletType](#bullettype)
 
 This types purpose is to give basic bullets their sprites. The `bulletSprite` will be used as the shape of the bullet. The visible pixels in your sprites will be tinted with `backColor` and `frontColor` respectively. For example if you had sprites `router.png` and `router-back.png` where `Test Mod` was your mods name, you could do this to include your `bulletSprite`:
 
@@ -3216,7 +3042,7 @@ Built-in `bulletSprites`:
 
 #### ArtilleryBulletType
 
-Extends [BasicBulletType](#BasicBulletType)
+Extends [BasicBulletType](#basicbullettype)
 
 Makes special calculations to give the effect that the bullet is going up and back down.
 
@@ -3239,7 +3065,7 @@ Defaults:
 
 #### FlakBulletType
 
-Extends [BasicBulletType](#BasicBulletType)
+Extends [BasicBulletType](#basicbullettype)
 
 |field|type|default|notes|
 |---|---|---|---|
@@ -3259,7 +3085,7 @@ Defaults:
 
 #### MissileBulletType
 
-Extends [BasicBulletType](#BasicBulletType)
+Extends [BasicBulletType](#basicbullettype)
 
 Weave is simple a sin wave with the following equation.
 
@@ -3281,7 +3107,7 @@ Defaults:
 
 #### BombBulletType
 
-Extends [BasicBulletType](#BasicBulletType)
+Extends [BasicBulletType](#basicbullettype)
 
 Defaults:
 
@@ -3300,7 +3126,7 @@ Defaults:
 
 ### HealBulletType
 
-Extends [BulletType](#BulletType) &#x2013; Bullets that can heal blocks of the same team as the shooter.
+Extends [BulletType](#bullettype) &#x2013; Bullets that can heal blocks of the same team as the shooter.
 
 |field|type|default|
 |---|---|---|
@@ -3320,7 +3146,7 @@ Defaults:
 
 ### LiquidBulletType
 
-Extends [BulletType](#BulletType)
+Extends [BulletType](#bullettype)
 
 |field|type|default|notes|
 |---|---|---|---|
@@ -3343,7 +3169,7 @@ Defaults:
 
 ### MassDriverBolt
 
-Extends [BulletType](#BulletType)
+Extends [BulletType](#bullettype)
 
 Defaults:
 
@@ -3426,7 +3252,7 @@ Type should be a `string`. You can't currently create custom effects. List of bu
 
 # Objective
 
-Objective is a trait, which a few types implement, which is used by [Zone](#Zone) to give campaign maps objectives.
+Objective is a trait, which a few types implement, which is used by [Zone](#zone) to give campaign maps objectives.
 
 Types which implement Objective are as follows:
 
