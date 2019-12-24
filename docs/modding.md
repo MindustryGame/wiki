@@ -592,7 +592,7 @@ Fields for all objects that are blocks.
 |health|int|-1|tile entity health|
 |baseExplosiveness|float|0|base block explosiveness|
 |floating|boolean|false|whether this block can be placed on edges of liquids.|
-|size|int|1|multiblock size|
+|size|int|1|multiblock size; 1 makes the block 1x1, 2 makes the block 2x2, and so on.|
 |expanded|boolean|false|Whether to draw this block in the expanded draw range.|
 |timers|int|0|Max of timers used.|
 |cacheLayer|[CacheLayer](#CacheLayer)|normal|Cache layer. Only used for 'cached' rendering.|
