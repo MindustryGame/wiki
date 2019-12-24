@@ -324,7 +324,7 @@ List of filenames relative to languages:
 
 The text renderer uses a simple makeup language for coloring text.
 
--   `[name]` sets the color by name, there's a few [built-in colors](#builtincolors);
+-   `[name]` sets the color by name, there's a few [built-in colors](#built-in-colors);
 -   `[#rrggbb]` / `[#rrggbbaa]` sets the color by hex value, with each value being anything from `00` to `ff`:
     -   `rr` is the red value,
     -   `gg` is the green value,
@@ -389,7 +389,7 @@ Example:
 
 ## Schematic
 
-Fields that require the type `Schematic` can either take a built-in loadout *(see the [Zone](#zone section)* a base64 string, or the stem name of a `.msch` file in the `schematics/` subdirectory.
+Fields that require the type `Schematic` can either take a built-in loadout *(see the [Zone](#zone) section)* a base64 string, or the stem name of a `.msch` file in the `schematics/` subdirectory.
 
 *As of now, the only purpose of schematics is to give a zone a loadout.*
 
@@ -2572,7 +2572,7 @@ As an `object`:
 
 ## Weapon
 
-Weapons are used by units and mechs alike. A weapon is a type used to shoot bullets [bullets](#bullettype just like turrets except that they dont have an ammo mapping)*. Weapons can only shoot one type of bullet, which you define in the `bullet` field.
+Weapons are used by units and mechs alike. A weapon is a type used to shoot bullets [bullets](#bullettype) just like turrets *(except that they don't have an `ammo` mapping)*. Weapons can only shoot one type of bullet, which you define in the `bullet` field.
 
 |field|type|default|notes|
 |---|---|---|---|
@@ -2920,7 +2920,7 @@ Flags used by for cache render:
 
 [Abstract](#FAQ) type which extends [Content](#content)
 
-BulletType can either be an object `{}` or a `"string"`, where a string would be reusing [Built-in Bullets](#builtinbullets) and an object would be making a custom one.
+BulletType can either be an object `{}` or a `"string"`, where a string would be reusing [Built-in Bullets](#built-in-bullets) and an object would be making a custom one.
 
 There are two major categories of bullet types:
 
