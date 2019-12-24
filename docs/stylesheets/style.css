@@ -41,3 +41,19 @@ img#zone {
     border: 5px solid dimgray;
     border-radius: 10px;
 }
+
+.wy-menu-vertical .subnav a {
+  padding-right:4px;
+  display: flex;
+  align-items: center;
+}
+
+.wy-menu-vertical .subnav a img {
+  order:-1;
+}
+
+.wy-menu-vertical .subnav a::before {
+  content: " ";
+  flex-basis: 5px;
+  order: 0;
+}
