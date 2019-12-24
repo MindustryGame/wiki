@@ -5,5 +5,3 @@ theme:
     custom_dir: custom_theme/
 extra_css:
   - 'stylesheets/style.css'
-extra_javascript:
-  - js/custom.js
