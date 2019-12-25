@@ -587,7 +587,7 @@ Fields for all objects that are blocks.
 |solidifes|boolean|&#xa0;|whether this block CAN be solid.|
 |rotate|boolean|&#xa0;|whether this is rotateable|
 |breakable|boolean|&#xa0;|whether you can break this with rightclick|
-|placeableOn|boolean|true|whether this [floor](#Floor) can be placed on.|
+|placeableOn|boolean|true|whether this [floor](#floor) can be placed on.|
 |insulated|boolean|false|whether this block has insulating properties.|
 |health|int|-1|tile entity health|
 |baseExplosiveness|float|0|base block explosiveness|
@@ -595,10 +595,10 @@ Fields for all objects that are blocks.
 |size|int|1|multiblock size; 1 makes the block 1x1, 2 makes the block 2x2, and so on.|
 |expanded|boolean|false|Whether to draw this block in the expanded draw range.|
 |timers|int|0|Max of timers used.|
-|cacheLayer|[CacheLayer](#CacheLayer)|normal|Cache layer. Only used for 'cached' rendering.|
-|fillesTile|true|&#xa0;|Special flag; if false, [floor](#Floor) will be drawn under this block even if it is cached.|
+|cacheLayer|[CacheLayer](#cachelayer)|normal|Cache layer. Only used for 'cached' rendering.|
+|fillesTile|true|&#xa0;|Special flag; if false, [floor](#floor) will be drawn under this block even if it is cached.|
 |alwaysReplace|boolean|false|whether this block can be replaced in all cases|
-|group|[BlockGroup](#BlockGroup)|none|Unless `canReplace` is overriden, blocks in the same group can replace each other.|
+|group|[BlockGroup](#blockgroup)|none|Unless `canReplace` is overriden, blocks in the same group can replace each other.|
 |priority|TargetPriority|base|Targeting priority of this block, as seen by enemies.|
 |configurable|boolean|&#xa0;|Whether the block can be tapped and selected to configure.|
 |consumesTap|boolean|&#xa0;|Whether this block consumes touchDown events when tapped.|
@@ -607,23 +607,23 @@ Fields for all objects that are blocks.
 |sync|boolean|&#xa0;|**[new [Dec 04](#a087df077)]** Whether to periodically sync this block across the network.|
 |targetable|boolean|true|Whether units target this block.|
 |canOverdrive|boolean|true|Whether the overdrive core has any effect on this block.|
-|outlineColor|[Color](#Color)|404049|Outlined icon color.|
+|outlineColor|[Color](#color)|404049|Outlined icon color.|
 |outlineIcon|boolean|false|Whether the icon region has an outline added.|
 |hasShadow|boolean|true|Whether this block has a shadow under it.|
-|breakSound|[Sound](#Sound)|boom|Sounds made when this block breaks.|
-|activeSound|[Sound](#Sound)|none|The sound that this block makes while active. One sound loop. Do not overuse.|
+|breakSound|[Sound](#sound)|boom|Sounds made when this block breaks.|
+|activeSound|[Sound](#sound)|none|The sound that this block makes while active. One sound loop. Do not overuse.|
 |activeSoundVolume|float|0.5|Active sound base volume.|
-|idleSound|[Sound](#Sound)|none|The sound that this block makes while idle. Uses one sound loop for all blocks.|
+|idleSound|[Sound](#sound)|none|The sound that this block makes while idle. Uses one sound loop for all blocks.|
 |idleSoundVolume|float|0.5|Idle sound base volume.|
-|requirements|[ [ItemStack](#ItemStack) ]|&#xa0;|Cost of constructing and researching this block.|
-|category|[Category](#Category)|distribution|Category in place menu.|
+|requirements|[ [ItemStack](#itemstack) ]|&#xa0;|Cost of constructing and researching this block.|
+|category|[Category](#category)|distribution|Category in place menu.|
 |buildCost|float|&#xa0;|Cost of building this block; do not modify directly!|
-|buildVisibility|[BuildVisibility](#BuildVisibility)|hidden|Whether this block is visible and can currently be built.|
+|buildVisibility|[BuildVisibility](#buildvisibility)|hidden|Whether this block is visible and can currently be built.|
 |buildCostMultiplier|float|1|Multiplier for speed of building this block.|
 |instantTransfer|boolean|false|Whether this block has instant transfer.|
 |alwaysUnlocked|boolean|false|&#xa0;|
-|layer|[Layer](#Layer)|null|Layer to draw extra stuff on.|
-|layer2|[Layer](#Layer)|null|Extra layer to draw extra stuff on.|
+|layer|[Layer](#layer)|null|Layer to draw extra stuff on.|
+|layer2|[Layer](#layer)|null|Extra layer to draw extra stuff on.|
 
 Sprites:
 
@@ -638,16 +638,16 @@ This type is commonly used in block type with it's field `consumes`, it's a type
 |field|type|notes|
 |---|---|---|
 |item|String|shorthand for `items`|
-|items|[ConsumeItems](#ConsumeItems)|consume a number of different items|
-|liquid|[ConsumeLiquid](#ConsumeLiquid)|consume a single liquid|
-|power|float or [ConsumePower](#ConsumePower)|consume or buffer power|
+|items|[ConsumeItems](#consumeitems)|consume a number of different items|
+|liquid|[ConsumeLiquid](#consumeliquid)|consume a single liquid|
+|power|float or [ConsumePower](#consumepower)|consume or buffer power|
 |powerBuffered|float|amount of power buffered|
 
 Notes:
 
 -   you shouldn't have `power` and `powerBuffered`.
 
-For example with [ConsumeItems](#ConsumeItems) and [ConsumeLiquid](#consumeliquid):
+For example with [ConsumeItems](#consumeitems) and [ConsumeLiquid](#consumeliquid):
 
     items: {
       items: [
@@ -683,7 +683,7 @@ Type to consume ItemStacks.
 
 |field|type|
 |---|---|
-|items|[ [ItemStack](#ItemStack) ]|
+|items|[ [ItemStack](#itemstack) ]|
 
 
 
@@ -695,7 +695,7 @@ Type to consume a LiquidStack.
 
 |field|type|default|notes|
 |---|---|---|---|
-|liquid|String|&#xa0;|the name of [liquid](#Liquid) type consumed|
+|liquid|String|&#xa0;|the name of [liquid](#liquid) type consumed|
 |amount|float|&#xa0;|amount used per frame|
 |timePeriod|float|60|how much time is taken to use this liquid, example: a normal ConsumeLiquid with 10/s and a 10 second timePeriod would display as *100 seconds*, but without a time override it would display as *10 liquid/second*. This is used for generic crafters.|
 
@@ -717,7 +717,7 @@ Type to consume or buffer power.
 
 ## BlockStorage
 
-[Abstract](#FAQ) type that extends [Content](#content)
+[Abstract](#faq) type that extends [Content](#content)
 
 Type for blocks which may store a buffer of items or liquid.
 
@@ -733,7 +733,7 @@ Type for blocks which may store a buffer of items or liquid.
 |liquidCapacity|float|10|
 |item|float|10|
 |liquidPressure|float|1|
-|consumes|[Consumers](#Consumers)|&#xa0;|
+|consumes|[Consumers](#consumers)|&#xa0;|
 
 
 
@@ -757,17 +757,17 @@ Type used for floors themselves or extended to make ores and other things.
 |dragMultiplier|float|0|multiplies unit drag by this when walked on.|
 |damageTaken|float|0|damage taken per tick on this tile.|
 |drownTime|float|0|how many ticks it takes to drown on this.|
-|walkEffect|[Effect](#Effect)|ripple|effect when walking on this [floor](#Floor).|
-|drownUpdateEffect|[Effect](#Effect)|bubble|effect displayed when drowning on this [floor](#Floor).|
+|walkEffect|[Effect](#effect)|ripple|effect when walking on this [floor](#floor).|
+|drownUpdateEffect|[Effect](#effect)|bubble|effect displayed when drowning on this [floor](#floor).|
 |status|StatusEffect|none|status effect applied when walking on.|
 |statusDuration|float|60|intensity of applied status effect.|
-|liquidDrop|[Liquid](#Liquid)|&#xa0;|liquids that drop from this block, used for pumps.|
-|itemDrop|[Item](#Item)|&#xa0;|item that drops from this block, used for drills.|
+|liquidDrop|[Liquid](#liquid)|&#xa0;|liquids that drop from this block, used for pumps.|
+|itemDrop|[Item](#item)|&#xa0;|item that drops from this block, used for drills.|
 |isLiquid|boolean|&#xa0;|whether this block can be drowned in.|
 |playerUnmineable|boolean|false|block cannot be mined by players if true.|
-|blendGroup|[Block](#Block)|this|group of blocks that this block does not draw edges on.|
-|updateEffect|[Effect](#Effect)|none|effect displayed when randomly updated.|
-|attributes|[Attributes](#Attributes)|&#xa0;|array of affinities to certain things.|
+|blendGroup|[Block](#block)|this|group of blocks that this block does not draw edges on.|
+|updateEffect|[Effect](#effect)|none|effect displayed when randomly updated.|
+|attributes|[Attributes](#attributes)|&#xa0;|array of affinities to certain things.|
 
 Notes:
 
@@ -883,11 +883,11 @@ Extends [Block](#block)
 
 |field|type|default|notes|
 |---|---|---|---|
-|outputItem|[ItemStack](#ItemStack)|&#xa0;|one item stack|
-|outputLiquid|[LiquidStack](#LiquidStack)|&#xa0;|one liquid stack|
+|outputItem|[ItemStack](#itemstack)|&#xa0;|one item stack|
+|outputLiquid|[LiquidStack](#liquidstack)|&#xa0;|one liquid stack|
 |craftTime|float|80|&#xa0;|
-|craftEffect|[Effect](#Effect)|none|&#xa0;|
-|updateEffect|[Effect](#Effect)|none|&#xa0;|
+|craftEffect|[Effect](#effect)|none|&#xa0;|
+|updateEffect|[Effect](#effect)|none|&#xa0;|
 |updateEffectChance|float|0.04|&#xa0;|
 
 Defaults:
@@ -912,7 +912,7 @@ A GenericCrafter with a new glowing region drawn on top.
 
 |field|type|default|
 |---|---|---|
-|flameColor|[Color](#Color)|ffc999|
+|flameColor|[Color](#color)|ffc999|
 
 Sprite suffix:
 
@@ -928,13 +928,13 @@ Separator takes liquid as an input, and will produce items from it's stack rando
 
 |field|type|default|notes|
 |---|---|---|---|
-|results|[ [ItemStack](#ItemStack) ]|&#xa0;|**[required]**|
+|results|[ [ItemStack](#itemstack) ]|&#xa0;|**[required]**|
 |craftTime|float|&#xa0;|&#xa0;|
 |spinnerRadius|float|2.5|&#xa0;|
 |spinnerLength|float|1|&#xa0;|
 |spinnerThickness|float|1|&#xa0;|
 |spinnerSpeed|float|2|&#xa0;|
-|color|[Color](#Color)|858585|&#xa0;|
+|color|[Color](#color)|858585|&#xa0;|
 |liquidRegion|int|&#xa0;|&#xa0;|
 
 Defaults:
@@ -1103,8 +1103,8 @@ Extends [Wall](#wall)
 
 |field|type|default|
 |---|---|---|
-|openfx|[Effect](#Effect)|dooropen|
-|closefx|[Effect](#Effect)|doorclose|
+|openfx|[Effect](#effect)|dooropen|
+|closefx|[Effect](#effect)|doorclose|
 
 Defaults:
 
@@ -1126,8 +1126,8 @@ Extends [Block](#block)
 
 |field|type|default|
 |---|---|---|
-|color|[Color](#Color)|84f491|
-|phase|[Color](#Color)|ffd59e|
+|color|[Color](#color)|84f491|
+|phase|[Color](#color)|ffd59e|
 |reload|float|250|
 |range|float|60|
 |healPercent|float|12|
@@ -1147,8 +1147,8 @@ Extends [Block](#block)
 
 |field|type|default|
 |---|---|---|
-|color|[Color](#Color)|feb380|
-|phase|[Color](#Color)|ffd59e|
+|color|[Color](#color)|feb380|
+|phase|[Color](#color)|ffd59e|
 |reload|float|60|
 |range|float|80|
 |speedBoost|float|1.5|
@@ -1241,23 +1241,23 @@ Defaults:
 
 ## Turrets
 
-This section is for turret types. All turrets shoot [BulletType](#BulletType), and this means [LiquidTurret](#LiquidTurret) can shoot [MissileBulletType](#MissileBulletType) and [ItemTurret](#ItemTurret) can shoot [LiquidBulletType](#liquidbullettype).
+This section is for turret types. All turrets shoot [BulletType](#bullettype), and this means [LiquidTurret](#liquidturret) can shoot [MissileBulletType](#missilebullettype) and [ItemTurret](#itemturret) can shoot [LiquidBulletType](#liquidbullettype).
 
 
 
 ### Turret
 
-[Abstract](#FAQ) type which extends [Block](#block)
+[Abstract](#faq) type which extends [Block](#block)
 
 The purpose of a turret type is to be a `Block` that shoots bullets. `Turret` is the base type for all turrets, it's *abstract* meaning it shouldn't be used directly, but everything which extends it will get it's fields.
 
 |field|type|default|notes|
 |---|---|---|---|
-|heatColor|[Color](#Color)|turretHeat|The color of the `-heat` sprite.|
-|shootEffect|[Effect](#Effect)|none|An effect fired on tile in the direction the turret is aiming when it shoots.|
-|smokeEffect|[Effect](#Effect)|none|An effect fired on tile in the direction the turret is aiming when it shoots.|
-|ammoUseEffect|[Effect](#Effect)|none|An effect fired on the tile, when ammo is consumed.|
-|shootSound|[Sound](#Sound)|shoot|A sound created from the tile when a bullet is fired.|
+|heatColor|[Color](#color)|turretHeat|The color of the `-heat` sprite.|
+|shootEffect|[Effect](#effect)|none|An effect fired on tile in the direction the turret is aiming when it shoots.|
+|smokeEffect|[Effect](#effect)|none|An effect fired on tile in the direction the turret is aiming when it shoots.|
+|ammoUseEffect|[Effect](#effect)|none|An effect fired on the tile, when ammo is consumed.|
+|shootSound|[Sound](#sound)|shoot|A sound created from the tile when a bullet is fired.|
 |ammoPerShot|int|1|The amount of ammo used per shot.|
 |ammoEjectBack|float|1|The eject angle of shells in radians.|
 |range|float|50|The range at which the turret can target enemies. Range is in `tilesize` so 8 is 1 tile.|
@@ -1299,12 +1299,12 @@ Sprites-Override:
 
 ### CooledTurret
 
-Extends [Turret](#Turret) &#x2013; This is a base type that turrets which use [Liquid](#liquid) to cool themselves extend from.
+Extends [Turret](#turret) &#x2013; This is a base type that turrets which use [Liquid](#liquid) to cool themselves extend from.
 
 |field|type|default|notes|
 |---|---|---|---|
 |coolantMultiplier|float|5|How much reload is lowered by for each unit of liquid of heat capacity.|
-|coolEffect|[Effect](#Effect)|shoot|&#xa0;|
+|coolEffect|[Effect](#effect)|shoot|&#xa0;|
 
 Notes:
 
@@ -1317,7 +1317,7 @@ Notes:
 
 Extends [CooledTurret](#cooledturret)
 
-This type is a turret that uses items as ammo. The key to the `ammo` field should be the name of an [Item](#Item), while the value may be any [Built-in Bullets](#Built-in%20Bullets) or a [BulletType](#bullettype) itself.
+This type is a turret that uses items as ammo. The key to the `ammo` field should be the name of an [Item](#item), while the value may be any [Built-in Bullets](#built-in-bullets) or a [BulletType](#bullettype) itself.
 
     type: ItemTurret
     ammo: {
@@ -1339,7 +1339,7 @@ Here we're using `copper` to shoot `standardCopper` (built-in bullet) and `metal
 |field|type|default|notes|
 |---|---|---|---|
 |maxAmmo|int|30|&#xa0;|
-|ammo|{ String: [BulletType](#BulletType) }|&#xa0;|String is the name of an [Item](#Item), which will be used to select the type of bullet which will be shot.|
+|ammo|{ String: [BulletType](#bullettype) }|&#xa0;|String is the name of an [Item](#item), which will be used to select the type of bullet which will be shot.|
 
 Defaults:
 
@@ -1353,7 +1353,7 @@ Defaults:
 
 Extends [Turret](#turret)
 
-This type is just a turret that uses liquid as ammo. The key to `ammo` must be the name of a [Liquid](#Liquid), while the value may either be the name of any [Built-in Bullets](#Built-in%20Bullets) or a [BulletType](#bullettype) itself.
+This type is just a turret that uses liquid as ammo. The key to `ammo` must be the name of a [Liquid](#liquid), while the value may either be the name of any [Built-in Bullets](#built-in-bullets) or a [BulletType](#bullettype) itself.
 
 For example you could do something like this:
 
@@ -1372,7 +1372,7 @@ For example you could do something like this:
 
 |fields|type|notes|
 |---|---|---|
-|ammo|{ String: [BulletType](#BulletType) }|object with [Liquid](#Liquid) names to bullet types.|
+|ammo|{ String: [BulletType](#bullettype) }|object with [Liquid](#liquid) names to bullet types.|
 
 Defaults:
 
@@ -1427,7 +1427,7 @@ Extends [CooledTurret](#cooledturret) &#x2013; Turret which uses power has ammo 
 
 |field|type|default|notes|
 |---|---|---|---|
-|shootType|[BulletType](#BulletType)|&#xa0;|**[required]**|
+|shootType|[BulletType](#bullettype)|&#xa0;|**[required]**|
 |powerUse|float|1|&#xa0;|
 
 Defaults:
@@ -1447,8 +1447,8 @@ Extends [PowerTurret](#powerturret)
 |chargeTime|float|30|
 |chargeEffects|int|5|
 |chargeMaxDelay|float|10|
-|chargeEffect|[Effect](#Effect)|none|
-|chargeBeginEffect|[Effect](#Effect)|none|
+|chargeEffect|[Effect](#effect)|none|
+|chargeBeginEffect|[Effect](#effect)|none|
 
 
 
@@ -1650,9 +1650,9 @@ Extends [Block](#block) &#x2013; Uses `driverBolt` to transfer items.
 |minDistribute|int|10|
 |knockback|float|4|
 |reloadTime|float|100|
-|shootEffect|[Effect](#Effect)|shootBig2|
-|smokeEffect|[Effect](#Effect)|shootBigSmoke2|
-|recieveEffect|[Effect](#Effect)|mineBig|
+|shootEffect|[Effect](#effect)|shootBig2|
+|smokeEffect|[Effect](#effect)|shootBigSmoke2|
+|recieveEffect|[Effect](#effect)|mineBig|
 |shake|float|3|
 
 Notes:
@@ -1824,7 +1824,7 @@ Extends [ExtendingItemBridge](#extendingitembridge)
 
 ### PowerBlock
 
-[Abstract](#FAQ) type which extends [Block](#block)
+[Abstract](#faq) type which extends [Block](#block)
 
 Defaults:
 
@@ -1905,11 +1905,11 @@ Defaults:
 
 #### ThermalGenerator
 
-Extends [PowerGenerator](#PowerGenerator) &#x2013; Generates power with the heat [attribute](#attributes) of a tile. Power production is `powerProduction * heat`, and `heat` must be greater then `0.01`.
+Extends [PowerGenerator](#powergenerator) &#x2013; Generates power with the heat [attribute](#attributes) of a tile. Power production is `powerProduction * heat`, and `heat` must be greater then `0.01`.
 
 |field|type|default|notes|
 |---|---|---|---|
-|generateEffect|[Effect](#Effect)|none|&#xa0;|
+|generateEffect|[Effect](#effect)|none|&#xa0;|
 
 
 
@@ -1930,9 +1930,9 @@ Notes:
 |itemDuration|float|70|number of ticks during which a single item will produce power.|
 |minLiquidEfficiency|float|0.2|&#xa0;|
 |maxLiquidGenerate|float|0.4|Maximum liquid used per frame.|
-|generateEffect|[Effect](#Effect)|generatespark|&#xa0;|
-|explodeEffect|[Effect](#Effect)|generatespark|&#xa0;|
-|heatColor|[Color](#Color)|ff9b59|&#xa0;|
+|generateEffect|[Effect](#effect)|generatespark|&#xa0;|
+|explodeEffect|[Effect](#effect)|generatespark|&#xa0;|
+|heatColor|[Color](#color)|ff9b59|&#xa0;|
 |randomlyExplode|boolean|true|&#xa0;|
 |defaults|boolean|false|&#xa0;|
 
@@ -1984,9 +1984,9 @@ Extends [PowerGenerator](#powergenerator) &#x2013; Generates power relative to h
 
 |field|type|default|notes|
 |---|---|---|---|
-|lightColor|[Color](#Color)|7f19ea|**[new v99 (268)]**|
-|coolColor|[Color](#Color)|ffffff00|&#xa0;|
-|hotColor|[Color](#Color)|ff9575a3|&#xa0;|
+|lightColor|[Color](#color)|7f19ea|**[new v99 (268)]**|
+|coolColor|[Color](#color)|ffffff00|&#xa0;|
+|hotColor|[Color](#color)|ff9575a3|&#xa0;|
 |itemDuration|float|120|time to consume 1 fuel|
 |heating|float|0.01|heating per frame \* fullness|
 |smokeThreshold|float|0.3|heat at which blocks start smoking|
@@ -2022,8 +2022,8 @@ Extends [PowerGenerator](#powergenerator) &#x2013; Generator that uses power and
 |itemDuration|float|60|&#xa0;|
 |explosionRadius|int|50|&#xa0;|
 |explosionDamage|int|2000|&#xa0;|
-|plasma1|[Color](#Color)|ffd06b|&#xa0;|
-|plasma2|[Color](#Color)|ff361b|&#xa0;|
+|plasma1|[Color](#color)|ffd06b|&#xa0;|
+|plasma2|[Color](#color)|ff361b|&#xa0;|
 
 Defaults:
 
@@ -2091,7 +2091,7 @@ Sprites:
 
 ### Drill
 
-Extends [Block](#Block) &#x2013; Types which can be placed on ore blocks to extract the [OreBlock](#oreblock)'s item.
+Extends [Block](#block) &#x2013; Types which can be placed on ore blocks to extract the [OreBlock](#oreblock)'s item.
 
 |field|type|default|notes|
 |---|---|---|---|
@@ -2100,12 +2100,12 @@ Extends [Block](#Block) &#x2013; Types which can be placed on ore blocks to extr
 |liquidBoostIntensity|float|1.6|How many times faster the drill will progress when boosted by liquid.|
 |warmupSpeed|float|0.02|Speed at which the drill speeds up.|
 |drawMineItem|boolean|false|Whether to draw the item this drill is mining.|
-|drillEffect|[Effect](#Effect)|mine|Effect played when an item is produced. This is colored.|
+|drillEffect|[Effect](#effect)|mine|Effect played when an item is produced. This is colored.|
 |rotateSpeed|float|2|Speed the drill bit rotates at.|
-|updateEffect|[Effect](#Effect)|pulverizeSmall|Effect randomly played while drilling.|
+|updateEffect|[Effect](#effect)|pulverizeSmall|Effect randomly played while drilling.|
 |updateEffectChance|float|0.02|Chance the update effect will appear.|
 |drawRim|boolean|false|&#xa0;|
-|heatColor|[Color](#Color)|ff5512|&#xa0;|
+|heatColor|[Color](#color)|ff5512|&#xa0;|
 
 Defaults:
 
@@ -2135,11 +2135,11 @@ Extends [Pump](#pump) &#x2013; Pump that makes liquid from solids and takes in p
 
 |field|type|default|
 |---|---|---|
-|result|[Liquid](#Liquid)|water|
-|updateEffect|[Effect](#Effect)|none|
+|result|[Liquid](#liquid)|water|
+|updateEffect|[Effect](#effect)|none|
 |updateEffectChance|float|0.02|
 |rotateSpeed|float|1|
-|attribute|[Attribute](#Attribute)|&#xa0;|
+|attribute|[Attribute](#attribute)|&#xa0;|
 
 Defaults:
 
@@ -2202,8 +2202,8 @@ Extends [Block](#block)
 
 |field|type|default|
 |---|---|---|
-|effect|[Effect](#Effect)|fuelburn|
-|flameColor|[Color](#Color)|ffad9d|
+|effect|[Effect](#effect)|fuelburn|
+|flameColor|[Color](#color)|ffad9d|
 
 Defaults:
 
@@ -2256,7 +2256,7 @@ Extends [block](#block) &#x2013; A block can produce units
 |produceTime|float|1000|
 |launchVelocity|float|0|
 |maxSpawn|int|4|
-|unitType|[UnitType](#UnitType)|none|
+|unitType|[UnitType](#unittype)|none|
 
 Defaults:
 
@@ -2280,9 +2280,9 @@ Extends [Block](#block) &#x2013; A block which can issue commands to your unit.
 
 |field|type|default|
 |---|---|---|
-|topColor|[Color](#Color)|command|
-|bottomColor|[Color](#Color)|5e5e5e|
-|effect|[Effect](#Effect)|commandSend|
+|topColor|[Color](#color)|command|
+|bottomColor|[Color](#color)|5e5e5e|
+|effect|[Effect](#effect)|commandSend|
 
 Defaults:
 
@@ -2301,7 +2301,7 @@ Extends [Block](#block) &#x2013; A block which will spawn a player in a mech.
 
 |field|type|default|
 |---|---|---|
-|mech|[Mech](#Mech)|none|
+|mech|[Mech](#mech)|none|
 |buildTime|float|60 \* 5|
 
 Defaults:
@@ -2322,7 +2322,7 @@ Defaults:
 
 ### StorageBlock
 
-[Abstract](#FAQ) type which extends [Block](#block)
+[Abstract](#faq) type which extends [Block](#block)
 
 Defaults:
 
@@ -2371,7 +2371,7 @@ Defaults:
 
 Extends [Block](#block)
 
-A block which can take items from [StorageBlock](#StorageBlock), like [Vault](#Vault), [CoreBlock](#CoreBlock) or [Crafters](#crafting).
+A block which can take items from [StorageBlock](#storageblock), like [Vault](#vault), [CoreBlock](#coreblock) or [Crafters](#crafting).
 
 |field|type|default|
 |---|---|---|
@@ -2488,8 +2488,8 @@ Extends [Content](#content) &#x2013; It's the object that can ride conveyors, so
 
 |field|type|default|notes|
 |---|---|---|---|
-|color|[Color](#Color)|black|hex string of color|
-|type|[ItemType](#ItemType)|resource|used for tabs and core acceptance|
+|color|[Color](#color)|black|hex string of color|
+|type|[ItemType](#itemtype)|resource|used for tabs and core acceptance|
 |explosiveness|float|0|how explosive this item is.|
 |flammability|float|0|flammability above 0.3 makes this eleigible for item burners.|
 |radioactivity|float|&#xa0;|how radioactive this item is. 0=none, 1=chernobyl ground zero|
@@ -2521,7 +2521,7 @@ As an `object`:
 
 |field|type|notes|
 |---|---|---|
-|item|string|The name of an [Item](#Item).|
+|item|string|The name of an [Item](#item).|
 |amount|int|The amount of said item.|
 
 
@@ -2534,15 +2534,15 @@ Type which defines the properties of a liquid. Like [Item](#item) this will go i
 
 |field|type|default|notes|
 |---|---|---|---|
-|color|[Color](#Color)|&#xa0;|**[required]** color of liquid|
-|barColor|[Color](#Color)|&#xa0;|*[optional]* color used in bars.|
-|lightColor|[Color](#Color)|&#xa0;|Color used to draw lights. Note that the alpha channel is used to dictate brightness.|
+|color|[Color](#color)|&#xa0;|**[required]** color of liquid|
+|barColor|[Color](#color)|&#xa0;|*[optional]* color used in bars.|
+|lightColor|[Color](#color)|&#xa0;|Color used to draw lights. Note that the alpha channel is used to dictate brightness.|
 |flammability|float|&#xa0;|0 to 1; 0 is completely inflammable, above that may catch fire when exposed to heat.|
 |temperature|float|0.5|0.5 is 'room' temperature, 0 is very cold, 1 is molten hot|
 |heatCapacity|float|0.5|used in cooling; water is 0.4, cryofluid is 0.9.|
 |viscosity|float|0.5|how thick this liquid is; water is 0.5, oil is 0.7.|
 |explosiveness|float|&#xa0;|explosiveness when heated; 0 is nothing, 1 is nuke|
-|effect|[StatusEffect](#StatusEffect)|none|the associated status effect.|
+|effect|[StatusEffect](#statuseffect)|none|the associated status effect.|
 
 Sprites:
 
@@ -2565,7 +2565,7 @@ As an `object`:
 
 |field|type|notes|
 |---|---|---|
-|liquid|string|The name of a [Liquid](#Liquid).|
+|liquid|string|The name of a [Liquid](#liquid).|
 |amount|float|The amount of said liquid.|
 
 
@@ -2579,8 +2579,8 @@ Weapons are used by units and mechs alike. A weapon is a type used to shoot bull
 |name|String|&#xa0;|used to fetch the sprite of the weapon|
 |nimPlayerDist|float|20|minimum cursor distance from player, fixes 'cross-eyed' shooting.|
 |sequenceNum|int|0|&#xa0;|
-|bullet|[BulletType](#BulletType)|&#xa0;|bullet shot|
-|ejectEffect|[Effect](#Effect)|none|shell ejection effect|
+|bullet|[BulletType](#bullettype)|&#xa0;|bullet shot|
+|ejectEffect|[Effect](#effect)|none|shell ejection effect|
 |reload|float|&#xa0;|weapon reload in frames|
 |shots|int|1|amount of shots per fire|
 |spacing|float|12|spacing in degrees between multiple shots, if applicable|
@@ -2594,7 +2594,7 @@ Weapons are used by units and mechs alike. A weapon is a type used to shoot bull
 |lengthRand|float|0|randomization of shot length|
 |shotDelay|float|0|delay in ticks between shots|
 |ignoreRotation|boolean|false|whether shooter rotation is ignored when shooting.|
-|shootSound|[Sound](#Sound)|pew|&#xa0;|
+|shootSound|[Sound](#sound)|pew|&#xa0;|
 
 Sprite:
 
@@ -2608,7 +2608,7 @@ Extends [Content](#content)
 
 |field|type|default|
 |---|---|---|
-|type|[BaseUnit](#BaseUnit)|&#xa0;|
+|type|[BaseUnit](#baseunit)|&#xa0;|
 |health|float|60|
 |hitsize|float|7|
 |hitsizeTile|float|4|
@@ -2628,7 +2628,7 @@ Extends [Content](#content)
 |itemCapacity|int|30|
 |buildPower|float|0.3|
 |minePower|float|0.7|
-|weapon|[Weapon](#Weapon)|&#xa0;|
+|weapon|[Weapon](#weapon)|&#xa0;|
 |weaponOffsetY|float|&#xa0;|
 |engineOffset|float|&#xa0;|
 |engineSize|float|&#xa0;|
@@ -2645,7 +2645,7 @@ Sprites:
 
 Extends [Content](#content)
 
-Mechs are the player controlled entities. They shoot [bullets](#BulletType) just like turrets from their [weapon](#weapon).
+Mechs are the player controlled entities. They shoot [bullets](#bullettype) just like turrets from their [weapon](#weapon).
 
 |field|type|default|
 |---|---|---|
@@ -2662,7 +2662,7 @@ Mechs are the player controlled entities. They shoot [bullets](#BulletType) just
 |mineSpeed|float|1|
 |drillPower|int|-1|
 |buildPower|float|1|
-|engineColor|[Color](#Color)|boostTo|
+|engineColor|[Color](#color)|boostTo|
 |itemCapacity|int|30|
 |turnCursor|boolean|true|
 |canHeal|boolean|false|
@@ -2671,7 +2671,7 @@ Mechs are the player controlled entities. They shoot [bullets](#BulletType) just
 |weaponOffsetY|float|5|
 |engineOffset|float|5|
 |engineSize|float|2.5|
-|weapon|[Weapon](#Weapon)|null|
+|weapon|[Weapon](#weapon)|null|
 
 Sprites:
 
@@ -2710,17 +2710,17 @@ It is entirely possible to produce a custom schematic, but take note that this s
 
 |field|type|default|notes|
 |---|---|---|---|
-|baseLaunchCost|[ [ItemStack](#ItemStack) ]|&#xa0;|&#xa0;|
-|launchCost|[ [ItemStack](#ItemStack) ]|&#xa0;|&#xa0;|
-|startingItems|[ [ItemStack](#ItemStack) ]|&#xa0;|Items you start with on the map.|
+|baseLaunchCost|[ [ItemStack](#itemstack) ]|&#xa0;|&#xa0;|
+|launchCost|[ [ItemStack](#itemstack) ]|&#xa0;|&#xa0;|
+|startingItems|[ [ItemStack](#itemstack) ]|&#xa0;|Items you start with on the map.|
 |conditionWave|int||&#xa0;|
 |alwaysUnlocked|boolean|false|Whether this map is always unlocked|
 |launchPeriod|int|10|Rate of waves at which the core may be launched.|
-|loadout|[Schematic](#Schematic)|basicShard|Core layout placed by MapGenerators.|
-|resources|[ String ]|&#xa0;|Array of [item](#Item) names.|
-|requirements|[ [Objective](#Objective) ]|&#xa0;|An array of requirements to unlock configuration.|
-|configureObjective|[Objective](#Objective)|ZoneWave 15|&#xa0;|
-|defaultStartingItems|[ [ItemStack](#ItemStack) ]|&#xa0;|&#xa0;|
+|loadout|[Schematic](#schematic)|basicShard|Core layout placed by MapGenerators.|
+|resources|[ String ]|&#xa0;|Array of [item](#item) names.|
+|requirements|[ [Objective](#objective) ]|&#xa0;|An array of requirements to unlock configuration.|
+|configureObjective|[Objective](#objective)|ZoneWave 15|&#xa0;|
+|defaultStartingItems|[ [ItemStack](#itemstack) ]|&#xa0;|&#xa0;|
 
 Sprites:
 
@@ -2776,9 +2776,9 @@ Built-in zones:
 |damageMultiplier|float|1|&#xa0;|
 |armorMultiplier|float|1|&#xa0;|
 |speedMultiplier|float|1|&#xa0;|
-|color|[Color](#Color)|white|&#xa0;|
+|color|[Color](#color)|white|&#xa0;|
 |damage|float|&#xa0;|Damage (or healing) per frame.|
-|effect|[Effect](#Effect)|none|Random effect (0.15% per frame), on affected units.|
+|effect|[Effect](#effect)|none|Random effect (0.15% per frame), on affected units.|
 
 -   opposites: effect which reduces anothers lifetime.
 
@@ -2918,7 +2918,7 @@ Flags used by for cache render:
 
 ## BulletType
 
-[Abstract](#FAQ) type which extends [Content](#content)
+[Abstract](#faq) type which extends [Content](#content)
 
 BulletType can either be an object `{}` or a `"string"`, where a string would be reusing [Built-in Bullets](#built-in-bullets) and an object would be making a custom one.
 
@@ -2967,10 +2967,10 @@ Here's an example of a custom bullet:
 |drawSize|float|40|&#xa0;|
 |drag|float|0|decelleration per tick|
 |pierce|boolean|&#xa0;|whether it can collide|
-|hitEffect|[Effect](#Effect)|&#xa0;|created when bullet hits something|
-|despawnEffect|[Effect](#Effect)|&#xa0;|created when bullet despawns|
-|shootEffect|[Effect](#Effect)|&#xa0;|created when shooting|
-|smokeEffect|[Effect](#Effect)|&#xa0;|created when shooting|
+|hitEffect|[Effect](#effect)|&#xa0;|created when bullet hits something|
+|despawnEffect|[Effect](#effect)|&#xa0;|created when bullet despawns|
+|shootEffect|[Effect](#effect)|&#xa0;|created when shooting|
+|smokeEffect|[Effect](#effect)|&#xa0;|created when shooting|
 |hitSound|Sound|&#xa0;|made when hitting something or getting removed|
 |inaccuracy|float|0|extra inaccuracy|
 |ammoMultiplier|float|2|how many bullets get created per item/liquid|
@@ -2978,7 +2978,7 @@ Here's an example of a custom bullet:
 |recoil|float|&#xa0;|recoil from shooter entities|
 |knockback|float|&#xa0;|Knockback in velocity.|
 |hitTiles|boolean|true|Whether this bullet hits tiles.|
-|status|[StatusEffect](#StatusEffect)|none|Status effect applied on hit.|
+|status|[StatusEffect](#statuseffect)|none|Status effect applied on hit.|
 |statusDuration|float|600|Intensity of applied status effect in terms of duration.|
 |collidesTiles|boolean|true|Whether this bullet type collides with tiles.|
 |collidesTeam|boolean|false|Whether this bullet type collides with tiles that are of the same team.|
@@ -2988,7 +2988,7 @@ Here's an example of a custom bullet:
 |fragBullets|int|9|Number of frag bullets created.|
 |fragVelocityMin|float|0.2|Minimum random multiplier.|
 |fragVelocityMax|float|1|Maximum random multiplier.|
-|fragBullet|[BulletType](#BulletType)|null|The frag bullet that will be created, may be a string, an object or null. If field is null, no frag bullet is created.|
+|fragBullet|[BulletType](#bullettype)|null|The frag bullet that will be created, may be a string, an object or null. If field is null, no frag bullet is created.|
 |splashDamage|float|0|Area of effect damage when the bullet despawns or hits a target. Damage is calculated with [linear interpolation](https://en.wikipedia.org/wiki/Linear_interpolation), also known as lerp.|
 |splashDamageRadius|float|-1|Use a negative value to disable splash damage. `splashDamageRadius` is a value used in the equation `lerp(1 - distance / radius, 1, 0.4)` which is a multiplier for `splashDamage`.|
 |incendAmount|int|0|&#xa0;|
@@ -3020,8 +3020,8 @@ This types purpose is to give basic bullets their sprites. The `bulletSprite` wi
 |bulletWidth|float|5|&#xa0;|
 |bulletHeight|float|7|&#xa0;|
 |bulletShrink|float|0.5|Used to squishify the bullet as it gets closer to the target, where `0` is no shrink `-0.5` is stretching and `0.5` is shrinking.|
-|frontColor|[Color](#Color)|bulletYellow|Color of front sprite.|
-|backColor|[Color](#Color)|bulletYellowBack|Color of back sprite.|
+|frontColor|[Color](#color)|bulletYellow|Color of front sprite.|
+|backColor|[Color](#color)|bulletYellowBack|Color of back sprite.|
 |bulletSprite|String|bullet|Mapping sprite used to make the shape of the bullet.|
 
 Sprites:
@@ -3048,7 +3048,7 @@ Makes special calculations to give the effect that the bullet is going up and ba
 
 |field|type|default|
 |---|---|---|
-|trailEffect|[Effect](#Effect)|artilleryTrail|
+|trailEffect|[Effect](#effect)|artilleryTrail|
 
 Defaults:
 
@@ -3093,7 +3093,7 @@ Weave is simple a sin wave with the following equation.
 
 |field|type|default|notes|
 |---|---|---|---|
-|trailColor|[Color](#Color)|missileYellowBack|Color of the trail effect.|
+|trailColor|[Color](#color)|missileYellowBack|Color of the trail effect.|
 |weaveScale|float|0|A larger `weaveScale` means a longer wave.|
 |weaveMag|float|-1|A higher `weaveMag` means a higher (wider) wave.|
 
@@ -3150,7 +3150,7 @@ Extends [BulletType](#bullettype)
 
 |field|type|default|notes|
 |---|---|---|---|
-|liquid|String|null|**[required]** name of [Liquid](#Liquid)|
+|liquid|String|null|**[required]** name of [Liquid](#liquid)|
 
 Defaults:
 
@@ -3260,20 +3260,20 @@ Types which implement Objective are as follows:
     
     |field|type|notes|
     |---|---|---|
-    |zone|String|target [Zone](#Zone) name|
+    |zone|String|target [Zone](#zone) name|
     |wave|int|target wave to reach|
 
 -   `Launched` &#x2013; complete if core launched from `zone`
     
     |field|type|notes|
     |---|---|---|
-    |zone|String|target [Zone](#Zone) name|
+    |zone|String|target [Zone](#zone) name|
 
 -   `Unlock` &#x2013; complete if `block` is unlocked
     
     |field|type|notes|
     |---|---|---|
-    |block|String|target [Block](#Block) name|
+    |block|String|target [Block](#block) name|
 
 
 
