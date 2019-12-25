@@ -2941,13 +2941,13 @@ Here's an example of a custom bullet:
         "homingRange": 20,
         "fragBullets": 3,
         "fragBullet": {
-            "type": "LiquidBulletType"
+            "type": "LiquidBulletType",
             "liquid": "oil",
             "lifetime": 2,
             "speed": 1,
             "fragBullets": 2,
             "fragBullet": {
-                "type": "LiquidBulletType"
+                "type": "LiquidBulletType",
                 "liquid": "slag",
                 "lifetime": 1,
                 "speed": 2,
@@ -3186,7 +3186,7 @@ Defaults:
 ### Built-in Bullets
 
 -   artillery:
-    -   `artilleryDense` `arilleryPlastic` `artilleryPlasticFrag` `artilleryHoming` `artlleryIncendiary` `artilleryExplosive` `artilleryUnit`
+    -   `artilleryDense` `artilleryPlastic` `artilleryPlasticFrag` `artilleryHoming` `artlleryIncendiary` `artilleryExplosive` `artilleryUnit`
 -   flak:
     -   `flakScrap` `flakLead` `flakPlastic` `flakExplosive` `flakSurge` `flakGlass` `glassFrag`
 -   missiles:
