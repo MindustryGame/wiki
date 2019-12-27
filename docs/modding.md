@@ -1,11 +1,13 @@
 
 # Modding
 
-Mindustry mods are simply directories of assests. You reuse existing types and can use different values to initialize them, and you can even overwrite initialization of vanilla content.
+Mindustry mods are simply directories of assests. There are many ways to use the modding API, depending on exactly what you want to do, and how far you're willing to go to do it.
 
-You can add custom sprites and sounds; sharing your mod is as simple as giving someone your project directory; mods are also cross platfrom to any platform that supports them.
+You could just resprite existing game content, you can create new game content with the simpler Json API (which is the main focus of this documentation), you can add custom sounds (or reuse existing ones). It's possible to add maps to compaing mode, and add scripts to program special behavior into your mod, like custom effects. 
 
-It is also now possible to put schematics into mods
+Sharing your mod is as simple as giving someone your project directory; mods are also cross platfrom to any platform that supports them. Realistically speaking you'll want to use GitHub.
+
+To make mods all you really need is any computer with a text editor.
 
 
 
@@ -30,7 +32,15 @@ Your project directory should look something like this:
     ├── sprites-override
     └── sprites
 
-*(only the `mod.json` file is required)*
+-   [`mod.json`](#modjson) (required) metadata file for your mod,
+-   `content/*` directories for game [Content](#content),
+-   `maps/` directory for [Zone](#zone) maps,
+-   `bundles/` directory for [Bundles](#bundles),
+-   `sounds/` directory for [Sound](#sound) files,
+-   `schematics/` directory for [Schematic](#schematic) files,
+-   `scripts/` directory for [Scripts](#scripts),
+-   `sprites-override/` [Sprites](#sprites) directory for overriding ingame content,
+-   `sprites/` [Sprites](#sprites) directory for your content,
 
 Every platform has a different user application data directory, and this is where your mods should be placed:
 
@@ -39,7 +49,7 @@ Every platform has a different user application data directory, and this is wher
 -   Windows: `%appdata%/Mindustry/mods/`
 -   Apple: `~/Library/Application Support/Mindustry/mods/`
 
-**Note;** your filenames should be lowercased and hyphen separated:
+*Note that your filenames should be lowercased and hyphen separated:*
 
 -   correct: `my-custom-block.json`
 -   incorrect: `My Custom Block.json`
@@ -48,7 +58,7 @@ Every platform has a different user application data directory, and this is wher
 
 ## Hjson
 
-Mindustry uses [Hjson](https://hjson.org/), which is a superset of the very popular serialization language known as Json. This means that any valid Json will work, but you get extra useful stuff:
+Mindustry uses [Hjson](https://hjson.org/), which for anyone who knows Json, is simply a superset of the very popular serialization language known as [Json](https://en.wikipedia.org/wiki/JSON). &#x2013; This means that any valid Json will work, but you get extra useful stuff:
 
     # single line comment
     
@@ -72,13 +82,13 @@ Mindustry uses [Hjson](https://hjson.org/), which is a superset of the very popu
     key4: { key1: string
             key2: 0 }
 
-**[new [Nov 22](#2d4270406)]** Files may have either a `.json` or `.hjson` extension.
+If you don't know any of those words. &#x2013; A serialization language, is simply a language which encodes information for a program, and *encode* means to translate informantion from one form to another, and in this case, to translate text into Java data structures.
 
 
 
 ## `mod.json`
 
-At the root of your project directory, you must have a `mod.json` which defines the basic metadata for your project.
+At the root of your project directory, you must have a `mod.json` which defines the basic metadata for your project. This file can also be (optionally) named `mod.hjson` to potentially help your text editor pick better syntax highlighting.
 
     name: Mod Name
     displayName: Mod [red]Name[]
@@ -87,8 +97,6 @@ At the root of your project directory, you must have a `mod.json` which defines 
     version: "1.0"
     minGameVersion: "100.3"
     dependencies: [ ]
-
-Notes:
 
 -   `name` will be used to reference to your mod, so name it carefully;
 -   `displayName` this will be used as a display name for the UI, which you can use to add formatting to said name;
@@ -100,9 +108,7 @@ Notes:
 
 ## Content
 
-**[new [Nov 22](#2d4270406)]** *file extension `.hjson` now supported*
-
-At the root of your project directory you can have a `content/` directory, this is where all the JSON/HJSON data goes for your content, and in this directory you have subdirectories for the various content types, these are the current common ones:
+At the root of your project directory you can have a `content/` directory, and this is where all the Json/Hjson data goes. Inside of `content/` you have subdirectories for the various kinds of content, these are the current common ones:
 
 -   `content/items/` for [items](#item), like `copper` and `surge-alloy`;
 -   `content/blocks/` for [blocks](#block), like turrets and floors;
@@ -111,13 +117,14 @@ At the root of your project directory you can have a `content/` directory, this 
 -   `content/units/` for flying or ground [units](#unittype), like `reaper` and `dagger`;
 -   `content/zones/` for [zones](#zone), configuration of campaign maps.
 
-This is important, because it's how Mindustry will know which types to lookup. &#x2013; How you name your files is also important as the stem `name` of your path `content/blocks/<name>.json` is going to be used to reference it.
+Note that each one of these subdirectories needs a specific content type. The filenames of these files is important, because the stem name of your path *(filename without the extension)* is used to reference it.
 
-The content of these files should look as follows:
+The content of these files will tend to look something like this:
 
     type: TypeOfThing
     name: Name Of Thing
     description: Description of thing.
+    # ... more fields here ...
 
 |field|type|notes|
 |---|---|---|
@@ -125,7 +132,7 @@ The content of these files should look as follows:
 |name|String|Displayed name of content.|
 |description|String|Displayed description of content.|
 
-Other fields included would be the fields of the `type` in question.
+Other fields included will be the fields of the type itself.
 
 
 
