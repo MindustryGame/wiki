@@ -2967,7 +2967,7 @@ Here's an example of a custom bullet:
 
 |field|type|default|notes|
 |---|---|---|---|
-|lifetime|float|&#xa0;|amount of ticks it will lasts|
+|lifetime|float|&#xa0;|amount of ticks the bullet will last|
 |speed|float|&#xa0;|inital speed of bullet|
 |damage|float|&#xa0;|collision damage|
 |hitSize|float|4|collision radius|
