@@ -1,7 +1,7 @@
 # <img id="spr" src="/wiki/images/item-graphite.png"></img> Graphite 
 
 
-*"Mineralized carbon, used for ammunition and electrical insulation."*  
+*"Mineralized carbon, used for ammunition and electrical components."*  
 
 | Property      | Value |
 | ----------- | ----------- |
