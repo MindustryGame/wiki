@@ -2776,9 +2776,9 @@ Built-in zones:
 
 ## StatusEffect
 
-*Not be be confused with [Effect](#effect)*, a status effect will give an entity special properties. It is currently **not possible to add custom status effects**. &#x2013; Status effects are used as transitions between intermediate effects. If some a `wet` unit gets `shocked` it then gets 20 damage.
+*Not be be confused with [Effect](#effect)*, a status effect will give an entity special properties. Status effects are used as transitions between intermediate effects. If some a `wet` unit gets `shocked` it then gets 20 damage.
 
-|field|type|default|&#xa0;|
+|field|type|default|notes|
 |---|---|---|---|
 |damageMultiplier|float|1|&#xa0;|
 |armorMultiplier|float|1|&#xa0;|
