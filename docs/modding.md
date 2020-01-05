@@ -119,6 +119,10 @@ At the root of your project directory you can have a `content/` directory, and t
 
 Note that each one of these subdirectories needs a specific content type. The filenames of these files is important, because the stem name of your path *(filename without the extension)* is used to reference it.
 
+[ **new** [Jan 03](#62b2b25ee474fcf44aa86832c1373b38e16d703d) ] Furthermore the files within these `content/<content-type>/*` directories may be arbitrarly nested into other sub-directories of any name, to help you organize them further, for example:
+
+-   `content/items/metals/iron.hjson`, which would respectively create an item named `iron`.
+
 The content of these files will tend to look something like this:
 
     type: TypeOfThing
@@ -508,7 +512,23 @@ This is a log of changes done on the Mindustry Master branch that affected the m
 
 
 
-### Dec 09
+### 2020
+
+
+
+#### Jan 03
+
+[ [commit](https://github.com/Anuken/Mindustry/pull/1313/commits/62b2b25ee474fcf44aa86832c1373b38e16d703d) use findAll to iterate through mod content ]
+
+-   `content/` support for organizing `.hjson` files into directories;
+
+
+
+### 2019
+
+
+
+#### Dec 09
 
 [ [commit](https://github.com/Anuken/Mindustry/commit/74dc31b10a82763d4f1ff29d32ae430ee87b9def)  Removed unnecessary unit types ]
 
@@ -522,7 +542,7 @@ This is a log of changes done on the Mindustry Master branch that affected the m
 
 
 
-### Dec 08
+#### Dec 08
 
 [ [commit](https://github.com/Anuken/Mindustry/commit/268f3cc3c) Merge branches `master` and `rhino-js-suffering` ]
 
@@ -531,7 +551,7 @@ This is a log of changes done on the Mindustry Master branch that affected the m
 
 
 
-### Dec 04
+#### Dec 04
 
 [ [commit](https://github.com/Anuken/Mindustry/commit/a087df077) Added experimental server block syncing ]
 
@@ -539,7 +559,7 @@ This is a log of changes done on the Mindustry Master branch that affected the m
 
 
 
-### Nov 26
+#### Nov 26
 
 [ [commit](https://github.com/Anuken/Mindustry/commit/a5fbc0756) Texture overrides / Potential mod texture binding optimizations ]
 
@@ -547,7 +567,7 @@ This is a log of changes done on the Mindustry Master branch that affected the m
 
 
 
-### Nov 22
+#### Nov 22
 
 [ [commit](https://github.com/Anuken/Mindustry/commit/2d4270406) Switched to hjson extension ]
 
@@ -555,7 +575,7 @@ This is a log of changes done on the Mindustry Master branch that affected the m
 
 
 
-### Nov 22
+#### Nov 22
 
 [ [commit](https://github.com/Anuken/Mindustry/commit/2c61fcdfa) Added optional mod minimum game version ]
 
@@ -563,7 +583,7 @@ This is a log of changes done on the Mindustry Master branch that affected the m
 
 
 
-### Nov 20
+#### Nov 20
 
 [ [commit](https://github.com/Anuken/Mindustry/commit/968f3ace3) Better mod parsing ]
 
