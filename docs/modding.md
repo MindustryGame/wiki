@@ -5,7 +5,7 @@ Mindustry mods are simply directories of assests. There are many ways to use the
 
 You could just resprite existing game content, you can create new game content with the simpler Json API (which is the main focus of this documentation), you can add custom sounds (or reuse existing ones). It's possible to add maps to compaing mode, and add scripts to program special behavior into your mod, like custom effects. 
 
-Sharing your mod is as simple as giving someone your project directory; mods are also cross platfrom to any platform that supports them. Realistically speaking you'll want to use GitHub.
+Sharing your mod is as simple as giving someone your project directory; mods are also cross platfrom to any platform that supports them. Realistically speaking you'll want to use [GitHub](#github), you should also checkout the Example Mod repository on GitHub: <https://github.com/Anuken/ExampleMod>
 
 To make mods all you really need is any computer with a text editor.
 
@@ -491,6 +491,16 @@ For example:
                         "titanium/30" ]
         
         consumes: { items: { items: [ "scrap/10" ] } }
+
+
+
+## GitHub
+
+Once you have a mod of some kind, you'll want to actually share it, and you may even want to work with other people on it, and to do that you can use [GitHub](https://github.com/). If you don't know what Git (or GitHub) is at all, then you should look into [GitHub Desktop](https://desktop.github.com/), otherwise simply use your favorite command line tool or text editor plugin. 
+
+In either cases you'll need to learn how to use Git, and all you need understand is how to open repositories on GitHub, stage changes in your local repo, commit said changes to said repo, and push changes to the remote repository on GitHub. 
+
+You should have a `README.md` at the root of your project, describing what your mod is and what it does. The readme is the first thing people will see when they open your GitHub project page, and as such you can also add screenshots of gameplay to it with Markdown image links `![](header.png)`. If you want it to be searchable and show up on the Discord `#mods` channel, you should add the topic/tag `mindustry-mod` on your repository. 
 
 
 
@@ -1537,6 +1547,23 @@ Sprite suffix:
 ### ArmoredConveyor
 
 Extends [Conveyor](#conveyor)  -A type of conveyor don't accept item coming from side
+
+
+
+### Router
+
+Extends [Block](#block)
+
+Defaults:
+
+|field|default|
+|---|---|
+|solid|true|
+|update|true|
+|hasItems|true|
+|itemCapacity|1|
+|group|transportation|
+|uploadable|false|
 
 
 
