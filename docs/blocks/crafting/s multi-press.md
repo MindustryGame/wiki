@@ -1,11 +1,11 @@
 # <img id="spr" src="/wiki/images/block-multi-press-large.png"></img> Multi-Press
 
-*"An upgraded version of the graphite press. Employs water and power to process coal quickly and efficiently."*
+*"An upgraded version of the silicon press. Employs water and power to process sand and coal quickly and efficiently."*
 
 
 |General||
 | --- | --- |
-|Internal Name|`multi-press`|
+|Internal Name|`silicon-smelter`|
 |Solid|Yes|
 |Health|60    |
 |Size|3x3  |
@@ -27,7 +27,7 @@
 |Input/Output||
 | --- | --- |
 |Input|<a href="/wiki/items/coal"><img id="spr" src="/wiki/images/item-coal-xlarge.png"/></a>x3  <a href="/wiki/liquids/water"><img id="spr" src="/wiki/images/liquid-water.png"/></a>x3  |
-|Output|<a href="/wiki/items/graphite"><img id="spr" src="/wiki/images/item-graphite-xlarge.png"/></a>x2  |
+|Output|<a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x2  |
 |Production Time|0.5  seconds  |
 
 
