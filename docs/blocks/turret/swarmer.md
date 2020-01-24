@@ -24,11 +24,11 @@
 |Shots/Second|1.5    |
 |Targets Air|Yes  |
 |Targets Ground|Yes  |
-|Ammo|![blast-compound1](../../images/blast-compound1.png) Blast Compound <br> • **10** damage <br> • **30** area dmg ~** 3.8** tiles <br> • **4**x ammo multiplier <br> • **homing** <br>![pyratite1](../../images/pyratite1.png) Pyratite <br> • **12** damage <br> • **10** area dmg ~** 1.3** tiles <br> • **2**x ammo multiplier <br> • **incendiary** <br> • **homing** <br>![surge-alloy1](../../images/surge-alloy1.png) Surge Alloy <br> • **15** damage <br> • **22** area dmg ~** 3.8** tiles <br> • **2**x ammo multiplier <br> • **homing** <br> • **shock** <br> |
+|Ammo|![item-blast-compound-medium](/wiki/images/item-blast-compound-medium.png) Blast Compound <br> • **10** damage <br> • **30** area dmg ~** 3.8** tiles <br> • **4**x ammo multiplier <br> • **homing** <br>![item-pyratite-medium](/wiki/images/item-pyratite-medium.png) Pyratite <br> • **12** damage <br> • **10** area dmg ~** 1.3** tiles <br> • **2**x ammo multiplier <br> • **incendiary** <br> • **homing** <br>![item-surge-alloy-medium](/wiki/images/item-surge-alloy-medium.png) Surge Alloy <br> • **15** damage <br> • **22** area dmg ~** 3.8** tiles <br> • **2**x ammo multiplier <br> • **homing** <br> • **shock** <br> |
 
 |Optional Enhancements||
 | --- | --- |
-|Booster|<a href="/wiki/liquids/water"><img id="spr" src="/wiki/images/liquid-water.png"/></a>12/sec / <a href="/wiki/liquids/cryofluid"><img id="spr" src="/wiki/images/liquid-cryofluid.png"/></a>12/sec  ![water1](../../images/water1.png) Water <br> • **1.4**x fire rate ![cryofluid1](../../images/cryofluid1.png) Cryofluid <br> • **1.9**x fire rate <br> |
+|Booster|<a href="/wiki/liquids/water"><img id="spr" src="/wiki/images/liquid-water.png"/></a>12/sec / <a href="/wiki/liquids/cryofluid"><img id="spr" src="/wiki/images/liquid-cryofluid.png"/></a>12/sec  ![liquid-water-medium](/wiki/images/liquid-water-medium.png) Water <br> • **1.4**x fire rate ![liquid-cryofluid-medium](/wiki/images/liquid-cryofluid-medium.png) Cryofluid <br> • **1.9**x fire rate <br> |
 
 
 --- 

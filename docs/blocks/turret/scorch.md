@@ -24,11 +24,11 @@
 |Shots/Second|12    |
 |Targets Air|No  |
 |Targets Ground|Yes  |
-|Ammo|![coal1](../../images/coal1.png) Coal <br> • **6** damage <br> • **3**x ammo multiplier <br> • **incendiary** <br>![pyratite1](../../images/pyratite1.png) Pyratite <br> • **9** damage <br> • **4**x ammo multiplier <br> • **incendiary** <br> |
+|Ammo|![item-coal-medium](/wiki/images/item-coal-medium.png) Coal <br> • **6** damage <br> • **3**x ammo multiplier <br> • **incendiary** <br>![item-pyratite-medium](/wiki/images/item-pyratite-medium.png) Pyratite <br> • **9** damage <br> • **4**x ammo multiplier <br> • **incendiary** <br> |
 
 |Optional Enhancements||
 | --- | --- |
-|Booster|<a href="/wiki/liquids/water"><img id="spr" src="/wiki/images/liquid-water.png"/></a>12/sec / <a href="/wiki/liquids/cryofluid"><img id="spr" src="/wiki/images/liquid-cryofluid.png"/></a>12/sec  ![water1](../../images/water1.png) Water <br> • **1.2**x fire rate ![cryofluid1](../../images/cryofluid1.png) Cryofluid <br> • **1.4**x fire rate <br> |
+|Booster|<a href="/wiki/liquids/water"><img id="spr" src="/wiki/images/liquid-water.png"/></a>12/sec / <a href="/wiki/liquids/cryofluid"><img id="spr" src="/wiki/images/liquid-cryofluid.png"/></a>12/sec  ![liquid-water-medium](/wiki/images/liquid-water-medium.png) Water <br> • **1.2**x fire rate ![liquid-cryofluid-medium](/wiki/images/liquid-cryofluid-medium.png) Cryofluid <br> • **1.4**x fire rate <br> |
 
 
 --- 

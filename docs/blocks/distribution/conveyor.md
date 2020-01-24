@@ -15,7 +15,7 @@
 |Items||
 | --- | --- |
 |Item Capacity|4  items  |
-|Move Speed|4.5  items/second  |
+|Move Speed|4.2  items/second  |
 
 
 --- 

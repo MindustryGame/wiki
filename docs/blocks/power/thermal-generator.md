@@ -16,6 +16,10 @@
 | --- | --- |
 |Base Power Generation|108  power units/second  |
 
+|Input/Output||
+| --- | --- |
+|Required Tiles|![block-hotrock-small](/wiki/images/block-hotrock-small.png) Hot Rock  ![block-magmarock-small](/wiki/images/block-magmarock-small.png) Magma Rock  |
+
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)

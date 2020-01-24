@@ -24,7 +24,7 @@
 |Shots/Second|30    |
 |Targets Air|Yes  |
 |Targets Ground|Yes  |
-|Ammo|![water1](../../images/water1.png) Water <br> • **2**x ammo multiplier <br> • **0.7** knockback <br>![slag1](../../images/slag1.png) Slag <br> • **4** damage <br> • **2**x ammo multiplier <br> • **0.6** knockback <br> • **incendiary** <br>![cryofluid1](../../images/cryofluid1.png) Cryofluid <br> • **2**x ammo multiplier <br> • **0.6** knockback <br> • **freezing** <br>![oil1](../../images/oil1.png) Oil <br> • **2**x ammo multiplier <br> • **0.6** knockback <br> • **tarred** <br> |
+|Ammo|![liquid-water-medium](/wiki/images/liquid-water-medium.png) Water <br> • **2**x ammo multiplier <br> • **0.7** knockback <br>![liquid-slag-medium](/wiki/images/liquid-slag-medium.png) Slag <br> • **4** damage <br> • **2**x ammo multiplier <br> • **0.6** knockback <br> • **incendiary** <br>![liquid-cryofluid-medium](/wiki/images/liquid-cryofluid-medium.png) Cryofluid <br> • **2**x ammo multiplier <br> • **0.6** knockback <br> • **freezing** <br>![liquid-oil-medium](/wiki/images/liquid-oil-medium.png) Oil <br> • **2**x ammo multiplier <br> • **0.6** knockback <br> • **tarred** <br> |
 
 
 --- 

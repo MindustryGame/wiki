@@ -24,6 +24,10 @@
 | --- | --- |
 |Output|<a href="/wiki/liquids/water"><img id="spr" src="/wiki/images/liquid-water.png"/></a>7.8/sec  |
 
+|Optional Enhancements||
+| --- | --- |
+|Affinities|![block-snow-small](/wiki/images/block-snow-small.png) Snow  ![block-ice-small](/wiki/images/block-ice-small.png) Ice  ![block-ice-snow-small](/wiki/images/block-ice-snow-small.png) Ice Snow  |
+
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)

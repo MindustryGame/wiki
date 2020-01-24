@@ -24,11 +24,11 @@
 |Shots/Second|1    |
 |Targets Air|No  |
 |Targets Ground|Yes  |
-|Ammo|![graphite1](../../images/graphite1.png) Graphite <br> • **33** area dmg ~** 3.1** tiles <br> • **2**x ammo multiplier <br> • **0.8** knockback <br>![silicon1](../../images/silicon1.png) Silicon <br> • **33** area dmg ~** 3.1** tiles <br> • **2**x ammo multiplier <br> • **0.8** knockback <br> • **homing** <br>![pyratite1](../../images/pyratite1.png) Pyratite <br> • **30** area dmg ~** 3.1** tiles <br> • **2**x ammo multiplier <br> • **0.8** knockback <br> • **incendiary** <br> |
+|Ammo|![item-graphite-medium](/wiki/images/item-graphite-medium.png) Graphite <br> • **33** area dmg ~** 3.1** tiles <br> • **2**x ammo multiplier <br> • **0.8** knockback <br>![item-silicon-medium](/wiki/images/item-silicon-medium.png) Silicon <br> • **33** area dmg ~** 3.1** tiles <br> • **2**x ammo multiplier <br> • **0.8** knockback <br> • **homing** <br>![item-pyratite-medium](/wiki/images/item-pyratite-medium.png) Pyratite <br> • **30** area dmg ~** 3.1** tiles <br> • **2**x ammo multiplier <br> • **0.8** knockback <br> • **incendiary** <br> |
 
 |Optional Enhancements||
 | --- | --- |
-|Booster|<a href="/wiki/liquids/water"><img id="spr" src="/wiki/images/liquid-water.png"/></a>12/sec / <a href="/wiki/liquids/cryofluid"><img id="spr" src="/wiki/images/liquid-cryofluid.png"/></a>12/sec  ![water1](../../images/water1.png) Water <br> • **1.4**x fire rate ![cryofluid1](../../images/cryofluid1.png) Cryofluid <br> • **1.9**x fire rate <br> |
+|Booster|<a href="/wiki/liquids/water"><img id="spr" src="/wiki/images/liquid-water.png"/></a>12/sec / <a href="/wiki/liquids/cryofluid"><img id="spr" src="/wiki/images/liquid-cryofluid.png"/></a>12/sec  ![liquid-water-medium](/wiki/images/liquid-water-medium.png) Water <br> • **1.4**x fire rate ![liquid-cryofluid-medium](/wiki/images/liquid-cryofluid-medium.png) Cryofluid <br> • **1.9**x fire rate <br> |
 
 
 --- 

@@ -22,7 +22,7 @@
 
 |Input/Output||
 | --- | --- |
-|Drillables|![sand1](../../images/sand1.png) Sand ![darksand1](../../images/darksand1.png) Dark Sand ![ore-copper1](../../images/ore-copper1.png) Copper ![ore-lead1](../../images/ore-lead1.png) Lead ![ore-scrap1](../../images/ore-scrap1.png) Scrap ![ore-coal1](../../images/ore-coal1.png) Coal  |
+|Drillables|![block-sand-small](/wiki/images/block-sand-small.png) Sand ![block-darksand-small](/wiki/images/block-darksand-small.png) Dark Sand ![block-ore-copper-small](/wiki/images/block-ore-copper-small.png) Copper ![block-ore-lead-small](/wiki/images/block-ore-lead-small.png) Lead ![block-ore-scrap-small](/wiki/images/block-ore-scrap-small.png) Scrap ![block-ore-coal-small](/wiki/images/block-ore-coal-small.png) Coal  |
 |Base Drill Speed|0.4  items/second  |
 
 |Optional Enhancements||

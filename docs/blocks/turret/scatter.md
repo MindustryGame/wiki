@@ -24,11 +24,11 @@
 |Shots/Second|3.33    |
 |Targets Air|Yes  |
 |Targets Ground|No  |
-|Ammo|![scrap1](../../images/scrap1.png) Scrap <br> • **3** damage <br> • **22** area dmg ~** 3.0** tiles <br> • **5**x ammo multiplier <br> • **0.5**x fire rate <br>![lead1](../../images/lead1.png) Lead <br> • **3** damage <br> • **27** area dmg ~** 1.9** tiles <br> • **4**x ammo multiplier <br>![metaglass1](../../images/metaglass1.png) Metaglass <br> • **3** damage <br> • **30** area dmg ~** 3.3** tiles <br> • **5**x ammo multiplier <br> • **0.8**x fire rate <br> • **frag** <br> |
+|Ammo|![item-scrap-medium](/wiki/images/item-scrap-medium.png) Scrap <br> • **3** damage <br> • **22** area dmg ~** 3.0** tiles <br> • **5**x ammo multiplier <br> • **0.5**x fire rate <br>![item-lead-medium](/wiki/images/item-lead-medium.png) Lead <br> • **3** damage <br> • **27** area dmg ~** 1.9** tiles <br> • **4**x ammo multiplier <br>![item-metaglass-medium](/wiki/images/item-metaglass-medium.png) Metaglass <br> • **3** damage <br> • **30** area dmg ~** 3.3** tiles <br> • **5**x ammo multiplier <br> • **0.8**x fire rate <br> • **frag** <br> |
 
 |Optional Enhancements||
 | --- | --- |
-|Booster|<a href="/wiki/liquids/water"><img id="spr" src="/wiki/images/liquid-water.png"/></a>12/sec / <a href="/wiki/liquids/cryofluid"><img id="spr" src="/wiki/images/liquid-cryofluid.png"/></a>12/sec  ![water1](../../images/water1.png) Water <br> • **1.4**x fire rate ![cryofluid1](../../images/cryofluid1.png) Cryofluid <br> • **1.9**x fire rate <br> |
+|Booster|<a href="/wiki/liquids/water"><img id="spr" src="/wiki/images/liquid-water.png"/></a>12/sec / <a href="/wiki/liquids/cryofluid"><img id="spr" src="/wiki/images/liquid-cryofluid.png"/></a>12/sec  ![liquid-water-medium](/wiki/images/liquid-water-medium.png) Water <br> • **1.4**x fire rate ![liquid-cryofluid-medium](/wiki/images/liquid-cryofluid-medium.png) Cryofluid <br> • **1.9**x fire rate <br> |
 
 
 --- 

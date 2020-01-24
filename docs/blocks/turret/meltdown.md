@@ -22,7 +22,7 @@
 
 |Input/Output||
 | --- | --- |
-|Input|<a href="/wiki/liquids/water"><img id="spr" src="/wiki/images/liquid-water.png"/></a>30/sec / <a href="/wiki/liquids/cryofluid"><img id="spr" src="/wiki/images/liquid-cryofluid.png"/></a>30/sec  ![water1](../../images/water1.png) Water <br> • **1.0**x fire rate ![cryofluid1](../../images/cryofluid1.png) Cryofluid <br> • **2.3**x fire rate <br> |
+|Input|<a href="/wiki/liquids/water"><img id="spr" src="/wiki/images/liquid-water.png"/></a>30/sec / <a href="/wiki/liquids/cryofluid"><img id="spr" src="/wiki/images/liquid-cryofluid.png"/></a>30/sec  ![liquid-water-medium](/wiki/images/liquid-water-medium.png) Water <br> • **1.0**x fire rate ![liquid-cryofluid-medium](/wiki/images/liquid-cryofluid-medium.png) Cryofluid <br> • **2.3**x fire rate <br> |
 
 |Shooting||
 | --- | --- |

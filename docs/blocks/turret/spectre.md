@@ -24,11 +24,11 @@
 |Shots/Second|10    |
 |Targets Air|Yes  |
 |Targets Ground|Yes  |
-|Ammo|![graphite1](../../images/graphite1.png) Graphite <br> • **42** damage <br> • **2**x ammo multiplier <br>![pyratite1](../../images/pyratite1.png) Pyratite <br> • **38** damage <br> • **2**x ammo multiplier <br> • **incendiary** <br>![thorium1](../../images/thorium1.png) Thorium <br> • **65** damage <br> • **2**x ammo multiplier <br> |
+|Ammo|![item-graphite-medium](/wiki/images/item-graphite-medium.png) Graphite <br> • **42** damage <br> • **2**x ammo multiplier <br>![item-pyratite-medium](/wiki/images/item-pyratite-medium.png) Pyratite <br> • **38** damage <br> • **2**x ammo multiplier <br> • **incendiary** <br>![item-thorium-medium](/wiki/images/item-thorium-medium.png) Thorium <br> • **65** damage <br> • **2**x ammo multiplier <br> |
 
 |Optional Enhancements||
 | --- | --- |
-|Booster|<a href="/wiki/liquids/water"><img id="spr" src="/wiki/images/liquid-water.png"/></a>120/sec / <a href="/wiki/liquids/cryofluid"><img id="spr" src="/wiki/images/liquid-cryofluid.png"/></a>120/sec  ![water1](../../images/water1.png) Water <br> • **1.4**x fire rate ![cryofluid1](../../images/cryofluid1.png) Cryofluid <br> • **1.9**x fire rate <br> |
+|Booster|<a href="/wiki/liquids/water"><img id="spr" src="/wiki/images/liquid-water.png"/></a>120/sec / <a href="/wiki/liquids/cryofluid"><img id="spr" src="/wiki/images/liquid-cryofluid.png"/></a>120/sec  ![liquid-water-medium](/wiki/images/liquid-water-medium.png) Water <br> • **1.4**x fire rate ![liquid-cryofluid-medium](/wiki/images/liquid-cryofluid-medium.png) Cryofluid <br> • **1.9**x fire rate <br> |
 
 
 --- 

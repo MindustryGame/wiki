@@ -30,6 +30,10 @@
 |Output|<a href="/wiki/items/spore-pod"><img id="spr" src="/wiki/images/item-spore-pod-xlarge.png"/></a>x1  |
 |Production Time|2.33  seconds  |
 
+|Optional Enhancements||
+| --- | --- |
+|Affinities|![block-moss-small](/wiki/images/block-moss-small.png) Moss  ![block-spore-moss-small](/wiki/images/block-spore-moss-small.png) Spore Moss  |
+
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)

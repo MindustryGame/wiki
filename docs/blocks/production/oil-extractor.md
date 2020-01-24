@@ -30,6 +30,10 @@
 |Output|<a href="/wiki/liquids/oil"><img id="spr" src="/wiki/images/liquid-oil.png"/></a>15/sec  |
 |Production Time|1.67  seconds  |
 
+|Optional Enhancements||
+| --- | --- |
+|Affinities|![block-shale-small](/wiki/images/block-shale-small.png) Shale  |
+
 
 --- 
 [comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
