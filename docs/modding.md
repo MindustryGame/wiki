@@ -498,9 +498,11 @@ For example:
 
 Once you have a mod of some kind, you'll want to actually share it, and you may even want to work with other people on it, and to do that you can use [GitHub](https://github.com/). If you don't know what Git (or GitHub) is at all, then you should look into [GitHub Desktop](https://desktop.github.com/), otherwise simply use your favorite command line tool or text editor plugin. 
 
-In either cases you'll need to learn how to use Git, and all you need understand is how to open repositories on GitHub, stage changes in your local repo, commit said changes to said repo, and push changes to the remote repository on GitHub. 
+All you need understand is how to open repositories on GitHub, stage and commit changes in your local repository, and push changes to the GitHub repository. Once your project is on GitHub, there are three ways to share it:
 
-You should have a `README.md` at the root of your project, describing what your mod is and what it does. The readme is the first thing people will see when they open your GitHub project page, and as such you can also add screenshots of gameplay to it with Markdown image links `![](header.png)`. If you want it to be searchable and show up on the Discord `#mods` channel, you should add the topic/tag `mindustry-mod` on your repository. 
+-   with the endpoint, for example `Anuken/ExampleMod`, which could then be typed in the ingame GitHub interface, and that would download it;
+-   with the zip file, for example `https://github.com/Anuken/ExampleMod/archive/master.zip`, which would download the repository as a zip file, and put in mod directory (unzipping is not required);
+-   add the typic/tags `mindustry-mod` on your repository, which should cause the `#mods` Discord bot to pick it up and render it in it's listh.
 
 
 
@@ -526,6 +528,63 @@ This is a log of changes done on the Mindustry Master branch that affected the m
 
 
 
+#### Jan 23
+
+[ [commit](https://github.com/Anuken/Mindustry/commit/235142c8698f0d8cd9fc296a2ecabf430d7ea261) implemented #1093 ]
+
+-   added `attribute` to `ThermalGenerator`;
+
+
+
+#### Jan 22
+
+[ [commit](https://github.com/Anuken/Mindustry/commit/a4e820f90733148de4b75f5b60928e0523bf51b3) added default ore flags for modded ores ]
+
+-   added `oreDefault` and `oreScale` to `Floor`;
+
+
+
+#### Jan 19
+
+[ [commit](https://github.com/Anuken/Mindustry/commit/b1df52e0c83ae44f5bd70892fcda5ac2fa69e36c) cleanup of scripts ]
+
+-   added `killShooter` attribute for `BulletType`;
+
+
+
+#### Jan 14
+
+[ [commit](https://github.com/Anuken/Mindustry/commit/eaa86023f9854b6e8d574cbfdd43ee32488b2de5) visual tweaks ]
+
+-   added `-spinner` region to `Separator`;
+-   removed `spinnerRadius`, `spinnerLength`, `spinnerThickness`, `color` from `Separator`;
+
+
+
+#### Jan 08
+
+[ [commit](https://github.com/Anuken/Mindustry/commit/406c11a14d31c9680b914c60cd1d8577ddd5fc7d) make rebuildable a block attribute (#1338) ]
+
+-   added `rebuildable` to `Block`;
+
+
+
+#### Jan 07
+
+[ [commit](https://github.com/Anuken/Mindustry/commit/b0d65dcedb26014580632a9b0d8d597f0c7f8ccc) cleanup ]
+
+-   added `drawCell`, `drawItems` and `drawLight` to `Mech`;
+
+
+
+#### Jan 04
+
+[ [commit](https://github.com/Anuken/Mindustry/commit/1dd0295c45e6ea6f0967f291b41ff3a58ab7202c) merge remote-tracking branch 'origin/master' ]
+
+-   added `targetDistance` to `Weapon`;
+
+
+
 #### Jan 03
 
 [ [commit](https://github.com/Anuken/Mindustry/pull/1313/commits/62b2b25ee474fcf44aa86832c1373b38e16d703d) use findAll to iterate through mod content ]
@@ -535,6 +594,14 @@ This is a log of changes done on the Mindustry Master branch that affected the m
 
 
 ### 2019
+
+
+
+#### Dec 12
+
+[ [commit](https://github.com/Anuken/Mindustry/commit/2366d25de73ab85bffc3352ab1e74ba1dea68dfe) add liquid void block ]
+
+-   added `LiquidVoid` block;
 
 
 
@@ -624,6 +691,7 @@ Fields for all objects that are blocks.
 |solidifes|boolean|&#xa0;|whether this block CAN be solid.|
 |rotate|boolean|&#xa0;|whether this is rotateable|
 |breakable|boolean|&#xa0;|whether you can break this with rightclick|
+|rebuildable|boolean|true|whether to add this block to brokenblocks or not (like `ShockMine` or `NuclearReactor`)|
 |placeableOn|boolean|true|whether this [floor](#floor) can be placed on.|
 |insulated|boolean|false|whether this block has insulating properties.|
 |health|int|-1|tile entity health|
@@ -636,7 +704,7 @@ Fields for all objects that are blocks.
 |fillesTile|true|&#xa0;|Special flag; if false, [floor](#floor) will be drawn under this block even if it is cached.|
 |alwaysReplace|boolean|false|whether this block can be replaced in all cases|
 |group|[BlockGroup](#blockgroup)|none|Unless `canReplace` is overriden, blocks in the same group can replace each other.|
-|priority|TargetPriority|base|Targeting priority of this block, as seen by enemies.|
+|priority|[TargetPriority](#targetpriority)|base|Targeting priority of this block, as seen by enemies.|
 |configurable|boolean|&#xa0;|Whether the block can be tapped and selected to configure.|
 |consumesTap|boolean|&#xa0;|Whether this block consumes touchDown events when tapped.|
 |drawLiquidLight|boolean|true|Whether to draw the glow of the liquid for this block, if it has one.|
@@ -805,6 +873,9 @@ Type used for floors themselves or extended to make ores and other things.
 |blendGroup|[Block](#block)|this|group of blocks that this block does not draw edges on.|
 |updateEffect|[Effect](#effect)|none|effect displayed when randomly updated.|
 |attributes|[Attributes](#attributes)|&#xa0;|array of affinities to certain things.|
+|oreDefault|boolean|false|whether this ore generates in maps by default.|
+|oreScale|float|24|ore generation param, for example `thorium` is `25.38`, `copper` is `23.47`.|
+|oreThreshold|float|0.828|ore generation param, for example `thorium` is `0.882`, `copper` is `0.81`.|
 
 Notes:
 
@@ -967,12 +1038,8 @@ Separator takes liquid as an input, and will produce items from it's stack rando
 |---|---|---|---|
 |results|[ [ItemStack](#itemstack) ]|&#xa0;|**[required]**|
 |craftTime|float|&#xa0;|&#xa0;|
-|spinnerRadius|float|2.5|&#xa0;|
-|spinnerLength|float|1|&#xa0;|
-|spinnerThickness|float|1|&#xa0;|
-|spinnerSpeed|float|2|&#xa0;|
+|spinnerSpeed|float|3|&#xa0;|
 |color|[Color](#color)|858585|&#xa0;|
-|liquidRegion|int|&#xa0;|&#xa0;|
 
 Defaults:
 
@@ -986,6 +1053,7 @@ Defaults:
 Sprite suffixes:
 
 -   `<name>-liquid`
+-   `<name>-spinner`
 
 
 
@@ -1062,6 +1130,20 @@ Defaults:
 |liquidCapacity|100|
 |configurable|true|
 |outputsLiquid|true|
+
+
+
+### LiquidVoid
+
+Extends [Block](#block)
+
+Defaults:
+
+|field|default|
+|---|---|
+|hasLiquids|true|
+|solid|true|
+|update|true|
 
 
 
@@ -1273,6 +1355,7 @@ Defaults:
 |solid|false|
 |targetable|false|
 |layer|overlay|
+|rebuildable|false|
 
 
 
@@ -1676,9 +1759,12 @@ Defaults:
 
 Extends [Block](#block)
 
-|field|type|default|
-|---|---|---|
-|speed|float|1|
+Type used for overflow and underflow gates. 
+
+|field|type|default|notes|
+|---|---|---|---|
+|speed|float|1|delta time multiplier for whether an item can be moved after an update cycle|
+|invert|boolean|false|`true` makes it underflow|
 
 Defaults:
 
@@ -1959,11 +2045,12 @@ Defaults:
 
 #### ThermalGenerator
 
-Extends [PowerGenerator](#powergenerator) &#x2013; Generates power with the heat [attribute](#attributes) of a tile. Power production is `powerProduction * heat`, and `heat` must be greater then `0.01`.
+Extends [PowerGenerator](#powergenerator) &#x2013; Generates power with the [attribute](#attributes) of a tile. Power production is `powerProduction * attribute`, and `attribute` must be greater then `0.01`.
 
 |field|type|default|notes|
 |---|---|---|---|
 |generateEffect|[Effect](#effect)|none|&#xa0;|
+|attribute|[Attribute](#attribute)|heat|The attribute used to vary efficiency.|
 
 
 
@@ -2057,6 +2144,7 @@ Defaults:
 |liquidCapacity|30|
 |hasItems|true|
 |hasLiquids|true|
+|rebuildable|false|
 
 Extra Sprites:
 
@@ -2648,6 +2736,7 @@ Weapons are used by units and mechs alike. A weapon is a type used to shoot bull
 |lengthRand|float|0|randomization of shot length|
 |shotDelay|float|0|delay in ticks between shots|
 |ignoreRotation|boolean|false|whether shooter rotation is ignored when shooting.|
+|targetDistance|float|1|if `turnCursor` is `false` for a mech, how far away will the weapon target.|
 |shootSound|[Sound](#sound)|pew|&#xa0;|
 
 Sprite:
@@ -2701,31 +2790,34 @@ Extends [Content](#content)
 
 Mechs are the player controlled entities. They shoot [bullets](#bullettype) just like turrets from their [weapon](#weapon).
 
-|field|type|default|
-|---|---|---|
-|flying|boolean|&#xa0;|
-|speed|float|1.1|
-|maxSpeed|float|10|
-|boostSpeed|float|0.75|
-|drag|float|0.4|
-|mass|float|1|
-|shake|float|0|
-|health|float|200|
-|hitsize|float|6|
-|cellTrnsY|float|0|
-|mineSpeed|float|1|
-|drillPower|int|-1|
-|buildPower|float|1|
-|engineColor|[Color](#color)|boostTo|
-|itemCapacity|int|30|
-|turnCursor|boolean|true|
-|canHeal|boolean|false|
-|compoundSpeed|float|5|
-|compoundSpeedBoost|float|5|
-|weaponOffsetY|float|5|
-|engineOffset|float|5|
-|engineSize|float|2.5|
-|weapon|[Weapon](#weapon)|null|
+|field|type|default|notes|
+|---|---|---|---|
+|flying|boolean|&#xa0;|&#xa0;|
+|speed|float|1.1|&#xa0;|
+|maxSpeed|float|10|&#xa0;|
+|boostSpeed|float|0.75|&#xa0;|
+|drag|float|0.4|&#xa0;|
+|mass|float|1|&#xa0;|
+|shake|float|0|&#xa0;|
+|health|float|200|&#xa0;|
+|hitsize|float|6|&#xa0;|
+|cellTrnsY|float|0|&#xa0;|
+|mineSpeed|float|1|&#xa0;|
+|drillPower|int|-1|&#xa0;|
+|buildPower|float|1|&#xa0;|
+|engineColor|[Color](#color)|boostTo|&#xa0;|
+|itemCapacity|int|30|&#xa0;|
+|turnCursor|boolean|true|&#xa0;|
+|canHeal|boolean|false|&#xa0;|
+|compoundSpeed|float|5|&#xa0;|
+|compoundSpeedBoost|float|5|&#xa0;|
+|drawCell|boolean|true|draw the health and team indicator|
+|drawItems|boolean|true|draw the items on its back|
+|drawLight|boolean|true|draw the engine light if it's flying/boosting|
+|weaponOffsetY|float|5|&#xa0;|
+|engineOffset|float|5|&#xa0;|
+|engineSize|float|2.5|&#xa0;|
+|weapon|[Weapon](#weapon)|null|&#xa0;|
 
 Sprites:
 
@@ -3030,6 +3122,7 @@ Here's an example of a custom bullet:
 |ammoMultiplier|float|2|how many bullets get created per item/liquid|
 |reloadMultiplier|float|1|multiplied by turret reload speed|
 |recoil|float|&#xa0;|recoil from shooter entities|
+|killShooter|float|&#xa0;|whether to kill the shooter when this is shot. (for suicide bombers)|
 |knockback|float|&#xa0;|Knockback in velocity.|
 |hitTiles|boolean|true|Whether this bullet hits tiles.|
 |status|[StatusEffect](#statuseffect)|none|Status effect applied on hit.|
@@ -3299,8 +3392,10 @@ Type should be a `string`. You can't currently create custom effects. List of bu
 
 ## TargetPriority
 
--   `base`
--   `turret`
+A higher ordinal means a higher priority. Higher priority blocks will always get targeted over those of lower priority, regardless of distance.
+
+1.  `base`
+2.  `turret`
 
 
 
