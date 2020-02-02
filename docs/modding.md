@@ -408,8 +408,6 @@ Fields that require the type `Schematic` can either take a built-in loadout *(se
 
 ## Scripts
 
-**[new [Dec 08](#268f3cc3c)]**
-
 Scripting in Mindustry is done with the [Rhino JavaScript](https://github.com/mozilla/rhino) runtime. Scripts may be added to your mod by putting them in `scripts/`. Using the built-in `extendContent` function, you can extend existing Java types from JS, using *allowed classes* which are injected into your namespace.
 
 For example:
@@ -492,6 +490,10 @@ For example:
         
         consumes: { items: { items: [ "scrap/10" ] } }
 
+More examples:
+
+-   [entity-lib](https://github.com/DeltaNedas/entity-lib)
+
 
 
 ## GitHub
@@ -540,7 +542,7 @@ This is a log of changes done on the Mindustry Master branch that affected the m
 
 [ [commit](https://github.com/Anuken/Mindustry/commit/a4e820f90733148de4b75f5b60928e0523bf51b3) added default ore flags for modded ores ]
 
--   added `oreDefault` and `oreScale` to `Floor`;
+-   added `oreDefault`, `oreThreshold` and `oreScale` to `Floor`;
 
 
 
