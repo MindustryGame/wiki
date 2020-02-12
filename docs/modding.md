@@ -119,7 +119,7 @@ At the root of your project directory you can have a `content/` directory, and t
 
 Note that each one of these subdirectories needs a specific content type. The filenames of these files is important, because the stem name of your path *(filename without the extension)* is used to reference it.
 
-[ **new** [Jan 03](#62b2b25ee474fcf44aa86832c1373b38e16d703d) ] Furthermore the files within these `content/<content-type>/*` directories may be arbitrarly nested into other sub-directories of any name, to help you organize them further, for example:
+Furthermore the files within theseb `content/<content-type>/*` directories may be arbitrarly nested into other sub-directories of any name, to help you organize them further, for example:
 
 -   `content/items/metals/iron.hjson`, which would respectively create an item named `iron`.
 
@@ -190,7 +190,7 @@ You can find all the vanilla sprites here:
 
 Another thing to know about sprites is that some of them are modified by the game. Turrets specifically have a black border added to them, so you must account for that while making your sprites, leaving transparent space around turrets for example: [Ripple](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/turrets/ripple.png)
 
-**[new [Nov 26](#a5fbc0756)]** to override ingame content sprites, you can simply put them in `sprites-override/`.
+To override ingame content sprites, you can simply put them in `sprites-override/`.
 
 
 
@@ -530,6 +530,22 @@ This is a log of changes done on the Mindustry Master branch that affected the m
 
 
 
+#### Feb 11
+
+[ [commit](https://github.com/Anuken/Mindustry/commit/fb302d49c7de104675c7c33c0e98e4f31e735bd7) improved battery brightness display ]
+
+-   added `<name>-top` region for battery;
+
+
+
+#### Jan 24
+
+[ [commit](https://github.com/Anuken/Mindustry/commit/923d576a5fb7553eb28fa7ebc8a9c16fd4fe6ceb) fixed #1436 / fixed crawlers not exploding ]
+
+-   added `instantDisappear` to `BulletType`;
+
+
+
 #### Jan 23
 
 [ [commit](https://github.com/Anuken/Mindustry/commit/235142c8698f0d8cd9fc296a2ecabf430d7ea261) implemented #1093 ]
@@ -711,7 +727,7 @@ Fields for all objects that are blocks.
 |consumesTap|boolean|&#xa0;|Whether this block consumes touchDown events when tapped.|
 |drawLiquidLight|boolean|true|Whether to draw the glow of the liquid for this block, if it has one.|
 |posConfig|boolean|&#xa0;|Whether the config is positional and needs to be shifted.|
-|sync|boolean|&#xa0;|**[new [Dec 04](#a087df077)]** Whether to periodically sync this block across the network.|
+|sync|boolean|&#xa0;|Whether to periodically sync this block across the network.|
 |targetable|boolean|true|Whether units target this block.|
 |canOverdrive|boolean|true|Whether the overdrive core has any effect on this block.|
 |outlineColor|[Color](#color)|404049|Outlined icon color.|
@@ -1667,7 +1683,6 @@ Defaults:
 |---|---|
 |update|true|
 |solid|true|
-|instantTransfer|true|
 |group|transportation|
 |unloadable|false|
 
@@ -1886,7 +1901,7 @@ Sprites:
 
 ### ArmoredConduit
 
-**[new type v99 (268)]** &#x2013; Extends [Conduit](#conduit)
+Extends [Conduit](#conduit)
 
 Defaults:
 
@@ -1902,7 +1917,7 @@ Sprites:
 
 ### LiquidOverflowGate
 
-**[new type v99 (268)]** &#x2013; Extends [LiquidBlock](#liquidblock)
+Extends [LiquidBlock](#liquidblock)
 
 Defaults:
 
@@ -2015,7 +2030,12 @@ Defaults:
 
 ### Battery
 
-Extends [PowerDistributor](#powerdistributor) &#x2013; Just a change of defaults for batteries.
+Extends [PowerDistributor](#powerdistributor) 
+
+|field|type|default|
+|---|---|---|
+|emptyLightColor|Color|f8c266|
+|fullLightColor|Color|fb9567|
 
 Defauts:
 
@@ -2023,6 +2043,10 @@ Defauts:
 |---|---|
 |outputsPower|true|
 |consumesPower|true|
+
+Sprites:
+
+-   `<name>-top` light region on top of the battery.
 
 
 
@@ -2127,7 +2151,7 @@ Extends [PowerGenerator](#powergenerator) &#x2013; Generates power relative to h
 
 |field|type|default|notes|
 |---|---|---|---|
-|lightColor|[Color](#color)|7f19ea|**[new v99 (268)]**|
+|lightColor|[Color](#color)|7f19ea|&#xa0;|
 |coolColor|[Color](#color)|ffffff00|&#xa0;|
 |hotColor|[Color](#color)|ff9575a3|&#xa0;|
 |itemDuration|float|120|time to consume 1 fuel|
@@ -2208,7 +2232,7 @@ Sprites:
 
 ### LightBlock
 
-**[new type v99 (268)]** &#x2013; Extends [Block](#block)
+Extends [Block](#block)
 
 |field|type|default|
 |---|---|---|
@@ -3138,6 +3162,7 @@ Here's an example of a custom bullet:
 |fragVelocityMin|float|0.2|Minimum random multiplier.|
 |fragVelocityMax|float|1|Maximum random multiplier.|
 |fragBullet|[BulletType](#bullettype)|null|The frag bullet that will be created, may be a string, an object or null. If field is null, no frag bullet is created.|
+|instantDisappear|boolean|&#xa0;|Whether to instantly make the bullet disappear. (used in crawlers to make sure they explode)|
 |splashDamage|float|0|Area of effect damage when the bullet despawns or hits a target. Damage is calculated with [linear interpolation](https://en.wikipedia.org/wiki/Linear_interpolation), also known as lerp.|
 |splashDamageRadius|float|-1|Use a negative value to disable splash damage. `splashDamageRadius` is a value used in the equation `lerp(1 - distance / radius, 1, 0.4)` which is a multiplier for `splashDamage`.|
 |incendAmount|int|0|&#xa0;|
