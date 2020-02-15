@@ -1,26 +1,26 @@
-# <img id="spr" src="/wiki/images/block-phantom-factory-large.png"></img> Завод строительных дронов «Фантом»
+# <img id="spr" src="/wiki/images/block-phantom-factory-large.png"></img> Phantom Builder Drone Factory
 
-*"Производит улучшенных дронов, которые помогают в строительстве."*
+*"Produces advanced construction drones."*
 
 
-|Основные||
+|General||
 | --- | --- |
 |Internal Name|`phantom-factory`|
 |Solid|No|
-|Здоровье|160    |
-|Размер|2x2  |
-|Время строительства|4.09  сек.  |
-|Стоимость строительства|<a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x65 <a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-xlarge.png"/></a>x50 <a href="/wiki/items/thorium"><img id="spr" src="/wiki/images/item-thorium-xlarge.png"/></a>x60 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x105  |
+|Health|160    |
+|Size|2x2  |
+|Build Time|4.09  seconds  |
+|Build Cost|<a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x65 <a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-xlarge.png"/></a>x50 <a href="/wiki/items/thorium"><img id="spr" src="/wiki/images/item-thorium-xlarge.png"/></a>x60 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x105  |
 
-|Энергия||
+|Power||
 | --- | --- |
-|Потребляет энергии|150  единиц энергии/секунду  |
+|Power Use|150  power units/second  |
 
-|Ввод/Вывод||
+|Input/Output||
 | --- | --- |
-|Вход|<a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x50 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x30 <a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-xlarge.png"/></a>x20  |
-|Время производства|73.33  сек.  |
-|Максимальное количество активных единиц|1    |
+|Input|<a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x50 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x30 <a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-xlarge.png"/></a>x20  |
+|Production Time|73.33  seconds  |
+|Max Active Units|1    |
 
 
 --- 

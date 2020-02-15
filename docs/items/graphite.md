@@ -1,7 +1,7 @@
-# <img id="spr" src="/wiki/images/item-graphite.png"></img> Графит 
+# <img id="spr" src="/wiki/images/item-graphite.png"></img> Graphite 
 
 
-*"Минерализованный углерод, используемый для боеприпасов и электрических компонентов."*  
+*"Mineralized carbon, used for ammunition and electrical components."*  
 
 | Property      | Value |
 | ----------- | ----------- |

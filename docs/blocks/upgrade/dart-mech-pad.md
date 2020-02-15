@@ -1,25 +1,25 @@
-# <img id="spr" src="/wiki/images/block-dart-mech-pad-large.png"></img> Реконструктор меха «Альфа»
+# <img id="spr" src="/wiki/images/block-dart-mech-pad-large.png"></img> Alpha Mech Pad
 
-*"Обеспечивает превращение в базовый атакующий мех.
-Используйте, нажав, стоя на нём."*
+*"Provides transformation into a basic attack mech.
+Use by tapping while standing on it."*
 
 
-|Основные||
+|General||
 | --- | --- |
 |Internal Name|`dart-mech-pad`|
 |Solid|No|
-|Здоровье|160    |
-|Размер|2x2  |
-|Время строительства|2.63  сек.  |
-|Стоимость строительства|<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x75 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x100 <a href="/wiki/items/graphite"><img id="spr" src="/wiki/images/item-graphite-xlarge.png"/></a>x50  |
+|Health|160    |
+|Size|2x2  |
+|Build Time|2.63  seconds  |
+|Build Cost|<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x75 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x100 <a href="/wiki/items/graphite"><img id="spr" src="/wiki/images/item-graphite-xlarge.png"/></a>x50  |
 
-|Энергия||
+|Power||
 | --- | --- |
-|Потребляет энергии|30  единиц энергии/секунду  |
+|Power Use|30  power units/second  |
 
-|Ввод/Вывод||
+|Input/Output||
 | --- | --- |
-|Время производства|5  сек.  |
+|Production Time|5  seconds  |
 
 
 --- 

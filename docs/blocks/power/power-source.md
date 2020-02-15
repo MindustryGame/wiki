@@ -1,21 +1,21 @@
-# <img id="spr" src="/wiki/images/block-power-source-large.png"></img> Источник энергии
+# <img id="spr" src="/wiki/images/block-power-source-large.png"></img> Power Infinite
 
-*"Бесконечно выводит энергию. Только песочница."*
+*"Infinitely outputs power. Sandbox only."*
 
 
-|Основные||
+|General||
 | --- | --- |
 |Internal Name|`power-source`|
 |Solid|Yes|
-|Здоровье|40    |
-|Размер|1x1  |
-|Время строительства|0  сек.  |
-|Стоимость строительства| |
+|Health|40    |
+|Size|1x1  |
+|Build Time|0  seconds  |
+|Build Cost| |
 
-|Энергия||
+|Power||
 | --- | --- |
-|Дальность передачи энергии|6  блоки  |
-|Количество соединений|100    |
+|Power Range|6  blocks  |
+|Max Connections|100    |
 
 
 --- 

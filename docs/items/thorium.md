@@ -1,7 +1,7 @@
-# <img id="spr" src="/wiki/images/item-thorium.png"></img> Торий 
+# <img id="spr" src="/wiki/images/item-thorium.png"></img> Thorium 
 
 
-*"Плотный радиоактивный металл, используемый в качестве структурной опоры и ядерного топлива."*  
+*"A dense, radioactive metal used as structural support and nuclear fuel."*  
 
 | Property      | Value |
 | ----------- | ----------- |

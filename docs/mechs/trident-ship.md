@@ -1,7 +1,7 @@
-# <img id="spr" src="/wiki/images/mech-trident-ship-full.png"></img> Трезубец
+# <img id="spr" src="/wiki/images/mech-trident-ship-full.png"></img> Trident
 
 
-*"Тяжёлый бомбардировщик, построенный для строительства и уничтожения вражеских укреплений. Достаточно хорошо бронированный."*  
+*"A heavy bomber, built for construction and destroying enemy fortifications. Reasonably well armored."*  
 
 | Property      | Value |
 | ----------- | ----------- |

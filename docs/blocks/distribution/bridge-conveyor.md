@@ -1,20 +1,20 @@
-# <img id="spr" src="/wiki/images/block-bridge-conveyor-large.png"></img> Мостовой конвейер
+# <img id="spr" src="/wiki/images/block-bridge-conveyor-large.png"></img> Bridge Conveyor
 
-*"Улучшенный транспортный блок. Позволяет транспортировать предметы над 3 плитками любой местности или здания."*
+*"Advanced item transport block. Allows transporting items over up to 3 tiles of any terrain or building."*
 
 
-|Основные||
+|General||
 | --- | --- |
 |Internal Name|`bridge-conveyor`|
 |Solid|Yes|
-|Здоровье|40    |
-|Размер|1x1  |
-|Время строительства|0.08  сек.  |
-|Стоимость строительства|<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x4 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x4  |
+|Health|40    |
+|Size|1x1  |
+|Build Time|0.08  seconds  |
+|Build Cost|<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x4 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x4  |
 
-|Предметы||
+|Items||
 | --- | --- |
-|Вместимость предметов|10  предметов  |
+|Item Capacity|10  items  |
 
 
 --- 

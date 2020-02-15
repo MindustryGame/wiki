@@ -1,4 +1,4 @@
-# <img id="spr" src="/wiki/images/lich.png"></img> Лич 
+# <img id="spr" src="/wiki/images/lich.png"></img> Lich 
 
 
 *"Unknown..."*  

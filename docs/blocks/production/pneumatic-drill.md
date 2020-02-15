@@ -1,34 +1,34 @@
-# <img id="spr" src="/wiki/images/block-pneumatic-drill-large.png"></img> Пневматический бур
+# <img id="spr" src="/wiki/images/block-pneumatic-drill-large.png"></img> Pneumatic Drill
 
-*"Улучшенный бур, способный добывать титан. Добывает быстрее, чем механический бур."*
+*"An improved drill, capable of mining titanium. Mines at a faster pace than a mechanical drill."*
 
 
-|Основные||
+|General||
 | --- | --- |
 |Internal Name|`pneumatic-drill`|
 |Solid|Yes|
-|Здоровье|160    |
-|Размер|2x2  |
-|Время строительства|0.32  сек.  |
-|Стоимость строительства|<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x18 <a href="/wiki/items/graphite"><img id="spr" src="/wiki/images/item-graphite-xlarge.png"/></a>x10  |
+|Health|160    |
+|Size|2x2  |
+|Build Time|0.32  seconds  |
+|Build Cost|<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x18 <a href="/wiki/items/graphite"><img id="spr" src="/wiki/images/item-graphite-xlarge.png"/></a>x10  |
 
-|Жидкости||
+|Liquids||
 | --- | --- |
-|Вместимость жидкости|5  жидкостных единиц  |
+|Liquid Capacity|5  liquid units  |
 
-|Предметы||
+|Items||
 | --- | --- |
-|Вместимость предметов|10  предметов  |
+|Item Capacity|10  items  |
 
-|Ввод/Вывод||
+|Input/Output||
 | --- | --- |
-|Бурит|![block-sand-small](/wiki/images/block-sand-small.png) Песок ![block-darksand-small](/wiki/images/block-darksand-small.png) Тёмный песок ![block-ore-copper-small](/wiki/images/block-ore-copper-small.png) Медь ![block-ore-lead-small](/wiki/images/block-ore-lead-small.png) Свинец ![block-ore-scrap-small](/wiki/images/block-ore-scrap-small.png) Металлолом ![block-ore-coal-small](/wiki/images/block-ore-coal-small.png) Уголь ![block-ore-titanium-small](/wiki/images/block-ore-titanium-small.png) Титан  |
-|Базовая скорость бурения|0.6  предметов/секунду  |
+|Drillables|![block-sand-small](/wiki/images/block-sand-small.png) Sand ![block-darksand-small](/wiki/images/block-darksand-small.png) Dark Sand ![block-ore-copper-small](/wiki/images/block-ore-copper-small.png) Copper ![block-ore-lead-small](/wiki/images/block-ore-lead-small.png) Lead ![block-ore-scrap-small](/wiki/images/block-ore-scrap-small.png) Scrap ![block-ore-coal-small](/wiki/images/block-ore-coal-small.png) Coal ![block-ore-titanium-small](/wiki/images/block-ore-titanium-small.png) Titanium  |
+|Base Drill Speed|0.6  items/second  |
 
-|Дополнительные улучшения||
+|Optional Enhancements||
 | --- | --- |
-|Ускоритель|<a href="/wiki/liquids/water"><img id="spr" src="/wiki/images/liquid-water.png"/></a>3.6/sec  |
-|Ускоряющий эффект|2.56 x скорость  |
+|Booster|<a href="/wiki/liquids/water"><img id="spr" src="/wiki/images/liquid-water.png"/></a>3.6/sec  |
+|Boost Effect|2.56 x speed  |
 
 
 --- 

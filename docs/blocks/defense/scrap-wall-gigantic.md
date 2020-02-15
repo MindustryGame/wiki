@@ -1,15 +1,15 @@
-# <img id="spr" src="/wiki/images/block-scrap-wall-gigantic-large.png"></img> Гигантская стена из металлолома
+# <img id="spr" src="/wiki/images/block-scrap-wall-gigantic-large.png"></img> Gigantic Scrap Wall
 
 
 
-|Основные||
+|General||
 | --- | --- |
 |Internal Name|`scrap-wall-gigantic`|
 |Solid|Yes|
-|Здоровье|3840    |
-|Размер|4x4  |
-|Время строительства|0  сек.  |
-|Стоимость строительства| |
+|Health|3840    |
+|Size|4x4  |
+|Build Time|0  seconds  |
+|Build Cost| |
 
 
 --- 

@@ -1,7 +1,7 @@
-# <img id="spr" src="/wiki/images/item-copper.png"></img> Медь 
+# <img id="spr" src="/wiki/images/item-copper.png"></img> Copper 
 
 
-*"Самый основной строительный материал. Широко используется во всех типах блоков."*  
+*"The most basic structural material. Used extensively in all types of blocks."*  
 
 | Property      | Value |
 | ----------- | ----------- |

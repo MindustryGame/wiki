@@ -1,8 +1,8 @@
-# <img id="zonespr" src="/wiki/images/zone-craters.png"></img> Кратеры 
+# <img id="zonespr" src="/wiki/images/zone-craters.png"></img> The Craters 
 
 <img id="zone" src="/wiki/images/zone-craters.png"></img>
 
-"Вода скопилась в этом кратере, реликвии времён старых войн. Восстановите область. Соберите песок. Выплавьте метастекло. Качайте воду для охлаждения турелей и буров."
+"Water has accumulated in this crater, relic of the old wars. Reclaim the area. Collect sand. Smelt metaglass. Pump water to cool turrets and drills."
 
 | Property      | Value |
 | ----------- | ----------- |

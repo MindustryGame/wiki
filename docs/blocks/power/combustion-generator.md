@@ -1,29 +1,29 @@
-# <img id="spr" src="/wiki/images/block-combustion-generator-large.png"></img> Генератор внутреннего сгорания
+# <img id="spr" src="/wiki/images/block-combustion-generator-large.png"></img> Combustion Generator
 
-*"Вырабатывает энергию путём сжигания легковоспламеняющихся материалов, таких как уголь."*
+*"Generates power by burning flammable materials, such as coal."*
 
 
-|Основные||
+|General||
 | --- | --- |
 |Internal Name|`combustion-generator`|
 |Solid|Yes|
-|Здоровье|40    |
-|Размер|1x1  |
-|Время строительства|0.38  сек.  |
-|Стоимость строительства|<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x25 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x15  |
+|Health|40    |
+|Size|1x1  |
+|Build Time|0.38  seconds  |
+|Build Cost|<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x25 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x15  |
 
-|Энергия||
+|Power||
 | --- | --- |
-|Базовая генерация энергии|60  единиц энергии/секунду  |
+|Base Power Generation|60  power units/second  |
 
-|Предметы||
+|Items||
 | --- | --- |
-|Вместимость предметов|10  предметов  |
+|Item Capacity|10  items  |
 
-|Ввод/Вывод||
+|Input/Output||
 | --- | --- |
-|Вход|<a href="/wiki/items/coal"><img id="spr" src="/wiki/images/item-coal-xlarge.png"/></a> / <a href="/wiki/items/spore-pod"><img id="spr" src="/wiki/images/item-spore-pod-xlarge.png"/></a> / <a href="/wiki/items/blast-compound"><img id="spr" src="/wiki/images/item-blast-compound-xlarge.png"/></a> / <a href="/wiki/items/pyratite"><img id="spr" src="/wiki/images/item-pyratite-xlarge.png"/></a>  |
-|Время производства|2  сек.  |
+|Input|<a href="/wiki/items/coal"><img id="spr" src="/wiki/images/item-coal-xlarge.png"/></a> / <a href="/wiki/items/spore-pod"><img id="spr" src="/wiki/images/item-spore-pod-xlarge.png"/></a> / <a href="/wiki/items/blast-compound"><img id="spr" src="/wiki/images/item-blast-compound-xlarge.png"/></a> / <a href="/wiki/items/pyratite"><img id="spr" src="/wiki/images/item-pyratite-xlarge.png"/></a>  |
+|Production Time|2  seconds  |
 
 
 --- 

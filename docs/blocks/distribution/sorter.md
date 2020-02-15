@@ -1,16 +1,16 @@
-# <img id="spr" src="/wiki/images/block-sorter-large.png"></img> Сортировщик
+# <img id="spr" src="/wiki/images/block-sorter-large.png"></img> Sorter
 
-*"Сортирует предметы. Если предмет соответствует выбору, он может пройти. В противном случае предмет выводится слева и справа."*
+*"Sorts items. If an item matches the selection, it is allowed to pass. Otherwise, the item is outputted to the left and right."*
 
 
-|Основные||
+|General||
 | --- | --- |
 |Internal Name|`sorter`|
 |Solid|Yes|
-|Здоровье|40    |
-|Размер|1x1  |
-|Время строительства|0.12  сек.  |
-|Стоимость строительства|<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x2 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x2  |
+|Health|40    |
+|Size|1x1  |
+|Build Time|0.12  seconds  |
+|Build Cost|<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x2 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x2  |
 
 
 --- 

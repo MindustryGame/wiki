@@ -1,26 +1,26 @@
-# <img id="spr" src="/wiki/images/block-ghoul-factory-large.png"></img> Завод бомбардировщиков «Гуль»
+# <img id="spr" src="/wiki/images/block-ghoul-factory-large.png"></img> Ghoul Bomber Factory
 
-*"Производит тяжёлые ковровые бомбардировщики."*
+*"Produces heavy carpet bombers."*
 
 
-|Основные||
+|General||
 | --- | --- |
 |Internal Name|`ghoul-factory`|
 |Solid|No|
-|Здоровье|360    |
-|Размер|3x3  |
-|Время строительства|3.47  сек.  |
-|Стоимость строительства|<a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x65 <a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-xlarge.png"/></a>x75 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x110  |
+|Health|360    |
+|Size|3x3  |
+|Build Time|3.47  seconds  |
+|Build Cost|<a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x65 <a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-xlarge.png"/></a>x75 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x110  |
 
-|Энергия||
+|Power||
 | --- | --- |
-|Потребляет энергии|72  единиц энергии/секунду  |
+|Power Use|72  power units/second  |
 
-|Ввод/Вывод||
+|Input/Output||
 | --- | --- |
-|Вход|<a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x15 <a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-xlarge.png"/></a>x10  |
-|Время производства|19.17  сек.  |
-|Максимальное количество активных единиц|4    |
+|Input|<a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x15 <a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-xlarge.png"/></a>x10  |
+|Production Time|19.17  seconds  |
+|Max Active Units|4    |
 
 
 --- 

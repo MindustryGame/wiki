@@ -1,18 +1,18 @@
-# <img id="spr" src="/wiki/images/block-copper-wall-large-large.png"></img> Большая медная стена
+# <img id="spr" src="/wiki/images/block-copper-wall-large-large.png"></img> Large Copper Wall
 
-*"Дешёвый защитный блок.
-Полезен для защиты ядра и турелей в первые несколько волн.
-Размещается на нескольких плитках."*
+*"A cheap defensive block.
+Useful for protecting the core and turrets in the first few waves.
+Spans multiple tiles."*
 
 
-|Основные||
+|General||
 | --- | --- |
 |Internal Name|`copper-wall-large`|
 |Solid|Yes|
-|Здоровье|1280    |
-|Размер|2x2  |
-|Время строительства|1  сек.  |
-|Стоимость строительства|<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x24  |
+|Health|1280    |
+|Size|2x2  |
+|Build Time|1  seconds  |
+|Build Cost|<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x24  |
 
 
 --- 

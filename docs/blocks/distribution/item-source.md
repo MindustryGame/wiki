@@ -1,20 +1,20 @@
-# <img id="spr" src="/wiki/images/block-item-source-large.png"></img> Источник предметов
+# <img id="spr" src="/wiki/images/block-item-source-large.png"></img> Item Source
 
-*"Бесконечно выводит элементы. Только песочница."*
+*"Infinitely outputs items. Sandbox only."*
 
 
-|Основные||
+|General||
 | --- | --- |
 |Internal Name|`item-source`|
 |Solid|Yes|
-|Здоровье|40    |
-|Размер|1x1  |
-|Время строительства|0  сек.  |
-|Стоимость строительства| |
+|Health|40    |
+|Size|1x1  |
+|Build Time|0  seconds  |
+|Build Cost| |
 
-|Предметы||
+|Items||
 | --- | --- |
-|Вместимость предметов|10  предметов  |
+|Item Capacity|10  items  |
 
 
 --- 

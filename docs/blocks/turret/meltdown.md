@@ -1,38 +1,38 @@
-# <img id="spr" src="/wiki/images/block-meltdown-large.png"></img> Испепелитель
+# <img id="spr" src="/wiki/images/block-meltdown-large.png"></img> Meltdown
 
-*"Массивная лазерная пушка. Заряжает и стреляет постоянным лазерным лучом в ближайших врагов. Требуется охлаждающая жидкость для работы."*
+*"A massive laser cannon. Charges and fires a persistent laser beam at nearby enemies. Requires coolant to operate."*
 
 
-|Основные||
+|General||
 | --- | --- |
 |Internal Name|`meltdown`|
 |Solid|Yes|
-|Здоровье|3200    |
-|Размер|4x4  |
-|Время строительства|20.92  сек.  |
-|Стоимость строительства|<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x250 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x350 <a href="/wiki/items/graphite"><img id="spr" src="/wiki/images/item-graphite-xlarge.png"/></a>x300 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x325 <a href="/wiki/items/surge-alloy"><img id="spr" src="/wiki/images/item-surge-alloy-xlarge.png"/></a>x325  |
+|Health|3200    |
+|Size|4x4  |
+|Build Time|20.92  seconds  |
+|Build Cost|<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x250 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x350 <a href="/wiki/items/graphite"><img id="spr" src="/wiki/images/item-graphite-xlarge.png"/></a>x300 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x325 <a href="/wiki/items/surge-alloy"><img id="spr" src="/wiki/images/item-surge-alloy-xlarge.png"/></a>x325  |
 
-|Энергия||
+|Power||
 | --- | --- |
-|Потребляет энергии|840  единиц энергии/секунду  |
+|Power Use|840  power units/second  |
 
-|Жидкости||
+|Liquids||
 | --- | --- |
-|Вместимость жидкости|20  жидкостных единиц  |
+|Liquid Capacity|20  liquid units  |
 
-|Ввод/Вывод||
+|Input/Output||
 | --- | --- |
-|Вход|<a href="/wiki/liquids/water"><img id="spr" src="/wiki/images/liquid-water.png"/></a>30/sec / <a href="/wiki/liquids/cryofluid"><img id="spr" src="/wiki/images/liquid-cryofluid.png"/></a>30/sec  ![liquid-water-medium](/wiki/images/liquid-water-medium.png) Вода <br> • **1.0**x скорость стрельбы ![liquid-cryofluid-medium](/wiki/images/liquid-cryofluid-medium.png) Криогенная жидкость <br> • **2.3**x скорость стрельбы <br> |
+|Input|<a href="/wiki/liquids/water"><img id="spr" src="/wiki/images/liquid-water.png"/></a>30/sec / <a href="/wiki/liquids/cryofluid"><img id="spr" src="/wiki/images/liquid-cryofluid.png"/></a>30/sec  ![liquid-water-medium](/wiki/images/liquid-water-medium.png) Water <br> • **1.0**x fire rate ![liquid-cryofluid-medium](/wiki/images/liquid-cryofluid-medium.png) Cryofluid <br> • **2.3**x fire rate <br> |
 
-|Стрельба||
+|Shooting||
 | --- | --- |
-|Радиус действия|23.75  блоки  |
-|Разброс|0  град.  |
-|Выстрелы|1    |
-|Выстрелы/секунду|0.75    |
-|Воздушные цели|Да  |
-|Наземные цели|Да  |
-|Урон|840  /сек  |
+|Range|23.75  blocks  |
+|Inaccuracy|0  degrees  |
+|Shots|1    |
+|Shots/Second|0.75    |
+|Targets Air|Yes  |
+|Targets Ground|Yes  |
+|Damage|840  /sec  |
 
 
 --- 

@@ -1,35 +1,35 @@
-# <img id="spr" src="/wiki/images/block-mend-projector-large.png"></img> Ремонтирующий проектор
+# <img id="spr" src="/wiki/images/block-mend-projector-large.png"></img> Mend Projector
 
-*"Обновлённая версия Регенератора. Ремонтирует блоки в непосредственной близости.
-Опционально использует фазовую ткань для увеличения дальности и эффективности."*
+*"An upgraded version of the Mender. Repairs blocks in its vicinity.
+Optionally uses phase fabric to boost range and efficiency."*
 
 
-|Основные||
+|General||
 | --- | --- |
 |Internal Name|`mend-projector`|
 |Solid|Yes|
-|Здоровье|320    |
-|Размер|2x2  |
-|Время строительства|2.12  сек.  |
-|Стоимость строительства|<a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x100 <a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-xlarge.png"/></a>x25 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x40  |
+|Health|320    |
+|Size|2x2  |
+|Build Time|2.12  seconds  |
+|Build Cost|<a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x100 <a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-xlarge.png"/></a>x25 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x40  |
 
-|Энергия||
+|Power||
 | --- | --- |
-|Потребляет энергии|90  единиц энергии/секунду  |
+|Power Use|90  power units/second  |
 
-|Предметы||
+|Items||
 | --- | --- |
-|Вместимость предметов|10  предметов  |
+|Item Capacity|10  items  |
 
-|Стрельба||
+|Shooting||
 | --- | --- |
-|Время полной регенерации|29  сек.  |
-|Радиус действия|10.63  блоки  |
+|Block Full Repair Time|29  seconds  |
+|Range|10.63  blocks  |
 
-|Дополнительные улучшения||
+|Optional Enhancements||
 | --- | --- |
-|Ускоритель|<a href="/wiki/items/phase-fabric"><img id="spr" src="/wiki/images/item-phase-fabric-xlarge.png"/></a>x1  |
-|Ускоряющий эффект|6.25  блоки  1.86 x скорость  |
+|Booster|<a href="/wiki/items/phase-fabric"><img id="spr" src="/wiki/images/item-phase-fabric-xlarge.png"/></a>x1  |
+|Boost Effect|6.25  blocks  1.86 x speed  |
 
 
 --- 

@@ -1,34 +1,34 @@
-# <img id="spr" src="/wiki/images/block-cyclone-large.png"></img> Циклон
+# <img id="spr" src="/wiki/images/block-cyclone-large.png"></img> Cyclone
 
-*"Большая турель, которая может вести огонь по воздушным и наземным целям. Стреляет разрывными снарядами по ближайшим врагам."*
+*"A large anti-air and anti-ground turret. Fires explosive clumps of flak at nearby units."*
 
 
-|Основные||
+|General||
 | --- | --- |
 |Internal Name|`cyclone`|
 |Solid|Yes|
-|Здоровье|1305    |
-|Размер|3x3  |
-|Время строительства|5.48  сек.  |
-|Стоимость строительства|<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x200 <a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-xlarge.png"/></a>x125 <a href="/wiki/items/plastanium"><img id="spr" src="/wiki/images/item-plastanium-xlarge.png"/></a>x80  |
+|Health|1305    |
+|Size|3x3  |
+|Build Time|5.48  seconds  |
+|Build Cost|<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x200 <a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-xlarge.png"/></a>x125 <a href="/wiki/items/plastanium"><img id="spr" src="/wiki/images/item-plastanium-xlarge.png"/></a>x80  |
 
-|Жидкости||
+|Liquids||
 | --- | --- |
-|Вместимость жидкости|20  жидкостных единиц  |
+|Liquid Capacity|20  liquid units  |
 
-|Стрельба||
+|Shooting||
 | --- | --- |
-|Радиус действия|25  блоки  |
-|Разброс|10  град.  |
-|Выстрелы|1    |
-|Выстрелы/секунду|10    |
-|Воздушные цели|Да  |
-|Наземные цели|Да  |
-|Боеприпасы|![item-metaglass-medium](/wiki/images/item-metaglass-medium.png) Метастекло <br> • **3** урона <br> • **30** урона в радиусе ~** 3.3** блоков <br> • **5**x множитель боеприпасов <br> • **0.8**x скорость стрельбы <br> • **осколочный** <br>![item-blast-compound-medium](/wiki/images/item-blast-compound-medium.png) Взрывчатая смесь <br> • **5** урона <br> • **15** урона в радиусе ~** 4.3** блоков <br> • **4**x множитель боеприпасов <br>![item-plastanium-medium](/wiki/images/item-plastanium-medium.png) Пластан <br> • **6** урона <br> • **25** урона в радиусе ~** 6.3** блоков <br> • **2**x множитель боеприпасов <br> • **осколочный** <br>![item-surge-alloy-medium](/wiki/images/item-surge-alloy-medium.png) Кинетический сплав <br> • **7** урона <br> • **33** урона в радиусе ~** 4.3** блоков <br> • **2**x множитель боеприпасов <br> • **шоковый** <br> |
+|Range|25  blocks  |
+|Inaccuracy|10  degrees  |
+|Shots|1    |
+|Shots/Second|10    |
+|Targets Air|Yes  |
+|Targets Ground|Yes  |
+|Ammo|![item-metaglass-medium](/wiki/images/item-metaglass-medium.png) Metaglass <br> • **3** damage <br> • **30** area dmg ~** 3.3** tiles <br> • **5**x ammo multiplier <br> • **0.8**x fire rate <br> • **frag** <br>![item-blast-compound-medium](/wiki/images/item-blast-compound-medium.png) Blast Compound <br> • **5** damage <br> • **15** area dmg ~** 4.3** tiles <br> • **4**x ammo multiplier <br>![item-plastanium-medium](/wiki/images/item-plastanium-medium.png) Plastanium <br> • **6** damage <br> • **25** area dmg ~** 6.3** tiles <br> • **2**x ammo multiplier <br> • **frag** <br>![item-surge-alloy-medium](/wiki/images/item-surge-alloy-medium.png) Surge Alloy <br> • **7** damage <br> • **33** area dmg ~** 4.3** tiles <br> • **2**x ammo multiplier <br> • **shock** <br> |
 
-|Дополнительные улучшения||
+|Optional Enhancements||
 | --- | --- |
-|Ускоритель|<a href="/wiki/liquids/water"><img id="spr" src="/wiki/images/liquid-water.png"/></a>12/sec / <a href="/wiki/liquids/cryofluid"><img id="spr" src="/wiki/images/liquid-cryofluid.png"/></a>12/sec  ![liquid-water-medium](/wiki/images/liquid-water-medium.png) Вода <br> • **1.4**x скорость стрельбы ![liquid-cryofluid-medium](/wiki/images/liquid-cryofluid-medium.png) Криогенная жидкость <br> • **1.9**x скорость стрельбы <br> |
+|Booster|<a href="/wiki/liquids/water"><img id="spr" src="/wiki/images/liquid-water.png"/></a>12/sec / <a href="/wiki/liquids/cryofluid"><img id="spr" src="/wiki/images/liquid-cryofluid.png"/></a>12/sec  ![liquid-water-medium](/wiki/images/liquid-water-medium.png) Water <br> • **1.4**x fire rate ![liquid-cryofluid-medium](/wiki/images/liquid-cryofluid-medium.png) Cryofluid <br> • **1.9**x fire rate <br> |
 
 
 --- 

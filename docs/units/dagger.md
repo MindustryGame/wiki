@@ -1,7 +1,7 @@
-# <img id="spr" src="/wiki/images/dagger.png"></img> Кинжал 
+# <img id="spr" src="/wiki/images/dagger.png"></img> Dagger 
 
 
-*"Самый основной наземный мех. Дешёвый в производстве. Очень сильный при использовании толпами."*  
+*"The most basic ground mech. Cheap to produce. Overwhelming when used in swarms."*  
 
 | Property      | Value |
 | ----------- | ----------- |

@@ -1,11 +1,11 @@
-# <img id="zonespr" src="/wiki/images/zone-nuclearComplex.png"></img> Ядерный производственный комплекс 
+# <img id="zonespr" src="/wiki/images/zone-nuclearComplex.png"></img> Nuclear Production Complex 
 
 <img id="zone" src="/wiki/images/zone-nuclearComplex.png"></img>
 
-"Бывший завод по производству и переработке тория, превращенный в руины.
-Исследуйте торий и варианты его многочисленного применения.
+"A former facility for the production and processing of thorium, reduced to ruins.
+Research the thorium and its many uses.
 
-Враг присутствует здесь в большом числе, постоянно разведывая нападающих."
+The enemy is present here in great numbers, constantly scouting for attackers."
 
 | Property      | Value |
 | ----------- | ----------- |

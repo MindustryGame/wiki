@@ -1,20 +1,20 @@
-# <img id="spr" src="/wiki/images/block-solar-panel-large.png"></img> Солнечная панель
+# <img id="spr" src="/wiki/images/block-solar-panel-large.png"></img> Solar Panel
 
-*"Обеспечивает небольшое количество энергии от солнца."*
+*"Provides a small amount of power from the sun."*
 
 
-|Основные||
+|General||
 | --- | --- |
 |Internal Name|`solar-panel`|
 |Solid|Yes|
-|Здоровье|40    |
-|Размер|1x1  |
-|Время строительства|0.32  сек.  |
-|Стоимость строительства|<a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x10 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x15  |
+|Health|40    |
+|Size|1x1  |
+|Build Time|0.32  seconds  |
+|Build Cost|<a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x10 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x15  |
 
-|Энергия||
+|Power||
 | --- | --- |
-|Базовая генерация энергии|3.6  единиц энергии/секунду  |
+|Base Power Generation|3.6  power units/second  |
 
 
 --- 

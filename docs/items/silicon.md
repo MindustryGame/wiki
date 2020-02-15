@@ -1,7 +1,7 @@
-# <img id="spr" src="/wiki/images/item-silicon.png"></img> Кремний 
+# <img id="spr" src="/wiki/images/item-silicon.png"></img> Silicon 
 
 
-*"Чрезвычайно полезный полупроводник. Применяется в солнечных панелях, сложной электронике и самонаводящихся боеприпасах."*  
+*"An extremely useful semiconductor. Applications in solar panels, complex electronics and homing turret ammunition."*  
 
 | Property      | Value |
 | ----------- | ----------- |

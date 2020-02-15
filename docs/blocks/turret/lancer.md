@@ -1,38 +1,38 @@
-# <img id="spr" src="/wiki/images/block-lancer-large.png"></img> Копейщик
+# <img id="spr" src="/wiki/images/block-lancer-large.png"></img> Lancer
 
-*"Лазерная турель среднего размера. Заряжает и стреляет мощными лучами энергии по наземным целям."*
+*"A medium-sized anti-ground laser turret. Charges and fires powerful beams of energy."*
 
 
-|Основные||
+|General||
 | --- | --- |
 |Internal Name|`lancer`|
 |Solid|Yes|
-|Здоровье|1120    |
-|Размер|2x2  |
-|Время строительства|1.39  сек.  |
-|Стоимость строительства|<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x25 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x50 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x45  |
+|Health|1120    |
+|Size|2x2  |
+|Build Time|1.39  seconds  |
+|Build Cost|<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x25 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x50 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x45  |
 
-|Энергия||
+|Power||
 | --- | --- |
-|Потребляет энергии|150  единиц энергии/секунду  |
+|Power Use|150  power units/second  |
 
-|Жидкости||
+|Liquids||
 | --- | --- |
-|Вместимость жидкости|20  жидкостных единиц  |
+|Liquid Capacity|20  liquid units  |
 
-|Стрельба||
+|Shooting||
 | --- | --- |
-|Радиус действия|19.38  блоки  |
-|Разброс|0  град.  |
-|Выстрелы|1    |
-|Выстрелы/секунду|0.67    |
-|Воздушные цели|Нет  |
-|Наземные цели|Да  |
-|Урон|140    |
+|Range|19.38  blocks  |
+|Inaccuracy|0  degrees  |
+|Shots|1    |
+|Shots/Second|0.67    |
+|Targets Air|No  |
+|Targets Ground|Yes  |
+|Damage|140    |
 
-|Дополнительные улучшения||
+|Optional Enhancements||
 | --- | --- |
-|Ускоритель|<a href="/wiki/liquids/water"><img id="spr" src="/wiki/images/liquid-water.png"/></a>12/sec / <a href="/wiki/liquids/cryofluid"><img id="spr" src="/wiki/images/liquid-cryofluid.png"/></a>12/sec  ![liquid-water-medium](/wiki/images/liquid-water-medium.png) Вода <br> • **1.4**x скорость стрельбы ![liquid-cryofluid-medium](/wiki/images/liquid-cryofluid-medium.png) Криогенная жидкость <br> • **1.9**x скорость стрельбы <br> |
+|Booster|<a href="/wiki/liquids/water"><img id="spr" src="/wiki/images/liquid-water.png"/></a>12/sec / <a href="/wiki/liquids/cryofluid"><img id="spr" src="/wiki/images/liquid-cryofluid.png"/></a>12/sec  ![liquid-water-medium](/wiki/images/liquid-water-medium.png) Water <br> • **1.4**x fire rate ![liquid-cryofluid-medium](/wiki/images/liquid-cryofluid-medium.png) Cryofluid <br> • **1.9**x fire rate <br> |
 
 
 --- 

@@ -1,21 +1,21 @@
-# <img id="spr" src="/wiki/images/block-titanium-conveyor-large.png"></img> Титановый конвейер
+# <img id="spr" src="/wiki/images/block-titanium-conveyor-large.png"></img> Titanium Conveyor
 
-*"Улучшенный транспортный блок. Перемещает предметы быстрее, чем стандартные конвейеры."*
+*"Advanced item transport block. Moves items faster than standard conveyors."*
 
 
-|Основные||
+|General||
 | --- | --- |
 |Internal Name|`titanium-conveyor`|
 |Solid|No|
-|Здоровье|65    |
-|Размер|1x1  |
-|Время строительства|0.04  сек.  |
-|Стоимость строительства|<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x1 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x1 <a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-xlarge.png"/></a>x1  |
+|Health|65    |
+|Size|1x1  |
+|Build Time|0.04  seconds  |
+|Build Cost|<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x1 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x1 <a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-xlarge.png"/></a>x1  |
 
-|Предметы||
+|Items||
 | --- | --- |
-|Вместимость предметов|4  предметов  |
-|Скорость перемещения|10  предметов/секунду  |
+|Item Capacity|4  items  |
+|Move Speed|10  items/second  |
 
 
 --- 

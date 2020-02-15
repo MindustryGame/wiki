@@ -1,24 +1,24 @@
-# <img id="spr" src="/wiki/images/block-incinerator-large.png"></img> Мусоросжигатель
+# <img id="spr" src="/wiki/images/block-incinerator-large.png"></img> Incinerator
 
-*"Испаряет любой лишний предмет или жидкость, которую он получает."*
+*"Vaporizes any excess item or liquid it receives."*
 
 
-|Основные||
+|General||
 | --- | --- |
 |Internal Name|`incinerator`|
 |Solid|Yes|
-|Здоровье|90    |
-|Размер|1x1  |
-|Время строительства|0.26  сек.  |
-|Стоимость строительства|<a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x15 <a href="/wiki/items/graphite"><img id="spr" src="/wiki/images/item-graphite-xlarge.png"/></a>x5  |
+|Health|90    |
+|Size|1x1  |
+|Build Time|0.26  seconds  |
+|Build Cost|<a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x15 <a href="/wiki/items/graphite"><img id="spr" src="/wiki/images/item-graphite-xlarge.png"/></a>x5  |
 
-|Энергия||
+|Power||
 | --- | --- |
-|Потребляет энергии|30  единиц энергии/секунду  |
+|Power Use|30  power units/second  |
 
-|Жидкости||
+|Liquids||
 | --- | --- |
-|Вместимость жидкости|10  жидкостных единиц  |
+|Liquid Capacity|10  liquid units  |
 
 
 --- 

@@ -1,24 +1,24 @@
-# <img id="spr" src="/wiki/images/block-mass-driver-large.png"></img> Электромагнитная катапульта
+# <img id="spr" src="/wiki/images/block-mass-driver-large.png"></img> Mass Driver
 
-*"Самый продвинутый транспортный блок. Собирает несколько предметов и затем стреляет ими в другую катапульту на большом расстоянии. Требуется энергия для работы."*
+*"The ultimate item transport block. Collects several items and then shoots them to another mass driver over a long range. Requires power to operate."*
 
 
-|Основные||
+|General||
 | --- | --- |
 |Internal Name|`mass-driver`|
 |Solid|Yes|
-|Здоровье|360    |
-|Размер|3x3  |
-|Время строительства|5.46  сек.  |
-|Стоимость строительства|<a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x125 <a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-xlarge.png"/></a>x125 <a href="/wiki/items/thorium"><img id="spr" src="/wiki/images/item-thorium-xlarge.png"/></a>x50 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x75  |
+|Health|360    |
+|Size|3x3  |
+|Build Time|5.46  seconds  |
+|Build Cost|<a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x125 <a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-xlarge.png"/></a>x125 <a href="/wiki/items/thorium"><img id="spr" src="/wiki/images/item-thorium-xlarge.png"/></a>x50 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x75  |
 
-|Энергия||
+|Power||
 | --- | --- |
-|Потребляет энергии|105  единиц энергии/секунду  |
+|Power Use|105  power units/second  |
 
-|Предметы||
+|Items||
 | --- | --- |
-|Вместимость предметов|120  предметов  |
+|Item Capacity|120  items  |
 
 
 --- 

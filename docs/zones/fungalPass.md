@@ -1,10 +1,10 @@
-# <img id="zonespr" src="/wiki/images/zone-fungalPass.png"></img> Грибной перевал 
+# <img id="zonespr" src="/wiki/images/zone-fungalPass.png"></img> Fungal Pass 
 
 <img id="zone" src="/wiki/images/zone-fungalPass.png"></img>
 
-"Переходная область между высокими горами и более низкими, покрытыми спорами землями. Здесь расположена небольшая разведывательная база противника.
-Уничтожьте ее.
-Используйте единицы «Кинжал» и «Камикадзе». Достаньте до обоих ядер."
+"A transition area between high mountains and lower, spore-ridden lands. A small enemy reconnaissance base is located here.
+Destroy it.
+Use Dagger and Crawler units. Take out the two cores."
 
 | Property      | Value |
 | ----------- | ----------- |

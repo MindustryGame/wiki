@@ -1,34 +1,34 @@
-# <img id="spr" src="/wiki/images/block-multi-press-large.png"></img> Мульти-пресс
+# <img id="spr" src="/wiki/images/block-multi-press-large.png"></img> Multi-Press
 
-*"Обновлённая версия графитового пресса. Использует воду и энергию для быстрой и эффективной обработки угля."*
+*"An upgraded version of the graphite press. Employs water and power to process coal quickly and efficiently."*
 
 
-|Основные||
+|General||
 | --- | --- |
 |Internal Name|`multi-press`|
 |Solid|Yes|
-|Здоровье|60    |
-|Размер|3x3  |
-|Время строительства|4  сек.  |
-|Стоимость строительства|<a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x100 <a href="/wiki/items/graphite"><img id="spr" src="/wiki/images/item-graphite-xlarge.png"/></a>x50 <a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-xlarge.png"/></a>x100 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x25  |
+|Health|60    |
+|Size|3x3  |
+|Build Time|4  seconds  |
+|Build Cost|<a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x100 <a href="/wiki/items/graphite"><img id="spr" src="/wiki/images/item-graphite-xlarge.png"/></a>x50 <a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-xlarge.png"/></a>x100 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x25  |
 
-|Энергия||
+|Power||
 | --- | --- |
-|Потребляет энергии|108  единиц энергии/секунду  |
+|Power Use|108  power units/second  |
 
-|Жидкости||
+|Liquids||
 | --- | --- |
-|Вместимость жидкости|10  жидкостных единиц  |
+|Liquid Capacity|10  liquid units  |
 
-|Предметы||
+|Items||
 | --- | --- |
-|Вместимость предметов|10  предметов  |
+|Item Capacity|10  items  |
 
-|Ввод/Вывод||
+|Input/Output||
 | --- | --- |
-|Вход|<a href="/wiki/items/coal"><img id="spr" src="/wiki/images/item-coal-xlarge.png"/></a>x3  <a href="/wiki/liquids/water"><img id="spr" src="/wiki/images/liquid-water.png"/></a>x3  |
-|Выход|<a href="/wiki/items/graphite"><img id="spr" src="/wiki/images/item-graphite-xlarge.png"/></a>x2  |
-|Время производства|0.5  сек.  |
+|Input|<a href="/wiki/items/coal"><img id="spr" src="/wiki/images/item-coal-xlarge.png"/></a>x3  <a href="/wiki/liquids/water"><img id="spr" src="/wiki/images/liquid-water.png"/></a>x3  |
+|Output|<a href="/wiki/items/graphite"><img id="spr" src="/wiki/images/item-graphite-xlarge.png"/></a>x2  |
+|Production Time|0.5  seconds  |
 
 
 --- 

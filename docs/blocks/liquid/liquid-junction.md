@@ -1,16 +1,16 @@
-# <img id="spr" src="/wiki/images/block-liquid-junction-large.png"></img> Жидкостный перекрёсток
+# <img id="spr" src="/wiki/images/block-liquid-junction-large.png"></img> Liquid Junction
 
-*"Действует как мост для двух пересекающихся трубопроводов. Полезен в ситуациях, когда два разных трубопровода переносят разные жидкости в разные места."*
+*"Acts as a bridge for two crossing conduits. Useful in situations with two different conduits carrying different liquids to different locations."*
 
 
-|Основные||
+|General||
 | --- | --- |
 |Internal Name|`liquid-junction`|
 |Solid|Yes|
-|Здоровье|40    |
-|Размер|1x1  |
-|Время строительства|0.08  сек.  |
-|Стоимость строительства|<a href="/wiki/items/metaglass"><img id="spr" src="/wiki/images/item-metaglass-xlarge.png"/></a>x2 <a href="/wiki/items/graphite"><img id="spr" src="/wiki/images/item-graphite-xlarge.png"/></a>x2  |
+|Health|40    |
+|Size|1x1  |
+|Build Time|0.08  seconds  |
+|Build Cost|<a href="/wiki/items/metaglass"><img id="spr" src="/wiki/images/item-metaglass-xlarge.png"/></a>x2 <a href="/wiki/items/graphite"><img id="spr" src="/wiki/images/item-graphite-xlarge.png"/></a>x2  |
 
 
 --- 

@@ -1,10 +1,10 @@
-# <img id="zonespr" src="/wiki/images/zone-saltFlats.png"></img> Соляные равнины 
+# <img id="zonespr" src="/wiki/images/zone-saltFlats.png"></img> Salt Flats 
 
 <img id="zone" src="/wiki/images/zone-saltFlats.png"></img>
 
-"На окраине пустыни лежат соляные равнины. В этой местности можно найти немного ресурсов.
+"On the outskirts of the desert lie the Salt Flats. Few resources can be found in this location.
 
-Враги возвели здесь комплекс хранения ресурсов. Искорените их ядро. Не оставьте камня на камне."
+The enemy has erected a resource storage complex here. Eradicate their core. Leave nothing standing."
 
 | Property      | Value |
 | ----------- | ----------- |

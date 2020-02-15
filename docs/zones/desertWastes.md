@@ -1,11 +1,11 @@
-# <img id="zonespr" src="/wiki/images/zone-desertWastes.png"></img> Покинутые пустоши 
+# <img id="zonespr" src="/wiki/images/zone-desertWastes.png"></img> Desert Wastes 
 
 <img id="zone" src="/wiki/images/zone-desertWastes.png"></img>
 
-"Эти пустоши огромны, непредсказуемы и пронизаны заброшенными секторальными структурами.
-В регионе присутствует уголь. Сожгите его для получения энергии, или синтезируйте графит.
+"These wastes are vast, unpredictable, and criss-crossed with derelict sector structures.
+Coal is present in the region. Burn it for power, or synthesize graphite.
 
-Место посадки здесь может не быть гарантировано."
+This landing location cannot be guaranteed."
 
 | Property      | Value |
 | ----------- | ----------- |

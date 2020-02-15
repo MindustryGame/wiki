@@ -1,7 +1,7 @@
-# <img id="spr" src="/wiki/images/revenant.png"></img> Мститель 
+# <img id="spr" src="/wiki/images/revenant.png"></img> Revenant 
 
 
-*"Тяжёлая летающая система реактивного залпового огня."*  
+*"A heavy, hovering missile array."*  
 
 | Property      | Value |
 | ----------- | ----------- |

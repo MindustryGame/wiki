@@ -1,7 +1,7 @@
-# <img id="spr" src="/wiki/images/item-pyratite.png"></img> Пиротит 
+# <img id="spr" src="/wiki/images/item-pyratite.png"></img> Pyratite 
 
 
-*"Чрезвычайно огнеопасное вещество, используемое в зажигательном оружии."*  
+*"An extremely flammable substance used in incendiary weapons."*  
 
 | Property      | Value |
 | ----------- | ----------- |

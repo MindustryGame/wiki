@@ -1,20 +1,20 @@
-# <img id="spr" src="/wiki/images/block-distributor-large.png"></img> Распределитель
+# <img id="spr" src="/wiki/images/block-distributor-large.png"></img> Distributor
 
-*"Расширенный маршрутизатор. Разделяет предметы до 7 других направлений в равной степени."*
+*"An advanced router. Splits items to up to 7 other directions equally."*
 
 
-|Основные||
+|General||
 | --- | --- |
 |Internal Name|`distributor`|
 |Solid|Yes|
-|Здоровье|160    |
-|Размер|2x2  |
-|Время строительства|0.08  сек.  |
-|Стоимость строительства|<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x4 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x4  |
+|Health|160    |
+|Size|2x2  |
+|Build Time|0.08  seconds  |
+|Build Cost|<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x4 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x4  |
 
-|Предметы||
+|Items||
 | --- | --- |
-|Вместимость предметов|1  предметов  |
+|Item Capacity|1  items  |
 
 
 --- 

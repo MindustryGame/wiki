@@ -1,15 +1,15 @@
-# <img id="spr" src="/wiki/images/block-scrap-wall-large.png"></img> Стена из металлолома
+# <img id="spr" src="/wiki/images/block-scrap-wall-large.png"></img> Scrap Wall
 
 
 
-|Основные||
+|General||
 | --- | --- |
 |Internal Name|`scrap-wall`|
 |Solid|Yes|
-|Здоровье|240    |
-|Размер|1x1  |
-|Время строительства|0  сек.  |
-|Стоимость строительства| |
+|Health|240    |
+|Size|1x1  |
+|Build Time|0  seconds  |
+|Build Cost| |
 
 
 --- 

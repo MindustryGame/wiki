@@ -1,20 +1,20 @@
-# <img id="spr" src="/wiki/images/block-vault-large.png"></img> Хранилище
+# <img id="spr" src="/wiki/images/block-vault-large.png"></img> Vault
 
-*"Хранит большое количество предметов каждого типа. Блок разгрузчика может быть использован для извлечения предметов из хранилища."*
+*"Stores a large amount of items of each type. An unloader block can be used to retrieve items from the vault."*
 
 
-|Основные||
+|General||
 | --- | --- |
 |Internal Name|`vault`|
 |Solid|Yes|
-|Здоровье|360    |
-|Размер|3x3  |
-|Время строительства|6.46  сек.  |
-|Стоимость строительства|<a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-xlarge.png"/></a>x250 <a href="/wiki/items/thorium"><img id="spr" src="/wiki/images/item-thorium-xlarge.png"/></a>x125  |
+|Health|360    |
+|Size|3x3  |
+|Build Time|6.46  seconds  |
+|Build Cost|<a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-xlarge.png"/></a>x250 <a href="/wiki/items/thorium"><img id="spr" src="/wiki/images/item-thorium-xlarge.png"/></a>x125  |
 
-|Предметы||
+|Items||
 | --- | --- |
-|Вместимость предметов|1000  предметов  |
+|Item Capacity|1000  items  |
 
 
 --- 

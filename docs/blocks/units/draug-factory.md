@@ -1,26 +1,26 @@
-# <img id="spr" src="/wiki/images/block-draug-factory-large.png"></img> Завод добывающих дронов «Драугр»
+# <img id="spr" src="/wiki/images/block-draug-factory-large.png"></img> Draug Miner Drone Factory
 
-*"Производит добывающих дронов «Драугр»."*
+*"Produces Draug mining drones."*
 
 
-|Основные||
+|General||
 | --- | --- |
 |Internal Name|`draug-factory`|
 |Solid|No|
-|Здоровье|160    |
-|Размер|2x2  |
-|Время строительства|1.07  сек.  |
-|Стоимость строительства|<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x30 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x70  |
+|Health|160    |
+|Size|2x2  |
+|Build Time|1.07  seconds  |
+|Build Cost|<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x30 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x70  |
 
-|Энергия||
+|Power||
 | --- | --- |
-|Потребляет энергии|72  единиц энергии/секунду  |
+|Power Use|72  power units/second  |
 
-|Ввод/Вывод||
+|Input/Output||
 | --- | --- |
-|Вход| |
-|Время производства|41.67  сек.  |
-|Максимальное количество активных единиц|1    |
+|Input| |
+|Production Time|41.67  seconds  |
+|Max Active Units|1    |
 
 
 --- 

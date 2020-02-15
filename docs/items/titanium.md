@@ -1,7 +1,7 @@
-# <img id="spr" src="/wiki/images/item-titanium.png"></img> Титан 
+# <img id="spr" src="/wiki/images/item-titanium.png"></img> Titanium 
 
 
-*"Редкий сверхлёгкий металл, широко используемый для транспортировки жидкостей, буров и авиации."*  
+*"A rare super-light metal used extensively in liquid transportation, drills and aircraft."*  
 
 | Property      | Value |
 | ----------- | ----------- |

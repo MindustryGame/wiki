@@ -1,38 +1,38 @@
-# <img id="spr" src="/wiki/images/block-cultivator-large.png"></img> Культиватор
+# <img id="spr" src="/wiki/images/block-cultivator-large.png"></img> Cultivator
 
-*"Выращивает крошечные концентрации спор в атмосфере в готовые к использованию споры."*
+*"Cultivates tiny concentrations of spores in the atmosphere into industry-ready pods."*
 
 
-|Основные||
+|General||
 | --- | --- |
 |Internal Name|`cultivator`|
 |Solid|Yes|
-|Здоровье|60    |
-|Размер|2x2  |
-|Время строительства|0.51  сек.  |
-|Стоимость строительства|<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x10 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x25 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x10  |
+|Health|60    |
+|Size|2x2  |
+|Build Time|0.51  seconds  |
+|Build Cost|<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x10 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x25 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x10  |
 
-|Энергия||
+|Power||
 | --- | --- |
-|Потребляет энергии|48  единиц энергии/секунду  |
+|Power Use|48  power units/second  |
 
-|Жидкости||
+|Liquids||
 | --- | --- |
-|Вместимость жидкости|10  жидкостных единиц  |
+|Liquid Capacity|10  liquid units  |
 
-|Предметы||
+|Items||
 | --- | --- |
-|Вместимость предметов|10  предметов  |
+|Item Capacity|10  items  |
 
-|Ввод/Вывод||
+|Input/Output||
 | --- | --- |
-|Вход|<a href="/wiki/liquids/water"><img id="spr" src="/wiki/images/liquid-water.png"/></a>x25.2  |
-|Выход|<a href="/wiki/items/spore-pod"><img id="spr" src="/wiki/images/item-spore-pod-xlarge.png"/></a>x1  |
-|Время производства|2.33  сек.  |
+|Input|<a href="/wiki/liquids/water"><img id="spr" src="/wiki/images/liquid-water.png"/></a>x25.2  |
+|Output|<a href="/wiki/items/spore-pod"><img id="spr" src="/wiki/images/item-spore-pod-xlarge.png"/></a>x1  |
+|Production Time|2.33  seconds  |
 
-|Дополнительные улучшения||
+|Optional Enhancements||
 | --- | --- |
-|Увеличение эффективности|![block-moss-small](/wiki/images/block-moss-small.png) Мох  ![block-spore-moss-small](/wiki/images/block-spore-moss-small.png) Споровый мох  |
+|Affinities|![block-moss-small](/wiki/images/block-moss-small.png) Moss  ![block-spore-moss-small](/wiki/images/block-spore-moss-small.png) Spore Moss  |
 
 
 --- 

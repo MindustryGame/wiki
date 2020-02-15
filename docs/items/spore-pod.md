@@ -1,7 +1,7 @@
-# <img id="spr" src="/wiki/images/item-spore-pod.png"></img> Споровый стручок 
+# <img id="spr" src="/wiki/images/item-spore-pod.png"></img> Spore Pod 
 
 
-*"Стручок спор, синтезированных из атмосферных концентраций для промышленных целей. Используется для переработки в нефть, взрывчатые вещества или топливо."*  
+*"A pod of synthetic spores, synthesized from atmospheric concentrations for industrial purposes. Used for conversion into oil, explosives and fuel."*  
 
 | Property      | Value |
 | ----------- | ----------- |

@@ -1,25 +1,25 @@
-# <img id="spr" src="/wiki/images/block-tau-mech-pad-large.png"></img> Реконструктор меха «Тау»
+# <img id="spr" src="/wiki/images/block-tau-mech-pad-large.png"></img> Tau Mech Pad
 
-*"Обеспечивает превращение в продвинутый мех поддержки.
-Используйте, нажав, стоя на нём."*
+*"Provides transformation into an advanced support mech.
+Use by tapping while standing on it."*
 
 
-|Основные||
+|General||
 | --- | --- |
 |Internal Name|`tau-mech-pad`|
 |Solid|No|
-|Здоровье|160    |
-|Размер|2x2  |
-|Время строительства|6.25  сек.  |
-|Стоимость строительства|<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x125 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x125 <a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-xlarge.png"/></a>x125 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x125  |
+|Health|160    |
+|Size|2x2  |
+|Build Time|6.25  seconds  |
+|Build Cost|<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x125 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x125 <a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-xlarge.png"/></a>x125 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x125  |
 
-|Энергия||
+|Power||
 | --- | --- |
-|Потребляет энергии|60  единиц энергии/секунду  |
+|Power Use|60  power units/second  |
 
-|Ввод/Вывод||
+|Input/Output||
 | --- | --- |
-|Время производства|5  сек.  |
+|Production Time|5  seconds  |
 
 
 --- 

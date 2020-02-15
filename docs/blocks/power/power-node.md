@@ -1,21 +1,21 @@
-# <img id="spr" src="/wiki/images/block-power-node-large.png"></img> Силовой узел
+# <img id="spr" src="/wiki/images/block-power-node-large.png"></img> Power Node
 
-*"Передает питание на подключенные узлы. Узел будет получать питание или поставлять питание на любые соседние блоки."*
+*"Transmits power to connected nodes. The node will receive power from or supply power to any adjacent blocks."*
 
 
-|Основные||
+|General||
 | --- | --- |
 |Internal Name|`power-node`|
 |Solid|Yes|
-|Здоровье|40    |
-|Размер|1x1  |
-|Время строительства|0.04  сек.  |
-|Стоимость строительства|<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x1 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x3  |
+|Health|40    |
+|Size|1x1  |
+|Build Time|0.04  seconds  |
+|Build Cost|<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x1 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x3  |
 
-|Энергия||
+|Power||
 | --- | --- |
-|Дальность передачи энергии|6  блоки  |
-|Количество соединений|20    |
+|Power Range|6  blocks  |
+|Max Connections|20    |
 
 
 --- 

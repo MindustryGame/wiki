@@ -1,33 +1,33 @@
-# <img id="spr" src="/wiki/images/block-turbine-generator-large.png"></img> Паровой генератор
+# <img id="spr" src="/wiki/images/block-turbine-generator-large.png"></img> Steam Generator
 
-*"Усовершенствованный генератор сгорания. Более эффективен, но дополнительно требует воду для выработки пара."*
+*"An advanced combustion generator. More efficient, but requires additional water for generating steam."*
 
 
-|Основные||
+|General||
 | --- | --- |
 |Internal Name|`turbine-generator`|
 |Solid|Yes|
-|Здоровье|160    |
-|Размер|2x2  |
-|Время строительства|1.58  сек.  |
-|Стоимость строительства|<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x35 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x40 <a href="/wiki/items/graphite"><img id="spr" src="/wiki/images/item-graphite-xlarge.png"/></a>x25 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x30  |
+|Health|160    |
+|Size|2x2  |
+|Build Time|1.58  seconds  |
+|Build Cost|<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x35 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x40 <a href="/wiki/items/graphite"><img id="spr" src="/wiki/images/item-graphite-xlarge.png"/></a>x25 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x30  |
 
-|Энергия||
+|Power||
 | --- | --- |
-|Базовая генерация энергии|360  единиц энергии/секунду  |
+|Base Power Generation|360  power units/second  |
 
-|Жидкости||
+|Liquids||
 | --- | --- |
-|Вместимость жидкости|10  жидкостных единиц  |
+|Liquid Capacity|10  liquid units  |
 
-|Предметы||
+|Items||
 | --- | --- |
-|Вместимость предметов|10  предметов  |
+|Item Capacity|10  items  |
 
-|Ввод/Вывод||
+|Input/Output||
 | --- | --- |
-|Вход|<a href="/wiki/items/coal"><img id="spr" src="/wiki/images/item-coal-xlarge.png"/></a> / <a href="/wiki/items/spore-pod"><img id="spr" src="/wiki/images/item-spore-pod-xlarge.png"/></a> / <a href="/wiki/items/blast-compound"><img id="spr" src="/wiki/images/item-blast-compound-xlarge.png"/></a> / <a href="/wiki/items/pyratite"><img id="spr" src="/wiki/images/item-pyratite-xlarge.png"/></a>  <a href="/wiki/liquids/water"><img id="spr" src="/wiki/images/liquid-water.png"/></a>3/sec  |
-|Время производства|1.5  сек.  |
+|Input|<a href="/wiki/items/coal"><img id="spr" src="/wiki/images/item-coal-xlarge.png"/></a> / <a href="/wiki/items/spore-pod"><img id="spr" src="/wiki/images/item-spore-pod-xlarge.png"/></a> / <a href="/wiki/items/blast-compound"><img id="spr" src="/wiki/images/item-blast-compound-xlarge.png"/></a> / <a href="/wiki/items/pyratite"><img id="spr" src="/wiki/images/item-pyratite-xlarge.png"/></a>  <a href="/wiki/liquids/water"><img id="spr" src="/wiki/images/liquid-water.png"/></a>3/sec  |
+|Production Time|1.5  seconds  |
 
 
 --- 

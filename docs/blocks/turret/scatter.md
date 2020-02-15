@@ -1,34 +1,34 @@
-# <img id="spr" src="/wiki/images/block-scatter-large.png"></img> Рассеиватель
+# <img id="spr" src="/wiki/images/block-scatter-large.png"></img> Scatter
 
-*"Основная противовоздушная турель. Распыляет куски свинца или металлолома на вражеские подразделения."*
+*"An essential anti-air turret. Sprays clumps of lead or scrap flak at enemy units."*
 
 
-|Основные||
+|General||
 | --- | --- |
 |Internal Name|`scatter`|
 |Solid|Yes|
-|Здоровье|800    |
-|Размер|2x2  |
-|Время строительства|1.23  сек.  |
-|Стоимость строительства|<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x85 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x45  |
+|Health|800    |
+|Size|2x2  |
+|Build Time|1.23  seconds  |
+|Build Cost|<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x85 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x45  |
 
-|Жидкости||
+|Liquids||
 | --- | --- |
-|Вместимость жидкости|20  жидкостных единиц  |
+|Liquid Capacity|20  liquid units  |
 
-|Стрельба||
+|Shooting||
 | --- | --- |
-|Радиус действия|21.25  блоки  |
-|Разброс|17  град.  |
-|Выстрелы|2    |
-|Выстрелы/секунду|3.33    |
-|Воздушные цели|Да  |
-|Наземные цели|Нет  |
-|Боеприпасы|![item-scrap-medium](/wiki/images/item-scrap-medium.png) Металлолом <br> • **3** урона <br> • **22** урона в радиусе ~** 3.0** блоков <br> • **5**x множитель боеприпасов <br> • **0.5**x скорость стрельбы <br>![item-lead-medium](/wiki/images/item-lead-medium.png) Свинец <br> • **3** урона <br> • **27** урона в радиусе ~** 1.9** блоков <br> • **4**x множитель боеприпасов <br>![item-metaglass-medium](/wiki/images/item-metaglass-medium.png) Метастекло <br> • **3** урона <br> • **30** урона в радиусе ~** 3.3** блоков <br> • **5**x множитель боеприпасов <br> • **0.8**x скорость стрельбы <br> • **осколочный** <br> |
+|Range|21.25  blocks  |
+|Inaccuracy|17  degrees  |
+|Shots|2    |
+|Shots/Second|3.33    |
+|Targets Air|Yes  |
+|Targets Ground|No  |
+|Ammo|![item-scrap-medium](/wiki/images/item-scrap-medium.png) Scrap <br> • **3** damage <br> • **22** area dmg ~** 3.0** tiles <br> • **5**x ammo multiplier <br> • **0.5**x fire rate <br>![item-lead-medium](/wiki/images/item-lead-medium.png) Lead <br> • **3** damage <br> • **27** area dmg ~** 1.9** tiles <br> • **4**x ammo multiplier <br>![item-metaglass-medium](/wiki/images/item-metaglass-medium.png) Metaglass <br> • **3** damage <br> • **30** area dmg ~** 3.3** tiles <br> • **5**x ammo multiplier <br> • **0.8**x fire rate <br> • **frag** <br> |
 
-|Дополнительные улучшения||
+|Optional Enhancements||
 | --- | --- |
-|Ускоритель|<a href="/wiki/liquids/water"><img id="spr" src="/wiki/images/liquid-water.png"/></a>12/sec / <a href="/wiki/liquids/cryofluid"><img id="spr" src="/wiki/images/liquid-cryofluid.png"/></a>12/sec  ![liquid-water-medium](/wiki/images/liquid-water-medium.png) Вода <br> • **1.4**x скорость стрельбы ![liquid-cryofluid-medium](/wiki/images/liquid-cryofluid-medium.png) Криогенная жидкость <br> • **1.9**x скорость стрельбы <br> |
+|Booster|<a href="/wiki/liquids/water"><img id="spr" src="/wiki/images/liquid-water.png"/></a>12/sec / <a href="/wiki/liquids/cryofluid"><img id="spr" src="/wiki/images/liquid-cryofluid.png"/></a>12/sec  ![liquid-water-medium](/wiki/images/liquid-water-medium.png) Water <br> • **1.4**x fire rate ![liquid-cryofluid-medium](/wiki/images/liquid-cryofluid-medium.png) Cryofluid <br> • **1.9**x fire rate <br> |
 
 
 --- 

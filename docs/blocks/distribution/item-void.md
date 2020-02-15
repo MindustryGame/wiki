@@ -1,16 +1,16 @@
-# <img id="spr" src="/wiki/images/block-item-void-large.png"></img> Предметный вакуум
+# <img id="spr" src="/wiki/images/block-item-void-large.png"></img> Item Void
 
-*"Уничтожает любые предметы. Только песочница."*
+*"Destroys any items. Sandbox only."*
 
 
-|Основные||
+|General||
 | --- | --- |
 |Internal Name|`item-void`|
 |Solid|Yes|
-|Здоровье|40    |
-|Размер|1x1  |
-|Время строительства|0  сек.  |
-|Стоимость строительства| |
+|Health|40    |
+|Size|1x1  |
+|Build Time|0  seconds  |
+|Build Cost| |
 
 
 --- 

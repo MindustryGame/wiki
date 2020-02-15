@@ -1,18 +1,18 @@
-# <img id="spr" src="/wiki/images/block-thorium-wall-large-large.png"></img> Большая ториевая стена
+# <img id="spr" src="/wiki/images/block-thorium-wall-large-large.png"></img> Large Thorium Wall
 
-*"Сильный защитный блок.
-Хорошая защита от врагов.
-Размещается на нескольких плитках."*
+*"A strong defensive block.
+Decent protection from enemies.
+Spans multiple tiles."*
 
 
-|Основные||
+|General||
 | --- | --- |
 |Internal Name|`thorium-wall-large`|
 |Solid|Yes|
-|Здоровье|3200    |
-|Размер|2x2  |
-|Время строительства|2.2  сек.  |
-|Стоимость строительства|<a href="/wiki/items/thorium"><img id="spr" src="/wiki/images/item-thorium-xlarge.png"/></a>x24  |
+|Health|3200    |
+|Size|2x2  |
+|Build Time|2.2  seconds  |
+|Build Cost|<a href="/wiki/items/thorium"><img id="spr" src="/wiki/images/item-thorium-xlarge.png"/></a>x24  |
 
 
 --- 

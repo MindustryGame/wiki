@@ -1,17 +1,17 @@
-# <img id="spr" src="/wiki/images/block-phase-wall-large-large.png"></img> Большая фазовая стена
+# <img id="spr" src="/wiki/images/block-phase-wall-large-large.png"></img> Large Phase Wall
 
-*"Стена, покрытая специальным фазовым отражающим составом. Отражает большинство пуль при ударе.
-Размещается на нескольких плитках."*
+*"A wall coated with special phase-based reflective compound. Deflects most bullets upon impact.
+Spans multiple tiles."*
 
 
-|Основные||
+|General||
 | --- | --- |
 |Internal Name|`phase-wall-large`|
 |Solid|Yes|
-|Здоровье|2400    |
-|Размер|2x2  |
-|Время строительства|2.6  сек.  |
-|Стоимость строительства|<a href="/wiki/items/phase-fabric"><img id="spr" src="/wiki/images/item-phase-fabric-xlarge.png"/></a>x24  |
+|Health|2400    |
+|Size|2x2  |
+|Build Time|2.6  seconds  |
+|Build Cost|<a href="/wiki/items/phase-fabric"><img id="spr" src="/wiki/images/item-phase-fabric-xlarge.png"/></a>x24  |
 
 
 --- 

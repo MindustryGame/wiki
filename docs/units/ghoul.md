@@ -1,7 +1,7 @@
-# <img id="spr" src="/wiki/images/ghoul.png"></img> Гуль 
+# <img id="spr" src="/wiki/images/ghoul.png"></img> Ghoul Bomber 
 
 
-*"Тяжёлый ковровый бомбардировщик. Проникает через вражеские структуры, нацеливаясь на критическую инфраструктуру."*  
+*"A heavy carpet bomber. Rips through enemy structures, targeting critical infrastructure."*  
 
 | Property      | Value |
 | ----------- | ----------- |

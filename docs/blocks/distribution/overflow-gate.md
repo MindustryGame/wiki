@@ -1,20 +1,20 @@
-# <img id="spr" src="/wiki/images/block-overflow-gate-large.png"></img> Избыточный затвор
+# <img id="spr" src="/wiki/images/block-overflow-gate-large.png"></img> Overflow Gate
 
-*"Выводит предметы влево и вправо, только если передний путь заблокирован."*
+*"Only outputs to the left and right if the front path is blocked."*
 
 
-|Основные||
+|General||
 | --- | --- |
 |Internal Name|`overflow-gate`|
 |Solid|Yes|
-|Здоровье|40    |
-|Размер|1x1  |
-|Время строительства|0.17  сек.  |
-|Стоимость строительства|<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x4 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x2  |
+|Health|40    |
+|Size|1x1  |
+|Build Time|0.17  seconds  |
+|Build Cost|<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x4 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x2  |
 
-|Предметы||
+|Items||
 | --- | --- |
-|Вместимость предметов|10  предметов  |
+|Item Capacity|10  items  |
 
 
 --- 

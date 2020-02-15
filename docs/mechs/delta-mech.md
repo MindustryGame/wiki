@@ -1,7 +1,7 @@
-# <img id="spr" src="/wiki/images/mech-delta-mech-full.png"></img> Дельта
+# <img id="spr" src="/wiki/images/mech-delta-mech-full.png"></img> Delta
 
 
-*"Быстрый, легко бронированный мех, созданный для ударов «атакуй и беги». Наносит мало урона по строениям, но может очень быстро убить большие группы вражеских орудий с помощью дуговых молний."*  
+*"A fast, lightly-armored mech made for hit-and-run attacks. Does little damage against structures, but can kill large groups of enemy units very quickly with its arc lightning weapons."*  
 
 | Property      | Value |
 | ----------- | ----------- |

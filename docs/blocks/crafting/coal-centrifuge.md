@@ -1,34 +1,34 @@
-# <img id="spr" src="/wiki/images/block-coal-centrifuge-large.png"></img> Угольная центрифуга
+# <img id="spr" src="/wiki/images/block-coal-centrifuge-large.png"></img> Coal Centrifuge
 
-*"Отвердевает нефть в куски угля."*
+*"Solidifes oil into chunks of coal."*
 
 
-|Основные||
+|General||
 | --- | --- |
 |Internal Name|`coal-centrifuge`|
 |Solid|Yes|
-|Здоровье|60    |
-|Размер|2x2  |
-|Время строительства|1.35  сек.  |
-|Стоимость строительства|<a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x30 <a href="/wiki/items/graphite"><img id="spr" src="/wiki/images/item-graphite-xlarge.png"/></a>x40 <a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-xlarge.png"/></a>x20  |
+|Health|60    |
+|Size|2x2  |
+|Build Time|1.35  seconds  |
+|Build Cost|<a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x30 <a href="/wiki/items/graphite"><img id="spr" src="/wiki/images/item-graphite-xlarge.png"/></a>x40 <a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-xlarge.png"/></a>x20  |
 
-|Энергия||
+|Power||
 | --- | --- |
-|Потребляет энергии|30  единиц энергии/секунду  |
+|Power Use|30  power units/second  |
 
-|Жидкости||
+|Liquids||
 | --- | --- |
-|Вместимость жидкости|10  жидкостных единиц  |
+|Liquid Capacity|10  liquid units  |
 
-|Предметы||
+|Items||
 | --- | --- |
-|Вместимость предметов|10  предметов  |
+|Item Capacity|10  items  |
 
-|Ввод/Вывод||
+|Input/Output||
 | --- | --- |
-|Вход|<a href="/wiki/liquids/oil"><img id="spr" src="/wiki/images/liquid-oil.png"/></a>x2.7  |
-|Выход|<a href="/wiki/items/coal"><img id="spr" src="/wiki/images/item-coal-xlarge.png"/></a>x1  |
-|Время производства|0.5  сек.  |
+|Input|<a href="/wiki/liquids/oil"><img id="spr" src="/wiki/images/liquid-oil.png"/></a>x2.7  |
+|Output|<a href="/wiki/items/coal"><img id="spr" src="/wiki/images/item-coal-xlarge.png"/></a>x1  |
+|Production Time|0.5  seconds  |
 
 
 --- 

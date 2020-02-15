@@ -1,7 +1,7 @@
-# <img id="spr" src="/wiki/images/item-scrap.png"></img> Металлолом 
+# <img id="spr" src="/wiki/images/item-scrap.png"></img> Scrap 
 
 
-*"Остатки старых сооружений и боевых единиц. Содержит небольшие количества многих различных металлов."*  
+*"Leftover remnants of old structures and units. Contains trace amounts of many different metals."*  
 
 | Property      | Value |
 | ----------- | ----------- |

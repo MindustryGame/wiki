@@ -1,7 +1,7 @@
-# <img id="spr" src="/wiki/images/spirit.png"></img> Ремонтный дрон «Дух» 
+# <img id="spr" src="/wiki/images/spirit.png"></img> Spirit Repair Drone 
 
 
-*"Модифицированный «Драугр», предназначенный для ремонта вместо добычи ресурсов. Автоматически ремонтирует любые поврежденные блоки в области."*  
+*"A modified draug drone, designed for repair instead of mining. Automatically fixes any damaged blocks in the area."*  
 
 | Property      | Value |
 | ----------- | ----------- |

@@ -1,7 +1,7 @@
-# <img id="spr" src="/wiki/images/item-sand.png"></img> Песок 
+# <img id="spr" src="/wiki/images/item-sand.png"></img> Sand 
 
 
-*"Обычный материал, который широко используется при выплавке, как при легировании, так и в качестве флюса."*  
+*"A common material that is used extensively in smelting, both in alloying and as a flux."*  
 
 | Property      | Value |
 | ----------- | ----------- |

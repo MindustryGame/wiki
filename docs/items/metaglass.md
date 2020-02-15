@@ -1,7 +1,7 @@
-# <img id="spr" src="/wiki/images/item-metaglass.png"></img> Метастекло 
+# <img id="spr" src="/wiki/images/item-metaglass.png"></img> Metaglass 
 
 
-*"Сверхпрочный сплав стекла. Широко используется для распределения и хранения жидкости."*  
+*"A super-tough glass compound. Extensively used for liquid distribution and storage."*  
 
 | Property      | Value |
 | ----------- | ----------- |

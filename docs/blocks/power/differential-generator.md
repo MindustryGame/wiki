@@ -1,33 +1,33 @@
-# <img id="spr" src="/wiki/images/block-differential-generator-large.png"></img> Дифференциальный генератор
+# <img id="spr" src="/wiki/images/block-differential-generator-large.png"></img> Differential Generator
 
-*"Генерирует большое количество энергии. Использует разницу температур между криогенной жидкостью и горящим пиротитом."*
+*"Generates large amounts of energy. Utilizes the temperature difference between cryofluid and burning pyratite."*
 
 
-|Основные||
+|General||
 | --- | --- |
 |Internal Name|`differential-generator`|
 |Solid|Yes|
-|Здоровье|360    |
-|Размер|3x3  |
-|Время строительства|4.7  сек.  |
-|Стоимость строительства|<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x70 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x100 <a href="/wiki/items/metaglass"><img id="spr" src="/wiki/images/item-metaglass-xlarge.png"/></a>x50 <a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-xlarge.png"/></a>x50 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x65  |
+|Health|360    |
+|Size|3x3  |
+|Build Time|4.7  seconds  |
+|Build Cost|<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x70 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x100 <a href="/wiki/items/metaglass"><img id="spr" src="/wiki/images/item-metaglass-xlarge.png"/></a>x50 <a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-xlarge.png"/></a>x50 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x65  |
 
-|Энергия||
+|Power||
 | --- | --- |
-|Базовая генерация энергии|960  единиц энергии/секунду  |
+|Base Power Generation|960  power units/second  |
 
-|Жидкости||
+|Liquids||
 | --- | --- |
-|Вместимость жидкости|10  жидкостных единиц  |
+|Liquid Capacity|10  liquid units  |
 
-|Предметы||
+|Items||
 | --- | --- |
-|Вместимость предметов|10  предметов  |
+|Item Capacity|10  items  |
 
-|Ввод/Вывод||
+|Input/Output||
 | --- | --- |
-|Вход|<a href="/wiki/items/pyratite"><img id="spr" src="/wiki/images/item-pyratite-xlarge.png"/></a>x1  <a href="/wiki/liquids/cryofluid"><img id="spr" src="/wiki/images/liquid-cryofluid.png"/></a>9/sec  |
-|Время производства|2.33  сек.  |
+|Input|<a href="/wiki/items/pyratite"><img id="spr" src="/wiki/images/item-pyratite-xlarge.png"/></a>x1  <a href="/wiki/liquids/cryofluid"><img id="spr" src="/wiki/images/liquid-cryofluid.png"/></a>10.8/sec  |
+|Production Time|2  seconds  |
 
 
 --- 

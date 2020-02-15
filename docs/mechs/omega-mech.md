@@ -1,7 +1,7 @@
-# <img id="spr" src="/wiki/images/mech-omega-mech-full.png"></img> Омега
+# <img id="spr" src="/wiki/images/mech-omega-mech-full.png"></img> Omega
 
 
-*"Громоздкий и хорошо бронированный мех, созданный для передовых атак. Его броня может блокировать до 90% входящего урона."*  
+*"A bulky and well-armored mech, made for front-line assaults. Its armor can block up to 90% of incoming damage."*  
 
 | Property      | Value |
 | ----------- | ----------- |

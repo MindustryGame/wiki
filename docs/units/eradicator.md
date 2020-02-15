@@ -1,4 +1,4 @@
-# <img id="spr" src="/wiki/images/eradicator.png"></img> Искоренитель 
+# <img id="spr" src="/wiki/images/eradicator.png"></img> Eradicator 
 
 
 *"Unknown..."*  

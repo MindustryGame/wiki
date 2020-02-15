@@ -1,7 +1,7 @@
-# <img id="spr" src="/wiki/images/wraith.png"></img> Призрак 
+# <img id="spr" src="/wiki/images/wraith.png"></img> Wraith Fighter 
 
 
-*"Быстрый перехватчик. Нацелен на генераторы энергии."*  
+*"A fast, hit-and-run interceptor unit. Targets power generators."*  
 
 | Property      | Value |
 | ----------- | ----------- |

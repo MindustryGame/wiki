@@ -1,20 +1,20 @@
-# <img id="spr" src="/wiki/images/block-solar-panel-large-large.png"></img> Большая солнечная панель
+# <img id="spr" src="/wiki/images/block-solar-panel-large-large.png"></img> Large Solar Panel
 
-*"Значительно более эффективный вариант стандартной солнечной панели."*
+*"A significantly more efficient version of the standard solar panel."*
 
 
-|Основные||
+|General||
 | --- | --- |
 |Internal Name|`solar-panel-large`|
 |Solid|Yes|
-|Здоровье|360    |
-|Размер|3x3  |
-|Время строительства|3.42  сек.  |
-|Стоимость строительства|<a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x100 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x145 <a href="/wiki/items/phase-fabric"><img id="spr" src="/wiki/images/item-phase-fabric-xlarge.png"/></a>x15  |
+|Health|360    |
+|Size|3x3  |
+|Build Time|3.42  seconds  |
+|Build Cost|<a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x100 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x145 <a href="/wiki/items/phase-fabric"><img id="spr" src="/wiki/images/item-phase-fabric-xlarge.png"/></a>x15  |
 
-|Энергия||
+|Power||
 | --- | --- |
-|Базовая генерация энергии|54  единиц энергии/секунду  |
+|Base Power Generation|54  power units/second  |
 
 
 --- 

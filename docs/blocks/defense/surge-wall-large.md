@@ -1,18 +1,18 @@
-# <img id="spr" src="/wiki/images/block-surge-wall-large-large.png"></img> Большая стена из кинетического сплава
+# <img id="spr" src="/wiki/images/block-surge-wall-large-large.png"></img> Large Surge Wall
 
-*"Очень прочный защитный блок.
-Накапливает заряд при контакте с пулей, выпуская его случайным образом.
-Размещается на нескольких плитках."*
+*"An extremely durable defensive block.
+Builds up charge on bullet contact, releasing it randomly.
+Spans multiple tiles."*
 
 
-|Основные||
+|General||
 | --- | --- |
 |Internal Name|`surge-wall-large`|
 |Solid|Yes|
-|Здоровье|3680    |
-|Размер|2x2  |
-|Время строительства|2  сек.  |
-|Стоимость строительства|<a href="/wiki/items/surge-alloy"><img id="spr" src="/wiki/images/item-surge-alloy-xlarge.png"/></a>x24  |
+|Health|3680    |
+|Size|2x2  |
+|Build Time|2  seconds  |
+|Build Cost|<a href="/wiki/items/surge-alloy"><img id="spr" src="/wiki/images/item-surge-alloy-xlarge.png"/></a>x24  |
 
 
 --- 

@@ -1,7 +1,7 @@
-# <img id="spr" src="/wiki/images/crawler.png"></img> Камикадзе 
+# <img id="spr" src="/wiki/images/crawler.png"></img> Crawler 
 
 
-*"Наземная единица, состоящая из урезанной рамы с прикреплённой сверху мощной взрывчаткой. Не особо прочная. Взрывается при контакте с врагами."*  
+*"A ground unit consisting of a stripped-down frame with high explosives strapped on top. Not particular durable. Explodes on contact with enemies."*  
 
 | Property      | Value |
 | ----------- | ----------- |

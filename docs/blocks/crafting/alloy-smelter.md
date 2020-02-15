@@ -1,30 +1,30 @@
-# <img id="spr" src="/wiki/images/block-alloy-smelter-large.png"></img> Плавильня кинетического сплава
+# <img id="spr" src="/wiki/images/block-alloy-smelter-large.png"></img> Alloy Smelter
 
-*"Объединяет титан, свинец, кремний и медь для производства кинетического сплава."*
+*"Combines titanium, lead, silicon and copper to produce surge alloy."*
 
 
-|Основные||
+|General||
 | --- | --- |
 |Internal Name|`alloy-smelter`|
 |Solid|Yes|
-|Здоровье|60    |
-|Размер|3x3  |
-|Время строительства|3.28  сек.  |
-|Стоимость строительства|<a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x80 <a href="/wiki/items/thorium"><img id="spr" src="/wiki/images/item-thorium-xlarge.png"/></a>x70 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x80  |
+|Health|60    |
+|Size|3x3  |
+|Build Time|3.28  seconds  |
+|Build Cost|<a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x80 <a href="/wiki/items/thorium"><img id="spr" src="/wiki/images/item-thorium-xlarge.png"/></a>x70 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x80  |
 
-|Энергия||
+|Power||
 | --- | --- |
-|Потребляет энергии|240  единиц энергии/секунду  |
+|Power Use|240  power units/second  |
 
-|Предметы||
+|Items||
 | --- | --- |
-|Вместимость предметов|10  предметов  |
+|Item Capacity|10  items  |
 
-|Ввод/Вывод||
+|Input/Output||
 | --- | --- |
-|Вход|<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x3 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x4 <a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-xlarge.png"/></a>x2 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x3  |
-|Выход|<a href="/wiki/items/surge-alloy"><img id="spr" src="/wiki/images/item-surge-alloy-xlarge.png"/></a>x1  |
-|Время производства|1.25  сек.  |
+|Input|<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x3 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x4 <a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-xlarge.png"/></a>x2 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x3  |
+|Output|<a href="/wiki/items/surge-alloy"><img id="spr" src="/wiki/images/item-surge-alloy-xlarge.png"/></a>x1  |
+|Production Time|1.25  seconds  |
 
 
 --- 

@@ -1,17 +1,17 @@
-# <img id="spr" src="/wiki/images/block-copper-wall-large.png"></img> Медная стена
+# <img id="spr" src="/wiki/images/block-copper-wall-large.png"></img> Copper Wall
 
-*"Дешёвый защитный блок.
-Полезен для защиты ядра и турелей в первые несколько волн."*
+*"A cheap defensive block.
+Useful for protecting the core and turrets in the first few waves."*
 
 
-|Основные||
+|General||
 | --- | --- |
 |Internal Name|`copper-wall`|
 |Solid|Yes|
-|Здоровье|320    |
-|Размер|1x1  |
-|Время строительства|0.25  сек.  |
-|Стоимость строительства|<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x6  |
+|Health|320    |
+|Size|1x1  |
+|Build Time|0.25  seconds  |
+|Build Cost|<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x6  |
 
 
 --- 

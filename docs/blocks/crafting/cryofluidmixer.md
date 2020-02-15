@@ -1,34 +1,34 @@
-# <img id="spr" src="/wiki/images/block-cryofluidmixer-large.png"></img> Мешалка криогенной жидкости
+# <img id="spr" src="/wiki/images/block-cryofluidmixer-large.png"></img> Cryofluid Mixer
 
-*"Смешивает воду и мелкий титановый порошок в криогеннную жидкость. Неотъемлемая часть при использования ториевого реактора"*
+*"Mixes water and fine titanium powder into cryofluid. Essential for thorium reactor usage."*
 
 
-|Основные||
+|General||
 | --- | --- |
 |Internal Name|`cryofluidmixer`|
 |Solid|Yes|
-|Здоровье|60    |
-|Размер|2x2  |
-|Время строительства|2.29  сек.  |
-|Стоимость строительства|<a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x65 <a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-xlarge.png"/></a>x60 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x40  |
+|Health|60    |
+|Size|2x2  |
+|Build Time|2.29  seconds  |
+|Build Cost|<a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x65 <a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-xlarge.png"/></a>x60 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x40  |
 
-|Энергия||
+|Power||
 | --- | --- |
-|Потребляет энергии|60  единиц энергии/секунду  |
+|Power Use|60  power units/second  |
 
-|Жидкости||
+|Liquids||
 | --- | --- |
-|Вместимость жидкости|10  жидкостных единиц  |
+|Liquid Capacity|10  liquid units  |
 
-|Предметы||
+|Items||
 | --- | --- |
-|Вместимость предметов|10  предметов  |
+|Item Capacity|10  items  |
 
-|Ввод/Вывод||
+|Input/Output||
 | --- | --- |
-|Вход|<a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-xlarge.png"/></a>x1  <a href="/wiki/liquids/water"><img id="spr" src="/wiki/images/liquid-water.png"/></a>x24  |
-|Выход|<a href="/wiki/liquids/cryofluid"><img id="spr" src="/wiki/images/liquid-cryofluid.png"/></a>x24  |
-|Время производства|2  сек.  |
+|Input|<a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-xlarge.png"/></a>x1  <a href="/wiki/liquids/water"><img id="spr" src="/wiki/images/liquid-water.png"/></a>x24  |
+|Output|<a href="/wiki/liquids/cryofluid"><img id="spr" src="/wiki/images/liquid-cryofluid.png"/></a>x24  |
+|Production Time|2  seconds  |
 
 
 --- 

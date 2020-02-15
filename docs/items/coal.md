@@ -1,7 +1,7 @@
-# <img id="spr" src="/wiki/images/item-coal.png"></img> Уголь 
+# <img id="spr" src="/wiki/images/item-coal.png"></img> Coal 
 
 
-*"Окаменелое растительное вещество, образовавшееся задолго до посева. Широко используется для производства топлива и ресурсов."*  
+*"Fossilized plant matter, formed long before the seeding event. Used extensively for fuel and resource production."*  
 
 | Property      | Value |
 | ----------- | ----------- |

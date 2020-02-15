@@ -1,7 +1,7 @@
-# <img id="spr" src="/wiki/images/phantom.png"></img> Строительный дрон «Фантом» 
+# <img id="spr" src="/wiki/images/phantom.png"></img> Phantom Builder Drone 
 
 
-*"Продвинутый дрон. Следует за пользователями. Помогает в строительстве блоков."*  
+*"An advanced drone unit. Follows users. Assists in block construction."*  
 
 | Property      | Value |
 | ----------- | ----------- |

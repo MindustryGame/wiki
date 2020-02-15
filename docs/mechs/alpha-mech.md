@@ -1,7 +1,7 @@
-# <img id="spr" src="/wiki/images/mech-alpha-mech-full.png"></img> Альфа
+# <img id="spr" src="/wiki/images/mech-alpha-mech-full.png"></img> Alpha
 
 
-*"Стандартный управляемый мех. Основан на «Кинжале», с улучшенной броней и строительными возможностями. Имеет больший урон, чем «Дротик»."*  
+*"The standard control mech. Based on a Dagger unit, with upgraded armor and building capabilities. Has more damage output than a Dart ship."*  
 
 | Property      | Value |
 | ----------- | ----------- |

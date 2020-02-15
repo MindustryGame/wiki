@@ -1,34 +1,34 @@
-# <img id="spr" src="/wiki/images/block-plastanium-compressor-large.png"></img> Пластановый компрессор
+# <img id="spr" src="/wiki/images/block-plastanium-compressor-large.png"></img> Plastanium Compressor
 
-*"Производит пластан из нефти и титана."*
+*"Produces plastanium from oil and titanium."*
 
 
-|Основные||
+|General||
 | --- | --- |
 |Internal Name|`plastanium-compressor`|
 |Solid|Yes|
-|Здоровье|320    |
-|Размер|2x2  |
-|Время строительства|4.74  сек.  |
-|Стоимость строительства|<a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x115 <a href="/wiki/items/graphite"><img id="spr" src="/wiki/images/item-graphite-xlarge.png"/></a>x60 <a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-xlarge.png"/></a>x80 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x80  |
+|Health|320    |
+|Size|2x2  |
+|Build Time|4.74  seconds  |
+|Build Cost|<a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x115 <a href="/wiki/items/graphite"><img id="spr" src="/wiki/images/item-graphite-xlarge.png"/></a>x60 <a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-xlarge.png"/></a>x80 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x80  |
 
-|Энергия||
+|Power||
 | --- | --- |
-|Потребляет энергии|180  единиц энергии/секунду  |
+|Power Use|180  power units/second  |
 
-|Жидкости||
+|Liquids||
 | --- | --- |
-|Вместимость жидкости|60  жидкостных единиц  |
+|Liquid Capacity|60  liquid units  |
 
-|Предметы||
+|Items||
 | --- | --- |
-|Вместимость предметов|10  предметов  |
+|Item Capacity|10  items  |
 
-|Ввод/Вывод||
+|Input/Output||
 | --- | --- |
-|Вход|<a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-xlarge.png"/></a>x2  <a href="/wiki/liquids/oil"><img id="spr" src="/wiki/images/liquid-oil.png"/></a>15/sec  |
-|Выход|<a href="/wiki/items/plastanium"><img id="spr" src="/wiki/images/item-plastanium-xlarge.png"/></a>x1  |
-|Время производства|1  сек.  |
+|Input|<a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-xlarge.png"/></a>x2  <a href="/wiki/liquids/oil"><img id="spr" src="/wiki/images/liquid-oil.png"/></a>15/sec  |
+|Output|<a href="/wiki/items/plastanium"><img id="spr" src="/wiki/images/item-plastanium-xlarge.png"/></a>x1  |
+|Production Time|1  seconds  |
 
 
 --- 
