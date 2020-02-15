@@ -1,35 +1,35 @@
-# <img id="spr" src="/wiki/images/block-mender-large.png"></img> Mender
+# <img id="spr" src="/wiki/images/block-mender-large.png"></img> Регенератор
 
-*"Periodically repairs blocks in its vicinity. Keeps defenses repaired in-between waves.
-Optionally uses silicon to boost range and efficiency."*
+*"Периодически ремонтирует блоки в непосредственной близости. Сохраняет средства защиты в целостности между волнами.
+Опционально использует кремний для увеличения дальности и эффективности."*
 
 
-|General||
+|Основные||
 | --- | --- |
 |Internal Name|`mender`|
 |Solid|Yes|
-|Health|80    |
-|Size|1x1  |
-|Build Time|0.56  seconds  |
-|Build Cost|<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x25 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x30  |
+|Здоровье|80    |
+|Размер|1x1  |
+|Время строительства|0.56  сек.  |
+|Стоимость строительства|<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x25 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x30  |
 
-|Power||
+|Энергия||
 | --- | --- |
-|Power Use|18  power units/second  |
+|Потребляет энергии|18  единиц энергии/секунду  |
 
-|Items||
+|Предметы||
 | --- | --- |
-|Item Capacity|10  items  |
+|Вместимость предметов|10  предметов  |
 
-|Shooting||
+|Стрельба||
 | --- | --- |
-|Block Full Repair Time|83  seconds  |
-|Range|5  blocks  |
+|Время полной регенерации|83  сек.  |
+|Радиус действия|5  блоки  |
 
-|Optional Enhancements||
+|Дополнительные улучшения||
 | --- | --- |
-|Booster|<a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x1  |
-|Boost Effect|2.5  blocks  2 x speed  |
+|Ускоритель|<a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x1  |
+|Ускоряющий эффект|2.5  блоки  2 x скорость  |
 
 
 --- 

@@ -1,20 +1,20 @@
-# <img id="spr" src="/wiki/images/block-battery-large-large.png"></img> Large Battery
+# <img id="spr" src="/wiki/images/block-battery-large-large.png"></img> Большой аккумулятор
 
-*"Stores much more power than a regular battery."*
+*"Хранит гораздо больше энергии, чем обычный аккумулятор."*
 
 
-|General||
+|Основные||
 | --- | --- |
 |Internal Name|`battery-large`|
 |Solid|Yes|
-|Health|360    |
-|Size|3x3  |
-|Build Time|1.07  seconds  |
-|Build Cost|<a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x40 <a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-xlarge.png"/></a>x20 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x20  |
+|Здоровье|360    |
+|Размер|3x3  |
+|Время строительства|1.07  сек.  |
+|Стоимость строительства|<a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x40 <a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-xlarge.png"/></a>x20 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x20  |
 
-|Power||
+|Энергия||
 | --- | --- |
-|Power Capacity|50000    |
+|Вместимость энергии|50000    |
 
 
 --- 

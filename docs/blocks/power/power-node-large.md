@@ -1,21 +1,21 @@
-# <img id="spr" src="/wiki/images/block-power-node-large-large.png"></img> Large Power Node
+# <img id="spr" src="/wiki/images/block-power-node-large-large.png"></img> Большой силовой узел
 
-*"An advanced power node with greater range."*
+*"Усовершенствованный силовой узел с большей дальностью."*
 
 
-|General||
+|Основные||
 | --- | --- |
 |Internal Name|`power-node-large`|
 |Solid|Yes|
-|Health|160    |
-|Size|2x2  |
-|Build Time|0.24  seconds  |
-|Build Cost|<a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x10 <a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-xlarge.png"/></a>x5 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x3  |
+|Здоровье|160    |
+|Размер|2x2  |
+|Время строительства|0.24  сек.  |
+|Стоимость строительства|<a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x10 <a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-xlarge.png"/></a>x5 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x3  |
 
-|Power||
+|Энергия||
 | --- | --- |
-|Power Range|9.5  blocks  |
-|Max Connections|30    |
+|Дальность передачи энергии|9.5  блоки  |
+|Количество соединений|30    |
 
 
 --- 

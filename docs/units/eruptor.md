@@ -1,7 +1,7 @@
-# <img id="spr" src="/wiki/images/eruptor.png"></img> Eruptor 
+# <img id="spr" src="/wiki/images/eruptor.png"></img> Извергатель 
 
 
-*"A heavy mech designed to take down structures. Fires a stream of slag at enemy fortifications, melting them and setting volatiles on fire."*  
+*"Тяжёлый мех, предназначенный для разрушения строений. Выстреливает поток шлака по вражеским укреплениям, плавит их и поджигает летучие вещества."*  
 
 | Property      | Value |
 | ----------- | ----------- |

@@ -1,20 +1,20 @@
-# <img id="spr" src="/wiki/images/block-liquid-source-large.png"></img> Liquid Source
+# <img id="spr" src="/wiki/images/block-liquid-source-large.png"></img> Источник жидкостей
 
-*"Infinitely outputs liquids. Sandbox only."*
+*"Бесконечно выводит жидкости. Только песочница."*
 
 
-|General||
+|Основные||
 | --- | --- |
 |Internal Name|`liquid-source`|
 |Solid|Yes|
-|Health|40    |
-|Size|1x1  |
-|Build Time|0  seconds  |
-|Build Cost| |
+|Здоровье|40    |
+|Размер|1x1  |
+|Время строительства|0  сек.  |
+|Стоимость строительства| |
 
-|Liquids||
+|Жидкости||
 | --- | --- |
-|Liquid Capacity|100  liquid units  |
+|Вместимость жидкости|100  жидкостных единиц  |
 
 
 --- 

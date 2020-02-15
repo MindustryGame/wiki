@@ -1,16 +1,16 @@
-# <img id="spr" src="/wiki/images/block-power-void-large.png"></img> Power Void
+# <img id="spr" src="/wiki/images/block-power-void-large.png"></img> Энергетический вакуум
 
-*"Voids all power inputted into it. Sandbox only."*
+*"Аннулирует всю энергию, введенную в него. Только песочница."*
 
 
-|General||
+|Основные||
 | --- | --- |
 |Internal Name|`power-void`|
 |Solid|Yes|
-|Health|40    |
-|Size|1x1  |
-|Build Time|0  seconds  |
-|Build Cost| |
+|Здоровье|40    |
+|Размер|1x1  |
+|Время строительства|0  сек.  |
+|Стоимость строительства| |
 
 
 --- 

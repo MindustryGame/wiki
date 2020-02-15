@@ -1,17 +1,17 @@
-# <img id="spr" src="/wiki/images/block-command-center-large.png"></img> Command Center
+# <img id="spr" src="/wiki/images/block-command-center-large.png"></img> Командный центр
 
-*"Issues movement commands to allied units across the map.
-Causes units to rally, attack an enemy core or retreat to the core/factory. When no enemy core is present, units will default to patrolling under the attack command."*
+*"Командует перемещениями боевых единиц по всей карте.
+Указывает подразделениям [accent]собираться[] вокруг командного центра, [accent]атаковать[] вражеское ядро или [accent]отступать[] к ядру/фабрике. Если вражеское ядро отсутствует, единицы будут патрулировать при команде [accent]атаки[]."*
 
 
-|General||
+|Основные||
 | --- | --- |
 |Internal Name|`command-center`|
 |Solid|Yes|
-|Health|220    |
-|Size|2x2  |
-|Build Time|9.58  seconds  |
-|Build Cost|<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x200 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x250 <a href="/wiki/items/graphite"><img id="spr" src="/wiki/images/item-graphite-xlarge.png"/></a>x100 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x250  |
+|Здоровье|220    |
+|Размер|2x2  |
+|Время строительства|9.58  сек.  |
+|Стоимость строительства|<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x200 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x250 <a href="/wiki/items/graphite"><img id="spr" src="/wiki/images/item-graphite-xlarge.png"/></a>x100 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x250  |
 
 
 --- 

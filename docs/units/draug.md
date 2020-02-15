@@ -1,7 +1,7 @@
-# <img id="spr" src="/wiki/images/draug.png"></img> Draug Miner Drone 
+# <img id="spr" src="/wiki/images/draug.png"></img> Добывающий дрон «Драугр» 
 
 
-*"A primitive mining drone. Cheap to produce. Expendable. Automatically mines copper and lead in the vicinity. Delivers mined resources to the closest core."*  
+*"Примитивный добывающий дрон. Дешёвый в производстве. Расходуемый. Автоматически добывает медь и свинец в непосредственной близости. Поставляет добытые ресурсы в ближайшее ядро."*  
 
 | Property      | Value |
 | ----------- | ----------- |

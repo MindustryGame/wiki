@@ -1,20 +1,20 @@
-# <img id="spr" src="/wiki/images/block-conduit-large.png"></img> Conduit
+# <img id="spr" src="/wiki/images/block-conduit-large.png"></img> Трубопровод
 
-*"Basic liquid transport block. Moves liquids forward. Used in conjunction with pumps and other conduits."*
+*"Основной блок транспортировки жидкости. Перемещает жидкости вперед. Используется совместно с насосами и другими трубопроводами."*
 
 
-|General||
+|Основные||
 | --- | --- |
 |Internal Name|`conduit`|
 |Solid|No|
-|Health|45    |
-|Size|1x1  |
-|Build Time|0.03  seconds  |
-|Build Cost|<a href="/wiki/items/metaglass"><img id="spr" src="/wiki/images/item-metaglass-xlarge.png"/></a>x1  |
+|Здоровье|45    |
+|Размер|1x1  |
+|Время строительства|0.03  сек.  |
+|Стоимость строительства|<a href="/wiki/items/metaglass"><img id="spr" src="/wiki/images/item-metaglass-xlarge.png"/></a>x1  |
 
-|Liquids||
+|Жидкости||
 | --- | --- |
-|Liquid Capacity|10  liquid units  |
+|Вместимость жидкости|10  жидкостных единиц  |
 
 
 --- 

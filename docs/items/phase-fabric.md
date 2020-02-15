@@ -1,7 +1,7 @@
-# <img id="spr" src="/wiki/images/item-phase-fabric.png"></img> Phase Fabric 
+# <img id="spr" src="/wiki/images/item-phase-fabric.png"></img> Фазовая ткань 
 
 
-*"A near-weightless substance used in advanced electronics and self-repairing technology."*  
+*"Практически невесомое вещество, используемое в передовой электронике и технологиях самовосстановления."*  
 
 | Property      | Value |
 | ----------- | ----------- |

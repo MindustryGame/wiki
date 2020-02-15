@@ -1,34 +1,34 @@
-# <img id="spr" src="/wiki/images/block-separator-large.png"></img> Separator
+# <img id="spr" src="/wiki/images/block-separator-large.png"></img> Отделитель
 
-*"Separates slag into its mineral components. Outputs the cooled result."*
+*"Разделяет шлак на его минеральные компоненты. Выводит охлажденный результат."*
 
 
-|General||
+|Основные||
 | --- | --- |
 |Internal Name|`separator`|
 |Solid|Yes|
-|Health|160    |
-|Size|2x2  |
-|Build Time|0.67  seconds  |
-|Build Cost|<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x30 <a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-xlarge.png"/></a>x25  |
+|Здоровье|160    |
+|Размер|2x2  |
+|Время строительства|0.67  сек.  |
+|Стоимость строительства|<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x30 <a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-xlarge.png"/></a>x25  |
 
-|Power||
+|Энергия||
 | --- | --- |
-|Power Use|60  power units/second  |
+|Потребляет энергии|60  единиц энергии/секунду  |
 
-|Liquids||
+|Жидкости||
 | --- | --- |
-|Liquid Capacity|10  liquid units  |
+|Вместимость жидкости|10  жидкостных единиц  |
 
-|Items||
+|Предметы||
 | --- | --- |
-|Item Capacity|10  items  |
+|Вместимость предметов|10  предметов  |
 
-|Input/Output||
+|Ввод/Вывод||
 | --- | --- |
-|Input|<a href="/wiki/liquids/slag"><img id="spr" src="/wiki/images/liquid-slag.png"/></a>x2.5  |
-|Output|<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a> / <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a> / <a href="/wiki/items/graphite"><img id="spr" src="/wiki/images/item-graphite-xlarge.png"/></a> / <a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-xlarge.png"/></a>  |
-|Production Time|0.58  seconds  |
+|Вход|<a href="/wiki/liquids/slag"><img id="spr" src="/wiki/images/liquid-slag.png"/></a>x2.5  |
+|Выход|<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a> / <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a> / <a href="/wiki/items/graphite"><img id="spr" src="/wiki/images/item-graphite-xlarge.png"/></a> / <a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-xlarge.png"/></a>  |
+|Время производства|0.58  сек.  |
 
 
 --- 

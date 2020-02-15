@@ -1,16 +1,16 @@
-# <img id="spr" src="/wiki/images/block-junction-large.png"></img> Junction
+# <img id="spr" src="/wiki/images/block-junction-large.png"></img> Перекрёсток
 
-*"Acts as a bridge for two crossing conveyor belts. Useful in situations with two different conveyors carrying different materials to different locations."*
+*"Действует как мост для двух пересекающихся конвейерных лент. Полезен в ситуациях, когда два разных конвейера перевозят разные материалы в разные места."*
 
 
-|General||
+|Основные||
 | --- | --- |
 |Internal Name|`junction`|
 |Solid|Yes|
-|Health|30    |
-|Size|1x1  |
-|Build Time|0.1  seconds  |
-|Build Cost|<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x2  |
+|Здоровье|30    |
+|Размер|1x1  |
+|Время строительства|0.1  сек.  |
+|Стоимость строительства|<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x2  |
 
 
 --- 

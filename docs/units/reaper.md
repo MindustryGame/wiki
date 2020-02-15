@@ -1,4 +1,4 @@
-# <img id="spr" src="/wiki/images/reaper.png"></img> Reaper 
+# <img id="spr" src="/wiki/images/reaper.png"></img> Жнец 
 
 
 *"Unknown..."*  

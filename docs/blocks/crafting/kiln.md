@@ -1,30 +1,30 @@
-# <img id="spr" src="/wiki/images/block-kiln-large.png"></img> Kiln
+# <img id="spr" src="/wiki/images/block-kiln-large.png"></img> Печь
 
-*"Smelts sand and lead into the compound known as metaglass. Requires small amounts of power to run."*
+*"Выплавляет песок и свинец в соединение, известное как метастекло. Требуется небольшое количество энергии для работы."*
 
 
-|General||
+|Основные||
 | --- | --- |
 |Internal Name|`kiln`|
 |Solid|Yes|
-|Health|60    |
-|Size|2x2  |
-|Build Time|1.35  seconds  |
-|Build Cost|<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x60 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x30 <a href="/wiki/items/graphite"><img id="spr" src="/wiki/images/item-graphite-xlarge.png"/></a>x30  |
+|Здоровье|60    |
+|Размер|2x2  |
+|Время строительства|1.35  сек.  |
+|Стоимость строительства|<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x60 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x30 <a href="/wiki/items/graphite"><img id="spr" src="/wiki/images/item-graphite-xlarge.png"/></a>x30  |
 
-|Power||
+|Энергия||
 | --- | --- |
-|Power Use|36  power units/second  |
+|Потребляет энергии|36  единиц энергии/секунду  |
 
-|Items||
+|Предметы||
 | --- | --- |
-|Item Capacity|10  items  |
+|Вместимость предметов|10  предметов  |
 
-|Input/Output||
+|Ввод/Вывод||
 | --- | --- |
-|Input|<a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x1 <a href="/wiki/items/sand"><img id="spr" src="/wiki/images/item-sand-xlarge.png"/></a>x1  |
-|Output|<a href="/wiki/items/metaglass"><img id="spr" src="/wiki/images/item-metaglass-xlarge.png"/></a>x1  |
-|Production Time|0.5  seconds  |
+|Вход|<a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x1 <a href="/wiki/items/sand"><img id="spr" src="/wiki/images/item-sand-xlarge.png"/></a>x1  |
+|Выход|<a href="/wiki/items/metaglass"><img id="spr" src="/wiki/images/item-metaglass-xlarge.png"/></a>x1  |
+|Время производства|0.5  сек.  |
 
 
 --- 

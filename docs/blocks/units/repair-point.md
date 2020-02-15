@@ -1,24 +1,24 @@
-# <img id="spr" src="/wiki/images/block-repair-point-large.png"></img> Repair Point
+# <img id="spr" src="/wiki/images/block-repair-point-large.png"></img> Ремонтный пункт
 
-*"Continuously heals the closest damaged unit in its vicinity."*
+*"Непрерывно лечит ближайшую поврежденную боевую единицу или мех в своём радиусе."*
 
 
-|General||
+|Основные||
 | --- | --- |
 |Internal Name|`repair-point`|
 |Solid|Yes|
-|Health|40    |
-|Size|1x1  |
-|Build Time|0.5  seconds  |
-|Build Cost|<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x15 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x15 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x15  |
+|Здоровье|40    |
+|Размер|1x1  |
+|Время строительства|0.5  сек.  |
+|Стоимость строительства|<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x15 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x15 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x15  |
 
-|Power||
+|Энергия||
 | --- | --- |
-|Power Use|60  power units/second  |
+|Потребляет энергии|60  единиц энергии/секунду  |
 
-|Shooting||
+|Стрельба||
 | --- | --- |
-|Range|8.13  blocks  |
+|Радиус действия|8.13  блоки  |
 
 
 --- 

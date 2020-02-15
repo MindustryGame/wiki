@@ -1,7 +1,7 @@
-# <img id="spr" src="/wiki/images/mech-javelin-ship-full.png"></img> Javelin
+# <img id="spr" src="/wiki/images/mech-javelin-ship-full.png"></img> Джавелин
 
 
-*"A hit-and-run strike ship. While initially slow, it can accelerate to great speeds and fly by enemy outposts, dealing large amounts of damage with its lightning and missiles."*  
+*"Корабль для тактики «атакуй и беги». Сначала он медленный, но позже может разгоняться до огромных скоростей и летать над аванпостами противника, нанося большой урон молниями и ракетами."*  
 
 | Property      | Value |
 | ----------- | ----------- |

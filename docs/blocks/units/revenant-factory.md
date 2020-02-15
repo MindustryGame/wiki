@@ -1,26 +1,26 @@
-# <img id="spr" src="/wiki/images/block-revenant-factory-large.png"></img> Revenant Fighter Factory
+# <img id="spr" src="/wiki/images/block-revenant-factory-large.png"></img> Завод крейсеров «Мститель»
 
-*"Produces heavy missile-based units."*
+*"Производит тяжёлые летающие боевые единицы, вооружённые ракетами."*
 
 
-|General||
+|Основные||
 | --- | --- |
 |Internal Name|`revenant-factory`|
 |Solid|No|
-|Health|640    |
-|Size|4x4  |
-|Build Time|8  seconds  |
-|Build Cost|<a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x150 <a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-xlarge.png"/></a>x150 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x200 <a href="/wiki/items/plastanium"><img id="spr" src="/wiki/images/item-plastanium-xlarge.png"/></a>x50  |
+|Здоровье|640    |
+|Размер|4x4  |
+|Время строительства|8  сек.  |
+|Стоимость строительства|<a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x150 <a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-xlarge.png"/></a>x150 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x200 <a href="/wiki/items/plastanium"><img id="spr" src="/wiki/images/item-plastanium-xlarge.png"/></a>x50  |
 
-|Power||
+|Энергия||
 | --- | --- |
-|Power Use|180  power units/second  |
+|Потребляет энергии|180  единиц энергии/секунду  |
 
-|Input/Output||
+|Ввод/Вывод||
 | --- | --- |
-|Input|<a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x40 <a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-xlarge.png"/></a>x30  |
-|Production Time|33.33  seconds  |
-|Max Active Units|4    |
+|Вход|<a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x40 <a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-xlarge.png"/></a>x30  |
+|Время производства|33.33  сек.  |
+|Максимальное количество активных единиц|4    |
 
 
 --- 

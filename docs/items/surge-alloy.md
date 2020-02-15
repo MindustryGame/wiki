@@ -1,7 +1,7 @@
-# <img id="spr" src="/wiki/images/item-surge-alloy.png"></img> Surge Alloy 
+# <img id="spr" src="/wiki/images/item-surge-alloy.png"></img> Кинетический сплав 
 
 
-*"An advanced alloy with unique electrical properties."*  
+*"Современный сплав с уникальными электрическими свойствами."*  
 
 | Property      | Value |
 | ----------- | ----------- |

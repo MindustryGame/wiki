@@ -1,20 +1,20 @@
-# <img id="spr" src="/wiki/images/block-container-large.png"></img> Container
+# <img id="spr" src="/wiki/images/block-container-large.png"></img> Контейнер
 
-*"Stores a small amount of items of each type. An unloader block can be used to retrieve items from the container."*
+*"Хранит небольшое количество предметов каждого типа. Блок разгрузчика может быть использован для извлечения элементов из контейнера."*
 
 
-|General||
+|Основные||
 | --- | --- |
 |Internal Name|`container`|
 |Solid|Yes|
-|Health|160    |
-|Size|2x2  |
-|Build Time|1.67  seconds  |
-|Build Cost|<a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-xlarge.png"/></a>x100  |
+|Здоровье|160    |
+|Размер|2x2  |
+|Время строительства|1.67  сек.  |
+|Стоимость строительства|<a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-xlarge.png"/></a>x100  |
 
-|Items||
+|Предметы||
 | --- | --- |
-|Item Capacity|300  items  |
+|Вместимость предметов|300  предметов  |
 
 
 --- 

@@ -1,18 +1,18 @@
-# <img id="spr" src="/wiki/images/block-titanium-wall-large-large.png"></img> Large Titanium Wall
+# <img id="spr" src="/wiki/images/block-titanium-wall-large-large.png"></img> Большая титановая стена
 
-*"A moderately strong defensive block.
-Provides moderate protection from enemies.
-Spans multiple tiles."*
+*"Умеренно сильный защитный блок.
+Обеспечивает умеренную защиту от врагов.
+Размещается на нескольких плитках."*
 
 
-|General||
+|Основные||
 | --- | --- |
 |Internal Name|`titanium-wall-large`|
 |Solid|Yes|
-|Health|1760    |
-|Size|2x2  |
-|Build Time|2  seconds  |
-|Build Cost|<a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-xlarge.png"/></a>x24  |
+|Здоровье|1760    |
+|Размер|2x2  |
+|Время строительства|2  сек.  |
+|Стоимость строительства|<a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-xlarge.png"/></a>x24  |
 
 
 --- 

@@ -1,21 +1,21 @@
-# <img id="spr" src="/wiki/images/block-plated-conduit-large.png"></img> Plated Conduit
+# <img id="spr" src="/wiki/images/block-plated-conduit-large.png"></img> Укреплённый трубопровод
 
-*"Moves liquids at the same rate as pulse conduits, but possesses more armor. Does not accept fluids from the sides by anything other than conduits.
-Leaks less."*
+*"Перемещает жидкости с той же скоростью, что и импульсные трубопроводы, но обладает большей прочностью. Не принимает жидкости со сторон, кроме как от других трубопроводов.
+Протекает меньше."*
 
 
-|General||
+|Основные||
 | --- | --- |
 |Internal Name|`plated-conduit`|
 |Solid|No|
-|Health|220    |
-|Size|1x1  |
-|Build Time|0.08  seconds  |
-|Build Cost|<a href="/wiki/items/metaglass"><img id="spr" src="/wiki/images/item-metaglass-xlarge.png"/></a>x1 <a href="/wiki/items/thorium"><img id="spr" src="/wiki/images/item-thorium-xlarge.png"/></a>x2 <a href="/wiki/items/plastanium"><img id="spr" src="/wiki/images/item-plastanium-xlarge.png"/></a>x1  |
+|Здоровье|220    |
+|Размер|1x1  |
+|Время строительства|0.08  сек.  |
+|Стоимость строительства|<a href="/wiki/items/metaglass"><img id="spr" src="/wiki/images/item-metaglass-xlarge.png"/></a>x1 <a href="/wiki/items/thorium"><img id="spr" src="/wiki/images/item-thorium-xlarge.png"/></a>x2 <a href="/wiki/items/plastanium"><img id="spr" src="/wiki/images/item-plastanium-xlarge.png"/></a>x1  |
 
-|Liquids||
+|Жидкости||
 | --- | --- |
-|Liquid Capacity|16  liquid units  |
+|Вместимость жидкости|16  жидкостных единиц  |
 
 
 --- 

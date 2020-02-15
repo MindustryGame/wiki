@@ -1,20 +1,20 @@
-# <img id="spr" src="/wiki/images/block-illuminator-large.png"></img> Illuminator
+# <img id="spr" src="/wiki/images/block-illuminator-large.png"></img> Осветитель
 
-*"A small, compact, configurable light source. Requires power to function."*
+*"Маленький, компактный, настраиваемый источник света. Требуется энергия для работы."*
 
 
-|General||
+|Основные||
 | --- | --- |
 |Internal Name|`illuminator`|
 |Solid|No|
-|Health|40    |
-|Size|1x1  |
-|Build Time|0.09  seconds  |
-|Build Cost|<a href="/wiki/items/graphite"><img id="spr" src="/wiki/images/item-graphite-xlarge.png"/></a>x4 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x2  |
+|Здоровье|40    |
+|Размер|1x1  |
+|Время строительства|0.09  сек.  |
+|Стоимость строительства|<a href="/wiki/items/graphite"><img id="spr" src="/wiki/images/item-graphite-xlarge.png"/></a>x4 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x2  |
 
-|Power||
+|Энергия||
 | --- | --- |
-|Power Use|3  power units/second  |
+|Потребляет энергии|3  единиц энергии/секунду  |
 
 
 --- 

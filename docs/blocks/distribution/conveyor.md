@@ -1,21 +1,21 @@
-# <img id="spr" src="/wiki/images/block-conveyor-large.png"></img> Conveyor
+# <img id="spr" src="/wiki/images/block-conveyor-large.png"></img> Конвейер
 
-*"Basic item transport block. Moves items forward and automatically deposits them into blocks. Rotatable."*
+*"Базовый транспортный блок. Перемещает предметы вперед и автоматически складывает их в блоки. Можно повернуть."*
 
 
-|General||
+|Основные||
 | --- | --- |
 |Internal Name|`conveyor`|
 |Solid|No|
-|Health|45    |
-|Size|1x1  |
-|Build Time|0.01  seconds  |
-|Build Cost|<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x1  |
+|Здоровье|45    |
+|Размер|1x1  |
+|Время строительства|0.01  сек.  |
+|Стоимость строительства|<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x1  |
 
-|Items||
+|Предметы||
 | --- | --- |
-|Item Capacity|4  items  |
-|Move Speed|4.2  items/second  |
+|Вместимость предметов|4  предметов  |
+|Скорость перемещения|4.2  предметов/секунду  |
 
 
 --- 

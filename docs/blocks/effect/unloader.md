@@ -1,20 +1,20 @@
-# <img id="spr" src="/wiki/images/block-unloader-large.png"></img> Unloader
+# <img id="spr" src="/wiki/images/block-unloader-large.png"></img> Разгрузчик
 
-*"Unloads items from any nearby non-transportation block. The type of item to be unloaded can be changed by tapping."*
+*"Выгружает предметы из любого нетранспортного блока. Тип предмета, который необходимо выгрузить, можно изменить нажатием."*
 
 
-|General||
+|Основные||
 | --- | --- |
 |Internal Name|`unloader`|
 |Solid|Yes|
-|Health|70    |
-|Size|1x1  |
-|Build Time|0.82  seconds  |
-|Build Cost|<a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-xlarge.png"/></a>x25 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x30  |
+|Здоровье|70    |
+|Размер|1x1  |
+|Время строительства|0.82  сек.  |
+|Стоимость строительства|<a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-xlarge.png"/></a>x25 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x30  |
 
-|Items||
+|Предметы||
 | --- | --- |
-|Item Capacity|10  items  |
+|Вместимость предметов|10  предметов  |
 
 
 --- 

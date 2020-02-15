@@ -1,17 +1,17 @@
-# <img id="spr" src="/wiki/images/block-door-large-large.png"></img> Large Door
+# <img id="spr" src="/wiki/images/block-door-large-large.png"></img> Большая дверь
 
-*"A large door. Can be opened and closed by tapping.
-Spans multiple tiles."*
+*"Большая дверь. Можно открыть и закрыть нажатием.
+Размещается на нескольких плитках."*
 
 
-|General||
+|Основные||
 | --- | --- |
 |Internal Name|`door-large`|
 |Solid|No|
-|Health|1600    |
-|Size|2x2  |
-|Build Time|3.07  seconds  |
-|Build Cost|<a href="/wiki/items/graphite"><img id="spr" src="/wiki/images/item-graphite-xlarge.png"/></a>x24 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x16  |
+|Здоровье|1600    |
+|Размер|2x2  |
+|Время строительства|3.07  сек.  |
+|Стоимость строительства|<a href="/wiki/items/graphite"><img id="spr" src="/wiki/images/item-graphite-xlarge.png"/></a>x24 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x16  |
 
 
 --- 

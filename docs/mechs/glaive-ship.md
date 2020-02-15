@@ -1,7 +1,7 @@
-# <img id="spr" src="/wiki/images/mech-glaive-ship-full.png"></img> Glaive
+# <img id="spr" src="/wiki/images/mech-glaive-ship-full.png"></img> Копьё
 
 
-*"A large, well-armored gunship. Equipped with an incendiary repeater. Highly maneuverable."*  
+*"Большой хорошо бронированный боевой корабль. Оборудован зажигательным повторителем. Очень манёвренный."*  
 
 | Property      | Value |
 | ----------- | ----------- |

@@ -1,9 +1,9 @@
-# <img id="zonespr" src="/wiki/images/zone-overgrowth.png"></img> Overgrowth 
+# <img id="zonespr" src="/wiki/images/zone-overgrowth.png"></img> Заросли 
 
 <img id="zone" src="/wiki/images/zone-overgrowth.png"></img>
 
-"This area is overgrown, closer to the source of the spores.
-The enemy has established an outpost here. Build Titan units. Destroy it. Reclaim that which was lost."
+"Эта заросшая область находится ближе к источнику спор.
+Враг организовал здесь форпост. Постройте боевые единицы «Титан». Уничтожьте его. Верните то, что было потеряно."
 
 | Property      | Value |
 | ----------- | ----------- |

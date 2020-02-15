@@ -1,4 +1,4 @@
-# <img id="spr" src="/wiki/images/liquid-water.png"></img> Water 
+# <img id="spr" src="/wiki/images/liquid-water.png"></img> Вода 
 
 
 | Property      | Value |
@@ -8,7 +8,7 @@
 |Explosiveness|0%|
 |Heat Capacity|40%|
 
-*"The most useful liquid. Commonly used for cooling machines and waste processing."*
+*"Самая полезная жидкость. Обычно используется для охлаждения машин и переработки отходов."*
 
 --- 
 

@@ -1,20 +1,20 @@
-# <img id="spr" src="/wiki/images/block-underflow-gate-large.png"></img> Underflow Gate
+# <img id="spr" src="/wiki/images/block-underflow-gate-large.png"></img> Избыточный шлюз
 
-*"The opposite of an overflow gate. Outputs to the front if the left and right paths are blocked."*
+*"Противоположность избыточного затвора. Выводит предметы вперёд только в том случае, если левый и правый пути заблокированы."*
 
 
-|General||
+|Основные||
 | --- | --- |
 |Internal Name|`underflow-gate`|
 |Solid|Yes|
-|Health|40    |
-|Size|1x1  |
-|Build Time|0.17  seconds  |
-|Build Cost|<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x4 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x2  |
+|Здоровье|40    |
+|Размер|1x1  |
+|Время строительства|0.17  сек.  |
+|Стоимость строительства|<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x4 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x2  |
 
-|Items||
+|Предметы||
 | --- | --- |
-|Item Capacity|10  items  |
+|Вместимость предметов|10  предметов  |
 
 
 --- 

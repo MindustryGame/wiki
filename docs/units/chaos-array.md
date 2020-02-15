@@ -1,4 +1,4 @@
-# <img id="spr" src="/wiki/images/chaos-array.png"></img> Chaos Array 
+# <img id="spr" src="/wiki/images/chaos-array.png"></img> Массив хаоса 
 
 
 *"Unknown..."*  

@@ -1,26 +1,26 @@
-# <img id="spr" src="/wiki/images/block-titan-factory-large.png"></img> Titan Mech Factory
+# <img id="spr" src="/wiki/images/block-titan-factory-large.png"></img> Завод мехов «Титан»
 
-*"Produces advanced, armored ground units."*
+*"Производит продвинутые бронированные боевые единицы."*
 
 
-|General||
+|Основные||
 | --- | --- |
 |Internal Name|`titan-factory`|
 |Solid|No|
-|Health|360    |
-|Size|3x3  |
-|Build Time|2.02  seconds  |
-|Build Cost|<a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x50 <a href="/wiki/items/graphite"><img id="spr" src="/wiki/images/item-graphite-xlarge.png"/></a>x50 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x45  |
+|Здоровье|360    |
+|Размер|3x3  |
+|Время строительства|2.02  сек.  |
+|Стоимость строительства|<a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x50 <a href="/wiki/items/graphite"><img id="spr" src="/wiki/images/item-graphite-xlarge.png"/></a>x50 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x45  |
 
-|Power||
+|Энергия||
 | --- | --- |
-|Power Use|36  power units/second  |
+|Потребляет энергии|36  единиц энергии/секунду  |
 
-|Input/Output||
+|Ввод/Вывод||
 | --- | --- |
-|Input|<a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x12  |
-|Production Time|17.5  seconds  |
-|Max Active Units|4    |
+|Вход|<a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x12  |
+|Время производства|17.5  сек.  |
+|Максимальное количество активных единиц|4    |
 
 
 --- 

@@ -1,24 +1,24 @@
-# <img id="spr" src="/wiki/images/block-mechanical-pump-large.png"></img> Mechanical Pump
+# <img id="spr" src="/wiki/images/block-mechanical-pump-large.png"></img> Механическая помпа
 
-*"A cheap pump with slow output, but no power consumption."*
+*"Дешёвый насос с низкой производительностью, но без энергопотребления."*
 
 
-|General||
+|Основные||
 | --- | --- |
 |Internal Name|`mechanical-pump`|
 |Solid|Yes|
-|Health|40    |
-|Size|1x1  |
-|Build Time|0.38  seconds  |
-|Build Cost|<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x15 <a href="/wiki/items/metaglass"><img id="spr" src="/wiki/images/item-metaglass-xlarge.png"/></a>x10  |
+|Здоровье|40    |
+|Размер|1x1  |
+|Время строительства|0.38  сек.  |
+|Стоимость строительства|<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x15 <a href="/wiki/items/metaglass"><img id="spr" src="/wiki/images/item-metaglass-xlarge.png"/></a>x10  |
 
-|Liquids||
+|Жидкости||
 | --- | --- |
-|Liquid Capacity|10  liquid units  |
+|Вместимость жидкости|10  жидкостных единиц  |
 
-|Input/Output||
+|Ввод/Вывод||
 | --- | --- |
-|Output|6  liquid units/second  |
+|Выход|6  жидкостных единиц/секунду  |
 
 
 --- 

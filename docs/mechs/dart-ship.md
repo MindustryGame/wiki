@@ -1,7 +1,7 @@
-# <img id="spr" src="/wiki/images/mech-dart-ship-full.png"></img> Dart
+# <img id="spr" src="/wiki/images/mech-dart-ship-full.png"></img> Дротик
 
 
-*"The standard control ship. Fast mining speed. Reasonably fast and light, but has little offensive capability."*  
+*"Стандартный управляемый корабль. Быстрая скорость добычи. Достаточно быстрый и легкий, но обладает слабым вооружением."*  
 
 | Property      | Value |
 | ----------- | ----------- |

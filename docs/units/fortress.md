@@ -1,7 +1,7 @@
-# <img id="spr" src="/wiki/images/fortress.png"></img> Fortress 
+# <img id="spr" src="/wiki/images/fortress.png"></img> Крепость 
 
 
-*"A heavy artillery mech. Equipped with two modified Hail-type cannons for long-range assault on enemy structures and units."*  
+*"Тяжёлый артиллерийский мех. Оснащен двумя модифицированными пушками типа «Град» для штурма дальних объектов и подразделений противника."*  
 
 | Property      | Value |
 | ----------- | ----------- |

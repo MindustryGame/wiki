@@ -1,17 +1,17 @@
-# <img id="spr" src="/wiki/images/block-thorium-wall-large.png"></img> Thorium Wall
+# <img id="spr" src="/wiki/images/block-thorium-wall-large.png"></img> Ториевая стена
 
-*"A strong defensive block.
-Decent protection from enemies."*
+*"Сильный защитный блок.
+Хорошая защита от врагов."*
 
 
-|General||
+|Основные||
 | --- | --- |
 |Internal Name|`thorium-wall`|
 |Solid|Yes|
-|Health|800    |
-|Size|1x1  |
-|Build Time|0.55  seconds  |
-|Build Cost|<a href="/wiki/items/thorium"><img id="spr" src="/wiki/images/item-thorium-xlarge.png"/></a>x6  |
+|Здоровье|800    |
+|Размер|1x1  |
+|Время строительства|0.55  сек.  |
+|Стоимость строительства|<a href="/wiki/items/thorium"><img id="spr" src="/wiki/images/item-thorium-xlarge.png"/></a>x6  |
 
 
 --- 

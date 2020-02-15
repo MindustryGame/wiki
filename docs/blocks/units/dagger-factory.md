@@ -1,26 +1,26 @@
-# <img id="spr" src="/wiki/images/block-dagger-factory-large.png"></img> Dagger Mech Factory
+# <img id="spr" src="/wiki/images/block-dagger-factory-large.png"></img> Завод мехов «Кинжал»
 
-*"Produces basic ground units."*
+*"Производит основные наземные боевые единицы."*
 
 
-|General||
+|Основные||
 | --- | --- |
 |Internal Name|`dagger-factory`|
 |Solid|No|
-|Health|160    |
-|Size|2x2  |
-|Build Time|1.11  seconds  |
-|Build Cost|<a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x55 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x35  |
+|Здоровье|160    |
+|Размер|2x2  |
+|Время строительства|1.11  сек.  |
+|Стоимость строительства|<a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x55 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x35  |
 
-|Power||
+|Энергия||
 | --- | --- |
-|Power Use|30  power units/second  |
+|Потребляет энергии|30  единиц энергии/секунду  |
 
-|Input/Output||
+|Ввод/Вывод||
 | --- | --- |
-|Input|<a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x6  |
-|Production Time|14.17  seconds  |
-|Max Active Units|4    |
+|Вход|<a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x6  |
+|Время производства|14.17  сек.  |
+|Максимальное количество активных единиц|4    |
 
 
 --- 

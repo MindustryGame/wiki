@@ -1,20 +1,20 @@
-# <img id="spr" src="/wiki/images/block-bridge-conduit-large.png"></img> Bridge Conduit
+# <img id="spr" src="/wiki/images/block-bridge-conduit-large.png"></img> Мостовой трубопровод
 
-*"Advanced liquid transport block. Allows transporting liquids over up to 3 tiles of any terrain or building."*
+*"Расширенный блок транспортировки жидкости. Позволяет транспортировать жидкости над 3 плитками любой местности или здания."*
 
 
-|General||
+|Основные||
 | --- | --- |
 |Internal Name|`bridge-conduit`|
 |Solid|Yes|
-|Health|40    |
-|Size|1x1  |
-|Build Time|0.27  seconds  |
-|Build Cost|<a href="/wiki/items/metaglass"><img id="spr" src="/wiki/images/item-metaglass-xlarge.png"/></a>x8 <a href="/wiki/items/graphite"><img id="spr" src="/wiki/images/item-graphite-xlarge.png"/></a>x4  |
+|Здоровье|40    |
+|Размер|1x1  |
+|Время строительства|0.27  сек.  |
+|Стоимость строительства|<a href="/wiki/items/metaglass"><img id="spr" src="/wiki/images/item-metaglass-xlarge.png"/></a>x8 <a href="/wiki/items/graphite"><img id="spr" src="/wiki/images/item-graphite-xlarge.png"/></a>x4  |
 
-|Liquids||
+|Жидкости||
 | --- | --- |
-|Liquid Capacity|10  liquid units  |
+|Вместимость жидкости|10  жидкостных единиц  |
 
 
 --- 

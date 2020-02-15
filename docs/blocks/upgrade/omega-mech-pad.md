@@ -1,25 +1,25 @@
-# <img id="spr" src="/wiki/images/block-omega-mech-pad-large.png"></img> Omega Mech Pad
+# <img id="spr" src="/wiki/images/block-omega-mech-pad-large.png"></img> Реконструктор меха «Омега»
 
-*"Provides transformation into a heavily-armored missile mech.
-Use by tapping while standing on it."*
+*"Обеспечивает превращение в тяжелобронированный ракетный мех.
+Используйте, нажав, стоя на нём."*
 
 
-|General||
+|Основные||
 | --- | --- |
 |Internal Name|`omega-mech-pad`|
 |Solid|No|
-|Health|360    |
-|Size|3x3  |
-|Build Time|19.04  seconds  |
-|Build Cost|<a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x225 <a href="/wiki/items/graphite"><img id="spr" src="/wiki/images/item-graphite-xlarge.png"/></a>x275 <a href="/wiki/items/thorium"><img id="spr" src="/wiki/images/item-thorium-xlarge.png"/></a>x300 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x325 <a href="/wiki/items/surge-alloy"><img id="spr" src="/wiki/images/item-surge-alloy-xlarge.png"/></a>x120  |
+|Здоровье|360    |
+|Размер|3x3  |
+|Время строительства|19.04  сек.  |
+|Стоимость строительства|<a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x225 <a href="/wiki/items/graphite"><img id="spr" src="/wiki/images/item-graphite-xlarge.png"/></a>x275 <a href="/wiki/items/thorium"><img id="spr" src="/wiki/images/item-thorium-xlarge.png"/></a>x300 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x325 <a href="/wiki/items/surge-alloy"><img id="spr" src="/wiki/images/item-surge-alloy-xlarge.png"/></a>x120  |
 
-|Power||
+|Энергия||
 | --- | --- |
-|Power Use|72  power units/second  |
+|Потребляет энергии|72  единиц энергии/секунду  |
 
-|Input/Output||
+|Ввод/Вывод||
 | --- | --- |
-|Production Time|5  seconds  |
+|Время производства|5  сек.  |
 
 
 --- 

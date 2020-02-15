@@ -1,16 +1,16 @@
-# <img id="spr" src="/wiki/images/block-plastanium-wall-large.png"></img> Plastanium Wall
+# <img id="spr" src="/wiki/images/block-plastanium-wall-large.png"></img> Пластановая стена
 
-*"A special type of wall that absorbs electric arcs and blocks automatic power node connections."*
+*"Специальный тип стены, который поглощает электрические разряды и блокирует автоматическое соединение между силовыми узлами."*
 
 
-|General||
+|Основные||
 | --- | --- |
 |Internal Name|`plastanium-wall`|
 |Solid|Yes|
-|Health|760    |
-|Size|1x1  |
-|Build Time|0.79  seconds  |
-|Build Cost|<a href="/wiki/items/metaglass"><img id="spr" src="/wiki/images/item-metaglass-xlarge.png"/></a>x2 <a href="/wiki/items/plastanium"><img id="spr" src="/wiki/images/item-plastanium-xlarge.png"/></a>x5  |
+|Здоровье|760    |
+|Размер|1x1  |
+|Время строительства|0.79  сек.  |
+|Стоимость строительства|<a href="/wiki/items/metaglass"><img id="spr" src="/wiki/images/item-metaglass-xlarge.png"/></a>x2 <a href="/wiki/items/plastanium"><img id="spr" src="/wiki/images/item-plastanium-xlarge.png"/></a>x5  |
 
 
 --- 

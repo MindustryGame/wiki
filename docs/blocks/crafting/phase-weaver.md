@@ -1,30 +1,30 @@
-# <img id="spr" src="/wiki/images/block-phase-weaver-large.png"></img> Phase Weaver
+# <img id="spr" src="/wiki/images/block-phase-weaver-large.png"></img> Фазовый ткач
 
-*"Synthesizes phase fabric from radioactive thorium and sand. Requires massive amounts of power to function."*
+*"Синтезирует фазовую ткань из радиоактивного тория и песка. Требуется огромное количество энергии для работы."*
 
 
-|General||
+|Основные||
 | --- | --- |
 |Internal Name|`phase-weaver`|
 |Solid|Yes|
-|Health|60    |
-|Size|2x2  |
-|Build Time|4.51  seconds  |
-|Build Cost|<a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x120 <a href="/wiki/items/thorium"><img id="spr" src="/wiki/images/item-thorium-xlarge.png"/></a>x75 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x130  |
+|Здоровье|60    |
+|Размер|2x2  |
+|Время строительства|4.51  сек.  |
+|Стоимость строительства|<a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x120 <a href="/wiki/items/thorium"><img id="spr" src="/wiki/images/item-thorium-xlarge.png"/></a>x75 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x130  |
 
-|Power||
+|Энергия||
 | --- | --- |
-|Power Use|300  power units/second  |
+|Потребляет энергии|300  единиц энергии/секунду  |
 
-|Items||
+|Предметы||
 | --- | --- |
-|Item Capacity|20  items  |
+|Вместимость предметов|20  предметов  |
 
-|Input/Output||
+|Ввод/Вывод||
 | --- | --- |
-|Input|<a href="/wiki/items/thorium"><img id="spr" src="/wiki/images/item-thorium-xlarge.png"/></a>x4 <a href="/wiki/items/sand"><img id="spr" src="/wiki/images/item-sand-xlarge.png"/></a>x10  |
-|Output|<a href="/wiki/items/phase-fabric"><img id="spr" src="/wiki/images/item-phase-fabric-xlarge.png"/></a>x1  |
-|Production Time|2  seconds  |
+|Вход|<a href="/wiki/items/thorium"><img id="spr" src="/wiki/images/item-thorium-xlarge.png"/></a>x4 <a href="/wiki/items/sand"><img id="spr" src="/wiki/images/item-sand-xlarge.png"/></a>x10  |
+|Выход|<a href="/wiki/items/phase-fabric"><img id="spr" src="/wiki/images/item-phase-fabric-xlarge.png"/></a>x1  |
+|Время производства|2  сек.  |
 
 
 --- 

@@ -1,17 +1,17 @@
-# <img id="spr" src="/wiki/images/block-surge-wall-large.png"></img> Surge Wall
+# <img id="spr" src="/wiki/images/block-surge-wall-large.png"></img> Стена из кинетического сплава
 
-*"An extremely durable defensive block.
-Builds up charge on bullet contact, releasing it randomly."*
+*"Очень прочный защитный блок.
+Накапливает заряд при контакте с пулей, выпуская его случайным образом."*
 
 
-|General||
+|Основные||
 | --- | --- |
 |Internal Name|`surge-wall`|
 |Solid|Yes|
-|Health|920    |
-|Size|1x1  |
-|Build Time|0.5  seconds  |
-|Build Cost|<a href="/wiki/items/surge-alloy"><img id="spr" src="/wiki/images/item-surge-alloy-xlarge.png"/></a>x6  |
+|Здоровье|920    |
+|Размер|1x1  |
+|Время строительства|0.5  сек.  |
+|Стоимость строительства|<a href="/wiki/items/surge-alloy"><img id="spr" src="/wiki/images/item-surge-alloy-xlarge.png"/></a>x6  |
 
 
 --- 

@@ -1,9 +1,9 @@
-# <img id="zonespr" src="/wiki/images/zone-ruinousShores.png"></img> Ruinous Shores 
+# <img id="zonespr" src="/wiki/images/zone-ruinousShores.png"></img> Разрушенные берега 
 
 <img id="zone" src="/wiki/images/zone-ruinousShores.png"></img>
 
-"Past the wastes, is the shoreline. Once, this location housed a coastal defense array. Not much of it remains. Only the most basic defense structures have remained unscathed, everything else reduced to scrap.
-Continue the expansion outwards. Rediscover the technology."
+"Мимо пустошей проходит береговая линия. Когда-то здесь располагался массив береговой обороны. Не так много от него осталось. Только самые базовые оборонительные сооружения остались невредимыми, всё остальное превратилось в металлолом.
+Продолжайте экспансию вовне. Переоткройте для себя технологии."
 
 | Property      | Value |
 | ----------- | ----------- |

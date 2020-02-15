@@ -1,15 +1,15 @@
-# <img id="spr" src="/wiki/images/block-scrap-wall-large-large.png"></img> Large Scrap Wall
+# <img id="spr" src="/wiki/images/block-scrap-wall-large-large.png"></img> Большая стена из металлолома
 
 
 
-|General||
+|Основные||
 | --- | --- |
 |Internal Name|`scrap-wall-large`|
 |Solid|Yes|
-|Health|960    |
-|Size|2x2  |
-|Build Time|0  seconds  |
-|Build Cost| |
+|Здоровье|960    |
+|Размер|2x2  |
+|Время строительства|0  сек.  |
+|Стоимость строительства| |
 
 
 --- 

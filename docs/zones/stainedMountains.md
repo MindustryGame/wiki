@@ -1,11 +1,11 @@
-# <img id="zonespr" src="/wiki/images/zone-stainedMountains.png"></img> Stained Mountains 
+# <img id="zonespr" src="/wiki/images/zone-stainedMountains.png"></img> Окрашенные горы 
 
 <img id="zone" src="/wiki/images/zone-stainedMountains.png"></img>
 
-"Further inland lie the mountains, yet untainted by spores.
-Extract the abundant titanium in this area. Learn how to use it.
+"Дальше, вглубь местности, лежат горы, еще не запятнанные спорами.
+Извлеките изобилие титана в этой области. Научитесь им пользоваться.
 
-The enemy presence is greater here. Do not give them time to send their strongest units."
+Вражеское присутствие здесь сильнее. Не дайте им времени для отправки своих сильнейших боевых единиц."
 
 | Property      | Value |
 | ----------- | ----------- |

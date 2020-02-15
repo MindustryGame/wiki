@@ -1,26 +1,26 @@
-# <img id="spr" src="/wiki/images/block-crawler-factory-large.png"></img> Crawler Mech Factory
+# <img id="spr" src="/wiki/images/block-crawler-factory-large.png"></img> Завод гусеничных ботов «Камикадзе»
 
-*"Produces fast self-destructing swarm units."*
+*"Производит быстрые саморазрушающиеся боевые единицы."*
 
 
-|General||
+|Основные||
 | --- | --- |
 |Internal Name|`crawler-factory`|
 |Solid|No|
-|Health|160    |
-|Size|2x2  |
-|Build Time|0.93  seconds  |
-|Build Cost|<a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x45 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x30  |
+|Здоровье|160    |
+|Размер|2x2  |
+|Время строительства|0.93  сек.  |
+|Стоимость строительства|<a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x45 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x30  |
 
-|Power||
+|Энергия||
 | --- | --- |
-|Power Use|30  power units/second  |
+|Потребляет энергии|30  единиц энергии/секунду  |
 
-|Input/Output||
+|Ввод/Вывод||
 | --- | --- |
-|Input|<a href="/wiki/items/coal"><img id="spr" src="/wiki/images/item-coal-xlarge.png"/></a>x10  |
-|Production Time|5  seconds  |
-|Max Active Units|6    |
+|Вход|<a href="/wiki/items/coal"><img id="spr" src="/wiki/images/item-coal-xlarge.png"/></a>x10  |
+|Время производства|5  сек.  |
+|Максимальное количество активных единиц|6    |
 
 
 --- 

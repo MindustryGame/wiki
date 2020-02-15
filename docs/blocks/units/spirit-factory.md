@@ -1,26 +1,26 @@
-# <img id="spr" src="/wiki/images/block-spirit-factory-large.png"></img> Spirit Repair Drone Factory
+# <img id="spr" src="/wiki/images/block-spirit-factory-large.png"></img> Завод ремонтных дронов «Дух»
 
-*"Produces Spirit structural repair drones."*
+*"Производит дронов «Дух», которые ремонтируют постройки."*
 
 
-|General||
+|Основные||
 | --- | --- |
 |Internal Name|`spirit-factory`|
 |Solid|No|
-|Health|160    |
-|Size|2x2  |
-|Build Time|2.37  seconds  |
-|Build Cost|<a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x55 <a href="/wiki/items/metaglass"><img id="spr" src="/wiki/images/item-metaglass-xlarge.png"/></a>x45 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x45  |
+|Здоровье|160    |
+|Размер|2x2  |
+|Время строительства|2.37  сек.  |
+|Стоимость строительства|<a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x55 <a href="/wiki/items/metaglass"><img id="spr" src="/wiki/images/item-metaglass-xlarge.png"/></a>x45 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x45  |
 
-|Power||
+|Энергия||
 | --- | --- |
-|Power Use|72  power units/second  |
+|Потребляет энергии|72  единиц энергии/секунду  |
 
-|Input/Output||
+|Ввод/Вывод||
 | --- | --- |
-|Input|<a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x30 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x30  |
-|Production Time|66.67  seconds  |
-|Max Active Units|1    |
+|Вход|<a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x30 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x30  |
+|Время производства|66.67  сек.  |
+|Максимальное количество активных единиц|1    |
 
 
 --- 

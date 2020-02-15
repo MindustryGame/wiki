@@ -1,7 +1,7 @@
-# <img id="spr" src="/wiki/images/item-plastanium.png"></img> Plastanium 
+# <img id="spr" src="/wiki/images/item-plastanium.png"></img> Пластан 
 
 
-*"A light, ductile material used in advanced aircraft and fragmentation ammunition."*  
+*"Лёгкий, пластичный материал, используемый в продвинутой авиации и осколочных боеприпасах."*  
 
 | Property      | Value |
 | ----------- | ----------- |

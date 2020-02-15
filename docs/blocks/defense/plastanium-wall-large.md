@@ -1,17 +1,17 @@
-# <img id="spr" src="/wiki/images/block-plastanium-wall-large-large.png"></img> Large Plastanium Wall
+# <img id="spr" src="/wiki/images/block-plastanium-wall-large-large.png"></img> Большая пластановая стена
 
-*"A special type of wall that absorbs electric arcs and blocks automatic power node connections.
-Spans multiple tiles."*
+*"Специальный тип стены, который поглощает электрические разряды и блокирует автоматическое соединение между силовыми узлами.
+Размещается на нескольких плитках."*
 
 
-|General||
+|Основные||
 | --- | --- |
 |Internal Name|`plastanium-wall-large`|
 |Solid|Yes|
-|Health|3040    |
-|Size|2x2  |
-|Build Time|3.17  seconds  |
-|Build Cost|<a href="/wiki/items/metaglass"><img id="spr" src="/wiki/images/item-metaglass-xlarge.png"/></a>x8 <a href="/wiki/items/plastanium"><img id="spr" src="/wiki/images/item-plastanium-xlarge.png"/></a>x20  |
+|Здоровье|3040    |
+|Размер|2x2  |
+|Время строительства|3.17  сек.  |
+|Стоимость строительства|<a href="/wiki/items/metaglass"><img id="spr" src="/wiki/images/item-metaglass-xlarge.png"/></a>x8 <a href="/wiki/items/plastanium"><img id="spr" src="/wiki/images/item-plastanium-xlarge.png"/></a>x20  |
 
 
 --- 

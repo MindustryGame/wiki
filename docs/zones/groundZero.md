@@ -1,10 +1,10 @@
-# <img id="zonespr" src="/wiki/images/zone-groundZero.png"></img> Ground Zero 
+# <img id="zonespr" src="/wiki/images/zone-groundZero.png"></img> Отправная точка 
 
 <img id="zone" src="/wiki/images/zone-groundZero.png"></img>
 
-"The optimal location to begin once more. Low enemy threat. Few resources.
-Gather as much lead and copper as possible.
-Move on."
+"Оптимальная локация для повторных игр. Низкая вражеская угроза. Немного ресурсов.
+Соберите как можно больше свинца и меди.
+Двигайтесь дальше."
 
 | Property      | Value |
 | ----------- | ----------- |

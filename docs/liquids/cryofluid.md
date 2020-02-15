@@ -1,4 +1,4 @@
-# <img id="spr" src="/wiki/images/liquid-cryofluid.png"></img> Cryofluid 
+# <img id="spr" src="/wiki/images/liquid-cryofluid.png"></img> Криогенная жидкость 
 
 
 | Property      | Value |
@@ -8,7 +8,7 @@
 |Explosiveness|0%|
 |Heat Capacity|90%|
 
-*"An inert, non-corrosive liquid created from water and titanium. Has extremely high heat capacity. Extensively used as coolant."*
+*"Инертная, неедкая жидкость, созданная из воды и титана. Обладает чрезвычайно высокой теплоёмкостью. Широко используется в качестве охлаждающей жидкости."*
 
 --- 
 

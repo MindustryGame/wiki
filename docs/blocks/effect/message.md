@@ -1,16 +1,16 @@
-# <img id="spr" src="/wiki/images/block-message-large.png"></img> Message
+# <img id="spr" src="/wiki/images/block-message-large.png"></img> Сообщение
 
-*"Stores a message. Used for communication between allies."*
+*"Сохраняет сообщение. Используется для связи между союзниками."*
 
 
-|General||
+|Основные||
 | --- | --- |
 |Internal Name|`message`|
 |Solid|Yes|
-|Health|40    |
-|Size|1x1  |
-|Build Time|0.08  seconds  |
-|Build Cost|<a href="/wiki/items/graphite"><img id="spr" src="/wiki/images/item-graphite-xlarge.png"/></a>x5  |
+|Здоровье|40    |
+|Размер|1x1  |
+|Время строительства|0.08  сек.  |
+|Стоимость строительства|<a href="/wiki/items/graphite"><img id="spr" src="/wiki/images/item-graphite-xlarge.png"/></a>x5  |
 
 
 --- 

@@ -1,26 +1,26 @@
-# <img id="spr" src="/wiki/images/block-graphite-press-large.png"></img> Graphite Press
+# <img id="spr" src="/wiki/images/block-graphite-press-large.png"></img> Графитный пресс
 
-*"Compresses chunks of coal into pure sheets of graphite."*
+*"Сжимает куски угля в чистые листы графита."*
 
 
-|General||
+|Основные||
 | --- | --- |
 |Internal Name|`graphite-press`|
 |Solid|Yes|
-|Health|60    |
-|Size|2x2  |
-|Build Time|0.98  seconds  |
-|Build Cost|<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x75 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x30  |
+|Здоровье|60    |
+|Размер|2x2  |
+|Время строительства|0.98  сек.  |
+|Стоимость строительства|<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x75 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x30  |
 
-|Items||
+|Предметы||
 | --- | --- |
-|Item Capacity|10  items  |
+|Вместимость предметов|10  предметов  |
 
-|Input/Output||
+|Ввод/Вывод||
 | --- | --- |
-|Input|<a href="/wiki/items/coal"><img id="spr" src="/wiki/images/item-coal-xlarge.png"/></a>x2  |
-|Output|<a href="/wiki/items/graphite"><img id="spr" src="/wiki/images/item-graphite-xlarge.png"/></a>x1  |
-|Production Time|1.5  seconds  |
+|Вход|<a href="/wiki/items/coal"><img id="spr" src="/wiki/images/item-coal-xlarge.png"/></a>x2  |
+|Выход|<a href="/wiki/items/graphite"><img id="spr" src="/wiki/images/item-graphite-xlarge.png"/></a>x1  |
+|Время производства|1.5  сек.  |
 
 
 --- 

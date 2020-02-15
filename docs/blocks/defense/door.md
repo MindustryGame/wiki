@@ -1,16 +1,16 @@
-# <img id="spr" src="/wiki/images/block-door-large.png"></img> Door
+# <img id="spr" src="/wiki/images/block-door-large.png"></img> Дверь
 
-*"A small door. Can be opened or closed by tapping."*
+*"Маленькая дверь. Можно открыть или закрыть нажатием."*
 
 
-|General||
+|Основные||
 | --- | --- |
 |Internal Name|`door`|
 |Solid|No|
-|Health|400    |
-|Size|1x1  |
-|Build Time|0.77  seconds  |
-|Build Cost|<a href="/wiki/items/graphite"><img id="spr" src="/wiki/images/item-graphite-xlarge.png"/></a>x6 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x4  |
+|Здоровье|400    |
+|Размер|1x1  |
+|Время строительства|0.77  сек.  |
+|Стоимость строительства|<a href="/wiki/items/graphite"><img id="spr" src="/wiki/images/item-graphite-xlarge.png"/></a>x6 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x4  |
 
 
 --- 

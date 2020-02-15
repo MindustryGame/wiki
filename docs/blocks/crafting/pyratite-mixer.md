@@ -1,30 +1,30 @@
-# <img id="spr" src="/wiki/images/block-pyratite-mixer-large.png"></img> Pyratite Mixer
+# <img id="spr" src="/wiki/images/block-pyratite-mixer-large.png"></img> Мешалка пиротита
 
-*"Mixes coal, lead and sand into highly flammable pyratite."*
+*"Смешивает уголь, свинец и песок в легковоспламеняющийся пиротит."*
 
 
-|General||
+|Основные||
 | --- | --- |
 |Internal Name|`pyratite-mixer`|
 |Solid|Yes|
-|Health|60    |
-|Size|2x2  |
-|Build Time|0.71  seconds  |
-|Build Cost|<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x50 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x25  |
+|Здоровье|60    |
+|Размер|2x2  |
+|Время строительства|0.71  сек.  |
+|Стоимость строительства|<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x50 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x25  |
 
-|Power||
+|Энергия||
 | --- | --- |
-|Power Use|12  power units/second  |
+|Потребляет энергии|12  единиц энергии/секунду  |
 
-|Items||
+|Предметы||
 | --- | --- |
-|Item Capacity|10  items  |
+|Вместимость предметов|10  предметов  |
 
-|Input/Output||
+|Ввод/Вывод||
 | --- | --- |
-|Input|<a href="/wiki/items/coal"><img id="spr" src="/wiki/images/item-coal-xlarge.png"/></a>x1 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x2 <a href="/wiki/items/sand"><img id="spr" src="/wiki/images/item-sand-xlarge.png"/></a>x2  |
-|Output|<a href="/wiki/items/pyratite"><img id="spr" src="/wiki/images/item-pyratite-xlarge.png"/></a>x1  |
-|Production Time|1.33  seconds  |
+|Вход|<a href="/wiki/items/coal"><img id="spr" src="/wiki/images/item-coal-xlarge.png"/></a>x1 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x2 <a href="/wiki/items/sand"><img id="spr" src="/wiki/images/item-sand-xlarge.png"/></a>x2  |
+|Выход|<a href="/wiki/items/pyratite"><img id="spr" src="/wiki/images/item-pyratite-xlarge.png"/></a>x1  |
+|Время производства|1.33  сек.  |
 
 
 --- 

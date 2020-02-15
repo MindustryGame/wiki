@@ -1,34 +1,34 @@
-# <img id="spr" src="/wiki/images/block-mechanical-drill-large.png"></img> Mechanical Drill
+# <img id="spr" src="/wiki/images/block-mechanical-drill-large.png"></img> Механический бур
 
-*"A cheap drill. When placed on appropriate tiles, outputs items at a slow pace indefinitely. Only capable of mining basic resources."*
+*"Дешёвый бур. При размещении на соответствующих плитках, предметы бесконечно выводятся в медленном темпе. Способен добывать только базовые ресурсы."*
 
 
-|General||
+|Основные||
 | --- | --- |
 |Internal Name|`mechanical-drill`|
 |Solid|Yes|
-|Health|160    |
-|Size|2x2  |
-|Build Time|0.1  seconds  |
-|Build Cost|<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x12  |
+|Здоровье|160    |
+|Размер|2x2  |
+|Время строительства|0.1  сек.  |
+|Стоимость строительства|<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x12  |
 
-|Liquids||
+|Жидкости||
 | --- | --- |
-|Liquid Capacity|5  liquid units  |
+|Вместимость жидкости|5  жидкостных единиц  |
 
-|Items||
+|Предметы||
 | --- | --- |
-|Item Capacity|10  items  |
+|Вместимость предметов|10  предметов  |
 
-|Input/Output||
+|Ввод/Вывод||
 | --- | --- |
-|Drillables|![block-sand-small](/wiki/images/block-sand-small.png) Sand ![block-darksand-small](/wiki/images/block-darksand-small.png) Dark Sand ![block-ore-copper-small](/wiki/images/block-ore-copper-small.png) Copper ![block-ore-lead-small](/wiki/images/block-ore-lead-small.png) Lead ![block-ore-scrap-small](/wiki/images/block-ore-scrap-small.png) Scrap ![block-ore-coal-small](/wiki/images/block-ore-coal-small.png) Coal  |
-|Base Drill Speed|0.4  items/second  |
+|Бурит|![block-sand-small](/wiki/images/block-sand-small.png) Песок ![block-darksand-small](/wiki/images/block-darksand-small.png) Тёмный песок ![block-ore-copper-small](/wiki/images/block-ore-copper-small.png) Медь ![block-ore-lead-small](/wiki/images/block-ore-lead-small.png) Свинец ![block-ore-scrap-small](/wiki/images/block-ore-scrap-small.png) Металлолом ![block-ore-coal-small](/wiki/images/block-ore-coal-small.png) Уголь  |
+|Базовая скорость бурения|0.4  предметов/секунду  |
 
-|Optional Enhancements||
+|Дополнительные улучшения||
 | --- | --- |
-|Booster|<a href="/wiki/liquids/water"><img id="spr" src="/wiki/images/liquid-water.png"/></a>3/sec  |
-|Boost Effect|2.56 x speed  |
+|Ускоритель|<a href="/wiki/liquids/water"><img id="spr" src="/wiki/images/liquid-water.png"/></a>3/sec  |
+|Ускоряющий эффект|2.56 x скорость  |
 
 
 --- 

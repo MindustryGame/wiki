@@ -1,11 +1,11 @@
-# <img id="zonespr" src="/wiki/images/zone-tarFields.png"></img> Tar Fields 
+# <img id="zonespr" src="/wiki/images/zone-tarFields.png"></img> Дегтярные поля 
 
 <img id="zone" src="/wiki/images/zone-tarFields.png"></img>
 
-"The outskirts of an oil production zone, between the mountains and desert. One of the few areas with usable tar reserves.
-Although abandoned, this area has some dangerous enemy forces nearby. Do not underestimate them.
+"Окраина зоны нефтедобычи, между горами и пустыней. Один из немногих районов с полезными запасами дёгтя.
+Хотя эта область заброшенна, в ней поблизости присутствуют некоторые опасные вражеские силы. Не стоит их недооценивать.
 
-Research oil processing technology if possible."
+Исследуйте технологию переработки нефти, если возможно."
 
 | Property      | Value |
 | ----------- | ----------- |

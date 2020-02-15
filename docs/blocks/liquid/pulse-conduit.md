@@ -1,20 +1,20 @@
-# <img id="spr" src="/wiki/images/block-pulse-conduit-large.png"></img> Pulse Conduit
+# <img id="spr" src="/wiki/images/block-pulse-conduit-large.png"></img> Импульсный трубопровод
 
-*"An advanced liquid transport block. Transports liquids faster and stores more than standard conduits."*
+*"Улучшенный блок транспортировки жидкости. Транспортирует жидкости быстрее и хранит больше, чем стандартные трубопроводы."*
 
 
-|General||
+|Основные||
 | --- | --- |
 |Internal Name|`pulse-conduit`|
 |Solid|No|
-|Health|90    |
-|Size|1x1  |
-|Build Time|0.06  seconds  |
-|Build Cost|<a href="/wiki/items/metaglass"><img id="spr" src="/wiki/images/item-metaglass-xlarge.png"/></a>x1 <a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-xlarge.png"/></a>x2  |
+|Здоровье|90    |
+|Размер|1x1  |
+|Время строительства|0.06  сек.  |
+|Стоимость строительства|<a href="/wiki/items/metaglass"><img id="spr" src="/wiki/images/item-metaglass-xlarge.png"/></a>x1 <a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-xlarge.png"/></a>x2  |
 
-|Liquids||
+|Жидкости||
 | --- | --- |
-|Liquid Capacity|16  liquid units  |
+|Вместимость жидкости|16  жидкостных единиц  |
 
 
 --- 

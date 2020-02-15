@@ -1,30 +1,30 @@
-# <img id="spr" src="/wiki/images/block-blast-mixer-large.png"></img> Blast Mixer
+# <img id="spr" src="/wiki/images/block-blast-mixer-large.png"></img> Мешалка взрывчатой смеси
 
-*"Crushes and mixes clusters of spores with pyratite to produce blast compound."*
+*"Раздавливает и смешивает скопления спор с пиротитом для получения взрывчатого вещества."*
 
 
-|General||
+|Основные||
 | --- | --- |
 |Internal Name|`blast-mixer`|
 |Solid|Yes|
-|Health|60    |
-|Size|2x2  |
-|Build Time|0.68  seconds  |
-|Build Cost|<a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x30 <a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-xlarge.png"/></a>x20  |
+|Здоровье|60    |
+|Размер|2x2  |
+|Время строительства|0.68  сек.  |
+|Стоимость строительства|<a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x30 <a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-xlarge.png"/></a>x20  |
 
-|Power||
+|Энергия||
 | --- | --- |
-|Power Use|24  power units/second  |
+|Потребляет энергии|24  единиц энергии/секунду  |
 
-|Items||
+|Предметы||
 | --- | --- |
-|Item Capacity|10  items  |
+|Вместимость предметов|10  предметов  |
 
-|Input/Output||
+|Ввод/Вывод||
 | --- | --- |
-|Input|<a href="/wiki/items/pyratite"><img id="spr" src="/wiki/images/item-pyratite-xlarge.png"/></a>x1 <a href="/wiki/items/spore-pod"><img id="spr" src="/wiki/images/item-spore-pod-xlarge.png"/></a>x1  |
-|Output|<a href="/wiki/items/blast-compound"><img id="spr" src="/wiki/images/item-blast-compound-xlarge.png"/></a>x1  |
-|Production Time|1.33  seconds  |
+|Вход|<a href="/wiki/items/pyratite"><img id="spr" src="/wiki/images/item-pyratite-xlarge.png"/></a>x1 <a href="/wiki/items/spore-pod"><img id="spr" src="/wiki/images/item-spore-pod-xlarge.png"/></a>x1  |
+|Выход|<a href="/wiki/items/blast-compound"><img id="spr" src="/wiki/images/item-blast-compound-xlarge.png"/></a>x1  |
+|Время производства|1.33  сек.  |
 
 
 --- 

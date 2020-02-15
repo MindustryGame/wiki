@@ -1,35 +1,35 @@
-# <img id="spr" src="/wiki/images/block-overdrive-projector-large.png"></img> Overdrive Projector
+# <img id="spr" src="/wiki/images/block-overdrive-projector-large.png"></img> Сверхприводный проектор
 
-*"Increases the speed of nearby buildings.
-Optionally uses phase fabric to boost range and efficiency."*
+*"Увеличивает скорость близлежащих зданий.
+Опционально использует фазовую ткань для увеличения дальности и эффективности."*
 
 
-|General||
+|Основные||
 | --- | --- |
 |Internal Name|`overdrive-projector`|
 |Solid|Yes|
-|Health|160    |
-|Size|2x2  |
-|Build Time|4.07  seconds  |
-|Build Cost|<a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x100 <a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-xlarge.png"/></a>x75 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x75 <a href="/wiki/items/plastanium"><img id="spr" src="/wiki/images/item-plastanium-xlarge.png"/></a>x30  |
+|Здоровье|160    |
+|Размер|2x2  |
+|Время строительства|4.07  сек.  |
+|Стоимость строительства|<a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x100 <a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-xlarge.png"/></a>x75 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x75 <a href="/wiki/items/plastanium"><img id="spr" src="/wiki/images/item-plastanium-xlarge.png"/></a>x30  |
 
-|Power||
+|Энергия||
 | --- | --- |
-|Power Use|210  power units/second  |
+|Потребляет энергии|210  единиц энергии/секунду  |
 
-|Items||
+|Предметы||
 | --- | --- |
-|Item Capacity|10  items  |
+|Вместимость предметов|10  предметов  |
 
-|Shooting||
+|Стрельба||
 | --- | --- |
-|Speed Increase|150 %  |
-|Range|10  blocks  |
+|Увеличение скорости|150 %  |
+|Радиус действия|10  блоки  |
 
-|Optional Enhancements||
+|Дополнительные улучшения||
 | --- | --- |
-|Booster|<a href="/wiki/items/phase-fabric"><img id="spr" src="/wiki/images/item-phase-fabric-xlarge.png"/></a>x1  |
-|Boost Effect|2.5  blocks  225 %  |
+|Ускоритель|<a href="/wiki/items/phase-fabric"><img id="spr" src="/wiki/images/item-phase-fabric-xlarge.png"/></a>x1  |
+|Ускоряющий эффект|2.5  блоки  225 %  |
 
 
 --- 

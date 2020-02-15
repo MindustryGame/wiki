@@ -1,7 +1,7 @@
-# <img id="spr" src="/wiki/images/item-lead.png"></img> Lead 
+# <img id="spr" src="/wiki/images/item-lead.png"></img> Свинец 
 
 
-*"A basic starter material. Used extensively in electronics and liquid transportation blocks."*  
+*"Основной стартовый материал. Широко используется в электронике и блоках для транспортировки жидкостей."*  
 
 | Property      | Value |
 | ----------- | ----------- |

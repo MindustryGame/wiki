@@ -1,7 +1,7 @@
-# <img id="spr" src="/wiki/images/item-blast-compound.png"></img> Blast Compound 
+# <img id="spr" src="/wiki/images/item-blast-compound.png"></img> Взрывчатая смесь 
 
 
-*"An unstable compound used in bombs and explosives. Synthesized from spore pods and other volatile substances. Use as fuel is not advised."*  
+*"Нестабильное соединение, используемое в бомбах и взрывчатых веществах. Синтезируется из стручков спор и других летучих веществ. Использовать в качестве топлива не рекомендуется."*  
 
 | Property      | Value |
 | ----------- | ----------- |

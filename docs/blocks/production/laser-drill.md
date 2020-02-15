@@ -1,38 +1,38 @@
-# <img id="spr" src="/wiki/images/block-laser-drill-large.png"></img> Laser Drill
+# <img id="spr" src="/wiki/images/block-laser-drill-large.png"></img> Лазерный бур
 
-*"Allows drilling even faster through laser technology, but requires power. Capable of mining thorium."*
+*"Позволяет сверлить еще быстрее с помощью лазерной технологии, но требует энергии. Способен добывать торий."*
 
 
-|General||
+|Основные||
 | --- | --- |
 |Internal Name|`laser-drill`|
 |Solid|Yes|
-|Health|360    |
-|Size|3x3  |
-|Build Time|1.52  seconds  |
-|Build Cost|<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x35 <a href="/wiki/items/graphite"><img id="spr" src="/wiki/images/item-graphite-xlarge.png"/></a>x30 <a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-xlarge.png"/></a>x20 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x30  |
+|Здоровье|360    |
+|Размер|3x3  |
+|Время строительства|1.52  сек.  |
+|Стоимость строительства|<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x35 <a href="/wiki/items/graphite"><img id="spr" src="/wiki/images/item-graphite-xlarge.png"/></a>x30 <a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-xlarge.png"/></a>x20 <a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x30  |
 
-|Power||
+|Энергия||
 | --- | --- |
-|Power Use|66  power units/second  |
+|Потребляет энергии|66  единиц энергии/секунду  |
 
-|Liquids||
+|Жидкости||
 | --- | --- |
-|Liquid Capacity|5  liquid units  |
+|Вместимость жидкости|5  жидкостных единиц  |
 
-|Items||
+|Предметы||
 | --- | --- |
-|Item Capacity|10  items  |
+|Вместимость предметов|10  предметов  |
 
-|Input/Output||
+|Ввод/Вывод||
 | --- | --- |
-|Drillables|![block-sand-small](/wiki/images/block-sand-small.png) Sand ![block-darksand-small](/wiki/images/block-darksand-small.png) Dark Sand ![block-ore-copper-small](/wiki/images/block-ore-copper-small.png) Copper ![block-ore-lead-small](/wiki/images/block-ore-lead-small.png) Lead ![block-ore-scrap-small](/wiki/images/block-ore-scrap-small.png) Scrap ![block-ore-coal-small](/wiki/images/block-ore-coal-small.png) Coal ![block-ore-titanium-small](/wiki/images/block-ore-titanium-small.png) Titanium ![block-ore-thorium-small](/wiki/images/block-ore-thorium-small.png) Thorium  |
-|Base Drill Speed|1.93  items/second  |
+|Бурит|![block-sand-small](/wiki/images/block-sand-small.png) Песок ![block-darksand-small](/wiki/images/block-darksand-small.png) Тёмный песок ![block-ore-copper-small](/wiki/images/block-ore-copper-small.png) Медь ![block-ore-lead-small](/wiki/images/block-ore-lead-small.png) Свинец ![block-ore-scrap-small](/wiki/images/block-ore-scrap-small.png) Металлолом ![block-ore-coal-small](/wiki/images/block-ore-coal-small.png) Уголь ![block-ore-titanium-small](/wiki/images/block-ore-titanium-small.png) Титан ![block-ore-thorium-small](/wiki/images/block-ore-thorium-small.png) Торий  |
+|Базовая скорость бурения|1.93  предметов/секунду  |
 
-|Optional Enhancements||
+|Дополнительные улучшения||
 | --- | --- |
-|Booster|<a href="/wiki/liquids/water"><img id="spr" src="/wiki/images/liquid-water.png"/></a>4.8/sec  |
-|Boost Effect|2.56 x speed  |
+|Ускоритель|<a href="/wiki/liquids/water"><img id="spr" src="/wiki/images/liquid-water.png"/></a>4.8/sec  |
+|Ускоряющий эффект|2.56 x скорость  |
 
 
 --- 

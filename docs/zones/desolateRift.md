@@ -1,8 +1,8 @@
-# <img id="zonespr" src="/wiki/images/zone-desolateRift.png"></img> Desolate Rift 
+# <img id="zonespr" src="/wiki/images/zone-desolateRift.png"></img> Пустынный разлом 
 
 <img id="zone" src="/wiki/images/zone-desolateRift.png"></img>
 
-"An extremely dangerous zone. Plentiful resources, but little space. High risk of destruction. Leave as soon as possible. Do not be fooled by the long spacing between enemy attacks."
+"Чрезвычайно опасная зона. Обилие ресурсов, но мало места. Высокий риск разрушения. Эвакуироваться нужно как можно скорее. Не расслабляйтесь во время больших перерывов между вражескими атаками."
 
 | Property      | Value |
 | ----------- | ----------- |

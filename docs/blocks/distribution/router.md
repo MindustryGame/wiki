@@ -1,22 +1,22 @@
-# <img id="spr" src="/wiki/images/block-router-large.png"></img> Router
+# <img id="spr" src="/wiki/images/block-router-large.png"></img> Маршрутизатор
 
-*"Accepts items, then outputs them to up to 3 other directions equally. Useful for splitting the materials from one source to multiple targets.
+*"Принимает предмет в одном направлении и выводит их до 3 других направлений в равной степени. Полезен для разделения материалов из одного источника на несколько целей.
 
-[scarlet]Never use next to production inputs, as they will get clogged by output.[]"*
+[scarlet]Никогда не используйте рядом с заводами и т.п., так как маршрутизатор будет забит выходными предметами.[]"*
 
 
-|General||
+|Основные||
 | --- | --- |
 |Internal Name|`router`|
 |Solid|Yes|
-|Health|40    |
-|Size|1x1  |
-|Build Time|0.05  seconds  |
-|Build Cost|<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x3  |
+|Здоровье|40    |
+|Размер|1x1  |
+|Время строительства|0.05  сек.  |
+|Стоимость строительства|<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x3  |
 
-|Items||
+|Предметы||
 | --- | --- |
-|Item Capacity|1  items  |
+|Вместимость предметов|1  предметов  |
 
 
 --- 

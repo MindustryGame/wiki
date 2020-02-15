@@ -1,15 +1,15 @@
-# <img id="spr" src="/wiki/images/block-scrap-wall-huge-large.png"></img> Huge Scrap Wall
+# <img id="spr" src="/wiki/images/block-scrap-wall-huge-large.png"></img> Огромная стена из металлолома
 
 
 
-|General||
+|Основные||
 | --- | --- |
 |Internal Name|`scrap-wall-huge`|
 |Solid|Yes|
-|Health|2160    |
-|Size|3x3  |
-|Build Time|0  seconds  |
-|Build Cost| |
+|Здоровье|2160    |
+|Размер|3x3  |
+|Время строительства|0  сек.  |
+|Стоимость строительства| |
 
 
 --- 

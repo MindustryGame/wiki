@@ -1,20 +1,20 @@
-# <img id="spr" src="/wiki/images/block-liquid-void-large.png"></img> Liquid Void
+# <img id="spr" src="/wiki/images/block-liquid-void-large.png"></img> Жидкостный вакуум
 
-*"Removes any liquids. Sandbox only."*
+*"Уничтожает любые жидкости. Только песочница."*
 
 
-|General||
+|Основные||
 | --- | --- |
 |Internal Name|`liquid-void`|
 |Solid|Yes|
-|Health|40    |
-|Size|1x1  |
-|Build Time|0  seconds  |
-|Build Cost| |
+|Здоровье|40    |
+|Размер|1x1  |
+|Время строительства|0  сек.  |
+|Стоимость строительства| |
 
-|Liquids||
+|Жидкости||
 | --- | --- |
-|Liquid Capacity|10  liquid units  |
+|Вместимость жидкости|10  жидкостных единиц  |
 
 
 --- 

@@ -1,4 +1,4 @@
-# <img id="spr" src="/wiki/images/liquid-oil.png"></img> Oil 
+# <img id="spr" src="/wiki/images/liquid-oil.png"></img> Нефть 
 
 
 | Property      | Value |
@@ -8,7 +8,7 @@
 |Explosiveness|120%|
 |Heat Capacity|70%|
 
-*"A liquid used in advanced material production. Can be converted into coal as fuel, or sprayed and set on fire as a weapon."*
+*"Жидкость, используемая в производстве современных материалов. Может быть превращена в уголь для использования в качестве топлива или распылена и подожжена как оружие."*
 
 --- 
 

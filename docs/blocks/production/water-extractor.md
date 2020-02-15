@@ -1,32 +1,32 @@
-# <img id="spr" src="/wiki/images/block-water-extractor-large.png"></img> Water Extractor
+# <img id="spr" src="/wiki/images/block-water-extractor-large.png"></img> Гидронасос
 
-*"Extracts groundwater. Used in locations with no surface water available."*
+*"Выкачивает подземные воды. Используется в местах, где нет поверхностных вод."*
 
 
-|General||
+|Основные||
 | --- | --- |
 |Internal Name|`water-extractor`|
 |Solid|Yes|
-|Health|160    |
-|Size|2x2  |
-|Build Time|0.86  seconds  |
-|Build Cost|<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x25 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x20 <a href="/wiki/items/graphite"><img id="spr" src="/wiki/images/item-graphite-xlarge.png"/></a>x25  |
+|Здоровье|160    |
+|Размер|2x2  |
+|Время строительства|0.86  сек.  |
+|Стоимость строительства|<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x25 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x20 <a href="/wiki/items/graphite"><img id="spr" src="/wiki/images/item-graphite-xlarge.png"/></a>x25  |
 
-|Power||
+|Энергия||
 | --- | --- |
-|Power Use|60  power units/second  |
+|Потребляет энергии|60  единиц энергии/секунду  |
 
-|Liquids||
+|Жидкости||
 | --- | --- |
-|Liquid Capacity|30  liquid units  |
+|Вместимость жидкости|30  жидкостных единиц  |
 
-|Input/Output||
+|Ввод/Вывод||
 | --- | --- |
-|Output|<a href="/wiki/liquids/water"><img id="spr" src="/wiki/images/liquid-water.png"/></a>7.8/sec  |
+|Выход|<a href="/wiki/liquids/water"><img id="spr" src="/wiki/images/liquid-water.png"/></a>7.8/sec  |
 
-|Optional Enhancements||
+|Дополнительные улучшения||
 | --- | --- |
-|Affinities|![block-snow-small](/wiki/images/block-snow-small.png) Snow  ![block-ice-small](/wiki/images/block-ice-small.png) Ice  ![block-ice-snow-small](/wiki/images/block-ice-snow-small.png) Ice Snow  |
+|Увеличение эффективности|![block-snow-small](/wiki/images/block-snow-small.png) Снег  ![block-ice-small](/wiki/images/block-ice-small.png) Лёд  ![block-ice-snow-small](/wiki/images/block-ice-snow-small.png) Заснеженный лёд  |
 
 
 --- 

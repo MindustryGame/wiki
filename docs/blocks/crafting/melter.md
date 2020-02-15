@@ -1,34 +1,34 @@
-# <img id="spr" src="/wiki/images/block-melter-large.png"></img> Melter
+# <img id="spr" src="/wiki/images/block-melter-large.png"></img> Плавильня
 
-*"Melts down scrap into slag for further processing or usage in wave turrets."*
+*"Плавит металлолом в шлак для дальнейшей обработки или использования в турелях «Волна»."*
 
 
-|General||
+|Основные||
 | --- | --- |
 |Internal Name|`melter`|
 |Solid|Yes|
-|Health|200    |
-|Size|1x1  |
-|Build Time|1.41  seconds  |
-|Build Cost|<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x30 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x35 <a href="/wiki/items/graphite"><img id="spr" src="/wiki/images/item-graphite-xlarge.png"/></a>x45  |
+|Здоровье|200    |
+|Размер|1x1  |
+|Время строительства|1.41  сек.  |
+|Стоимость строительства|<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x30 <a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>x35 <a href="/wiki/items/graphite"><img id="spr" src="/wiki/images/item-graphite-xlarge.png"/></a>x45  |
 
-|Power||
+|Энергия||
 | --- | --- |
-|Power Use|60  power units/second  |
+|Потребляет энергии|60  единиц энергии/секунду  |
 
-|Liquids||
+|Жидкости||
 | --- | --- |
-|Liquid Capacity|10  liquid units  |
+|Вместимость жидкости|10  жидкостных единиц  |
 
-|Items||
+|Предметы||
 | --- | --- |
-|Item Capacity|10  items  |
+|Вместимость предметов|10  предметов  |
 
-|Input/Output||
+|Ввод/Вывод||
 | --- | --- |
-|Input|<a href="/wiki/items/scrap"><img id="spr" src="/wiki/images/item-scrap-xlarge.png"/></a>x1  |
-|Output|<a href="/wiki/liquids/slag"><img id="spr" src="/wiki/images/liquid-slag.png"/></a>x2  |
-|Production Time|0.17  seconds  |
+|Вход|<a href="/wiki/items/scrap"><img id="spr" src="/wiki/images/item-scrap-xlarge.png"/></a>x1  |
+|Выход|<a href="/wiki/liquids/slag"><img id="spr" src="/wiki/images/liquid-slag.png"/></a>x2  |
+|Время производства|0.17  сек.  |
 
 
 --- 
