@@ -26,8 +26,8 @@
 
 |Input/Output||
 | --- | --- |
-|Input|<a href="/wiki/items/pyratite"><img id="spr" src="/wiki/images/item-pyratite-xlarge.png"/></a>x1  <a href="/wiki/liquids/cryofluid"><img id="spr" src="/wiki/images/liquid-cryofluid.png"/></a>10.8/sec  |
-|Production Time|2  seconds  |
+|Input|<a href="/wiki/items/pyratite"><img id="spr" src="/wiki/images/item-pyratite-xlarge.png"/></a>x1  <a href="/wiki/liquids/cryofluid"><img id="spr" src="/wiki/images/liquid-cryofluid.png"/></a>9/sec  |
+|Production Time|2.33  seconds  |
 
 
 --- 
