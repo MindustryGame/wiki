@@ -27,7 +27,7 @@ If you have JRE already installed (which is recommended), you can also run `desk
 
 #### Play Store
 
-There are two different versions of Mindustry on the Play Store; Mindsutry and Mindustry Classic. If you want to get the latest releases of Mindustry, go get **Mindustry**. Otherwise, if you want the old classic version, you can get **Mindustry Classic**.
+There are two different versions of Mindustry on the Play Store; Mindustry and Mindustry Classic. If you want to get the latest releases of Mindustry, go get **Mindustry**. Otherwise, if you want the old classic version, you can get **Mindustry Classic**.
 
 #### F-Droid
 
