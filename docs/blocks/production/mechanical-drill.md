@@ -7,10 +7,10 @@
 | --- | --- |
 |Internal Name|`mechanical-drill`|
 |Solid|Yes|
-|Health|160    |
+|Health|9999    |
 |Size|2x2  |
-|Build Time|0.1  seconds  |
-|Build Cost|<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x12  |
+|Build Time|0.001  seconds  |
+|Build Cost|<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x1  |
 
 |Liquids||
 | --- | --- |
@@ -18,12 +18,12 @@
 
 |Items||
 | --- | --- |
-|Item Capacity|10  items  |
+|Item Capacity|500  items  |
 
 |Input/Output||
 | --- | --- |
-|Drillables|![block-sand-small](/wiki/images/block-sand-small.png) Sand ![block-darksand-small](/wiki/images/block-darksand-small.png) Dark Sand ![block-ore-copper-small](/wiki/images/block-ore-copper-small.png) Copper ![block-ore-lead-small](/wiki/images/block-ore-lead-small.png) Lead ![block-ore-scrap-small](/wiki/images/block-ore-scrap-small.png) Scrap ![block-ore-coal-small](/wiki/images/block-ore-coal-small.png) Coal  |
-|Base Drill Speed|0.4  items/second  |
+|Drillables|![block-sand-small](/wiki/images/block-sand-small.png) Sand ![block-darksand-small](/wiki/images/block-darksand-small.png) Dark Sand ![block-ore-copper-small](/wiki/images/block-ore-copper-small.png) Copper ![block-ore-lead-small](/wiki/images/block-ore-lead-small.png) Lead ![block-ore-scrap-small](/wiki/images/block-ore-scrap-small.png) Scrap ![block-ore-coal-small](/wiki/images/block-ore-coal-small.png) Coal ! [blocl-ore-titanium-small](/wiki/images/block-ore-titanium-small] Titanium ! [block-ore-thorium-small](/wiki/images/block-ore-thorium-small) Thorium |
+|Base Drill Speed|500  items/second  |
 
 |Optional Enhancements||
 | --- | --- |
