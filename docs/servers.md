@@ -11,7 +11,7 @@ You can connect to one using the "Join Game" button under the "Play" menu. Unlik
 To establish a dedicated server, a dedicated Linux or Windows machine is **highly** recommended.
 
 1. If you haven't already, install at least JRE and JDK 8.
-2. Download the desired server release from [itch.io](itch.io), or compile one yourself. 
+2. Download the desired server release from [itch.io](https://anuke.itch.io/mindustry), or compile one yourself. 
 3. Open a terminal or TTY session then change `cd` to the directory the JAR is placed in.
 4. Run `java -jar server.jar` using Command Prompt (on Windows) or your favorite terminal (on Linux and Mac). The commands are explained in the `help` command.
 5. Start hosting a map with `host <mapname> [mode]` after you configured your server.
