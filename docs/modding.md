@@ -170,7 +170,7 @@ Much like `type` there exist another magical field known as `research` which can
 
 This would put your block after `duo` in the techtree, and to put it after your own mods block you would write your `<block-name>`, a mod name prefix is only required if you're using the content from another mod.
 
-Research cost will be `30 + requirements * 6`, where `requirements` is the build cost of your block. *(in otherwords you can't set `requirements` and `research cost` individually)*
+Research cost will be `40 + round(requirements ^ 1.25) * 60 rounded down to the nearest 10`, where `requirements` is the build cost of your block. *(in otherwords you can't set `requirements` and `research cost` individually)*
 
 
 
@@ -530,6 +530,14 @@ This is a log of changes done on the Mindustry Master branch that affected the m
 
 
 
+#### Mar 5
+
+[ [commit](https://github.com/Anuken/Mindustry/commit/50355b45d5eb5c09c19f8d7c6bba48c568a609a8) Tech tree balance ]
+
+-   updated research cost formula
+
+
+
 #### Feb 11
 
 [ [commit](https://github.com/Anuken/Mindustry/commit/fb302d49c7de104675c7c33c0e98e4f31e735bd7) improved battery brightness display ]
@@ -882,7 +890,7 @@ Type used for floors themselves or extended to make ores and other things.
 |drownTime|float|0|how many ticks it takes to drown on this.|
 |walkEffect|[Effect](#effect)|ripple|effect when walking on this [floor](#floor).|
 |drownUpdateEffect|[Effect](#effect)|bubble|effect displayed when drowning on this [floor](#floor).|
-|status|StatusEffect|none|status effect applied when walking on.|
+|status|[StatusEffect](#statuseffect)|none|status effect applied when walking on.|
 |statusDuration|float|60|intensity of applied status effect.|
 |liquidDrop|[Liquid](#liquid)|&#xa0;|liquids that drop from this block, used for pumps.|
 |itemDrop|[Item](#item)|&#xa0;|item that drops from this block, used for drills.|
@@ -2940,6 +2948,8 @@ Built-in zones:
 
 
 ## StatusEffect
+
+Extends [Content](#content)
 
 *Not be be confused with [Effect](#effect)*, a status effect will give an entity special properties. Status effects are used as transitions between intermediate effects. If some a `wet` unit gets `shocked` it then gets 20 damage.
 
