@@ -48,7 +48,7 @@ Open your map in the editor. Open the menu (esc on PC, or the hamburger button o
 ## I don't like Mindustry 4.0 for some reason, what do I do?
 
 Just download Mindustry Classic for the old experience. It's identical to build 3.5 40, albeit with some minor bugfixes.
-PC/Android APK: https://anuke.itch.io/mindustry-classic
+PC/Android APK: [https://anuke.itch.io/mindustry-classic](https://anuke.itch.io/mindustry-classic)
 You can also find it by searching "mindustry classic" on the Google Play store.
 
 
@@ -64,7 +64,7 @@ You can connect to someone's Mindustry server by their IP. The simplest way to f
 
 
 ## Where is the game's source code?
-On GitHub: https://github.com/Anuken/Mindustry
+On GitHub: [https://github.com/Anuken/Mindustry](https://github.com/Anuken/Mindustry)
 
 
 ## Did Anuke make the game alone?
