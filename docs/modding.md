@@ -170,7 +170,7 @@ Much like `type` there exist another magical field known as `research` which can
 
 This would put your block after `duo` in the techtree, and to put it after your own mods block you would write your `<block-name>`, a mod name prefix is only required if you're using the content from another mod.
 
-Research cost will be `40 + round(requirements ^ 1.25) * 60 rounded down to the nearest 10`, where `requirements` is the build cost of your block. *(in otherwords you can't set `requirements` and `research cost` individually)*
+Research cost will be `40 + round(requirements ^ 1.25) * 6 rounded down to the nearest 10`, where `requirements` is the build cost of your block. *(in otherwords you can't set `requirements` and `research cost` individually)*
 
 
 
