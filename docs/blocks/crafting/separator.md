@@ -32,4 +32,12 @@
 
 
 --- 
-[comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+[comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)  
+The Separator produces one item per cycle with the following probabilities: 
+
+|Item|Probability|
+| --- | --- |
+|<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>| 41.67% |
+|<a href="/wiki/items/lead"><img id="spr" src="/wiki/images/item-lead-xlarge.png"/></a>| 25% |
+|<a href="/wiki/items/graphite"><img id="spr" src="/wiki/images/item-graphite-xlarge.png"/></a>| 16.67% |
+|<a href="/wiki/items/titanium"><img id="spr" src="/wiki/images/item-titanium-xlarge.png"/></a>| 16.67% |
