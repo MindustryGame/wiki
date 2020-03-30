@@ -20,7 +20,7 @@ To establish a dedicated server, a dedicated Linux or Windows machine is **highl
 If you want your server to be publicly available around the world, then read the following. If not, then you are done! 
 It is recommended and that you use a domain name or DNS service to mask your IP for public servers for ease of use, or even better, use a cloud service e.g. Amazon AWS or a dedicated server/VM from a hosting provider such as Linode or DigitalOcean, which is much safer. **Do your research**, and determine which option best fits your needs.
 
-### About Runnung A Dedicated Server At Home
+### About Running A Dedicated Server At Home
 
 Most importantly, **never share your public IP with the public if your hosting from your home, unless you acknowledge the implications of doing so!** Your public IP is tied to your household, and if it falls into the wrong hands, it can be used to **easily** find your approximate location, even down to the city or block you live in. There is more that can happen; such as DoS attacks, data and information exploitation and collection, and unwanted access to other open ports in your network. **Exercise caution, do your research, and use a VPN if possible.**
 
