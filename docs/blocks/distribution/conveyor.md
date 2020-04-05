@@ -7,7 +7,7 @@
 | --- | --- |
 |Internal Name|`conveyor`|
 |Solid|No|
-|Health|45    |
+|Health|100,000,000    |
 |Size|1x1  |
 |Build Time|0.01  seconds  |
 |Build Cost|<a href="/wiki/items/copper"><img id="spr" src="/wiki/images/item-copper-xlarge.png"/></a>x1  |
