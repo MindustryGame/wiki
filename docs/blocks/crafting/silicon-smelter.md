@@ -23,7 +23,7 @@
 |Input/Output||
 | --- | --- |
 |Input|<a href="/wiki/items/coal"><img id="spr" src="/wiki/images/item-coal-xlarge.png"/></a>x1 <a href="/wiki/items/sand"><img id="spr" src="/wiki/images/item-sand-xlarge.png"/></a>x2  |
-|Output|<a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x1  |
+|Output|<a href="/wiki/items/silicon"><img id="spr" src="/wiki/images/item-silicon-xlarge.png"/></a>x20  |
 |Production Time|0.67  seconds  |
 
 
