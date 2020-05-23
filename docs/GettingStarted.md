@@ -10,7 +10,7 @@ This is your typical, run-of-the-mill setup process.
 
 #### Steam 
 
-As of recent, you can now [buy the game on Steam](https://store.steampowered.com/app/1127400/) if you would like to support Anuke!
+As of recently, you can now [buy the game on Steam](https://store.steampowered.com/app/1127400/) if you would like to support Anuke!
 
 #### Itch.io
 
