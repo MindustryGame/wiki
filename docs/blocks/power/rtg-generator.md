@@ -25,6 +25,15 @@
 |Input|<a href="/wiki/items/thorium"><img id="spr" src="/wiki/images/item-thorium-xlarge.png"/></a> / <a href="/wiki/items/phase-fabric"><img id="spr" src="/wiki/images/item-phase-fabric-xlarge.png"/></a>  |
 |Production Time|7.33  seconds  |
 
+---
+[comment]: # "WARNING: Do not modify the text above. It is automatically generated every release."
 
---- 
-[comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
+RTG generators generate power depending on the radioactivity of their fuel. 
+
+| Item                                                         | Radioactivity | Power units/second |
+| ------------------------------------------------------------ | ------------- | ------------------ |
+| <a href="/wiki/items/thorium"><img id="spr" src="/wiki/images/item-thorium-xlarge.png"/></a> Thorium | 100%          | 180                |
+| <a href="/wiki/items/phase-fabric"><img id="spr" src="/wiki/images/item-phase-fabric-xlarge.png"/></a> Phase Fabric | 60%           | 108                |
+
