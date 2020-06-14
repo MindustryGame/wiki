@@ -29,6 +29,17 @@
 |Input|<a href="/wiki/items/coal"><img id="spr" src="/wiki/images/item-coal-xlarge.png"/></a> / <a href="/wiki/items/spore-pod"><img id="spr" src="/wiki/images/item-spore-pod-xlarge.png"/></a> / <a href="/wiki/items/blast-compound"><img id="spr" src="/wiki/images/item-blast-compound-xlarge.png"/></a> / <a href="/wiki/items/pyratite"><img id="spr" src="/wiki/images/item-pyratite-xlarge.png"/></a>  <a href="/wiki/liquids/water"><img id="spr" src="/wiki/images/liquid-water.png"/></a>3/sec  |
 |Production Time|1.5  seconds  |
 
+---
+[comment]: # "WARNING: Do not modify the text above. It is automatically generated every release."
 
---- 
-[comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+
+
+Steam generators generate power depending on the flammability of their fuel. If blast compound is used as a fuel, it will deplete the steam generator's health until it reaches 0, causing it to explode.
+
+| Item                                                         | Flammability | Power units/second |
+| ------------------------------------------------------------ | ------------ | ------------------ |
+| <a href="/wiki/items/coal"><img id="spr" src="/wiki/images/item-coal-xlarge.png"/></a> Coal | 100%         | 360                |
+| <a href="/wiki/items/spore-pod"><img id="spr" src="/wiki/images/item-spore-pod-xlarge.png"/></a> Spore Pod | 115%         | 414                |
+| <a href="/wiki/items/blast-compound"><img id="spr" src="/wiki/images/item-blast-compound-xlarge.png"/></a> Blast Compound | 40%          | 144                |
+| <a href="/wiki/items/pyratite"><img id="spr" src="/wiki/images/item-pyratite-xlarge.png"/></a> Pyratite | 140%         | 504                |
+

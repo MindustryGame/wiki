@@ -20,6 +20,11 @@
 | --- | --- |
 |Required Tiles|![block-hotrock-small](/wiki/images/block-hotrock-small.png) Hot Rock  ![block-magmarock-small](/wiki/images/block-magmarock-small.png) Magma Rock  |
 
+---
+[comment]: # "WARNING: Do not modify the text above. It is automatically generated every release."
 
---- 
-[comment]: # (WARNING: Do not modify the text above. It is automatically generated every release.)
+The efficiency of a thermal generator depends on how many tiles of magma rock and hot rock it is on top of.
+| Tile | Efficiency bonus | Power units generated per tile |
+| ---- | ---------------- | ------------------------------ |
+| ![block-hotrock-small](/wiki/images/block-hotrock-small.png) Hot Rock | +50% | 54   |
+| ![block-magmarock-small](/wiki/images/block-magmarock-small.png) Magma Rock | +75% | 81 |
