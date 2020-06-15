@@ -119,7 +119,7 @@ At the root of your project directory you can have a `content/` directory, and t
 
 Note that each one of these subdirectories needs a specific content type. The filenames of these files is important, because the stem name of your path *(filename without the extension)* is used to reference it.
 
-Furthermore the files within theseb `content/<content-type>/*` directories may be arbitrarly nested into other sub-directories of any name, to help you organize them further, for example:
+Furthermore the files within these `content/<content-type>/*` directories may be arbitrarly nested into other sub-directories of any name, to help you organize them further, for example:
 
 -   `content/items/metals/iron.hjson`, which would respectively create an item named `iron`.
 
