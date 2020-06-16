@@ -2,7 +2,7 @@
 
 ## Where do I download the game?
 
-For PC, you can get the game on [itch.io.](https://anuke.itch.io/mindustry)
+For PC, you can get the game on [itch.io](https://anuke.itch.io/mindustry) or [Steam.](https://store.steampowered.com/app/1127400/Mindustry/)
 For Android, you can get the game on [Google Play.](https://play.google.com/store/apps/details?id=io.anuke.mindustry)
 For iOS, you can buy it on the [App Store.](https://apps.apple.com/us/app/mindustry/id1385258906?ign-mpt=uo%3D8)
 
