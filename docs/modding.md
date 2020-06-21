@@ -2571,7 +2571,7 @@ Sprites:
 
 ### LaunchPad
 
-Extends [StroageBlock](#storageblock)
+Extends [StorageBlock](#storageblock)
 
 A block which can launch materials.
 
