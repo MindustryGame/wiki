@@ -14,7 +14,7 @@ Therefore, it takes 39 ticks to build a Battery by yourself.
 
 ## Hardness [Items]
 
-The time it takes to mine one item is partially dependent on the hardness of an item. Sand is the least hardest, while Thorium is the hardest. 
+The time it takes to mine one item is partially dependent on the hardness of an item. Sand is the softest, while Thorium is the hardest. 
 
 [needs correction] For example, mining Copper with your Mining Laser gets you copper much faster than when mining Thorium. That is because Thorium is harder than Copper. 
 
