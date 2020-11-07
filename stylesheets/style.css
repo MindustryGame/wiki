@@ -1,0 +1,59 @@
+.wy-nav-content {
+  max-width: 100% !important;
+}
+
+.wy-side-nav-search {
+  background-color: #d4816b;
+}
+
+.wy-side-nav-search input[type=text] {
+  border: none !important;
+}
+
+img#spr {
+  width: 1.6em;
+  margin-left: 5px;
+  margin-top: -3px;
+}
+
+img#sprlist {
+  width: 1.6em;
+  margin-top: 4px;
+}
+
+img#ind {
+  width: 1.1em;
+  margin-top: -3px;
+  position: inline;
+}
+
+img#zonespr {
+  width: auto !important;
+  height: 1.6em !important;
+  size: auto;
+  margin-left: 5px;
+  margin-top: -3px;
+  border: 2px solid dimgray;
+  border-radius: 8px;
+}
+
+img#zone {
+    border: 5px solid dimgray;
+    border-radius: 10px;
+}
+
+.wy-menu-vertical .subnav a {
+  padding-right:4px;
+  display: flex;
+  align-items: center;
+}
+
+.wy-menu-vertical .subnav a img {
+  order:-1;
+}
+
+.wy-menu-vertical .subnav a::before {
+  content: " ";
+  flex-basis: 5px;
+  order: 0;
+}
