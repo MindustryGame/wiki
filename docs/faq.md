@@ -60,7 +60,7 @@ However, the dedicated server will run on a Pi as long as you have the right ver
 
 ## What is an IP and how do I find out what mine is?
 In extremely simplified terms, an IP as a unique identifier of your computer on the internet. 
-You can connect to someone's Mindustry server by their IP. The simplest way to find your IP is to google my ip.
+You can connect to someone's Mindustry server by their IP. The simplest way to find your IP is to search "my IP" on a search engine like Google.
 
 
 ## Where is the game's source code?
@@ -93,7 +93,7 @@ If you're using the desktop version, just go on itch.io using the links at the t
 
 They are very well the same person. Anuke(n) uses "Anuken" when "Anuke" is taken.
 
-> I usually use Anuken when Anuke is taken as a username. -Anuken
+> I usually use Anuken when Anuke is taken as a username. -Anuke
 
 
 ## Why are you charging for the game on Steam and iOS when it is available for free?
