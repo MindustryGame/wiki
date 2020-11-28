@@ -48,7 +48,7 @@ jobs:
           git clone https://github.com/Anuken/Mindustry-Wiki-Generator --depth 1
           cd Mindustry-Wiki-Generator/
           ./run.sh
-          cd ../wiki-testing
+          cd ../wiki
           mkdocs build
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
