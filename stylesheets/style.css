@@ -1,3 +1,5 @@
+span.expandable { cursor:pointer; }
+
 .wy-nav-content {
   max-width: 100% !important;
 }
@@ -10,10 +12,18 @@
   border: none !important;
 }
 
+.md-header {
+  background-color: #d4816b !important;
+}
+
+.md-header-nav__topic {
+ font-family: 'Audiowide', serif;
+}
+
 img#spr {
   width: 1.6em;
   margin-left: 5px;
-  margin-top: -3px;
+  margin-top: 3px;
 }
 
 img#sprlist {

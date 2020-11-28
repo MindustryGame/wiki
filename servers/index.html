@@ -1,561 +1,3063 @@
-<!DOCTYPE html>
-<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
-  
-  <link rel="canonical" href="https://mindustrygame.github.io/wiki/servers/">
-  <link rel="shortcut icon" href="../img/favicon.ico">
 
-<title>Mindustry Wiki</title>
-
-
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
-
-  <link rel="stylesheet" href="../css/theme.css" />
-  <link rel="stylesheet" href="../css/theme_extra.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" />
-  <link href="../stylesheets/style.css" rel="stylesheet" />
-  
-  <script>
-    // Current page data
-    var mkdocs_page_name = "Servers";
-    var mkdocs_page_input_path = "servers.md";
-    var mkdocs_page_url = "/wiki/servers/";
-  </script>
-  
-  <script src="../js/jquery-2.1.1.min.js" defer></script>
-  <script src="../js/modernizr-2.8.3.min.js" defer></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
-  <script>hljs.initHighlightingOnLoad();</script> 
-  
-</head>
-
-<body class="wy-body-for-nav" role="document">
-
-  <div class="wy-grid-for-nav">
-
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
     
-    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
-    <div class="wy-side-scroll">
-      <div class="wy-side-nav-search">
-        <a href=".." class="icon icon-home"> Mindustry Wiki</a>
-        <div role="search">
-  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
-    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
-  </form>
-</div>
-      </div>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://mindustrygame.github.io/wiki/servers/">
+      
+      
+      <link rel="shortcut icon" href="../images/favicon.png">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-6.1.6">
+    
+    
+      
+        <title>Servers - Mindustry Wiki</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.6910b76c.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.196e0c26.min.css">
+        
+      
+    
+    
+    
+      
+        
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>body,input{font-family:"Roboto",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono",SFMono-Regular,Consolas,Menlo,monospace}</style>
+      
+    
+    
+    
+      <link rel="stylesheet" href="../stylesheets/style.css">
+    
+    
+      
+    
+    
+  <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
 
-      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
-                <ul>
-                    <li class="toctree-l1"><a class="reference internal" href="..">Welcome!</a>
-                    </li>
-                </ul>
-                <ul>
-                    <li class="toctree-l1"><a class="reference internal" href="../GettingStarted/">Getting Started</a>
-                    </li>
-                </ul>
-                <ul>
-                    <li class="toctree-l1"><a class="reference internal" href="../characteristics/">Characteristics</a>
-                    </li>
-                </ul>
-                <ul>
-                    <li class="toctree-l1"><a class="reference internal" href="../faq/">Frequently Asked Questions</a>
-                    </li>
-                </ul>
-                <ul>
-                    <li class="toctree-l1"><a class="reference internal" href="../modding/">Modding</a>
-                    </li>
-                </ul>
-                <ul class="current">
-                    <li class="toctree-l1 current"><a class="reference internal current" href="./">Servers</a>
-    <ul class="current">
-    <li class="toctree-l2"><a class="reference internal" href="#dedicated-servers">Dedicated Servers</a>
-        <ul>
-    <li class="toctree-l3"><a class="reference internal" href="#about-running-a-dedicated-server-at-home">About Running A Dedicated Server At Home</a>
-    </li>
-        </ul>
-    </li>
-    <li class="toctree-l2"><a class="reference internal" href="#local-lan-steam-servers">Local LAN &amp; Steam Servers</a>
-    </li>
-    </ul>
-                    </li>
-                </ul>
-                <p class="caption"><span class="caption-text">Blocks</span></p>
-                <ul>
-                    <li class="toctree-l1"><a class="reference internal" href="#">Crafting</a>
-    <ul>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/crafting/alloy-smelter/"><img id="spr" src="/wiki/images/block-alloy-smelter-large.png"></img> Alloy Smelter</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/crafting/blast-mixer/"><img id="spr" src="/wiki/images/block-blast-mixer-large.png"></img> Blast Mixer</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/crafting/coal-centrifuge/"><img id="spr" src="/wiki/images/block-coal-centrifuge-large.png"></img> Coal Centrifuge</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/crafting/cryofluidmixer/"><img id="spr" src="/wiki/images/block-cryofluidmixer-large.png"></img> Cryofluid Mixer</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/crafting/graphite-press/"><img id="spr" src="/wiki/images/block-graphite-press-large.png"></img> Graphite Press</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/crafting/incinerator/"><img id="spr" src="/wiki/images/block-incinerator-large.png"></img> Incinerator</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/crafting/kiln/"><img id="spr" src="/wiki/images/block-kiln-large.png"></img> Kiln</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/crafting/melter/"><img id="spr" src="/wiki/images/block-melter-large.png"></img> Melter</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/crafting/multi-press/"><img id="spr" src="/wiki/images/block-multi-press-large.png"></img> Multi-Press</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/crafting/phase-weaver/"><img id="spr" src="/wiki/images/block-phase-weaver-large.png"></img> Phase Weaver</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/crafting/plastanium-compressor/"><img id="spr" src="/wiki/images/block-plastanium-compressor-large.png"></img> Plastanium Compressor</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/crafting/pulverizer/"><img id="spr" src="/wiki/images/block-pulverizer-large.png"></img> Pulverizer</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/crafting/pyratite-mixer/"><img id="spr" src="/wiki/images/block-pyratite-mixer-large.png"></img> Pyratite Mixer</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/crafting/separator/"><img id="spr" src="/wiki/images/block-separator-large.png"></img> Separator</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/crafting/silicon-smelter/"><img id="spr" src="/wiki/images/block-silicon-smelter-large.png"></img> Silicon Smelter</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/crafting/spore-press/"><img id="spr" src="/wiki/images/block-spore-press-large.png"></img> Spore Press</a>
-                </li>
-    </ul>
-                    </li>
-                    <li class="toctree-l1"><a class="reference internal" href="#">Defense</a>
-    <ul>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/defense/copper-wall-large/"><img id="spr" src="/wiki/images/block-copper-wall-large-large.png"></img> Large Copper Wall</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/defense/copper-wall/"><img id="spr" src="/wiki/images/block-copper-wall-large.png"></img> Copper Wall</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/defense/door-large/"><img id="spr" src="/wiki/images/block-door-large-large.png"></img> Large Door</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/defense/door/"><img id="spr" src="/wiki/images/block-door-large.png"></img> Door</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/defense/phase-wall-large/"><img id="spr" src="/wiki/images/block-phase-wall-large-large.png"></img> Large Phase Wall</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/defense/phase-wall/"><img id="spr" src="/wiki/images/block-phase-wall-large.png"></img> Phase Wall</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/defense/plastanium-wall-large/"><img id="spr" src="/wiki/images/block-plastanium-wall-large-large.png"></img> Large Plastanium Wall</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/defense/plastanium-wall/"><img id="spr" src="/wiki/images/block-plastanium-wall-large.png"></img> Plastanium Wall</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/defense/scrap-wall-gigantic/"><img id="spr" src="/wiki/images/block-scrap-wall-gigantic-large.png"></img> Gigantic Scrap Wall</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/defense/scrap-wall-huge/"><img id="spr" src="/wiki/images/block-scrap-wall-huge-large.png"></img> Huge Scrap Wall</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/defense/scrap-wall-large/"><img id="spr" src="/wiki/images/block-scrap-wall-large-large.png"></img> Large Scrap Wall</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/defense/scrap-wall/"><img id="spr" src="/wiki/images/block-scrap-wall-large.png"></img> Scrap Wall</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/defense/surge-wall-large/"><img id="spr" src="/wiki/images/block-surge-wall-large-large.png"></img> Large Surge Wall</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/defense/surge-wall/"><img id="spr" src="/wiki/images/block-surge-wall-large.png"></img> Surge Wall</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/defense/thorium-wall-large/"><img id="spr" src="/wiki/images/block-thorium-wall-large-large.png"></img> Large Thorium Wall</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/defense/thorium-wall/"><img id="spr" src="/wiki/images/block-thorium-wall-large.png"></img> Thorium Wall</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/defense/titanium-wall-large/"><img id="spr" src="/wiki/images/block-titanium-wall-large-large.png"></img> Large Titanium Wall</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/defense/titanium-wall/"><img id="spr" src="/wiki/images/block-titanium-wall-large.png"></img> Titanium Wall</a>
-                </li>
-    </ul>
-                    </li>
-                    <li class="toctree-l1"><a class="reference internal" href="#">Distribution</a>
-    <ul>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/distribution/armored-conveyor/"><img id="spr" src="/wiki/images/block-armored-conveyor-large.png"></img> Armored Conveyor</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/distribution/bridge-conveyor/"><img id="spr" src="/wiki/images/block-bridge-conveyor-large.png"></img> Bridge Conveyor</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/distribution/conveyor/"><img id="spr" src="/wiki/images/block-conveyor-large.png"></img> Conveyor</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/distribution/distributor/"><img id="spr" src="/wiki/images/block-distributor-large.png"></img> Distributor</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/distribution/inverted-sorter/"><img id="spr" src="/wiki/images/block-inverted-sorter-large.png"></img> Inverted Sorter</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/distribution/item-source/"><img id="spr" src="/wiki/images/block-item-source-large.png"></img> Item Source</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/distribution/item-void/"><img id="spr" src="/wiki/images/block-item-void-large.png"></img> Item Void</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/distribution/junction/"><img id="spr" src="/wiki/images/block-junction-large.png"></img> Junction</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/distribution/mass-driver/"><img id="spr" src="/wiki/images/block-mass-driver-large.png"></img> Mass Driver</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/distribution/overflow-gate/"><img id="spr" src="/wiki/images/block-overflow-gate-large.png"></img> Overflow Gate</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/distribution/phase-conveyor/"><img id="spr" src="/wiki/images/block-phase-conveyor-large.png"></img> Phase Conveyor</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/distribution/router/"><img id="spr" src="/wiki/images/block-router-large.png"></img> Router</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/distribution/sorter/"><img id="spr" src="/wiki/images/block-sorter-large.png"></img> Sorter</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/distribution/titanium-conveyor/"><img id="spr" src="/wiki/images/block-titanium-conveyor-large.png"></img> Titanium Conveyor</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/distribution/underflow-gate/"><img id="spr" src="/wiki/images/block-underflow-gate-large.png"></img> Underflow Gate</a>
-                </li>
-    </ul>
-                    </li>
-                    <li class="toctree-l1"><a class="reference internal" href="#">Effect</a>
-    <ul>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/effect/container/"><img id="spr" src="/wiki/images/block-container-large.png"></img> Container</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/effect/core-foundation/"><img id="spr" src="/wiki/images/core-foundation-icon-large.png"></img> Core: Foundation</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/effect/core-nucleus/"><img id="spr" src="/wiki/images/core-nucleus-icon-large.png"></img> Core: Nucleus</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/effect/core-shard/"><img id="spr" src="/wiki/images/core-shard-icon-large.png"></img> Core: Shard</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/effect/force-projector/"><img id="spr" src="/wiki/images/block-force-projector-large.png"></img> Force Projector</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/effect/illuminator/"><img id="spr" src="/wiki/images/block-illuminator-large.png"></img> Illuminator</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/effect/launch-pad-large/"><img id="spr" src="/wiki/images/block-launch-pad-large-large.png"></img> Large Launch Pad</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/effect/launch-pad/"><img id="spr" src="/wiki/images/block-launch-pad-large.png"></img> Launch Pad</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/effect/mend-projector/"><img id="spr" src="/wiki/images/block-mend-projector-large.png"></img> Mend Projector</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/effect/mender/"><img id="spr" src="/wiki/images/block-mender-large.png"></img> Mender</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/effect/message/"><img id="spr" src="/wiki/images/block-message-large.png"></img> Message</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/effect/overdrive-projector/"><img id="spr" src="/wiki/images/block-overdrive-projector-large.png"></img> Overdrive Projector</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/effect/shock-mine/"><img id="spr" src="/wiki/images/block-shock-mine-large.png"></img> Shock Mine</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/effect/unloader/"><img id="spr" src="/wiki/images/block-unloader-large.png"></img> Unloader</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/effect/vault/"><img id="spr" src="/wiki/images/block-vault-large.png"></img> Vault</a>
-                </li>
-    </ul>
-                    </li>
-                    <li class="toctree-l1"><a class="reference internal" href="#">Liquid</a>
-    <ul>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/liquid/bridge-conduit/"><img id="spr" src="/wiki/images/block-bridge-conduit-large.png"></img> Bridge Conduit</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/liquid/conduit/"><img id="spr" src="/wiki/images/block-conduit-large.png"></img> Conduit</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/liquid/liquid-junction/"><img id="spr" src="/wiki/images/block-liquid-junction-large.png"></img> Liquid Junction</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/liquid/liquid-router/"><img id="spr" src="/wiki/images/block-liquid-router-large.png"></img> Liquid Router</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/liquid/liquid-source/"><img id="spr" src="/wiki/images/block-liquid-source-large.png"></img> Liquid Source</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/liquid/liquid-tank/"><img id="spr" src="/wiki/images/block-liquid-tank-large.png"></img> Liquid Tank</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/liquid/liquid-void/"><img id="spr" src="/wiki/images/block-liquid-void-large.png"></img> Liquid Void</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/liquid/mechanical-pump/"><img id="spr" src="/wiki/images/block-mechanical-pump-large.png"></img> Mechanical Pump</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/liquid/phase-conduit/"><img id="spr" src="/wiki/images/block-phase-conduit-large.png"></img> Phase Conduit</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/liquid/plated-conduit/"><img id="spr" src="/wiki/images/block-plated-conduit-large.png"></img> Plated Conduit</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/liquid/pulse-conduit/"><img id="spr" src="/wiki/images/block-pulse-conduit-large.png"></img> Pulse Conduit</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/liquid/rotary-pump/"><img id="spr" src="/wiki/images/block-rotary-pump-large.png"></img> Rotary Pump</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/liquid/thermal-pump/"><img id="spr" src="/wiki/images/block-thermal-pump-large.png"></img> Thermal Pump</a>
-                </li>
-    </ul>
-                    </li>
-                    <li class="toctree-l1"><a class="reference internal" href="#">Power</a>
-    <ul>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/power/battery-large/"><img id="spr" src="/wiki/images/block-battery-large-large.png"></img> Large Battery</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/power/battery/"><img id="spr" src="/wiki/images/block-battery-large.png"></img> Battery</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/power/combustion-generator/"><img id="spr" src="/wiki/images/block-combustion-generator-large.png"></img> Combustion Generator</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/power/differential-generator/"><img id="spr" src="/wiki/images/block-differential-generator-large.png"></img> Differential Generator</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/power/diode/"><img id="spr" src="/wiki/images/block-diode-large.png"></img> Battery Diode</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/power/impact-reactor/"><img id="spr" src="/wiki/images/block-impact-reactor-large.png"></img> Impact Reactor</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/power/power-node-large/"><img id="spr" src="/wiki/images/block-power-node-large-large.png"></img> Large Power Node</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/power/power-node/"><img id="spr" src="/wiki/images/block-power-node-large.png"></img> Power Node</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/power/power-source/"><img id="spr" src="/wiki/images/block-power-source-large.png"></img> Power Infinite</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/power/power-void/"><img id="spr" src="/wiki/images/block-power-void-large.png"></img> Power Void</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/power/rtg-generator/"><img id="spr" src="/wiki/images/block-rtg-generator-large.png"></img> RTG Generator</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/power/solar-panel-large/"><img id="spr" src="/wiki/images/block-solar-panel-large-large.png"></img> Large Solar Panel</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/power/solar-panel/"><img id="spr" src="/wiki/images/block-solar-panel-large.png"></img> Solar Panel</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/power/surge-tower/"><img id="spr" src="/wiki/images/block-surge-tower-large.png"></img> Surge Tower</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/power/thermal-generator/"><img id="spr" src="/wiki/images/block-thermal-generator-large.png"></img> Thermal Generator</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/power/thorium-reactor/"><img id="spr" src="/wiki/images/block-thorium-reactor-large.png"></img> Thorium Reactor</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/power/turbine-generator/"><img id="spr" src="/wiki/images/block-turbine-generator-large.png"></img> Steam Generator</a>
-                </li>
-    </ul>
-                    </li>
-                    <li class="toctree-l1"><a class="reference internal" href="#">Production</a>
-    <ul>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/production/blast-drill/"><img id="spr" src="/wiki/images/block-blast-drill-large.png"></img> Airblast Drill</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/production/cultivator/"><img id="spr" src="/wiki/images/block-cultivator-large.png"></img> Cultivator</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/production/laser-drill/"><img id="spr" src="/wiki/images/block-laser-drill-large.png"></img> Laser Drill</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/production/mechanical-drill/"><img id="spr" src="/wiki/images/block-mechanical-drill-large.png"></img> Mechanical Drill</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/production/oil-extractor/"><img id="spr" src="/wiki/images/block-oil-extractor-large.png"></img> Oil Extractor</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/production/pneumatic-drill/"><img id="spr" src="/wiki/images/block-pneumatic-drill-large.png"></img> Pneumatic Drill</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/production/water-extractor/"><img id="spr" src="/wiki/images/block-water-extractor-large.png"></img> Water Extractor</a>
-                </li>
-    </ul>
-                    </li>
-                    <li class="toctree-l1"><a class="reference internal" href="#">Turret</a>
-    <ul>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/turret/arc/"><img id="spr" src="/wiki/images/block-arc-large.png"></img> Arc</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/turret/cyclone/"><img id="spr" src="/wiki/images/block-cyclone-large.png"></img> Cyclone</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/turret/duo/"><img id="spr" src="/wiki/images/block-duo-large.png"></img> Duo</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/turret/fuse/"><img id="spr" src="/wiki/images/block-fuse-large.png"></img> Fuse</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/turret/hail/"><img id="spr" src="/wiki/images/block-hail-large.png"></img> Hail</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/turret/lancer/"><img id="spr" src="/wiki/images/block-lancer-large.png"></img> Lancer</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/turret/meltdown/"><img id="spr" src="/wiki/images/block-meltdown-large.png"></img> Meltdown</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/turret/ripple/"><img id="spr" src="/wiki/images/block-ripple-large.png"></img> Ripple</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/turret/salvo/"><img id="spr" src="/wiki/images/block-salvo-large.png"></img> Salvo</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/turret/scatter/"><img id="spr" src="/wiki/images/block-scatter-large.png"></img> Scatter</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/turret/scorch/"><img id="spr" src="/wiki/images/block-scorch-large.png"></img> Scorch</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/turret/spectre/"><img id="spr" src="/wiki/images/block-spectre-large.png"></img> Spectre</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/turret/swarmer/"><img id="spr" src="/wiki/images/block-swarmer-large.png"></img> Swarmer</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/turret/wave/"><img id="spr" src="/wiki/images/block-wave-large.png"></img> Wave</a>
-                </li>
-    </ul>
-                    </li>
-                    <li class="toctree-l1"><a class="reference internal" href="#">Units</a>
-    <ul>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/units/command-center/"><img id="spr" src="/wiki/images/block-command-center-large.png"></img> Command Center</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/units/crawler-factory/"><img id="spr" src="/wiki/images/block-crawler-factory-large.png"></img> Crawler Mech Factory</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/units/dagger-factory/"><img id="spr" src="/wiki/images/block-dagger-factory-large.png"></img> Dagger Mech Factory</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/units/draug-factory/"><img id="spr" src="/wiki/images/block-draug-factory-large.png"></img> Draug Miner Drone Factory</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/units/fortress-factory/"><img id="spr" src="/wiki/images/block-fortress-factory-large.png"></img> Fortress Mech Factory</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/units/ghoul-factory/"><img id="spr" src="/wiki/images/block-ghoul-factory-large.png"></img> Ghoul Bomber Factory</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/units/phantom-factory/"><img id="spr" src="/wiki/images/block-phantom-factory-large.png"></img> Phantom Builder Drone Factory</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/units/repair-point/"><img id="spr" src="/wiki/images/block-repair-point-large.png"></img> Repair Point</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/units/revenant-factory/"><img id="spr" src="/wiki/images/block-revenant-factory-large.png"></img> Revenant Fighter Factory</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/units/spirit-factory/"><img id="spr" src="/wiki/images/block-spirit-factory-large.png"></img> Spirit Repair Drone Factory</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/units/titan-factory/"><img id="spr" src="/wiki/images/block-titan-factory-large.png"></img> Titan Mech Factory</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/units/wraith-factory/"><img id="spr" src="/wiki/images/block-wraith-factory-large.png"></img> Wraith Fighter Factory</a>
-                </li>
-    </ul>
-                    </li>
-                    <li class="toctree-l1"><a class="reference internal" href="#">Upgrade</a>
-    <ul>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/upgrade/dart-mech-pad/"><img id="spr" src="/wiki/images/block-dart-mech-pad-large.png"></img> Alpha Mech Pad</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/upgrade/delta-mech-pad/"><img id="spr" src="/wiki/images/block-delta-mech-pad-large.png"></img> Delta Mech Pad</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/upgrade/glaive-ship-pad/"><img id="spr" src="/wiki/images/block-glaive-ship-pad-large.png"></img> Glaive Ship Pad</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/upgrade/javelin-ship-pad/"><img id="spr" src="/wiki/images/block-javelin-ship-pad-large.png"></img> Javelin Ship Pad</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/upgrade/omega-mech-pad/"><img id="spr" src="/wiki/images/block-omega-mech-pad-large.png"></img> Omega Mech Pad</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/upgrade/tau-mech-pad/"><img id="spr" src="/wiki/images/block-tau-mech-pad-large.png"></img> Tau Mech Pad</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../blocks/upgrade/trident-ship-pad/"><img id="spr" src="/wiki/images/block-trident-ship-pad-large.png"></img> Trident Ship Pad</a>
-                </li>
-    </ul>
-                    </li>
-                </ul>
-                <p class="caption"><span class="caption-text">Items</span></p>
-                <ul>
-                    <li class="toctree-l1"><a class="reference internal" href="../items/blast-compound/"><img id="spr" src="/wiki/images/item-blast-compound.png"></img> Blast Compound</a>
-                    </li>
-                    <li class="toctree-l1"><a class="reference internal" href="../items/coal/"><img id="spr" src="/wiki/images/item-coal.png"></img> Coal</a>
-                    </li>
-                    <li class="toctree-l1"><a class="reference internal" href="../items/copper/"><img id="spr" src="/wiki/images/item-copper.png"></img> Copper</a>
-                    </li>
-                    <li class="toctree-l1"><a class="reference internal" href="../items/graphite/"><img id="spr" src="/wiki/images/item-graphite.png"></img> Graphite</a>
-                    </li>
-                    <li class="toctree-l1"><a class="reference internal" href="../items/lead/"><img id="spr" src="/wiki/images/item-lead.png"></img> Lead</a>
-                    </li>
-                    <li class="toctree-l1"><a class="reference internal" href="../items/metaglass/"><img id="spr" src="/wiki/images/item-metaglass.png"></img> Metaglass</a>
-                    </li>
-                    <li class="toctree-l1"><a class="reference internal" href="../items/phase-fabric/"><img id="spr" src="/wiki/images/item-phase-fabric.png"></img> Phase Fabric</a>
-                    </li>
-                    <li class="toctree-l1"><a class="reference internal" href="../items/plastanium/"><img id="spr" src="/wiki/images/item-plastanium.png"></img> Plastanium</a>
-                    </li>
-                    <li class="toctree-l1"><a class="reference internal" href="../items/pyratite/"><img id="spr" src="/wiki/images/item-pyratite.png"></img> Pyratite</a>
-                    </li>
-                    <li class="toctree-l1"><a class="reference internal" href="../items/sand/"><img id="spr" src="/wiki/images/item-sand.png"></img> Sand</a>
-                    </li>
-                    <li class="toctree-l1"><a class="reference internal" href="../items/scrap/"><img id="spr" src="/wiki/images/item-scrap.png"></img> Scrap</a>
-                    </li>
-                    <li class="toctree-l1"><a class="reference internal" href="../items/silicon/"><img id="spr" src="/wiki/images/item-silicon.png"></img> Silicon</a>
-                    </li>
-                    <li class="toctree-l1"><a class="reference internal" href="../items/spore-pod/"><img id="spr" src="/wiki/images/item-spore-pod.png"></img> Spore Pod</a>
-                    </li>
-                    <li class="toctree-l1"><a class="reference internal" href="../items/surge-alloy/"><img id="spr" src="/wiki/images/item-surge-alloy.png"></img> Surge Alloy</a>
-                    </li>
-                    <li class="toctree-l1"><a class="reference internal" href="../items/thorium/"><img id="spr" src="/wiki/images/item-thorium.png"></img> Thorium</a>
-                    </li>
-                    <li class="toctree-l1"><a class="reference internal" href="../items/titanium/"><img id="spr" src="/wiki/images/item-titanium.png"></img> Titanium</a>
-                    </li>
-                </ul>
-                <p class="caption"><span class="caption-text">Liquids</span></p>
-                <ul>
-                    <li class="toctree-l1"><a class="reference internal" href="../liquids/cryofluid/"><img id="spr" src="/wiki/images/liquid-cryofluid.png"></img> Cryofluid</a>
-                    </li>
-                    <li class="toctree-l1"><a class="reference internal" href="../liquids/oil/"><img id="spr" src="/wiki/images/liquid-oil.png"></img> Oil</a>
-                    </li>
-                    <li class="toctree-l1"><a class="reference internal" href="../liquids/slag/"><img id="spr" src="/wiki/images/liquid-slag.png"></img> Slag</a>
-                    </li>
-                    <li class="toctree-l1"><a class="reference internal" href="../liquids/water/"><img id="spr" src="/wiki/images/liquid-water.png"></img> Water</a>
-                    </li>
-                </ul>
-                <p class="caption"><span class="caption-text">Mechs</span></p>
-                <ul>
-                    <li class="toctree-l1"><a class="reference internal" href="../mechs/alpha-mech/"><img id="spr" src="/wiki/images/mech-alpha-mech-full.png"></img> Alpha</a>
-                    </li>
-                    <li class="toctree-l1"><a class="reference internal" href="../mechs/dart-ship/"><img id="spr" src="/wiki/images/mech-dart-ship-full.png"></img> Dart</a>
-                    </li>
-                    <li class="toctree-l1"><a class="reference internal" href="../mechs/delta-mech/"><img id="spr" src="/wiki/images/mech-delta-mech-full.png"></img> Delta</a>
-                    </li>
-                    <li class="toctree-l1"><a class="reference internal" href="../mechs/glaive-ship/"><img id="spr" src="/wiki/images/mech-glaive-ship-full.png"></img> Glaive</a>
-                    </li>
-                    <li class="toctree-l1"><a class="reference internal" href="../mechs/javelin-ship/"><img id="spr" src="/wiki/images/mech-javelin-ship-full.png"></img> Javelin</a>
-                    </li>
-                    <li class="toctree-l1"><a class="reference internal" href="../mechs/omega-mech/"><img id="spr" src="/wiki/images/mech-omega-mech-full.png"></img> Omega</a>
-                    </li>
-                    <li class="toctree-l1"><a class="reference internal" href="../mechs/tau-mech/"><img id="spr" src="/wiki/images/mech-tau-mech-full.png"></img> Tau</a>
-                    </li>
-                    <li class="toctree-l1"><a class="reference internal" href="../mechs/trident-ship/"><img id="spr" src="/wiki/images/mech-trident-ship-full.png"></img> Trident</a>
-                    </li>
-                </ul>
-                <p class="caption"><span class="caption-text">Units</span></p>
-                <ul>
-                    <li class="toctree-l1"><a class="reference internal" href="../units/chaos-array/"><img id="spr" src="/wiki/images/chaos-array.png"></img> Chaos Array</a>
-                    </li>
-                    <li class="toctree-l1"><a class="reference internal" href="../units/crawler/"><img id="spr" src="/wiki/images/crawler.png"></img> Crawler</a>
-                    </li>
-                    <li class="toctree-l1"><a class="reference internal" href="../units/dagger/"><img id="spr" src="/wiki/images/dagger.png"></img> Dagger</a>
-                    </li>
-                    <li class="toctree-l1"><a class="reference internal" href="../units/draug/"><img id="spr" src="/wiki/images/draug.png"></img> Draug Miner Drone</a>
-                    </li>
-                    <li class="toctree-l1"><a class="reference internal" href="../units/eradicator/"><img id="spr" src="/wiki/images/eradicator.png"></img> Eradicator</a>
-                    </li>
-                    <li class="toctree-l1"><a class="reference internal" href="../units/eruptor/"><img id="spr" src="/wiki/images/eruptor.png"></img> Eruptor</a>
-                    </li>
-                    <li class="toctree-l1"><a class="reference internal" href="../units/fortress/"><img id="spr" src="/wiki/images/fortress.png"></img> Fortress</a>
-                    </li>
-                    <li class="toctree-l1"><a class="reference internal" href="../units/ghoul/"><img id="spr" src="/wiki/images/ghoul.png"></img> Ghoul Bomber</a>
-                    </li>
-                    <li class="toctree-l1"><a class="reference internal" href="../units/lich/"><img id="spr" src="/wiki/images/lich.png"></img> Lich</a>
-                    </li>
-                    <li class="toctree-l1"><a class="reference internal" href="../units/phantom/"><img id="spr" src="/wiki/images/phantom.png"></img> Phantom Builder Drone</a>
-                    </li>
-                    <li class="toctree-l1"><a class="reference internal" href="../units/reaper/"><img id="spr" src="/wiki/images/reaper.png"></img> Reaper</a>
-                    </li>
-                    <li class="toctree-l1"><a class="reference internal" href="../units/revenant/"><img id="spr" src="/wiki/images/revenant.png"></img> Revenant</a>
-                    </li>
-                    <li class="toctree-l1"><a class="reference internal" href="../units/spirit/"><img id="spr" src="/wiki/images/spirit.png"></img> Spirit Repair Drone</a>
-                    </li>
-                    <li class="toctree-l1"><a class="reference internal" href="../units/titan/"><img id="spr" src="/wiki/images/titan.png"></img> Titan</a>
-                    </li>
-                    <li class="toctree-l1"><a class="reference internal" href="../units/wraith/"><img id="spr" src="/wiki/images/wraith.png"></img> Wraith Fighter</a>
-                    </li>
-                </ul>
-                <p class="caption"><span class="caption-text">Zones</span></p>
-                <ul>
-                    <li class="toctree-l1"><a class="reference internal" href="../zones/craters/"><img id="zonespr" src="/wiki/images/zone-craters.png"></img> The Craters</a>
-                    </li>
-                    <li class="toctree-l1"><a class="reference internal" href="../zones/desertWastes/"><img id="zonespr" src="/wiki/images/zone-desertWastes.png"></img> Desert Wastes</a>
-                    </li>
-                    <li class="toctree-l1"><a class="reference internal" href="../zones/desolateRift/"><img id="zonespr" src="/wiki/images/zone-desolateRift.png"></img> Desolate Rift</a>
-                    </li>
-                    <li class="toctree-l1"><a class="reference internal" href="../zones/frozenForest/"><img id="zonespr" src="/wiki/images/zone-frozenForest.png"></img> Frozen Forest</a>
-                    </li>
-                    <li class="toctree-l1"><a class="reference internal" href="../zones/fungalPass/"><img id="zonespr" src="/wiki/images/zone-fungalPass.png"></img> Fungal Pass</a>
-                    </li>
-                    <li class="toctree-l1"><a class="reference internal" href="../zones/groundZero/"><img id="zonespr" src="/wiki/images/zone-groundZero.png"></img> Ground Zero</a>
-                    </li>
-                    <li class="toctree-l1"><a class="reference internal" href="../zones/nuclearComplex/"><img id="zonespr" src="/wiki/images/zone-nuclearComplex.png"></img> Nuclear Production Complex</a>
-                    </li>
-                    <li class="toctree-l1"><a class="reference internal" href="../zones/overgrowth/"><img id="zonespr" src="/wiki/images/zone-overgrowth.png"></img> Overgrowth</a>
-                    </li>
-                    <li class="toctree-l1"><a class="reference internal" href="../zones/ruinousShores/"><img id="zonespr" src="/wiki/images/zone-ruinousShores.png"></img> Ruinous Shores</a>
-                    </li>
-                    <li class="toctree-l1"><a class="reference internal" href="../zones/saltFlats/"><img id="zonespr" src="/wiki/images/zone-saltFlats.png"></img> Salt Flats</a>
-                    </li>
-                    <li class="toctree-l1"><a class="reference internal" href="../zones/stainedMountains/"><img id="zonespr" src="/wiki/images/zone-stainedMountains.png"></img> Stained Mountains</a>
-                    </li>
-                    <li class="toctree-l1"><a class="reference internal" href="../zones/tarFields/"><img id="zonespr" src="/wiki/images/zone-tarFields.png"></img> Tar Fields</a>
-                    </li>
-                </ul>
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="none" data-md-color-accent="none">
+      
+  
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#servers" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid" aria-label="Header">
+    <a href="https://mindustrygame.github.io/wiki/" title="Mindustry Wiki" class="md-header-nav__button md-logo" aria-label="Mindustry Wiki">
+      
+  <img src="../images/favicon.png" alt="logo">
+
+    </a>
+    <label class="md-header-nav__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header-nav__title" data-md-component="header-title">
+      
+        <div class="md-header-nav__ellipsis">
+          <span class="md-header-nav__topic md-ellipsis">
+            Mindustry Wiki
+          </span>
+          <span class="md-header-nav__topic md-ellipsis">
+            
+              Servers
+            
+          </span>
+        </div>
+      
+    </div>
+    
+      <label class="md-header-nav__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" data-md-component="search-reset" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
       </div>
     </div>
-    </nav>
-
-    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
-
-      
-      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
-        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-        <a href="..">Mindustry Wiki</a>
-      </nav>
-
-      
-      <div class="wy-nav-content">
-        <div class="rst-content">
-          <div role="navigation" aria-label="breadcrumbs navigation">
-  <ul class="wy-breadcrumbs">
-    <li><a href="..">Docs</a> &raquo;</li>
-    
-      
-    
-    <li>Servers</li>
-    <li class="wy-breadcrumbs-aside">
-      
-        <a href="https://github.com/MindustryGame/wiki/edit/master/docs/servers.md"
-          class="icon icon-github"> Edit on GitHub</a>
-      
-    </li>
-  </ul>
-  
-  <hr/>
+  </div>
 </div>
-          <div role="main">
-            <div class="section">
+    
+    
+      <div class="md-header-nav__source">
+        
+<a href="https://github.com/MindustryGame/wiki/" title="Go to repository" class="md-source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05L244 40.45a28.87 28.87 0 00-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 01-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 000 40.81l195.61 195.6a28.86 28.86 0 0040.8 0l194.69-194.69a28.86 28.86 0 000-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="https://mindustrygame.github.io/wiki/" title="Mindustry Wiki" class="md-nav__button md-logo" aria-label="Mindustry Wiki">
+      
+  <img src="../images/favicon.png" alt="logo">
+
+    </a>
+    Mindustry Wiki
+  </label>
+  
+    <div class="md-nav__source">
+      
+<a href="https://github.com/MindustryGame/wiki/" title="Go to repository" class="md-source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05L244 40.45a28.87 28.87 0 00-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 01-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 000 40.81l195.61 195.6a28.86 28.86 0 0040.8 0l194.69-194.69a28.86 28.86 0 000-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href=".." class="md-nav__link">
+      Welcome to the Mindustry Wiki
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../faq/" class="md-nav__link">
+      Frequently Asked Questions
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Servers
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+    
+    <a href="./" class="md-nav__link md-nav__link--active">
+      Servers
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#dedicated-servers" class="md-nav__link">
+    Dedicated Servers
+  </a>
+  
+    <nav class="md-nav" aria-label="Dedicated Servers">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#what-is-an-ip-and-how-do-i-find-out-what-mine-is" class="md-nav__link">
+    What is an IP and how do I find out what mine is?
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#running-a-dedicated-server-at-home" class="md-nav__link">
+    Running A Dedicated Server At Home
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#local-lan-steam-servers" class="md-nav__link">
+    Local LAN &amp; Steam Servers
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dedicated-server-commands" class="md-nav__link">
+    Dedicated Server Commands
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dedicated-server-configuration-options" class="md-nav__link">
+    Dedicated Server Configuration Options
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4" >
+    <label class="md-nav__link" for="nav-4">
+      Blocks
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Blocks" data-md-level="1">
+      <label class="md-nav__title" for="nav-4">
+        <span class="md-nav__icon md-icon"></span>
+        Blocks
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/100-blast-mixer/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-blast-mixer-large.png"></img> Blast Mixer
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/101-melter/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-melter-large.png"></img> Melter
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/102-separator/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-separator-large.png"></img> Separator
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/103-disassembler/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-disassembler-large.png"></img> Disassembler
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/104-spore-press/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-spore-press-large.png"></img> Spore Press
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/105-pulverizer/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-pulverizer-large.png"></img> Pulverizer
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/106-coal-centrifuge/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-coal-centrifuge-large.png"></img> Coal Centrifuge
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/107-incinerator/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-incinerator-large.png"></img> Incinerator
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/108-copper-wall/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-copper-wall-large.png"></img> Copper Wall
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/109-copper-wall-large/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-copper-wall-large-large.png"></img> Large Copper Wall
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/110-titanium-wall/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-titanium-wall-large.png"></img> Titanium Wall
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/111-titanium-wall-large/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-titanium-wall-large-large.png"></img> Large Titanium Wall
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/112-plastanium-wall/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-plastanium-wall-large.png"></img> Plastanium Wall
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/113-plastanium-wall-large/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-plastanium-wall-large-large.png"></img> Large Plastanium Wall
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/114-thorium-wall/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-thorium-wall-large.png"></img> Thorium Wall
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/115-thorium-wall-large/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-thorium-wall-large-large.png"></img> Large Thorium Wall
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/116-phase-wall/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-phase-wall-large.png"></img> Phase Wall
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/117-phase-wall-large/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-phase-wall-large-large.png"></img> Large Phase Wall
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/118-surge-wall/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-surge-wall-large.png"></img> Surge Wall
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/119-surge-wall-large/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-surge-wall-large-large.png"></img> Large Surge Wall
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/120-door/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-door-large.png"></img> Door
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/121-door-large/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-door-large-large.png"></img> Large Door
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/122-scrap-wall/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-scrap-wall-large.png"></img> Scrap Wall
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/123-scrap-wall-large/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-scrap-wall-large-large.png"></img> Large Scrap Wall
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/124-scrap-wall-huge/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-scrap-wall-huge-large.png"></img> Huge Scrap Wall
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/125-scrap-wall-gigantic/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-scrap-wall-gigantic-large.png"></img> Gigantic Scrap Wall
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/127-mender/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-mender-large.png"></img> Mender
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/128-mend-projector/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-mend-projector-large.png"></img> Mend Projector
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/129-overdrive-projector/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-overdrive-projector-large.png"></img> Overdrive Projector
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/130-overdrive-dome/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-overdrive-dome-large.png"></img> Overdrive Dome
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/131-force-projector/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-force-projector-large.png"></img> Force Projector
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/132-shock-mine/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-shock-mine-large.png"></img> Shock Mine
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/133-conveyor/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-conveyor-large.png"></img> Conveyor
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/134-titanium-conveyor/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-titanium-conveyor-large.png"></img> Titanium Conveyor
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/135-plastanium-conveyor/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-plastanium-conveyor-large.png"></img> Plastanium Conveyor
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/136-armored-conveyor/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-armored-conveyor-large.png"></img> Armored Conveyor
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/137-junction/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-junction-large.png"></img> Junction
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/138-bridge-conveyor/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-bridge-conveyor-large.png"></img> Bridge Conveyor
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/139-phase-conveyor/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-phase-conveyor-large.png"></img> Phase Conveyor
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/140-sorter/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-sorter-large.png"></img> Sorter
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/141-inverted-sorter/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-inverted-sorter-large.png"></img> Inverted Sorter
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/142-router/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-router-large.png"></img> Router
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/143-distributor/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-distributor-large.png"></img> Distributor
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/144-overflow-gate/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-overflow-gate-large.png"></img> Overflow Gate
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/145-underflow-gate/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-underflow-gate-large.png"></img> Underflow Gate
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/146-mass-driver/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-mass-driver-large.png"></img> Mass Driver
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/147-payload-conveyor/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-payload-conveyor-large.png"></img> Payload Conveyor
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/148-payload-router/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-payload-router-large.png"></img> Payload Router
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/149-mechanical-pump/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-mechanical-pump-large.png"></img> Mechanical Pump
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/150-rotary-pump/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-rotary-pump-large.png"></img> Rotary Pump
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/151-thermal-pump/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-thermal-pump-large.png"></img> Thermal Pump
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/152-conduit/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-conduit-large.png"></img> Conduit
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/153-pulse-conduit/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-pulse-conduit-large.png"></img> Pulse Conduit
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/154-plated-conduit/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-plated-conduit-large.png"></img> Plated Conduit
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/155-liquid-router/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-liquid-router-large.png"></img> Liquid Router
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/156-liquid-tank/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-liquid-tank-large.png"></img> Liquid Tank
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/157-liquid-junction/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-liquid-junction-large.png"></img> Liquid Junction
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/158-bridge-conduit/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-bridge-conduit-large.png"></img> Bridge Conduit
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/159-phase-conduit/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-phase-conduit-large.png"></img> Phase Conduit
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/160-power-node/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-power-node-large.png"></img> Power Node
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/161-power-node-large/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-power-node-large-large.png"></img> Large Power Node
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/162-surge-tower/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-surge-tower-large.png"></img> Surge Tower
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/163-diode/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-diode-large.png"></img> Battery Diode
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/164-battery/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-battery-large.png"></img> Battery
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/165-battery-large/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-battery-large-large.png"></img> Large Battery
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/166-combustion-generator/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-combustion-generator-large.png"></img> Combustion Generator
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/167-thermal-generator/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-thermal-generator-large.png"></img> Thermal Generator
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/168-steam-generator/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-steam-generator-large.png"></img> Steam Generator
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/169-differential-generator/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-differential-generator-large.png"></img> Differential Generator
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/170-rtg-generator/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-rtg-generator-large.png"></img> RTG Generator
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/171-solar-panel/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-solar-panel-large.png"></img> Solar Panel
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/172-solar-panel-large/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-solar-panel-large-large.png"></img> Large Solar Panel
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/173-thorium-reactor/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-thorium-reactor-large.png"></img> Thorium Reactor
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/174-impact-reactor/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-impact-reactor-large.png"></img> Impact Reactor
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/175-mechanical-drill/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-mechanical-drill-large.png"></img> Mechanical Drill
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/176-pneumatic-drill/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-pneumatic-drill-large.png"></img> Pneumatic Drill
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/177-laser-drill/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-laser-drill-large.png"></img> Laser Drill
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/178-blast-drill/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-blast-drill-large.png"></img> Airblast Drill
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/179-water-extractor/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-water-extractor-large.png"></img> Water Extractor
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/180-cultivator/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-cultivator-large.png"></img> Cultivator
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/181-oil-extractor/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-oil-extractor-large.png"></img> Oil Extractor
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/182-core-shard/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-core-shard-large.png"></img> Core: Shard
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/183-core-foundation/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-core-foundation-large.png"></img> Core: Foundation
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/184-core-nucleus/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-core-nucleus-large.png"></img> Core: Nucleus
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/185-vault/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-vault-large.png"></img> Vault
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/186-container/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-container-large.png"></img> Container
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/187-unloader/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-unloader-large.png"></img> Unloader
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/188-duo/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-duo-large.png"></img> Duo
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/189-scatter/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-scatter-large.png"></img> Scatter
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/190-scorch/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-scorch-large.png"></img> Scorch
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/191-hail/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-hail-large.png"></img> Hail
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/192-wave/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-wave-large.png"></img> Wave
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/193-lancer/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-lancer-large.png"></img> Lancer
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/194-arc/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-arc-large.png"></img> Arc
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/195-parallax/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-parallax-large.png"></img> Parallax
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/196-swarmer/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-swarmer-large.png"></img> Swarmer
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/197-salvo/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-salvo-large.png"></img> Salvo
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/198-segment/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-segment-large.png"></img> Segment
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/199-tsunami/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-tsunami-large.png"></img> Tsunami
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/200-fuse/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-fuse-large.png"></img> Fuse
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/201-ripple/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-ripple-large.png"></img> Ripple
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/202-cyclone/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-cyclone-large.png"></img> Cyclone
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/203-foreshadow/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-foreshadow-large.png"></img> Foreshadow
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/204-spectre/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-spectre-large.png"></img> Spectre
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/205-meltdown/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-meltdown-large.png"></img> Meltdown
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/206-command-center/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-command-center-large.png"></img> Command Center
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/207-ground-factory/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-ground-factory-large.png"></img> Ground Factory
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/208-air-factory/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-air-factory-large.png"></img> Air Factory
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/209-naval-factory/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-naval-factory-large.png"></img> Naval Factory
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/210-additive-reconstructor/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-additive-reconstructor-large.png"></img> Additive Reconstructor
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/211-multiplicative-reconstructor/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-multiplicative-reconstructor-large.png"></img> Multiplicative Reconstructor
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/212-exponential-reconstructor/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-exponential-reconstructor-large.png"></img> Exponential Reconstructor
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/213-tetrative-reconstructor/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-tetrative-reconstructor-large.png"></img> Tetrative Reconstructor
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/214-repair-point/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-repair-point-large.png"></img> Repair Point
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/215-resupply-point/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-resupply-point-large.png"></img> Resupply Point
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/216-power-source/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-power-source-large.png"></img> Power Infinite
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/217-power-void/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-power-void-large.png"></img> Power Void
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/218-item-source/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-item-source-large.png"></img> Item Source
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/219-item-void/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-item-void-large.png"></img> Item Void
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/220-liquid-source/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-liquid-source-large.png"></img> Liquid Source
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/221-liquid-void/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-liquid-void-large.png"></img> Liquid Void
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/222-illuminator/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-illuminator-large.png"></img> Illuminator
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/227-launch-pad/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-launch-pad-large.png"></img> Launch Pad
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/229-interplanetary-accelerator/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-interplanetary-accelerator-large.png"></img> Interplanetary Accelerator
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/230-message/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-message-large.png"></img> Message
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/231-switch/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-switch-large.png"></img> Switch
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/232-micro-processor/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-micro-processor-large.png"></img> Micro Processor
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/233-logic-processor/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-logic-processor-large.png"></img> Logic Processor
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/234-hyper-processor/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-hyper-processor-large.png"></img> Hyper Processor
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/235-memory-cell/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-memory-cell-large.png"></img> Memory Cell
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/236-memory-bank/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-memory-bank-large.png"></img> Memory Bank
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/237-logic-display/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-logic-display-large.png"></img> Logic Display
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/238-large-logic-display/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-large-logic-display-large.png"></img> Large Logic Display
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/239-block-forge/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-block-forge-large.png"></img> Block Forge
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/240-block-loader/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-block-loader-large.png"></img> Block Loader
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/241-block-unloader/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-block-unloader-large.png"></img> Block Unloader
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/90-graphite-press/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-graphite-press-large.png"></img> Graphite Press
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/91-multi-press/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-multi-press-large.png"></img> Multi-Press
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/92-silicon-smelter/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-silicon-smelter-large.png"></img> Silicon Smelter
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/93-silicon-crucible/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-silicon-crucible-large.png"></img> Silicon Crucible
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/94-kiln/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-kiln-large.png"></img> Kiln
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/95-plastanium-compressor/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-plastanium-compressor-large.png"></img> Plastanium Compressor
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/96-phase-weaver/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-phase-weaver-large.png"></img> Phase Weaver
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/97-alloy-smelter/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-alloy-smelter-large.png"></img> Alloy Smelter
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/98-cryofluid-mixer/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-cryofluid-mixer-large.png"></img> Cryofluid Mixer
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blocks/99-pyratite-mixer/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/block-pyratite-mixer-large.png"></img> Pyratite Mixer
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5" >
+    <label class="md-nav__link" for="nav-5">
+      Items
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Items" data-md-level="1">
+      <label class="md-nav__title" for="nav-5">
+        <span class="md-nav__icon md-icon"></span>
+        Items
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../items/0-copper/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/item-copper.png"></img> Copper
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../items/1-lead/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/item-lead.png"></img> Lead
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../items/10-plastanium/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/item-plastanium.png"></img> Plastanium
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../items/11-phase-fabric/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/item-phase-fabric.png"></img> Phase Fabric
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../items/12-surge-alloy/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/item-surge-alloy.png"></img> Surge Alloy
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../items/13-spore-pod/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/item-spore-pod.png"></img> Spore Pod
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../items/14-blast-compound/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/item-blast-compound.png"></img> Blast Compound
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../items/15-pyratite/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/item-pyratite.png"></img> Pyratite
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../items/2-metaglass/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/item-metaglass.png"></img> Metaglass
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../items/3-graphite/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/item-graphite.png"></img> Graphite
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../items/4-sand/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/item-sand.png"></img> Sand
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../items/5-coal/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/item-coal.png"></img> Coal
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../items/6-titanium/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/item-titanium.png"></img> Titanium
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../items/7-thorium/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/item-thorium.png"></img> Thorium
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../items/8-scrap/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/item-scrap.png"></img> Scrap
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../items/9-silicon/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/item-silicon.png"></img> Silicon
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6" >
+    <label class="md-nav__link" for="nav-6">
+      Liquids
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Liquids" data-md-level="1">
+      <label class="md-nav__title" for="nav-6">
+        <span class="md-nav__icon md-icon"></span>
+        Liquids
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../liquids/0-water/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/liquid-water.png"></img> Water
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../liquids/1-slag/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/liquid-slag.png"></img> Slag
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../liquids/2-oil/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/liquid-oil.png"></img> Oil
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../liquids/3-cryofluid/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/liquid-cryofluid.png"></img> Cryofluid
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-7" type="checkbox" id="nav-7" >
+    <label class="md-nav__link" for="nav-7">
+      Logic
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Logic" data-md-level="1">
+      <label class="md-nav__title" for="nav-7">
+        <span class="md-nav__icon md-icon"></span>
+        Logic
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../logic/0-introduction/" class="md-nav__link">
+      Introduction
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../logic/1-glossary/" class="md-nav__link">
+      Glossary
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../logic/2-editing/" class="md-nav__link">
+      Writing and Editing Code
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../logic/3-variables/" class="md-nav__link">
+      Variables and Constants
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-8" type="checkbox" id="nav-8" >
+    <label class="md-nav__link" for="nav-8">
+      Modding
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Modding" data-md-level="1">
+      <label class="md-nav__title" for="nav-8">
+        <span class="md-nav__icon md-icon"></span>
+        Modding
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../modding/1-modding/" class="md-nav__link">
+      Modding Introduction
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../modding/2-plugins/" class="md-nav__link">
+      Plugins
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../modding/3-scripting/" class="md-nav__link">
+      Scripting
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../modding/4-spriting/" class="md-nav__link">
+      Spriting
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../modding/5-markup/" class="md-nav__link">
+      Markup
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../modding/5-types/" class="md-nav__link">
+      Types
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../modding/6-migrationv6/" class="md-nav__link">
+      6.0 Migration Guide
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-9" type="checkbox" id="nav-9" >
+    <label class="md-nav__link" for="nav-9">
+      Units
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Units" data-md-level="1">
+      <label class="md-nav__title" for="nav-9">
+        <span class="md-nav__icon md-icon"></span>
+        Units
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../units/0-dagger/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/unit-dagger-xlarge.png"></img> Dagger
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../units/1-mace/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/unit-mace-xlarge.png"></img> Mace
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../units/10-crawler/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/unit-crawler-xlarge.png"></img> Crawler
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../units/11-atrax/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/unit-atrax-xlarge.png"></img> Atrax
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../units/12-spiroct/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/unit-spiroct-xlarge.png"></img> Spiroct
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../units/13-arkyid/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/unit-arkyid-xlarge.png"></img> Arkyid
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../units/14-toxopid/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/unit-toxopid-xlarge.png"></img> Toxopid
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../units/15-flare/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/unit-flare-xlarge.png"></img> Flare
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../units/16-horizon/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/unit-horizon-xlarge.png"></img> Horizon
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../units/17-zenith/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/unit-zenith-xlarge.png"></img> Zenith
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../units/18-antumbra/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/unit-antumbra-xlarge.png"></img> Antumbra
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../units/19-eclipse/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/unit-eclipse-xlarge.png"></img> Eclipse
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../units/2-fortress/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/unit-fortress-xlarge.png"></img> Fortress
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../units/20-mono/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/unit-mono-xlarge.png"></img> Mono
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../units/21-poly/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/unit-poly-xlarge.png"></img> Poly
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../units/22-mega/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/unit-mega-xlarge.png"></img> Mega
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../units/23-quad/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/unit-quad-xlarge.png"></img> Quad
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../units/24-oct/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/unit-oct-xlarge.png"></img> Oct
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../units/25-risso/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/unit-risso-xlarge.png"></img> Risso
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../units/26-minke/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/unit-minke-xlarge.png"></img> Minke
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../units/27-bryde/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/unit-bryde-xlarge.png"></img> Bryde
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../units/28-sei/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/unit-sei-xlarge.png"></img> Sei
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../units/29-omura/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/unit-omura-xlarge.png"></img> Omura
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../units/3-scepter/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/unit-scepter-xlarge.png"></img> Scepter
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../units/30-alpha/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/unit-alpha-xlarge.png"></img> Alpha
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../units/31-beta/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/unit-beta-xlarge.png"></img> Beta
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../units/32-gamma/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/unit-gamma-xlarge.png"></img> Gamma
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../units/4-reign/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/unit-reign-xlarge.png"></img> Reign
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../units/5-nova/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/unit-nova-xlarge.png"></img> Nova
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../units/6-pulsar/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/unit-pulsar-xlarge.png"></img> Pulsar
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../units/7-quasar/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/unit-quasar-xlarge.png"></img> Quasar
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../units/8-vela/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/unit-vela-xlarge.png"></img> Vela
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../units/9-corvus/" class="md-nav__link">
+      <img id="spr" src="/wiki/images/unit-corvus-xlarge.png"></img> Corvus
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#dedicated-servers" class="md-nav__link">
+    Dedicated Servers
+  </a>
+  
+    <nav class="md-nav" aria-label="Dedicated Servers">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#what-is-an-ip-and-how-do-i-find-out-what-mine-is" class="md-nav__link">
+    What is an IP and how do I find out what mine is?
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#running-a-dedicated-server-at-home" class="md-nav__link">
+    Running A Dedicated Server At Home
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#local-lan-steam-servers" class="md-nav__link">
+    Local LAN &amp; Steam Servers
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dedicated-server-commands" class="md-nav__link">
+    Dedicated Server Commands
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dedicated-server-configuration-options" class="md-nav__link">
+    Dedicated Server Configuration Options
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
               
+                
+                  <a href="https://github.com/MindustryGame/wiki/edit/master/docs/servers.md" title="Edit this page" class="md-content__button md-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
+                  </a>
+                
+                
                 <h1 id="servers">Servers</h1>
 <p>Servers are a large part of Mindustry in that they offer the ability to play the game with other people. There are two main types of servers; dedicated servers and local LAN servers. </p>
 <h2 id="dedicated-servers">Dedicated Servers</h2>
@@ -570,51 +3072,175 @@
 <li>Start hosting a map with <code>host &lt;mapname&gt; [mode]</code> after you configured your server.</li>
 <li>If you are using Windows to run your server, use your favorite search engine to look up how to add rules to your Windows Firewall, as it blocks that port most of the time. Make sure to allow <strong>port 6567 TCP and UDP</strong>.</li>
 </ol>
-<p>If you want your server to be publicly available around the world, then read the following. If not, then you are done! 
-It is recommended and that you use a domain name or DNS service to mask your IP for public servers for ease of use, or even better, use a cloud service e.g. Amazon AWS or a dedicated server/VM from a hosting provider such as Linode or DigitalOcean, which is much safer. <strong>Do your research</strong>, and determine which option best fits your needs.</p>
-<h3 id="about-running-a-dedicated-server-at-home">About Running A Dedicated Server At Home</h3>
-<p>Most importantly, <strong>never share your public IP with the public if your hosting from your home, unless you acknowledge the implications of doing so!</strong> Your public IP is tied to your household, and if it falls into the wrong hands, it can be used to <strong>easily</strong> find your approximate location, even down to the city or block you live in. There is more that can happen; such as DoS attacks, data and information exploitation and collection, and unwanted access to other open ports in your network. <strong>Exercise caution, do your research, and use a VPN if possible.</strong></p>
+<p>Unless you have already enabled port forwarding, your dedicated server can only be connected to by clients within your local network. If you want to make your server globally available, read below.</p>
+<h3 id="what-is-an-ip-and-how-do-i-find-out-what-mine-is">What is an IP and how do I find out what mine is?</h3>
+<p>In simplified terms, an IP address is a number that identifies your computer on the internet. You can connect to someone's Mindustry server if you know their IP address. There are two types; a <strong>public</strong> and a <strong>local</strong> address.</p>
+<ul>
+<li>For a <strong>local IP</strong>, when for example you would like to play with a friend on the same network as yours, each device has its own way of showing it. You can Google how to do it for your device, e.g. "find local ip on Mac".</li>
+<li>For a <strong>public IP</strong>, you can simply Google "what is my ip".</li>
+</ul>
+<h3 id="running-a-dedicated-server-at-home">Running A Dedicated Server At Home</h3>
+<p>Most of the time, this is what you should remember; <strong>never share your public IP with the public if you're hosting from your home, unless you acknowledge the implications of doing so!</strong> Your public IP is tied to your household, and if it falls into the wrong hands, and when put into the wrong hands, can open up your network to vulnerabilities and dangers. <strong>Exercise caution, do your research, and use a VPN or webhost if possible.</strong></p>
+<p>It is also recommended and that you use a domain name or DNS service to mask your IP for public servers for ease of use, or even better, use a cloud service e.g. Amazon AWS or a dedicated server/VM from a hosting provider such as Linode or DigitalOcean, which is much safer. <strong>Do your research</strong>, and determine which option best fits your needs.</p>
 <ol>
 <li>Find the make/model of your router. This is usually on a sticker on the bottom or back of the router.</li>
-<li>Use your favorite search engine to search 'port forward [your router make/model/name here]' and use the guide to foward <strong>port 6567 TCP and UDP</strong>. These instructions are different for every router, so be sure to read your guide thoroughly!</li>
+<li>Use your favorite search engine to search "port forward ASUS RT-ACRH17" and use the guide to foward <strong>port 6567 TCP and UDP</strong>. These instructions are different for every router, so be sure to read your guide thoroughly!</li>
 <li>You can use a service such as <a href="https://www.yougetsignal.com/tools/open-ports/">You Get Signal</a> to check if you have done your portforwarding correctly. </li>
 </ol>
 <h2 id="local-lan-steam-servers">Local LAN &amp; Steam Servers</h2>
 <p>A local LAN or Steam server is a server that is built into the game, and can be started using the "Host Multiplayer Game" button in the in-game menu. It is meant to be simple and straightforward, for sessions between a few players under a LAN network (aka in your household's WiFi network). It is not really meant for several players, as it takes more and more resources from your device to be able to use it that way; for that you will need a dedicated server mentioned above. It can only run when the game is open, and is immediately terminated when it is closed.</p>
-<p>You can connect to one using the "Join Game" button under the "Play" menu. Unlike dedicated servers, your device will automatically find the host device and it will usually appear in the server list without you having to enter the host's IP address in.</p>
+<p>You can connect to one using the "Join Game" button under the "Play" menu. Unlike dedicated servers, your device will automatically find the host device and it will ususally appear in the server list without you having to enter the host's IP address in.</p>
+<h2 id="dedicated-server-commands">Dedicated Server Commands</h2>
+<ul>
+<li><code>help</code>: <em>Displays this command list.</em></li>
+<li><code>version</code>: <em>Displays server version info.</em></li>
+<li><code>exit</code>: <em>Exit the server application.</em></li>
+<li><code>stop</code>: <em>Stop hosting the server.</em></li>
+<li><code>host [mapname] [mode]</code>: <em>Open the server. Will default to survival and a random map if not specified.</em></li>
+<li><code>maps</code>: <em>Display all available maps.</em></li>
+<li><code>reloadmaps</code>: <em>Reload all maps from disk.</em></li>
+<li><code>status</code>: <em>Display server status.</em></li>
+<li><code>mods</code>: <em>Display all loaded mods.</em></li>
+<li><code>mod &lt;name...&gt;</code>: <em>Display information about a loaded plugin.</em></li>
+<li><code>js &lt;script...&gt;</code>: <em>Run arbitrary Javascript.</em></li>
+<li><code>say &lt;message...&gt;</code>: <em>Send a message to all players.</em></li>
+<li><code>pause &lt;on/off&gt;</code>: <em>Pause or unpause the game.</em></li>
+<li><code>rules [remove/add] [name] [value...]</code>: <em>List, remove or add global rules. These will apply regardless of map.</em></li>
+<li><code>fillitems [team]</code>: <em>Fill the core with items.</em></li>
+<li><code>playerlimit [off/somenumber]</code>: <em>Set the server player limit.</em></li>
+<li><code>config [name] [value...]</code>: <em>Configure server settings.</em></li>
+<li><code>subnet-ban [add/remove] [address]</code>: <em>Ban a subnet. This simply rejects all connections with IPs starting with some string.</em></li>
+<li><code>whitelisted</code>: <em>List the entire whitelist.</em></li>
+<li><code>whitelist-add &lt;ID&gt;</code>: <em>Add a player to the whitelist by ID.</em></li>
+<li><code>whitelist-remove &lt;ID&gt;</code>: <em>Remove a player to the whitelist by ID.</em></li>
+<li><code>shuffle [none/all/custom/builtin]</code>: <em>Set map shuffling mode.</em></li>
+<li><code>nextmap &lt;mapname...&gt;</code>: <em>Set the next map to be played after a game-over. Overrides shuffling.</em></li>
+<li><code>kick &lt;username...&gt;</code>: <em>Kick a person by name.</em></li>
+<li><code>ban &lt;type-id/name/ip&gt; &lt;username/IP/ID...&gt;</code>: <em>Ban a person.</em></li>
+<li><code>bans</code>: <em>List all banned IPs and IDs.</em></li>
+<li><code>unban &lt;ip/ID&gt;</code>: <em>Completely unban a person by IP or ID.</em></li>
+<li><code>pardon &lt;ID&gt;</code>: <em>Pardons a votekicked player by ID and allows them to join again.</em></li>
+<li><code>admin &lt;add/remove&gt; &lt;username/ID...&gt;</code>: <em>Make an online user admin</em></li>
+<li><code>admins</code>: <em>List all admins.</em></li>
+<li><code>players</code>: <em>List all players currently in game.</em></li>
+<li><code>runwave</code>: <em>Trigger the next wave.</em></li>
+<li><code>load &lt;slot&gt;</code>: <em>Load a save from a slot.</em></li>
+<li><code>save &lt;slot&gt;</code>: <em>Save game state to a slot.</em></li>
+<li><code>saves</code>: <em>List all saves in the save directory.</em></li>
+<li><code>gameover</code>: <em>Force a game over.</em></li>
+<li><code>info &lt;IP/UUID/name...&gt;</code>: <em>Find player info(s). Can optionally check for all names or IPs a player has had.</em></li>
+<li><code>search &lt;name...&gt;</code>: <em>Search players who have used part of a name.</em></li>
+<li><code>gc</code>: <em>Trigger a garbage collection. Testing only.</em></li>
+<li><code>yes</code>: <em>Run the last suggested incorrect command.</em></li>
+</ul>
+<h2 id="dedicated-server-configuration-options">Dedicated Server Configuration Options</h2>
+<ul>
+<li><code>name</code>: <em>The server name as displayed on clients.</em></li>
+<li><code>desc</code>: <em>The server description, displayed under the name. Max 100 characters.</em></li>
+<li><code>port</code>: <em>The port to host on.</em></li>
+<li><code>autoUpdate</code>: <em>Whether to auto-update and exit when a new bleeding-edge update arrives.</em></li>
+<li><code>showConnectMessages</code>: <em>Whether to display connect/disconnect messages.</em></li>
+<li><code>enableVotekick</code>: <em>Whether votekick is enabled.</em></li>
+<li><code>startCommands</code>: <em>Commands run at startup. This should be a comma-separated list.</em></li>
+<li><code>crashReport</code>: <em>Whether to send crash reports.</em></li>
+<li><code>logging</code>: <em>Whether to log everything to files.</em></li>
+<li><code>strict</code>: <em>Whether strict mode is on - corrects positions and prevents duplicate UUIDs.</em></li>
+<li><code>antiSpam</code>: <em>Whether spammers are automatically kicked and rate-limited.</em></li>
+<li><code>interactRateWindow</code>: <em>Block interaction rate limit window, in seconds.</em></li>
+<li><code>interactRateLimit</code>: <em>Block interaction rate limit.</em></li>
+<li><code>interactRateKick</code>: <em>How many times a player must interact inside the window to get kicked.</em></li>
+<li><code>messageRateLimit</code>: <em>Message rate limit in seconds. 0 to disable.</em></li>
+<li><code>messageSpamKick</code>: <em>How many times a player must send a message before the cooldown to get kicked. 0 to disable.</em></li>
+<li><code>socketInput</code>: <em>Allows a local application to control this server through a local TCP socket.</em></li>
+<li><code>socketInputPort</code>: <em>The port for socket input.</em></li>
+<li><code>socketInputAddress</code>: <em>The bind address for socket input.</em></li>
+<li><code>allowCustomClients</code>: <em>Whether custom clients are allowed to connect.</em></li>
+<li><code>whitelist</code>: <em>Whether the whitelist is used.</em></li>
+<li><code>motd</code>: <em>The message displayed to people on connection.</em></li>
+<li><code>autosave</code>: <em>Whether the periodically save the map when playing.</em></li>
+<li><code>autosaveAmount</code>: <em>The maximum amount of autosaves. Older ones get replaced.</em></li>
+<li><code>autosaveSpacing</code>: <em>Spacing between autosaves in seconds.</em></li>
+<li><code>debug</code>: <em>Enable debug logging</em></li>
+</ul>
+                
               
-            </div>
+              
+                
+
+
+              
+            </article>
           </div>
-   
-
         </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
+        
+          <a href="../faq/" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+            </div>
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Frequently Asked Questions
+              </div>
+            </div>
+          </a>
+        
+        
+          <a href="../blocks/100-blast-mixer/" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                <img id="spr" src="/wiki/images/block-blast-mixer-large.png"></img> Blast Mixer
+              </div>
+            </div>
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
       </div>
-
-    </section>
-
+      
+    </div>
   </div>
-
-  <div class="rst-versions" role="note" aria-label="versions">
-    <span class="rst-current-version" data-toggle="rst-current-version">
+</footer>
       
-          <a href="https://github.com/MindustryGame/wiki/" class="fa fa-github" style="float: left; color: #fcfcfc"> GitHub</a>
+    </div>
+    
+      <script src="../assets/javascripts/vendor.fd16492e.min.js"></script>
+      <script src="../assets/javascripts/bundle.7836ba4d.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}</script>
       
+      <script>
+        app = initialize({
+          base: "..",
+          features: [],
+          search: Object.assign({
+            worker: "../assets/javascripts/worker/search.4ac00218.min.js"
+          }, typeof search !== "undefined" && search)
+        })
+      </script>
       
-        <span><a href="../modding/" style="color: #fcfcfc;">&laquo; Previous</a></span>
-      
-      
-        <span style="margin-left: 15px"><a href="../blocks/crafting/alloy-smelter/" style="color: #fcfcfc">Next &raquo;</a></span>
-      
-    </span>
-</div>
-    <script>var base_url = '..';</script>
-    <script src="../js/theme.js" defer></script>
-      <script src="../search/main.js" defer></script>
-    <script defer>
-        window.onload = function () {
-            SphinxRtdTheme.Navigation.enable(true);
-        };
-    </script>
-
-</body>
+    
+  </body>
 </html>
