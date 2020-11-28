@@ -1,8 +1,11 @@
 site_name: Mindustry Wiki
 site_url: https://mindustrygame.github.io/wiki/
 repo_url: https://github.com/MindustryGame/wiki
+docs_dir: 'docs_out'
 theme: 
-    name: readthedocs
-    custom_dir: custom_theme/
+  name: material
+  favicon: images/favicon.png
+  logo: images/favicon.png
+  custom_dir: overrides
 extra_css:
   - 'stylesheets/style.css'
