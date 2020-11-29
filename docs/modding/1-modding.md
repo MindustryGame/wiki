@@ -263,11 +263,11 @@ Notes:
 
 -   mod/content names are lowercased and hyphen separated.
 
-List of content type:
+List of content types:
 
 $contentTypes
 
-List of filenames relative to languages:
+List of bundle suffixes relative to languages:
 
 $bundles
 
