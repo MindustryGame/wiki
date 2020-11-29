@@ -1,6 +1,9 @@
 # Types
 
-$blockTypes
+$allTypes
+
+
+# Other
 
 ## BuildVisibility
 
@@ -26,35 +29,6 @@ Groups for blocks to build on top of each other:
 -   `power`
 -   `liquids`
 -   `drills`
-
-
-
-# Type
-
-
-
-## Item
-
-Extends [Content](#content) &#x2013; It's the object that can ride conveyors, sorters and be stored in containers, and is commonly used in crafters.
-
-|field|type|default|notes|
-|---|---|---|---|
-|color|[Color](#color)|black|hex string of color|
-|type|[ItemType](#itemtype)|resource|used for tabs and core acceptance|
-|explosiveness|float|0|how explosive this item is.|
-|flammability|float|0|flammability above 0.3 makes this eleigible for item burners.|
-|radioactivity|float|&#xa0;|how radioactive this item is. 0=none, 1=chernobyl ground zero|
-|hardness|int|0|drill hardness of the item|
-|cost|float|1|used for calculating place times; 1 cost = 1 tick added to build time|
-|alwaysUnlocked|boolean|false|If true, item is always unlocked.|
-
-
-
-### ItemType
-
--   `resource` can't go in the core;
--   `material` can go in the core.
-
 
 
 ## ItemStack
@@ -118,78 +92,6 @@ As an `object`:
 |---|---|---|
 |liquid|string|The name of a [Liquid](#liquid).|
 |amount|float|The amount of said liquid.|
-
-
-
-## Weapon
-
-Weapons are used by units and mechs alike. A weapon is a type used to shoot bullets [bullets](#bullettype) just like turrets *(except that they don't have an `ammo` mapping)*. Weapons can only shoot one type of bullet, which you define in the `bullet` field.
-
-|field|type|default|notes|
-|---|---|---|---|
-|name|String|&#xa0;|used to fetch the sprite of the weapon|
-|nimPlayerDist|float|20|minimum cursor distance from player, fixes 'cross-eyed' shooting.|
-|sequenceNum|int|0|&#xa0;|
-|bullet|[BulletType](#bullettype)|&#xa0;|bullet shot|
-|ejectEffect|[Effect](#effect)|none|shell ejection effect|
-|reload|float|&#xa0;|weapon reload in frames|
-|shots|int|1|amount of shots per fire|
-|spacing|float|12|spacing in degrees between multiple shots, if applicable|
-|inaccuracy|float|0|inaccuracy of degrees of each shot|
-|shake|float|0|intensity and duration of each shot's screen shake|
-|recoil|float|1.5|visual weapon knockback.|
-|length|float|3|shoot barrel y offset|
-|width|float|4|shoot barrel x offset.|
-|velocityRnd|float|0|fraction of velocity that is random|
-|alternate|bool|false|shoot one arm after another, rather than all at once|
-|lengthRand|float|0|randomization of shot length|
-|shotDelay|float|0|delay in ticks between shots|
-|ignoreRotation|boolean|false|whether shooter rotation is ignored when shooting.|
-|targetDistance|float|1|if `turnCursor` is `false` for a mech, how far away will the weapon target.|
-|shootSound|[Sound](#sound)|pew|&#xa0;|
-
-Sprite:
-
--   `<name>` or `<name>-equip`
-
-
-
-## UnitType
-
-Extends [Content](#content)
-
-|field|type|default|
-|---|---|---|
-|type|[BaseUnit](#baseunit)|&#xa0;|
-|health|float|60|
-|hitsize|float|7|
-|hitsizeTile|float|4|
-|speed|float|0.4|
-|range|float|0|
-|attackLength|float|150|
-|rotatespeed|float|0.2|
-|baseRotateSpeed|float|0.1|
-|shootCone|float|15|
-|mass|float|1|
-|flying|boolean|&#xa0;|
-|targetAir|boolean|true|
-|rotateWeapon|boolean|false|
-|drag|float|0.1|
-|maxVelocity|float|5|
-|retreatPercent|float|0.6|
-|itemCapacity|int|30|
-|buildPower|float|0.3|
-|minePower|float|0.7|
-|weapon|[Weapon](#weapon)|&#xa0;|
-|weaponOffsetY|float|&#xa0;|
-|engineOffset|float|&#xa0;|
-|engineSize|float|&#xa0;|
-
-Sprites:
-
--   `<name>`
--   `<name>-leg`
--   `<name>-base`
 
 
 ## Category
@@ -484,150 +386,6 @@ Built-in `bulletSprites`:
 -   [shell-back](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/effects/shell-back.png)
 
 
-
-#### ArtilleryBulletType
-
-Extends [BasicBulletType](#basicbullettype)
-
-Makes special calculations to give the effect that the bullet is going up and back down.
-
-|field|type|default|
-|---|---|---|
-|trailEffect|[Effect](#effect)|artilleryTrail|
-
-Defaults:
-
-|field|default|
-|---|---|
-|collidesTiles|false|
-|collides|false|
-|collidesAir|false|
-|hitShake|1|
-|hitSound|explosion|
-|bulletSprite|shell|
-
-
-
-#### FlakBulletType
-
-Extends [BasicBulletType](#basicbullettype)
-
-|field|type|default|notes|
-|---|---|---|---|
-|explodeRange|float|30|The range at which the bullets explode from enemies.|
-
-Defaults:
-
-|field|type|
-|---|---|
-|splashDamage|15|
-|splashDamageRadius|34|
-|hitEffect|flakExplosionBig|
-|bulletWidth|8|
-|bulletHeight|10|
-
-
-
-#### MissileBulletType
-
-Extends [BasicBulletType](#basicbullettype)
-
-Weave is simple a sin wave with the following equation.
-
-    rotation = sin(time/scale) * magnitude
-
-|field|type|default|notes|
-|---|---|---|---|
-|trailColor|[Color](#color)|missileYellowBack|Color of the trail effect.|
-|weaveScale|float|0|A larger `weaveScale` means a longer wave.|
-|weaveMag|float|-1|A higher `weaveMag` means a higher (wider) wave.|
-
-Defaults:
-
-|field|default|
-|---|---|
-|bulletSprite|missile|
-
-
-
-#### BombBulletType
-
-Extends [BasicBulletType](#basicbullettype)
-
-Defaults:
-
-|field|default|
-|---|---|
-|collidesTiles|false|
-|collides|false|
-|bulletShrink|0.7|
-|lifetime|30|
-|drag|0.05|
-|keepVelocity|false|
-|collidesAir|false|
-|hitSound|explosion|
-
-
-
-### HealBulletType
-
-Extends [BulletType](#bullettype) &#x2013; Bullets that can heal blocks of the same team as the shooter.
-
-|field|type|default|
-|---|---|---|
-|healPercent|float|3|
-
-Defaults:
-
-|field|default|
-|---|---|
-|shootEffect|shootHeal|
-|smokeEffect|hitLaser|
-|hitEffect|hitLaser|
-|despawnEffect|hitLaser|
-|collidesTeam|true|
-
-
-
-### LiquidBulletType
-
-Extends [BulletType](#bullettype)
-
-|field|type|default|notes|
-|---|---|---|---|
-|liquid|String|null|**[required]** name of [Liquid](#liquid)|
-
-Defaults:
-
-|field|default|
-|---|---|
-|lifetime|74|
-|statusDuration|90|
-|despawnEffect|none|
-|hitEffect|hitLiquid|
-|smokeEffect|none|
-|shootEffect|none|
-|drag|0.009|
-|knockback|0.55|
-
-
-
-### MassDriverBolt
-
-Extends [BulletType](#bullettype)
-
-Defaults:
-
-|field|default|
-|---|---|
-|collidesTiles|false|
-|lifetime|200|
-|despawnEffect|smeltsmoke|
-|hitEffect|hitBulletBig|
-|drag|0.005|
-
-
-
 ### Built-in Bullets
 
 $bullets
@@ -644,33 +402,4 @@ A higher ordinal means a higher priority. Higher priority blocks will always get
 
 1.  `base`
 2.  `turret`
-
-
-
-# Objective
-
-Objective is a trait, which a few types implement, which is used by [Zone](#zone) to give campaign maps objectives.
-
-Types which implement Objective are as follows:
-
--   `ZoneWave` &#x2013; complete if best wave within `zone` is heigher then target `wave`
-    
-    |field|type|notes|
-    |---|---|---|
-    |zone|String|target [Zone](#zone) name|
-    |wave|int|target wave to reach|
-
--   `Launched` &#x2013; complete if core launched from `zone`
-    
-    |field|type|notes|
-    |---|---|---|
-    |zone|String|target [Zone](#zone) name|
-
--   `Unlock` &#x2013; complete if `block` is unlocked
-    
-    |field|type|notes|
-    |---|---|---|
-    |block|String|target [Block](#block) name|
-
-
 
