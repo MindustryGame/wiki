@@ -1,6 +1,6 @@
 # Markup
 
-The text renderer uses a simple makeup language for coloring text.
+The text renderer uses a simple markup language for coloring text.
 
 -   `[name]` sets the color by name, there's a few [built-in colors](#built-in-colors);
 -   `[#rrggbb]` / `[#rrggbbaa]` sets the color by hex value, with each value being anything from `00` to `ff`:
