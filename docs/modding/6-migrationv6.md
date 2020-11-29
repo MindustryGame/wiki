@@ -8,7 +8,7 @@ This is due to numerous internal changes and additions, which will be documented
 ### Minimum Game Version
 
 All mods must now specify `minGameVersion` with a value of "105" or above to be loaded. This is to ensure that outdated mods do not get loaded.
-Simply add `minGameVersion: "113"` to your `mod.hjson` file.
+Simply add `minGameVersion: "$latestRelease"` to your `mod.hjson` file.
 
 ## Name Changes
 
