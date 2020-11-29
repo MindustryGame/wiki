@@ -87,11 +87,11 @@ If you don't know any of those words. &#x2013; A serialization language, is simp
 At the root of your project directory, you must have a `mod.json` which defines the basic metadata for your project. This file can also be (optionally) named `mod.hjson` to potentially help your text editor pick better syntax highlighting.
 
     name: "mod-name"
-    displayName: "This Is A Mod"
+    displayName: "This isn't a mod."
     author: Yourself
     description: "Bbfashbjhcbabfhsbafbhajbf"
     version: "1.0"
-    minGameVersion: "114"
+    minGameVersion: "118"
     dependencies: [ ]
     hidden: false
 
@@ -99,7 +99,7 @@ At the root of your project directory, you must have a `mod.json` which defines 
 -   `displayName` this will be used as a display name for the UI, which you can use to add formatting to said name;
 -   `description` of the mod will be rendered in the ingame mod manager, so keep it short and to the point;
 -   `dependencies` is optional, if you want to know more about that, go to the [dependencies](#dependencies) section;
--   `minGameVersion` is the minimum build version of the game. Since build 105 this is **required**.
+-   `minGameVersion` is the minimum build version of the game. Since build 105, this is **required**.
 -   `hidden` is whether or not this mod is essential for multiplayer, false by default. Texture packs, JS plugins, etc. should use this as to not cause conflicts with servers and clients respectively. As a rule of thumb, if your mod creates content it shouldn't be hidden.
 
 
