@@ -3206,11 +3206,11 @@ key4: { key1: string
 <h2 id="modhjson"><code>mod.hjson</code></h2>
 <p>At the root of your project directory, you must have a <code>mod.json</code> which defines the basic metadata for your project. This file can also be (optionally) named <code>mod.hjson</code> to potentially help your text editor pick better syntax highlighting.</p>
 <pre><code>name: "mod-name"
-displayName: "This Is A Mod"
+displayName: "This isn't a mod."
 author: Yourself
 description: "Bbfashbjhcbabfhsbafbhajbf"
 version: "1.0"
-minGameVersion: "114"
+minGameVersion: "118"
 dependencies: [ ]
 hidden: false
 </code></pre>
@@ -3219,7 +3219,7 @@ hidden: false
 <li><code>displayName</code> this will be used as a display name for the UI, which you can use to add formatting to said name;</li>
 <li><code>description</code> of the mod will be rendered in the ingame mod manager, so keep it short and to the point;</li>
 <li><code>dependencies</code> is optional, if you want to know more about that, go to the <a href="#dependencies">dependencies</a> section;</li>
-<li><code>minGameVersion</code> is the minimum build version of the game. Since build 105 this is <strong>required</strong>.</li>
+<li><code>minGameVersion</code> is the minimum build version of the game. Since build 105, this is <strong>required</strong>.</li>
 <li><code>hidden</code> is whether or not this mod is essential for multiplayer, false by default. Texture packs, JS plugins, etc. should use this as to not cause conflicts with servers and clients respectively. As a rule of thumb, if your mod creates content it shouldn't be hidden.</li>
 </ul>
 <h2 id="content">Content</h2>
