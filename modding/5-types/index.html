@@ -2936,6 +2936,7 @@
                 
                 <h1 id="types">Types</h1>
 <h1 id="block">Block</h1>
+<h2 id="block_1">Block</h2>
 <p><em>extends <a href="#unlockablecontent">UnlockableContent</a></em></p>
 <table>
 <thead>
@@ -3483,6 +3484,7 @@
 </tr>
 </tbody>
 </table>
+<h2 id="accelerator">Accelerator</h2>
 <p><em>extends <a href="#block">Block</a></em></p>
 <table>
 <thead>
@@ -3514,6 +3516,7 @@
 </tr>
 </tbody>
 </table>
+<h2 id="armoredconduit">ArmoredConduit</h2>
 <p><em>extends <a href="#conduit">Conduit</a></em></p>
 <table>
 <thead>
@@ -3533,7 +3536,9 @@
 </tr>
 </tbody>
 </table>
+<h2 id="armoredconveyor">ArmoredConveyor</h2>
 <p><em>extends <a href="#conveyor">Conveyor</a></em></p>
+<h2 id="attributesmelter">AttributeSmelter</h2>
 <p><em>extends <a href="#genericsmelter">GenericSmelter</a></em></p>
 <p>A smelter that gains efficiency from attribute tiles.</p>
 <table>
@@ -3572,6 +3577,7 @@
 </tr>
 </tbody>
 </table>
+<h2 id="baseturret">BaseTurret</h2>
 <p><em>extends <a href="#block">Block</a></em></p>
 <table>
 <thead>
@@ -3615,6 +3621,7 @@
 </tr>
 </tbody>
 </table>
+<h2 id="battery">Battery</h2>
 <p><em>extends <a href="#powerdistributor">PowerDistributor</a></em></p>
 <table>
 <thead>
@@ -3646,6 +3653,7 @@
 </tr>
 </tbody>
 </table>
+<h2 id="blockforge">BlockForge</h2>
 <p><em>extends <a href="#payloadacceptor">PayloadAcceptor</a></em></p>
 <table>
 <thead>
@@ -3665,6 +3673,7 @@
 </tr>
 </tbody>
 </table>
+<h2 id="blockloader">BlockLoader</h2>
 <p><em>extends <a href="#payloadacceptor">PayloadAcceptor</a></em></p>
 <table>
 <thead>
@@ -3702,8 +3711,11 @@
 </tr>
 </tbody>
 </table>
+<h2 id="blockunloader">BlockUnloader</h2>
 <p><em>extends <a href="#blockloader">BlockLoader</a></em></p>
+<h2 id="boulder">Boulder</h2>
 <p><em>extends <a href="#block">Block</a></em></p>
+<h2 id="buffereditembridge">BufferedItemBridge</h2>
 <p><em>extends <a href="#extendingitembridge">ExtendingItemBridge</a></em></p>
 <table>
 <thead>
@@ -3735,6 +3747,7 @@
 </tr>
 </tbody>
 </table>
+<h2 id="burnergenerator">BurnerGenerator</h2>
 <p><em>extends <a href="#itemliquidgenerator">ItemLiquidGenerator</a></em></p>
 <table>
 <thead>
@@ -3766,6 +3779,7 @@
 </tr>
 </tbody>
 </table>
+<h2 id="cliff">Cliff</h2>
 <p><em>extends <a href="#block">Block</a></em></p>
 <table>
 <thead>
@@ -3791,6 +3805,7 @@
 </tr>
 </tbody>
 </table>
+<h2 id="commandcenter">CommandCenter</h2>
 <p><em>extends <a href="#block">Block</a></em></p>
 <table>
 <thead>
@@ -3828,6 +3843,7 @@
 </tr>
 </tbody>
 </table>
+<h2 id="conduit">Conduit</h2>
 <p><em>extends <a href="#liquidblock">LiquidBlock</a></em></p>
 <table>
 <thead>
@@ -3871,7 +3887,9 @@
 </tr>
 </tbody>
 </table>
+<h2 id="controlcenter">ControlCenter</h2>
 <p><em>extends <a href="#block">Block</a></em></p>
+<h2 id="conveyor">Conveyor</h2>
 <p><em>extends <a href="#block">Block</a></em></p>
 <table>
 <thead>
@@ -3903,6 +3921,7 @@
 </tr>
 </tbody>
 </table>
+<h2 id="coreblock">CoreBlock</h2>
 <p><em>extends <a href="#storageblock">StorageBlock</a></em></p>
 <table>
 <thead>
@@ -3958,6 +3977,7 @@
 </tr>
 </tbody>
 </table>
+<h2 id="cultivator">Cultivator</h2>
 <p><em>extends <a href="#genericcrafter">GenericCrafter</a></em></p>
 <table>
 <thead>
@@ -4019,7 +4039,9 @@
 </tr>
 </tbody>
 </table>
+<h2 id="decaygenerator">DecayGenerator</h2>
 <p><em>extends <a href="#itemliquidgenerator">ItemLiquidGenerator</a></em></p>
+<h2 id="door">Door</h2>
 <p><em>extends <a href="#wall">Wall</a></em></p>
 <table>
 <thead>
@@ -4063,6 +4085,111 @@
 </tr>
 </tbody>
 </table>
+<h2 id="drill">Drill</h2>
+<p><em>extends <a href="#block">Block</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>hardnessDrillMultiplier</td>
+<td>float</td>
+<td>50.0</td>
+<td></td>
+</tr>
+<tr>
+<td>tier</td>
+<td>int</td>
+<td>0</td>
+<td>Maximum tier of blocks this drill can mine.</td>
+</tr>
+<tr>
+<td>drillTime</td>
+<td>float</td>
+<td>300.0</td>
+<td>Base time to drill one ore, in frames.</td>
+</tr>
+<tr>
+<td>liquidBoostIntensity</td>
+<td>float</td>
+<td>1.6</td>
+<td>How many times faster the drill will progress when boosted by liquid.</td>
+</tr>
+<tr>
+<td>warmupSpeed</td>
+<td>float</td>
+<td>0.02</td>
+<td>Speed at which the drill speeds up.</td>
+</tr>
+<tr>
+<td>drawMineItem</td>
+<td>boolean</td>
+<td>false</td>
+<td>Whether to draw the item this drill is mining.</td>
+</tr>
+<tr>
+<td>drillEffect</td>
+<td>Effect</td>
+<td>Fx.mine</td>
+<td>Effect played when an item is produced. This is colored.</td>
+</tr>
+<tr>
+<td>rotateSpeed</td>
+<td>float</td>
+<td>2.0</td>
+<td>Speed the drill bit rotates at.</td>
+</tr>
+<tr>
+<td>updateEffect</td>
+<td>Effect</td>
+<td>Fx.pulverizeSmall</td>
+<td>Effect randomly played while drilling.</td>
+</tr>
+<tr>
+<td>updateEffectChance</td>
+<td>float</td>
+<td>0.02</td>
+<td>Chance the update effect will appear.</td>
+</tr>
+<tr>
+<td>drawRim</td>
+<td>boolean</td>
+<td>false</td>
+<td></td>
+</tr>
+<tr>
+<td>heatColor</td>
+<td>Color</td>
+<td>ff5512ff</td>
+<td></td>
+</tr>
+<tr>
+<td>rimRegion</td>
+<td>TextureRegion</td>
+<td>null</td>
+<td></td>
+</tr>
+<tr>
+<td>rotatorRegion</td>
+<td>TextureRegion</td>
+<td>null</td>
+<td></td>
+</tr>
+<tr>
+<td>topRegion</td>
+<td>TextureRegion</td>
+<td>null</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="floor">Floor</h2>
 <p><em>extends <a href="#block">Block</a></em></p>
 <table>
 <thead>
@@ -4244,111 +4371,11 @@
 </tr>
 </tbody>
 </table>
+<h2 id="doubleoverlayfloor">DoubleOverlayFloor</h2>
 <p><em>extends <a href="#overlayfloor">OverlayFloor</a></em></p>
-<p><em>extends <a href="#block">Block</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>hardnessDrillMultiplier</td>
-<td>float</td>
-<td>50.0</td>
-<td></td>
-</tr>
-<tr>
-<td>tier</td>
-<td>int</td>
-<td>0</td>
-<td>Maximum tier of blocks this drill can mine.</td>
-</tr>
-<tr>
-<td>drillTime</td>
-<td>float</td>
-<td>300.0</td>
-<td>Base time to drill one ore, in frames.</td>
-</tr>
-<tr>
-<td>liquidBoostIntensity</td>
-<td>float</td>
-<td>1.6</td>
-<td>How many times faster the drill will progress when boosted by liquid.</td>
-</tr>
-<tr>
-<td>warmupSpeed</td>
-<td>float</td>
-<td>0.02</td>
-<td>Speed at which the drill speeds up.</td>
-</tr>
-<tr>
-<td>drawMineItem</td>
-<td>boolean</td>
-<td>false</td>
-<td>Whether to draw the item this drill is mining.</td>
-</tr>
-<tr>
-<td>drillEffect</td>
-<td>Effect</td>
-<td>Fx.mine</td>
-<td>Effect played when an item is produced. This is colored.</td>
-</tr>
-<tr>
-<td>rotateSpeed</td>
-<td>float</td>
-<td>2.0</td>
-<td>Speed the drill bit rotates at.</td>
-</tr>
-<tr>
-<td>updateEffect</td>
-<td>Effect</td>
-<td>Fx.pulverizeSmall</td>
-<td>Effect randomly played while drilling.</td>
-</tr>
-<tr>
-<td>updateEffectChance</td>
-<td>float</td>
-<td>0.02</td>
-<td>Chance the update effect will appear.</td>
-</tr>
-<tr>
-<td>drawRim</td>
-<td>boolean</td>
-<td>false</td>
-<td></td>
-</tr>
-<tr>
-<td>heatColor</td>
-<td>Color</td>
-<td>ff5512ff</td>
-<td></td>
-</tr>
-<tr>
-<td>rimRegion</td>
-<td>TextureRegion</td>
-<td>null</td>
-<td></td>
-</tr>
-<tr>
-<td>rotatorRegion</td>
-<td>TextureRegion</td>
-<td>null</td>
-<td></td>
-</tr>
-<tr>
-<td>topRegion</td>
-<td>TextureRegion</td>
-<td>null</td>
-<td></td>
-</tr>
-</tbody>
-</table>
+<h2 id="extendingitembridge">ExtendingItemBridge</h2>
 <p><em>extends <a href="#itembridge">ItemBridge</a></em></p>
+<h2 id="forceprojector">ForceProjector</h2>
 <p><em>extends <a href="#block">Block</a></em></p>
 <table>
 <thead>
@@ -4428,6 +4455,7 @@
 </tr>
 </tbody>
 </table>
+<h2 id="fracker">Fracker</h2>
 <p><em>extends <a href="#solidpump">SolidPump</a></em></p>
 <table>
 <thead>
@@ -4465,6 +4493,7 @@
 </tr>
 </tbody>
 </table>
+<h2 id="genericcrafter">GenericCrafter</h2>
 <p><em>extends <a href="#block">Block</a></em></p>
 <table>
 <thead>
@@ -4520,6 +4549,7 @@
 </tr>
 </tbody>
 </table>
+<h2 id="genericsmelter">GenericSmelter</h2>
 <p><em>extends <a href="#genericcrafter">GenericCrafter</a></em></p>
 <p>A GenericCrafter with a new glowing region drawn on top.</p>
 <table>
@@ -4546,6 +4576,7 @@
 </tr>
 </tbody>
 </table>
+<h2 id="impactreactor">ImpactReactor</h2>
 <p><em>extends <a href="#powergenerator">PowerGenerator</a></em></p>
 <table>
 <thead>
@@ -4613,6 +4644,7 @@
 </tr>
 </tbody>
 </table>
+<h2 id="incinerator">Incinerator</h2>
 <p><em>extends <a href="#block">Block</a></em></p>
 <table>
 <thead>
@@ -4638,6 +4670,7 @@
 </tr>
 </tbody>
 </table>
+<h2 id="itembridge">ItemBridge</h2>
 <p><em>extends <a href="#block">Block</a></em></p>
 <table>
 <thead>
@@ -4693,6 +4726,7 @@
 </tr>
 </tbody>
 </table>
+<h2 id="itemliquidgenerator">ItemLiquidGenerator</h2>
 <p><em>extends <a href="#powergenerator">PowerGenerator</a></em></p>
 <p>Power generation block which can use items, liquids or both as input sources for power production.
 Liquids will take priority over items.</p>
@@ -4774,7 +4808,9 @@ Liquids will take priority over items.</p>
 </tr>
 </tbody>
 </table>
+<h2 id="itemsource">ItemSource</h2>
 <p><em>extends <a href="#block">Block</a></em></p>
+<h2 id="itemturret">ItemTurret</h2>
 <p><em>extends <a href="#turret">Turret</a></em></p>
 <table>
 <thead>
@@ -4794,7 +4830,9 @@ Liquids will take priority over items.</p>
 </tr>
 </tbody>
 </table>
+<h2 id="itemvoid">ItemVoid</h2>
 <p><em>extends <a href="#block">Block</a></em></p>
+<h2 id="junction">Junction</h2>
 <p><em>extends <a href="#block">Block</a></em></p>
 <table>
 <thead>
@@ -4820,6 +4858,7 @@ Liquids will take priority over items.</p>
 </tr>
 </tbody>
 </table>
+<h2 id="laserturret">LaserTurret</h2>
 <p><em>extends <a href="#powerturret">PowerTurret</a></em></p>
 <table>
 <thead>
@@ -4845,6 +4884,7 @@ Liquids will take priority over items.</p>
 </tr>
 </tbody>
 </table>
+<h2 id="launchpad">LaunchPad</h2>
 <p><em>extends <a href="#block">Block</a></em></p>
 <table>
 <thead>
@@ -4888,9 +4928,12 @@ Liquids will take priority over items.</p>
 </tr>
 </tbody>
 </table>
+<h2 id="legacyblock">LegacyBlock</h2>
 <p><em>extends <a href="#block">Block</a></em></p>
 <p>Any subclass of this will be removed upon world load.</p>
+<h2 id="legacymechpad">LegacyMechPad</h2>
 <p><em>extends <a href="#legacyblock">LegacyBlock</a></em></p>
+<h2 id="legacyunitfactory">LegacyUnitFactory</h2>
 <p><em>extends <a href="#legacyblock">LegacyBlock</a></em></p>
 <table>
 <thead>
@@ -4910,6 +4953,7 @@ Liquids will take priority over items.</p>
 </tr>
 </tbody>
 </table>
+<h2 id="lightblock">LightBlock</h2>
 <p><em>extends <a href="#block">Block</a></em></p>
 <table>
 <thead>
@@ -4941,6 +4985,7 @@ Liquids will take priority over items.</p>
 </tr>
 </tbody>
 </table>
+<h2 id="liquidblock">LiquidBlock</h2>
 <p><em>extends <a href="#block">Block</a></em></p>
 <table>
 <thead>
@@ -4972,12 +5017,19 @@ Liquids will take priority over items.</p>
 </tr>
 </tbody>
 </table>
+<h2 id="liquidbridge">LiquidBridge</h2>
 <p><em>extends <a href="#itembridge">ItemBridge</a></em></p>
+<h2 id="liquidconverter">LiquidConverter</h2>
 <p><em>extends <a href="#genericcrafter">GenericCrafter</a></em></p>
+<h2 id="liquidextendingbridge">LiquidExtendingBridge</h2>
 <p><em>extends <a href="#extendingitembridge">ExtendingItemBridge</a></em></p>
+<h2 id="liquidjunction">LiquidJunction</h2>
 <p><em>extends <a href="#liquidblock">LiquidBlock</a></em></p>
+<h2 id="liquidrouter">LiquidRouter</h2>
 <p><em>extends <a href="#liquidblock">LiquidBlock</a></em></p>
+<h2 id="liquidsource">LiquidSource</h2>
 <p><em>extends <a href="#block">Block</a></em></p>
+<h2 id="liquidturret">LiquidTurret</h2>
 <p><em>extends <a href="#turret">Turret</a></em></p>
 <table>
 <thead>
@@ -5015,7 +5067,9 @@ Liquids will take priority over items.</p>
 </tr>
 </tbody>
 </table>
+<h2 id="liquidvoid">LiquidVoid</h2>
 <p><em>extends <a href="#block">Block</a></em></p>
+<h2 id="logicblock">LogicBlock</h2>
 <p><em>extends <a href="#block">Block</a></em></p>
 <table>
 <thead>
@@ -5047,6 +5101,7 @@ Liquids will take priority over items.</p>
 </tr>
 </tbody>
 </table>
+<h2 id="logicdisplay">LogicDisplay</h2>
 <p><em>extends <a href="#block">Block</a></em></p>
 <table>
 <thead>
@@ -5072,6 +5127,7 @@ Liquids will take priority over items.</p>
 </tr>
 </tbody>
 </table>
+<h2 id="massdriver">MassDriver</h2>
 <p><em>extends <a href="#block">Block</a></em></p>
 <table>
 <thead>
@@ -5169,6 +5225,7 @@ Liquids will take priority over items.</p>
 </tr>
 </tbody>
 </table>
+<h2 id="memoryblock">MemoryBlock</h2>
 <p><em>extends <a href="#block">Block</a></em></p>
 <table>
 <thead>
@@ -5188,6 +5245,7 @@ Liquids will take priority over items.</p>
 </tr>
 </tbody>
 </table>
+<h2 id="mendprojector">MendProjector</h2>
 <p><em>extends <a href="#block">Block</a></em></p>
 <table>
 <thead>
@@ -5261,6 +5319,7 @@ Liquids will take priority over items.</p>
 </tr>
 </tbody>
 </table>
+<h2 id="messageblock">MessageBlock</h2>
 <p><em>extends <a href="#block">Block</a></em></p>
 <table>
 <thead>
@@ -5286,10 +5345,13 @@ Liquids will take priority over items.</p>
 </tr>
 </tbody>
 </table>
+<h2 id="overlayfloor">OverlayFloor</h2>
 <p><em>extends <a href="#floor">Floor</a></em></p>
 <p>A type of floor that is overlaid on top of over floors.</p>
+<h2 id="oreblock">OreBlock</h2>
 <p><em>extends <a href="#overlayfloor">OverlayFloor</a></em></p>
 <p>An overlay ore for a specific item type.</p>
+<h2 id="overdriveprojector">OverdriveProjector</h2>
 <p><em>extends <a href="#block">Block</a></em></p>
 <table>
 <thead>
@@ -5369,6 +5431,7 @@ Liquids will take priority over items.</p>
 </tr>
 </tbody>
 </table>
+<h2 id="overflowgate">OverflowGate</h2>
 <p><em>extends <a href="#block">Block</a></em></p>
 <table>
 <thead>
@@ -5394,6 +5457,7 @@ Liquids will take priority over items.</p>
 </tr>
 </tbody>
 </table>
+<h2 id="payloadacceptor">PayloadAcceptor</h2>
 <p><em>extends <a href="#block">Block</a></em></p>
 <table>
 <thead>
@@ -5431,6 +5495,7 @@ Liquids will take priority over items.</p>
 </tr>
 </tbody>
 </table>
+<h2 id="payloadconveyor">PayloadConveyor</h2>
 <p><em>extends <a href="#block">Block</a></em></p>
 <table>
 <thead>
@@ -5480,6 +5545,7 @@ Liquids will take priority over items.</p>
 </tr>
 </tbody>
 </table>
+<h2 id="payloadrouter">PayloadRouter</h2>
 <p><em>extends <a href="#payloadconveyor">PayloadConveyor</a></em></p>
 <table>
 <thead>
@@ -5499,6 +5565,7 @@ Liquids will take priority over items.</p>
 </tr>
 </tbody>
 </table>
+<h2 id="pointdefenseturret">PointDefenseTurret</h2>
 <p><em>extends <a href="#reloadturret">ReloadTurret</a></em></p>
 <table>
 <thead>
@@ -5578,8 +5645,31 @@ Liquids will take priority over items.</p>
 </tr>
 </tbody>
 </table>
+<h2 id="powerblock">PowerBlock</h2>
 <p><em>extends <a href="#block">Block</a></em></p>
+<h2 id="powerdiode">PowerDiode</h2>
+<p><em>extends <a href="#block">Block</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>arrow</td>
+<td>TextureRegion</td>
+<td>null</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="powerdistributor">PowerDistributor</h2>
 <p><em>extends <a href="#powerblock">PowerBlock</a></em></p>
+<h2 id="powergenerator">PowerGenerator</h2>
 <p><em>extends <a href="#powerdistributor">PowerDistributor</a></em></p>
 <table>
 <thead>
@@ -5605,6 +5695,7 @@ Liquids will take priority over items.</p>
 </tr>
 </tbody>
 </table>
+<h2 id="nuclearreactor">NuclearReactor</h2>
 <p><em>extends <a href="#powergenerator">PowerGenerator</a></em></p>
 <table>
 <thead>
@@ -5702,25 +5793,7 @@ Liquids will take priority over items.</p>
 </tr>
 </tbody>
 </table>
-<p><em>extends <a href="#block">Block</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>arrow</td>
-<td>TextureRegion</td>
-<td>null</td>
-<td></td>
-</tr>
-</tbody>
-</table>
+<h2 id="powernode">PowerNode</h2>
 <p><em>extends <a href="#powerblock">PowerBlock</a></em></p>
 <table>
 <thead>
@@ -5770,52 +5843,11 @@ Liquids will take priority over items.</p>
 </tr>
 </tbody>
 </table>
+<h2 id="powersource">PowerSource</h2>
 <p><em>extends <a href="#powernode">PowerNode</a></em></p>
-<p><em>extends <a href="#baseturret">BaseTurret</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>reloadTime</td>
-<td>float</td>
-<td>10.0</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<p><em>extends <a href="#turret">Turret</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>shootType</td>
-<td>BulletType</td>
-<td>null</td>
-<td></td>
-</tr>
-<tr>
-<td>powerUse</td>
-<td>float</td>
-<td>1.0</td>
-<td></td>
-</tr>
-</tbody>
-</table>
+<h2 id="powervoid">PowerVoid</h2>
 <p><em>extends <a href="#powerblock">PowerBlock</a></em></p>
+<h2 id="pump">Pump</h2>
 <p><em>extends <a href="#liquidblock">LiquidBlock</a></em></p>
 <table>
 <thead>
@@ -5835,6 +5867,7 @@ Liquids will take priority over items.</p>
 </tr>
 </tbody>
 </table>
+<h2 id="reconstructor">Reconstructor</h2>
 <p><em>extends <a href="#unitblock">UnitBlock</a></em></p>
 <table>
 <thead>
@@ -5866,6 +5899,53 @@ Liquids will take priority over items.</p>
 </tr>
 </tbody>
 </table>
+<h2 id="reloadturret">ReloadTurret</h2>
+<p><em>extends <a href="#baseturret">BaseTurret</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>reloadTime</td>
+<td>float</td>
+<td>10.0</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="powerturret">PowerTurret</h2>
+<p><em>extends <a href="#turret">Turret</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>shootType</td>
+<td>BulletType</td>
+<td>null</td>
+<td></td>
+</tr>
+<tr>
+<td>powerUse</td>
+<td>float</td>
+<td>1.0</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="repairpoint">RepairPoint</h2>
 <p><em>extends <a href="#block">Block</a></em></p>
 <table>
 <thead>
@@ -5927,6 +6007,7 @@ Liquids will take priority over items.</p>
 </tr>
 </tbody>
 </table>
+<h2 id="resupplypoint">ResupplyPoint</h2>
 <p><em>extends <a href="#block">Block</a></em></p>
 <table>
 <thead>
@@ -5970,6 +6051,7 @@ Liquids will take priority over items.</p>
 </tr>
 </tbody>
 </table>
+<h2 id="router">Router</h2>
 <p><em>extends <a href="#block">Block</a></em></p>
 <table>
 <thead>
@@ -5989,6 +6071,7 @@ Liquids will take priority over items.</p>
 </tr>
 </tbody>
 </table>
+<h2 id="separator">Separator</h2>
 <p><em>extends <a href="#block">Block</a></em></p>
 <p>Extracts a random list of items from an input item and an input liquid.</p>
 <table>
@@ -6033,6 +6116,7 @@ Liquids will take priority over items.</p>
 </tr>
 </tbody>
 </table>
+<h2 id="shallowliquid">ShallowLiquid</h2>
 <p><em>extends <a href="#floor">Floor</a></em></p>
 <table>
 <thead>
@@ -6064,6 +6148,7 @@ Liquids will take priority over items.</p>
 </tr>
 </tbody>
 </table>
+<h2 id="shockmine">ShockMine</h2>
 <p><em>extends <a href="#block">Block</a></em></p>
 <table>
 <thead>
@@ -6119,8 +6204,11 @@ Liquids will take priority over items.</p>
 </tr>
 </tbody>
 </table>
+<h2 id="singletypegenerator">SingleTypeGenerator</h2>
 <p><em>extends <a href="#itemliquidgenerator">ItemLiquidGenerator</a></em></p>
+<h2 id="solargenerator">SolarGenerator</h2>
 <p><em>extends <a href="#powergenerator">PowerGenerator</a></em></p>
+<h2 id="solidpump">SolidPump</h2>
 <p><em>extends <a href="#pump">Pump</a></em></p>
 <p>Pump that makes liquid from solids and takes in power. Only works on solid floor blocks.</p>
 <table>
@@ -6177,6 +6265,7 @@ Liquids will take priority over items.</p>
 </tr>
 </tbody>
 </table>
+<h2 id="sorter">Sorter</h2>
 <p><em>extends <a href="#block">Block</a></em></p>
 <table>
 <thead>
@@ -6196,6 +6285,7 @@ Liquids will take priority over items.</p>
 </tr>
 </tbody>
 </table>
+<h2 id="stackconveyor">StackConveyor</h2>
 <p><em>extends <a href="#block">Block</a></em></p>
 <table>
 <thead>
@@ -6257,6 +6347,7 @@ Liquids will take priority over items.</p>
 </tr>
 </tbody>
 </table>
+<h2 id="staticwall">StaticWall</h2>
 <p><em>extends <a href="#boulder">Boulder</a></em></p>
 <table>
 <thead>
@@ -6282,8 +6373,11 @@ Liquids will take priority over items.</p>
 </tr>
 </tbody>
 </table>
+<h2 id="statictree">StaticTree</h2>
 <p><em>extends <a href="#staticwall">StaticWall</a></em></p>
+<h2 id="storageblock">StorageBlock</h2>
 <p><em>extends <a href="#block">Block</a></em></p>
+<h2 id="switchblock">SwitchBlock</h2>
 <p><em>extends <a href="#block">Block</a></em></p>
 <table>
 <thead>
@@ -6303,6 +6397,7 @@ Liquids will take priority over items.</p>
 </tr>
 </tbody>
 </table>
+<h2 id="thermalgenerator">ThermalGenerator</h2>
 <p><em>extends <a href="#powergenerator">PowerGenerator</a></em></p>
 <table>
 <thead>
@@ -6328,6 +6423,7 @@ Liquids will take priority over items.</p>
 </tr>
 </tbody>
 </table>
+<h2 id="tractorbeamturret">TractorBeamTurret</h2>
 <p><em>extends <a href="#baseturret">BaseTurret</a></em></p>
 <table>
 <thead>
@@ -6443,6 +6539,7 @@ Liquids will take priority over items.</p>
 </tr>
 </tbody>
 </table>
+<h2 id="treeblock">TreeBlock</h2>
 <p><em>extends <a href="#block">Block</a></em></p>
 <table>
 <thead>
@@ -6468,6 +6565,7 @@ Liquids will take priority over items.</p>
 </tr>
 </tbody>
 </table>
+<h2 id="turret">Turret</h2>
 <p><em>extends <a href="#reloadturret">ReloadTurret</a></em></p>
 <table>
 <thead>
@@ -6751,7 +6849,9 @@ Liquids will take priority over items.</p>
 </tr>
 </tbody>
 </table>
+<h2 id="unitblock">UnitBlock</h2>
 <p><em>extends <a href="#payloadacceptor">PayloadAcceptor</a></em></p>
+<h2 id="unitfactory">UnitFactory</h2>
 <p><em>extends <a href="#unitblock">UnitBlock</a></em></p>
 <table>
 <thead>
@@ -6777,6 +6877,7 @@ Liquids will take priority over items.</p>
 </tr>
 </tbody>
 </table>
+<h2 id="unloader">Unloader</h2>
 <p><em>extends <a href="#block">Block</a></em></p>
 <table>
 <thead>
@@ -6802,6 +6903,7 @@ Liquids will take priority over items.</p>
 </tr>
 </tbody>
 </table>
+<h2 id="wall">Wall</h2>
 <p><em>extends <a href="#block">Block</a></em></p>
 <table>
 <thead>
@@ -6876,6 +6978,9 @@ Liquids will take priority over items.</p>
 </tbody>
 </table>
 <h1 id="effect">Effect</h1>
+<p>Built-in constants: 
+<code>none</code> <code>unitSpawn</code> <code>unitCapKill</code> <code>unitControl</code> <code>unitDespawn</code> <code>unitSpirit</code> <code>itemTransfer</code> <code>pointBeam</code> <code>pointHit</code> <code>lightning</code> <code>commandSend</code> <code>upgradeCore</code> <code>placeBlock</code> <code>tapBlock</code> <code>breakBlock</code> <code>select</code> <code>smoke</code> <code>fallSmoke</code> <code>unitWreck</code> <code>rocketSmoke</code> <code>rocketSmokeLarge</code> <code>magmasmoke</code> <code>spawn</code> <code>padlaunch</code> <code>vtolHover</code> <code>unitDrop</code> <code>unitLand</code> <code>unitLandSmall</code> <code>unitPickup</code> <code>landShock</code> <code>pickup</code> <code>greenBomb</code> <code>greenLaserCharge</code> <code>greenLaserChargeSmall</code> <code>healWaveDynamic</code> <code>healWave</code> <code>heal</code> <code>shieldWave</code> <code>shieldApply</code> <code>hitBulletSmall</code> <code>hitFuse</code> <code>hitBulletBig</code> <code>hitFlameSmall</code> <code>hitLiquid</code> <code>hitLancer</code> <code>hitMeltdown</code> <code>hitMeltHeal</code> <code>instBomb</code> <code>instTrail</code> <code>instShoot</code> <code>instHit</code> <code>hitLaser</code> <code>hitYellowLaser</code> <code>despawn</code> <code>flakExplosion</code> <code>plasticExplosion</code> <code>plasticExplosionFlak</code> <code>blastExplosion</code> <code>sapExplosion</code> <code>massiveExplosion</code> <code>artilleryTrail</code> <code>incendTrail</code> <code>missileTrail</code> <code>absorb</code> <code>flakExplosionBig</code> <code>burning</code> <code>fire</code> <code>fireSmoke</code> <code>steam</code> <code>fireballsmoke</code> <code>ballfire</code> <code>freezing</code> <code>melting</code> <code>wet</code> <code>muddy</code> <code>sapped</code> <code>sporeSlowed</code> <code>oily</code> <code>overdriven</code> <code>overclocked</code> <code>dropItem</code> <code>shockwave</code> <code>bigShockwave</code> <code>nuclearShockwave</code> <code>impactShockwave</code> <code>spawnShockwave</code> <code>explosion</code> <code>dynamicExplosion</code> <code>blockExplosion</code> <code>blockExplosionSmoke</code> <code>shootSmall</code> <code>shootHeal</code> <code>shootHealYellow</code> <code>shootSmallSmoke</code> <code>shootBig</code> <code>shootBig2</code> <code>shootBigSmoke</code> <code>shootBigSmoke2</code> <code>shootSmallFlame</code> <code>shootPyraFlame</code> <code>shootLiquid</code> <code>casing1</code> <code>casing2</code> <code>casing3</code> <code>casing4</code> <code>casing2Double</code> <code>casing3Double</code> <code>railShoot</code> <code>railTrail</code> <code>railHit</code> <code>lancerLaserShoot</code> <code>lancerLaserShootSmoke</code> <code>lancerLaserCharge</code> <code>lancerLaserChargeBegin</code> <code>lightningCharge</code> <code>sparkShoot</code> <code>lightningShoot</code> <code>thoriumShoot</code> <code>reactorsmoke</code> <code>nuclearsmoke</code> <code>cloudsmoke</code> <code>nuclearcloud</code> <code>impactsmoke</code> <code>impactcloud</code> <code>redgeneratespark</code> <code>generatespark</code> <code>fuelburn</code> <code>coreBurn</code> <code>plasticburn</code> <code>pulverize</code> <code>pulverizeRed</code> <code>pulverizeRedder</code> <code>pulverizeSmall</code> <code>pulverizeMedium</code> <code>producesmoke</code> <code>smokeCloud</code> <code>smeltsmoke</code> <code>formsmoke</code> <code>blastsmoke</code> <code>lava</code> <code>dooropen</code> <code>doorclose</code> <code>dooropenlarge</code> <code>doorcloselarge</code> <code>purify</code> <code>purifyoil</code> <code>purifystone</code> <code>generate</code> <code>mine</code> <code>mineBig</code> <code>mineHuge</code> <code>smelt</code> <code>teleportActivate</code> <code>teleport</code> <code>teleportOut</code> <code>ripple</code> <code>bubble</code> <code>launch</code> <code>launchPod</code> <code>healWaveMend</code> <code>overdriveWave</code> <code>healBlock</code> <code>healBlockFull</code> <code>overdriveBlockFull</code> <code>shieldBreak</code> <code>unitShieldBreak</code> <code>coreLand</code></p>
+<h2 id="effect_1">Effect</h2>
 <p><em>extends <a href="#object">Object</a></em></p>
 <table>
 <thead>
@@ -6931,6 +7036,7 @@ Liquids will take priority over items.</p>
 </tr>
 </tbody>
 </table>
+<h2 id="multieffect">MultiEffect</h2>
 <p><em>extends <a href="#effect">Effect</a></em></p>
 <p>Renders multiple particle effects at once.</p>
 <table>
@@ -6951,6 +7057,7 @@ Liquids will take priority over items.</p>
 </tr>
 </tbody>
 </table>
+<h2 id="particleeffect">ParticleEffect</h2>
 <p><em>extends <a href="#effect">Effect</a></em></p>
 <p>The most essential effect class. Can create particles in various shapes.</p>
 <table>
@@ -7055,6 +7162,7 @@ Liquids will take priority over items.</p>
 </tr>
 </tbody>
 </table>
+<h2 id="waveeffect">WaveEffect</h2>
 <p><em>extends <a href="#effect">Effect</a></em></p>
 <p>Effect that renders a basic shockwave.</p>
 <table>
@@ -7238,266 +7346,6 @@ Liquids will take priority over items.</p>
 <td>StatusEffect</td>
 <td>StatusEffects.none</td>
 <td>The associated status effect.</td>
-</tr>
-</tbody>
-</table>
-<h1 id="other">Other</h1>
-<p><em>extends <a href="#object">Object</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>name</td>
-<td>String</td>
-<td>""</td>
-<td>displayed weapon region</td>
-</tr>
-<tr>
-<td>bullet</td>
-<td>BulletType</td>
-<td>null</td>
-<td>bullet shot</td>
-</tr>
-<tr>
-<td>ejectEffect</td>
-<td>Effect</td>
-<td>Fx.none</td>
-<td>shell ejection effect</td>
-</tr>
-<tr>
-<td>mirror</td>
-<td>boolean</td>
-<td>true</td>
-<td>whether to create a flipped copy of this weapon upon initialization. default: true</td>
-</tr>
-<tr>
-<td>flipSprite</td>
-<td>boolean</td>
-<td>false</td>
-<td>whether to flip the weapon's sprite when rendering</td>
-</tr>
-<tr>
-<td>alternate</td>
-<td>boolean</td>
-<td>true</td>
-<td>whether to shoot the weapons in different arms one after another, rather than all at once; only valid when mirror = true</td>
-</tr>
-<tr>
-<td>rotate</td>
-<td>boolean</td>
-<td>false</td>
-<td>whether to rotate toward the target independently of unit</td>
-</tr>
-<tr>
-<td>top</td>
-<td>boolean</td>
-<td>true</td>
-<td>whether to draw the outline on top.</td>
-</tr>
-<tr>
-<td>continuous</td>
-<td>boolean</td>
-<td>false</td>
-<td>whether to hold the bullet in place while firing</td>
-</tr>
-<tr>
-<td>rotateSpeed</td>
-<td>float</td>
-<td>20.0</td>
-<td>rotation speed of weapon when rotation is enabled, in degrees/t</td>
-</tr>
-<tr>
-<td>reload</td>
-<td>float</td>
-<td>0.0</td>
-<td>weapon reload in frames</td>
-</tr>
-<tr>
-<td>shots</td>
-<td>int</td>
-<td>1</td>
-<td>amount of shots per fire</td>
-</tr>
-<tr>
-<td>spacing</td>
-<td>float</td>
-<td>0.0</td>
-<td>spacing in degrees between multiple shots, if applicable</td>
-</tr>
-<tr>
-<td>inaccuracy</td>
-<td>float</td>
-<td>0.0</td>
-<td>inaccuracy of degrees of each shot</td>
-</tr>
-<tr>
-<td>shake</td>
-<td>float</td>
-<td>0.0</td>
-<td>intensity and duration of each shot's screen shake</td>
-</tr>
-<tr>
-<td>recoil</td>
-<td>float</td>
-<td>1.5</td>
-<td>visual weapon knockback.</td>
-</tr>
-<tr>
-<td>shootX</td>
-<td>float</td>
-<td>0.0</td>
-<td>projectile/effect offsets from center of weapon</td>
-</tr>
-<tr>
-<td>shootY</td>
-<td>float</td>
-<td>3.0</td>
-<td>projectile/effect offsets from center of weapon</td>
-</tr>
-<tr>
-<td>x</td>
-<td>float</td>
-<td>5.0</td>
-<td>offsets of weapon position on unit</td>
-</tr>
-<tr>
-<td>y</td>
-<td>float</td>
-<td>0.0</td>
-<td>offsets of weapon position on unit</td>
-</tr>
-<tr>
-<td>xRand</td>
-<td>float</td>
-<td>0.0</td>
-<td>random spread on the X axis</td>
-</tr>
-<tr>
-<td>occlusion</td>
-<td>float</td>
-<td>-1.0</td>
-<td>radius of occlusion drawn under the weapon; &lt;0 to disable</td>
-</tr>
-<tr>
-<td>velocityRnd</td>
-<td>float</td>
-<td>0.0</td>
-<td>fraction of velocity that is random</td>
-</tr>
-<tr>
-<td>firstShotDelay</td>
-<td>float</td>
-<td>0.0</td>
-<td>delay in ticks between shots</td>
-</tr>
-<tr>
-<td>shotDelay</td>
-<td>float</td>
-<td>0.0</td>
-<td>delay in ticks between shots</td>
-</tr>
-<tr>
-<td>shootCone</td>
-<td>float</td>
-<td>5.0</td>
-<td>The half-radius of the cone in which shooting will start.</td>
-</tr>
-<tr>
-<td>cooldownTime</td>
-<td>float</td>
-<td>20.0</td>
-<td>ticks to cool down the heat region</td>
-</tr>
-<tr>
-<td>soundPitchMin</td>
-<td>float</td>
-<td>0.8</td>
-<td>random sound pitch range</td>
-</tr>
-<tr>
-<td>soundPitchMax</td>
-<td>float</td>
-<td>1.0</td>
-<td>random sound pitch range</td>
-</tr>
-<tr>
-<td>ignoreRotation</td>
-<td>boolean</td>
-<td>false</td>
-<td>whether shooter rotation is ignored when shooting.</td>
-</tr>
-<tr>
-<td>minShootVelocity</td>
-<td>float</td>
-<td>-1.0</td>
-<td>min velocity required for this weapon to shoot</td>
-</tr>
-<tr>
-<td>otherSide</td>
-<td>int</td>
-<td>-1</td>
-<td>internal value used for alternation - do not change!</td>
-</tr>
-<tr>
-<td>shootSound</td>
-<td>Sound</td>
-<td>Sounds.pew</td>
-<td>sound used for shooting</td>
-</tr>
-<tr>
-<td>chargeSound</td>
-<td>Sound</td>
-<td>Sounds.none</td>
-<td>sound used for weapons that have a delay</td>
-</tr>
-<tr>
-<td>noAmmoSound</td>
-<td>Sound</td>
-<td>Sounds.noammo</td>
-<td>sound played when there is nothing to shoot</td>
-</tr>
-<tr>
-<td>region</td>
-<td>TextureRegion</td>
-<td>null</td>
-<td>displayed region (autoloaded)</td>
-</tr>
-<tr>
-<td>heatRegion</td>
-<td>TextureRegion</td>
-<td>null</td>
-<td>heat region, must be same size as region (optional)</td>
-</tr>
-<tr>
-<td>outlineRegion</td>
-<td>TextureRegion</td>
-<td>null</td>
-<td>outline region to display if top is false</td>
-</tr>
-<tr>
-<td>heatColor</td>
-<td>Color</td>
-<td>ab3400ff</td>
-<td>heat region tint</td>
-</tr>
-<tr>
-<td>shootStatus</td>
-<td>StatusEffect</td>
-<td>StatusEffects.none</td>
-<td>status effect applied when shooting</td>
-</tr>
-<tr>
-<td>shootStatusDuration</td>
-<td>float</td>
-<td>300.0</td>
-<td>status effect duration when shot</td>
 </tr>
 </tbody>
 </table>
@@ -8134,6 +7982,7 @@ Liquids will take priority over items.</p>
 </tbody>
 </table>
 <h1 id="weather">Weather</h1>
+<h2 id="particleweather">ParticleWeather</h2>
 <p><em>extends <a href="#weather">Weather</a></em></p>
 <table>
 <thead>
@@ -8321,6 +8170,7 @@ Liquids will take priority over items.</p>
 </tr>
 </tbody>
 </table>
+<h2 id="rainweather">RainWeather</h2>
 <p><em>extends <a href="#weather">Weather</a></em></p>
 <table>
 <thead>
@@ -8400,12 +8250,271 @@ Liquids will take priority over items.</p>
 </tr>
 </tbody>
 </table>
-<h1 id="other_1">Other</h1>
+<h1 id="other">Other</h1>
+<p><em>extends <a href="#object">Object</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>name</td>
+<td>String</td>
+<td>""</td>
+<td>displayed weapon region</td>
+</tr>
+<tr>
+<td>bullet</td>
+<td>BulletType</td>
+<td>null</td>
+<td>bullet shot</td>
+</tr>
+<tr>
+<td>ejectEffect</td>
+<td>Effect</td>
+<td>Fx.none</td>
+<td>shell ejection effect</td>
+</tr>
+<tr>
+<td>mirror</td>
+<td>boolean</td>
+<td>true</td>
+<td>whether to create a flipped copy of this weapon upon initialization. default: true</td>
+</tr>
+<tr>
+<td>flipSprite</td>
+<td>boolean</td>
+<td>false</td>
+<td>whether to flip the weapon's sprite when rendering</td>
+</tr>
+<tr>
+<td>alternate</td>
+<td>boolean</td>
+<td>true</td>
+<td>whether to shoot the weapons in different arms one after another, rather than all at once; only valid when mirror = true</td>
+</tr>
+<tr>
+<td>rotate</td>
+<td>boolean</td>
+<td>false</td>
+<td>whether to rotate toward the target independently of unit</td>
+</tr>
+<tr>
+<td>top</td>
+<td>boolean</td>
+<td>true</td>
+<td>whether to draw the outline on top.</td>
+</tr>
+<tr>
+<td>continuous</td>
+<td>boolean</td>
+<td>false</td>
+<td>whether to hold the bullet in place while firing</td>
+</tr>
+<tr>
+<td>rotateSpeed</td>
+<td>float</td>
+<td>20.0</td>
+<td>rotation speed of weapon when rotation is enabled, in degrees/t</td>
+</tr>
+<tr>
+<td>reload</td>
+<td>float</td>
+<td>0.0</td>
+<td>weapon reload in frames</td>
+</tr>
+<tr>
+<td>shots</td>
+<td>int</td>
+<td>1</td>
+<td>amount of shots per fire</td>
+</tr>
+<tr>
+<td>spacing</td>
+<td>float</td>
+<td>0.0</td>
+<td>spacing in degrees between multiple shots, if applicable</td>
+</tr>
+<tr>
+<td>inaccuracy</td>
+<td>float</td>
+<td>0.0</td>
+<td>inaccuracy of degrees of each shot</td>
+</tr>
+<tr>
+<td>shake</td>
+<td>float</td>
+<td>0.0</td>
+<td>intensity and duration of each shot's screen shake</td>
+</tr>
+<tr>
+<td>recoil</td>
+<td>float</td>
+<td>1.5</td>
+<td>visual weapon knockback.</td>
+</tr>
+<tr>
+<td>shootX</td>
+<td>float</td>
+<td>0.0</td>
+<td>projectile/effect offsets from center of weapon</td>
+</tr>
+<tr>
+<td>shootY</td>
+<td>float</td>
+<td>3.0</td>
+<td>projectile/effect offsets from center of weapon</td>
+</tr>
+<tr>
+<td>x</td>
+<td>float</td>
+<td>5.0</td>
+<td>offsets of weapon position on unit</td>
+</tr>
+<tr>
+<td>y</td>
+<td>float</td>
+<td>0.0</td>
+<td>offsets of weapon position on unit</td>
+</tr>
+<tr>
+<td>xRand</td>
+<td>float</td>
+<td>0.0</td>
+<td>random spread on the X axis</td>
+</tr>
+<tr>
+<td>occlusion</td>
+<td>float</td>
+<td>-1.0</td>
+<td>radius of occlusion drawn under the weapon; &lt;0 to disable</td>
+</tr>
+<tr>
+<td>velocityRnd</td>
+<td>float</td>
+<td>0.0</td>
+<td>fraction of velocity that is random</td>
+</tr>
+<tr>
+<td>firstShotDelay</td>
+<td>float</td>
+<td>0.0</td>
+<td>delay in ticks between shots</td>
+</tr>
+<tr>
+<td>shotDelay</td>
+<td>float</td>
+<td>0.0</td>
+<td>delay in ticks between shots</td>
+</tr>
+<tr>
+<td>shootCone</td>
+<td>float</td>
+<td>5.0</td>
+<td>The half-radius of the cone in which shooting will start.</td>
+</tr>
+<tr>
+<td>cooldownTime</td>
+<td>float</td>
+<td>20.0</td>
+<td>ticks to cool down the heat region</td>
+</tr>
+<tr>
+<td>soundPitchMin</td>
+<td>float</td>
+<td>0.8</td>
+<td>random sound pitch range</td>
+</tr>
+<tr>
+<td>soundPitchMax</td>
+<td>float</td>
+<td>1.0</td>
+<td>random sound pitch range</td>
+</tr>
+<tr>
+<td>ignoreRotation</td>
+<td>boolean</td>
+<td>false</td>
+<td>whether shooter rotation is ignored when shooting.</td>
+</tr>
+<tr>
+<td>minShootVelocity</td>
+<td>float</td>
+<td>-1.0</td>
+<td>min velocity required for this weapon to shoot</td>
+</tr>
+<tr>
+<td>otherSide</td>
+<td>int</td>
+<td>-1</td>
+<td>internal value used for alternation - do not change!</td>
+</tr>
+<tr>
+<td>shootSound</td>
+<td>Sound</td>
+<td>Sounds.pew</td>
+<td>sound used for shooting</td>
+</tr>
+<tr>
+<td>chargeSound</td>
+<td>Sound</td>
+<td>Sounds.none</td>
+<td>sound used for weapons that have a delay</td>
+</tr>
+<tr>
+<td>noAmmoSound</td>
+<td>Sound</td>
+<td>Sounds.noammo</td>
+<td>sound played when there is nothing to shoot</td>
+</tr>
+<tr>
+<td>region</td>
+<td>TextureRegion</td>
+<td>null</td>
+<td>displayed region (autoloaded)</td>
+</tr>
+<tr>
+<td>heatRegion</td>
+<td>TextureRegion</td>
+<td>null</td>
+<td>heat region, must be same size as region (optional)</td>
+</tr>
+<tr>
+<td>outlineRegion</td>
+<td>TextureRegion</td>
+<td>null</td>
+<td>outline region to display if top is false</td>
+</tr>
+<tr>
+<td>heatColor</td>
+<td>Color</td>
+<td>ab3400ff</td>
+<td>heat region tint</td>
+</tr>
+<tr>
+<td>shootStatus</td>
+<td>StatusEffect</td>
+<td>StatusEffects.none</td>
+<td>status effect applied when shooting</td>
+</tr>
+<tr>
+<td>shootStatusDuration</td>
+<td>float</td>
+<td>300.0</td>
+<td>status effect duration when shot</td>
+</tr>
+</tbody>
+</table>
 <h2 id="buildvisibility">BuildVisibility</h2>
 <p>A flag used by the game to change a few special-case things. It may be one of the following strings:</p>
 <ul>
 <li><code>hidden</code></li>
-<li><code>shown</code></li>
+<li><code>shown</code> (default)</li>
 <li><code>debugOnly</code></li>
 <li><code>sandboxOnly</code></li>
 <li><code>campaignOnly</code></li>
@@ -8452,79 +8561,6 @@ amount: 5
 </tr>
 </tbody>
 </table>
-<h2 id="liquid_1">Liquid</h2>
-<p>Extends <a href="#content">Content</a></p>
-<p>Type which defines the properties of a liquid. Like <a href="#item">Item</a> this will go into it's own subdirectory <code>content/liquids/liquid-name.json</code>, and from it's stem name you can reuse it from your other mod content.</p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>color</td>
-<td><a href="#color">Color</a></td>
-<td>&#xa0;</td>
-<td><strong>[required]</strong> color of liquid</td>
-</tr>
-<tr>
-<td>barColor</td>
-<td><a href="#color">Color</a></td>
-<td>&#xa0;</td>
-<td><em>[optional]</em> color used in bars.</td>
-</tr>
-<tr>
-<td>lightColor</td>
-<td><a href="#color">Color</a></td>
-<td>&#xa0;</td>
-<td>Color used to draw lights. Note that the alpha channel is used to dictate brightness.</td>
-</tr>
-<tr>
-<td>flammability</td>
-<td>float</td>
-<td>&#xa0;</td>
-<td>0 to 1; 0 is completely inflammable, above that may catch fire when exposed to heat.</td>
-</tr>
-<tr>
-<td>temperature</td>
-<td>float</td>
-<td>0.5</td>
-<td>0.5 is 'room' temperature, 0 is very cold, 1 is molten hot</td>
-</tr>
-<tr>
-<td>heatCapacity</td>
-<td>float</td>
-<td>0.5</td>
-<td>used in cooling; water is 0.4, cryofluid is 0.9.</td>
-</tr>
-<tr>
-<td>viscosity</td>
-<td>float</td>
-<td>0.5</td>
-<td>how thick this liquid is; water is 0.5, oil is 0.7.</td>
-</tr>
-<tr>
-<td>explosiveness</td>
-<td>float</td>
-<td>&#xa0;</td>
-<td>explosiveness when heated; 0 is nothing, 1 is nuke</td>
-</tr>
-<tr>
-<td>effect</td>
-<td><a href="#statuseffect">StatusEffect</a></td>
-<td>none</td>
-<td>the associated status effect.</td>
-</tr>
-</tbody>
-</table>
-<p>Sprites:</p>
-<ul>
-<li><code>&lt;name&gt;</code>, the sprite used when displaying the liquid from a menu.</li>
-</ul>
 <h2 id="liquidstack">LiquidStack</h2>
 <p>A <code>LiquidStack</code> can be a string or an object. It's used to describe the type and amount of liquid to a machine.</p>
 <p>As a <code>string</code>:</p>
@@ -8566,309 +8602,8 @@ amount: 0.5
 <li><code>defense</code> Walls and other defensive structures;</li>
 <li><code>crafting</code> Blocks that craft things;</li>
 <li><code>units</code> Blocks that create units;</li>
-<li><code>upgrade</code> Things that upgrade the player such as mech pads;</li>
+<li><code>logic</code> Blocks that are related to logic operations;</li>
 <li><code>effect</code> Things for storage or passive effects.</li>
-</ul>
-<h2 id="statuseffect">StatusEffect</h2>
-<p>Extends <a href="#content">Content</a></p>
-<p><em>Not be be confused with <a href="#effect">Effect</a></em>, a status effect will give an entity special properties. Status effects are used as transitions between intermediate effects. If some a <code>wet</code> unit gets <code>shocked</code> it then gets 20 damage.</p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>damageMultiplier</td>
-<td>float</td>
-<td>1</td>
-<td>&#xa0;</td>
-</tr>
-<tr>
-<td>armorMultiplier</td>
-<td>float</td>
-<td>1</td>
-<td>&#xa0;</td>
-</tr>
-<tr>
-<td>speedMultiplier</td>
-<td>float</td>
-<td>1</td>
-<td>&#xa0;</td>
-</tr>
-<tr>
-<td>color</td>
-<td><a href="#color">Color</a></td>
-<td>white</td>
-<td>&#xa0;</td>
-</tr>
-<tr>
-<td>damage</td>
-<td>float</td>
-<td>&#xa0;</td>
-<td>Damage (or healing) per frame.</td>
-</tr>
-<tr>
-<td>effect</td>
-<td><a href="#effect">Effect</a></td>
-<td>none</td>
-<td>Random effect (0.15% per frame), on affected units.</td>
-</tr>
-</tbody>
-</table>
-<ul>
-<li>opposites: effect which reduces anothers lifetime.</li>
-</ul>
-<p>Built-in status effects:</p>
-<ul>
-<li>
-<p><code>none</code> &#x2013; Does nothing.</p>
-</li>
-<li>
-<p><code>burning</code></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>value</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>damage</td>
-<td>0.06</td>
-</tr>
-<tr>
-<td>effect</td>
-<td>burning</td>
-</tr>
-</tbody>
-</table>
-<ul>
-<li>opposites: <code>wet</code> <code>freezing</code></li>
-<li>tarred: 1 damage and keeps burning</li>
-</ul>
-</li>
-<li>
-<p><code>freezing</code></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>value</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>speedMultiplier</td>
-<td>0.6</td>
-</tr>
-<tr>
-<td>armorMultiplier</td>
-<td>0.8</td>
-</tr>
-<tr>
-<td>effect</td>
-<td>freezing</td>
-</tr>
-</tbody>
-</table>
-<ul>
-<li>opposites: <code>melting</code> <code>burning</code></li>
-</ul>
-</li>
-<li>
-<p><code>wet</code></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>value</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>speedMultiplier</td>
-<td>0.9</td>
-</tr>
-<tr>
-<td>effect</td>
-<td>wet</td>
-</tr>
-</tbody>
-</table>
-<ul>
-<li>opposites: <code>burning</code></li>
-<li>shocked: 20 damage</li>
-</ul>
-</li>
-<li>
-<p><code>melting</code></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>value</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>speedMultiplier</td>
-<td>0.8</td>
-</tr>
-<tr>
-<td>armorMultiplier</td>
-<td>0.8</td>
-</tr>
-<tr>
-<td>damage</td>
-<td>0.3</td>
-</tr>
-<tr>
-<td>effect</td>
-<td>melting</td>
-</tr>
-</tbody>
-</table>
-<ul>
-<li>opposites: <code>wet</code> <code>freezing</code></li>
-<li>tarred: keeps melting</li>
-</ul>
-</li>
-<li>
-<p><code>tarred</code></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>value</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>speedMultiplier</td>
-<td>0.6</td>
-</tr>
-<tr>
-<td>effect</td>
-<td>oily</td>
-</tr>
-</tbody>
-</table>
-<ul>
-<li>burning: keeps burning</li>
-<li>melting: keeps burning</li>
-</ul>
-</li>
-<li>
-<p><code>overdrive</code></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>value</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>armorMultiplier</td>
-<td>0.95</td>
-</tr>
-<tr>
-<td>speedMultiplier</td>
-<td>1.15</td>
-</tr>
-<tr>
-<td>damageMultiplier</td>
-<td>1.4</td>
-</tr>
-<tr>
-<td>damage</td>
-<td>-0.01</td>
-</tr>
-<tr>
-<td>effect</td>
-<td>overdriven</td>
-</tr>
-</tbody>
-</table>
-</li>
-<li>
-<p><code>shielded</code></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>value</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>armorMultiplier</td>
-<td>3</td>
-</tr>
-</tbody>
-</table>
-</li>
-<li>
-<p><code>boss</code></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>value</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>armorMultiplier</td>
-<td>3</td>
-</tr>
-<tr>
-<td>damageMultiplier</td>
-<td>3</td>
-</tr>
-<tr>
-<td>speedMultiplier</td>
-<td>1.1</td>
-</tr>
-</tbody>
-</table>
-</li>
-<li>
-<p><code>shocked</code> &#x2013; Does nothing.</p>
-</li>
-<li>
-<p><code>corroded</code></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>value</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>damage</td>
-<td>0.1</td>
-</tr>
-</tbody>
-</table>
-</li>
-</ul>
-<h1 id="graphics">Graphics</h1>
-<h2 id="layer">Layer</h2>
-<p>Layers is an enumeration type, which the renderer will use to group rendering order:</p>
-<ul>
-<li><code>block</code>, base block layer;</li>
-<li><code>placement</code>, for placement;</li>
-<li><code>overlay</code>, first overlay stuff like conveyor items;</li>
-<li><code>turret</code>, "high" blocks like turrets;</li>
-<li><code>power</code> power lasers</li>
 </ul>
 <h2 id="color">Color</h2>
 <p>Color is a hexadecimal string, <code>&lt;rr&gt;&lt;gg&gt;&lt;bb&gt;</code> for example:</p>
@@ -8888,376 +8623,6 @@ amount: 0.5
 <li><code>water</code> water layer, adding tile water shaders, and giving wave reflections;</li>
 <li><code>tar</code> tar layer, adding tar shaders, making it darker and giving it some bubble reflections;</li>
 </ul>
-<h1 id="entities">Entities</h1>
-<h2 id="bullettype">BulletType</h2>
-<p><a href="#faq">Abstract</a> type which extends <a href="#content">Content</a></p>
-<p>BulletType can either be an object <code>{}</code> or a <code>"string"</code>, where a string would be reusing <a href="#built-in-bullets">Built-in Bullets</a> and an object would be making a custom one.</p>
-<p>There are two major categories of bullet types:</p>
-<ul>
-<li><a href="#basicbullettype">BasicBulletType</a> and,</li>
-<li>other special bullets.</li>
-</ul>
-<p>Here's an example of a custom bullet:</p>
-<pre><code>{
-    "type": "MissileBulletType",
-    "lifetime": 1000,
-    "speed": 2,
-    "splashDamageRadius": 2,
-    "splashDamage": 9,
-    "frontColor": "ffff00",
-    "backColor": "00ffff",
-    "homingPower": 1,
-    "homingRange": 20,
-    "fragBullets": 3,
-    "fragBullet": {
-        "type": "LiquidBulletType",
-        "liquid": "oil",
-        "lifetime": 2,
-        "speed": 1,
-        "fragBullets": 2,
-        "fragBullet": {
-            "type": "LiquidBulletType",
-            "liquid": "slag",
-            "lifetime": 1,
-            "speed": 2,
-            "damage": 1,
-        }
-    }
-}
-</code></pre>
-<p><img alt="img" src="images/green-cyan-oil-slag-missiles.png" /></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>lifetime</td>
-<td>float</td>
-<td>&#xa0;</td>
-<td>amount of ticks the bullet will last</td>
-</tr>
-<tr>
-<td>speed</td>
-<td>float</td>
-<td>&#xa0;</td>
-<td>inital speed of bullet</td>
-</tr>
-<tr>
-<td>damage</td>
-<td>float</td>
-<td>&#xa0;</td>
-<td>collision damage</td>
-</tr>
-<tr>
-<td>hitSize</td>
-<td>float</td>
-<td>4</td>
-<td>collision radius</td>
-</tr>
-<tr>
-<td>drawSize</td>
-<td>float</td>
-<td>40</td>
-<td>&#xa0;</td>
-</tr>
-<tr>
-<td>drag</td>
-<td>float</td>
-<td>0</td>
-<td>decelleration per tick</td>
-</tr>
-<tr>
-<td>pierce</td>
-<td>boolean</td>
-<td>&#xa0;</td>
-<td>whether it can collide</td>
-</tr>
-<tr>
-<td>hitEffect</td>
-<td><a href="#effect">Effect</a></td>
-<td>&#xa0;</td>
-<td>created when bullet hits something</td>
-</tr>
-<tr>
-<td>despawnEffect</td>
-<td><a href="#effect">Effect</a></td>
-<td>&#xa0;</td>
-<td>created when bullet despawns</td>
-</tr>
-<tr>
-<td>shootEffect</td>
-<td><a href="#effect">Effect</a></td>
-<td>&#xa0;</td>
-<td>created when shooting</td>
-</tr>
-<tr>
-<td>smokeEffect</td>
-<td><a href="#effect">Effect</a></td>
-<td>&#xa0;</td>
-<td>created when shooting</td>
-</tr>
-<tr>
-<td>hitSound</td>
-<td>Sound</td>
-<td>&#xa0;</td>
-<td>made when hitting something or getting removed</td>
-</tr>
-<tr>
-<td>inaccuracy</td>
-<td>float</td>
-<td>0</td>
-<td>extra inaccuracy</td>
-</tr>
-<tr>
-<td>ammoMultiplier</td>
-<td>float</td>
-<td>2</td>
-<td>how many bullets get created per item/liquid</td>
-</tr>
-<tr>
-<td>reloadMultiplier</td>
-<td>float</td>
-<td>1</td>
-<td>multiplied by turret reload speed</td>
-</tr>
-<tr>
-<td>recoil</td>
-<td>float</td>
-<td>&#xa0;</td>
-<td>recoil from shooter entities</td>
-</tr>
-<tr>
-<td>killShooter</td>
-<td>float</td>
-<td>&#xa0;</td>
-<td>whether to kill the shooter when this is shot. (for suicide bombers)</td>
-</tr>
-<tr>
-<td>knockback</td>
-<td>float</td>
-<td>&#xa0;</td>
-<td>Knockback in velocity.</td>
-</tr>
-<tr>
-<td>hitTiles</td>
-<td>boolean</td>
-<td>true</td>
-<td>Whether this bullet hits tiles.</td>
-</tr>
-<tr>
-<td>status</td>
-<td><a href="#statuseffect">StatusEffect</a></td>
-<td>none</td>
-<td>Status effect applied on hit.</td>
-</tr>
-<tr>
-<td>statusDuration</td>
-<td>float</td>
-<td>600</td>
-<td>Intensity of applied status effect in terms of duration.</td>
-</tr>
-<tr>
-<td>collidesTiles</td>
-<td>boolean</td>
-<td>true</td>
-<td>Whether this bullet type collides with tiles.</td>
-</tr>
-<tr>
-<td>collidesTeam</td>
-<td>boolean</td>
-<td>false</td>
-<td>Whether this bullet type collides with tiles that are of the same team.</td>
-</tr>
-<tr>
-<td>collidesAir</td>
-<td>boolean</td>
-<td>true</td>
-<td>Whether this bullet type collides with air units.</td>
-</tr>
-<tr>
-<td>collides</td>
-<td>boolean</td>
-<td>true</td>
-<td>Whether this bullet types collides with anything at all.</td>
-</tr>
-<tr>
-<td>keepVelocity</td>
-<td>boolean</td>
-<td>true</td>
-<td>Whether velocity is inherited from the shooter.</td>
-</tr>
-<tr>
-<td>fragBullets</td>
-<td>int</td>
-<td>9</td>
-<td>Number of frag bullets created.</td>
-</tr>
-<tr>
-<td>fragVelocityMin</td>
-<td>float</td>
-<td>0.2</td>
-<td>Minimum random multiplier.</td>
-</tr>
-<tr>
-<td>fragVelocityMax</td>
-<td>float</td>
-<td>1</td>
-<td>Maximum random multiplier.</td>
-</tr>
-<tr>
-<td>fragBullet</td>
-<td><a href="#bullettype">BulletType</a></td>
-<td>null</td>
-<td>The frag bullet that will be created, may be a string, an object or null. If field is null, no frag bullet is created.</td>
-</tr>
-<tr>
-<td>instantDisappear</td>
-<td>boolean</td>
-<td>&#xa0;</td>
-<td>Whether to instantly make the bullet disappear. (used in crawlers to make sure they explode)</td>
-</tr>
-<tr>
-<td>splashDamage</td>
-<td>float</td>
-<td>0</td>
-<td>Area of effect damage when the bullet despawns or hits a target. Damage is calculated with <a href="https://en.wikipedia.org/wiki/Linear_interpolation">linear interpolation</a>, also known as lerp.</td>
-</tr>
-<tr>
-<td>splashDamageRadius</td>
-<td>float</td>
-<td>-1</td>
-<td>Use a negative value to disable splash damage. <code>splashDamageRadius</code> is a value used in the equation <code>lerp(1 - distance / radius, 1, 0.4)</code> which is a multiplier for <code>splashDamage</code>.</td>
-</tr>
-<tr>
-<td>incendAmount</td>
-<td>int</td>
-<td>0</td>
-<td>&#xa0;</td>
-</tr>
-<tr>
-<td>incendSpread</td>
-<td>float</td>
-<td>8</td>
-<td>&#xa0;</td>
-</tr>
-<tr>
-<td>incendChance</td>
-<td>float</td>
-<td>1</td>
-<td>&#xa0;</td>
-</tr>
-<tr>
-<td>homingPower</td>
-<td>float</td>
-<td>0</td>
-<td>Doesn't do anything complicated; if <code>homingPower</code> larger then <code>0.01</code> it gets rendered in the UI, if <code>homingPower</code> is larger then <code>0.0001</code> it allows <code>homingRange</code> to work.</td>
-</tr>
-<tr>
-<td>homingRange</td>
-<td>float</td>
-<td>50</td>
-<td>How close the bullet needs from a target in order to home/seek said target.</td>
-</tr>
-<tr>
-<td>lightining</td>
-<td>int</td>
-<td>&#xa0;</td>
-<td>&#xa0;</td>
-</tr>
-<tr>
-<td>lightningLength</td>
-<td>int</td>
-<td>5</td>
-<td>&#xa0;</td>
-</tr>
-<tr>
-<td>hitShake</td>
-<td>float</td>
-<td>0</td>
-<td>&#xa0;</td>
-</tr>
-</tbody>
-</table>
-<h3 id="basicbullettype">BasicBulletType</h3>
-<p>Extends <a href="#bullettype">BulletType</a></p>
-<p>This types purpose is to give basic bullets their sprites. The <code>bulletSprite</code> will be used as the shape of the bullet. The visible pixels in your sprites will be tinted with <code>backColor</code> and <code>frontColor</code> respectively. For example if you had sprites <code>router.png</code> and <code>router-back.png</code> where <code>Test Mod</code> was your mods name, you could do this to include your <code>bulletSprite</code>:</p>
-<pre><code>{
-    "type": "BasicBulletType",
-    "bulletSprite": "test-mod-router"
-}
-</code></pre>
-<p><img alt="img" src="images/router-bullets.png" /></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>&#xa0;</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>bulletWidth</td>
-<td>float</td>
-<td>5</td>
-<td>&#xa0;</td>
-</tr>
-<tr>
-<td>bulletHeight</td>
-<td>float</td>
-<td>7</td>
-<td>&#xa0;</td>
-</tr>
-<tr>
-<td>bulletShrink</td>
-<td>float</td>
-<td>0.5</td>
-<td>Used to squishify the bullet as it gets closer to the target, where <code>0</code> is no shrink <code>-0.5</code> is stretching and <code>0.5</code> is shrinking.</td>
-</tr>
-<tr>
-<td>frontColor</td>
-<td><a href="#color">Color</a></td>
-<td>bulletYellow</td>
-<td>Color of front sprite.</td>
-</tr>
-<tr>
-<td>backColor</td>
-<td><a href="#color">Color</a></td>
-<td>bulletYellowBack</td>
-<td>Color of back sprite.</td>
-</tr>
-<tr>
-<td>bulletSprite</td>
-<td>String</td>
-<td>bullet</td>
-<td>Mapping sprite used to make the shape of the bullet.</td>
-</tr>
-</tbody>
-</table>
-<p>Sprites:</p>
-<ul>
-<li><code>&lt;mod-name&gt;-&lt;sprite-name&gt;</code> top layer <code>bulletSprite</code></li>
-<li><code>&lt;mod-name&gt;-&lt;sprite-name&gt;-back</code> bottom layer <code>bulletSprite</code></li>
-</ul>
-<p>Built-in <code>bulletSprites</code>:</p>
-<ul>
-<li><a href="https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/effects/bullet.png">bullet</a></li>
-<li><a href="https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/effects/bullet-back.png">bullet-back</a></li>
-<li><a href="https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/effects/missile.png">missile</a></li>
-<li><a href="https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/effects/missile-back.png">missile-back</a></li>
-<li><a href="https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/effects/shell.png">shell</a></li>
-<li><a href="https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/effects/shell-back.png">shell-back</a></li>
-</ul>
-<h3 id="built-in-bullets">Built-in Bullets</h3>
-<h2 id="effect_1">Effect</h2>
-<p>Type should be a <code>string</code>. You can't currently create custom effects. List of built-in effects are as follows:</p>
 <h2 id="targetpriority">TargetPriority</h2>
 <p>A higher ordinal means a higher priority. Higher priority blocks will always get targeted over those of lower priority, regardless of distance.</p>
 <ol>
