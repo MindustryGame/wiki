@@ -3578,6 +3578,38 @@
 </table>
 <h2 id="blockunloader">BlockUnloader</h2>
 <p><em>extends <a href="#blockloader">BlockLoader</a></em></p>
+<h2 id="buffereditembridge">BufferedItemBridge</h2>
+<p><em>extends <a href="#extendingitembridge">ExtendingItemBridge</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>timerAccept</td>
+<td>int</td>
+<td>2</td>
+<td></td>
+</tr>
+<tr>
+<td>speed</td>
+<td>float</td>
+<td>40.0</td>
+<td></td>
+</tr>
+<tr>
+<td>bufferCapacity</td>
+<td>int</td>
+<td>50</td>
+<td></td>
+</tr>
+</tbody>
+</table>
 <h2 id="burnergenerator">BurnerGenerator</h2>
 <p><em>extends <a href="#itemliquidgenerator">ItemLiquidGenerator</a></em></p>
 <table>
@@ -3650,40 +3682,6 @@
 </table>
 <h2 id="controlcenter">ControlCenter</h2>
 <p><em>extends <a href="#block">Block</a></em></p>
-<h2 id="extendingitembridge">ExtendingItemBridge</h2>
-<p><em>extends <a href="#itembridge">ItemBridge</a></em></p>
-<h2 id="buffereditembridge">BufferedItemBridge</h2>
-<p><em>extends <a href="#extendingitembridge">ExtendingItemBridge</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>timerAccept</td>
-<td>int</td>
-<td>2</td>
-<td></td>
-</tr>
-<tr>
-<td>speed</td>
-<td>float</td>
-<td>40.0</td>
-<td></td>
-</tr>
-<tr>
-<td>bufferCapacity</td>
-<td>int</td>
-<td>50</td>
-<td></td>
-</tr>
-</tbody>
-</table>
 <h2 id="conveyor">Conveyor</h2>
 <p><em>extends <a href="#block">Block</a></em></p>
 <table>
@@ -4458,6 +4456,8 @@
 </tr>
 </tbody>
 </table>
+<h2 id="extendingitembridge">ExtendingItemBridge</h2>
+<p><em>extends <a href="#itembridge">ItemBridge</a></em></p>
 <h2 id="forceprojector">ForceProjector</h2>
 <p><em>extends <a href="#block">Block</a></em></p>
 <table>
@@ -5089,55 +5089,7 @@ Liquids will take priority over items.</p>
 <tr>
 <td>heatDrawer</td>
 <td>Cons<TurretBuild></td>
-<td>tile -&gt; {</td>
-<td></td>
-</tr>
-<tr>
-<td>if (tile.heat &lt;= 0.00001f)</td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>return;</td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>Draw.color(heatColor, tile.heat);</td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>Draw.blend(Blending.additive);</td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>Draw.rect(heatRegion, tile.x + tr2.x, tile.y + tr2.y, tile.rotation - 90);</td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>Draw.blend();</td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>Draw.color();</td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>}</td>
-<td></td>
-<td></td>
+<td><code></td>
 <td></td>
 </tr>
 </tbody>
@@ -5629,9 +5581,6 @@ Liquids will take priority over items.</p>
 </tr>
 </tbody>
 </table>
-<h2 id="overlayfloor">OverlayFloor</h2>
-<p><em>extends <a href="#floor">Floor</a></em></p>
-<p>A type of floor that is overlaid on top of over floors.</p>
 <h2 id="oreblock">OreBlock</h2>
 <p><em>extends <a href="#overlayfloor">OverlayFloor</a></em></p>
 <p>An overlay ore for a specific item type.</p>
@@ -5741,6 +5690,9 @@ Liquids will take priority over items.</p>
 </tr>
 </tbody>
 </table>
+<h2 id="overlayfloor">OverlayFloor</h2>
+<p><em>extends <a href="#floor">Floor</a></em></p>
+<p>A type of floor that is overlaid on top of over floors.</p>
 <h2 id="payloadacceptor">PayloadAcceptor</h2>
 <p><em>extends <a href="#block">Block</a></em></p>
 <table>
@@ -6978,8 +6930,8 @@ Liquids will take priority over items.</p>
 </tbody>
 </table>
 <h1 id="effect">Effect</h1>
-<p>Built-in constants: 
-<code>none</code> <code>unitSpawn</code> <code>unitCapKill</code> <code>unitControl</code> <code>unitDespawn</code> <code>unitSpirit</code> <code>itemTransfer</code> <code>pointBeam</code> <code>pointHit</code> <code>lightning</code> <code>commandSend</code> <code>upgradeCore</code> <code>placeBlock</code> <code>tapBlock</code> <code>breakBlock</code> <code>select</code> <code>smoke</code> <code>fallSmoke</code> <code>unitWreck</code> <code>rocketSmoke</code> <code>rocketSmokeLarge</code> <code>magmasmoke</code> <code>spawn</code> <code>padlaunch</code> <code>vtolHover</code> <code>unitDrop</code> <code>unitLand</code> <code>unitLandSmall</code> <code>unitPickup</code> <code>landShock</code> <code>pickup</code> <code>greenBomb</code> <code>greenLaserCharge</code> <code>greenLaserChargeSmall</code> <code>healWaveDynamic</code> <code>healWave</code> <code>heal</code> <code>shieldWave</code> <code>shieldApply</code> <code>hitBulletSmall</code> <code>hitFuse</code> <code>hitBulletBig</code> <code>hitFlameSmall</code> <code>hitLiquid</code> <code>hitLancer</code> <code>hitMeltdown</code> <code>hitMeltHeal</code> <code>instBomb</code> <code>instTrail</code> <code>instShoot</code> <code>instHit</code> <code>hitLaser</code> <code>hitYellowLaser</code> <code>despawn</code> <code>flakExplosion</code> <code>plasticExplosion</code> <code>plasticExplosionFlak</code> <code>blastExplosion</code> <code>sapExplosion</code> <code>massiveExplosion</code> <code>artilleryTrail</code> <code>incendTrail</code> <code>missileTrail</code> <code>absorb</code> <code>flakExplosionBig</code> <code>burning</code> <code>fire</code> <code>fireSmoke</code> <code>steam</code> <code>fireballsmoke</code> <code>ballfire</code> <code>freezing</code> <code>melting</code> <code>wet</code> <code>muddy</code> <code>sapped</code> <code>sporeSlowed</code> <code>oily</code> <code>overdriven</code> <code>overclocked</code> <code>dropItem</code> <code>shockwave</code> <code>bigShockwave</code> <code>nuclearShockwave</code> <code>impactShockwave</code> <code>spawnShockwave</code> <code>explosion</code> <code>dynamicExplosion</code> <code>blockExplosion</code> <code>blockExplosionSmoke</code> <code>shootSmall</code> <code>shootHeal</code> <code>shootHealYellow</code> <code>shootSmallSmoke</code> <code>shootBig</code> <code>shootBig2</code> <code>shootBigSmoke</code> <code>shootBigSmoke2</code> <code>shootSmallFlame</code> <code>shootPyraFlame</code> <code>shootLiquid</code> <code>casing1</code> <code>casing2</code> <code>casing3</code> <code>casing4</code> <code>casing2Double</code> <code>casing3Double</code> <code>railShoot</code> <code>railTrail</code> <code>railHit</code> <code>lancerLaserShoot</code> <code>lancerLaserShootSmoke</code> <code>lancerLaserCharge</code> <code>lancerLaserChargeBegin</code> <code>lightningCharge</code> <code>sparkShoot</code> <code>lightningShoot</code> <code>thoriumShoot</code> <code>reactorsmoke</code> <code>nuclearsmoke</code> <code>cloudsmoke</code> <code>nuclearcloud</code> <code>impactsmoke</code> <code>impactcloud</code> <code>redgeneratespark</code> <code>generatespark</code> <code>fuelburn</code> <code>coreBurn</code> <code>plasticburn</code> <code>pulverize</code> <code>pulverizeRed</code> <code>pulverizeRedder</code> <code>pulverizeSmall</code> <code>pulverizeMedium</code> <code>producesmoke</code> <code>smokeCloud</code> <code>smeltsmoke</code> <code>formsmoke</code> <code>blastsmoke</code> <code>lava</code> <code>dooropen</code> <code>doorclose</code> <code>dooropenlarge</code> <code>doorcloselarge</code> <code>purify</code> <code>purifyoil</code> <code>purifystone</code> <code>generate</code> <code>mine</code> <code>mineBig</code> <code>mineHuge</code> <code>smelt</code> <code>teleportActivate</code> <code>teleport</code> <code>teleportOut</code> <code>ripple</code> <code>bubble</code> <code>launch</code> <code>launchPod</code> <code>healWaveMend</code> <code>overdriveWave</code> <code>healBlock</code> <code>healBlockFull</code> <code>overdriveBlockFull</code> <code>shieldBreak</code> <code>unitShieldBreak</code> <code>coreLand</code></p>
+<p>Built-in constants:  </p>
+<p><code>none</code> <code>unitSpawn</code> <code>unitCapKill</code> <code>unitControl</code> <code>unitDespawn</code> <code>unitSpirit</code> <code>itemTransfer</code> <code>pointBeam</code> <code>pointHit</code> <code>lightning</code> <code>commandSend</code> <code>upgradeCore</code> <code>placeBlock</code> <code>tapBlock</code> <code>breakBlock</code> <code>select</code> <code>smoke</code> <code>fallSmoke</code> <code>unitWreck</code> <code>rocketSmoke</code> <code>rocketSmokeLarge</code> <code>magmasmoke</code> <code>spawn</code> <code>padlaunch</code> <code>vtolHover</code> <code>unitDrop</code> <code>unitLand</code> <code>unitLandSmall</code> <code>unitPickup</code> <code>landShock</code> <code>pickup</code> <code>greenBomb</code> <code>greenLaserCharge</code> <code>greenLaserChargeSmall</code> <code>healWaveDynamic</code> <code>healWave</code> <code>heal</code> <code>shieldWave</code> <code>shieldApply</code> <code>hitBulletSmall</code> <code>hitFuse</code> <code>hitBulletBig</code> <code>hitFlameSmall</code> <code>hitLiquid</code> <code>hitLancer</code> <code>hitMeltdown</code> <code>hitMeltHeal</code> <code>instBomb</code> <code>instTrail</code> <code>instShoot</code> <code>instHit</code> <code>hitLaser</code> <code>hitYellowLaser</code> <code>despawn</code> <code>flakExplosion</code> <code>plasticExplosion</code> <code>plasticExplosionFlak</code> <code>blastExplosion</code> <code>sapExplosion</code> <code>massiveExplosion</code> <code>artilleryTrail</code> <code>incendTrail</code> <code>missileTrail</code> <code>absorb</code> <code>flakExplosionBig</code> <code>burning</code> <code>fire</code> <code>fireSmoke</code> <code>steam</code> <code>fireballsmoke</code> <code>ballfire</code> <code>freezing</code> <code>melting</code> <code>wet</code> <code>muddy</code> <code>sapped</code> <code>sporeSlowed</code> <code>oily</code> <code>overdriven</code> <code>overclocked</code> <code>dropItem</code> <code>shockwave</code> <code>bigShockwave</code> <code>nuclearShockwave</code> <code>impactShockwave</code> <code>spawnShockwave</code> <code>explosion</code> <code>dynamicExplosion</code> <code>blockExplosion</code> <code>blockExplosionSmoke</code> <code>shootSmall</code> <code>shootHeal</code> <code>shootHealYellow</code> <code>shootSmallSmoke</code> <code>shootBig</code> <code>shootBig2</code> <code>shootBigSmoke</code> <code>shootBigSmoke2</code> <code>shootSmallFlame</code> <code>shootPyraFlame</code> <code>shootLiquid</code> <code>casing1</code> <code>casing2</code> <code>casing3</code> <code>casing4</code> <code>casing2Double</code> <code>casing3Double</code> <code>railShoot</code> <code>railTrail</code> <code>railHit</code> <code>lancerLaserShoot</code> <code>lancerLaserShootSmoke</code> <code>lancerLaserCharge</code> <code>lancerLaserChargeBegin</code> <code>lightningCharge</code> <code>sparkShoot</code> <code>lightningShoot</code> <code>thoriumShoot</code> <code>reactorsmoke</code> <code>nuclearsmoke</code> <code>cloudsmoke</code> <code>nuclearcloud</code> <code>impactsmoke</code> <code>impactcloud</code> <code>redgeneratespark</code> <code>generatespark</code> <code>fuelburn</code> <code>coreBurn</code> <code>plasticburn</code> <code>pulverize</code> <code>pulverizeRed</code> <code>pulverizeRedder</code> <code>pulverizeSmall</code> <code>pulverizeMedium</code> <code>producesmoke</code> <code>smokeCloud</code> <code>smeltsmoke</code> <code>formsmoke</code> <code>blastsmoke</code> <code>lava</code> <code>dooropen</code> <code>doorclose</code> <code>dooropenlarge</code> <code>doorcloselarge</code> <code>purify</code> <code>purifyoil</code> <code>purifystone</code> <code>generate</code> <code>mine</code> <code>mineBig</code> <code>mineHuge</code> <code>smelt</code> <code>teleportActivate</code> <code>teleport</code> <code>teleportOut</code> <code>ripple</code> <code>bubble</code> <code>launch</code> <code>launchPod</code> <code>healWaveMend</code> <code>overdriveWave</code> <code>healBlock</code> <code>healBlockFull</code> <code>overdriveBlockFull</code> <code>shieldBreak</code> <code>unitShieldBreak</code> <code>coreLand</code></p>
 <h2 id="effect_1">Effect</h2>
 <p><em>extends <a href="#object">Object</a></em></p>
 <table>
@@ -7001,13 +6953,7 @@ Liquids will take priority over items.</p>
 <tr>
 <td>renderer</td>
 <td>Cons<EffectContainer></td>
-<td>e -&gt; {</td>
-<td></td>
-</tr>
-<tr>
-<td>}</td>
-<td></td>
-<td></td>
+<td><code></td>
 <td></td>
 </tr>
 <tr>
@@ -7350,8 +7296,8 @@ Liquids will take priority over items.</p>
 </tbody>
 </table>
 <h1 id="status">Status</h1>
-<p>Built-in constants: 
-<code>none</code> <code>burning</code> <code>freezing</code> <code>unmoving</code> <code>slow</code> <code>wet</code> <code>muddy</code> <code>melting</code> <code>sapped</code> <code>tarred</code> <code>overdrive</code> <code>overclock</code> <code>shielded</code> <code>shocked</code> <code>blasted</code> <code>corroded</code> <code>boss</code> <code>sporeSlowed</code></p>
+<p>Built-in constants:  </p>
+<p><code>none</code> <code>burning</code> <code>freezing</code> <code>unmoving</code> <code>slow</code> <code>wet</code> <code>muddy</code> <code>melting</code> <code>sapped</code> <code>tarred</code> <code>overdrive</code> <code>overclock</code> <code>shielded</code> <code>shocked</code> <code>blasted</code> <code>corroded</code> <code>boss</code> <code>sporeSlowed</code></p>
 <p><em>extends <a href="#mappablecontent">MappableContent</a></em></p>
 <table>
 <thead>
