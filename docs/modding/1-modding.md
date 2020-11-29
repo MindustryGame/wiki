@@ -91,7 +91,7 @@ At the root of your project directory, you must have a `mod.json` which defines 
     author: Yourself
     description: "Bbfashbjhcbabfhsbafbhajbf"
     version: "1.0"
-    minGameVersion: "118"
+    minGameVersion: "$latestRelease"
     dependencies: [ ]
     hidden: false
 
