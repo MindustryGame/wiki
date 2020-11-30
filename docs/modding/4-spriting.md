@@ -1,6 +1,6 @@
 # Spriting
 
-### Spriting is an essential part of mindustry modding, without it everything you've made in JSON, HJSON, or Script[JS] won't be visible
+### Spriting is an essential part of mindustry modding, without it everything you've made in JSON, HJSON, or Script [JS] won't be visible
 It is highly recomended that you have an image editting software that supports transparency.
 
 This includes but not limited to : 
@@ -17,7 +17,7 @@ The smallest block size you could make is `32×32` size , which is a 1×1 block,
 - `4×4` : `128×128`
 - `5×5` : `160×160`
 
-However you are not limited to those options, the game will still load sprites bigger or smaller than the block you've assigned, which can result in a unique looking sprite or a complete heresy.
+However you are not limited to those options, the game will still load sprites bigger or smaller than the block you've assigned it for, which can result in a unique looking sprite or an atrocity.
 
 ## Storing Sprites
 Sprites can simply be dropped in the `sprites/` subdirectory. The content parser will look through it recursively, so you can organize them how ever you feel. 
