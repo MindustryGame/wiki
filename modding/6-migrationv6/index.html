@@ -2527,6 +2527,13 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#tileentity-building" class="md-nav__link">
+    TileEntity -&gt; Building
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#array-seq" class="md-nav__link">
     Array -&gt; Seq
   </a>
@@ -3044,6 +3051,13 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#tileentity-building" class="md-nav__link">
+    TileEntity -&gt; Building
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#array-seq" class="md-nav__link">
     Array -&gt; Seq
   </a>
@@ -3096,6 +3110,10 @@ Simply add <code>minGameVersion: "119"</code> to your <code>mod.hjson</code> fil
 <h2 id="name-changes">Name Changes</h2>
 <h3 id="mindustrypluginplugin-mindustrymodplugin">mindustry.plugin.Plugin -&gt; mindustry.mod.Plugin</h3>
 <p>The <code>Plugin</code> class has been moved into the <code>mod</code> package, as the old package only contained a single class anyway.</p>
+<h3 id="tileentity-building">TileEntity -&gt; Building</h3>
+<p><code>TileEntity</code> is now <code>Building</code>.
+Thus, the former <code>TileEntity</code>'s functions, as well as any function associated with it(containing or mentioning "entity") have been renamed, now they will refer to the <code>TileEntity</code> to "building", or "build". <code>ent()</code> has been renamed to <code>bc()</code>, and all <code>TileEntity</code> instances (ex. <code>RouterEntity</code>, <code>ConveyorEntity</code>) were renamed to end with a "Build" suffix (ex. <code>RouterBuild</code>, <code>ConveyorBuild</code>), to name a few.  </p>
+<p>Many functions like <code>draw()</code> or <code>placed()</code> have moved from being declared in the <code>Block</code> to being so in <code>Building</code>. This means that these functions do not pass the <code>Tile</code>, as well as making block-specific behavior less complicated. Notably, <code>update(Tile tile)</code> has been moved to the <code>Building</code> and renamed (technically not true, but this detail can be ignored for porting) to <code>updateTile()</code>.</p>
 <h3 id="array-seq">Array<T> -&gt; Seq<T></h3>
 <p>The <code>arc.struct.Array</code> has been renamed to <code>arc.struct.Seq</code>, which is a short form of <code>Sequence</code>.  </p>
 <p>Why?</p>
