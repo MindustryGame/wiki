@@ -34,3 +34,11 @@ All remote invocation methods in `Call` have had their "on" prefix removed. For 
 - `onSetRules` -> `setRules`
 - `onLabel` -> `label`
 
+### New Player System
+
+Now that players control units, they no longer exist as corporeal beings in the game - that is to say, they do not have health or weapons. Every action is performed by `Unit`s. There is no `Mech`class anymore, only `UnitType`.
+
+- Every unit has a `UnitController`, which can be AI, logic, or a player.
+- To check if a unit is being controlled by a player, use `unit.isPlayer()`
+- To get the player of a unit (if it has one), use `unit.getPlayer()`
+- Setting a player's position will not do anything. Set the unit's position instead.
