@@ -16,6 +16,13 @@ Simply add `minGameVersion: "$latestRelease"` to your `mod.hjson` file.
 
 The `Plugin` class has been moved into the `mod` package, as the old package only contained a single class anyway.
 
+### TileEntity -> Building
+
+`TileEntity` is now `Building`.
+Thus, the former `TileEntity`'s functions, as well as any function associated with it(containing or mentioning "entity") have been renamed, now they will refer to the `TileEntity` to "building", or "build". `ent()` has been renamed to `bc()`, and all `TileEntity` instances (ex. `RouterEntity`, `ConveyorEntity`) were renamed to end with a "Build" suffix (ex. `RouterBuild`, `ConveyorBuild`), to name a few.  
+
+Many functions like `draw()` or `placed()` have moved from being declared in the `Block` to being so in `Building`. This means that these functions do not pass the `Tile`, as well as making block-specific behavior less complicated. Notably, `update(Tile tile)` has been moved to the `Building` and renamed (technically not true, but this detail can be ignored for porting) to `updateTile()`.
+
 ### Array<T> -> Seq<T>
 
 The `arc.struct.Array` has been renamed to `arc.struct.Seq`, which is a short form of `Sequence`.  
