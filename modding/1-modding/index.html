@@ -3210,7 +3210,7 @@ displayName: "This isn't a mod."
 author: Yourself
 description: "Bbfashbjhcbabfhsbafbhajbf"
 version: "1.0"
-minGameVersion: "120"
+minGameVersion: "120.3"
 dependencies: [ ]
 hidden: false
 </code></pre>
@@ -3321,7 +3321,7 @@ You can also use this to create sprites with nice short names like <code>cat</co
 <p>Custom sounds can be added through the modding system by dropping them in the <code>sounds/</code> subdirectory. It doesn't matter where you put them after that. Two formats are supported: <code>ogg</code> and <code>mp3</code>. Note that <code>mp3</code> files cannot loop seamlessly, so try to use <code>ogg</code> whenever possible.</p>
 <p>Just like any other assets, you reference them by the stem of your filenames, so <code>pewpew.ogg</code> and <code>pewpew.mp3</code> can be referenced with <code>pewpew</code> from a field of type <code>Sound</code>.</p>
 <p>Here's a list of built-in sounds:</p>
-<p><code>plasmadrop</code> <code>thruster</code> <code>rain</code> <code>buttonClick</code> <code>drill</code> <code>pew</code> <code>build</code> <code>flame</code> <code>bigshot</code> <code>smelter</code> <code>lasercharge</code> <code>pulse</code> <code>wind2</code> <code>press</code> <code>message</code> <code>unlock</code> <code>back</code> <code>wave</code> <code>tractorbeam</code> <code>pew_</code> <code>windowHide</code> <code>click</code> <code>door</code> <code>corexplode</code> <code>minebeam</code> <code>plasmaboom</code> <code>shootBig</code> <code>grinding</code> <code>bang</code> <code>fire</code> <code>mud</code> <code>spark</code> <code>conveyor</code> <code>laser</code> <code>combustion</code> <code>railgun</code> <code>beam</code> <code>breaks</code> <code>steam</code> <code>sap</code> <code>respawn</code> <code>explosion</code> <code>missile</code> <code>flame2</code> <code>hum</code> <code>noammo</code> <code>shield</code> <code>explosionbig</code> <code>spray</code> <code>machine</code> <code>release</code> <code>splash</code> <code>techloop</code> <code>wind</code> <code>artillery</code> <code>boom</code> <code>shootSnap</code> <code>laserbig</code> <code>shoot</code> <code>cutter</code> <code>place</code> <code>swish</code> <code>windhowl</code> <code>lasershoot</code> <code>shotgun</code> <code>respawning</code> <code>laserblast</code> <code>lasercharge2</code> <code>none</code></p>
+<p><code>pew</code> <code>respawn</code> <code>explosionbig</code> <code>machine</code> <code>shootSnap</code> <code>minebeam</code> <code>combustion</code> <code>wind</code> <code>laserbig</code> <code>lasercharge</code> <code>unlock</code> <code>back</code> <code>message</code> <code>press</code> <code>respawning</code> <code>windhowl</code> <code>bang</code> <code>noammo</code> <code>build</code> <code>wave</code> <code>lasershoot</code> <code>spray</code> <code>conveyor</code> <code>place</code> <code>pew_</code> <code>laserblast</code> <code>techloop</code> <code>grinding</code> <code>laser</code> <code>tractorbeam</code> <code>thruster</code> <code>door</code> <code>shotgun</code> <code>bigshot</code> <code>mud</code> <code>corexplode</code> <code>cutter</code> <code>drill</code> <code>buttonClick</code> <code>windowHide</code> <code>lasercharge2</code> <code>shootBig</code> <code>swish</code> <code>beam</code> <code>sap</code> <code>fire</code> <code>shoot</code> <code>rain</code> <code>breaks</code> <code>flame2</code> <code>pulse</code> <code>boom</code> <code>flame</code> <code>steam</code> <code>missile</code> <code>spark</code> <code>smelter</code> <code>plasmadrop</code> <code>plasmaboom</code> <code>wind2</code> <code>artillery</code> <code>railgun</code> <code>shield</code> <code>release</code> <code>splash</code> <code>click</code> <code>explosion</code> <code>hum</code> <code>none</code></p>
 <h2 id="dependencies">Dependencies</h2>
 <p>You can add dependencies to your mod by simple adding other mods name in your <code>mod.json</code>:</p>
 <pre><code>dependencies: [
@@ -3359,14 +3359,14 @@ block.example-mod-silver-wall.description = Стена из серебра.
 <p>List of content types:</p>
 <p><code>item</code> <code>block</code> <code>bullet</code> <code>liquid</code> <code>status</code> <code>unit</code> <code>weather</code> <code>sector</code> <code>error</code> <code>planet</code> <code>ammo</code></p>
 <p>List of bundle suffixes relative to languages:</p>
-<p><code>en</code> <code>et</code> <code>ru</code> <code>fr_BE</code> <code>fil</code> <code>de</code> <code>es</code> <code>hu</code> <code>uk_UA</code> <code>sv</code> <code>pl</code> <code>nl</code> <code>pt_PT</code> <code>nl_BE</code> <code>ja</code> <code>it</code> <code>in_ID</code> <code>zh_TW</code> <code>eu</code> <code>ko</code> <code>ro</code> <code>be</code> <code>cs</code> <code>da</code> <code>tk</code> <code>th</code> <code>fr</code> <code>fi</code> <code>pt_BR</code> <code>lt</code> <code>zh_CN</code> <code>tr</code></p>
+<p><code>en</code> <code>cs</code> <code>da</code> <code>ko</code> <code>nl</code> <code>tr</code> <code>lt</code> <code>fi</code> <code>ro</code> <code>pt_PT</code> <code>eu</code> <code>vi</code> <code>fr</code> <code>it</code> <code>pl</code> <code>uk_UA</code> <code>tk</code> <code>fil</code> <code>et</code> <code>hu</code> <code>in_ID</code> <code>zh_TW</code> <code>sv</code> <code>zh_CN</code> <code>th</code> <code>be</code> <code>nl_BE</code> <code>fr_BE</code> <code>ja</code> <code>pt_BR</code> <code>de</code> <code>es</code> <code>ru</code></p>
 <h2 id="github">GitHub</h2>
 <p>Once you have a mod of some kind, you'll want to actually share it, and you may even want to work with other people on it, and to do that you can use <a href="https://github.com/">GitHub</a>. If you don't know what Git (or GitHub) is at all, then you should look into <a href="https://desktop.github.com/">GitHub Desktop</a>, otherwise simply use your favorite command line tool or text editor plugin. </p>
 <p>All you need understand is how to open repositories on GitHub, stage and commit changes in your local repository, and push changes to the GitHub repository. Once your project is on GitHub, there are three ways to share it:</p>
 <ul>
 <li>with the endpoint, for example <code>Anuken/ExampleMod</code>, which could then be typed in the ingame GitHub interface, and that would download it;</li>
 <li>with the zip file, for example <code>https://github.com/Anuken/ExampleMod/archive/master.zip</code>, which would download the repository as a zip file, and put in mod directory (unzipping is not required);</li>
-<li>add the topic/tag <code>mindustry-mod</code> on your repository, which should add it to the topic search and the (Mod scraper)[https://github.com/Anuken/MindustryMods].</li>
+<li>add the topic/tag <code>mindustry-mod</code> on your repository, which should add it to the topic search and the <a href="https://github.com/Anuken/MindustryMods">Mod scraper</a>.</li>
 </ul>
 <h2 id="faq">FAQ</h2>
 <ul>
