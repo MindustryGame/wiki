@@ -280,7 +280,7 @@ All you need understand is how to open repositories on GitHub, stage and commit 
 
 -   with the endpoint, for example `Anuken/ExampleMod`, which could then be typed in the ingame GitHub interface, and that would download it;
 -   with the zip file, for example `https://github.com/Anuken/ExampleMod/archive/master.zip`, which would download the repository as a zip file, and put in mod directory (unzipping is not required);
--   add the topic/tag `mindustry-mod` on your repository, which should add it to the topic search and the (Mod scraper)[https://github.com/Anuken/MindustryMods].
+-   add the topic/tag `mindustry-mod` on your repository, which should add it to the topic search and the [Mod scraper](https://github.com/Anuken/MindustryMods).
 
 
 
