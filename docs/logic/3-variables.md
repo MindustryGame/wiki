@@ -112,7 +112,7 @@ This can be a little hard to understand, so here are some examples:
 
 You can also view each linked building's "constant name" over them when the processor is selected.
 
-<img src="/wiki-testing/images/misc/logic-variables-constants-links-linkedBuilding.png">
+<img src="/wiki/images/misc/logic-variables-constants-links-linkedBuilding.png">
 
 ### Misc
 
