@@ -56,7 +56,7 @@ Example: `@toxopid`
 
 *A full list is shown under the pencil button in the "Unit Bind" instruction block.*
 
-<img src="/wiki-testing/images/misc/logic-glossary-unitType-unitBind.png">
+<img src="/wiki/images/misc/logic-glossary-unitType-unitBind.png">
 
 ### Senseable
 
@@ -66,7 +66,7 @@ Examples: `@scrap`, `@slag`, `@totalAmmo`
 
 *A full list is shown under the pencil button in the "Sensor" instruction block.*
 
-<img src="/wiki-testing/images/misc/logic-glossary-senseable-sensor.png">
+<img src="/wiki/images/misc/logic-glossary-senseable-sensor.png">
 
 ### Target
 
@@ -74,7 +74,7 @@ A trait to filter a unit or block target by. Primarily used in `radar`, `uradar`
 
 *A full list is shown by pressing parameters after "target" in `radar` and `uradar`, or "find" and "type" in `uradar`.*
 
-<img src="/wiki-testing/images/misc/logic-glossary-target-radar.png">
+<img src="/wiki/images/misc/logic-glossary-target-radar.png">
 
 ### Op
 
@@ -82,7 +82,7 @@ A mathematical operation. *This is different from the `op` instruction.*
 
 *A full list is shown under the "+" button in the "Operation" instruction block.*
 
-<img src="/wiki-testing/images/misc/logic-glossary-op-operation.png">
+<img src="/wiki/images/misc/logic-glossary-op-operation.png">
 
 For the more complex ones, you can Google "<operation name\> Java math".
 
@@ -92,4 +92,4 @@ A comparison. Primarily used in the `jump` instruction when comparing two values
 
 *A full list is shown under the comparison button in the "Jump" instruction block.*
 
-<img src="/wiki-testing/images/misc/logic-glossary-comp-jump.png">
+<img src="/wiki/images/misc/logic-glossary-comp-jump.png">
