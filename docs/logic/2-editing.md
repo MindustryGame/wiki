@@ -13,7 +13,7 @@ The advantages of editing this way as opposed to editing manually are:
 * Visual, easy-to-set jump relationships
 * Mobile-friendly
 
-<img src="/wiki-testing/images/misc/logic-editing-visualEditor-overview.png">
+<img src="/wiki/images/misc/logic-editing-visualEditor-overview.png">
 
 You can also export and import code to and from text form.
 
@@ -26,7 +26,7 @@ The advantages of manually editing code as opposed to the Visual Editor are:
 * Denser than the Visual Editor; more code can be seen at a time
 * Typing is faster than dragging-and-dropping across long walls of code
 * Can be used to make quick pieces of code for demonstration without opening Mindustry
-* Syntax highlighting in some editors such as VS Code (by Vortetty on Discord)
+* Syntax highlighting in some editors, such as [VS Code (plugin)](https://marketplace.visualstudio.com/items?itemName=vortetty.masm) and [Vim (plugin)](https://github.com/purofle/vim-mindustry-logic)
 * A text block does not block part of the parameter text
 * Ability to save and access code outside of Mindustry
 
