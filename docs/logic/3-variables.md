@@ -125,3 +125,11 @@ This presents a core part of unit control in mlog; **only one unit can be bound 
 #### @time `constant` `number`
 
 Represents the current UNIX timestamp *in milliseconds*.
+
+#### @mapw `constant` `number`
+
+Width of the map, in tiles.
+
+#### @maph `constant` `number`
+
+Height of the map, in tiles.
