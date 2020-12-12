@@ -12,6 +12,25 @@ Simply add `minGameVersion: "$latestRelease"` to your `mod.hjson` file.
 
 ## Name Changes
 
+### Variable name changes
+
+Lots of variables had name changes between v5 and v6, here's a list of all of them.
+
+`ItemTurret`:
+
+- `ammo` -> `ammoTypes`
+- `reload` -> `reloadTime`
+
+`ArtilleryTurret` and `BurstTurret`:
+
+- They don't exist anymore. Use `ItemTurret` instead.
+
+`BasicBulletType`:
+
+- `bulletWidth` -> `width`
+- `bulletHeight` -> `height`
+- `bulletSprite` -> `sprite`
+
 ### mindustry.plugin.Plugin -> mindustry.mod.Plugin
 
 The `Plugin` class has been moved into the `mod` package, as the old package only contained a single class anyway.
