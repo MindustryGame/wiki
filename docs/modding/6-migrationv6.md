@@ -12,28 +12,22 @@ Simply add `minGameVersion: "$latestRelease"` to your `mod.hjson` file.
 
 ## Name Changes
 
-### Variable name changes
-
-Lots of variables had name changes between v5 and v6, here's a list of all of them.
+### Variable & Class name changes
 
 `ItemTurret`:
 
 - `ammo` -> `ammoTypes`
 - `reload` -> `reloadTime`
 
-`ArtilleryTurret` and `BurstTurret`:
+`ArtilleryTurret`, `BurstTurret`, `ChargeTurret`:
 
-- They don't exist anymore. Use `ItemTurret` instead.
+- Removed. Use `ItemTurret` or `PowerTurret` instead; all the functionality has been merged into the base classes.
 
 `BasicBulletType`:
 
 - `bulletWidth` -> `width`
 - `bulletHeight` -> `height`
 - `bulletSprite` -> `sprite`
-
-### mindustry.plugin.Plugin -> mindustry.mod.Plugin
-
-The `Plugin` class has been moved into the `mod` package, as the old package only contained a single class anyway.
 
 ### TileEntity -> Building
 
@@ -51,6 +45,10 @@ Why?
 - It's more accurate. The data structure is not an array, it's a list like `ArrayList`.
 - It doesn't conflict with other classes named `Array`, such as those in Java's reflection API or Javascript's array.
 - It's shorter, which is nice.
+
+### mindustry.plugin.Plugin -> mindustry.mod.Plugin
+
+The `Plugin` class has been moved into the `mod` package, as the old package only contained a single class anyway.
 
 ### Removal of "on" prefix for Call methods
 
