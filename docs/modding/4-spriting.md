@@ -24,7 +24,7 @@ Sprites can simply be dropped in the `sprites/` subdirectory. The content parser
 
 The game will look for sprites relative to it's own name. `content/blocks/test-turret.json` has the name `test-turret` and similarly `sprites/test-turret.png` has the name `test turret`, so it'll be used by this content.
 
-Some sprites will be slightly modified by the game. Both turrets and unit will have a black border added to them, so you must account for that while making your sprites, leaving transparent space around turrets
+Some sprites will be slightly modified by the game. Both turrets and units will have a black border added to them, so you must account for that while making your sprites, leaving transparent space around turrets.
 
 ### Overriding
 
