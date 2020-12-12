@@ -2520,15 +2520,8 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#variable-name-changes" class="md-nav__link">
-    Variable name changes
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#mindustrypluginplugin-mindustrymodplugin" class="md-nav__link">
-    mindustry.plugin.Plugin -&gt; mindustry.mod.Plugin
+  <a href="#variable-class-name-changes" class="md-nav__link">
+    Variable &amp; Class name changes
   </a>
   
 </li>
@@ -2543,6 +2536,13 @@
           <li class="md-nav__item">
   <a href="#array-seq" class="md-nav__link">
     Array -&gt; Seq
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mindustrypluginplugin-mindustrymodplugin" class="md-nav__link">
+    mindustry.plugin.Plugin -&gt; mindustry.mod.Plugin
   </a>
   
 </li>
@@ -3051,15 +3051,8 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#variable-name-changes" class="md-nav__link">
-    Variable name changes
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#mindustrypluginplugin-mindustrymodplugin" class="md-nav__link">
-    mindustry.plugin.Plugin -&gt; mindustry.mod.Plugin
+  <a href="#variable-class-name-changes" class="md-nav__link">
+    Variable &amp; Class name changes
   </a>
   
 </li>
@@ -3074,6 +3067,13 @@
           <li class="md-nav__item">
   <a href="#array-seq" class="md-nav__link">
     Array -&gt; Seq
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mindustrypluginplugin-mindustrymodplugin" class="md-nav__link">
+    mindustry.plugin.Plugin -&gt; mindustry.mod.Plugin
   </a>
   
 </li>
@@ -3122,16 +3122,15 @@ This is due to numerous internal changes and additions, which will be documented
 <p>All mods must now specify <code>minGameVersion</code> with a value of "105" or above to be loaded. This is to ensure that outdated mods do not get loaded.
 Simply add <code>minGameVersion: "121.2"</code> to your <code>mod.hjson</code> file.</p>
 <h2 id="name-changes">Name Changes</h2>
-<h3 id="variable-name-changes">Variable name changes</h3>
-<p>Lots of variables had name changes between v5 and v6, here's a list of all of them.</p>
+<h3 id="variable-class-name-changes">Variable &amp; Class name changes</h3>
 <p><code>ItemTurret</code>:</p>
 <ul>
 <li><code>ammo</code> -&gt; <code>ammoTypes</code></li>
 <li><code>reload</code> -&gt; <code>reloadTime</code></li>
 </ul>
-<p><code>ArtilleryTurret</code> and <code>BurstTurret</code>:</p>
+<p><code>ArtilleryTurret</code>, <code>BurstTurret</code>, <code>ChargeTurret</code>:</p>
 <ul>
-<li>They don't exist anymore. Use <code>ItemTurret</code> instead.</li>
+<li>Removed. Use <code>ItemTurret</code> or <code>PowerTurret</code> instead; all the functionality has been merged into the base classes.</li>
 </ul>
 <p><code>BasicBulletType</code>:</p>
 <ul>
@@ -3139,8 +3138,6 @@ Simply add <code>minGameVersion: "121.2"</code> to your <code>mod.hjson</code> f
 <li><code>bulletHeight</code> -&gt; <code>height</code></li>
 <li><code>bulletSprite</code> -&gt; <code>sprite</code></li>
 </ul>
-<h3 id="mindustrypluginplugin-mindustrymodplugin">mindustry.plugin.Plugin -&gt; mindustry.mod.Plugin</h3>
-<p>The <code>Plugin</code> class has been moved into the <code>mod</code> package, as the old package only contained a single class anyway.</p>
 <h3 id="tileentity-building">TileEntity -&gt; Building</h3>
 <p><code>TileEntity</code> is now <code>Building</code>.
 Thus, the former <code>TileEntity</code>'s functions, as well as any function associated with it(containing or mentioning "entity") have been renamed, now they will refer to the <code>TileEntity</code> to "building", or "build". <code>Tile.entity</code> has been renamed to <code>Tile.build</code>, and all <code>TileEntity</code> instances (ex. <code>RouterEntity</code>, <code>ConveyorEntity</code>) were renamed to end with a "Build" suffix (ex. <code>RouterBuild</code>, <code>ConveyorBuild</code>), to name a few.  </p>
@@ -3153,6 +3150,8 @@ Thus, the former <code>TileEntity</code>'s functions, as well as any function as
 <li>It doesn't conflict with other classes named <code>Array</code>, such as those in Java's reflection API or Javascript's array.</li>
 <li>It's shorter, which is nice.</li>
 </ul>
+<h3 id="mindustrypluginplugin-mindustrymodplugin">mindustry.plugin.Plugin -&gt; mindustry.mod.Plugin</h3>
+<p>The <code>Plugin</code> class has been moved into the <code>mod</code> package, as the old package only contained a single class anyway.</p>
 <h3 id="removal-of-on-prefix-for-call-methods">Removal of "on" prefix for Call methods</h3>
 <p>All remote invocation methods in <code>Call</code> have had their "on" prefix removed. For example:</p>
 <ul>
