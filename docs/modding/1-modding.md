@@ -150,7 +150,7 @@ What you can expect a field to do is up to the specific type, some types do abso
 
 Here you can see, the type of the top level object is `Revenant`, but the type of the `bullet` is `BulletType` so you can use `MissileBulletType`, because `MissileBulletType` extends `BulletType`.
 
-    type: Revenant
+    type: UnitType
     weapons: [
       {
         bullet: {
