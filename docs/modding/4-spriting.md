@@ -35,7 +35,7 @@ The game also have the capability to look for multiple sprites for a single bloc
 
 For turrets, depending on its type, the game could look for the suffix `<name>-heat` and it means that it'll look for `test-turret-heat.png`.
 
-For blocks and crafters/smelters this could include `<name>-top` , `<name>-liquid`, etc. which will be documented in their own section
+For blocks and crafters/smelters this could include `<name>-top`, `<name>-liquid`, etc. which will be documented in their own section.
 
 ## Color Pallete
 
