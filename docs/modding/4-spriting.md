@@ -1,7 +1,7 @@
 # Spriting
 
 ### Spriting is an essential part of mindustry modding, without it everything you've made in JSON, HJSON, or Script [JS] won't be visible
-It is highly recomended that you have an image editting software that supports transparency.
+It is highly recomended that you have an image editing software that supports transparency.
 
 This includes but not limited to : 
   - Aseprite 
