@@ -16,15 +16,20 @@ Simply add `minGameVersion: "$latestRelease"` to your `mod.hjson` file.
 
 Lots of variables had name changes between v5 and v6, here's a list of all of them.
 
-ItemTurret:
+`ItemTurret`:
 
-- ammo -> ammoTypes
+- `ammo` -> `ammoTypes`
+- `reload` -> `reloadTime`
 
-BasicBulletType:
+`ArtilleryTurret` and `BurstTurret`:
 
-- bulletWidth -> width
-- bulletHeight -> height
-- bulletSprite -> sprite
+- They don't exist anymore. Use `ItemTurret` instead.
+
+`BasicBulletType`:
+
+- `bulletWidth` -> `width`
+- `bulletHeight` -> `height`
+- `bulletSprite` -> `sprite`
 
 ### mindustry.plugin.Plugin -> mindustry.mod.Plugin
 
