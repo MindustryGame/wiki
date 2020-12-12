@@ -18,7 +18,6 @@ Your project directory should look something like this:
     ├── content
     │   ├── items
     │   ├── blocks
-    │   ├── mechs
     │   ├── liquids
     │   └── units
     ├── maps
@@ -146,20 +145,21 @@ Types *extend* each other, so if `MissileBulletType` extends `BasicBulletType`, 
 
 What you can expect a field to do is up to the specific type, some types do absolutely nothing with their fields, and work mostly as a base types will extend from. One such type is `Block`.
 
-`type` can be refer to the actual type field of the object. A type may also refer to other things like `float` is a type so it means you can type `0.3` in a field.
+In this unit example, the type of the unit is `flying`. The type of the `bullet` is `BulletType`, so you can use `MissileBulletType`, because `MissileBulletType` extends `BulletType`.
 
-Here you can see, the type of the top level object is `Revenant`, but the type of the `bullet` is `BulletType` so you can use `MissileBulletType`, because `MissileBulletType` extends `BulletType`.
+One could also use `mech`, `legs`, `naval` or `payload` as the unit type here.
 
-    type: Revenant
-    weapons: [
-      {
-        bullet: {
-          type: MissileBulletType
-          damage: 9000
-        }
-      }
-    ]
-
+```hjson
+type: flying
+weapons: [
+  {
+    bullet: {
+      type: MissileBulletType
+      damage: 9000
+    }
+  }
+]
+```
 
 
 ## Tech Tree
