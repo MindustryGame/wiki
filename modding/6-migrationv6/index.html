@@ -2520,6 +2520,13 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
+  <a href="#variable-name-changes" class="md-nav__link">
+    Variable name changes
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#mindustrypluginplugin-mindustrymodplugin" class="md-nav__link">
     mindustry.plugin.Plugin -&gt; mindustry.mod.Plugin
   </a>
@@ -3044,6 +3051,13 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
+  <a href="#variable-name-changes" class="md-nav__link">
+    Variable name changes
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#mindustrypluginplugin-mindustrymodplugin" class="md-nav__link">
     mindustry.plugin.Plugin -&gt; mindustry.mod.Plugin
   </a>
@@ -3108,6 +3122,23 @@ This is due to numerous internal changes and additions, which will be documented
 <p>All mods must now specify <code>minGameVersion</code> with a value of "105" or above to be loaded. This is to ensure that outdated mods do not get loaded.
 Simply add <code>minGameVersion: "121.2"</code> to your <code>mod.hjson</code> file.</p>
 <h2 id="name-changes">Name Changes</h2>
+<h3 id="variable-name-changes">Variable name changes</h3>
+<p>Lots of variables had name changes between v5 and v6, here's a list of all of them.</p>
+<p><code>ItemTurret</code>:</p>
+<ul>
+<li><code>ammo</code> -&gt; <code>ammoTypes</code></li>
+<li><code>reload</code> -&gt; <code>reloadTime</code></li>
+</ul>
+<p><code>ArtilleryTurret</code> and <code>BurstTurret</code>:</p>
+<ul>
+<li>They don't exist anymore. Use <code>ItemTurret</code> instead.</li>
+</ul>
+<p><code>BasicBulletType</code>:</p>
+<ul>
+<li><code>bulletWidth</code> -&gt; <code>width</code></li>
+<li><code>bulletHeight</code> -&gt; <code>height</code></li>
+<li><code>bulletSprite</code> -&gt; <code>sprite</code></li>
+</ul>
 <h3 id="mindustrypluginplugin-mindustrymodplugin">mindustry.plugin.Plugin -&gt; mindustry.mod.Plugin</h3>
 <p>The <code>Plugin</code> class has been moved into the <code>mod</code> package, as the old package only contained a single class anyway.</p>
 <h3 id="tileentity-building">TileEntity -&gt; Building</h3>
