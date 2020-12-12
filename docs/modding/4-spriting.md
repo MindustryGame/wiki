@@ -10,7 +10,7 @@ This includes but not limited to:
   - Paint.net
 
 ## Size
-The smallest block size you could make is `32×32` size , which is a 1×1 block, making bigger block means increasing the sprite size by additional `32` , so a 2×2 block is `64×64` and so on, this applies to both turrets and blocks.
+The smallest block size you could make is `32×32` size, which is a 1×1 block, making bigger block means increasing the sprite size by additional `32`, so a 2×2 block is `64×64` and so on, this applies to both turrets and blocks.
 - `1×1` : `32×32`
 - `2×2` : `64×64`
 - `3×3` : `96×96`
