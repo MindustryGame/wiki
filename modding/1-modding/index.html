@@ -3144,7 +3144,6 @@ To make mods all you really need is any computer with a text editor.</p>
 ├── content
 │   ├── items
 │   ├── blocks
-│   ├── mechs
 │   ├── liquids
 │   └── units
 ├── maps
@@ -3273,9 +3272,9 @@ description: Description of thing.
 <p>Types have numerous fields, but the important one is <code>type</code>; this is a special field used by the content parser, that changes which type your object is. <em>A <code>Router</code> type can't be a <code>Turret</code> type</em>, as they're just completely different.</p>
 <p>Types <em>extend</em> each other, so if <code>MissileBulletType</code> extends <code>BasicBulletType</code>, you'll have access to all the fields of <code>BasicBulletType</code> inside of <code>MissileBulletType</code> like <code>damage</code>, <code>lifetime</code> and <code>speed</code>. Fields are case sensitive: <code>hitSize =/= hitsize</code>.</p>
 <p>What you can expect a field to do is up to the specific type, some types do absolutely nothing with their fields, and work mostly as a base types will extend from. One such type is <code>Block</code>.</p>
-<p><code>type</code> can be refer to the actual type field of the object. A type may also refer to other things like <code>float</code> is a type so it means you can type <code>0.3</code> in a field.</p>
-<p>Here you can see, the type of the top level object is <code>Revenant</code>, but the type of the <code>bullet</code> is <code>BulletType</code> so you can use <code>MissileBulletType</code>, because <code>MissileBulletType</code> extends <code>BulletType</code>.</p>
-<pre><code>type: Revenant
+<p>In this unit example, the type of the unit is <code>flying</code>. The type of the <code>bullet</code> is <code>BulletType</code>, so you can use <code>MissileBulletType</code>, because <code>MissileBulletType</code> extends <code>BulletType</code>.</p>
+<p>One could also use <code>mech</code>, <code>legs</code>, <code>naval</code> or <code>payload</code> as the unit type here.</p>
+<pre><code class="language-hjson">type: flying
 weapons: [
   {
     bullet: {
