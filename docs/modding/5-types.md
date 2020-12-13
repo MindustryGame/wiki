@@ -93,7 +93,7 @@ Color is a hexadecimal string, `<rr><gg><bb>` for example:
 -   `0000ff` is blue,
 -   `ffff00` is yellow,
 -   `00ffff` is cyan,
--   *ect..*
+-   etc.
 
 
 
