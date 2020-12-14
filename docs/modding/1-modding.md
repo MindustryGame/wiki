@@ -192,8 +192,8 @@ All you need to make sprites, is an image editor that supports transparency *(ak
 
 If any of them are not 32-bit RGBA formatted, fix them.
 
-Sprites can simply be dropped in the `sprites/` subdirectory. The content parser will look through it recursively, so you can organize them how ever you feel, once their first directory is correct.
-Sprites are packed into an "atlas" that is very efficient for rendering. The first directory in `sprites/`, e.g. `sprites/blocks`, determines the page in this atlas that sprites are put in. Putting a block's sprite in the `units` page is likely to cause lots of lag, just put it in a similar path to vanilla's sprites at <https://github.com/Anuken/Mindustry/tree/master/core/assets-raw/sprites>.
+Sprites can simply be dropped in the `sprites/` subdirectory. The content parser will look through it recursively.
+Images are packed into an "atlas" for efficient for rendering. The first directory in `sprites/`, e.g. `sprites/blocks`, determines the page in this atlas that sprites are put in. Putting a block's sprite in the `units` page is likely to cause lots of lag; thus, you should try to organize things similarly to how the [vanilla game does](https://github.com/Anuken/Mindustry/tree/master/core/assets-raw/sprites).
 
 Content is going to look for sprites relative to it's own name. `content/blocks/my-hail.json` has the name `my-hail` and similarly `sprites/my-hail.png` has the name `my-hail`, so it'll be used by this content.
 
