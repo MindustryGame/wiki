@@ -20,15 +20,24 @@ The smallest block size you could make is `32×32` size, which is a 1×1 block, 
 However you are not limited to those options, the game will still load sprites bigger or smaller than the block you've assigned it for, which can result in a unique looking sprite or an atrocity.
 
 ## Storing Sprites
-Sprites can simply be dropped in the `sprites/` subdirectory. The content parser will look through it recursively, so you can organize them how ever you feel. 
+Sprites can simply be dropped in the `sprites/` subdirectory. The content parser will look through it recursively. 
 
+Of course you need to organize it as well, as explained by Anuke :
+> Images are packed into an "atlas" for efficient for rendering. The first directory in sprites/, e.g. sprites/blocks, determines the page in this atlas that sprites are put in. Putting a block's sprite in the units page is likely to cause lots of lag; thus, you should try to organize things similarly to how the vanilla game does.
 The game will look for sprites relative to its own name. `content/blocks/test-turret.json` has the name `test-turret` and similarly `sprites/test-turret.png` has the name `test-turret`, so it'll be used by this content.
+
+To put this simply, the game will look for 3 kinds of sprites, blocks, units, & items, thus the sprites you've made should be placed into their own subfolder.
+- Blocks should be stored in `sprites/blocks`
+- Units should be stored in `sprites/units`
+- Items should be stored in `sprites/items`
 
 Some sprites will be slightly modified by the game. Both turrets and units will have a black border added to them, so you must account for that while making your sprites, leaving transparent space around turrets.
 
+Same thing applies with overriding sprites.
+
 ### Overriding
 
-Overidding existing sprites is possible, for this sprites must be put on `sprites-override/`
+Overidding existing sprites is possible, for this sprites must be placed at `sprites-override/`
 
 ## Suffixes
 The game also have the capability to look for multiple sprites for a single block.
@@ -77,11 +86,12 @@ Just like every game out there, Mindustry has its own color palette, it is highl
  ![#BC5452](https://via.placeholder.com/15/BC5452/000000?text=+) `#BC5452` Dark
   - ![#FFF3D6](https://via.placeholder.com/15/FFF3D6/000000?text=+) `#FFF3D6` Light | ![#FFD59E](https://via.placeholder.com/15/FFD59E/000000?text=+) `#FFD59E` Medium | 
  ![#F19583](https://via.placeholder.com/15/F19583/000000?text=+) `#F19583` Dark
-- Purple
+- Purple | Pink
   - ![#AB99D3](https://via.placeholder.com/15/AB99D3/000000?text=+) `#AB99D3` Light | ![#8C7FA9](https://via.placeholder.com/15/8C7FA9/000000?text=+) `#8C7FA9` Medium | 
  ![#6F687E](https://via.placeholder.com/15/6F687E/000000?text=+) `#6F687E` Dark 
   - ![#BF92F9](https://via.placeholder.com/15/BF92F9/000000?text=+) `#BF92F9` Light | ![#8A73C6](https://via.placeholder.com/15/8A73C6/000000?text=+) `#8A73C6` Medium | 
  ![#665C9F](https://via.placeholder.com/15/665C9F/000000?text=+) `#665C9F` Dark
+  - ![#F9A3C7](https://via.placeholder.com/15/F9A3C7/000000?text=+) `#F9A3C7` Light | ![#CB8EBF](https://via.placeholder.com/15/CB8EBF/000000?text=+) `#CB8EBF` Medium
 - White
   - ![#FFFFFF](https://via.placeholder.com/15/FFFFFF/000000?text=+) `#FFFFFF` Light | ![#EBEEF5](https://via.placeholder.com/15/EBEEF5/000000?text=+) `#EBEEF5` Medium | 
  ![#D0D0E0](https://via.placeholder.com/15/D0D0E0/000000?text=+) `#D0D0E0` Dark
