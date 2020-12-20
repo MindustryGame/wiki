@@ -5,3 +5,6 @@ Scripting in Mindustry is done with the [Rhino JavaScript](https://github.com/mo
 For example:
 
 //TODO
+const block name = extendContent(blockType,"name you file .hjson or .json",{
+  //you Code
+})
