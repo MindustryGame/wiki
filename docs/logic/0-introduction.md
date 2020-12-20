@@ -45,3 +45,8 @@ Examples of acceptable question structure and spirit:
 * "Why can't I print a string and a variable properly in the same print instruction?"
 
 It's inevitable that not everybody can do that all of the time, so try your best to make your question presentable at the very least, and follow at least one of these guidelines.
+
+# How do I get the in-game manual?
+
+There is a more comprehensive in-game manual mod that goes into detail for instructions and variables available at (DeltaNedas/rtfm)[https://github.com/DeltaNedas/rtfm].
+Once installed you can access the instruction manual page by clicking the new book button in the processor UI, other pages are available in the full RTFM dialog.
