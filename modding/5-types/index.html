@@ -4944,8 +4944,6 @@ Liquids will take priority over items.</p>
 </tr>
 </tbody>
 </table>
-<h2 id="liquidbridge">LiquidBridge</h2>
-<p><em>extends <a href="#itembridge">ItemBridge</a></em></p>
 <h2 id="liquidconverter">LiquidConverter</h2>
 <p><em>extends <a href="#genericcrafter">GenericCrafter</a></em></p>
 <h2 id="liquidjunction">LiquidJunction</h2>
@@ -5018,58 +5016,6 @@ Liquids will take priority over items.</p>
 <td>range</td>
 <td>float</td>
 <td>80.0</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<h2 id="logicdisplay">LogicDisplay</h2>
-<p><em>extends <a href="#block">Block</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>maxSides</td>
-<td>int</td>
-<td>25</td>
-<td></td>
-</tr>
-<tr>
-<td>displaySize</td>
-<td>int</td>
-<td>64</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<h2 id="powergenerator">PowerGenerator</h2>
-<p><em>extends <a href="#powerdistributor">PowerDistributor</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>powerProduction</td>
-<td>float</td>
-<td>0.0</td>
-<td>The amount of power produced per tick in case of an efficiency of 1.0, which represents 100%.</td>
-</tr>
-<tr>
-<td>generationType</td>
-<td>Stat</td>
-<td>basePowerGeneration</td>
 <td></td>
 </tr>
 </tbody>
@@ -5172,6 +5118,9 @@ Liquids will take priority over items.</p>
 </tr>
 </tbody>
 </table>
+<h2 id="oreblock">OreBlock</h2>
+<p><em>extends <a href="#overlayfloor">OverlayFloor</a></em></p>
+<p>An overlay ore for a specific item type.</p>
 <h2 id="payloadacceptor">PayloadAcceptor</h2>
 <p><em>extends <a href="#block">Block</a></em></p>
 <table>
@@ -5375,12 +5324,40 @@ Liquids will take priority over items.</p>
 </tr>
 </tbody>
 </table>
+<h2 id="liquidbridge">LiquidBridge</h2>
+<p><em>extends <a href="#itembridge">ItemBridge</a></em></p>
 <h2 id="liquidextendingbridge">LiquidExtendingBridge</h2>
 <p><em>extends <a href="#extendingitembridge">ExtendingItemBridge</a></em></p>
 <h2 id="liquidrouter">LiquidRouter</h2>
 <p><em>extends <a href="#liquidblock">LiquidBlock</a></em></p>
 <h2 id="liquidvoid">LiquidVoid</h2>
 <p><em>extends <a href="#block">Block</a></em></p>
+<h2 id="logicdisplay">LogicDisplay</h2>
+<p><em>extends <a href="#block">Block</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>maxSides</td>
+<td>int</td>
+<td>25</td>
+<td></td>
+</tr>
+<tr>
+<td>displaySize</td>
+<td>int</td>
+<td>64</td>
+<td></td>
+</tr>
+</tbody>
+</table>
 <h2 id="massdriver">MassDriver</h2>
 <p><em>extends <a href="#block">Block</a></em></p>
 <table>
@@ -5708,9 +5685,6 @@ Liquids will take priority over items.</p>
 <h2 id="overlayfloor">OverlayFloor</h2>
 <p><em>extends <a href="#floor">Floor</a></em></p>
 <p>A type of floor that is overlaid on top of other floors.</p>
-<h2 id="oreblock">OreBlock</h2>
-<p><em>extends <a href="#overlayfloor">OverlayFloor</a></em></p>
-<p>An overlay ore for a specific item type.</p>
 <h2 id="payloadrouter">PayloadRouter</h2>
 <p><em>extends <a href="#payloadconveyor">PayloadConveyor</a></em></p>
 <table>
@@ -5835,6 +5809,32 @@ Liquids will take priority over items.</p>
 </table>
 <h2 id="powerdistributor">PowerDistributor</h2>
 <p><em>extends <a href="#powerblock">PowerBlock</a></em></p>
+<h2 id="powergenerator">PowerGenerator</h2>
+<p><em>extends <a href="#powerdistributor">PowerDistributor</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>powerProduction</td>
+<td>float</td>
+<td>0.0</td>
+<td>The amount of power produced per tick in case of an efficiency of 1.0, which represents 100%.</td>
+</tr>
+<tr>
+<td>generationType</td>
+<td>Stat</td>
+<td>basePowerGeneration</td>
+<td></td>
+</tr>
+</tbody>
+</table>
 <h2 id="powernode">PowerNode</h2>
 <p><em>extends <a href="#powerblock">PowerBlock</a></em></p>
 <table>
@@ -6975,7 +6975,7 @@ Liquids will take priority over items.</p>
 <tr>
 <td>id</td>
 <td>int</td>
-<td>168</td>
+<td>169</td>
 <td></td>
 </tr>
 <tr>
