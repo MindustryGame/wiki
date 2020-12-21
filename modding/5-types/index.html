@@ -3550,6 +3550,45 @@
 </table>
 <h2 id="armoredconveyor">ArmoredConveyor</h2>
 <p><em>extends <a href="#conveyor">Conveyor</a></em></p>
+<h2 id="attributesmelter">AttributeSmelter</h2>
+<p><em>extends <a href="#genericsmelter">GenericSmelter</a></em></p>
+<p>A smelter that gains efficiency from attribute tiles.</p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>attribute</td>
+<td>Attribute</td>
+<td>heat</td>
+<td></td>
+</tr>
+<tr>
+<td>baseEfficiency</td>
+<td>float</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>boostScale</td>
+<td>float</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>maxHeatBoost</td>
+<td>float</td>
+<td>1.0</td>
+<td></td>
+</tr>
+</tbody>
+</table>
 <h2 id="baseturret">BaseTurret</h2>
 <p><em>extends <a href="#block">Block</a></em></p>
 <table>
@@ -3591,400 +3630,6 @@
 <td>float</td>
 <td>5.0</td>
 <td>How much reload is lowered by for each unit of liquid of heat capacity.</td>
-</tr>
-</tbody>
-</table>
-<h2 id="conduit">Conduit</h2>
-<p><em>extends <a href="#liquidblock">LiquidBlock</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>timerFlow</td>
-<td>int</td>
-<td>1</td>
-<td></td>
-</tr>
-<tr>
-<td>botColor</td>
-<td>Color</td>
-<td>565656ff</td>
-<td></td>
-</tr>
-<tr>
-<td>topRegions</td>
-<td>TextureRegion[]</td>
-<td>null</td>
-<td></td>
-</tr>
-<tr>
-<td>botRegions</td>
-<td>TextureRegion[]</td>
-<td>null</td>
-<td></td>
-</tr>
-<tr>
-<td>leaks</td>
-<td>boolean</td>
-<td>true</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<h2 id="door">Door</h2>
-<p><em>extends <a href="#wall">Wall</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>timerToggle</td>
-<td>int</td>
-<td>1</td>
-<td></td>
-</tr>
-<tr>
-<td>openfx</td>
-<td>Effect</td>
-<td>dooropen</td>
-<td></td>
-</tr>
-<tr>
-<td>closefx</td>
-<td>Effect</td>
-<td>doorclose</td>
-<td></td>
-</tr>
-<tr>
-<td>doorSound</td>
-<td>Sound</td>
-<td>door</td>
-<td></td>
-</tr>
-<tr>
-<td>openRegion</td>
-<td>TextureRegion</td>
-<td>null</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<h2 id="extendingitembridge">ExtendingItemBridge</h2>
-<p><em>extends <a href="#itembridge">ItemBridge</a></em></p>
-<h2 id="floor">Floor</h2>
-<p><em>extends <a href="#block">Block</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>variants</td>
-<td>int</td>
-<td>3</td>
-<td>number of different variant regions to use</td>
-</tr>
-<tr>
-<td>edge</td>
-<td>String</td>
-<td>"stone"</td>
-<td>edge fallback, used mainly for ores</td>
-</tr>
-<tr>
-<td>speedMultiplier</td>
-<td>float</td>
-<td>1.0</td>
-<td>Multiplies unit velocity by this when walked on.</td>
-</tr>
-<tr>
-<td>dragMultiplier</td>
-<td>float</td>
-<td>1.0</td>
-<td>Multiplies unit drag by this when walked on.</td>
-</tr>
-<tr>
-<td>damageTaken</td>
-<td>float</td>
-<td>0.0</td>
-<td>Damage taken per tick on this tile.</td>
-</tr>
-<tr>
-<td>drownTime</td>
-<td>float</td>
-<td>0.0</td>
-<td>How many ticks it takes to drown on this.</td>
-</tr>
-<tr>
-<td>walkEffect</td>
-<td>Effect</td>
-<td>none</td>
-<td>Effect when walking on this floor.</td>
-</tr>
-<tr>
-<td>walkSound</td>
-<td>Sound</td>
-<td>none</td>
-<td>Sound made when walking.</td>
-</tr>
-<tr>
-<td>walkSoundVolume</td>
-<td>float</td>
-<td>0.1</td>
-<td>Volume of sound made when walking.</td>
-</tr>
-<tr>
-<td>walkSoundPitchMin</td>
-<td>float</td>
-<td>0.8</td>
-<td>Volume of sound made when walking.</td>
-</tr>
-<tr>
-<td>walkSoundPitchMax</td>
-<td>float</td>
-<td>1.2</td>
-<td>Volume of sound made when walking.</td>
-</tr>
-<tr>
-<td>drownUpdateEffect</td>
-<td>Effect</td>
-<td>bubble</td>
-<td>Effect displayed when drowning on this floor.</td>
-</tr>
-<tr>
-<td>status</td>
-<td>StatusEffect</td>
-<td>none</td>
-<td>Status effect applied when walking on.</td>
-</tr>
-<tr>
-<td>statusDuration</td>
-<td>float</td>
-<td>60.0</td>
-<td>Intensity of applied status effect.</td>
-</tr>
-<tr>
-<td>liquidDrop</td>
-<td>Liquid</td>
-<td>null</td>
-<td>liquids that drop from this block, used for pumps</td>
-</tr>
-<tr>
-<td>liquidMultiplier</td>
-<td>float</td>
-<td>1.0</td>
-<td>Multiplier for pumped liquids, used for deep water.</td>
-</tr>
-<tr>
-<td>itemDrop</td>
-<td>Item</td>
-<td>null</td>
-<td>item that drops from this block, used for drills</td>
-</tr>
-<tr>
-<td>isLiquid</td>
-<td>boolean</td>
-<td>false</td>
-<td>whether this block can be drowned in</td>
-</tr>
-<tr>
-<td>playerUnmineable</td>
-<td>boolean</td>
-<td>false</td>
-<td>if true, this block cannot be mined by players. useful for annoying things like sand.</td>
-</tr>
-<tr>
-<td>blendGroup</td>
-<td>Block</td>
-<td>this</td>
-<td>Group of blocks that this block does not draw edges on.</td>
-</tr>
-<tr>
-<td>updateEffect</td>
-<td>Effect</td>
-<td>none</td>
-<td>Effect displayed when randomly updated.</td>
-</tr>
-<tr>
-<td>attributes</td>
-<td>Attributes</td>
-<td>new Attributes()</td>
-<td>Array of affinities to certain things.</td>
-</tr>
-<tr>
-<td>oreDefault</td>
-<td>boolean</td>
-<td>false</td>
-<td>Whether this ore generates in maps by default.</td>
-</tr>
-<tr>
-<td>oreScale</td>
-<td>float</td>
-<td>24.0</td>
-<td>Ore generation params.</td>
-</tr>
-<tr>
-<td>oreThreshold</td>
-<td>float</td>
-<td>0.828</td>
-<td>Ore generation params.</td>
-</tr>
-<tr>
-<td>wall</td>
-<td>Block</td>
-<td>air</td>
-<td>Wall variant of this block. May be Blocks.air if not found.</td>
-</tr>
-<tr>
-<td>decoration</td>
-<td>Block</td>
-<td>air</td>
-<td>Decoration block. Usually a rock. May be air.</td>
-</tr>
-<tr>
-<td>needsSurface</td>
-<td>boolean</td>
-<td>true</td>
-<td>Whether this overlay needs a surface to be on. False for floating blocks, like spawns.</td>
-</tr>
-</tbody>
-</table>
-<h2 id="genericcrafter">GenericCrafter</h2>
-<p><em>extends <a href="#block">Block</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>outputItem</td>
-<td>ItemStack</td>
-<td>null</td>
-<td></td>
-</tr>
-<tr>
-<td>outputLiquid</td>
-<td>LiquidStack</td>
-<td>null</td>
-<td></td>
-</tr>
-<tr>
-<td>craftTime</td>
-<td>float</td>
-<td>80.0</td>
-<td></td>
-</tr>
-<tr>
-<td>craftEffect</td>
-<td>Effect</td>
-<td>none</td>
-<td></td>
-</tr>
-<tr>
-<td>updateEffect</td>
-<td>Effect</td>
-<td>none</td>
-<td></td>
-</tr>
-<tr>
-<td>updateEffectChance</td>
-<td>float</td>
-<td>0.04</td>
-<td></td>
-</tr>
-<tr>
-<td>drawer</td>
-<td>DrawBlock</td>
-<td>new DrawBlock()</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<h2 id="genericsmelter">GenericSmelter</h2>
-<p><em>extends <a href="#genericcrafter">GenericCrafter</a></em></p>
-<p>A GenericCrafter with a new glowing region drawn on top.</p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>flameColor</td>
-<td>Color</td>
-<td>ffc999ff</td>
-<td></td>
-</tr>
-<tr>
-<td>topRegion</td>
-<td>TextureRegion</td>
-<td>null</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<h2 id="attributesmelter">AttributeSmelter</h2>
-<p><em>extends <a href="#genericsmelter">GenericSmelter</a></em></p>
-<p>A smelter that gains efficiency from attribute tiles.</p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>attribute</td>
-<td>Attribute</td>
-<td>heat</td>
-<td></td>
-</tr>
-<tr>
-<td>baseEfficiency</td>
-<td>float</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>boostScale</td>
-<td>float</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>maxHeatBoost</td>
-<td>float</td>
-<td>1.0</td>
-<td></td>
 </tr>
 </tbody>
 </table>
@@ -4292,6 +3937,50 @@ Liquids will take priority over items.</p>
 </tr>
 </tbody>
 </table>
+<h2 id="conduit">Conduit</h2>
+<p><em>extends <a href="#liquidblock">LiquidBlock</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>timerFlow</td>
+<td>int</td>
+<td>1</td>
+<td></td>
+</tr>
+<tr>
+<td>botColor</td>
+<td>Color</td>
+<td>565656ff</td>
+<td></td>
+</tr>
+<tr>
+<td>topRegions</td>
+<td>TextureRegion[]</td>
+<td>null</td>
+<td></td>
+</tr>
+<tr>
+<td>botRegions</td>
+<td>TextureRegion[]</td>
+<td>null</td>
+<td></td>
+</tr>
+<tr>
+<td>leaks</td>
+<td>boolean</td>
+<td>true</td>
+<td></td>
+</tr>
+</tbody>
+</table>
 <h2 id="conveyor">Conveyor</h2>
 <p><em>extends <a href="#block">Block</a></em></p>
 <table>
@@ -4444,6 +4133,50 @@ Liquids will take priority over items.</p>
 </table>
 <h2 id="decaygenerator">DecayGenerator</h2>
 <p><em>extends <a href="#itemliquidgenerator">ItemLiquidGenerator</a></em></p>
+<h2 id="door">Door</h2>
+<p><em>extends <a href="#wall">Wall</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>timerToggle</td>
+<td>int</td>
+<td>1</td>
+<td></td>
+</tr>
+<tr>
+<td>openfx</td>
+<td>Effect</td>
+<td>dooropen</td>
+<td></td>
+</tr>
+<tr>
+<td>closefx</td>
+<td>Effect</td>
+<td>doorclose</td>
+<td></td>
+</tr>
+<tr>
+<td>doorSound</td>
+<td>Sound</td>
+<td>door</td>
+<td></td>
+</tr>
+<tr>
+<td>openRegion</td>
+<td>TextureRegion</td>
+<td>null</td>
+<td></td>
+</tr>
+</tbody>
+</table>
 <h2 id="doubleoverlayfloor">DoubleOverlayFloor</h2>
 <p><em>extends <a href="#overlayfloor">OverlayFloor</a></em></p>
 <h2 id="drill">Drill</h2>
@@ -4491,7 +4224,7 @@ Liquids will take priority over items.</p>
 <tr>
 <td>drawMineItem</td>
 <td>boolean</td>
-<td>false</td>
+<td>true</td>
 <td>Whether to draw the item this drill is mining.</td>
 </tr>
 <tr>
@@ -4547,6 +4280,196 @@ Liquids will take priority over items.</p>
 <td>TextureRegion</td>
 <td>null</td>
 <td></td>
+</tr>
+<tr>
+<td>itemRegion</td>
+<td>TextureRegion</td>
+<td>null</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="extendingitembridge">ExtendingItemBridge</h2>
+<p><em>extends <a href="#itembridge">ItemBridge</a></em></p>
+<h2 id="floor">Floor</h2>
+<p><em>extends <a href="#block">Block</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>variants</td>
+<td>int</td>
+<td>3</td>
+<td>number of different variant regions to use</td>
+</tr>
+<tr>
+<td>edge</td>
+<td>String</td>
+<td>"stone"</td>
+<td>edge fallback, used mainly for ores</td>
+</tr>
+<tr>
+<td>speedMultiplier</td>
+<td>float</td>
+<td>1.0</td>
+<td>Multiplies unit velocity by this when walked on.</td>
+</tr>
+<tr>
+<td>dragMultiplier</td>
+<td>float</td>
+<td>1.0</td>
+<td>Multiplies unit drag by this when walked on.</td>
+</tr>
+<tr>
+<td>damageTaken</td>
+<td>float</td>
+<td>0.0</td>
+<td>Damage taken per tick on this tile.</td>
+</tr>
+<tr>
+<td>drownTime</td>
+<td>float</td>
+<td>0.0</td>
+<td>How many ticks it takes to drown on this.</td>
+</tr>
+<tr>
+<td>walkEffect</td>
+<td>Effect</td>
+<td>none</td>
+<td>Effect when walking on this floor.</td>
+</tr>
+<tr>
+<td>walkSound</td>
+<td>Sound</td>
+<td>none</td>
+<td>Sound made when walking.</td>
+</tr>
+<tr>
+<td>walkSoundVolume</td>
+<td>float</td>
+<td>0.1</td>
+<td>Volume of sound made when walking.</td>
+</tr>
+<tr>
+<td>walkSoundPitchMin</td>
+<td>float</td>
+<td>0.8</td>
+<td>Volume of sound made when walking.</td>
+</tr>
+<tr>
+<td>walkSoundPitchMax</td>
+<td>float</td>
+<td>1.2</td>
+<td>Volume of sound made when walking.</td>
+</tr>
+<tr>
+<td>drownUpdateEffect</td>
+<td>Effect</td>
+<td>bubble</td>
+<td>Effect displayed when drowning on this floor.</td>
+</tr>
+<tr>
+<td>status</td>
+<td>StatusEffect</td>
+<td>none</td>
+<td>Status effect applied when walking on.</td>
+</tr>
+<tr>
+<td>statusDuration</td>
+<td>float</td>
+<td>60.0</td>
+<td>Intensity of applied status effect.</td>
+</tr>
+<tr>
+<td>liquidDrop</td>
+<td>Liquid</td>
+<td>null</td>
+<td>liquids that drop from this block, used for pumps</td>
+</tr>
+<tr>
+<td>liquidMultiplier</td>
+<td>float</td>
+<td>1.0</td>
+<td>Multiplier for pumped liquids, used for deep water.</td>
+</tr>
+<tr>
+<td>itemDrop</td>
+<td>Item</td>
+<td>null</td>
+<td>item that drops from this block, used for drills</td>
+</tr>
+<tr>
+<td>isLiquid</td>
+<td>boolean</td>
+<td>false</td>
+<td>whether this block can be drowned in</td>
+</tr>
+<tr>
+<td>playerUnmineable</td>
+<td>boolean</td>
+<td>false</td>
+<td>if true, this block cannot be mined by players. useful for annoying things like sand.</td>
+</tr>
+<tr>
+<td>blendGroup</td>
+<td>Block</td>
+<td>this</td>
+<td>Group of blocks that this block does not draw edges on.</td>
+</tr>
+<tr>
+<td>updateEffect</td>
+<td>Effect</td>
+<td>none</td>
+<td>Effect displayed when randomly updated.</td>
+</tr>
+<tr>
+<td>attributes</td>
+<td>Attributes</td>
+<td>new Attributes()</td>
+<td>Array of affinities to certain things.</td>
+</tr>
+<tr>
+<td>oreDefault</td>
+<td>boolean</td>
+<td>false</td>
+<td>Whether this ore generates in maps by default.</td>
+</tr>
+<tr>
+<td>oreScale</td>
+<td>float</td>
+<td>24.0</td>
+<td>Ore generation params.</td>
+</tr>
+<tr>
+<td>oreThreshold</td>
+<td>float</td>
+<td>0.828</td>
+<td>Ore generation params.</td>
+</tr>
+<tr>
+<td>wall</td>
+<td>Block</td>
+<td>air</td>
+<td>Wall variant of this block. May be Blocks.air if not found.</td>
+</tr>
+<tr>
+<td>decoration</td>
+<td>Block</td>
+<td>air</td>
+<td>Decoration block. Usually a rock. May be air.</td>
+</tr>
+<tr>
+<td>needsSurface</td>
+<td>boolean</td>
+<td>true</td>
+<td>Whether this overlay needs a surface to be on. False for floating blocks, like spawns.</td>
 </tr>
 </tbody>
 </table>
@@ -4658,6 +4581,89 @@ Liquids will take priority over items.</p>
 <td>rotatorRegion</td>
 <td>TextureRegion</td>
 <td>null</td>
+<td></td>
+</tr>
+<tr>
+<td>topRegion</td>
+<td>TextureRegion</td>
+<td>null</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="genericcrafter">GenericCrafter</h2>
+<p><em>extends <a href="#block">Block</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>outputItem</td>
+<td>ItemStack</td>
+<td>null</td>
+<td></td>
+</tr>
+<tr>
+<td>outputLiquid</td>
+<td>LiquidStack</td>
+<td>null</td>
+<td></td>
+</tr>
+<tr>
+<td>craftTime</td>
+<td>float</td>
+<td>80.0</td>
+<td></td>
+</tr>
+<tr>
+<td>craftEffect</td>
+<td>Effect</td>
+<td>none</td>
+<td></td>
+</tr>
+<tr>
+<td>updateEffect</td>
+<td>Effect</td>
+<td>none</td>
+<td></td>
+</tr>
+<tr>
+<td>updateEffectChance</td>
+<td>float</td>
+<td>0.04</td>
+<td></td>
+</tr>
+<tr>
+<td>drawer</td>
+<td>DrawBlock</td>
+<td>new DrawBlock()</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="genericsmelter">GenericSmelter</h2>
+<p><em>extends <a href="#genericcrafter">GenericCrafter</a></em></p>
+<p>A GenericCrafter with a new glowing region drawn on top.</p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>flameColor</td>
+<td>Color</td>
+<td>ffc999ff</td>
 <td></td>
 </tr>
 <tr>
@@ -5042,8 +5048,8 @@ Liquids will take priority over items.</p>
 </tr>
 </tbody>
 </table>
-<h2 id="mendprojector">MendProjector</h2>
-<p><em>extends <a href="#block">Block</a></em></p>
+<h2 id="powergenerator">PowerGenerator</h2>
+<p><em>extends <a href="#powerdistributor">PowerDistributor</a></em></p>
 <table>
 <thead>
 <tr>
@@ -5055,63 +5061,15 @@ Liquids will take priority over items.</p>
 </thead>
 <tbody>
 <tr>
-<td>timerUse</td>
-<td>int</td>
-<td>1</td>
-<td></td>
-</tr>
-<tr>
-<td>baseColor</td>
-<td>Color</td>
-<td>84f491ff</td>
-<td></td>
-</tr>
-<tr>
-<td>phaseColor</td>
-<td>Color</td>
-<td>ffd59eff</td>
-<td></td>
-</tr>
-<tr>
-<td>topRegion</td>
-<td>TextureRegion</td>
-<td>null</td>
-<td></td>
-</tr>
-<tr>
-<td>reload</td>
+<td>powerProduction</td>
 <td>float</td>
-<td>250.0</td>
-<td></td>
+<td>0.0</td>
+<td>The amount of power produced per tick in case of an efficiency of 1.0, which represents 100%.</td>
 </tr>
 <tr>
-<td>range</td>
-<td>float</td>
-<td>60.0</td>
-<td></td>
-</tr>
-<tr>
-<td>healPercent</td>
-<td>float</td>
-<td>12.0</td>
-<td></td>
-</tr>
-<tr>
-<td>phaseBoost</td>
-<td>float</td>
-<td>12.0</td>
-<td></td>
-</tr>
-<tr>
-<td>phaseRangeBoost</td>
-<td>float</td>
-<td>50.0</td>
-<td></td>
-</tr>
-<tr>
-<td>useTime</td>
-<td>float</td>
-<td>400.0</td>
+<td>generationType</td>
+<td>Stat</td>
+<td>basePowerGeneration</td>
 <td></td>
 </tr>
 </tbody>
@@ -5214,9 +5172,6 @@ Liquids will take priority over items.</p>
 </tr>
 </tbody>
 </table>
-<h2 id="oreblock">OreBlock</h2>
-<p><em>extends <a href="#overlayfloor">OverlayFloor</a></em></p>
-<p>An overlay ore for a specific item type.</p>
 <h2 id="payloadacceptor">PayloadAcceptor</h2>
 <p><em>extends <a href="#block">Block</a></em></p>
 <table>
@@ -5301,136 +5256,6 @@ Liquids will take priority over items.</p>
 <td>payloadLimit</td>
 <td>float</td>
 <td>2.5</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<h2 id="pointdefenseturret">PointDefenseTurret</h2>
-<p><em>extends <a href="#reloadturret">ReloadTurret</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>timerTarget</td>
-<td>int</td>
-<td>1</td>
-<td></td>
-</tr>
-<tr>
-<td>retargetTime</td>
-<td>float</td>
-<td>5.0</td>
-<td></td>
-</tr>
-<tr>
-<td>baseRegion</td>
-<td>TextureRegion</td>
-<td>null</td>
-<td></td>
-</tr>
-<tr>
-<td>color</td>
-<td>Color</td>
-<td>ffffffff</td>
-<td></td>
-</tr>
-<tr>
-<td>beamEffect</td>
-<td>Effect</td>
-<td>pointBeam</td>
-<td></td>
-</tr>
-<tr>
-<td>hitEffect</td>
-<td>Effect</td>
-<td>pointHit</td>
-<td></td>
-</tr>
-<tr>
-<td>shootEffect</td>
-<td>Effect</td>
-<td>sparkShoot</td>
-<td></td>
-</tr>
-<tr>
-<td>shootSound</td>
-<td>Sound</td>
-<td>lasershoot</td>
-<td></td>
-</tr>
-<tr>
-<td>shootCone</td>
-<td>float</td>
-<td>5.0</td>
-<td></td>
-</tr>
-<tr>
-<td>bulletDamage</td>
-<td>float</td>
-<td>10.0</td>
-<td></td>
-</tr>
-<tr>
-<td>shootLength</td>
-<td>float</td>
-<td>3.0</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<h2 id="powernode">PowerNode</h2>
-<p><em>extends <a href="#powerblock">PowerBlock</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>laser</td>
-<td>TextureRegion</td>
-<td>null</td>
-<td></td>
-</tr>
-<tr>
-<td>laserEnd</td>
-<td>TextureRegion</td>
-<td>null</td>
-<td></td>
-</tr>
-<tr>
-<td>laserRange</td>
-<td>float</td>
-<td>6.0</td>
-<td></td>
-</tr>
-<tr>
-<td>maxNodes</td>
-<td>int</td>
-<td>3</td>
-<td></td>
-</tr>
-<tr>
-<td>laserColor1</td>
-<td>Color</td>
-<td>ffffffff</td>
-<td></td>
-</tr>
-<tr>
-<td>laserColor2</td>
-<td>Color</td>
-<td>fbd367ff</td>
 <td></td>
 </tr>
 </tbody>
@@ -5674,6 +5499,80 @@ Liquids will take priority over items.</p>
 </tr>
 </tbody>
 </table>
+<h2 id="mendprojector">MendProjector</h2>
+<p><em>extends <a href="#block">Block</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>timerUse</td>
+<td>int</td>
+<td>1</td>
+<td></td>
+</tr>
+<tr>
+<td>baseColor</td>
+<td>Color</td>
+<td>84f491ff</td>
+<td></td>
+</tr>
+<tr>
+<td>phaseColor</td>
+<td>Color</td>
+<td>ffd59eff</td>
+<td></td>
+</tr>
+<tr>
+<td>topRegion</td>
+<td>TextureRegion</td>
+<td>null</td>
+<td></td>
+</tr>
+<tr>
+<td>reload</td>
+<td>float</td>
+<td>250.0</td>
+<td></td>
+</tr>
+<tr>
+<td>range</td>
+<td>float</td>
+<td>60.0</td>
+<td></td>
+</tr>
+<tr>
+<td>healPercent</td>
+<td>float</td>
+<td>12.0</td>
+<td></td>
+</tr>
+<tr>
+<td>phaseBoost</td>
+<td>float</td>
+<td>12.0</td>
+<td></td>
+</tr>
+<tr>
+<td>phaseRangeBoost</td>
+<td>float</td>
+<td>50.0</td>
+<td></td>
+</tr>
+<tr>
+<td>useTime</td>
+<td>float</td>
+<td>400.0</td>
+<td></td>
+</tr>
+</tbody>
+</table>
 <h2 id="messageblock">MessageBlock</h2>
 <p><em>extends <a href="#block">Block</a></em></p>
 <table>
@@ -5809,6 +5708,9 @@ Liquids will take priority over items.</p>
 <h2 id="overlayfloor">OverlayFloor</h2>
 <p><em>extends <a href="#floor">Floor</a></em></p>
 <p>A type of floor that is overlaid on top of other floors.</p>
+<h2 id="oreblock">OreBlock</h2>
+<p><em>extends <a href="#overlayfloor">OverlayFloor</a></em></p>
+<p>An overlay ore for a specific item type.</p>
 <h2 id="payloadrouter">PayloadRouter</h2>
 <p><em>extends <a href="#payloadconveyor">PayloadConveyor</a></em></p>
 <table>
@@ -5825,6 +5727,86 @@ Liquids will take priority over items.</p>
 <td>overRegion</td>
 <td>TextureRegion</td>
 <td>null</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="pointdefenseturret">PointDefenseTurret</h2>
+<p><em>extends <a href="#reloadturret">ReloadTurret</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>timerTarget</td>
+<td>int</td>
+<td>1</td>
+<td></td>
+</tr>
+<tr>
+<td>retargetTime</td>
+<td>float</td>
+<td>5.0</td>
+<td></td>
+</tr>
+<tr>
+<td>baseRegion</td>
+<td>TextureRegion</td>
+<td>null</td>
+<td></td>
+</tr>
+<tr>
+<td>color</td>
+<td>Color</td>
+<td>ffffffff</td>
+<td></td>
+</tr>
+<tr>
+<td>beamEffect</td>
+<td>Effect</td>
+<td>pointBeam</td>
+<td></td>
+</tr>
+<tr>
+<td>hitEffect</td>
+<td>Effect</td>
+<td>pointHit</td>
+<td></td>
+</tr>
+<tr>
+<td>shootEffect</td>
+<td>Effect</td>
+<td>sparkShoot</td>
+<td></td>
+</tr>
+<tr>
+<td>shootSound</td>
+<td>Sound</td>
+<td>lasershoot</td>
+<td></td>
+</tr>
+<tr>
+<td>shootCone</td>
+<td>float</td>
+<td>5.0</td>
+<td></td>
+</tr>
+<tr>
+<td>bulletDamage</td>
+<td>float</td>
+<td>10.0</td>
+<td></td>
+</tr>
+<tr>
+<td>shootLength</td>
+<td>float</td>
+<td>3.0</td>
 <td></td>
 </tr>
 </tbody>
@@ -5853,8 +5835,8 @@ Liquids will take priority over items.</p>
 </table>
 <h2 id="powerdistributor">PowerDistributor</h2>
 <p><em>extends <a href="#powerblock">PowerBlock</a></em></p>
-<h2 id="powergenerator">PowerGenerator</h2>
-<p><em>extends <a href="#powerdistributor">PowerDistributor</a></em></p>
+<h2 id="powernode">PowerNode</h2>
+<p><em>extends <a href="#powerblock">PowerBlock</a></em></p>
 <table>
 <thead>
 <tr>
@@ -5866,15 +5848,39 @@ Liquids will take priority over items.</p>
 </thead>
 <tbody>
 <tr>
-<td>powerProduction</td>
-<td>float</td>
-<td>0.0</td>
-<td>The amount of power produced per tick in case of an efficiency of 1.0, which represents 100%.</td>
+<td>laser</td>
+<td>TextureRegion</td>
+<td>null</td>
+<td></td>
 </tr>
 <tr>
-<td>generationType</td>
-<td>Stat</td>
-<td>basePowerGeneration</td>
+<td>laserEnd</td>
+<td>TextureRegion</td>
+<td>null</td>
+<td></td>
+</tr>
+<tr>
+<td>laserRange</td>
+<td>float</td>
+<td>6.0</td>
+<td></td>
+</tr>
+<tr>
+<td>maxNodes</td>
+<td>int</td>
+<td>3</td>
+<td></td>
+</tr>
+<tr>
+<td>laserColor1</td>
+<td>Color</td>
+<td>ffffffff</td>
+<td></td>
+</tr>
+<tr>
+<td>laserColor2</td>
+<td>Color</td>
+<td>fbd367ff</td>
 <td></td>
 </tr>
 </tbody>
@@ -6969,7 +6975,7 @@ Liquids will take priority over items.</p>
 <tr>
 <td>id</td>
 <td>int</td>
-<td>169</td>
+<td>168</td>
 <td></td>
 </tr>
 <tr>
