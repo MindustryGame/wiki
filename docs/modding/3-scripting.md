@@ -4,4 +4,13 @@ Scripting in Mindustry is done with the [Rhino JavaScript](https://github.com/mo
 
 For example:
 
-//TODO
+```javascript
+//Create dialog
+const myDialog = new BaseDialog("My Dialog");
+//Add "go back" button
+myDialog.addCloseButton();
+//Add text "Hi"
+myDialog.cont.add("Hi!");
+//Show dialog
+myDialog.show();
+```
