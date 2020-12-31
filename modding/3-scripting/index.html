@@ -3198,8 +3198,8 @@
 A typical setup looks like this:</p>
 <p><em>scripts/main.js</em>:</p>
 <pre><code class="language-js">
-require(&quot;blocks.js&quot;);
-require(&quot;items.js&quot;);
+require(&quot;blocks&quot;);
+require(&quot;items&quot;);
 
 </code></pre>
 <p><em>scripts/blocks.js</em>:</p>
@@ -3213,7 +3213,7 @@ myBlock.health = 200;
 <p><em>scripts/items.js</em>:</p>
 <pre><code class="language-js">
 const terribleium = Item(&quot;terribleium&quot;);
-terribleium.color = Color.valueOf(&quot;ff0000&quot;)
+terribleium.color = Color.valueOf(&quot;ff0000&quot;);
 //...
 
 </code></pre>
