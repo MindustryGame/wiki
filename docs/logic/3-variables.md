@@ -68,6 +68,14 @@ The x coordinate of the processor.
 
 The y coordinate of the processor.
 
+#### @ipt `constant` `number`
+
+The number of instructions executed per tick (60 ticks/second).
+
+* Micro Processor -> 2
+* Logic Processor -> 8
+* Hyper Processor -> 25 
+
 #### @counter `variable` `number`
 
 A variable that represents the next line the processor will read code from, equivalent to `%IP` in x86. It can be changed like any other variable as another way to perform jumps.
