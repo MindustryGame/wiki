@@ -16,7 +16,7 @@ require("items");
 *scripts/blocks.js*:
 ```js
 const myBlock = extend(Conveyor, "terrible-conveyor", {
-  /** various overrides... */
+  //various overrides...
 });
 
 myBlock.health = 200;
