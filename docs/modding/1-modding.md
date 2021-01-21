@@ -170,9 +170,18 @@ Much like `type` there exist another magical field known as `research` which can
 
 This would put your block after `duo` in the techtree, and to put it after your own mods block you would write your `<block-name>`, a mod name prefix is only required if you're using the content from another mod.
 
-Research cost will be `40 + round(requirements ^ 1.25) * 6 rounded down to the nearest 10`, where `requirements` is the build cost of your block.
+Research costs:
 
-If you want to set custom research requirements, which is **required** for Items and Liquids, use this object in place of just a name:
+|type|cost|notes|
+|---|---|---|
+|blocks|`requirements ^ 1.1 * 20 * researchCostMultiplier`|`researchCostMultiplier` is a stat that can be set on blocks|
+|units|`requirements ^ 1.1 * 50`|---|
+
+The cost is then rounded down to the nearest 10, 100, 1k, 10k, or 100k depending on how expensive the cost is.
+
+`requirements` is the cost of the block or unit. Reconstruction units, for example Eclipse, uses the reconstructors reconstruction cost to calculate.
+
+If you want to set custom research requirements use this object in place of just a name:
 
     research: {
       parent: duo
@@ -181,7 +190,7 @@ If you want to set custom research requirements, which is **required** for Items
       ]
     }
 
-
+This can be used to override block or unit costs, or make resources need to be researched instead of just having to produce it.
 
 ## Sprites
 
