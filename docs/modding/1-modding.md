@@ -179,7 +179,7 @@ Research costs:
 
 The cost is then rounded down to the nearest 10, 100, 1k, 10k, or 100k depending on how expensive the cost is.
 
-`requirements` is the cost of the block or unit. Reconstruction units, for example Eclipse, uses the reconstructors reconstruction cost to calculate.
+`requirements` is the cost of the block or unit. Units use their build cost/upgrade cost for the calculations.
 
 If you want to set custom research requirements use this object in place of just a name:
 
