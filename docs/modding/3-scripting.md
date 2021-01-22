@@ -48,6 +48,8 @@ Events.on(UnitDestroyEvent, event => {
 
 ```
 
+<img src="/wiki/images/misc/modding-pathetic.gif">
+
 ## Displaying a dialog box
 
 ```js
