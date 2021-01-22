@@ -3363,8 +3363,31 @@ weapons: [
 <pre><code>research: duo
 </code></pre>
 <p>This would put your block after <code>duo</code> in the techtree, and to put it after your own mods block you would write your <code>&lt;block-name&gt;</code>, a mod name prefix is only required if you're using the content from another mod.</p>
-<p>Research cost will be <code>40 + round(requirements ^ 1.25) * 6 rounded down to the nearest 10</code>, where <code>requirements</code> is the build cost of your block.</p>
-<p>If you want to set custom research requirements, which is <strong>required</strong> for Items and Liquids, use this object in place of just a name:</p>
+<p>Research costs:</p>
+<table>
+<thead>
+<tr>
+<th>type</th>
+<th>cost</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>blocks</td>
+<td><code>requirements ^ 1.1 * 20 * researchCostMultiplier</code></td>
+<td><code>researchCostMultiplier</code> is a stat that can be set on blocks</td>
+</tr>
+<tr>
+<td>units</td>
+<td><code>requirements ^ 1.1 * 50</code></td>
+<td>---</td>
+</tr>
+</tbody>
+</table>
+<p>The cost is then rounded down to the nearest 10, 100, 1k, 10k, or 100k depending on how expensive the cost is.</p>
+<p><code>requirements</code> is the cost of the block or unit. Units use their build cost/upgrade cost for the calculations.</p>
+<p>If you want to set custom research requirements use this object in place of just a name:</p>
 <pre><code>research: {
   parent: duo
   requirements: [
@@ -3372,6 +3395,7 @@ weapons: [
   ]
 }
 </code></pre>
+<p>This can be used to override block or unit costs, or make resources need to be researched instead of just having to produce it.</p>
 <h2 id="sprites">Sprites</h2>
 <p>All you need to make sprites, is an image editor that supports transparency <em>(aka: not paint).</em> Block sprites should be <code>32 * size</code>, so a <code>2x2</code> block would require a <code>64x64</code> image. Images must be PNG files with a 32-bit RGBA pixel format.
 <strong>Any other pixel format, such as 16-bit RGBA, may cause Mindustry to crash with a "Pixmap decode error".</strong> You can use the command-line tool <code>file</code> to print information about your sprites:</p>
