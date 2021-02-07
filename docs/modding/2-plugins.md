@@ -19,7 +19,7 @@ description: "..."
 version: "99.99"
 ```
 
-See the [example Java mod repo](https://github.com/Anuken/ExampleJavaMod) or the [Java mod template](https://github.com/Sonnicon/mindustry-modtemplate) for more information.
+See the [example Java mod repo](https://github.com/Anuken/ExampleJavaMod), the [example Kotlin mod repo](https://github.com/Anuken/ExampleKotlinMod) or the [Java mod template](https://github.com/Sonnicon/mindustry-modtemplate) for more information.
 
 ## Plugins
 
