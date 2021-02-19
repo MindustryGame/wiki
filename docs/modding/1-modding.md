@@ -161,6 +161,12 @@ weapons: [
 ]
 ```
 
+As of build `125.1`, types can also be the *fully-qualified class name* of a Java class. 
+
+For example, to specify a block as a `MendProjector`, you may write
+`type: mindustry.world.blocks.defense.MendProjector` instead of `type: MendProjector`.
+
+While not particularly useful for vanilla types, this can be used to load block types *from other Java mods* as dependencies.
 
 ## Tech Tree
 
