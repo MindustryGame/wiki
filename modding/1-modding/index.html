@@ -3349,6 +3349,10 @@ weapons: [
   }
 ]
 </code></pre>
+<p>As of build <code>125.1</code>, types can also be the <em>fully-qualified class name</em> of a Java class. </p>
+<p>For example, to specify a block as a <code>MendProjector</code>, you may write
+<code>type: mindustry.world.blocks.defense.MendProjector</code> instead of <code>type: MendProjector</code>.</p>
+<p>While not particularly useful for vanilla types, this can be used to load block types <em>from other Java mods</em> as dependencies.</p>
 <h2 id="tech-tree">Tech Tree</h2>
 <p>Much like <code>type</code> there exist another magical field known as <code>research</code> which can go at the root of any block object to put it in the techtree.</p>
 <pre><code>research: duo
