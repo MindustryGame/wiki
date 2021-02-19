@@ -302,10 +302,10 @@ All you need understand is how to open repositories on GitHub, stage and commit 
 ## FAQ
 
 -   `time` in game is calculated through `ticks`;
--   `ticks` *sometimes called `frames`,* are assumed to be 60/1 second;
+-   `ticks` *sometimes called `frames`,* are assumed to be 1/60th of a second;
 -   `tilesize` is 8 units internally;
 -   to calculate range out of `lifetime` and `speed` you can do `lifetime * speed = range`;
--   *Abstract* what is `abstract`? all you need to know about abstract types, is this is a Java specific term, which means you cannot instantiate/initialize this specific type by itself. If you do so you'll probably get an *"initialization exception"* of some kind;
+-   *Abstract* what is `abstract`? All you need to know about abstract types is that they cannot be instantiated/initialized by themselves. If you do so, you'll  get an *"initialization exception"* of some kind;
 -   what is a `NullPointerException`? This is an error message that indicates a field is null and shouldn't be null, meaning one of the required fields may be missing;
 -   *bleeding-edge* what is `bleeding-edge`? This is the developer version of Mindustry, specifically it's refering to the Github master branch. Changes on bleeding-edge usually make it into Mindustry in the next release.
 
