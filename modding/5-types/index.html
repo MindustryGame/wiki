@@ -8610,6 +8610,280 @@ Use the standard Floor class instead.</p>
 </tbody>
 </table>
 <h1 id="other">Other</h1>
+<h2 id="forcefieldability">ForceFieldAbility</h2>
+<p><em>extends <a href="#ability">Ability</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>radius</td>
+<td>float</td>
+<td>60.0</td>
+<td>Shield radius.</td>
+</tr>
+<tr>
+<td>regen</td>
+<td>float</td>
+<td>0.1</td>
+<td>Shield regen speed in damage/tick.</td>
+</tr>
+<tr>
+<td>max</td>
+<td>float</td>
+<td>200.0</td>
+<td>Maximum shield.</td>
+</tr>
+<tr>
+<td>cooldown</td>
+<td>float</td>
+<td>300.0</td>
+<td>Cooldown after the shield is broken, in ticks.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="movelightningability">MoveLightningAbility</h2>
+<p><em>extends <a href="#ability">Ability</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>damage</td>
+<td>float</td>
+<td>35.0</td>
+<td>Lightning damage</td>
+</tr>
+<tr>
+<td>chance</td>
+<td>float</td>
+<td>0.15</td>
+<td>Chance of firing every tick. Set &gt;= 1 to always fire lightning every tick at max speed.</td>
+</tr>
+<tr>
+<td>length</td>
+<td>int</td>
+<td>12</td>
+<td>Length of the lightning. &lt;= 0 to disable</td>
+</tr>
+<tr>
+<td>minSpeed</td>
+<td>float</td>
+<td>0.8</td>
+<td>Speeds for when to start lightninging and when to stop getting faster</td>
+</tr>
+<tr>
+<td>maxSpeed</td>
+<td>float</td>
+<td>1.2</td>
+<td>Speeds for when to start lightninging and when to stop getting faster</td>
+</tr>
+<tr>
+<td>color</td>
+<td>Color</td>
+<td>a9d8ffff</td>
+<td>Lightning color</td>
+</tr>
+<tr>
+<td>offset</td>
+<td>float</td>
+<td>0.0</td>
+<td>Shifts where the lightning spawns along the Y axis</td>
+</tr>
+<tr>
+<td>heatRegion</td>
+<td>String</td>
+<td>"error"</td>
+<td>Jittering heat sprite like the shield on v5 Javelin</td>
+</tr>
+<tr>
+<td>bullet</td>
+<td>BulletType</td>
+<td>null</td>
+<td>Bullet type that is fired. Can be null</td>
+</tr>
+<tr>
+<td>bulletAngle</td>
+<td>float</td>
+<td>0.0</td>
+<td>Bullet angle parameters</td>
+</tr>
+<tr>
+<td>bulletSpread</td>
+<td>float</td>
+<td>0.0</td>
+<td>Bullet angle parameters</td>
+</tr>
+<tr>
+<td>shootEffect</td>
+<td>Effect</td>
+<td>sparkShoot</td>
+<td></td>
+</tr>
+<tr>
+<td>shootSound</td>
+<td>Sound</td>
+<td>spark</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="repairfieldability">RepairFieldAbility</h2>
+<p><em>extends <a href="#ability">Ability</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>amount</td>
+<td>float</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>reload</td>
+<td>float</td>
+<td>100.0</td>
+<td></td>
+</tr>
+<tr>
+<td>range</td>
+<td>float</td>
+<td>60.0</td>
+<td></td>
+</tr>
+<tr>
+<td>healEffect</td>
+<td>Effect</td>
+<td>heal</td>
+<td></td>
+</tr>
+<tr>
+<td>activeEffect</td>
+<td>Effect</td>
+<td>healWaveDynamic</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="shieldregenfieldability">ShieldRegenFieldAbility</h2>
+<p><em>extends <a href="#ability">Ability</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>amount</td>
+<td>float</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>max</td>
+<td>float</td>
+<td>100.0</td>
+<td></td>
+</tr>
+<tr>
+<td>reload</td>
+<td>float</td>
+<td>100.0</td>
+<td></td>
+</tr>
+<tr>
+<td>range</td>
+<td>float</td>
+<td>60.0</td>
+<td></td>
+</tr>
+<tr>
+<td>applyEffect</td>
+<td>Effect</td>
+<td>shieldApply</td>
+<td></td>
+</tr>
+<tr>
+<td>activeEffect</td>
+<td>Effect</td>
+<td>shieldWave</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="statusfieldability">StatusFieldAbility</h2>
+<p><em>extends <a href="#ability">Ability</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>effect</td>
+<td>StatusEffect</td>
+<td>null</td>
+<td></td>
+</tr>
+<tr>
+<td>duration</td>
+<td>float</td>
+<td>60.0</td>
+<td></td>
+</tr>
+<tr>
+<td>reload</td>
+<td>float</td>
+<td>100.0</td>
+<td></td>
+</tr>
+<tr>
+<td>range</td>
+<td>float</td>
+<td>20.0</td>
+<td></td>
+</tr>
+<tr>
+<td>applyEffect</td>
+<td>Effect</td>
+<td>heal</td>
+<td></td>
+</tr>
+<tr>
+<td>activeEffect</td>
+<td>Effect</td>
+<td>overdriveWave</td>
+<td></td>
+</tr>
+</tbody>
+</table>
 <h2 id="unitspawnability">UnitSpawnAbility</h2>
 <p><em>extends <a href="#ability">Ability</a></em></p>
 <table>
