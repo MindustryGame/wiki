@@ -5580,6 +5580,9 @@ Liquids will take priority over items.</p>
 </tr>
 </tbody>
 </table>
+<h2 id="overlayfloor">OverlayFloor</h2>
+<p><em>extends <a href="#floor">Floor</a></em></p>
+<p>A type of floor that is overlaid on top of other floors.</p>
 <h2 id="oreblock">OreBlock</h2>
 <p><em>extends <a href="#overlayfloor">OverlayFloor</a></em></p>
 <p>An overlay ore for a specific item type.</p>
@@ -5689,9 +5692,6 @@ Liquids will take priority over items.</p>
 </tr>
 </tbody>
 </table>
-<h2 id="overlayfloor">OverlayFloor</h2>
-<p><em>extends <a href="#floor">Floor</a></em></p>
-<p>A type of floor that is overlaid on top of other floors.</p>
 <h2 id="payloadacceptor">PayloadAcceptor</h2>
 <p><em>extends <a href="#block">Block</a></em></p>
 <table>
@@ -6588,108 +6588,6 @@ Use the standard Floor class instead.</p>
 </tr>
 </tbody>
 </table>
-<h2 id="unitblock">UnitBlock</h2>
-<p><em>extends <a href="#payloadacceptor">PayloadAcceptor</a></em></p>
-<h2 id="unloader">Unloader</h2>
-<p><em>extends <a href="#block">Block</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>speed</td>
-<td>float</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>timerUnload</td>
-<td>int</td>
-<td>1</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<h2 id="wall">Wall</h2>
-<p><em>extends <a href="#block">Block</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>variants</td>
-<td>int</td>
-<td>0</td>
-<td></td>
-</tr>
-<tr>
-<td>lightningChance</td>
-<td>float</td>
-<td>-1.0</td>
-<td>Lighting chance. -1 to disable</td>
-</tr>
-<tr>
-<td>lightningDamage</td>
-<td>float</td>
-<td>20.0</td>
-<td></td>
-</tr>
-<tr>
-<td>lightningLength</td>
-<td>int</td>
-<td>17</td>
-<td></td>
-</tr>
-<tr>
-<td>lightningColor</td>
-<td>Color</td>
-<td>f3e979ff</td>
-<td></td>
-</tr>
-<tr>
-<td>lightningSound</td>
-<td>Sound</td>
-<td>spark</td>
-<td></td>
-</tr>
-<tr>
-<td>chanceDeflect</td>
-<td>float</td>
-<td>-1.0</td>
-<td>Bullet deflection chance. -1 to disable</td>
-</tr>
-<tr>
-<td>flashHit</td>
-<td>boolean</td>
-<td>false</td>
-<td></td>
-</tr>
-<tr>
-<td>flashColor</td>
-<td>Color</td>
-<td>ffffffff</td>
-<td></td>
-</tr>
-<tr>
-<td>deflectSound</td>
-<td>Sound</td>
-<td>none</td>
-<td></td>
-</tr>
-</tbody>
-</table>
 <h2 id="thruster">Thruster</h2>
 <p><em>extends <a href="#wall">Wall</a></em></p>
 <table>
@@ -7112,6 +7010,8 @@ Use the standard Floor class instead.</p>
 </tr>
 </tbody>
 </table>
+<h2 id="unitblock">UnitBlock</h2>
+<p><em>extends <a href="#payloadacceptor">PayloadAcceptor</a></em></p>
 <h2 id="unitfactory">UnitFactory</h2>
 <p><em>extends <a href="#unitblock">UnitBlock</a></em></p>
 <table>
@@ -7134,6 +7034,106 @@ Use the standard Floor class instead.</p>
 <td>plans</td>
 <td>Seq<UnitPlan></td>
 <td>new Seq&lt;&gt;(4)</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="unloader">Unloader</h2>
+<p><em>extends <a href="#block">Block</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>speed</td>
+<td>float</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>timerUnload</td>
+<td>int</td>
+<td>1</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="wall">Wall</h2>
+<p><em>extends <a href="#block">Block</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>variants</td>
+<td>int</td>
+<td>0</td>
+<td></td>
+</tr>
+<tr>
+<td>lightningChance</td>
+<td>float</td>
+<td>-1.0</td>
+<td>Lighting chance. -1 to disable</td>
+</tr>
+<tr>
+<td>lightningDamage</td>
+<td>float</td>
+<td>20.0</td>
+<td></td>
+</tr>
+<tr>
+<td>lightningLength</td>
+<td>int</td>
+<td>17</td>
+<td></td>
+</tr>
+<tr>
+<td>lightningColor</td>
+<td>Color</td>
+<td>f3e979ff</td>
+<td></td>
+</tr>
+<tr>
+<td>lightningSound</td>
+<td>Sound</td>
+<td>spark</td>
+<td></td>
+</tr>
+<tr>
+<td>chanceDeflect</td>
+<td>float</td>
+<td>-1.0</td>
+<td>Bullet deflection chance. -1 to disable</td>
+</tr>
+<tr>
+<td>flashHit</td>
+<td>boolean</td>
+<td>false</td>
+<td></td>
+</tr>
+<tr>
+<td>flashColor</td>
+<td>Color</td>
+<td>ffffffff</td>
+<td></td>
+</tr>
+<tr>
+<td>deflectSound</td>
+<td>Sound</td>
+<td>none</td>
 <td></td>
 </tr>
 </tbody>
