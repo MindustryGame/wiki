@@ -11,8 +11,8 @@
       
         <link rel="canonical" href="https://mindustrygame.github.io/wiki/modding/5-types/">
       
-      <link rel="shortcut icon" href="../../images/favicon.png">
-      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-7.0.5">
+      <link rel="icon" href="../../images/favicon.png">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-7.0.6">
     
     
       
@@ -20,7 +20,7 @@
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.77f3fd56.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.2c0c5eaf.min.css">
       
         
         <link rel="stylesheet" href="../../assets/stylesheets/palette.7fa14f5b.min.css">
@@ -73,11 +73,9 @@
       
     </div>
     
-      
-
-<header class="md-header" data-md-component="header">
+      <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="https://mindustrygame.github.io/wiki/" title="Mindustry Wiki" class="md-header__button md-logo" aria-label="Mindustry Wiki">
+    <a href="../.." title="Mindustry Wiki" class="md-header__button md-logo" aria-label="Mindustry Wiki" data-md-component="logo">
       
   <img src="../../images/favicon.png" alt="logo">
 
@@ -168,11 +166,9 @@
                     
 
 
-
-
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="https://mindustrygame.github.io/wiki/" title="Mindustry Wiki" class="md-nav__button md-logo" aria-label="Mindustry Wiki">
+    <a href="../.." title="Mindustry Wiki" class="md-nav__button md-logo" aria-label="Mindustry Wiki" data-md-component="logo">
       
   <img src="../../images/favicon.png" alt="logo">
 
@@ -4583,40 +4579,6 @@
 </tr>
 </tbody>
 </table>
-<h2 id="itemsource">ItemSource</h2>
-<p><em>extends <a href="#block">Block</a></em></p>
-<h2 id="liquidblock">LiquidBlock</h2>
-<p><em>extends <a href="#block">Block</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>liquidRegion</td>
-<td>TextureRegion</td>
-<td>null</td>
-<td></td>
-</tr>
-<tr>
-<td>topRegion</td>
-<td>TextureRegion</td>
-<td>null</td>
-<td></td>
-</tr>
-<tr>
-<td>bottomRegion</td>
-<td>TextureRegion</td>
-<td>null</td>
-<td></td>
-</tr>
-</tbody>
-</table>
 <h2 id="fracker">Fracker</h2>
 <p><em>extends <a href="#solidpump">SolidPump</a></em></p>
 <table>
@@ -4888,134 +4850,6 @@
 </tr>
 </tbody>
 </table>
-<h2 id="junction">Junction</h2>
-<p><em>extends <a href="#block">Block</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>speed</td>
-<td>float</td>
-<td>26.0</td>
-<td></td>
-</tr>
-<tr>
-<td>capacity</td>
-<td>int</td>
-<td>6</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<h2 id="liquidbridge">LiquidBridge</h2>
-<p><em>extends <a href="#itembridge">ItemBridge</a></em></p>
-<h2 id="liquidvoid">LiquidVoid</h2>
-<p><em>extends <a href="#block">Block</a></em></p>
-<h2 id="messageblock">MessageBlock</h2>
-<p><em>extends <a href="#block">Block</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>maxTextLength</td>
-<td>int</td>
-<td>220</td>
-<td></td>
-</tr>
-<tr>
-<td>maxNewlines</td>
-<td>int</td>
-<td>24</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<h2 id="overflowgate">OverflowGate</h2>
-<p><em>extends <a href="#block">Block</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>speed</td>
-<td>float</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>invert</td>
-<td>boolean</td>
-<td>false</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<h2 id="payloadacceptor">PayloadAcceptor</h2>
-<p><em>extends <a href="#block">Block</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>payloadSpeed</td>
-<td>float</td>
-<td>0.5</td>
-<td></td>
-</tr>
-<tr>
-<td>payloadRotateSpeed</td>
-<td>float</td>
-<td>5.0</td>
-<td></td>
-</tr>
-<tr>
-<td>topRegion</td>
-<td>TextureRegion</td>
-<td>null</td>
-<td></td>
-</tr>
-<tr>
-<td>outRegion</td>
-<td>TextureRegion</td>
-<td>null</td>
-<td></td>
-</tr>
-<tr>
-<td>inRegion</td>
-<td>TextureRegion</td>
-<td>null</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<h2 id="powerblock">PowerBlock</h2>
-<p><em>extends <a href="#block">Block</a></em></p>
 <h2 id="itemliquidgenerator">ItemLiquidGenerator</h2>
 <p><em>extends <a href="#powergenerator">PowerGenerator</a></em></p>
 <p>Power generation block which can use items, liquids or both as input sources for power production.
@@ -5098,6 +4932,8 @@ Liquids will take priority over items.</p>
 </tr>
 </tbody>
 </table>
+<h2 id="itemsource">ItemSource</h2>
+<p><em>extends <a href="#block">Block</a></em></p>
 <h2 id="itemturret">ItemTurret</h2>
 <p><em>extends <a href="#turret">Turret</a></em></p>
 <table>
@@ -5120,6 +4956,32 @@ Liquids will take priority over items.</p>
 </table>
 <h2 id="itemvoid">ItemVoid</h2>
 <p><em>extends <a href="#block">Block</a></em></p>
+<h2 id="junction">Junction</h2>
+<p><em>extends <a href="#block">Block</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>speed</td>
+<td>float</td>
+<td>26.0</td>
+<td></td>
+</tr>
+<tr>
+<td>capacity</td>
+<td>int</td>
+<td>6</td>
+<td></td>
+</tr>
+</tbody>
+</table>
 <h2 id="laserturret">LaserTurret</h2>
 <p><em>extends <a href="#powerturret">PowerTurret</a></em></p>
 <table>
@@ -5253,6 +5115,40 @@ Liquids will take priority over items.</p>
 </tr>
 </tbody>
 </table>
+<h2 id="liquidblock">LiquidBlock</h2>
+<p><em>extends <a href="#block">Block</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>liquidRegion</td>
+<td>TextureRegion</td>
+<td>null</td>
+<td></td>
+</tr>
+<tr>
+<td>topRegion</td>
+<td>TextureRegion</td>
+<td>null</td>
+<td></td>
+</tr>
+<tr>
+<td>bottomRegion</td>
+<td>TextureRegion</td>
+<td>null</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="liquidbridge">LiquidBridge</h2>
+<p><em>extends <a href="#itembridge">ItemBridge</a></em></p>
 <h2 id="liquidconverter">LiquidConverter</h2>
 <p><em>extends <a href="#genericcrafter">GenericCrafter</a></em></p>
 <h2 id="liquidextendingbridge">LiquidExtendingBridge</h2>
@@ -5301,6 +5197,8 @@ Liquids will take priority over items.</p>
 </tr>
 </tbody>
 </table>
+<h2 id="liquidvoid">LiquidVoid</h2>
+<p><em>extends <a href="#block">Block</a></em></p>
 <h2 id="logicblock">LogicBlock</h2>
 <p><em>extends <a href="#block">Block</a></em></p>
 <table>
@@ -5551,6 +5449,32 @@ Liquids will take priority over items.</p>
 </tr>
 </tbody>
 </table>
+<h2 id="messageblock">MessageBlock</h2>
+<p><em>extends <a href="#block">Block</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>maxTextLength</td>
+<td>int</td>
+<td>220</td>
+<td></td>
+</tr>
+<tr>
+<td>maxNewlines</td>
+<td>int</td>
+<td>24</td>
+<td></td>
+</tr>
+</tbody>
+</table>
 <h2 id="nuclearreactor">NuclearReactor</h2>
 <p><em>extends <a href="#powergenerator">PowerGenerator</a></em></p>
 <table>
@@ -5732,9 +5656,79 @@ Liquids will take priority over items.</p>
 </tr>
 </tbody>
 </table>
+<h2 id="overflowgate">OverflowGate</h2>
+<p><em>extends <a href="#block">Block</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>speed</td>
+<td>float</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>invert</td>
+<td>boolean</td>
+<td>false</td>
+<td></td>
+</tr>
+</tbody>
+</table>
 <h2 id="overlayfloor">OverlayFloor</h2>
 <p><em>extends <a href="#floor">Floor</a></em></p>
 <p>A type of floor that is overlaid on top of other floors.</p>
+<h2 id="payloadacceptor">PayloadAcceptor</h2>
+<p><em>extends <a href="#block">Block</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>payloadSpeed</td>
+<td>float</td>
+<td>0.5</td>
+<td></td>
+</tr>
+<tr>
+<td>payloadRotateSpeed</td>
+<td>float</td>
+<td>5.0</td>
+<td></td>
+</tr>
+<tr>
+<td>topRegion</td>
+<td>TextureRegion</td>
+<td>null</td>
+<td></td>
+</tr>
+<tr>
+<td>outRegion</td>
+<td>TextureRegion</td>
+<td>null</td>
+<td></td>
+</tr>
+<tr>
+<td>inRegion</td>
+<td>TextureRegion</td>
+<td>null</td>
+<td></td>
+</tr>
+</tbody>
+</table>
 <h2 id="payloadconveyor">PayloadConveyor</h2>
 <p><em>extends <a href="#block">Block</a></em></p>
 <table>
@@ -5885,6 +5879,8 @@ Liquids will take priority over items.</p>
 </tr>
 </tbody>
 </table>
+<h2 id="powerblock">PowerBlock</h2>
+<p><em>extends <a href="#block">Block</a></em></p>
 <h2 id="powerdiode">PowerDiode</h2>
 <p><em>extends <a href="#block">Block</a></em></p>
 <table>
@@ -6003,6 +5999,26 @@ Liquids will take priority over items.</p>
 </tr>
 </tbody>
 </table>
+<h2 id="reloadturret">ReloadTurret</h2>
+<p><em>extends <a href="#baseturret">BaseTurret</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>reloadTime</td>
+<td>float</td>
+<td>10.0</td>
+<td></td>
+</tr>
+</tbody>
+</table>
 <h2 id="powerturret">PowerTurret</h2>
 <p><em>extends <a href="#turret">Turret</a></em></p>
 <table>
@@ -6079,26 +6095,6 @@ Liquids will take priority over items.</p>
 <td>capacities</td>
 <td>int[]</td>
 <td>[]</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<h2 id="reloadturret">ReloadTurret</h2>
-<p><em>extends <a href="#baseturret">BaseTurret</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>reloadTime</td>
-<td>float</td>
-<td>10.0</td>
 <td></td>
 </tr>
 </tbody>
@@ -7153,7 +7149,7 @@ Use the standard Floor class instead.</p>
 <tr>
 <td>id</td>
 <td>int</td>
-<td>174</td>
+<td>173</td>
 <td></td>
 </tr>
 <tr>
@@ -9416,7 +9412,7 @@ amount: 0.5
     <script id="__config" type="application/json">{"base": "../..", "features": [], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}, "search": "../../assets/javascripts/workers/search.fb4a9340.min.js", "version": null}</script>
     
     
-      <script src="../../assets/javascripts/bundle.5cf3e710.min.js"></script>
+      <script src="../../assets/javascripts/bundle.a1c7c35e.min.js"></script>
       
     
   </body>
