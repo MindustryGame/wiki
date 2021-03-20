@@ -134,6 +134,10 @@ This presents a core part of unit control in mlog; **only one unit can be bound 
 
 Represents the current UNIX timestamp *in milliseconds*.
 
+#### @tick `constant` `float`
+
+Represents the amount of ticks (60 ticks/second) since the map began. 
+
 #### @mapw `constant` `number`
 
 Width of the map, in tiles.
