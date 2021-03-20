@@ -2567,6 +2567,13 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#tick-constant-float" class="md-nav__link">
+    @tick constant float
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#mapw-constant-number" class="md-nav__link">
     @mapw constant number
   </a>
@@ -3308,6 +3315,13 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#tick-constant-float" class="md-nav__link">
+    @tick constant float
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#mapw-constant-number" class="md-nav__link">
     @mapw constant number
   </a>
@@ -3429,6 +3443,8 @@ jump 1 lessThan linkIter @links # Loop
 <p>This presents a core part of unit control in mlog; <strong>only one unit can be bound at a time.</strong> However, you can reference this in a variable, like <code>set unitReference @unit</code>. That variable, though, can not be used to get information about or control the referenced unit. It can only be used to check against other units. Therefore, you can think of it as a "unit identity".</p>
 <h4 id="time-constant-number">@time <code>constant</code> <code>number</code></h4>
 <p>Represents the current UNIX timestamp <em>in milliseconds</em>.</p>
+<h4 id="tick-constant-float">@tick <code>constant</code> <code>float</code></h4>
+<p>Represents the amount of ticks (60 ticks/second) since the map began. </p>
 <h4 id="mapw-constant-number">@mapw <code>constant</code> <code>number</code></h4>
 <p>Width of the map, in tiles.</p>
 <h4 id="maph-constant-number">@maph <code>constant</code> <code>number</code></h4>
