@@ -38,6 +38,10 @@ When a user tries to install a JAR mod, Mindustry will check the latest (and *on
 
 I recommend using Github Actions (or any other CI) to automatically build and upload jar artifacts to new releases.
 
+## Multithreading
+
+Unless otherwise noted, **no Mindustry code is thread-safe**. Performing any actions (e.g. sending packets, changing tiles) from a thread other than the main one will result in random crashes or network errors. To run something on the main thread, use `Core.app.post(() -> { /* code */ })`.
+
 ## Capabilities & Security
 
 As jar mods are loaded directly through a URLClassLoader with no sandboxing, they do not have any security limitations. This means:
