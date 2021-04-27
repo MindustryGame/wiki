@@ -2498,6 +2498,13 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#multithreading" class="md-nav__link">
+    Multithreading
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#capabilities-security" class="md-nav__link">
     Capabilities &amp; Security
   </a>
@@ -3044,6 +3051,13 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#multithreading" class="md-nav__link">
+    Multithreading
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#capabilities-security" class="md-nav__link">
     Capabilities &amp; Security
   </a>
@@ -3089,6 +3103,8 @@ All plugin main classes should extend <code>mindustry.mod.Plugin</code>. This ma
 <p>Unlike JS or JSON mods, JAR mods need to be compiled. This means that they cannot be imported directly from Github - instead, <em>Github Releases</em> are used. </p>
 <p>When a user tries to install a JAR mod, Mindustry will check the latest (and <em>only</em> the latest) Github release for <code>.jar</code> artifacts. When the first artifact is found, it is downloaded to the client. Note that pre-releases are ignored.</p>
 <p>I recommend using Github Actions (or any other CI) to automatically build and upload jar artifacts to new releases.</p>
+<h2 id="multithreading">Multithreading</h2>
+<p>Unless otherwise noted, <strong>no Mindustry code is thread-safe</strong>. Performing any actions (e.g. sending packets, changing tiles) from a thread other than the main one will result in random crashes or network errors. To run something on the main thread, use <code>Core.app.post(() -&gt; { /* code */ })</code>.</p>
 <h2 id="capabilities-security">Capabilities &amp; Security</h2>
 <p>As jar mods are loaded directly through a URLClassLoader with no sandboxing, they do not have any security limitations. This means:</p>
 <ul>
