@@ -44,12 +44,12 @@ Unless otherwise noted, **no Mindustry code is thread-safe**. Performing any act
 
 ## Capabilities & Security
 
-As jar mods are loaded directly through a URLClassLoader with no sandboxing, they do not have any security limitations. This means:
+As jar mods are loaded directly through a `URLClassLoader` with no sandboxing, they do not have any security limitations. This means:
 
 - All Java APIs can be accessed.
 - Reflection can be used to access private/hidden properties.
 - Mods have full access to the client's computer, opening the door to potentially malicious actions.
-- Mods can change game files or core rewrite bytecode.
+- Mods can change game files or rewrite core bytecode.
 
 Thus, you should *never import jar mods from untrusted sources.* Now, you may be wondering: Why aren't jar mods sandboxed? Isn't that a massive security risk? 
 
