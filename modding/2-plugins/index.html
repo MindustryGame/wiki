@@ -3106,12 +3106,12 @@ All plugin main classes should extend <code>mindustry.mod.Plugin</code>. This ma
 <h2 id="multithreading">Multithreading</h2>
 <p>Unless otherwise noted, <strong>no Mindustry code is thread-safe</strong>. Performing any actions (e.g. sending packets, changing tiles) from a thread other than the main one will result in random crashes or network errors. To run something on the main thread, use <code>Core.app.post(() -&gt; { /* code */ })</code>.</p>
 <h2 id="capabilities-security">Capabilities &amp; Security</h2>
-<p>As jar mods are loaded directly through a URLClassLoader with no sandboxing, they do not have any security limitations. This means:</p>
+<p>As jar mods are loaded directly through a <code>URLClassLoader</code> with no sandboxing, they do not have any security limitations. This means:</p>
 <ul>
 <li>All Java APIs can be accessed.</li>
 <li>Reflection can be used to access private/hidden properties.</li>
 <li>Mods have full access to the client's computer, opening the door to potentially malicious actions.</li>
-<li>Mods can change game files or core rewrite bytecode.</li>
+<li>Mods can change game files or rewrite core bytecode.</li>
 </ul>
 <p>Thus, you should <em>never import jar mods from untrusted sources.</em> Now, you may be wondering: Why aren't jar mods sandboxed? Isn't that a massive security risk? </p>
 <p>The answer is: <em>Yes</em>, it is. However, there are no good alternatives. Even if I implemented a <code>SecurityManager</code> to limit mod capabilities, it wouldn't help - Java is inherently insecure, and any reasonably-"secure" sandbox implementation (<em>if one even exists</em>) would require disabling reflection in mods, which is unacceptable.</p>
