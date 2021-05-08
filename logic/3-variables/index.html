@@ -3443,7 +3443,7 @@ jump 1 lessThan linkIter @links # Loop
 <h3 id="misc">Misc</h3>
 <h4 id="unit-constant-unit">@unit <code>constant</code> <code>Unit</code></h4>
 <p>A constant that represents the current bound unit. It only changes when the processor unbinds a unit, or binds another one. It can be accessed using Unit instructions such as <code>ucontrol</code>, <code>ulocate</code>, and <code>uradar</code>. Since it's a Unit Object, you can also use it with <code>sensor</code>.</p>
-<p>This presents a core part of unit control in mlog; <strong>only one unit can be bound at a time.</strong> However, you can reference this in a variable, like <code>set unitReference @unit</code>. That variable, though, can not be used to get information about or control the referenced unit. It can only be used to check against other units. Therefore, you can think of it as a "unit identity".</p>
+<p>This presents a core part of unit control in mlog; <strong>only one unit can be bound at a time.</strong> However, you can reference this in a variable, like <code>set unitReference @unit</code>. That variable, though, can not be used to control the referenced unit. It can only be used to check against other units or to get information about it. Therefore, you can think of it as a "unit identity".</p>
 <h4 id="time-constant-number">@time <code>constant</code> <code>number</code></h4>
 <p>Represents the current UNIX timestamp <em>in milliseconds</em>.</p>
 <h4 id="tick-constant-float">@tick <code>constant</code> <code>float</code></h4>
