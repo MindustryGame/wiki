@@ -3,10 +3,9 @@
 ## Blocks
 
 - `Block#expanded` is now deprecated and a no-op, use `Block#clipSize`instead. The field is kept to ensure compatibility, but will be removed eventually.
-- All `mindustry.world.meta.values.*` classes have been replaced with lambdas. See `StatValues`.
+- All `mindustry.world.meta.values.*` classes have been replaced with lambdas. See the `StatValues` class.
 - `BlockForge` has been moved out of the experimental package, and will likely undergo significant changes. If you were using this class in a Java mod, I recommend copy-pasting it in so you can keep using the old version. Other experimental blocks may be moved as well.
 - `CacheLayer` is now a class with methods that can be overridden - not an enum. `CacheLayer#add` can be used to register new layers.
-- `Vars.miningRange` has been moved to `UnitType`: https://github.com/Anuken/Mindustry/pull/5112/
 - `Iconc` and related methods have been removed; use `UnlockableContent.uiIcon/fullIcon`. 
 - `Smelter` and `AttributeSmelter` have been deprecated. These classes had hard-coded drawing functionality. Transition to `GenericCrafter` with a `DrawSmelter` as quickly as possible. For attribute support, use `AttributeCrafter`.
 - `Cultivator` is deprecated for the same reasons as `Smelter`, use `AttributeCrafter` instead.
@@ -30,6 +29,7 @@
 
 - `BulletType#despawned` is no longer called in many cases, use `#removed` if you need to listen to all removal events
 - `Attribute` is now a standard class, not an enum. Use `Attribute.add` to register a new one.
+- `Vars.miningRange` has been moved to `UnitType`.
 
 ## Sprites
 
