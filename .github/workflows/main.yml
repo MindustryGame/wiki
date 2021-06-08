@@ -43,15 +43,17 @@ jobs:
         uses: actions/setup-java@v1
         with:
           java-version: 14
-
-      - name: Generate docs
+      - name: Checkout latest Mindustry tag
         run: |
           cd ..
           git clone https://github.com/Anuken/Mindustry
           cd Mindustry
           latesttag=$(git describe --tags)
+          echo "Checking out tag: ${latesttag}"
           git checkout ${latesttag}
           cd ../
+      - name: Generate docs
+        run: |
           git clone https://github.com/Anuken/Mindustry-Wiki-Generator --depth 1
           cd Mindustry-Wiki-Generator/
           ./run.sh
