@@ -48,9 +48,10 @@ jobs:
           cd ..
           git clone https://github.com/Anuken/Mindustry
           cd Mindustry
-          latesttag=$(git describe --tags)
-          echo "Checking out tag: ${latesttag}"
-          git checkout ${latesttag}
+          git fetch --tags
+          latestTag=$(git describe --tags `git rev-list --tags --max-count=1`)
+          echo "Checking out tag: ${latestTag}"
+          git checkout ${latestTag}
           cd ../
       - name: Generate docs
         run: |
