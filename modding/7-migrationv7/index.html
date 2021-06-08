@@ -3111,10 +3111,9 @@
 <h2 id="blocks">Blocks</h2>
 <ul>
 <li><code>Block#expanded</code> is now deprecated and a no-op, use <code>Block#clipSize</code>instead. The field is kept to ensure compatibility, but will be removed eventually.</li>
-<li>All <code>mindustry.world.meta.values.*</code> classes have been replaced with lambdas. See <code>StatValues</code>.</li>
+<li>All <code>mindustry.world.meta.values.*</code> classes have been replaced with lambdas. See the <code>StatValues</code> class.</li>
 <li><code>BlockForge</code> has been moved out of the experimental package, and will likely undergo significant changes. If you were using this class in a Java mod, I recommend copy-pasting it in so you can keep using the old version. Other experimental blocks may be moved as well.</li>
 <li><code>CacheLayer</code> is now a class with methods that can be overridden - not an enum. <code>CacheLayer#add</code> can be used to register new layers.</li>
-<li><code>Vars.miningRange</code> has been moved to <code>UnitType</code>: https://github.com/Anuken/Mindustry/pull/5112/</li>
 <li><code>Iconc</code> and related methods have been removed; use <code>UnlockableContent.uiIcon/fullIcon</code>. </li>
 <li><code>Smelter</code> and <code>AttributeSmelter</code> have been deprecated. These classes had hard-coded drawing functionality. Transition to <code>GenericCrafter</code> with a <code>DrawSmelter</code> as quickly as possible. For attribute support, use <code>AttributeCrafter</code>.</li>
 <li><code>Cultivator</code> is deprecated for the same reasons as <code>Smelter</code>, use <code>AttributeCrafter</code> instead.</li>
@@ -3138,6 +3137,7 @@
 <ul>
 <li><code>BulletType#despawned</code> is no longer called in many cases, use <code>#removed</code> if you need to listen to all removal events</li>
 <li><code>Attribute</code> is now a standard class, not an enum. Use <code>Attribute.add</code> to register a new one.</li>
+<li><code>Vars.miningRange</code> has been moved to <code>UnitType</code>.</li>
 </ul>
 <h2 id="sprites">Sprites</h2>
 <ul>
