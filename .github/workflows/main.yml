@@ -47,7 +47,11 @@ jobs:
       - name: Generate docs
         run: |
           cd ..
-          git clone https://github.com/Anuken/Mindustry --depth 1
+          git clone https://github.com/Anuken/Mindustry
+          cd Mindustry
+          latesttag=$(git describe --tags)
+          git checkout ${latesttag}
+          cd ../
           git clone https://github.com/Anuken/Mindustry-Wiki-Generator --depth 1
           cd Mindustry-Wiki-Generator/
           ./run.sh
