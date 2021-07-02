@@ -4253,11 +4253,74 @@
 </tbody>
 </table>
 <h2 id="blockforge">BlockForge</h2>
-<p><em>extends <a href="#blockforge">BlockForge</a></em></p>
+<p><em>extends <a href="#blockproducer">BlockProducer</a></em></p>
+<p>Configurable BlockProducer variant.</p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>buildSpeed</td>
+<td>float</td>
+<td>0.4</td>
+<td></td>
+</tr>
+<tr>
+<td>minBlockSize</td>
+<td>int</td>
+<td>1</td>
+<td></td>
+</tr>
+<tr>
+<td>maxBlockSize</td>
+<td>int</td>
+<td>2</td>
+<td></td>
+</tr>
+</tbody>
+</table>
 <h2 id="blockloader">BlockLoader</h2>
 <p><em>extends <a href="#blockloader">BlockLoader</a></em></p>
 <h2 id="blockunloader">BlockUnloader</h2>
 <p><em>extends <a href="#blockloader">BlockLoader</a></em></p>
+<h2 id="burnergenerator">BurnerGenerator</h2>
+<p><em>extends <a href="#itemliquidgenerator">ItemLiquidGenerator</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>turbineRegions</td>
+<td>TextureRegion[]</td>
+<td>null</td>
+<td></td>
+</tr>
+<tr>
+<td>capRegion</td>
+<td>TextureRegion</td>
+<td>null</td>
+<td></td>
+</tr>
+<tr>
+<td>turbineSpeed</td>
+<td>float</td>
+<td>2.0</td>
+<td></td>
+</tr>
+</tbody>
+</table>
 <h2 id="bush">Bush</h2>
 <p><em>extends <a href="#prop">Prop</a></em></p>
 <table>
@@ -4390,6 +4453,71 @@
 <td>effectSize</td>
 <td>float</td>
 <td>150.0</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="cultivator">Cultivator</h2>
+<p><em>extends <a href="#genericcrafter">GenericCrafter</a></em></p>
+<p>@deprecated use GenericCrafter or AttributeCrafter with a DrawCultivator instead.
+WARNING: If you switch from a class that used Cultivator to a GenericCrafter, make sure you set legacyReadWarmup to true! Failing to do so will break saves.
+This class has been gutted of its behavior.</p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>plantColor</td>
+<td>Color</td>
+<td>5541b1ff</td>
+<td></td>
+</tr>
+<tr>
+<td>plantColorLight</td>
+<td>Color</td>
+<td>7457ceff</td>
+<td></td>
+</tr>
+<tr>
+<td>bottomColor</td>
+<td>Color</td>
+<td>474747ff</td>
+<td></td>
+</tr>
+<tr>
+<td>middleRegion</td>
+<td>TextureRegion</td>
+<td>null</td>
+<td></td>
+</tr>
+<tr>
+<td>topRegion</td>
+<td>TextureRegion</td>
+<td>null</td>
+<td></td>
+</tr>
+<tr>
+<td>random</td>
+<td>Rand</td>
+<td>new Rand(0)</td>
+<td></td>
+</tr>
+<tr>
+<td>recurrence</td>
+<td>float</td>
+<td>6.0</td>
+<td></td>
+</tr>
+<tr>
+<td>attribute</td>
+<td>Attribute</td>
+<td>spores</td>
 <td></td>
 </tr>
 </tbody>
@@ -4614,38 +4742,6 @@
 </tr>
 </tbody>
 </table>
-<h2 id="burnergenerator">BurnerGenerator</h2>
-<p><em>extends <a href="#itemliquidgenerator">ItemLiquidGenerator</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>turbineRegions</td>
-<td>TextureRegion[]</td>
-<td>null</td>
-<td></td>
-</tr>
-<tr>
-<td>capRegion</td>
-<td>TextureRegion</td>
-<td>null</td>
-<td></td>
-</tr>
-<tr>
-<td>turbineSpeed</td>
-<td>float</td>
-<td>2.0</td>
-<td></td>
-</tr>
-</tbody>
-</table>
 <h2 id="cliff">Cliff</h2>
 <p><em>extends <a href="#block">Block</a></em></p>
 <table>
@@ -4804,11 +4900,8 @@
 </tr>
 </tbody>
 </table>
-<h2 id="cultivator">Cultivator</h2>
-<p><em>extends <a href="#genericcrafter">GenericCrafter</a></em></p>
-<p>@deprecated use GenericCrafter or AttributeCrafter with a DrawCultivator instead.
-WARNING: If you switch from a class that used Cultivator to a GenericCrafter, make sure you set legacyReadWarmup to true! Failing to do so will break saves.
-This class has been gutted of its behavior.</p>
+<h2 id="payloadblock">PayloadBlock</h2>
+<p><em>extends <a href="#block">Block</a></em></p>
 <table>
 <thead>
 <tr>
@@ -4820,27 +4913,15 @@ This class has been gutted of its behavior.</p>
 </thead>
 <tbody>
 <tr>
-<td>plantColor</td>
-<td>Color</td>
-<td>5541b1ff</td>
+<td>payloadSpeed</td>
+<td>float</td>
+<td>0.7</td>
 <td></td>
 </tr>
 <tr>
-<td>plantColorLight</td>
-<td>Color</td>
-<td>7457ceff</td>
-<td></td>
-</tr>
-<tr>
-<td>bottomColor</td>
-<td>Color</td>
-<td>474747ff</td>
-<td></td>
-</tr>
-<tr>
-<td>middleRegion</td>
-<td>TextureRegion</td>
-<td>null</td>
+<td>payloadRotateSpeed</td>
+<td>float</td>
+<td>5.0</td>
 <td></td>
 </tr>
 <tr>
@@ -4850,25 +4931,23 @@ This class has been gutted of its behavior.</p>
 <td></td>
 </tr>
 <tr>
-<td>random</td>
-<td>Rand</td>
-<td>new Rand(0)</td>
+<td>outRegion</td>
+<td>TextureRegion</td>
+<td>null</td>
 <td></td>
 </tr>
 <tr>
-<td>recurrence</td>
-<td>float</td>
-<td>6.0</td>
-<td></td>
-</tr>
-<tr>
-<td>attribute</td>
-<td>Attribute</td>
-<td>spores</td>
+<td>inRegion</td>
+<td>TextureRegion</td>
+<td>null</td>
 <td></td>
 </tr>
 </tbody>
 </table>
+<h2 id="powerblock">PowerBlock</h2>
+<p><em>extends <a href="#block">Block</a></em></p>
+<h2 id="decaygenerator">DecayGenerator</h2>
+<p><em>extends <a href="#itemliquidgenerator">ItemLiquidGenerator</a></em></p>
 <h2 id="door">Door</h2>
 <p><em>extends <a href="#wall">Wall</a></em></p>
 <table>
@@ -5309,6 +5388,163 @@ This class has been gutted of its behavior.</p>
 </tr>
 </tbody>
 </table>
+<h2 id="itemliquidgenerator">ItemLiquidGenerator</h2>
+<p><em>extends <a href="#powergenerator">PowerGenerator</a></em></p>
+<p>Power generation block which can use items, liquids or both as input sources for power production.
+Liquids will take priority over items.</p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>minItemEfficiency</td>
+<td>float</td>
+<td>0.2</td>
+<td></td>
+</tr>
+<tr>
+<td>itemDuration</td>
+<td>float</td>
+<td>70.0</td>
+<td>The time in number of ticks during which a single item will produce power.</td>
+</tr>
+<tr>
+<td>minLiquidEfficiency</td>
+<td>float</td>
+<td>0.2</td>
+<td></td>
+</tr>
+<tr>
+<td>maxLiquidGenerate</td>
+<td>float</td>
+<td>0.4</td>
+<td>Maximum liquid used per frame.</td>
+</tr>
+<tr>
+<td>generateEffect</td>
+<td>Effect</td>
+<td>generatespark</td>
+<td></td>
+</tr>
+<tr>
+<td>explodeEffect</td>
+<td>Effect</td>
+<td>generatespark</td>
+<td></td>
+</tr>
+<tr>
+<td>heatColor</td>
+<td>Color</td>
+<td>ff9b59ff</td>
+<td></td>
+</tr>
+<tr>
+<td>topRegion</td>
+<td>TextureRegion</td>
+<td>null</td>
+<td></td>
+</tr>
+<tr>
+<td>liquidRegion</td>
+<td>TextureRegion</td>
+<td>null</td>
+<td></td>
+</tr>
+<tr>
+<td>randomlyExplode</td>
+<td>boolean</td>
+<td>true</td>
+<td></td>
+</tr>
+<tr>
+<td>defaults</td>
+<td>boolean</td>
+<td>false</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="itemvoid">ItemVoid</h2>
+<p><em>extends <a href="#block">Block</a></em></p>
+<h2 id="legacyblock">LegacyBlock</h2>
+<p><em>extends <a href="#block">Block</a></em></p>
+<p>Any subclass of this will be removed upon world load.</p>
+<h2 id="liquidblock">LiquidBlock</h2>
+<p><em>extends <a href="#block">Block</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>liquidRegion</td>
+<td>TextureRegion</td>
+<td>null</td>
+<td></td>
+</tr>
+<tr>
+<td>topRegion</td>
+<td>TextureRegion</td>
+<td>null</td>
+<td></td>
+</tr>
+<tr>
+<td>bottomRegion</td>
+<td>TextureRegion</td>
+<td>null</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="fracker">Fracker</h2>
+<p><em>extends <a href="#solidpump">SolidPump</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>itemUseTime</td>
+<td>float</td>
+<td>100.0</td>
+<td></td>
+</tr>
+<tr>
+<td>liquidRegion</td>
+<td>TextureRegion</td>
+<td>null</td>
+<td></td>
+</tr>
+<tr>
+<td>rotatorRegion</td>
+<td>TextureRegion</td>
+<td>null</td>
+<td></td>
+</tr>
+<tr>
+<td>topRegion</td>
+<td>TextureRegion</td>
+<td>null</td>
+<td></td>
+</tr>
+</tbody>
+</table>
 <h2 id="genericsmelter">GenericSmelter</h2>
 <p><em>extends <a href="#genericcrafter">GenericCrafter</a></em></p>
 <p>@deprecated this class has no new functionality over GenericCrafter, use GenericCrafter with a DrawSmelter drawer instead. See vanilla smelter blocks.</p>
@@ -5362,6 +5598,80 @@ This class has been gutted of its behavior.</p>
 <td>flameRadiusInMag</td>
 <td>float</td>
 <td>1.0</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="impactreactor">ImpactReactor</h2>
+<p><em>extends <a href="#powergenerator">PowerGenerator</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>timerUse</td>
+<td>int</td>
+<td>1</td>
+<td></td>
+</tr>
+<tr>
+<td>warmupSpeed</td>
+<td>float</td>
+<td>0.001</td>
+<td></td>
+</tr>
+<tr>
+<td>itemDuration</td>
+<td>float</td>
+<td>60.0</td>
+<td></td>
+</tr>
+<tr>
+<td>explosionRadius</td>
+<td>int</td>
+<td>23</td>
+<td></td>
+</tr>
+<tr>
+<td>explosionDamage</td>
+<td>int</td>
+<td>1900</td>
+<td></td>
+</tr>
+<tr>
+<td>explodeEffect</td>
+<td>Effect</td>
+<td>impactReactorExplosion</td>
+<td></td>
+</tr>
+<tr>
+<td>plasma1</td>
+<td>Color</td>
+<td>ffd06bff</td>
+<td></td>
+</tr>
+<tr>
+<td>plasma2</td>
+<td>Color</td>
+<td>ff361bff</td>
+<td></td>
+</tr>
+<tr>
+<td>bottomRegion</td>
+<td>TextureRegion</td>
+<td>null</td>
+<td></td>
+</tr>
+<tr>
+<td>plasmaRegions</td>
+<td>TextureRegion[]</td>
+<td>null</td>
 <td></td>
 </tr>
 </tbody>
@@ -5516,8 +5826,6 @@ This class has been gutted of its behavior.</p>
 </tr>
 </tbody>
 </table>
-<h2 id="liquidbridge">LiquidBridge</h2>
-<p><em>extends <a href="#itembridge">ItemBridge</a></em></p>
 <h2 id="liquidconverter">LiquidConverter</h2>
 <p><em>extends <a href="#genericcrafter">GenericCrafter</a></em></p>
 <h2 id="liquidsource">LiquidSource</h2>
@@ -5666,75 +5974,6 @@ This class has been gutted of its behavior.</p>
 </tr>
 </tbody>
 </table>
-<h2 id="oreblock">OreBlock</h2>
-<p><em>extends <a href="#overlayfloor">OverlayFloor</a></em></p>
-<p>An overlay ore for a specific item type.</p>
-<h2 id="payloadblock">PayloadBlock</h2>
-<p><em>extends <a href="#block">Block</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>payloadSpeed</td>
-<td>float</td>
-<td>0.7</td>
-<td></td>
-</tr>
-<tr>
-<td>payloadRotateSpeed</td>
-<td>float</td>
-<td>5.0</td>
-<td></td>
-</tr>
-<tr>
-<td>topRegion</td>
-<td>TextureRegion</td>
-<td>null</td>
-<td></td>
-</tr>
-<tr>
-<td>outRegion</td>
-<td>TextureRegion</td>
-<td>null</td>
-<td></td>
-</tr>
-<tr>
-<td>inRegion</td>
-<td>TextureRegion</td>
-<td>null</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<h2 id="payloadrouter">PayloadRouter</h2>
-<p><em>extends <a href="#payloadconveyor">PayloadConveyor</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>overRegion</td>
-<td>TextureRegion</td>
-<td>null</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<h2 id="powerblock">PowerBlock</h2>
-<p><em>extends <a href="#block">Block</a></em></p>
 <h2 id="powergenerator">PowerGenerator</h2>
 <p><em>extends <a href="#powerdistributor">PowerDistributor</a></em></p>
 <table>
@@ -5757,239 +5996,6 @@ This class has been gutted of its behavior.</p>
 <td>generationType</td>
 <td>Stat</td>
 <td>basePowerGeneration</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<h2 id="itemliquidgenerator">ItemLiquidGenerator</h2>
-<p><em>extends <a href="#powergenerator">PowerGenerator</a></em></p>
-<p>Power generation block which can use items, liquids or both as input sources for power production.
-Liquids will take priority over items.</p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>minItemEfficiency</td>
-<td>float</td>
-<td>0.2</td>
-<td></td>
-</tr>
-<tr>
-<td>itemDuration</td>
-<td>float</td>
-<td>70.0</td>
-<td>The time in number of ticks during which a single item will produce power.</td>
-</tr>
-<tr>
-<td>minLiquidEfficiency</td>
-<td>float</td>
-<td>0.2</td>
-<td></td>
-</tr>
-<tr>
-<td>maxLiquidGenerate</td>
-<td>float</td>
-<td>0.4</td>
-<td>Maximum liquid used per frame.</td>
-</tr>
-<tr>
-<td>generateEffect</td>
-<td>Effect</td>
-<td>generatespark</td>
-<td></td>
-</tr>
-<tr>
-<td>explodeEffect</td>
-<td>Effect</td>
-<td>generatespark</td>
-<td></td>
-</tr>
-<tr>
-<td>heatColor</td>
-<td>Color</td>
-<td>ff9b59ff</td>
-<td></td>
-</tr>
-<tr>
-<td>topRegion</td>
-<td>TextureRegion</td>
-<td>null</td>
-<td></td>
-</tr>
-<tr>
-<td>liquidRegion</td>
-<td>TextureRegion</td>
-<td>null</td>
-<td></td>
-</tr>
-<tr>
-<td>randomlyExplode</td>
-<td>boolean</td>
-<td>true</td>
-<td></td>
-</tr>
-<tr>
-<td>defaults</td>
-<td>boolean</td>
-<td>false</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<h2 id="decaygenerator">DecayGenerator</h2>
-<p><em>extends <a href="#itemliquidgenerator">ItemLiquidGenerator</a></em></p>
-<h2 id="itemvoid">ItemVoid</h2>
-<p><em>extends <a href="#block">Block</a></em></p>
-<h2 id="legacyblock">LegacyBlock</h2>
-<p><em>extends <a href="#block">Block</a></em></p>
-<p>Any subclass of this will be removed upon world load.</p>
-<h2 id="liquidblock">LiquidBlock</h2>
-<p><em>extends <a href="#block">Block</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>liquidRegion</td>
-<td>TextureRegion</td>
-<td>null</td>
-<td></td>
-</tr>
-<tr>
-<td>topRegion</td>
-<td>TextureRegion</td>
-<td>null</td>
-<td></td>
-</tr>
-<tr>
-<td>bottomRegion</td>
-<td>TextureRegion</td>
-<td>null</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<h2 id="fracker">Fracker</h2>
-<p><em>extends <a href="#solidpump">SolidPump</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>itemUseTime</td>
-<td>float</td>
-<td>100.0</td>
-<td></td>
-</tr>
-<tr>
-<td>liquidRegion</td>
-<td>TextureRegion</td>
-<td>null</td>
-<td></td>
-</tr>
-<tr>
-<td>rotatorRegion</td>
-<td>TextureRegion</td>
-<td>null</td>
-<td></td>
-</tr>
-<tr>
-<td>topRegion</td>
-<td>TextureRegion</td>
-<td>null</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<h2 id="impactreactor">ImpactReactor</h2>
-<p><em>extends <a href="#powergenerator">PowerGenerator</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>timerUse</td>
-<td>int</td>
-<td>1</td>
-<td></td>
-</tr>
-<tr>
-<td>warmupSpeed</td>
-<td>float</td>
-<td>0.001</td>
-<td></td>
-</tr>
-<tr>
-<td>itemDuration</td>
-<td>float</td>
-<td>60.0</td>
-<td></td>
-</tr>
-<tr>
-<td>explosionRadius</td>
-<td>int</td>
-<td>23</td>
-<td></td>
-</tr>
-<tr>
-<td>explosionDamage</td>
-<td>int</td>
-<td>1900</td>
-<td></td>
-</tr>
-<tr>
-<td>explodeEffect</td>
-<td>Effect</td>
-<td>impactReactorExplosion</td>
-<td></td>
-</tr>
-<tr>
-<td>plasma1</td>
-<td>Color</td>
-<td>ffd06bff</td>
-<td></td>
-</tr>
-<tr>
-<td>plasma2</td>
-<td>Color</td>
-<td>ff361bff</td>
-<td></td>
-</tr>
-<tr>
-<td>bottomRegion</td>
-<td>TextureRegion</td>
-<td>null</td>
-<td></td>
-</tr>
-<tr>
-<td>plasmaRegions</td>
-<td>TextureRegion[]</td>
-<td>null</td>
 <td></td>
 </tr>
 </tbody>
@@ -6068,6 +6074,8 @@ Liquids will take priority over items.</p>
 </tr>
 </tbody>
 </table>
+<h2 id="liquidbridge">LiquidBridge</h2>
+<p><em>extends <a href="#itembridge">ItemBridge</a></em></p>
 <h2 id="liquidextendingbridge">LiquidExtendingBridge</h2>
 <p><em>extends <a href="#extendingitembridge">ExtendingItemBridge</a></em></p>
 <h2 id="liquidjunction">LiquidJunction</h2>
@@ -6376,6 +6384,9 @@ Liquids will take priority over items.</p>
 </tr>
 </tbody>
 </table>
+<h2 id="oreblock">OreBlock</h2>
+<p><em>extends <a href="#overlayfloor">OverlayFloor</a></em></p>
+<p>An overlay ore for a specific item type.</p>
 <h2 id="overdriveprojector">OverdriveProjector</h2>
 <p><em>extends <a href="#block">Block</a></em></p>
 <table>
@@ -6725,6 +6736,26 @@ Liquids will take priority over items.</p>
 </tr>
 <tr>
 <td>arrow</td>
+<td>TextureRegion</td>
+<td>null</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="payloadrouter">PayloadRouter</h2>
+<p><em>extends <a href="#payloadconveyor">PayloadConveyor</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>overRegion</td>
 <td>TextureRegion</td>
 <td>null</td>
 <td></td>
@@ -9457,7 +9488,7 @@ Use the standard Floor class instead.</p>
 <tr>
 <td>id</td>
 <td>int</td>
-<td>198</td>
+<td>197</td>
 <td></td>
 </tr>
 <tr>
