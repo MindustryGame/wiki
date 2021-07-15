@@ -3473,12 +3473,12 @@
 <p>You can connect to one using the "Join Game" button under the "Play" menu. Unlike dedicated servers, your device will automatically find the host device and it will ususally appear in the server list without you having to enter the host's IP address in.</p>
 <h2 id="dedicated-server-commands">Dedicated Server Commands</h2>
 <ul>
-<li><code>help</code>: <em>Displays this command list.</em></li>
+<li><code>help [command]</code>: <em>Display the command list, or get help for a specific command.</em></li>
 <li><code>version</code>: <em>Displays server version info.</em></li>
 <li><code>exit</code>: <em>Exit the server application.</em></li>
 <li><code>stop</code>: <em>Stop hosting the server.</em></li>
 <li><code>host [mapname] [mode]</code>: <em>Open the server. Will default to survival and a random map if not specified.</em></li>
-<li><code>maps</code>: <em>Display all available maps.</em></li>
+<li><code>maps [all/custom/default]</code>: <em>Display available maps. Displays only custom maps by default.</em></li>
 <li><code>reloadmaps</code>: <em>Reload all maps from disk.</em></li>
 <li><code>status</code>: <em>Display server status.</em></li>
 <li><code>mods</code>: <em>Display all loaded mods.</em></li>
@@ -3491,9 +3491,7 @@
 <li><code>playerlimit [off/somenumber]</code>: <em>Set the server player limit.</em></li>
 <li><code>config [name] [value...]</code>: <em>Configure server settings.</em></li>
 <li><code>subnet-ban [add/remove] [address]</code>: <em>Ban a subnet. This simply rejects all connections with IPs starting with some string.</em></li>
-<li><code>whitelisted</code>: <em>List the entire whitelist.</em></li>
-<li><code>whitelist-add &lt;ID&gt;</code>: <em>Add a player to the whitelist by ID.</em></li>
-<li><code>whitelist-remove &lt;ID&gt;</code>: <em>Remove a player to the whitelist by ID.</em></li>
+<li><code>whitelist [add/remove] [ID]</code>: <em>Add/remove players from the whitelist using their ID.</em></li>
 <li><code>shuffle [none/all/custom/builtin]</code>: <em>Set map shuffling mode.</em></li>
 <li><code>nextmap &lt;mapname...&gt;</code>: <em>Set the next map to be played after a game-over. Overrides shuffling.</em></li>
 <li><code>kick &lt;username...&gt;</code>: <em>Kick a person by name.</em></li>
