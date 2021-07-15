@@ -1,5 +1,9 @@
 # Types
 
+*Note:* Deprecated content classes are not listed here, and their use is heavily discouraged. Transition to non-deprecated equivalents as quickly as possible.
+
+View the list of all deprecated classes and methods in the [Mindustry Javadoc](https://mindustrygame.github.io/docs/deprecated-list.html).
+
 $allTypes
 
 
