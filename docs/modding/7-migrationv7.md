@@ -17,6 +17,7 @@
 - `Pixmap`'s API has been completely changed. Most methods now have blending disabled, and color/blending/scaling parameters are no longer part of the `Pixmap` state machine. Most image-related methods are now pure Java instead of JNI + C.
 - `SettingsDialog` (`Vars.ui.settings`) has been moved into Mindustry's codebase. This technically doesn't change the API; however, Java mods compiled with 6.0 source will try to access non-existent fields of a non-existent class, leading to crashes. Recompiling with v7 Mindustry/arc dependencies should be enough to fix this.
 - TextureAtlas now uses the smaller, faster `aatls` binary format. Update your Arc dependencies to read it.
+- `Core.net` has been removed, use the static methods in `arc.util.Http` instead.
 
 ## Networking
 
