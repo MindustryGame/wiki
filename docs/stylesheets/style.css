@@ -41,8 +41,6 @@ img#zonespr {
   width: auto !important;
   height: 1.6em !important;
   size: auto;
-  margin-left: 5px;
-  margin-top: -3px;
   border: 2px solid dimgray;
   border-radius: 8px;
 }
