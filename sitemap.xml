@@ -1741,11 +1741,6 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://mindustrygame.github.io/wiki/blocks/10-build8/</loc>
-         <lastmod>2021-07-16</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://mindustrygame.github.io/wiki/blocks/100-pyratite-mixer/</loc>
          <lastmod>2021-07-16</lastmod>
          <changefreq>daily</changefreq>
@@ -1792,11 +1787,6 @@
     </url>
     <url>
          <loc>https://mindustrygame.github.io/wiki/blocks/109-copper-wall/</loc>
-         <lastmod>2021-07-16</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://mindustrygame.github.io/wiki/blocks/11-build9/</loc>
          <lastmod>2021-07-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -1851,11 +1841,6 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://mindustrygame.github.io/wiki/blocks/12-build10/</loc>
-         <lastmod>2021-07-16</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://mindustrygame.github.io/wiki/blocks/120-surge-wall-large/</loc>
          <lastmod>2021-07-16</lastmod>
          <changefreq>daily</changefreq>
@@ -1902,11 +1887,6 @@
     </url>
     <url>
          <loc>https://mindustrygame.github.io/wiki/blocks/129-mend-projector/</loc>
-         <lastmod>2021-07-16</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://mindustrygame.github.io/wiki/blocks/13-build11/</loc>
          <lastmod>2021-07-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -1961,11 +1941,6 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://mindustrygame.github.io/wiki/blocks/14-build12/</loc>
-         <lastmod>2021-07-16</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://mindustrygame.github.io/wiki/blocks/140-phase-conveyor/</loc>
          <lastmod>2021-07-16</lastmod>
          <changefreq>daily</changefreq>
@@ -2012,11 +1987,6 @@
     </url>
     <url>
          <loc>https://mindustrygame.github.io/wiki/blocks/149-duct-router/</loc>
-         <lastmod>2021-07-16</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://mindustrygame.github.io/wiki/blocks/15-build13/</loc>
          <lastmod>2021-07-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -2071,11 +2041,6 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://mindustrygame.github.io/wiki/blocks/16-build14/</loc>
-         <lastmod>2021-07-16</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://mindustrygame.github.io/wiki/blocks/160-bridge-conduit/</loc>
          <lastmod>2021-07-16</lastmod>
          <changefreq>daily</changefreq>
@@ -2126,11 +2091,6 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://mindustrygame.github.io/wiki/blocks/17-build15/</loc>
-         <lastmod>2021-07-16</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://mindustrygame.github.io/wiki/blocks/170-steam-generator/</loc>
          <lastmod>2021-07-16</lastmod>
          <changefreq>daily</changefreq>
@@ -2177,11 +2137,6 @@
     </url>
     <url>
          <loc>https://mindustrygame.github.io/wiki/blocks/179-laser-drill/</loc>
-         <lastmod>2021-07-16</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://mindustrygame.github.io/wiki/blocks/18-build16/</loc>
          <lastmod>2021-07-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -2441,26 +2396,6 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://mindustrygame.github.io/wiki/blocks/231-legacy-mech-pad/</loc>
-         <lastmod>2021-07-16</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://mindustrygame.github.io/wiki/blocks/232-legacy-unit-factory/</loc>
-         <lastmod>2021-07-16</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://mindustrygame.github.io/wiki/blocks/233-legacy-unit-factory-air/</loc>
-         <lastmod>2021-07-16</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://mindustrygame.github.io/wiki/blocks/234-legacy-unit-factory-ground/</loc>
-         <lastmod>2021-07-16</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://mindustrygame.github.io/wiki/blocks/235-launch-pad/</loc>
          <lastmod>2021-07-16</lastmod>
          <changefreq>daily</changefreq>
@@ -2527,41 +2462,6 @@
     </url>
     <url>
          <loc>https://mindustrygame.github.io/wiki/blocks/248-block-unloader/</loc>
-         <lastmod>2021-07-16</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://mindustrygame.github.io/wiki/blocks/3-build1/</loc>
-         <lastmod>2021-07-16</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://mindustrygame.github.io/wiki/blocks/4-build2/</loc>
-         <lastmod>2021-07-16</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://mindustrygame.github.io/wiki/blocks/5-build3/</loc>
-         <lastmod>2021-07-16</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://mindustrygame.github.io/wiki/blocks/6-build4/</loc>
-         <lastmod>2021-07-16</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://mindustrygame.github.io/wiki/blocks/7-build5/</loc>
-         <lastmod>2021-07-16</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://mindustrygame.github.io/wiki/blocks/8-build6/</loc>
-         <lastmod>2021-07-16</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://mindustrygame.github.io/wiki/blocks/9-build7/</loc>
          <lastmod>2021-07-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
