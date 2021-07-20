@@ -8300,93 +8300,8 @@
 </tr>
 </tbody>
 </table>
-<h2 id="armoredconveyor">ArmoredConveyor</h2>
-<p><em>extends <a href="#conveyor">Conveyor</a></em></p>
-<h2 id="attributecrafter">AttributeCrafter</h2>
-<p><em>extends <a href="#genericcrafter">GenericCrafter</a></em></p>
-<p>A crafter that gains efficiency from attribute tiles.</p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>attribute</td>
-<td>Attribute</td>
-<td>heat</td>
-<td></td>
-</tr>
-<tr>
-<td>baseEfficiency</td>
-<td>float</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>boostScale</td>
-<td>float</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>maxBoost</td>
-<td>float</td>
-<td>1.0</td>
-<td></td>
-</tr>
-</tbody>
-</table>
 <h2 id="ballisticsilo">BallisticSilo</h2>
 <p><em>extends <a href="#payloadblock">PayloadBlock</a></em></p>
-<h2 id="baseturret">BaseTurret</h2>
-<p><em>extends <a href="#block">Block</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>range</td>
-<td>float</td>
-<td>80.0</td>
-<td></td>
-</tr>
-<tr>
-<td>rotateSpeed</td>
-<td>float</td>
-<td>5.0</td>
-<td></td>
-</tr>
-<tr>
-<td>acceptCoolant</td>
-<td>boolean</td>
-<td>true</td>
-<td></td>
-</tr>
-<tr>
-<td>coolEffect</td>
-<td>Effect</td>
-<td>fuelburn</td>
-<td>Effect displayed when coolant is used.</td>
-</tr>
-<tr>
-<td>coolantMultiplier</td>
-<td>float</td>
-<td>5.0</td>
-<td>How much reload is lowered by for each unit of liquid of heat capacity.</td>
-</tr>
-</tbody>
-</table>
 <h2 id="battery">Battery</h2>
 <p><em>extends <a href="#powerdistributor">PowerDistributor</a></em></p>
 <table>
@@ -8560,70 +8475,6 @@
 </table>
 <h2 id="blockunloader">BlockUnloader</h2>
 <p><em>extends <a href="#blockloader">BlockLoader</a></em></p>
-<h2 id="buffereditembridge">BufferedItemBridge</h2>
-<p><em>extends <a href="#extendingitembridge">ExtendingItemBridge</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>timerAccept</td>
-<td>int</td>
-<td>1</td>
-<td></td>
-</tr>
-<tr>
-<td>speed</td>
-<td>float</td>
-<td>40.0</td>
-<td></td>
-</tr>
-<tr>
-<td>bufferCapacity</td>
-<td>int</td>
-<td>50</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<h2 id="burnergenerator">BurnerGenerator</h2>
-<p><em>extends <a href="#itemliquidgenerator">ItemLiquidGenerator</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>turbineRegions</td>
-<td>TextureRegion[]</td>
-<td>null</td>
-<td></td>
-</tr>
-<tr>
-<td>capRegion</td>
-<td>TextureRegion</td>
-<td>null</td>
-<td></td>
-</tr>
-<tr>
-<td>turbineSpeed</td>
-<td>float</td>
-<td>2.0</td>
-<td></td>
-</tr>
-</tbody>
-</table>
 <h2 id="bush">Bush</h2>
 <p><em>extends <a href="#prop">Prop</a></em></p>
 <table>
@@ -8710,82 +8561,6 @@
 </tr>
 </tbody>
 </table>
-<h2 id="cliff">Cliff</h2>
-<p><em>extends <a href="#block">Block</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>size</td>
-<td>float</td>
-<td>11.0</td>
-<td></td>
-</tr>
-<tr>
-<td>cliffs</td>
-<td>TextureRegion[]</td>
-<td>null</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<h2 id="commandcenter">CommandCenter</h2>
-<p><em>extends <a href="#block">Block</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>timerEffect</td>
-<td>int</td>
-<td>1</td>
-<td></td>
-</tr>
-<tr>
-<td>commandRegions</td>
-<td>TextureRegionDrawable[]</td>
-<td>[null, null, null]</td>
-<td></td>
-</tr>
-<tr>
-<td>topColor</td>
-<td>Color</td>
-<td>null</td>
-<td></td>
-</tr>
-<tr>
-<td>bottomColor</td>
-<td>Color</td>
-<td>5e5e5eff</td>
-<td></td>
-</tr>
-<tr>
-<td>effect</td>
-<td>Effect</td>
-<td>commandSend</td>
-<td></td>
-</tr>
-<tr>
-<td>effectSize</td>
-<td>float</td>
-<td>150.0</td>
-<td></td>
-</tr>
-</tbody>
-</table>
 <h2 id="conduit">Conduit</h2>
 <p><em>extends <a href="#liquidblock">LiquidBlock</a></em></p>
 <table>
@@ -8858,6 +8633,231 @@
 <td>displayedSpeed</td>
 <td>float</td>
 <td>0.0</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="armoredconveyor">ArmoredConveyor</h2>
+<p><em>extends <a href="#conveyor">Conveyor</a></em></p>
+<h2 id="attributecrafter">AttributeCrafter</h2>
+<p><em>extends <a href="#genericcrafter">GenericCrafter</a></em></p>
+<p>A crafter that gains efficiency from attribute tiles.</p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>attribute</td>
+<td>Attribute</td>
+<td>heat</td>
+<td></td>
+</tr>
+<tr>
+<td>baseEfficiency</td>
+<td>float</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>boostScale</td>
+<td>float</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>maxBoost</td>
+<td>float</td>
+<td>1.0</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="baseturret">BaseTurret</h2>
+<p><em>extends <a href="#block">Block</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>range</td>
+<td>float</td>
+<td>80.0</td>
+<td></td>
+</tr>
+<tr>
+<td>rotateSpeed</td>
+<td>float</td>
+<td>5.0</td>
+<td></td>
+</tr>
+<tr>
+<td>acceptCoolant</td>
+<td>boolean</td>
+<td>true</td>
+<td></td>
+</tr>
+<tr>
+<td>coolEffect</td>
+<td>Effect</td>
+<td>fuelburn</td>
+<td>Effect displayed when coolant is used.</td>
+</tr>
+<tr>
+<td>coolantMultiplier</td>
+<td>float</td>
+<td>5.0</td>
+<td>How much reload is lowered by for each unit of liquid of heat capacity.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="buffereditembridge">BufferedItemBridge</h2>
+<p><em>extends <a href="#extendingitembridge">ExtendingItemBridge</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>timerAccept</td>
+<td>int</td>
+<td>1</td>
+<td></td>
+</tr>
+<tr>
+<td>speed</td>
+<td>float</td>
+<td>40.0</td>
+<td></td>
+</tr>
+<tr>
+<td>bufferCapacity</td>
+<td>int</td>
+<td>50</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="burnergenerator">BurnerGenerator</h2>
+<p><em>extends <a href="#itemliquidgenerator">ItemLiquidGenerator</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>turbineRegions</td>
+<td>TextureRegion[]</td>
+<td>null</td>
+<td></td>
+</tr>
+<tr>
+<td>capRegion</td>
+<td>TextureRegion</td>
+<td>null</td>
+<td></td>
+</tr>
+<tr>
+<td>turbineSpeed</td>
+<td>float</td>
+<td>2.0</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="cliff">Cliff</h2>
+<p><em>extends <a href="#block">Block</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>size</td>
+<td>float</td>
+<td>11.0</td>
+<td></td>
+</tr>
+<tr>
+<td>cliffs</td>
+<td>TextureRegion[]</td>
+<td>null</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="commandcenter">CommandCenter</h2>
+<p><em>extends <a href="#block">Block</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>timerEffect</td>
+<td>int</td>
+<td>1</td>
+<td></td>
+</tr>
+<tr>
+<td>commandRegions</td>
+<td>TextureRegionDrawable[]</td>
+<td>[null, null, null]</td>
+<td></td>
+</tr>
+<tr>
+<td>topColor</td>
+<td>Color</td>
+<td>null</td>
+<td></td>
+</tr>
+<tr>
+<td>bottomColor</td>
+<td>Color</td>
+<td>5e5e5eff</td>
+<td></td>
+</tr>
+<tr>
+<td>effect</td>
+<td>Effect</td>
+<td>commandSend</td>
+<td></td>
+</tr>
+<tr>
+<td>effectSize</td>
+<td>float</td>
+<td>150.0</td>
 <td></td>
 </tr>
 </tbody>
@@ -9184,6 +9184,8 @@
 </tr>
 </tbody>
 </table>
+<h2 id="extendingitembridge">ExtendingItemBridge</h2>
+<p><em>extends <a href="#itembridge">ItemBridge</a></em></p>
 <h2 id="floor">Floor</h2>
 <p><em>extends <a href="#block">Block</a></em></p>
 <table>
@@ -9348,132 +9350,6 @@
 </tr>
 </tbody>
 </table>
-<h2 id="genericcrafter">GenericCrafter</h2>
-<p><em>extends <a href="#block">Block</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>outputItem</td>
-<td>ItemStack</td>
-<td>null</td>
-<td>Written to outputItems as a single-element array if outputItems is null.</td>
-</tr>
-<tr>
-<td>outputItems</td>
-<td>ItemStack[]</td>
-<td>null</td>
-<td>Overwrites outputItem if not null.</td>
-</tr>
-<tr>
-<td>outputLiquid</td>
-<td>LiquidStack</td>
-<td>null</td>
-<td></td>
-</tr>
-<tr>
-<td>craftTime</td>
-<td>float</td>
-<td>80.0</td>
-<td></td>
-</tr>
-<tr>
-<td>craftEffect</td>
-<td>Effect</td>
-<td>none</td>
-<td></td>
-</tr>
-<tr>
-<td>updateEffect</td>
-<td>Effect</td>
-<td>none</td>
-<td></td>
-</tr>
-<tr>
-<td>updateEffectChance</td>
-<td>float</td>
-<td>0.04</td>
-<td></td>
-</tr>
-<tr>
-<td>warmupSpeed</td>
-<td>float</td>
-<td>0.019</td>
-<td></td>
-</tr>
-<tr>
-<td>legacyReadWarmup</td>
-<td>boolean</td>
-<td>false</td>
-<td>Only used for legacy cultivator blocks.</td>
-</tr>
-<tr>
-<td>drawer</td>
-<td>DrawBlock</td>
-<td>new DrawBlock()</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<h2 id="itembridge">ItemBridge</h2>
-<p><em>extends <a href="#block">Block</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>range</td>
-<td>int</td>
-<td>0</td>
-<td></td>
-</tr>
-<tr>
-<td>transportTime</td>
-<td>float</td>
-<td>2.0</td>
-<td></td>
-</tr>
-<tr>
-<td>endRegion</td>
-<td>TextureRegion</td>
-<td>null</td>
-<td></td>
-</tr>
-<tr>
-<td>bridgeRegion</td>
-<td>TextureRegion</td>
-<td>null</td>
-<td></td>
-</tr>
-<tr>
-<td>arrowRegion</td>
-<td>TextureRegion</td>
-<td>null</td>
-<td></td>
-</tr>
-<tr>
-<td>lastBuild</td>
-<td>ItemBridgeBuild</td>
-<td>null</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<h2 id="extendingitembridge">ExtendingItemBridge</h2>
-<p><em>extends <a href="#itembridge">ItemBridge</a></em></p>
 <h2 id="forceprojector">ForceProjector</h2>
 <p><em>extends <a href="#block">Block</a></em></p>
 <table>
@@ -9586,6 +9462,80 @@
 </tr>
 </tbody>
 </table>
+<h2 id="genericcrafter">GenericCrafter</h2>
+<p><em>extends <a href="#block">Block</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>outputItem</td>
+<td>ItemStack</td>
+<td>null</td>
+<td>Written to outputItems as a single-element array if outputItems is null.</td>
+</tr>
+<tr>
+<td>outputItems</td>
+<td>ItemStack[]</td>
+<td>null</td>
+<td>Overwrites outputItem if not null.</td>
+</tr>
+<tr>
+<td>outputLiquid</td>
+<td>LiquidStack</td>
+<td>null</td>
+<td></td>
+</tr>
+<tr>
+<td>craftTime</td>
+<td>float</td>
+<td>80.0</td>
+<td></td>
+</tr>
+<tr>
+<td>craftEffect</td>
+<td>Effect</td>
+<td>none</td>
+<td></td>
+</tr>
+<tr>
+<td>updateEffect</td>
+<td>Effect</td>
+<td>none</td>
+<td></td>
+</tr>
+<tr>
+<td>updateEffectChance</td>
+<td>float</td>
+<td>0.04</td>
+<td></td>
+</tr>
+<tr>
+<td>warmupSpeed</td>
+<td>float</td>
+<td>0.019</td>
+<td></td>
+</tr>
+<tr>
+<td>legacyReadWarmup</td>
+<td>boolean</td>
+<td>false</td>
+<td>Only used for legacy cultivator blocks.</td>
+</tr>
+<tr>
+<td>drawer</td>
+<td>DrawBlock</td>
+<td>new DrawBlock()</td>
+<td></td>
+</tr>
+</tbody>
+</table>
 <h2 id="impactreactor">ImpactReactor</h2>
 <p><em>extends <a href="#powergenerator">PowerGenerator</a></em></p>
 <table>
@@ -9682,6 +9632,56 @@
 <td>flameColor</td>
 <td>Color</td>
 <td>ffad9dff</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="itembridge">ItemBridge</h2>
+<p><em>extends <a href="#block">Block</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>range</td>
+<td>int</td>
+<td>0</td>
+<td></td>
+</tr>
+<tr>
+<td>transportTime</td>
+<td>float</td>
+<td>2.0</td>
+<td></td>
+</tr>
+<tr>
+<td>endRegion</td>
+<td>TextureRegion</td>
+<td>null</td>
+<td></td>
+</tr>
+<tr>
+<td>bridgeRegion</td>
+<td>TextureRegion</td>
+<td>null</td>
+<td></td>
+</tr>
+<tr>
+<td>arrowRegion</td>
+<td>TextureRegion</td>
+<td>null</td>
+<td></td>
+</tr>
+<tr>
+<td>lastBuild</td>
+<td>ItemBridgeBuild</td>
+<td>null</td>
 <td></td>
 </tr>
 </tbody>
@@ -13637,7 +13637,7 @@ Use the standard Floor class instead.</p>
 <tr>
 <td>id</td>
 <td>int</td>
-<td>199</td>
+<td>200</td>
 <td></td>
 </tr>
 <tr>
