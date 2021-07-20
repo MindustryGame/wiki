@@ -6,11 +6,13 @@
 - All `mindustry.world.meta.values.*` classes have been replaced with lambdas. See the `StatValues` class.
 - `BlockForge` has been moved out of the experimental package, and will likely undergo significant changes. If you were using this class in a Java mod, I recommend copy-pasting it in so you can keep using the old version. Other experimental blocks may be moved as well.
 - `CacheLayer` is now a class with methods that can be overridden - not an enum. `CacheLayer#add` can be used to register new layers.
+- Various fields, like `variants` and `attributes` have been moved from `Floor` to `Block`.
 - `Iconc` and related methods have been removed; use `UnlockableContent.uiIcon/fullIcon`. 
 - `Smelter` and `AttributeSmelter` have been deprecated. These classes had hard-coded drawing functionality. Transition to `GenericCrafter` with a `DrawSmelter` as quickly as possible. For attribute support, use `AttributeCrafter`.
 - `Cultivator` is deprecated for the same reasons as `Smelter`, use `AttributeCrafter` instead.
 - `PayloadAcceptor` was a misleading name in the wrong package, use `PayloadBlock` instead.
 - Generated icons **must** be created in `createIcons` now; attempting to use `Core.atlas.addRegion` simply will not work.
+- All fields in `Tex` are now `Drawable`, not `NinePatchDrawable` or `TextureRegionDrawable`. Why? These fields are loaded from the atlas, which means mods that change UI sprites or an outdated atlas could previously cause a `ClassCastException` crash.
 
 ## Arc
 
@@ -18,6 +20,8 @@
 - `SettingsDialog` (`Vars.ui.settings`) has been moved into Mindustry's codebase. This technically doesn't change the API; however, Java mods compiled with 6.0 source will try to access non-existent fields of a non-existent class, leading to crashes. Recompiling with v7 Mindustry/arc dependencies should be enough to fix this.
 - TextureAtlas now uses the smaller, faster `aatls` binary format. Update your Arc dependencies to read it.
 - `Core.net` has been removed, use the static methods in `arc.util.Http` instead.
+- `RidgedPerlin` has been renamed to `Ridged`.
+- `Simplex` and `Ridged` are now stateless; use static methods to generate noise now. The seed is a parameter.
 
 ## Networking
 
