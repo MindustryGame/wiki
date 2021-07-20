@@ -7676,11 +7676,13 @@
 <li>All <code>mindustry.world.meta.values.*</code> classes have been replaced with lambdas. See the <code>StatValues</code> class.</li>
 <li><code>BlockForge</code> has been moved out of the experimental package, and will likely undergo significant changes. If you were using this class in a Java mod, I recommend copy-pasting it in so you can keep using the old version. Other experimental blocks may be moved as well.</li>
 <li><code>CacheLayer</code> is now a class with methods that can be overridden - not an enum. <code>CacheLayer#add</code> can be used to register new layers.</li>
+<li>Various fields, like <code>variants</code> and <code>attributes</code> have been moved from <code>Floor</code> to <code>Block</code>.</li>
 <li><code>Iconc</code> and related methods have been removed; use <code>UnlockableContent.uiIcon/fullIcon</code>. </li>
 <li><code>Smelter</code> and <code>AttributeSmelter</code> have been deprecated. These classes had hard-coded drawing functionality. Transition to <code>GenericCrafter</code> with a <code>DrawSmelter</code> as quickly as possible. For attribute support, use <code>AttributeCrafter</code>.</li>
 <li><code>Cultivator</code> is deprecated for the same reasons as <code>Smelter</code>, use <code>AttributeCrafter</code> instead.</li>
 <li><code>PayloadAcceptor</code> was a misleading name in the wrong package, use <code>PayloadBlock</code> instead.</li>
 <li>Generated icons <strong>must</strong> be created in <code>createIcons</code> now; attempting to use <code>Core.atlas.addRegion</code> simply will not work.</li>
+<li>All fields in <code>Tex</code> are now <code>Drawable</code>, not <code>NinePatchDrawable</code> or <code>TextureRegionDrawable</code>. Why? These fields are loaded from the atlas, which means mods that change UI sprites or an outdated atlas could previously cause a <code>ClassCastException</code> crash.</li>
 </ul>
 <h2 id="arc">Arc</h2>
 <ul>
@@ -7688,6 +7690,8 @@
 <li><code>SettingsDialog</code> (<code>Vars.ui.settings</code>) has been moved into Mindustry's codebase. This technically doesn't change the API; however, Java mods compiled with 6.0 source will try to access non-existent fields of a non-existent class, leading to crashes. Recompiling with v7 Mindustry/arc dependencies should be enough to fix this.</li>
 <li>TextureAtlas now uses the smaller, faster <code>aatls</code> binary format. Update your Arc dependencies to read it.</li>
 <li><code>Core.net</code> has been removed, use the static methods in <code>arc.util.Http</code> instead.</li>
+<li><code>RidgedPerlin</code> has been renamed to <code>Ridged</code>.</li>
+<li><code>Simplex</code> and <code>Ridged</code> are now stateless; use static methods to generate noise now. The seed is a parameter.</li>
 </ul>
 <h2 id="networking">Networking</h2>
 <ul>
