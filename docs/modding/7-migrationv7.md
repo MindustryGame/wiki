@@ -14,6 +14,14 @@
 - Generated icons **must** be created in `createIcons` now; attempting to use `Core.atlas.addRegion` simply will not work.
 - All fields in `Tex` are now `Drawable`, not `NinePatchDrawable` or `TextureRegionDrawable`. Why? These fields are loaded from the atlas, which means mods that change UI sprites or an outdated atlas could previously cause a `ClassCastException` crash.
 
+## Ammo
+
+- Any mod code that worked with unit ammo is now broken.
+- The `ResupplyPoint` class has been removed.
+- `AmmoType` is now an interface, not a class.
+- `AmmoTypes` has been removed, make new instances instead.
+- Ammo type classes have been moved into the `mindustry.type.ammo` package.
+
 ## Arc
 
 - `Pixmap`'s API has been completely changed. Most methods now have blending disabled, and color/blending/scaling parameters are no longer part of the `Pixmap` state machine. Most image-related methods are now pure Java instead of JNI + C.
