@@ -6853,6 +6853,13 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#ammo" class="md-nav__link">
+    Ammo
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#arc" class="md-nav__link">
     Arc
   </a>
@@ -7629,6 +7636,13 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#ammo" class="md-nav__link">
+    Ammo
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#arc" class="md-nav__link">
     Arc
   </a>
@@ -7687,6 +7701,14 @@
 <li><code>PayloadAcceptor</code> was a misleading name in the wrong package, use <code>PayloadBlock</code> instead.</li>
 <li>Generated icons <strong>must</strong> be created in <code>createIcons</code> now; attempting to use <code>Core.atlas.addRegion</code> simply will not work.</li>
 <li>All fields in <code>Tex</code> are now <code>Drawable</code>, not <code>NinePatchDrawable</code> or <code>TextureRegionDrawable</code>. Why? These fields are loaded from the atlas, which means mods that change UI sprites or an outdated atlas could previously cause a <code>ClassCastException</code> crash.</li>
+</ul>
+<h2 id="ammo">Ammo</h2>
+<ul>
+<li>Any mod code that worked with unit ammo is now broken.</li>
+<li>The <code>ResupplyPoint</code> class has been removed.</li>
+<li><code>AmmoType</code> is now an interface, not a class.</li>
+<li><code>AmmoTypes</code> has been removed, make new instances instead.</li>
+<li>Ammo type classes have been moved into the <code>mindustry.type.ammo</code> package.</li>
 </ul>
 <h2 id="arc">Arc</h2>
 <ul>
