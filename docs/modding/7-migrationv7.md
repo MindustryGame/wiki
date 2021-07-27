@@ -21,6 +21,7 @@
 - `AmmoType` is now an interface, not a class.
 - `AmmoTypes` has been removed, make new instances instead.
 - Ammo type classes have been moved into the `mindustry.type.ammo` package.
+- `ContentType.ammo` has been "removed", as ammo is no longer content.
 
 ## Arc
 
