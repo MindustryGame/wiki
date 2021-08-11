@@ -8461,6 +8461,8 @@
 </tr>
 </tbody>
 </table>
+<h2 id="blockunloader">BlockUnloader</h2>
+<p><em>extends <a href="#blockloader">BlockLoader</a></em></p>
 <h2 id="buffereditembridge">BufferedItemBridge</h2>
 <p><em>extends <a href="#itembridge">ItemBridge</a></em></p>
 <table>
@@ -8783,6 +8785,26 @@
 </tr>
 </tbody>
 </table>
+<h2 id="nuclearwarhead">NuclearWarhead</h2>
+<p><em>extends <a href="#block">Block</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>radius</td>
+<td>float</td>
+<td>100.0</td>
+<td></td>
+</tr>
+</tbody>
+</table>
 <h2 id="payloadblock">PayloadBlock</h2>
 <p><em>extends <a href="#block">Block</a></em></p>
 <table>
@@ -8904,8 +8926,6 @@
 </tr>
 </tbody>
 </table>
-<h2 id="blockunloader">BlockUnloader</h2>
-<p><em>extends <a href="#blockloader">BlockLoader</a></em></p>
 <h2 id="bush">Bush</h2>
 <p><em>extends <a href="#prop">Prop</a></em></p>
 <table>
@@ -10432,50 +10452,6 @@ Liquids will take priority over items.</p>
 </tr>
 </tbody>
 </table>
-<h2 id="payloadlaunchpad">PayloadLaunchPad</h2>
-<p><em>extends <a href="#payloadblock">PayloadBlock</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>launchTime</td>
-<td>float</td>
-<td>0.0</td>
-<td>Time between launches.</td>
-</tr>
-<tr>
-<td>launchSound</td>
-<td>Sound</td>
-<td>none</td>
-<td></td>
-</tr>
-<tr>
-<td>lightRegion</td>
-<td>TextureRegion</td>
-<td>null</td>
-<td></td>
-</tr>
-<tr>
-<td>podRegion</td>
-<td>TextureRegion</td>
-<td>null</td>
-<td></td>
-</tr>
-<tr>
-<td>lightColor</td>
-<td>Color</td>
-<td>eab678ff</td>
-<td></td>
-</tr>
-</tbody>
-</table>
 <h2 id="payloadmassdriver">PayloadMassDriver</h2>
 <p><em>extends <a href="#payloadblock">PayloadBlock</a></em></p>
 <table>
@@ -10862,26 +10838,6 @@ Liquids will take priority over items.</p>
 </tr>
 </tbody>
 </table>
-<h2 id="nuclearwarhead">NuclearWarhead</h2>
-<p><em>extends <a href="#block">Block</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>radius</td>
-<td>float</td>
-<td>100.0</td>
-<td></td>
-</tr>
-</tbody>
-</table>
 <h2 id="oreblock">OreBlock</h2>
 <p><em>extends <a href="#overlayfloor">OverlayFloor</a></em></p>
 <p>An overlay ore for a specific item type.</p>
@@ -10987,6 +10943,50 @@ Liquids will take priority over items.</p>
 <td>invert</td>
 <td>boolean</td>
 <td>false</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="payloadlaunchpad">PayloadLaunchPad</h2>
+<p><em>extends <a href="#payloadblock">PayloadBlock</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>launchTime</td>
+<td>float</td>
+<td>0.0</td>
+<td>Time between launches.</td>
+</tr>
+<tr>
+<td>launchSound</td>
+<td>Sound</td>
+<td>none</td>
+<td></td>
+</tr>
+<tr>
+<td>lightRegion</td>
+<td>TextureRegion</td>
+<td>null</td>
+<td></td>
+</tr>
+<tr>
+<td>podRegion</td>
+<td>TextureRegion</td>
+<td>null</td>
+<td></td>
+</tr>
+<tr>
+<td>lightColor</td>
+<td>Color</td>
+<td>eab678ff</td>
 <td></td>
 </tr>
 </tbody>
