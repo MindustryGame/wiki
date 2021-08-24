@@ -17,10 +17,10 @@ require("items");
 ```js
 const myBlock = extend(Conveyor, "terrible-conveyor", {
   //various overrides...
+  size: 3,
+  health: 200
+  //...
 });
-
-myBlock.health = 200;
-//...
 ```
 
 *scripts/items.js*:
