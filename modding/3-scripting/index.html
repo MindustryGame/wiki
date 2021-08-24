@@ -7585,10 +7585,10 @@ require(&quot;items&quot;);
 <p><em>scripts/blocks.js</em>:</p>
 <pre><code class="language-js">const myBlock = extend(Conveyor, &quot;terrible-conveyor&quot;, {
   //various overrides...
+  size: 3,
+  health: 200
+  //...
 });
-
-myBlock.health = 200;
-//...
 </code></pre>
 <p><em>scripts/items.js</em>:</p>
 <pre><code class="language-js">
