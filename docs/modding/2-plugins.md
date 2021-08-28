@@ -19,16 +19,16 @@ description: "..."
 version: "99.99"
 ```
 
-See the [example Java mod repo](https://github.com/Anuken/ExampleJavaMod), the [example Kotlin mod repo](https://github.com/Anuken/ExampleKotlinMod) or the [Java mod template](https://github.com/Sonnicon/mindustry-modtemplate) for more information.
+See the [example Java mod repo](https://github.com/Anuken/MindustryJavaModTemplate) or the [example Kotlin mod repo](https://github.com/Anuken/MindustryKotlinModTemplate) for more instructions.
 
 ## Plugins
 
 Plugins are Java mods that are intended to be run on servers only. Usually, these add *new commands* or *new gamemodes*.
-All plugin main classes should extend `mindustry.mod.Plugin`. This makes them implicitly *hidden* - clients will not need to download the plugin to join the server. They are server-side only.
+All plugin main classes should extend `mindustry.mod.Plugin`. This makes them implicitly *hidden* - clients will not need to download the plugin to join the server. They are server-side only. To install a plugin, place the JAR in `<server directory>/config/mods/`.
 
 Plugins name their meta file `plugin.[h]json`. The file structure is identical to that of other Java mods - see above for details.
 
-You can see an example plugin [here](https://github.com/Anuken/ExamplePlugin). For a more practical example that can be used on real servers, see [this repo](https://github.com/Anuken/AuthorizePlugin).
+You can see an example plugin [here](https://github.com/Anuken/MindustryPluginTemplate). For a more practical example that can be used on real servers, see [this repo](https://github.com/Anuken/AuthorizePlugin).
 
 ## Importing
 
