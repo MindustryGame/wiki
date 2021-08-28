@@ -7671,12 +7671,12 @@ main: &quot;nothing.NothingMod&quot;
 description: &quot;...&quot;
 version: &quot;99.99&quot;
 </code></pre>
-<p>See the <a href="https://github.com/Anuken/ExampleJavaMod">example Java mod repo</a>, the <a href="https://github.com/Anuken/ExampleKotlinMod">example Kotlin mod repo</a> or the <a href="https://github.com/Sonnicon/mindustry-modtemplate">Java mod template</a> for more information.</p>
+<p>See the <a href="https://github.com/Anuken/MindustryJavaModTemplate">example Java mod repo</a> or the <a href="https://github.com/Anuken/MindustryKotlinModTemplate">example Kotlin mod repo</a> for more instructions.</p>
 <h2 id="plugins">Plugins</h2>
 <p>Plugins are Java mods that are intended to be run on servers only. Usually, these add <em>new commands</em> or <em>new gamemodes</em>.
-All plugin main classes should extend <code>mindustry.mod.Plugin</code>. This makes them implicitly <em>hidden</em> - clients will not need to download the plugin to join the server. They are server-side only.</p>
+All plugin main classes should extend <code>mindustry.mod.Plugin</code>. This makes them implicitly <em>hidden</em> - clients will not need to download the plugin to join the server. They are server-side only. To install a plugin, place the JAR in <code>&lt;server directory&gt;/config/mods/</code>.</p>
 <p>Plugins name their meta file <code>plugin.[h]json</code>. The file structure is identical to that of other Java mods - see above for details.</p>
-<p>You can see an example plugin <a href="https://github.com/Anuken/ExamplePlugin">here</a>. For a more practical example that can be used on real servers, see <a href="https://github.com/Anuken/AuthorizePlugin">this repo</a>.</p>
+<p>You can see an example plugin <a href="https://github.com/Anuken/MindustryPluginTemplate">here</a>. For a more practical example that can be used on real servers, see <a href="https://github.com/Anuken/AuthorizePlugin">this repo</a>.</p>
 <h2 id="importing">Importing</h2>
 <p>Unlike JS or JSON mods, JAR mods need to be compiled. This means that they cannot be imported directly from Github - instead, <em>Github Releases</em> are used. </p>
 <p>When a user tries to install a JAR mod, Mindustry will check the latest (and <em>only</em> the latest) Github release for <code>.jar</code> artifacts. When the first artifact is found, it is downloaded to the client. Note that pre-releases are ignored.</p>
