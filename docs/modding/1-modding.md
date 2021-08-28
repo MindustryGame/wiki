@@ -293,8 +293,8 @@ Once you have a mod of some kind, you'll want to actually share it, and you may 
 
 All you need understand is how to open repositories on GitHub, stage and commit changes in your local repository, and push changes to the GitHub repository. Once your project is on GitHub, there are three ways to share it:
 
--   with the endpoint, for example `Anuken/ExampleMod`, which could then be typed in the ingame GitHub interface, and that would download it;
--   with the zip file, for example `https://github.com/Anuken/ExampleMod/archive/master.zip`, which would download the repository as a zip file, and put in mod directory (unzipping is not required);
+-   with the endpoint, for example `Anuken/MindustryJavaModTemplate`, which could then be typed in the ingame GitHub interface, and that would download it;
+-   with the zip file, for example `https://github.com/Anuken/MindustryJavaModTemplate/archive/master.zip`, which would download the repository as a zip file, and put in mod directory (unzipping is not required);
 -   add the topic/tag `mindustry-mod` on your repository, which should add it to the topic search and the [Mod scraper](https://github.com/Anuken/MindustryMods).
 
 
