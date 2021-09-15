@@ -51,7 +51,7 @@ jobs:
           git fetch --tags
           latestTag=$(git describe --tags `git rev-list --tags --max-count=1`)
           echo "Checking out tag: ${latestTag}"
-          git checkout ${latestTag}
+#          git checkout ${latestTag} #disabled until next release, for reasons
       - name: Generate docs
         run: |
           cd ..
