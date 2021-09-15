@@ -4,6 +4,8 @@
 
 View the list of all deprecated classes and methods in the [Mindustry Javadoc](https://mindustrygame.github.io/docs/deprecated-list.html).
 
+All JSON examples are automatically taken from [Exotic Mod](https://github.com/BlueWolf3682/Exotic-Mod) by *BlueWolf3682*. These should *only* be used as a reference for fields - do not directly copy-paste them into your mod, they will **not** work!
+
 $allTypes
 
 
@@ -11,26 +13,14 @@ $allTypes
 
 A flag used by the game to change a few special-case things. It may be one of the following strings:
 
--   `hidden`
--   `shown` (default)
--   `debugOnly`
--   `sandboxOnly`
--   `campaignOnly`
--   `lightingOnly`
-
+$buildVisibilities
 
 
 ## BlockGroup
 
 Groups for blocks to build on top of each other:
 
--   `none`
--   `walls`
--   `turrets`
--   `transportation`
--   `power`
--   `liquids`
--   `drills`
+$blockGroups
 
 
 ## ItemStack
