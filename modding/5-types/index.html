@@ -10410,75 +10410,6 @@ Liquids will take priority over items.</p>
 </tr>
 </tbody>
 </table>
-<h4 id="example-empiron-reactor">Example  <a href="https://github.com/BlueWolf3682/Exotic-Mod/tree/master/content/blocks/power/empiron-reactor.hjson">("Empiron Reactor")</a></h4>
-<pre><code>type: ItemLiquidGenerator
-size: 6
-canOverdrive: false
-itemDuration: 120
-consumes: {
-  liquid: {
-    liquid: energia
-    amount: 0.35
-  }
-  items: {
-    items: [
-      amethyst-gem/1
-    ]
-  }
-}
-generateEffectRnd: 0
-generateEffect: {
-  type: MultiEffect
-  layer: 35
-  lifetime: 120
-  effects: [
-    {
-      type: ParticleEffect
-      region: exotic-mod-empiron-base
-      lightOpacity: 0
-      particles: 1
-      lifetime: 120
-      length: 0
-      sizeFrom: 24
-      sizeTo: 24
-    }
-    {
-      type: ParticleEffect
-      region: exotic-mod-empiron-rotator-1
-      lightOpacity: 0
-      particles: 1
-      lifetime: 120
-      length: 0
-      sizeFrom: 24
-      sizeTo: 24
-      spin: 3
-    }
-    {
-      type: ParticleEffect
-      region: exotic-mod-empiron-rotator-2
-      lightOpacity: 0
-      particles: 1
-      lifetime: 120
-      length: 0
-      sizeFrom: 24
-      sizeTo: 24
-      spin: -6
-    }
-    {
-      type: ParticleEffect
-      region: exotic-mod-empiron-top
-      lightOpacity: 0
-      particles: 1
-      lifetime: 120
-      length: 0
-      sizeFrom: 24
-      sizeTo: 24
-    }
-  ]
-}
-powerProduction: 25
-buildVisibility: shown
-</code></pre>
 <h2 id="decaygenerator">DecayGenerator</h2>
 <p><em>extends <a href="#itemliquidgenerator">ItemLiquidGenerator</a></em></p>
 <h2 id="door">Door</h2>
@@ -11388,170 +11319,6 @@ requirements: [
 ]
 buildVisibility: editorOnly
 </code></pre>
-<h2 id="liquidblock">LiquidBlock</h2>
-<p><em>extends <a href="#block">Block</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>liquidRegion</td>
-<td>TextureRegion</td>
-<td>null</td>
-<td></td>
-</tr>
-<tr>
-<td>topRegion</td>
-<td>TextureRegion</td>
-<td>null</td>
-<td></td>
-</tr>
-<tr>
-<td>bottomRegion</td>
-<td>TextureRegion</td>
-<td>null</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<h2 id="liquidconverter">LiquidConverter</h2>
-<p><em>extends <a href="#genericcrafter">GenericCrafter</a></em></p>
-<h2 id="logicdisplay">LogicDisplay</h2>
-<p><em>extends <a href="#block">Block</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>maxSides</td>
-<td>int</td>
-<td>25</td>
-<td></td>
-</tr>
-<tr>
-<td>displaySize</td>
-<td>int</td>
-<td>64</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<h2 id="massdriver">MassDriver</h2>
-<p><em>extends <a href="#block">Block</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>range</td>
-<td>float</td>
-<td>0.0</td>
-<td></td>
-</tr>
-<tr>
-<td>rotateSpeed</td>
-<td>float</td>
-<td>5.0</td>
-<td></td>
-</tr>
-<tr>
-<td>translation</td>
-<td>float</td>
-<td>7.0</td>
-<td></td>
-</tr>
-<tr>
-<td>minDistribute</td>
-<td>int</td>
-<td>10</td>
-<td></td>
-</tr>
-<tr>
-<td>knockback</td>
-<td>float</td>
-<td>4.0</td>
-<td></td>
-</tr>
-<tr>
-<td>reloadTime</td>
-<td>float</td>
-<td>100.0</td>
-<td></td>
-</tr>
-<tr>
-<td>bullet</td>
-<td>MassDriverBolt</td>
-<td>new MassDriverBolt()</td>
-<td></td>
-</tr>
-<tr>
-<td>bulletSpeed</td>
-<td>float</td>
-<td>5.5</td>
-<td></td>
-</tr>
-<tr>
-<td>bulletLifetime</td>
-<td>float</td>
-<td>200.0</td>
-<td></td>
-</tr>
-<tr>
-<td>shootEffect</td>
-<td>Effect</td>
-<td>shootBig2</td>
-<td></td>
-</tr>
-<tr>
-<td>smokeEffect</td>
-<td>Effect</td>
-<td>shootBigSmoke2</td>
-<td></td>
-</tr>
-<tr>
-<td>receiveEffect</td>
-<td>Effect</td>
-<td>mineBig</td>
-<td></td>
-</tr>
-<tr>
-<td>shootSound</td>
-<td>Sound</td>
-<td>shootBig</td>
-<td></td>
-</tr>
-<tr>
-<td>shake</td>
-<td>float</td>
-<td>3.0</td>
-<td></td>
-</tr>
-<tr>
-<td>baseRegion</td>
-<td>TextureRegion</td>
-<td>null</td>
-<td></td>
-</tr>
-</tbody>
-</table>
 <h2 id="memoryblock">MemoryBlock</h2>
 <p><em>extends <a href="#block">Block</a></em></p>
 <table>
@@ -11662,6 +11429,26 @@ requirements: [
   baenite/6
 ]
 </code></pre>
+<h2 id="nuclearwarhead">NuclearWarhead</h2>
+<p><em>extends <a href="#block">Block</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>radius</td>
+<td>float</td>
+<td>100.0</td>
+<td></td>
+</tr>
+</tbody>
+</table>
 <h2 id="overflowgate">OverflowGate</h2>
 <p><em>extends <a href="#block">Block</a></em></p>
 <table>
@@ -11750,6 +11537,50 @@ requirements: [
   bluewolframite/25
 ]
 </code></pre>
+<h2 id="payloadlaunchpad">PayloadLaunchPad</h2>
+<p><em>extends <a href="#payloadblock">PayloadBlock</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>launchTime</td>
+<td>float</td>
+<td>0.0</td>
+<td>Time between launches.</td>
+</tr>
+<tr>
+<td>launchSound</td>
+<td>Sound</td>
+<td>none</td>
+<td></td>
+</tr>
+<tr>
+<td>lightRegion</td>
+<td>TextureRegion</td>
+<td>null</td>
+<td></td>
+</tr>
+<tr>
+<td>podRegion</td>
+<td>TextureRegion</td>
+<td>null</td>
+<td></td>
+</tr>
+<tr>
+<td>lightColor</td>
+<td>Color</td>
+<td>eab678ff</td>
+<td></td>
+</tr>
+</tbody>
+</table>
 <h2 id="payloadrouter">PayloadRouter</h2>
 <p><em>extends <a href="#payloadconveyor">PayloadConveyor</a></em></p>
 <table>
@@ -11999,112 +11830,6 @@ requirements: [
 category: distribution
 research: router
 </code></pre>
-<h2 id="shockmine">ShockMine</h2>
-<p><em>extends <a href="#block">Block</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>timerDamage</td>
-<td>int</td>
-<td>1</td>
-<td></td>
-</tr>
-<tr>
-<td>cooldown</td>
-<td>float</td>
-<td>80.0</td>
-<td></td>
-</tr>
-<tr>
-<td>tileDamage</td>
-<td>float</td>
-<td>5.0</td>
-<td></td>
-</tr>
-<tr>
-<td>damage</td>
-<td>float</td>
-<td>13.0</td>
-<td></td>
-</tr>
-<tr>
-<td>length</td>
-<td>int</td>
-<td>10</td>
-<td></td>
-</tr>
-<tr>
-<td>tendrils</td>
-<td>int</td>
-<td>6</td>
-<td></td>
-</tr>
-<tr>
-<td>lightningColor</td>
-<td>Color</td>
-<td>a9d8ffff</td>
-<td></td>
-</tr>
-<tr>
-<td>shots</td>
-<td>int</td>
-<td>6</td>
-<td></td>
-</tr>
-<tr>
-<td>inaccuracy</td>
-<td>float</td>
-<td>0.0</td>
-<td></td>
-</tr>
-<tr>
-<td>bullet</td>
-<td>BulletType</td>
-<td>null</td>
-<td></td>
-</tr>
-<tr>
-<td>teamAlpha</td>
-<td>float</td>
-<td>0.3</td>
-<td></td>
-</tr>
-<tr>
-<td>teamRegion</td>
-<td>TextureRegion</td>
-<td>null</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<h2 id="singleblockproducer">SingleBlockProducer</h2>
-<p><em>extends <a href="#blockproducer">BlockProducer</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>result</td>
-<td>Block</td>
-<td>router</td>
-<td></td>
-</tr>
-</tbody>
-</table>
 <h2 id="singletypegenerator">SingleTypeGenerator</h2>
 <p><em>extends <a href="#itemliquidgenerator">ItemLiquidGenerator</a></em></p>
 <table>
@@ -12125,21 +11850,21 @@ research: router
 </tr>
 </tbody>
 </table>
-<h4 id="example-cascadus-reactor">Example  <a href="https://github.com/BlueWolf3682/Exotic-Mod/tree/master/content/blocks/power/cascadus-reactor.hjson">("Cascadus Reactor")</a></h4>
+<h4 id="example-empiron-reactor">Example  <a href="https://github.com/BlueWolf3682/Exotic-Mod/tree/master/content/blocks/power/empiron-reactor.hjson">("Empiron Reactor")</a></h4>
 <pre><code>type: SingleTypeGenerator
-size: 10
+size: 6
 canOverdrive: false
-liquidCapacity: 400
-itemDuration: 240
-baseExplosiveness: 185
+baseExplosiveness: 70
+liquidCapacity: 60
+itemDuration: 120
 consumes: {
   liquid: {
     liquid: energia
-    amount: 3
+    amount: 0.5
   }
   items: {
     items: [
-      bluewolframite/2
+      amethyst-gem/1
     ]
   }
 }
@@ -12148,280 +11873,158 @@ generateEffect: {
   type: MultiEffect
   clip: 8192
   layer: 35
-  lifetime: 240
+  lifetime: 121
   effects: [
     {
       type: ParticleEffect
-      region: exotic-mod-cascadus-base
+      region: exotic-mod-empiron-base
       lightOpacity: 0
       particles: 1
-      lifetime: 240
+      lifetime: 120
       length: 0
-      sizeFrom: 40
-      sizeTo: 40
+      sizeFrom: 24
+      sizeTo: 24
     }
     {
       type: ParticleEffect
-      region: exotic-mod-cascadus-base-frame-3
+      region: exotic-mod-empiron-0
       lightOpacity: 0
       particles: 1
-      lifetime: 240
+      lifetime: 30
       length: 0
-      sizeFrom: 40
-      sizeTo: 40
-      colorFrom: 3bbeff
-      colorTo: 3bbeff
-    }
-    {
-      type: ParticleEffect
-      region: exotic-mod-cascadus-base-frame-3
-      lightOpacity: 0
-      particles: 1
-      lifetime: 48
-      length: 0
-      sizeFrom: 40
-      sizeTo: 40
+      sizeFrom: 24
+      sizeTo: 24
       colorFrom: 41414a
       colorTo: 41414a
     }
     {
       type: ParticleEffect
-      region: exotic-mod-cascadus-base-frame-2
+      region: exotic-mod-empiron-1
       lightOpacity: 0
       particles: 1
-      lifetime: 96
+      lifetime: 60
       length: 0
-      sizeFrom: 40
-      sizeTo: 40
+      sizeFrom: 24
+      sizeTo: 24
       colorFrom: 41414a
       colorTo: 41414a
     }
     {
       type: ParticleEffect
-      region: exotic-mod-cascadus-base-frame-1
+      region: exotic-mod-empiron-2
       lightOpacity: 0
       particles: 1
-      lifetime: 144
+      lifetime: 90
       length: 0
-      sizeFrom: 40
-      sizeTo: 40
+      sizeFrom: 24
+      sizeTo: 24
       colorFrom: 41414a
       colorTo: 41414a
     }
     {
       type: ParticleEffect
-      region: exotic-mod-cascadus-base-frame-0
+      region: exotic-mod-empiron-rotator-1
       lightOpacity: 0
       particles: 1
-      lifetime: 192
+      lifetime: 120
       length: 0
-      sizeFrom: 40
-      sizeTo: 40
-      colorFrom: 41414a
-      colorTo: 41414a
-    }
-    {
-      type: ParticleEffect
-      region: exotic-mod-cascadus-rotator-1
-      lightOpacity: 0
-      particles: 1
-      lifetime: 240
-      length: 0
-      sizeFrom: 40
-      sizeTo: 40
+      sizeFrom: 24
+      sizeTo: 24
       spin: 6
     }
     {
       type: ParticleEffect
-      region: exotic-mod-cascadus-spin-frame-0
+      region: exotic-mod-empiron-rotator-2
       lightOpacity: 0
       particles: 1
-      lifetime: 240
+      lifetime: 120
       length: 0
-      colorFrom: 3bbeff
-      colorTo: 3bbeff
-      sizeFrom: 40
-      sizeTo: 40
-      spin: 6
-    }
-    {
-      type: ParticleEffect
-      region: exotic-mod-cascadus-spin-frame-0
-      lightOpacity: 0
-      particles: 1
-      lifetime: 48
-      length: 0
-      colorFrom: 41414a
-      colorTo: 41414a
-      sizeFrom: 40
-      sizeTo: 40
-      spin: 6
-    }
-    {
-      type: ParticleEffect
-      region: exotic-mod-cascadus-spin-frame-1
-      lightOpacity: 0
-      particles: 1
-      lifetime: 96
-      length: 0
-      colorFrom: 41414a
-      colorTo: 41414a
-      sizeFrom: 40
-      sizeTo: 40
-      spin: 6
-    }
-    {
-      type: ParticleEffect
-      region: exotic-mod-cascadus-spin-frame-2
-      lightOpacity: 0
-      particles: 1
-      lifetime: 144
-      length: 0
-      colorFrom: 41414a
-      colorTo: 41414a
-      sizeFrom: 40
-      sizeTo: 40
-      spin: 6
-    }
-    {
-      type: ParticleEffect
-      region: exotic-mod-cascadus-spin-frame-3
-      lightOpacity: 0
-      particles: 1
-      lifetime: 192
-      length: 0
-      colorFrom: 41414a
-      colorTo: 41414a
-      sizeFrom: 40
-      sizeTo: 40
-      spin: 6
-    }
-    {
-      type: ParticleEffect
-      region: exotic-mod-cascadus-rotator-2
-      lightOpacity: 0
-      particles: 1
-      lifetime: 240
-      length: 0
-      sizeFrom: 40
-      sizeTo: 40
-      spin: -3
-    }
-    {
-      type: ParticleEffect
-      region: exotic-mod-cascadus-rotator-3
-      lightOpacity: 0
-      particles: 1
-      lifetime: 240
-      length: 0
-      sizeFrom: 40
-      sizeTo: 40
+      sizeFrom: 24
+      sizeTo: 24
       spin: -12
     }
     {
       type: ParticleEffect
-      region: exotic-mod-cascadus-top
+      region: exotic-mod-empiron-top
       lightOpacity: 0
       particles: 1
-      lifetime: 240
+      lifetime: 120
       length: 0
-      sizeFrom: 40
-      sizeTo: 40
+      sizeFrom: 24
+      sizeTo: 24
     }
   ]
 }
-powerProduction: 1800
 destroyEffect: {
   type: MultiEffect
-  lifetime: 480
+  lifetime: 180
   layer: 135
   effects: [
+    {
+      type: ParticleEffect
+      particles: 1
+      length: 450
+      lifetime: 160
+      layer: 95
+      region: exotic-mod-empiron-rotator-1
+      spin: 6
+      sizeFrom: 24
+      sizeTo: 36
+      colorTo: ffffff00
+    }
     {
       type: ParticleEffect
       particles: 1
       length: 700
       lifetime: 180
       layer: 95
-      region: exotic-mod-cascadus-rotator-1
-      spin: 6
-      sizeFrom: 40
-      sizeTo: 60
-      colorTo: ffffff00
-    }
-    {
-      type: ParticleEffect
-      particles: 1
-      length: 700
-      lifetime: 360
-      layer: 95
-      region: exotic-mod-cascadus-rotator-2
-      spin: -3
-      sizeFrom: 40
-      sizeTo: 60
-      colorTo: ffffff00
-    }
-    {
-      type: ParticleEffect
-      particles: 1
-      length: 700
-      lifetime: 320
-      layer: 95
-      region: exotic-mod-cascadus-rotator-3
+      region: exotic-mod-empiron-rotator-2
       spin: -12
-      sizeFrom: 40
-      sizeTo: 60
+      sizeFrom: 24
+      sizeTo: 36
       colorTo: ffffff00
     }
     {
       type: ParticleEffect
       interp: swingIn
-      lifetime: 360
+      lifetime: 180
       length: 0
       particles: 2
       region: circle-shadow
-      sizeFrom: 280
-      sizeTo: 0
-    }
-    {
-      type: ParticleEffect
-      interp: swingIn
-      lifetime: 360
-      length: 0
-      particles: 1
-      sizeFrom: 60
+      sizeFrom: 160
       sizeTo: 0
     }
     {
       type: WaveEffect
-      lifetime: 60
+      lifetime: 40
       sizeFrom: 0
-      sizeTo: 280
-      strokeFrom: 6
+      sizeTo: 180
+      strokeFrom: 4
       strokeTo: 0
     }
     {
       type: ParticleEffect
-      particles: 20
+      particles: 12
       line: true
-      lifetime: 300
-      length: -450
-      baseLength: 450
+      lifetime: 160
+      length: -300
+      baseLength: 300
       lenFrom: 0
-      lenTo: 30
+      lenTo: 16
       strokeFrom: 0
-      strokeTo: 8
+      strokeTo: 4
     }
   ]
 }
+powerProduction: 195
 category: power
 requirements: [
-  silicon/20000
-  metaglass/15000
-  thorium/17000
-  phase-fabric/9000
-  baenite/5000
-  amethyst-gem/4000
-  draconium/2000
+  titanium/1200
+  metaglass/1100
+  silicon/1000
+  phase-fabric/600
+  baenite/400
+  amethyst-gem/250
 ]
 </code></pre>
 <h2 id="solidpump">SolidPump</h2>
@@ -12476,56 +12079,6 @@ requirements: [
 <tr>
 <td>rotatorRegion</td>
 <td>TextureRegion</td>
-<td>null</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<h2 id="staticwall">StaticWall</h2>
-<p><em>extends <a href="#prop">Prop</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>large</td>
-<td>TextureRegion</td>
-<td>null</td>
-<td></td>
-</tr>
-<tr>
-<td>split</td>
-<td>TextureRegion[][]</td>
-<td>null</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<h4 id="example-plated-wall">Example  <a href="https://github.com/BlueWolf3682/Exotic-Mod/tree/master/content/blocks/environment/plated-wall.hjson">("Plated Wall")</a></h4>
-<pre><code>type: StaticWall
-variants: 3
-</code></pre>
-<h2 id="staticclusterwall">StaticClusterWall</h2>
-<p><em>extends <a href="#staticwall">StaticWall</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>clusters</td>
-<td>TextureRegion[]</td>
 <td>null</td>
 <td></td>
 </tr>
@@ -14269,8 +13822,42 @@ category: turret
 </tr>
 </tbody>
 </table>
+<h2 id="liquidblock">LiquidBlock</h2>
+<p><em>extends <a href="#block">Block</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>liquidRegion</td>
+<td>TextureRegion</td>
+<td>null</td>
+<td></td>
+</tr>
+<tr>
+<td>topRegion</td>
+<td>TextureRegion</td>
+<td>null</td>
+<td></td>
+</tr>
+<tr>
+<td>bottomRegion</td>
+<td>TextureRegion</td>
+<td>null</td>
+<td></td>
+</tr>
+</tbody>
+</table>
 <h2 id="liquidbridge">LiquidBridge</h2>
 <p><em>extends <a href="#itembridge">ItemBridge</a></em></p>
+<h2 id="liquidconverter">LiquidConverter</h2>
+<p><em>extends <a href="#genericcrafter">GenericCrafter</a></em></p>
 <h2 id="liquidjunction">LiquidJunction</h2>
 <p><em>extends <a href="#liquidblock">LiquidBlock</a></em></p>
 <h2 id="liquidrouter">LiquidRouter</h2>
@@ -14387,6 +13974,136 @@ requirements: [
 <td>range</td>
 <td>float</td>
 <td>80.0</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="logicdisplay">LogicDisplay</h2>
+<p><em>extends <a href="#block">Block</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>maxSides</td>
+<td>int</td>
+<td>25</td>
+<td></td>
+</tr>
+<tr>
+<td>displaySize</td>
+<td>int</td>
+<td>64</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="massdriver">MassDriver</h2>
+<p><em>extends <a href="#block">Block</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>range</td>
+<td>float</td>
+<td>0.0</td>
+<td></td>
+</tr>
+<tr>
+<td>rotateSpeed</td>
+<td>float</td>
+<td>5.0</td>
+<td></td>
+</tr>
+<tr>
+<td>translation</td>
+<td>float</td>
+<td>7.0</td>
+<td></td>
+</tr>
+<tr>
+<td>minDistribute</td>
+<td>int</td>
+<td>10</td>
+<td></td>
+</tr>
+<tr>
+<td>knockback</td>
+<td>float</td>
+<td>4.0</td>
+<td></td>
+</tr>
+<tr>
+<td>reloadTime</td>
+<td>float</td>
+<td>100.0</td>
+<td></td>
+</tr>
+<tr>
+<td>bullet</td>
+<td>MassDriverBolt</td>
+<td>new MassDriverBolt()</td>
+<td></td>
+</tr>
+<tr>
+<td>bulletSpeed</td>
+<td>float</td>
+<td>5.5</td>
+<td></td>
+</tr>
+<tr>
+<td>bulletLifetime</td>
+<td>float</td>
+<td>200.0</td>
+<td></td>
+</tr>
+<tr>
+<td>shootEffect</td>
+<td>Effect</td>
+<td>shootBig2</td>
+<td></td>
+</tr>
+<tr>
+<td>smokeEffect</td>
+<td>Effect</td>
+<td>shootBigSmoke2</td>
+<td></td>
+</tr>
+<tr>
+<td>receiveEffect</td>
+<td>Effect</td>
+<td>mineBig</td>
+<td></td>
+</tr>
+<tr>
+<td>shootSound</td>
+<td>Sound</td>
+<td>shootBig</td>
+<td></td>
+</tr>
+<tr>
+<td>shake</td>
+<td>float</td>
+<td>3.0</td>
+<td></td>
+</tr>
+<tr>
+<td>baseRegion</td>
+<td>TextureRegion</td>
+<td>null</td>
 <td></td>
 </tr>
 </tbody>
@@ -14563,26 +14280,12 @@ requirements: [
 category: power
 research: thorium-reactor
 </code></pre>
-<h2 id="nuclearwarhead">NuclearWarhead</h2>
-<p><em>extends <a href="#block">Block</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>radius</td>
-<td>float</td>
-<td>100.0</td>
-<td></td>
-</tr>
-</tbody>
-</table>
+<h2 id="overlayfloor">OverlayFloor</h2>
+<p><em>extends <a href="#floor">Floor</a></em></p>
+<p>A type of floor that is overlaid on top of other floors.</p>
+<h2 id="oreblock">OreBlock</h2>
+<p><em>extends <a href="#overlayfloor">OverlayFloor</a></em></p>
+<p>An overlay ore for a specific item type.</p>
 <h2 id="overdriveprojector">OverdriveProjector</h2>
 <p><em>extends <a href="#block">Block</a></em></p>
 <table>
@@ -14695,12 +14398,6 @@ consumes: {
 }
 research: bluewolframite-overdrive-projector
 </code></pre>
-<h2 id="overlayfloor">OverlayFloor</h2>
-<p><em>extends <a href="#floor">Floor</a></em></p>
-<p>A type of floor that is overlaid on top of other floors.</p>
-<h2 id="oreblock">OreBlock</h2>
-<p><em>extends <a href="#overlayfloor">OverlayFloor</a></em></p>
-<p>An overlay ore for a specific item type.</p>
 <h2 id="payloadblock">PayloadBlock</h2>
 <p><em>extends <a href="#block">Block</a></em></p>
 <table>
@@ -14741,50 +14438,6 @@ research: bluewolframite-overdrive-projector
 <td>inRegion</td>
 <td>TextureRegion</td>
 <td>null</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<h2 id="payloadlaunchpad">PayloadLaunchPad</h2>
-<p><em>extends <a href="#payloadblock">PayloadBlock</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>launchTime</td>
-<td>float</td>
-<td>0.0</td>
-<td>Time between launches.</td>
-</tr>
-<tr>
-<td>launchSound</td>
-<td>Sound</td>
-<td>none</td>
-<td></td>
-</tr>
-<tr>
-<td>lightRegion</td>
-<td>TextureRegion</td>
-<td>null</td>
-<td></td>
-</tr>
-<tr>
-<td>podRegion</td>
-<td>TextureRegion</td>
-<td>null</td>
-<td></td>
-</tr>
-<tr>
-<td>lightColor</td>
-<td>Color</td>
-<td>eab678ff</td>
 <td></td>
 </tr>
 </tbody>
@@ -15543,6 +15196,112 @@ liquidDrop: liquid-baenara
 isLiquid: true
 cacheLayer: water
 </code></pre>
+<h2 id="shockmine">ShockMine</h2>
+<p><em>extends <a href="#block">Block</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>timerDamage</td>
+<td>int</td>
+<td>1</td>
+<td></td>
+</tr>
+<tr>
+<td>cooldown</td>
+<td>float</td>
+<td>80.0</td>
+<td></td>
+</tr>
+<tr>
+<td>tileDamage</td>
+<td>float</td>
+<td>5.0</td>
+<td></td>
+</tr>
+<tr>
+<td>damage</td>
+<td>float</td>
+<td>13.0</td>
+<td></td>
+</tr>
+<tr>
+<td>length</td>
+<td>int</td>
+<td>10</td>
+<td></td>
+</tr>
+<tr>
+<td>tendrils</td>
+<td>int</td>
+<td>6</td>
+<td></td>
+</tr>
+<tr>
+<td>lightningColor</td>
+<td>Color</td>
+<td>a9d8ffff</td>
+<td></td>
+</tr>
+<tr>
+<td>shots</td>
+<td>int</td>
+<td>6</td>
+<td></td>
+</tr>
+<tr>
+<td>inaccuracy</td>
+<td>float</td>
+<td>0.0</td>
+<td></td>
+</tr>
+<tr>
+<td>bullet</td>
+<td>BulletType</td>
+<td>null</td>
+<td></td>
+</tr>
+<tr>
+<td>teamAlpha</td>
+<td>float</td>
+<td>0.3</td>
+<td></td>
+</tr>
+<tr>
+<td>teamRegion</td>
+<td>TextureRegion</td>
+<td>null</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="singleblockproducer">SingleBlockProducer</h2>
+<p><em>extends <a href="#blockproducer">BlockProducer</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>result</td>
+<td>Block</td>
+<td>router</td>
+<td></td>
+</tr>
+</tbody>
+</table>
 <h2 id="solargenerator">SolarGenerator</h2>
 <p><em>extends <a href="#powergenerator">PowerGenerator</a></em></p>
 <h2 id="sorter">Sorter</h2>
@@ -15675,6 +15434,56 @@ requirements: [
   territe-alloy/1
 ]
 </code></pre>
+<h2 id="staticwall">StaticWall</h2>
+<p><em>extends <a href="#prop">Prop</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>large</td>
+<td>TextureRegion</td>
+<td>null</td>
+<td></td>
+</tr>
+<tr>
+<td>split</td>
+<td>TextureRegion[][]</td>
+<td>null</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h4 id="example-plated-wall">Example  <a href="https://github.com/BlueWolf3682/Exotic-Mod/tree/master/content/blocks/environment/plated-wall.hjson">("Plated Wall")</a></h4>
+<pre><code>type: StaticWall
+variants: 3
+</code></pre>
+<h2 id="staticclusterwall">StaticClusterWall</h2>
+<p><em>extends <a href="#staticwall">StaticWall</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>clusters</td>
+<td>TextureRegion[]</td>
+<td>null</td>
+<td></td>
+</tr>
+</tbody>
+</table>
 <h2 id="statictree">StaticTree</h2>
 <p><em>extends <a href="#staticwall">StaticWall</a></em></p>
 <h2 id="storageblock">StorageBlock</h2>
@@ -17698,7 +17507,7 @@ buildingDamageMultiplier: 0.01
 <tr>
 <td>id</td>
 <td>int</td>
-<td>733</td>
+<td>742</td>
 <td></td>
 </tr>
 <tr>
@@ -17865,54 +17674,57 @@ buildingDamageMultiplier: 0.01
 </tbody>
 </table>
 <h4 id="example_12">Example</h4>
-<pre><code>lifetime: 120
+<pre><code>lifetime: 180
+layer: 135
 effects: [
   {
+    particles: 1
+    length: 450
+    lifetime: 160
+    layer: 95
+    region: exotic-mod-empiron-rotator-1
+    spin: 6
+    sizeFrom: 24
+    sizeTo: 36
+    colorTo: ffffff00
+  }
+  {
+    particles: 1
+    length: 700
+    lifetime: 180
+    layer: 95
+    region: exotic-mod-empiron-rotator-2
+    spin: -12
+    sizeFrom: 24
+    sizeTo: 36
+    colorTo: ffffff00
+  }
+  {
+    interp: swingIn
+    lifetime: 180
+    length: 0
+    particles: 2
+    region: circle-shadow
+    sizeFrom: 160
+    sizeTo: 0
+  }
+  {
+    lifetime: 40
     sizeFrom: 0
-    sizeTo: 120
-    lifetime: 25
-    colorFrom: e65555
-    colorTo: e6555575
-    strokeFrom: 5
+    sizeTo: 180
+    strokeFrom: 4
     strokeTo: 0
   }
   {
-    sizeFrom: 0
-    sizeTo: 60
-    lifetime: 25
-    colorFrom: e65555
-    colorTo: e6555575
-    strokeFrom: 10
-    strokeTo: 0
-  }
-  {
+    particles: 12
     line: true
-    particles: 30
-    length: 140
-    lifetime: 35
-    colorTo: e6555520
-    strokeFrom: 5
-    strokeTo: 0
-    lenFrom: 25
-    lenTo: 8
-  }
-  {
-    particles: 30
-    length: 180
-    lifetime: 90
-    sizeFrom: 6
-    sizeTo: 6
-    colorFrom: 656565
-    colorTo: 65656500
-  }
-  {
-    particles: 20
-    length: 80
-    lifetime: 120
-    sizeFrom: 12
-    sizeTo: 12
-    colorFrom: 656565
-    colorTo: 65656500
+    lifetime: 160
+    length: -300
+    baseLength: 300
+    lenFrom: 0
+    lenTo: 16
+    strokeFrom: 0
+    strokeTo: 4
   }
 ]
 </code></pre>
@@ -18076,16 +17888,16 @@ effects: [
 </tbody>
 </table>
 <h4 id="example_13">Example</h4>
-<pre><code>particles: 6
-length: 30
+<pre><code>line: true
+particles: 6
 lifetime: 15
-line: true
-lenFrom: 8
+length: 10
+strokeFrom: 1
+strokeTo: 0
+lenFrom: 4
 lenTo: 0
-strokeFrom: 2
-strokeTo: 1
-colorFrom: 7382f0
-colorTo: 7382f050
+colorFrom: e65555
+colorTo: e6555500
 </code></pre>
 <h2 id="waveeffect">WaveEffect</h2>
 <p><em>extends <a href="#effect">Effect</a></em></p>
@@ -18193,13 +18005,13 @@ colorTo: 7382f050
 </tbody>
 </table>
 <h4 id="example_14">Example</h4>
-<pre><code>lifetime: 15
-sizeFrom: 8
-sizeTo: 80
+<pre><code>sizeFrom: 0
+sizeTo: 45
+lifetime: 25
 strokeFrom: 4
 strokeTo: 0
-colorFrom: f0e773
-colorTo: f0e77350
+colorFrom: a488eb
+colorTo: a488eb50
 </code></pre>
 <h1 id="item">Item</h1>
 <p><em>extends <a href="#unlockablecontent">UnlockableContent</a></em></p>
