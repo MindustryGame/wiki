@@ -9602,6 +9602,70 @@
 <p><em>extends <a href="#conduit">Conduit</a></em></p>
 <h2 id="armoredconveyor">ArmoredConveyor</h2>
 <p><em>extends <a href="#conveyor">Conveyor</a></em></p>
+<h2 id="ballisticsilo">BallisticSilo</h2>
+<p><em>extends <a href="#payloadblock">PayloadBlock</a></em></p>
+<h2 id="beamdrill">BeamDrill</h2>
+<p><em>extends <a href="#block">Block</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>laser</td>
+<td>TextureRegion</td>
+<td>null</td>
+<td></td>
+</tr>
+<tr>
+<td>laserEnd</td>
+<td>TextureRegion</td>
+<td>null</td>
+<td></td>
+</tr>
+<tr>
+<td>topRegion</td>
+<td>TextureRegion</td>
+<td>null</td>
+<td></td>
+</tr>
+<tr>
+<td>drillTime</td>
+<td>float</td>
+<td>200.0</td>
+<td></td>
+</tr>
+<tr>
+<td>range</td>
+<td>int</td>
+<td>5</td>
+<td></td>
+</tr>
+<tr>
+<td>tier</td>
+<td>int</td>
+<td>1</td>
+<td></td>
+</tr>
+<tr>
+<td>laserWidth</td>
+<td>float</td>
+<td>0.7</td>
+<td></td>
+</tr>
+<tr>
+<td>updateEffect</td>
+<td>Effect</td>
+<td>mineSmall</td>
+<td>Effect randomly played while drilling.</td>
+</tr>
+</tbody>
+</table>
 <h2 id="blockforge">BlockForge</h2>
 <p><em>extends <a href="#blockproducer">BlockProducer</a></em></p>
 <p>Configurable BlockProducer variant.</p>
@@ -9679,8 +9743,6 @@
 </tr>
 </tbody>
 </table>
-<h2 id="blockunloader">BlockUnloader</h2>
-<p><em>extends <a href="#blockloader">BlockLoader</a></em></p>
 <h2 id="burnergenerator">BurnerGenerator</h2>
 <p><em>extends <a href="#itemliquidgenerator">ItemLiquidGenerator</a></em></p>
 <table>
@@ -9713,23 +9775,6 @@
 </tr>
 </tbody>
 </table>
-<h4 id="example-burner-array">Example  <a href="https://github.com/BlueWolf3682/Exotic-Mod/tree/master/content/blocks/power/burner-array.hjson">("Burner Array")</a></h4>
-<pre><code>type: BurnerGenerator
-size: 4
-powerProduction: 10.5
-itemDuration: 20
-minItemEfficiency: 0.4
-minLiquidEfficiency: 0.6
-category: power
-research: combustion-generator
-requirements: [
-  copper/250
-  lead/200
-  territe-alloy/200
-  thorium/150
-  amethyst-gem/50
-]
-</code></pre>
 <h2 id="bush">Bush</h2>
 <p><em>extends <a href="#prop">Prop</a></em></p>
 <table>
@@ -9940,21 +9985,6 @@ requirements: [
 </tr>
 </tbody>
 </table>
-<h4 id="example-floating-conduit">Example  <a href="https://github.com/BlueWolf3682/Exotic-Mod/tree/master/content/blocks/liquid/floating-conduit.hjson">("Floating Conduit")</a></h4>
-<pre><code>type: Conduit
-leaks: true
-health: 440
-requirements: [
-  graphite/2
-  metaglass/4
-  ladera/2
-  amethyst-gem/1
-]
-liquidCapacity: 20
-liquidPressure: 4.4
-placeableLiquid: true
-category: liquid
-</code></pre>
 <h2 id="coreblock">CoreBlock</h2>
 <p><em>extends <a href="#storageblock">StorageBlock</a></em></p>
 <table>
@@ -9999,25 +10029,6 @@ category: liquid
 </tr>
 </tbody>
 </table>
-<h4 id="example-core-radian">Example  <a href="https://github.com/BlueWolf3682/Exotic-Mod/tree/master/content/blocks/effect/core-radian.hjson">("Core: Radian")</a></h4>
-<pre><code>type: CoreBlock
-size: 6
-health: 400000
-itemCapacity: 10000
-unitCapModifier: 18
-unitType: intensity
-thrusterLength: 14
-category: effect
-requirements: [
-  copper/18000
-  lead/17000
-  silicon/8000
-  thorium/8000
-  surge-alloy/6000
-  baenite/4000
-]
-research: core-nexus
-</code></pre>
 <h2 id="decaygenerator">DecayGenerator</h2>
 <p><em>extends <a href="#itemliquidgenerator">ItemLiquidGenerator</a></em></p>
 <h2 id="door">Door</h2>
@@ -10180,37 +10191,6 @@ research: core-nexus
 </tr>
 </tbody>
 </table>
-<h4 id="example-bluewolframite-drill">Example  <a href="https://github.com/BlueWolf3682/Exotic-Mod/tree/master/content/blocks/production/bluewolframite-drill.hjson">("Bluewolframite Drill")</a></h4>
-<pre><code>type: Drill
-size: 7
-tier: 28
-drillTime: 3.5
-liquidBoostIntensity: 6.4
-liquidCapacity: 480
-drawRim: true
-consumes: {
-  power: 14.8
-  liquid: {
-    liquid: mag-slag
-    amount: 0.85
-    booster: true
-    optional: true
-  }
-}
-requirements: [
-  copper/2310
-  lead/2540
-  silicon/1540
-  titanium/1330
-  thorium/1660
-  surge-alloy/450
-  bluewolframite/380
-]
-category: production
-research: andromeda-drill
-ambientSound: drill
-ambientSoundVolume: 1.55
-</code></pre>
 <h2 id="duct">Duct</h2>
 <p><em>extends <a href="#block">Block</a></em></p>
 <table>
@@ -10457,17 +10437,47 @@ ambientSoundVolume: 1.55
 </tr>
 </tbody>
 </table>
-<h4 id="example-crystal-dunes">Example  <a href="https://github.com/BlueWolf3682/Exotic-Mod/tree/master/content/blocks/environment/crystal-dune.hjson">("Crystal Dunes")</a></h4>
-<pre><code>type: Floor
-variants: 3
-wall: crystal-wall
-itemDrop: sand
-playerUnmineable: true
-</code></pre>
 <h2 id="airblock">AirBlock</h2>
 <p><em>extends <a href="#floor">Floor</a></em></p>
-<h2 id="ballisticsilo">BallisticSilo</h2>
-<p><em>extends <a href="#payloadblock">PayloadBlock</a></em></p>
+<h2 id="attributecrafter">AttributeCrafter</h2>
+<p><em>extends <a href="#genericcrafter">GenericCrafter</a></em></p>
+<p>A crafter that gains efficiency from attribute tiles.</p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>attribute</td>
+<td>Attribute</td>
+<td>heat</td>
+<td></td>
+</tr>
+<tr>
+<td>baseEfficiency</td>
+<td>float</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>boostScale</td>
+<td>float</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>maxBoost</td>
+<td>float</td>
+<td>1.0</td>
+<td></td>
+</tr>
+</tbody>
+</table>
 <h2 id="baseturret">BaseTurret</h2>
 <p><em>extends <a href="#block">Block</a></em></p>
 <table>
@@ -10512,181 +10522,6 @@ playerUnmineable: true
 </tr>
 </tbody>
 </table>
-<h2 id="ductrouter">DuctRouter</h2>
-<p><em>extends <a href="#block">Block</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>speed</td>
-<td>float</td>
-<td>5.0</td>
-<td></td>
-</tr>
-<tr>
-<td>topRegion</td>
-<td>TextureRegion</td>
-<td>null</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<h2 id="genericcrafter">GenericCrafter</h2>
-<p><em>extends <a href="#block">Block</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>outputItem</td>
-<td>ItemStack</td>
-<td>null</td>
-<td>Written to outputItems as a single-element array if outputItems is null.</td>
-</tr>
-<tr>
-<td>outputItems</td>
-<td>ItemStack[]</td>
-<td>null</td>
-<td>Overwrites outputItem if not null.</td>
-</tr>
-<tr>
-<td>outputLiquid</td>
-<td>LiquidStack</td>
-<td>null</td>
-<td></td>
-</tr>
-<tr>
-<td>craftTime</td>
-<td>float</td>
-<td>80.0</td>
-<td></td>
-</tr>
-<tr>
-<td>craftEffect</td>
-<td>Effect</td>
-<td>none</td>
-<td></td>
-</tr>
-<tr>
-<td>updateEffect</td>
-<td>Effect</td>
-<td>none</td>
-<td></td>
-</tr>
-<tr>
-<td>updateEffectChance</td>
-<td>float</td>
-<td>0.04</td>
-<td></td>
-</tr>
-<tr>
-<td>warmupSpeed</td>
-<td>float</td>
-<td>0.019</td>
-<td></td>
-</tr>
-<tr>
-<td>legacyReadWarmup</td>
-<td>boolean</td>
-<td>false</td>
-<td>Only used for legacy cultivator blocks.</td>
-</tr>
-<tr>
-<td>drawer</td>
-<td>DrawBlock</td>
-<td>new DrawBlock()</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<h4 id="example-industrial-compressor">Example  <a href="https://github.com/BlueWolf3682/Exotic-Mod/tree/master/content/blocks/crafter/industrial-compressor.hjson">("Industrial Compressor")</a></h4>
-<pre><code>type: genericCrafter
-craftTime: 90
-size: 5
-drawer: {
-  type: drawAnimation
-}
-hasPower: true
-hasLiquids: true
-liquidCapacity: 72
-consumes: {
-  items: {
-    items: [
-      titanium/7
-      spore-pod/4
-    ]
-  }
-  liquid: {
-    liquid: oil
-    amount: 0.6
-  }
-  power: 12
-}
-craftEffect: smokeCloud
-requirements: [
-  copper/1500
-  lead/1000
-  silicon/500
-  titanium/500
-  plastanium/400
-  amethyst-gem/200
-]
-category: crafting
-outputItem: plastanium/5
-research: plastanium-compressor
-</code></pre>
-<h2 id="attributecrafter">AttributeCrafter</h2>
-<p><em>extends <a href="#genericcrafter">GenericCrafter</a></em></p>
-<p>A crafter that gains efficiency from attribute tiles.</p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>attribute</td>
-<td>Attribute</td>
-<td>heat</td>
-<td></td>
-</tr>
-<tr>
-<td>baseEfficiency</td>
-<td>float</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>boostScale</td>
-<td>float</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>maxBoost</td>
-<td>float</td>
-<td>1.0</td>
-<td></td>
-</tr>
-</tbody>
-</table>
 <h2 id="battery">Battery</h2>
 <p><em>extends <a href="#powerdistributor">PowerDistributor</a></em></p>
 <table>
@@ -10719,83 +10554,8 @@ research: plastanium-compressor
 </tr>
 </tbody>
 </table>
-<h4 id="example-buffer-wall">Example  <a href="https://github.com/BlueWolf3682/Exotic-Mod/tree/master/content/blocks/defence/buffer-wall.hjson">("Buffer Wall")</a></h4>
-<pre><code>type: Battery
-health: 370
-emptyLightColor: 5a58c4
-fullLightColor: 90a2fc
-consumes: {
-  powerBuffered: 250
-}
-category: defense
-research: battery
-requirements: [
-  lead/8
-  territe-alloy/4
-]
-</code></pre>
-<h2 id="beamdrill">BeamDrill</h2>
-<p><em>extends <a href="#block">Block</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>laser</td>
-<td>TextureRegion</td>
-<td>null</td>
-<td></td>
-</tr>
-<tr>
-<td>laserEnd</td>
-<td>TextureRegion</td>
-<td>null</td>
-<td></td>
-</tr>
-<tr>
-<td>topRegion</td>
-<td>TextureRegion</td>
-<td>null</td>
-<td></td>
-</tr>
-<tr>
-<td>drillTime</td>
-<td>float</td>
-<td>200.0</td>
-<td></td>
-</tr>
-<tr>
-<td>range</td>
-<td>int</td>
-<td>5</td>
-<td></td>
-</tr>
-<tr>
-<td>tier</td>
-<td>int</td>
-<td>1</td>
-<td></td>
-</tr>
-<tr>
-<td>laserWidth</td>
-<td>float</td>
-<td>0.7</td>
-<td></td>
-</tr>
-<tr>
-<td>updateEffect</td>
-<td>Effect</td>
-<td>mineSmall</td>
-<td>Effect randomly played while drilling.</td>
-</tr>
-</tbody>
-</table>
+<h2 id="blockunloader">BlockUnloader</h2>
+<p><em>extends <a href="#blockloader">BlockLoader</a></em></p>
 <h2 id="buffereditembridge">BufferedItemBridge</h2>
 <p><em>extends <a href="#itembridge">ItemBridge</a></em></p>
 <table>
@@ -10904,20 +10664,32 @@ requirements: [
 </tr>
 </tbody>
 </table>
-<h4 id="example-floating-conveyor">Example  <a href="https://github.com/BlueWolf3682/Exotic-Mod/tree/master/content/blocks/distribution/floating-conveyor.hjson">("Floating Conveyor")</a></h4>
-<pre><code>type: Conveyor
-requiresWater: true
-hasShadow: false
-health: 80
-speed: 0.1
-displayedSpeed: 12
-requirements: [
-  metaglass/2
-  ladera/1
-]
-category: distribution
-research: titanium-conveyor
-</code></pre>
+<h2 id="ductrouter">DuctRouter</h2>
+<p><em>extends <a href="#block">Block</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>speed</td>
+<td>float</td>
+<td>5.0</td>
+<td></td>
+</tr>
+<tr>
+<td>topRegion</td>
+<td>TextureRegion</td>
+<td>null</td>
+<td></td>
+</tr>
+</tbody>
+</table>
 <h2 id="forceprojector">ForceProjector</h2>
 <p><em>extends <a href="#block">Block</a></em></p>
 <table>
@@ -10992,37 +10764,6 @@ research: titanium-conveyor
 </tr>
 </tbody>
 </table>
-<h4 id="example-shielded-wall">Example  <a href="https://github.com/BlueWolf3682/Exotic-Mod/tree/master/content/blocks/defence/shielded-wall.hjson">("Shielded Wall")</a></h4>
-<pre><code>type: ForceProjector
-health: 4600
-size: 2
-radius: 20
-shieldHealth: 11000
-cooldownNormal: 48.5
-consumes: {
-  power: 1.75
-  items: {
-    items: [
-      silicon/1
-    ]
-    booster: false
-    optional: true
-  }
-}
-requirements: [
-  lead/75
-  silicon/25
-  titanium/35
-  surge-alloy/25
-  bluewolframite/15
-]
-hasItems: false
-itemCapacity: 0
-phaseUseTime: 2147483647
-phaseRadiusBoost: 0
-category: defense
-research: force-projector
-</code></pre>
 <h2 id="fracker">Fracker</h2>
 <p><em>extends <a href="#solidpump">SolidPump</a></em></p>
 <table>
@@ -11043,33 +10784,80 @@ research: force-projector
 </tr>
 </tbody>
 </table>
-<h4 id="example-mass-extractor">Example  <a href="https://github.com/BlueWolf3682/Exotic-Mod/tree/master/content/blocks/production/mass-extractor.hjson">("Mass Extractor")</a></h4>
-<pre><code>type: Fracker
-size: 5
-liquidCapacity: 120
-result: water
-attribute: water
-pumpAmount: 1.2
-itemUseTime: 210
-consumes: {
-  power: 11
-  items: {
-    items: [
-      amethyst-gem/1
-    ]
-  }
-}
-category: production
-research: water-extractor
-requirements: [
-  copper/1500
-  silicon/1200
-  metaglass/1000
-  graphite/600
-  thorium/450
-  ladera/150
-]
-</code></pre>
+<h2 id="genericcrafter">GenericCrafter</h2>
+<p><em>extends <a href="#block">Block</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>outputItem</td>
+<td>ItemStack</td>
+<td>null</td>
+<td>Written to outputItems as a single-element array if outputItems is null.</td>
+</tr>
+<tr>
+<td>outputItems</td>
+<td>ItemStack[]</td>
+<td>null</td>
+<td>Overwrites outputItem if not null.</td>
+</tr>
+<tr>
+<td>outputLiquid</td>
+<td>LiquidStack</td>
+<td>null</td>
+<td></td>
+</tr>
+<tr>
+<td>craftTime</td>
+<td>float</td>
+<td>80.0</td>
+<td></td>
+</tr>
+<tr>
+<td>craftEffect</td>
+<td>Effect</td>
+<td>none</td>
+<td></td>
+</tr>
+<tr>
+<td>updateEffect</td>
+<td>Effect</td>
+<td>none</td>
+<td></td>
+</tr>
+<tr>
+<td>updateEffectChance</td>
+<td>float</td>
+<td>0.04</td>
+<td></td>
+</tr>
+<tr>
+<td>warmupSpeed</td>
+<td>float</td>
+<td>0.019</td>
+<td></td>
+</tr>
+<tr>
+<td>legacyReadWarmup</td>
+<td>boolean</td>
+<td>false</td>
+<td>Only used for legacy cultivator blocks.</td>
+</tr>
+<tr>
+<td>drawer</td>
+<td>DrawBlock</td>
+<td>new DrawBlock()</td>
+<td></td>
+</tr>
+</tbody>
+</table>
 <h2 id="impactreactor">ImpactReactor</h2>
 <p><em>extends <a href="#powergenerator">PowerGenerator</a></em></p>
 <table>
@@ -11144,35 +10932,6 @@ requirements: [
 </tr>
 </tbody>
 </table>
-<h4 id="example-fusion-reactor">Example  <a href="https://github.com/BlueWolf3682/Exotic-Mod/tree/master/content/blocks/power/fusion-reactor.hjson">("Fusion Reactor")</a></h4>
-<pre><code>type: ImpactReactor
-liquidCapacity: 1650
-size: 5
-hasLiquids: true
-powerProduction: 650
-plasma1: 5a58c4
-plasma2: 7382f0
-consumes: {
-  power: 44.8
-  liquid: {
-    liquid: water
-    amount: 14.4
-  }
-}
-requirements: [
-  surge-alloy/750
-  draconium/100
-  silicon/1000
-  lead/1250
-  titanium/700
-  plastanium/450
-  bluewolframite/550
-]
-category: power
-ambientSound: pulse
-ambientSoundVolume: 0.2
-research: impact-reactor
-</code></pre>
 <h2 id="incinerator">Incinerator</h2>
 <p><em>extends <a href="#block">Block</a></em></p>
 <table>
@@ -11407,170 +11166,6 @@ Liquids will take priority over items.</p>
 </tr>
 </tbody>
 </table>
-<h4 id="example-aurora">Example  <a href="https://github.com/BlueWolf3682/Exotic-Mod/tree/master/content/blocks/turrets/aurora.hjson">("Aurora")</a></h4>
-<pre><code>type: ItemTurret
-size: 8
-health: 185000
-range: 980
-canOverdrive: false
-rotateSpeed: 0.9
-shootLength: 0
-shootSound: railgun
-reloadTime: 240
-recoilAmount: 14
-restitution: 0.04
-chargeTime: 160
-chargeEffect: {
-  type: MultiEffect
-  layer: 65
-  effects: [
-    {
-      type: ParticleEffect
-      particles: 1
-      lifetime: 40
-      length: 0
-      sizeFrom: 32
-      sizeTo: 32
-      colorFrom: 9daeff00
-      colorTo: 9daeff
-      region: exotic-mod-aurora-0
-    }
-    {
-      type: ParticleEffect
-      particles: 1
-      lifetime: 80
-      length: 0
-      sizeFrom: 32
-      sizeTo: 32
-      colorFrom: 9daeff00
-      colorTo: 9daeff
-      region: exotic-mod-aurora-0
-    }
-    {
-      type: ParticleEffect
-      particles: 1
-      lifetime: 120
-      length: 0
-      sizeFrom: 32
-      sizeTo: 32
-      colorFrom: 9daeff00
-      colorTo: 9daeff
-      region: exotic-mod-aurora-0
-    }
-    {
-      type: ParticleEffect
-      particles: 1
-      lifetime: 155
-      length: 0
-      sizeFrom: 32
-      sizeTo: 32
-      colorFrom: 9daeff00
-      colorTo: 9daeff
-      region: exotic-mod-aurora-0
-    }
-    {
-      type: ParticleEffect
-      particles: 1
-      lifetime: 80
-      length: 0
-      sizeFrom: 32
-      sizeTo: 32
-      colorFrom: 9daeff00
-      colorTo: 9daeff
-      region: exotic-mod-aurora-1
-    }
-    {
-      type: ParticleEffect
-      particles: 1
-      lifetime: 120
-      length: 0
-      sizeFrom: 32
-      sizeTo: 32
-      colorFrom: 9daeff00
-      colorTo: 9daeff
-      region: exotic-mod-aurora-1
-    }
-    {
-      type: ParticleEffect
-      particles: 1
-      lifetime: 155
-      length: 0
-      sizeFrom: 32
-      sizeTo: 32
-      colorFrom: 9daeff00
-      colorTo: 9daeff
-      region: exotic-mod-aurora-1
-    }
-    {
-      type: ParticleEffect
-      particles: 1
-      lifetime: 120
-      length: 0
-      sizeFrom: 32
-      sizeTo: 32
-      colorFrom: 9daeff00
-      colorTo: 9daeff
-      region: exotic-mod-aurora-2
-    }
-    {
-      type: ParticleEffect
-      particles: 1
-      lifetime: 155
-      length: 0
-      sizeFrom: 32
-      sizeTo: 32
-      colorFrom: 9daeff00
-      colorTo: 9daeff
-      region: exotic-mod-aurora-2
-    }
-    {
-      type: ParticleEffect
-      particles: 1
-      lifetime: 155
-      length: 0
-      sizeFrom: 32
-      sizeTo: 32
-      colorFrom: 9daeff00
-      colorTo: 9daeff
-      region: exotic-mod-aurora-3
-    }
-  ]
-}
-consumes: {
-  power: 185.2
-}
-ammoPerShot: 18
-ammoTypes: {
-  bluewolframite: {
-    type: RailBulletType
-    damage: 315000
-    length: 980
-    pierceDamageFactor: 0.75
-    updateEffectSeg: 180
-    updateEffect: {
-      type: ParticleEffect
-      particles: 1
-      lifetime: 30
-      length: 0
-      sizeFrom: 60
-      colorFrom: 6f7fe8
-      colorTo: 6f7fe8
-      region: exotic-mod-diamond-wide
-    }
-  }
-}
-acceptCoolant: false
-category: turret
-requirements: [
-  graphite/23000
-  silicon/25000
-  titanium/23000
-  plastanium/22000
-  phase-fabric/9000
-  bluewolframite/2500
-  shadow/1150
-]
-</code></pre>
 <h2 id="itemvoid">ItemVoid</h2>
 <p><em>extends <a href="#block">Block</a></em></p>
 <h2 id="junction">Junction</h2>
@@ -11599,19 +11194,6 @@ requirements: [
 </tr>
 </tbody>
 </table>
-<h4 id="example-floating-junction">Example  <a href="https://github.com/BlueWolf3682/Exotic-Mod/tree/master/content/blocks/distribution/floating-junction.hjson">("Floating Junction")</a></h4>
-<pre><code>type: Junction
-requiresWater: true
-health: 80
-speed: 12
-capacity: 8
-requirements: [
-  metaglass/3
-  ladera/2
-]
-category: distribution
-research: junction
-</code></pre>
 <h2 id="laserturret">LaserTurret</h2>
 <p><em>extends <a href="#powerturret">PowerTurret</a></em></p>
 <table>
@@ -11638,1151 +11220,6 @@ research: junction
 </tr>
 </tbody>
 </table>
-<h4 id="example-rainstorm">Example  <a href="https://github.com/BlueWolf3682/Exotic-Mod/tree/master/content/blocks/turrets/rainstorm.hjson">("Rainstorm")</a></h4>
-<pre><code>type: LaserTurret
-size: 10
-health: 270000
-range: 877
-reloadTime: 300
-shootSound: laserbig
-loopSound: pulse
-shootLength: 32
-rotateSpeed: 1.5
-recoilAmount: 4
-restitution: 0.08
-powerUse: 4500
-shootDuration: 360
-chargeTime: 140
-heatColor: ffffff
-firingMoveFract: 0
-chargeBeginEffect: {
-  type: MultiEffect
-  lifetime: 140
-  clip: 4096
-  effects: [
-    {
-      type: ParticleEffect
-      lifetime: 140
-      length: -60
-      baseLength: 60
-      particles: 50
-      sizeFrom: 0
-      sizeTo: 3
-      colorFrom: e65555
-    }
-    {
-      type: ParticleEffect
-      lifetime: 140
-      length: -50
-      baseLength: 50
-      particles: 50
-      sizeFrom: 0
-      sizeTo: 3
-      colorFrom: ff9c59
-    }
-    {
-      type: ParticleEffect
-      lifetime: 140
-      length: -40
-      baseLength: 40
-      particles: 50
-      sizeFrom: 0
-      sizeTo: 3
-      colorFrom: f2e879
-    }
-    {
-      type: ParticleEffect
-      lifetime: 140
-      length: -30
-      baseLength: 30
-      particles: 50
-      sizeFrom: 0
-      sizeTo: 3
-      colorFrom: 84f591
-    }
-    {
-      type: ParticleEffect
-      lifetime: 140
-      length: -20
-      baseLength: 20
-      particles: 50
-      sizeFrom: 0
-      sizeTo: 3
-      colorFrom: 8ca4f5
-    }
-    {
-      type: ParticleEffect
-      lifetime: 140
-      length: -10
-      baseLength: 10
-      particles: 50
-      sizeFrom: 0
-      sizeTo: 3
-      colorFrom: a488eb
-    }
-    {
-      type: WaveEffect
-      lifetime: 140
-      sizeFrom: 60
-      sizeTo: 0
-      strokeFrom: 4
-      strokeTo: 0
-      colorFrom: e6555525
-    }
-    {
-      type: WaveEffect
-      lifetime: 140
-      sizeFrom: 58
-      sizeTo: 0
-      strokeFrom: 4
-      strokeTo: 0
-      colorFrom: ff9c5925
-    }
-    {
-      type: WaveEffect
-      lifetime: 140
-      sizeFrom: 56
-      sizeTo: 0
-      strokeFrom: 4
-      strokeTo: 0
-      colorFrom: f2e87925
-    }
-    {
-      type: WaveEffect
-      lifetime: 140
-      sizeFrom: 54
-      sizeTo: 0
-      strokeFrom: 4
-      strokeTo: 0
-      colorFrom: 84f59125
-    }
-    {
-      type: WaveEffect
-      lifetime: 140
-      sizeFrom: 52
-      sizeTo: 0
-      strokeFrom: 4
-      strokeTo: 0
-      colorFrom: 8ca4f525
-    }
-    {
-      type: WaveEffect
-      lifetime: 140
-      sizeFrom: 50
-      sizeTo: 0
-      strokeFrom: 4
-      strokeTo: 0
-      colorFrom: a488eb25
-    }
-    {
-      type: ParticleEffect
-      particles: 1
-      length: 0
-      lifetime: 140
-      sizeFrom: 0
-      sizeTo: 8
-      colorFrom: e6555515
-    }
-    {
-      type: ParticleEffect
-      particles: 1
-      length: 0
-      lifetime: 140
-      sizeFrom: 0
-      sizeTo: 7
-      colorFrom: ff9c5935
-    }
-    {
-      type: ParticleEffect
-      particles: 1
-      length: 0
-      lifetime: 140
-      sizeFrom: 0
-      sizeTo: 6
-      colorFrom: f2e87955
-    }
-    {
-      type: ParticleEffect
-      particles: 1
-      length: 0
-      lifetime: 140
-      sizeFrom: 0
-      sizeTo: 5
-      colorFrom: 84f59175
-    }
-    {
-      type: ParticleEffect
-      particles: 1
-      length: 0
-      lifetime: 140
-      sizeFrom: 0
-      sizeTo: 4
-      colorFrom: 8ca4f595
-    }
-    {
-      type: ParticleEffect
-      particles: 1
-      length: 0
-      lifetime: 140
-      sizeFrom: 0
-      sizeTo: 3
-      colorFrom: a488eb
-    }
-    {
-      length: 0
-      particles: 1
-      cone: 0
-      baseLength: -32
-      randLength: false
-      lifetime: 140
-      region: exotic-mod-rainstorm-glow
-      colorFrom: ffffff00
-      interp: pow5Out
-      sizeFrom: 40
-      sizeTo: 40
-    }
-    {
-      length: 0
-      particles: 1
-      cone: 0
-      baseLength: -32
-      randLength: false
-      lifetime: 140
-      region: exotic-mod-rainstorm-charge-idle
-      sizeFrom: 40
-      sizeTo: 40
-    }
-    {
-      length: 0
-      particles: 1
-      cone: 0
-      baseLength: -32
-      randLength: false
-      lifetime: 120
-      region: exotic-mod-rainstorm-charge0
-      sizeFrom: 40
-      sizeTo: 40
-      colorFrom: 0c0c12
-      colorTo: 0c0c12
-    }
-    {
-      length: 0
-      particles: 1
-      cone: 0
-      baseLength: -32
-      randLength: false
-      lifetime: 100
-      region: exotic-mod-rainstorm-charge1
-      sizeFrom: 40
-      sizeTo: 40
-      colorFrom: 0c0c12
-      colorTo: 0c0c12
-    }
-    {
-      length: 0
-      particles: 1
-      cone: 0
-      baseLength: -32
-      randLength: false
-      lifetime: 80
-      region: exotic-mod-rainstorm-charge2
-      sizeFrom: 40
-      sizeTo: 40
-      colorFrom: 0c0c12
-      colorTo: 0c0c12
-    }
-    {
-      length: 0
-      particles: 1
-      cone: 0
-      baseLength: -32
-      randLength: false
-      lifetime: 60
-      region: exotic-mod-rainstorm-charge3
-      sizeFrom: 40
-      sizeTo: 40
-      colorFrom: 0c0c12
-      colorTo: 0c0c12
-    }
-    {
-      length: 0
-      particles: 1
-      cone: 0
-      baseLength: -32
-      randLength: false
-      lifetime: 40
-      region: exotic-mod-rainstorm-charge4
-      sizeFrom: 40
-      sizeTo: 40
-      colorFrom: 0c0c12
-      colorTo: 0c0c12
-    }
-    {
-      length: 0
-      particles: 1
-      cone: 0
-      baseLength: -32
-      randLength: false
-      lifetime: 20
-      region: exotic-mod-rainstorm-charge5
-      sizeFrom: 40
-      sizeTo: 40
-      colorFrom: 0c0c12
-      colorTo: 0c0c12
-    }
-  ]
-}
-chargeEffect: none
-shootType: {
-  type: ContinuousLaserBulletType
-  damage: 10000
-  length: 877
-  width: 32
-  drawSize: 877
-  layer: 95
-  colors: [
-    e6555525
-    ff9c5935
-    f2e87945
-    84f59155
-    8ca4f565
-    a488eb75
-  ]
-  strokes: [
-    1.5
-    1.25
-    1
-    0.75
-    0.5
-    0.25
-  ]
-  smokeEffect: none
-  shootEffect: {
-    type: MultiEffect
-    lifetime: 440
-    clip: 4096
-    effects: [
-      {
-        length: 0
-        particles: 1
-        cone: 0
-        baseLength: -36
-        randLength: false
-        lifetime: 360
-        region: exotic-mod-rainstorm-glow
-        sizeFrom: 40
-        sizeTo: 40
-      }
-      {
-        length: 0
-        particles: 1
-        cone: 0
-        baseLength: -36
-        randLength: false
-        lifetime: 340
-        region: exotic-mod-rainstorm-charge0
-        sizeFrom: 40
-        sizeTo: 40
-        colorFrom: e65555
-        colorTo: e65555
-      }
-      {
-        length: 0
-        particles: 1
-        cone: 0
-        baseLength: -36
-        randLength: false
-        lifetime: 320
-        region: exotic-mod-rainstorm-charge1
-        sizeFrom: 40
-        sizeTo: 40
-        colorFrom: ffa763
-        colorTo: ffa763
-      }
-      {
-        length: 0
-        particles: 1
-        cone: 0
-        baseLength: -36
-        randLength: false
-        lifetime: 310
-        region: exotic-mod-rainstorm-charge2
-        sizeFrom: 40
-        sizeTo: 40
-        colorFrom: f2e879
-        colorTo: f2e879
-      }
-      {
-        length: 0
-        particles: 1
-        cone: 0
-        baseLength: -36
-        randLength: false
-        lifetime: 300
-        region: exotic-mod-rainstorm-charge3
-        sizeFrom: 40
-        sizeTo: 40
-        colorFrom: 84f58f
-        colorTo: 84f58f
-      }
-      {
-        length: 0
-        particles: 1
-        cone: 0
-        baseLength: -36
-        randLength: false
-        lifetime: 290
-        region: exotic-mod-rainstorm-charge4
-        sizeFrom: 40
-        sizeTo: 40
-        colorFrom: 87a3ff
-        colorTo: 87a3ff
-      }
-      {
-        length: 0
-        particles: 1
-        cone: 0
-        baseLength: -36
-        randLength: false
-        lifetime: 280
-        region: exotic-mod-rainstorm-charge5
-        sizeFrom: 40
-        sizeTo: 40
-        colorFrom: be92f7
-        colorTo: be92f7
-      }
-      {
-        length: 0
-        particles: 1
-        cone: 0
-        baseLength: -36
-        randLength: false
-        lifetime: 300
-        region: exotic-mod-rainstorm-charge0
-        sizeFrom: 40
-        sizeTo: 40
-        colorFrom: 0c0c12
-        colorTo: 0c0c12
-      }
-      {
-        length: 0
-        particles: 1
-        cone: 0
-        baseLength: -36
-        randLength: false
-        lifetime: 290
-        region: exotic-mod-rainstorm-charge1
-        sizeFrom: 40
-        sizeTo: 40
-        colorFrom: 0c0c12
-        colorTo: 0c0c12
-      }
-      {
-        length: 0
-        particles: 1
-        cone: 0
-        baseLength: -36
-        randLength: false
-        lifetime: 280
-        region: exotic-mod-rainstorm-charge2
-        sizeFrom: 40
-        sizeTo: 40
-        colorFrom: 0c0c12
-        colorTo: 0c0c12
-      }
-      {
-        length: 0
-        particles: 1
-        cone: 0
-        baseLength: -36
-        randLength: false
-        lifetime: 270
-        region: exotic-mod-rainstorm-charge3
-        sizeFrom: 40
-        sizeTo: 40
-        colorFrom: 0c0c12
-        colorTo: 0c0c12
-      }
-      {
-        length: 0
-        particles: 1
-        cone: 0
-        baseLength: -36
-        randLength: false
-        lifetime: 260
-        region: exotic-mod-rainstorm-charge4
-        sizeFrom: 40
-        sizeTo: 40
-        colorFrom: 0c0c12
-        colorTo: 0c0c12
-      }
-      {
-        length: 0
-        particles: 1
-        cone: 0
-        baseLength: -36
-        randLength: false
-        lifetime: 250
-        region: exotic-mod-rainstorm-charge5
-        sizeFrom: 40
-        sizeTo: 40
-        colorFrom: 0c0c12
-        colorTo: 0c0c12
-      }
-      {
-        length: 0
-        particles: 1
-        cone: 0
-        baseLength: -36
-        randLength: false
-        lifetime: 270
-        region: exotic-mod-rainstorm-charge0
-        sizeFrom: 40
-        sizeTo: 40
-        colorFrom: e65555
-        colorTo: e65555
-      }
-      {
-        length: 0
-        particles: 1
-        cone: 0
-        baseLength: -36
-        randLength: false
-        lifetime: 260
-        region: exotic-mod-rainstorm-charge1
-        sizeFrom: 40
-        sizeTo: 40
-        colorFrom: ffa763
-        colorTo: ffa763
-      }
-      {
-        length: 0
-        particles: 1
-        cone: 0
-        baseLength: -36
-        randLength: false
-        lifetime: 250
-        region: exotic-mod-rainstorm-charge2
-        sizeFrom: 40
-        sizeTo: 40
-        colorFrom: f2e879
-        colorTo: f2e879
-      }
-      {
-        length: 0
-        particles: 1
-        cone: 0
-        baseLength: -36
-        randLength: false
-        lifetime: 240
-        region: exotic-mod-rainstorm-charge3
-        sizeFrom: 40
-        sizeTo: 40
-        colorFrom: 84f58f
-        colorTo: 84f58f
-      }
-      {
-        length: 0
-        particles: 1
-        cone: 0
-        baseLength: -36
-        randLength: false
-        lifetime: 230
-        region: exotic-mod-rainstorm-charge4
-        sizeFrom: 40
-        sizeTo: 40
-        colorFrom: 87a3ff
-        colorTo: 87a3ff
-      }
-      {
-        length: 0
-        particles: 1
-        cone: 0
-        baseLength: -36
-        randLength: false
-        lifetime: 220
-        region: exotic-mod-rainstorm-charge5
-        sizeFrom: 40
-        sizeTo: 40
-        colorFrom: be92f7
-        colorTo: be92f7
-      }
-      {
-        length: 0
-        particles: 1
-        cone: 0
-        baseLength: -36
-        randLength: false
-        lifetime: 240
-        region: exotic-mod-rainstorm-charge0
-        sizeFrom: 40
-        sizeTo: 40
-        colorFrom: 0c0c12
-        colorTo: 0c0c12
-      }
-      {
-        length: 0
-        particles: 1
-        cone: 0
-        baseLength: -36
-        randLength: false
-        lifetime: 230
-        region: exotic-mod-rainstorm-charge1
-        sizeFrom: 40
-        sizeTo: 40
-        colorFrom: 0c0c12
-        colorTo: 0c0c12
-      }
-      {
-        length: 0
-        particles: 1
-        cone: 0
-        baseLength: -36
-        randLength: false
-        lifetime: 220
-        region: exotic-mod-rainstorm-charge2
-        sizeFrom: 40
-        sizeTo: 40
-        colorFrom: 0c0c12
-        colorTo: 0c0c12
-      }
-      {
-        length: 0
-        particles: 1
-        cone: 0
-        baseLength: -36
-        randLength: false
-        lifetime: 210
-        region: exotic-mod-rainstorm-charge3
-        sizeFrom: 40
-        sizeTo: 40
-        colorFrom: 0c0c12
-        colorTo: 0c0c12
-      }
-      {
-        length: 0
-        particles: 1
-        cone: 0
-        baseLength: -36
-        randLength: false
-        lifetime: 200
-        region: exotic-mod-rainstorm-charge4
-        sizeFrom: 40
-        sizeTo: 40
-        colorFrom: 0c0c12
-        colorTo: 0c0c12
-      }
-      {
-        length: 0
-        particles: 1
-        cone: 0
-        baseLength: -36
-        randLength: false
-        lifetime: 190
-        region: exotic-mod-rainstorm-charge5
-        sizeFrom: 40
-        sizeTo: 40
-        colorFrom: 0c0c12
-        colorTo: 0c0c12
-      }
-      {
-        length: 0
-        particles: 1
-        cone: 0
-        baseLength: -36
-        randLength: false
-        lifetime: 210
-        region: exotic-mod-rainstorm-charge0
-        sizeFrom: 40
-        sizeTo: 40
-        colorFrom: e65555
-        colorTo: e65555
-      }
-      {
-        length: 0
-        particles: 1
-        cone: 0
-        baseLength: -36
-        randLength: false
-        lifetime: 200
-        region: exotic-mod-rainstorm-charge1
-        sizeFrom: 40
-        sizeTo: 40
-        colorFrom: ffa763
-        colorTo: ffa763
-      }
-      {
-        length: 0
-        particles: 1
-        cone: 0
-        baseLength: -36
-        randLength: false
-        lifetime: 190
-        region: exotic-mod-rainstorm-charge2
-        sizeFrom: 40
-        sizeTo: 40
-        colorFrom: f2e879
-        colorTo: f2e879
-      }
-      {
-        length: 0
-        particles: 1
-        cone: 0
-        baseLength: -36
-        randLength: false
-        lifetime: 180
-        region: exotic-mod-rainstorm-charge3
-        sizeFrom: 40
-        sizeTo: 40
-        colorFrom: 84f58f
-        colorTo: 84f58f
-      }
-      {
-        length: 0
-        particles: 1
-        cone: 0
-        baseLength: -36
-        randLength: false
-        lifetime: 170
-        region: exotic-mod-rainstorm-charge4
-        sizeFrom: 40
-        sizeTo: 40
-        colorFrom: 87a3ff
-        colorTo: 87a3ff
-      }
-      {
-        length: 0
-        particles: 1
-        cone: 0
-        baseLength: -36
-        randLength: false
-        lifetime: 160
-        region: exotic-mod-rainstorm-charge5
-        sizeFrom: 40
-        sizeTo: 40
-        colorFrom: be92f7
-        colorTo: be92f7
-      }
-      {
-        length: 0
-        particles: 1
-        cone: 0
-        baseLength: -36
-        randLength: false
-        lifetime: 180
-        region: exotic-mod-rainstorm-charge0
-        sizeFrom: 40
-        sizeTo: 40
-        colorFrom: 0c0c12
-        colorTo: 0c0c12
-      }
-      {
-        length: 0
-        particles: 1
-        cone: 0
-        baseLength: -36
-        randLength: false
-        lifetime: 170
-        region: exotic-mod-rainstorm-charge1
-        sizeFrom: 40
-        sizeTo: 40
-        colorFrom: 0c0c12
-        colorTo: 0c0c12
-      }
-      {
-        length: 0
-        particles: 1
-        cone: 0
-        baseLength: -36
-        randLength: false
-        lifetime: 160
-        region: exotic-mod-rainstorm-charge2
-        sizeFrom: 40
-        sizeTo: 40
-        colorFrom: 0c0c12
-        colorTo: 0c0c12
-      }
-      {
-        length: 0
-        particles: 1
-        cone: 0
-        baseLength: -36
-        randLength: false
-        lifetime: 150
-        region: exotic-mod-rainstorm-charge3
-        sizeFrom: 40
-        sizeTo: 40
-        colorFrom: 0c0c12
-        colorTo: 0c0c12
-      }
-      {
-        length: 0
-        particles: 1
-        cone: 0
-        baseLength: -36
-        randLength: false
-        lifetime: 140
-        region: exotic-mod-rainstorm-charge4
-        sizeFrom: 40
-        sizeTo: 40
-        colorFrom: 0c0c12
-        colorTo: 0c0c12
-      }
-      {
-        length: 0
-        particles: 1
-        cone: 0
-        baseLength: -36
-        randLength: false
-        lifetime: 130
-        region: exotic-mod-rainstorm-charge5
-        sizeFrom: 40
-        sizeTo: 40
-        colorFrom: 0c0c12
-        colorTo: 0c0c12
-      }
-      {
-        length: 0
-        particles: 1
-        cone: 0
-        baseLength: -36
-        randLength: false
-        lifetime: 150
-        region: exotic-mod-rainstorm-charge0
-        sizeFrom: 40
-        sizeTo: 40
-        colorFrom: e65555
-        colorTo: e65555
-      }
-      {
-        length: 0
-        particles: 1
-        cone: 0
-        baseLength: -36
-        randLength: false
-        lifetime: 140
-        region: exotic-mod-rainstorm-charge1
-        sizeFrom: 40
-        sizeTo: 40
-        colorFrom: ffa763
-        colorTo: ffa763
-      }
-      {
-        length: 0
-        particles: 1
-        cone: 0
-        baseLength: -36
-        randLength: false
-        lifetime: 130
-        region: exotic-mod-rainstorm-charge2
-        sizeFrom: 40
-        sizeTo: 40
-        colorFrom: f2e879
-        colorTo: f2e879
-      }
-      {
-        length: 0
-        particles: 1
-        cone: 0
-        baseLength: -36
-        randLength: false
-        lifetime: 120
-        region: exotic-mod-rainstorm-charge3
-        sizeFrom: 40
-        sizeTo: 40
-        colorFrom: 84f58f
-        colorTo: 84f58f
-      }
-      {
-        length: 0
-        particles: 1
-        cone: 0
-        baseLength: -36
-        randLength: false
-        lifetime: 110
-        region: exotic-mod-rainstorm-charge4
-        sizeFrom: 40
-        sizeTo: 40
-        colorFrom: 87a3ff
-        colorTo: 87a3ff
-      }
-      {
-        length: 0
-        particles: 1
-        cone: 0
-        baseLength: -36
-        randLength: false
-        lifetime: 100
-        region: exotic-mod-rainstorm-charge5
-        sizeFrom: 40
-        sizeTo: 40
-        colorFrom: be92f7
-        colorTo: be92f7
-      }
-      {
-        length: 0
-        particles: 1
-        cone: 0
-        baseLength: -36
-        randLength: false
-        lifetime: 120
-        region: exotic-mod-rainstorm-charge0
-        sizeFrom: 40
-        sizeTo: 40
-        colorFrom: 0c0c12
-        colorTo: 0c0c12
-      }
-      {
-        length: 0
-        particles: 1
-        cone: 0
-        baseLength: -36
-        randLength: false
-        lifetime: 110
-        region: exotic-mod-rainstorm-charge1
-        sizeFrom: 40
-        sizeTo: 40
-        colorFrom: 0c0c12
-        colorTo: 0c0c12
-      }
-      {
-        length: 0
-        particles: 1
-        cone: 0
-        baseLength: -36
-        randLength: false
-        lifetime: 100
-        region: exotic-mod-rainstorm-charge2
-        sizeFrom: 40
-        sizeTo: 40
-        colorFrom: 0c0c12
-        colorTo: 0c0c12
-      }
-      {
-        length: 0
-        particles: 1
-        cone: 0
-        baseLength: -36
-        randLength: false
-        lifetime: 90
-        region: exotic-mod-rainstorm-charge3
-        sizeFrom: 40
-        sizeTo: 40
-        colorFrom: 0c0c12
-        colorTo: 0c0c12
-      }
-      {
-        length: 0
-        particles: 1
-        cone: 0
-        baseLength: -36
-        randLength: false
-        lifetime: 80
-        region: exotic-mod-rainstorm-charge4
-        sizeFrom: 40
-        sizeTo: 40
-        colorFrom: 0c0c12
-        colorTo: 0c0c12
-      }
-      {
-        length: 0
-        particles: 1
-        cone: 0
-        baseLength: -36
-        randLength: false
-        lifetime: 70
-        region: exotic-mod-rainstorm-charge5
-        sizeFrom: 40
-        sizeTo: 40
-        colorFrom: 0c0c12
-        colorTo: 0c0c12
-      }
-      {
-        length: 0
-        particles: 1
-        cone: 0
-        baseLength: -36
-        randLength: false
-        lifetime: 90
-        region: exotic-mod-rainstorm-charge0
-        sizeFrom: 40
-        sizeTo: 40
-        colorFrom: e65555
-        colorTo: e65555
-      }
-      {
-        length: 0
-        particles: 1
-        cone: 0
-        baseLength: -36
-        randLength: false
-        lifetime: 80
-        region: exotic-mod-rainstorm-charge1
-        sizeFrom: 40
-        sizeTo: 40
-        colorFrom: ffa763
-        colorTo: ffa763
-      }
-      {
-        length: 0
-        particles: 1
-        cone: 0
-        baseLength: -36
-        randLength: false
-        lifetime: 70
-        region: exotic-mod-rainstorm-charge2
-        sizeFrom: 40
-        sizeTo: 40
-        colorFrom: f2e879
-        colorTo: f2e879
-      }
-      {
-        length: 0
-        particles: 1
-        cone: 0
-        baseLength: -36
-        randLength: false
-        lifetime: 50
-        region: exotic-mod-rainstorm-charge3
-        sizeFrom: 40
-        sizeTo: 40
-        colorFrom: 84f58f
-        colorTo: 84f58f
-      }
-      {
-        length: 0
-        particles: 1
-        cone: 0
-        baseLength: -36
-        randLength: false
-        lifetime: 30
-        region: exotic-mod-rainstorm-charge4
-        sizeFrom: 40
-        sizeTo: 40
-        colorFrom: 87a3ff
-        colorTo: 87a3ff
-      }
-      {
-        length: 0
-        particles: 1
-        cone: 0
-        baseLength: -36
-        randLength: false
-        lifetime: 10
-        region: exotic-mod-rainstorm-charge5
-        sizeFrom: 40
-        sizeTo: 40
-        colorFrom: be92f7
-        colorTo: be92f7
-      }
-    ]
-  }
-  hitEffect: {
-    type: MultiEffect
-    effects: [
-      {
-        type: ParticleEffect
-        particles: 1
-        line: true
-        length: 30
-        lifetime: 15
-        strokeFrom: 2
-        strokeTo: 1
-        lenFrom: 10
-        lenTo: 0
-        colorFrom: e65555
-        colorTo: e6555550
-      }
-      {
-        type: ParticleEffect
-        particles: 1
-        line: true
-        length: 30
-        lifetime: 15
-        strokeFrom: 2
-        strokeTo: 1
-        lenFrom: 10
-        lenTo: 0
-        colorFrom: ff9c59
-        colorTo: ff9c5950
-      }
-      {
-        type: ParticleEffect
-        particles: 1
-        line: true
-        length: 30
-        lifetime: 15
-        strokeFrom: 2
-        strokeTo: 1
-        lenFrom: 10
-        lenTo: 0
-        colorFrom: f2e879
-        colorTo: f2e87950
-      }
-      {
-        type: ParticleEffect
-        particles: 1
-        line: true
-        length: 30
-        lifetime: 15
-        strokeFrom: 2
-        strokeTo: 1
-        lenFrom: 10
-        lenTo: 0
-        colorFrom: 84f591
-        colorTo: 84f59150
-      }
-      {
-        type: ParticleEffect
-        particles: 1
-        line: true
-        length: 30
-        lifetime: 15
-        strokeFrom: 2
-        strokeTo: 1
-        lenFrom: 10
-        lenTo: 0
-        colorFrom: 8ca4f5
-        colorTo: 8ca4f550
-      }
-      {
-        type: ParticleEffect
-        particles: 1
-        line: true
-        length: 30
-        lifetime: 15
-        strokeFrom: 2
-        strokeTo: 1
-        lenFrom: 10
-        lenTo: 0
-        colorFrom: a488eb
-        colorTo: a488eb50
-      }
-    ]
-  }
-}
-consumes: {
-  coolant: {
-    amount: 7
-  }
-}
-coolantMultiplier: 0.6
-liquidCapacity: 3500
-requirements: [
-  copper/55000
-  lead/65000
-  graphite/35000
-  silicon/40000
-  titanium/30000
-  thorium/25000
-  surge-alloy/10000
-  phase-fabric/12000
-  amethyst-gem/9500
-  bluewolframite/8500
-  shadow/2500
-]
-category: turret
-</code></pre>
 <h2 id="launchpad">LaunchPad</h2>
 <p><em>extends <a href="#block">Block</a></em></p>
 <table>
@@ -12859,23 +11296,6 @@ category: turret
 </tr>
 </tbody>
 </table>
-<h4 id="example-wormhole-core">Example  <a href="https://github.com/BlueWolf3682/Exotic-Mod/tree/master/content/blocks/effect/wormhole-core.hjson">("Wormhole Core")</a></h4>
-<pre><code>type: LightBlock
-size: 4
-health: 1200
-baseExplosiveness: 25
-configurable: false
-hasPower: false
-radius: 90
-brightness: 0.5
-category: effect
-requirements: [
-  territe-alloy/100
-  thorium/75
-  forge-plating/30
-]
-buildVisibility: editorOnly
-</code></pre>
 <h2 id="liquidblock">LiquidBlock</h2>
 <p><em>extends <a href="#block">Block</a></em></p>
 <table>
@@ -12956,48 +11376,6 @@ buildVisibility: editorOnly
 </tr>
 </tbody>
 </table>
-<h4 id="example-torrent">Example  <a href="https://github.com/BlueWolf3682/Exotic-Mod/tree/master/content/blocks/turrets/faction-purple/1p-torrent.hjson">("Torrent")</a></h4>
-<pre><code>type: LiquidTurret
-size: 3
-squareSprite: false
-requiresWater: true
-range: 240
-health: 1100
-reloadTime: 3
-shots: 3
-inaccuracy: 0.5
-velocityInaccuracy: 0.5
-shootEffect: {
-  type: ParticleEffect
-  cone: 5
-  particles: 5
-  length: 64
-  lifetime: 50
-  interp: pow5Out
-  sizeFrom: 4
-  sizeTo: 2
-  colorFrom: 596ab8
-  colorTo: 596ab825
-}
-ammoTypes: {
-  water: {
-    type: LiquidBulletType
-    liquid: water
-    damage: 8
-    speed: 12
-    lifetime: 30
-    drag: 0.05
-    orbSize: 3
-  }
-}
-category: turret
-research: tsunami
-requirements: [
-  metaglass/350
-  thorium/300
-  ladera/200
-]
-</code></pre>
 <h2 id="liquidvoid">LiquidVoid</h2>
 <p><em>extends <a href="#block">Block</a></em></p>
 <h2 id="logicblock">LogicBlock</h2>
@@ -13256,22 +11634,6 @@ requirements: [
 </tr>
 </tbody>
 </table>
-<h4 id="example-baenite-wall">Example  <a href="https://github.com/BlueWolf3682/Exotic-Mod/tree/master/content/blocks/defence/baenite-wall.hjson">("Baenite Wall")</a></h4>
-<pre><code>type: MendProjector
-health: 900
-hasPower: false
-reload: 45
-healPercent: 5
-range: 4
-phaseBoost: 0
-phaseRangeBoost: 0
-phaseColor: 74cf84
-category: defense
-research: surge-wall
-requirements: [
-  baenite/6
-]
-</code></pre>
 <h2 id="messageblock">MessageBlock</h2>
 <p><em>extends <a href="#block">Block</a></em></p>
 <table>
@@ -13298,152 +11660,6 @@ requirements: [
 </tr>
 </tbody>
 </table>
-<h4 id="example-warden-log">Example  <a href="https://github.com/BlueWolf3682/Exotic-Mod/tree/master/content/blocks/effect/warden-log.hjson">("Warden Log")</a></h4>
-<pre><code>type: MessageBlock
-size: 2
-maxTextLength: 250
-requirements: [
-  graphite/15
-  territe-alloy/10
-]
-buildVisibility: editorOnly
-</code></pre>
-<h2 id="nuclearreactor">NuclearReactor</h2>
-<p><em>extends <a href="#powergenerator">PowerGenerator</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>timerFuel</td>
-<td>int</td>
-<td>1</td>
-<td></td>
-</tr>
-<tr>
-<td>tr</td>
-<td>Vec2</td>
-<td>(0.0,0.0)</td>
-<td></td>
-</tr>
-<tr>
-<td>lightColor</td>
-<td>Color</td>
-<td>7f19eaff</td>
-<td></td>
-</tr>
-<tr>
-<td>coolColor</td>
-<td>Color</td>
-<td>ffffff00</td>
-<td></td>
-</tr>
-<tr>
-<td>hotColor</td>
-<td>Color</td>
-<td>ff9575a3</td>
-<td></td>
-</tr>
-<tr>
-<td>explodeEffect</td>
-<td>Effect</td>
-<td>reactorExplosion</td>
-<td></td>
-</tr>
-<tr>
-<td>itemDuration</td>
-<td>float</td>
-<td>120.0</td>
-<td>ticks to consume 1 fuel</td>
-</tr>
-<tr>
-<td>heating</td>
-<td>float</td>
-<td>0.01</td>
-<td>heating per frame * fullness</td>
-</tr>
-<tr>
-<td>smokeThreshold</td>
-<td>float</td>
-<td>0.3</td>
-<td>threshold at which block starts smoking</td>
-</tr>
-<tr>
-<td>flashThreshold</td>
-<td>float</td>
-<td>0.46</td>
-<td>heat threshold at which lights start flashing</td>
-</tr>
-<tr>
-<td>explosionRadius</td>
-<td>int</td>
-<td>19</td>
-<td></td>
-</tr>
-<tr>
-<td>explosionDamage</td>
-<td>int</td>
-<td>1250</td>
-<td></td>
-</tr>
-<tr>
-<td>coolantPower</td>
-<td>float</td>
-<td>0.5</td>
-<td>heat removed per unit of coolant</td>
-</tr>
-<tr>
-<td>topRegion</td>
-<td>TextureRegion</td>
-<td>null</td>
-<td></td>
-</tr>
-<tr>
-<td>lightsRegion</td>
-<td>TextureRegion</td>
-<td>null</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<h4 id="example-draconium-reactor">Example  <a href="https://github.com/BlueWolf3682/Exotic-Mod/tree/master/content/blocks/power/draconium-reactor.hjson">("Draconium Reactor")</a></h4>
-<pre><code>type: NuclearReactor
-size: 6
-health: 2500
-itemCapacity: 135
-liquidCapacity: 64
-itemDuration: 770
-powerProduction: 540
-consumes: {
-  liquid: {
-    liquid: supercoolant
-    amount: 0.32
-  }
-  items: {
-    items: [
-      draconium/1
-    ]
-  }
-}
-requirements: [
-  lead/1550
-  silicon/1750
-  titanium/1360
-  thorium/1220
-  plastanium/750
-  phase-fabric/650
-  amethyst-gem/700
-  bluewolframite/600
-]
-category: power
-research: thorium-reactor
-</code></pre>
 <h2 id="nuclearwarhead">NuclearWarhead</h2>
 <p><em>extends <a href="#block">Block</a></em></p>
 <table>
@@ -13544,38 +11760,6 @@ research: thorium-reactor
 </tr>
 </tbody>
 </table>
-<h4 id="example-hyperdrive-radiator">Example  <a href="https://github.com/BlueWolf3682/Exotic-Mod/tree/master/content/blocks/effect/hyperdrive-radiator.hjson">("Hyperdrive Radiator")</a></h4>
-<pre><code>type: OverdriveProjector
-size: 3
-health: 1080
-range: 210
-speedBoost: 9.5
-baseColor: e3567c
-category: effect
-hasBoost: false
-requirements: [
-  lead/350
-  silicon/300
-  thorium/450
-  bluewolframite/250
-  baenite/150
-]
-consumes: {
-  power: 10.5
-  items: {
-    items: [
-      silicon/1
-      baenite/1
-      bluewolframite/1
-    ]
-  }
-  liquid: {
-    liquid: cryofluid
-    amount: 0.35
-  }
-}
-research: bluewolframite-overdrive-projector
-</code></pre>
 <h2 id="overflowgate">OverflowGate</h2>
 <p><em>extends <a href="#block">Block</a></em></p>
 <table>
@@ -13702,18 +11886,6 @@ research: bluewolframite-overdrive-projector
 </tr>
 </tbody>
 </table>
-<h4 id="example-atlas">Example  <a href="https://github.com/BlueWolf3682/Exotic-Mod/tree/master/content/blocks/distribution/atlas.hjson">("Atlas")</a></h4>
-<pre><code>type: PayloadConveyor
-size: 8
-moveTime: 120
-moveForce: 536
-payloadLimit: 7.2
-requirements: [
-  titanium/200
-  thorium/100
-  bluewolframite/25
-]
-</code></pre>
 <h2 id="payloadlaunchpad">PayloadLaunchPad</h2>
 <p><em>extends <a href="#payloadblock">PayloadBlock</a></em></p>
 <table>
@@ -14039,23 +12211,6 @@ requirements: [
 </tr>
 </tbody>
 </table>
-<h4 id="example-cluster">Example  <a href="https://github.com/BlueWolf3682/Exotic-Mod/tree/master/content/blocks/turrets/cluster.hjson">("Cluster")</a></h4>
-<pre><code>type: PointDefenseTurret
-health: 250
-reloadTime: 12
-bulletDamage: 2
-range: 110
-consumes: {
-  power: 1.5
-}
-requirements: [
-  copper/70
-  lead/50
-  silicon/30
-]
-category: turret
-research: arc
-</code></pre>
 <h2 id="powerblock">PowerBlock</h2>
 <p><em>extends <a href="#block">Block</a></em></p>
 <h2 id="powerdiode">PowerDiode</h2>
@@ -14102,6 +12257,110 @@ research: arc
 <td>generationType</td>
 <td>Stat</td>
 <td>basePowerGeneration</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="nuclearreactor">NuclearReactor</h2>
+<p><em>extends <a href="#powergenerator">PowerGenerator</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>timerFuel</td>
+<td>int</td>
+<td>1</td>
+<td></td>
+</tr>
+<tr>
+<td>tr</td>
+<td>Vec2</td>
+<td>(0.0,0.0)</td>
+<td></td>
+</tr>
+<tr>
+<td>lightColor</td>
+<td>Color</td>
+<td>7f19eaff</td>
+<td></td>
+</tr>
+<tr>
+<td>coolColor</td>
+<td>Color</td>
+<td>ffffff00</td>
+<td></td>
+</tr>
+<tr>
+<td>hotColor</td>
+<td>Color</td>
+<td>ff9575a3</td>
+<td></td>
+</tr>
+<tr>
+<td>explodeEffect</td>
+<td>Effect</td>
+<td>reactorExplosion</td>
+<td></td>
+</tr>
+<tr>
+<td>itemDuration</td>
+<td>float</td>
+<td>120.0</td>
+<td>ticks to consume 1 fuel</td>
+</tr>
+<tr>
+<td>heating</td>
+<td>float</td>
+<td>0.01</td>
+<td>heating per frame * fullness</td>
+</tr>
+<tr>
+<td>smokeThreshold</td>
+<td>float</td>
+<td>0.3</td>
+<td>threshold at which block starts smoking</td>
+</tr>
+<tr>
+<td>flashThreshold</td>
+<td>float</td>
+<td>0.46</td>
+<td>heat threshold at which lights start flashing</td>
+</tr>
+<tr>
+<td>explosionRadius</td>
+<td>int</td>
+<td>19</td>
+<td></td>
+</tr>
+<tr>
+<td>explosionDamage</td>
+<td>int</td>
+<td>1250</td>
+<td></td>
+</tr>
+<tr>
+<td>coolantPower</td>
+<td>float</td>
+<td>0.5</td>
+<td>heat removed per unit of coolant</td>
+</tr>
+<tr>
+<td>topRegion</td>
+<td>TextureRegion</td>
+<td>null</td>
+<td></td>
+</tr>
+<tr>
+<td>lightsRegion</td>
+<td>TextureRegion</td>
+<td>null</td>
 <td></td>
 </tr>
 </tbody>
@@ -14156,21 +12415,6 @@ research: arc
 </tr>
 </tbody>
 </table>
-<h4 id="example-bluewolframite-power-node">Example  <a href="https://github.com/BlueWolf3682/Exotic-Mod/tree/master/content/blocks/power/bluewolframite-node.hjson">("Bluewolframite Power Node")</a></h4>
-<pre><code>type: PowerNode
-health: 540
-laserRange: 8
-laserColor1: acbbf9
-laserColor2: 6579c9
-maxNodes: 35
-requirements: [
-  lead/10
-  silicon/3
-  bluewolframite/5
-]
-category: power
-research: power-node
-</code></pre>
 <h2 id="powersource">PowerSource</h2>
 <p><em>extends <a href="#powernode">PowerNode</a></em></p>
 <table>
@@ -14191,18 +12435,6 @@ research: power-node
 </tr>
 </tbody>
 </table>
-<h4 id="example-exotic-power-source">Example  <a href="https://github.com/BlueWolf3682/Exotic-Mod/tree/master/content/blocks/power/exotic-power-source.hjson">("Exotic Power Source")</a></h4>
-<pre><code>type: PowerSource
-size: 1
-health: 2000000
-maxNodes: 255
-laserRange: 15
-laserColor1: acbbf9
-laserColor2: 6579c9
-powerProduction: 1354450
-buildVisibility: sandboxOnly
-category: power
-</code></pre>
 <h2 id="powerturret">PowerTurret</h2>
 <p><em>extends <a href="#turret">Turret</a></em></p>
 <table>
@@ -14229,34 +12461,6 @@ category: power
 </tr>
 </tbody>
 </table>
-<h4 id="example-dimension">Example  <a href="https://github.com/BlueWolf3682/Exotic-Mod/tree/master/content/blocks/turrets/faction-green/1g-dimension.hjson">("Dimension")</a></h4>
-<pre><code>type: PowerTurret
-health: 260
-reloadTime: 30
-range: 120
-shots: 2
-burstSpacing: 3
-spread: 0
-powerUse: 0.85
-targetHealing: true
-shootSound: lasershoot
-shootType: {
-  type: LaserBoltBulletType
-  damage: 5
-  collidesTeam: true
-  healPercent: 2
-  speed: 6
-  lifetime: 20
-  frontColor: ffffff
-  backColor: 83f793
-}
-category: turret
-research: duo
-requirements: [
-  copper/40
-  lead/20
-]
-</code></pre>
 <h2 id="powervoid">PowerVoid</h2>
 <p><em>extends <a href="#powerblock">PowerBlock</a></em></p>
 <h2 id="prop">Prop</h2>
@@ -14281,25 +12485,6 @@ requirements: [
 </tr>
 </tbody>
 </table>
-<h4 id="example-floating-pump">Example  <a href="https://github.com/BlueWolf3682/Exotic-Mod/tree/master/content/blocks/liquid/floating-pump.hjson">("Floating Pump")</a></h4>
-<pre><code>type: Pump
-size: 2
-hasPower: true
-consumes: {
-  power: 0.75
-}
-pumpAmount: 0.15
-squareSprite: false
-placeableLiquid: true
-liquidCapacity: 90
-requirements: [
-  silicon/45
-  metaglass/25
-  thorium/30
-  amethyst-gem/15
-]
-category: liquid
-</code></pre>
 <h2 id="reconstructor">Reconstructor</h2>
 <p><em>extends <a href="#unitblock">UnitBlock</a></em></p>
 <table>
@@ -14332,60 +12517,6 @@ category: liquid
 </tr>
 </tbody>
 </table>
-<h4 id="example-rebuilder">Example  <a href="https://github.com/BlueWolf3682/Exotic-Mod/tree/master/content/blocks/units/rebuilder.hjson">("Rebuilder")</a></h4>
-<pre><code>type: Reconstructor
-size: 10
-constructTime: 26800
-liquidCapacity: 1200
-consumes: {
-  power: 16.4
-  items: {
-    items: [
-      lead/3500
-      silicon/2500
-      metaglass/2000
-      titanium/1500
-      amethyst-gem/1100
-      baenite/1000
-      tungsten/750
-    ]
-  }
-  liquid: {
-    liquid: cryofluid
-    amount: 0.9
-  }
-}
-upgrades: [
-  [
-    ghost
-    wraith
-  ]
-  [
-    endeavour
-    harmony
-  ]
-  [
-    pathogen
-    disease
-  ]
-  [
-    ember
-    cinder
-  ]
-]
-requirements: [
-  lead/10500
-  silicon/5000
-  titanium/4500
-  thorium/4000
-  phase-fabric/3000
-  amethyst-gem/1500
-  tungsten/1000
-  bluewolframite/600
-]
-category: units
-research: alterator
-</code></pre>
 <h2 id="reloadturret">ReloadTurret</h2>
 <p><em>extends <a href="#baseturret">BaseTurret</a></em></p>
 <table>
@@ -14560,17 +12691,6 @@ research: alterator
 </tr>
 </tbody>
 </table>
-<h4 id="example-floating-router">Example  <a href="https://github.com/BlueWolf3682/Exotic-Mod/tree/master/content/blocks/distribution/floating-router.hjson">("Floating Router")</a></h4>
-<pre><code>type: Router
-requiresWater: true
-health: 80
-requirements: [
-  metaglass/4
-  ladera/3
-]
-category: distribution
-research: router
-</code></pre>
 <h2 id="separator">Separator</h2>
 <p><em>extends <a href="#block">Block</a></em></p>
 <p>Extracts a random list of items from an input item and an input liquid.</p>
@@ -14650,12 +12770,6 @@ Use the standard Floor class instead.</p>
 </tr>
 </tbody>
 </table>
-<h4 id="example-blue-sand-baenara">Example  <a href="https://github.com/BlueWolf3682/Exotic-Mod/tree/master/content/blocks/environment/blue-sand-baenara.hjson">("Blue Sand Baenara")</a></h4>
-<pre><code>type: ShallowLiquid
-liquidDrop: liquid-baenara
-isLiquid: true
-cacheLayer: water
-</code></pre>
 <h2 id="shockmine">ShockMine</h2>
 <p><em>extends <a href="#block">Block</a></em></p>
 <table>
@@ -14782,183 +12896,6 @@ cacheLayer: water
 </tr>
 </tbody>
 </table>
-<h4 id="example-empiron-reactor">Example  <a href="https://github.com/BlueWolf3682/Exotic-Mod/tree/master/content/blocks/power/empiron-reactor.hjson">("Empiron Reactor")</a></h4>
-<pre><code>type: SingleTypeGenerator
-size: 6
-canOverdrive: false
-baseExplosiveness: 70
-liquidCapacity: 60
-itemDuration: 120
-consumes: {
-  liquid: {
-    liquid: energia
-    amount: 0.5
-  }
-  items: {
-    items: [
-      amethyst-gem/1
-    ]
-  }
-}
-generateEffectRnd: 0
-generateEffect: {
-  type: MultiEffect
-  clip: 8192
-  layer: 35
-  lifetime: 121
-  effects: [
-    {
-      type: ParticleEffect
-      region: exotic-mod-empiron-base
-      lightOpacity: 0
-      particles: 1
-      lifetime: 120
-      length: 0
-      sizeFrom: 24
-      sizeTo: 24
-    }
-    {
-      type: ParticleEffect
-      region: exotic-mod-empiron-0
-      lightOpacity: 0
-      particles: 1
-      lifetime: 30
-      length: 0
-      sizeFrom: 24
-      sizeTo: 24
-      colorFrom: 41414a
-      colorTo: 41414a
-    }
-    {
-      type: ParticleEffect
-      region: exotic-mod-empiron-1
-      lightOpacity: 0
-      particles: 1
-      lifetime: 60
-      length: 0
-      sizeFrom: 24
-      sizeTo: 24
-      colorFrom: 41414a
-      colorTo: 41414a
-    }
-    {
-      type: ParticleEffect
-      region: exotic-mod-empiron-2
-      lightOpacity: 0
-      particles: 1
-      lifetime: 90
-      length: 0
-      sizeFrom: 24
-      sizeTo: 24
-      colorFrom: 41414a
-      colorTo: 41414a
-    }
-    {
-      type: ParticleEffect
-      region: exotic-mod-empiron-rotator-1
-      lightOpacity: 0
-      particles: 1
-      lifetime: 120
-      length: 0
-      sizeFrom: 24
-      sizeTo: 24
-      spin: 6
-    }
-    {
-      type: ParticleEffect
-      region: exotic-mod-empiron-rotator-2
-      lightOpacity: 0
-      particles: 1
-      lifetime: 120
-      length: 0
-      sizeFrom: 24
-      sizeTo: 24
-      spin: -12
-    }
-    {
-      type: ParticleEffect
-      region: exotic-mod-empiron-top
-      lightOpacity: 0
-      particles: 1
-      lifetime: 120
-      length: 0
-      sizeFrom: 24
-      sizeTo: 24
-    }
-  ]
-}
-destroyEffect: {
-  type: MultiEffect
-  lifetime: 180
-  layer: 135
-  effects: [
-    {
-      type: ParticleEffect
-      particles: 1
-      length: 450
-      lifetime: 160
-      layer: 95
-      region: exotic-mod-empiron-rotator-1
-      spin: 6
-      sizeFrom: 24
-      sizeTo: 36
-      colorTo: ffffff00
-    }
-    {
-      type: ParticleEffect
-      particles: 1
-      length: 700
-      lifetime: 180
-      layer: 95
-      region: exotic-mod-empiron-rotator-2
-      spin: -12
-      sizeFrom: 24
-      sizeTo: 36
-      colorTo: ffffff00
-    }
-    {
-      type: ParticleEffect
-      interp: swingIn
-      lifetime: 180
-      length: 0
-      particles: 2
-      region: circle-shadow
-      sizeFrom: 160
-      sizeTo: 0
-    }
-    {
-      type: WaveEffect
-      lifetime: 40
-      sizeFrom: 0
-      sizeTo: 180
-      strokeFrom: 4
-      strokeTo: 0
-    }
-    {
-      type: ParticleEffect
-      particles: 12
-      line: true
-      lifetime: 160
-      length: -300
-      baseLength: 300
-      lenFrom: 0
-      lenTo: 16
-      strokeFrom: 0
-      strokeTo: 4
-    }
-  ]
-}
-powerProduction: 195
-category: power
-requirements: [
-  titanium/1200
-  metaglass/1100
-  silicon/1000
-  phase-fabric/600
-  baenite/400
-  amethyst-gem/250
-]
-</code></pre>
 <h2 id="solargenerator">SolarGenerator</h2>
 <p><em>extends <a href="#powergenerator">PowerGenerator</a></em></p>
 <h2 id="solidpump">SolidPump</h2>
@@ -15038,17 +12975,6 @@ requirements: [
 </tr>
 </tbody>
 </table>
-<h4 id="example-floating-sorter">Example  <a href="https://github.com/BlueWolf3682/Exotic-Mod/tree/master/content/blocks/distribution/floating-sorter.hjson">("Floating Sorter")</a></h4>
-<pre><code>type: Sorter
-requiresWater: true
-health: 80
-requirements: [
-  metaglass/6
-  ladera/4
-]
-category: distribution
-research: sorter
-</code></pre>
 <h2 id="spawnblock">SpawnBlock</h2>
 <p><em>extends <a href="#overlayfloor">OverlayFloor</a></em></p>
 <h2 id="stackconveyor">StackConveyor</h2>
@@ -15113,41 +13039,6 @@ research: sorter
 </tr>
 </tbody>
 </table>
-<h4 id="example-rail">Example  <a href="https://github.com/BlueWolf3682/Exotic-Mod/tree/master/content/blocks/distribution/rail.hjson">("Rail ")</a></h4>
-<pre><code>type: StackConveyor
-health: 60
-itemCapacity: 8
-speed: 0.05
-recharge: 3
-research: titanium-conveyor
-loadEffect: {
-  type: ParticleEffect
-  line: true
-  lifetime: 30
-  length: 8
-  lenFrom: 2
-  lenTo: 0
-  strokeFrom: 0.5
-  strokeTo: 0.5
-  colorTo: 7382f075
-}
-unloadEffect: {
-  type: ParticleEffect
-  line: true
-  lifetime: 30
-  length: 8
-  lenFrom: 2
-  lenTo: 0
-  strokeFrom: 0.5
-  strokeTo: 0.5
-  colorTo: 7382f075
-}
-requirements: [
-  metaglass/1
-  graphite/1
-  territe-alloy/1
-]
-</code></pre>
 <h2 id="staticwall">StaticWall</h2>
 <p><em>extends <a href="#prop">Prop</a></em></p>
 <table>
@@ -15174,10 +13065,6 @@ requirements: [
 </tr>
 </tbody>
 </table>
-<h4 id="example-plated-wall">Example  <a href="https://github.com/BlueWolf3682/Exotic-Mod/tree/master/content/blocks/environment/plated-wall.hjson">("Plated Wall")</a></h4>
-<pre><code>type: StaticWall
-variants: 3
-</code></pre>
 <h2 id="staticclusterwall">StaticClusterWall</h2>
 <p><em>extends <a href="#staticwall">StaticWall</a></em></p>
 <table>
@@ -15254,25 +13141,6 @@ variants: 3
 </tr>
 </tbody>
 </table>
-<h4 id="example-geothermal-differentiator">Example  <a href="https://github.com/BlueWolf3682/Exotic-Mod/tree/master/content/blocks/power/geothermal-differentiator.hjson">("Geothermal Differentiator")</a></h4>
-<pre><code>type: ThermalGenerator
-size: 4
-powerProduction: 44.6
-generateEffect: redgeneratespark
-floating: true
-ambientSound: hum
-ambientSoundVolume: 0.4
-requirements: [
-  copper/550
-  lead/550
-  silicon/780
-  thorium/440
-  surge-alloy/350
-  amethyst-gem/180
-]
-category: power
-research: thermal-generator
-</code></pre>
 <h2 id="thruster">Thruster</h2>
 <p><em>extends <a href="#wall">Wall</a></em></p>
 <table>
@@ -15421,31 +13289,6 @@ research: thermal-generator
 </tr>
 </tbody>
 </table>
-<h4 id="example-division">Example  <a href="https://github.com/BlueWolf3682/Exotic-Mod/tree/master/content/blocks/turrets/faction-blue/0b-division.hjson">("Division")</a></h4>
-<pre><code>type: TractorBeamTurret
-targetGround: true
-shootLength: 10
-range: 210
-size: 3
-health: 1200
-force: 24
-scaledForce: 24
-damage: 0.6
-laserWidth: 1
-statusDuration: 10
-status: slow
-consumes: {
-  power: 6.6
-}
-category: turret
-research: 0b-pinpoint
-requirements: [
-  lead/250
-  territe-alloy/200
-  titanium/125
-  plastanium/75
-]
-</code></pre>
 <h2 id="treeblock">TreeBlock</h2>
 <p><em>extends <a href="#block">Block</a></em></p>
 <table>
@@ -15772,55 +13615,6 @@ requirements: [
 </tr>
 </tbody>
 </table>
-<h4 id="example-constructor">Example  <a href="https://github.com/BlueWolf3682/Exotic-Mod/tree/master/content/blocks/units/constructor.hjson">("Constructor")</a></h4>
-<pre><code>type: UnitFactory
-size: 2
-consumes: {
-  power: 1.2
-}
-plans: [
-  {
-    unit: soul
-    time: 1080
-    requirements: [
-      silicon/25
-      metaglass/30
-    ]
-  }
-  {
-    unit: victory
-    time: 1250
-    requirements: [
-      silicon/20
-      lead/35
-      titanium/25
-    ]
-  }
-  {
-    unit: outbreak
-    time: 1100
-    requirements: [
-      silicon/25
-      graphite/20
-    ]
-  }
-  {
-    unit: flicker
-    time: 2400
-    requirements: [
-      silicon/30
-      lead/15
-      graphite/10
-    ]
-  }
-]
-requirements: [
-  lead/75
-  silicon/40
-]
-research: ground-factory
-category: units
-</code></pre>
 <h2 id="unloader">Unloader</h2>
 <p><em>extends <a href="#block">Block</a></em></p>
 <table>
@@ -15909,21 +13703,6 @@ category: units
 </tr>
 </tbody>
 </table>
-<h4 id="example-huge-draconium-wall">Example  <a href="https://github.com/BlueWolf3682/Exotic-Mod/tree/master/content/blocks/defence/draconium-wall-huge.hjson">("Huge Draconium Wall")</a></h4>
-<pre><code>type: Wall
-health: 144000
-size: 3
-insulated: true
-absorbLasers: true
-chanceDeflect: 870
-schematicPriority: 10
-requirements: [
-  draconium/81
-  phase-fabric/27
-]
-category: defense
-research: draconium-wall-large
-</code></pre>
 <h2 id="walloreblock">WallOreBlock</h2>
 <p><em>extends <a href="#oreblock">OreBlock</a></em></p>
 <p>An overlay ore that draws on top of walls.</p>
@@ -18113,12 +15892,6 @@ colorTo: a488eb50
 </tr>
 </tbody>
 </table>
-<h4 id="example-forge-plating">Example  <a href="https://github.com/BlueWolf3682/Exotic-Mod/tree/master/content/items/forge-plating.hjson">("Forge Plating")</a></h4>
-<pre><code>color: &quot;6e7080&quot;
-cost: 12
-research: core-shard
-alwaysUnlocked: true
-</code></pre>
 <h1 id="liquid">Liquid</h1>
 <p><em>extends <a href="#unlockablecontent">UnlockableContent</a></em></p>
 <table>
@@ -18187,16 +15960,6 @@ alwaysUnlocked: true
 </tr>
 </tbody>
 </table>
-<h4 id="example-magnetized-slag">Example  <a href="https://github.com/BlueWolf3682/Exotic-Mod/tree/master/content/liquids/mag-slag.hjson">("Magnetized Slag")</a></h4>
-<pre><code>temperature: 5.4
-flammability: 1
-viscosity: 0.55
-heatCapacity: 0
-explosiveness: 4
-effect: melting
-color: ff7d3c
-research: wolframite
-</code></pre>
 <h1 id="status">Status</h1>
 <p>Built-in constants:  </p>
 <p><code>none</code> <code>burning</code> <code>freezing</code> <code>unmoving</code> <code>slow</code> <code>wet</code> <code>muddy</code> <code>melting</code> <code>sapped</code> <code>tarred</code> <code>overdrive</code> <code>overclock</code> <code>shielded</code> <code>shocked</code> <code>blasted</code> <code>corroded</code> <code>boss</code> <code>sporeSlowed</code> <code>disarmed</code> <code>electrified</code> <code>invincible</code>  </p>
@@ -18321,33 +16084,6 @@ research: wolframite
 </tr>
 </tbody>
 </table>
-<h4 id="example-permafrost">Example  <a href="https://github.com/BlueWolf3682/Exotic-Mod/tree/master/content/status/permafrost.hjson">("Permafrost")</a></h4>
-<pre><code>damage: 2
-speedMultiplier: 0.5
-healthMultiplier: 0.9
-buildSpeedMultiplier: 0.75
-transitionDamage: 256
-affinities: [
-  freezing
-]
-opposites: [
-  burning
-  melting
-]
-effectChance: 0.1
-effect: {
-  type: ParticleEffect
-  particles: 1
-  baseLength: 20
-  length: 0
-  lifetime: 25
-  sizeFrom: 2
-  sizeTo: 0
-  colorFrom: bfdfff
-  colorTo: bfdfff50
-  region: exotic-mod-snowflake
-}
-</code></pre>
 <h1 id="unit">Unit</h1>
 <p><em>extends <a href="#unlockablecontent">UnlockableContent</a></em></p>
 <table>
@@ -19064,60 +16800,6 @@ effect: {
 </tr>
 </tbody>
 </table>
-<h4 id="example-outbreak">Example  <a href="https://github.com/BlueWolf3682/Exotic-Mod/tree/master/content/units/air-attack/outbreak.hjson">("Outbreak")</a></h4>
-<pre><code>type: flying
-flying: true
-health: 75
-speed: 3.4
-rotateSpeed: 20
-circleTarget: true
-lightRadius: 25
-lightColor: e65555
-weapons: [
-  {
-    name: outbreak-ram
-    x: 0
-    y: 0
-    mirror: false
-    shootSound: none
-    reload: 25
-    bullet: {
-      type: RailBulletType
-      damage: 10
-      pierceDamageFactor: 0
-      length: 80
-      recoil: -40
-      shootEffect: none
-      smokeEffect: none
-    }
-  }
-]
-abilities: [
-  {
-    type: MoveLightningAbility
-    minSpeed: 0
-    maxSpeed: 0
-    damage: 0
-    chance: 1
-    length: 1
-    color: 00000000
-    shootSound: none
-    shootEffect: {
-      type: ParticleEffect
-      layer: 99
-      particles: 1
-      sizeFrom: 6
-      sizeTo: 6
-      length: 0.01
-      lifetime: 15
-      region: exotic-mod-outbreak-effect
-      colorFrom: fffffff25
-      colorTo: ffffff00
-    }
-  }
-]
-research: constructor
-</code></pre>
 <h1 id="weather">Weather</h1>
 <h2 id="weather_1">Weather</h2>
 <p><em>extends <a href="#unlockablecontent">UnlockableContent</a></em></p>
@@ -19413,24 +17095,6 @@ research: constructor
 </tr>
 </tbody>
 </table>
-<h4 id="example-healing-winds">Example  <a href="https://github.com/BlueWolf3682/Exotic-Mod/tree/master/content/weathers/healing-winds.hjson">("Healing Winds")</a></h4>
-<pre><code>type: ParticleWeather
-useWindVector: true
-particleRegion: circle
-opacityMultiplier: 0.3
-color: 73d187
-drawNoise: true
-noiseColor: 61ad7e
-sizeMin: 5
-sizeMax: 20
-minAlpha: 0
-maxAlpha: 0.5
-sound: wind
-soundVol: 0.25
-baseSpeed: 1.4
-density: 4500
-status: exotic-mod-healing-wind
-</code></pre>
 <h2 id="rainweather">RainWeather</h2>
 <p><em>extends <a href="#weather">Weather</a></em></p>
 <table>
