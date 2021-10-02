@@ -9602,8 +9602,6 @@
 <p><em>extends <a href="#conduit">Conduit</a></em></p>
 <h2 id="armoredconveyor">ArmoredConveyor</h2>
 <p><em>extends <a href="#conveyor">Conveyor</a></em></p>
-<h2 id="ballisticsilo">BallisticSilo</h2>
-<p><em>extends <a href="#payloadblock">PayloadBlock</a></em></p>
 <h2 id="blockforge">BlockForge</h2>
 <p><em>extends <a href="#blockproducer">BlockProducer</a></em></p>
 <p>Configurable BlockProducer variant.</p>
@@ -10299,45 +10297,8 @@
 </table>
 <h2 id="airblock">AirBlock</h2>
 <p><em>extends <a href="#floor">Floor</a></em></p>
-<h2 id="attributecrafter">AttributeCrafter</h2>
-<p><em>extends <a href="#genericcrafter">GenericCrafter</a></em></p>
-<p>A crafter that gains efficiency from attribute tiles.</p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>attribute</td>
-<td>Attribute</td>
-<td>heat</td>
-<td></td>
-</tr>
-<tr>
-<td>baseEfficiency</td>
-<td>float</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>boostScale</td>
-<td>float</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>maxBoost</td>
-<td>float</td>
-<td>1.0</td>
-<td></td>
-</tr>
-</tbody>
-</table>
+<h2 id="ballisticsilo">BallisticSilo</h2>
+<p><em>extends <a href="#payloadblock">PayloadBlock</a></em></p>
 <h2 id="baseturret">BaseTurret</h2>
 <p><em>extends <a href="#block">Block</a></em></p>
 <table>
@@ -10379,6 +10340,119 @@
 <td>float</td>
 <td>5.0</td>
 <td>How much reload is lowered by for each unit of liquid of heat capacity.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="genericcrafter">GenericCrafter</h2>
+<p><em>extends <a href="#block">Block</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>outputItem</td>
+<td>ItemStack</td>
+<td>null</td>
+<td>Written to outputItems as a single-element array if outputItems is null.</td>
+</tr>
+<tr>
+<td>outputItems</td>
+<td>ItemStack[]</td>
+<td>null</td>
+<td>Overwrites outputItem if not null.</td>
+</tr>
+<tr>
+<td>outputLiquid</td>
+<td>LiquidStack</td>
+<td>null</td>
+<td></td>
+</tr>
+<tr>
+<td>craftTime</td>
+<td>float</td>
+<td>80.0</td>
+<td></td>
+</tr>
+<tr>
+<td>craftEffect</td>
+<td>Effect</td>
+<td>none</td>
+<td></td>
+</tr>
+<tr>
+<td>updateEffect</td>
+<td>Effect</td>
+<td>none</td>
+<td></td>
+</tr>
+<tr>
+<td>updateEffectChance</td>
+<td>float</td>
+<td>0.04</td>
+<td></td>
+</tr>
+<tr>
+<td>warmupSpeed</td>
+<td>float</td>
+<td>0.019</td>
+<td></td>
+</tr>
+<tr>
+<td>legacyReadWarmup</td>
+<td>boolean</td>
+<td>false</td>
+<td>Only used for legacy cultivator blocks.</td>
+</tr>
+<tr>
+<td>drawer</td>
+<td>DrawBlock</td>
+<td>new DrawBlock()</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="attributecrafter">AttributeCrafter</h2>
+<p><em>extends <a href="#genericcrafter">GenericCrafter</a></em></p>
+<p>A crafter that gains efficiency from attribute tiles.</p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>attribute</td>
+<td>Attribute</td>
+<td>heat</td>
+<td></td>
+</tr>
+<tr>
+<td>baseEfficiency</td>
+<td>float</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>boostScale</td>
+<td>float</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>maxBoost</td>
+<td>float</td>
+<td>1.0</td>
+<td></td>
 </tr>
 </tbody>
 </table>
@@ -10786,80 +10860,6 @@
 <td>itemUseTime</td>
 <td>float</td>
 <td>100.0</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<h2 id="genericcrafter">GenericCrafter</h2>
-<p><em>extends <a href="#block">Block</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>outputItem</td>
-<td>ItemStack</td>
-<td>null</td>
-<td>Written to outputItems as a single-element array if outputItems is null.</td>
-</tr>
-<tr>
-<td>outputItems</td>
-<td>ItemStack[]</td>
-<td>null</td>
-<td>Overwrites outputItem if not null.</td>
-</tr>
-<tr>
-<td>outputLiquid</td>
-<td>LiquidStack</td>
-<td>null</td>
-<td></td>
-</tr>
-<tr>
-<td>craftTime</td>
-<td>float</td>
-<td>80.0</td>
-<td></td>
-</tr>
-<tr>
-<td>craftEffect</td>
-<td>Effect</td>
-<td>none</td>
-<td></td>
-</tr>
-<tr>
-<td>updateEffect</td>
-<td>Effect</td>
-<td>none</td>
-<td></td>
-</tr>
-<tr>
-<td>updateEffectChance</td>
-<td>float</td>
-<td>0.04</td>
-<td></td>
-</tr>
-<tr>
-<td>warmupSpeed</td>
-<td>float</td>
-<td>0.019</td>
-<td></td>
-</tr>
-<tr>
-<td>legacyReadWarmup</td>
-<td>boolean</td>
-<td>false</td>
-<td>Only used for legacy cultivator blocks.</td>
-</tr>
-<tr>
-<td>drawer</td>
-<td>DrawBlock</td>
-<td>new DrawBlock()</td>
 <td></td>
 </tr>
 </tbody>
