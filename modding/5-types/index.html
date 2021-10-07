@@ -12,7 +12,7 @@
         <link rel="canonical" href="https://mindustrygame.github.io/wiki/modding/5-types/">
       
       <link rel="icon" href="../../images/favicon.png">
-      <meta name="generator" content="mkdocs-1.2.2, mkdocs-material-7.3.1">
+      <meta name="generator" content="mkdocs-1.2.2, mkdocs-material-7.3.2">
     
     
       
@@ -20,7 +20,7 @@
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.1c75ef36.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.24c991ad.min.css">
       
         
         <link rel="stylesheet" href="../../assets/stylesheets/palette.3f5d1f46.min.css">
@@ -9598,10 +9598,42 @@
 </tr>
 </tbody>
 </table>
-<h2 id="armoredconduit">ArmoredConduit</h2>
-<p><em>extends <a href="#conduit">Conduit</a></em></p>
+<h2 id="airblock">AirBlock</h2>
+<p><em>extends <a href="#floor">Floor</a></em></p>
 <h2 id="armoredconveyor">ArmoredConveyor</h2>
 <p><em>extends <a href="#conveyor">Conveyor</a></em></p>
+<h2 id="battery">Battery</h2>
+<p><em>extends <a href="#powerdistributor">PowerDistributor</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>topRegion</td>
+<td>TextureRegion</td>
+<td>null</td>
+<td></td>
+</tr>
+<tr>
+<td>emptyLightColor</td>
+<td>Color</td>
+<td>f8c266ff</td>
+<td></td>
+</tr>
+<tr>
+<td>fullLightColor</td>
+<td>Color</td>
+<td>fb9567ff</td>
+<td></td>
+</tr>
+</tbody>
+</table>
 <h2 id="beamdrill">BeamDrill</h2>
 <p><em>extends <a href="#block">Block</a></em></p>
 <table>
@@ -9697,6 +9729,155 @@
 </tr>
 </tbody>
 </table>
+<h2 id="conduit">Conduit</h2>
+<p><em>extends <a href="#liquidblock">LiquidBlock</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>timerFlow</td>
+<td>int</td>
+<td>1</td>
+<td></td>
+</tr>
+<tr>
+<td>botColor</td>
+<td>Color</td>
+<td>565656ff</td>
+<td></td>
+</tr>
+<tr>
+<td>topRegions</td>
+<td>TextureRegion[]</td>
+<td>null</td>
+<td></td>
+</tr>
+<tr>
+<td>botRegions</td>
+<td>TextureRegion[]</td>
+<td>null</td>
+<td></td>
+</tr>
+<tr>
+<td>capRegion</td>
+<td>TextureRegion</td>
+<td>null</td>
+<td></td>
+</tr>
+<tr>
+<td>leaks</td>
+<td>boolean</td>
+<td>true</td>
+<td></td>
+</tr>
+<tr>
+<td>junctionReplacement</td>
+<td>Block</td>
+<td>null</td>
+<td></td>
+</tr>
+<tr>
+<td>bridgeReplacement</td>
+<td>Block</td>
+<td>null</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="armoredconduit">ArmoredConduit</h2>
+<p><em>extends <a href="#conduit">Conduit</a></em></p>
+<h2 id="attributecrafter">AttributeCrafter</h2>
+<p><em>extends <a href="#genericcrafter">GenericCrafter</a></em></p>
+<p>A crafter that gains efficiency from attribute tiles.</p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>attribute</td>
+<td>Attribute</td>
+<td>heat</td>
+<td></td>
+</tr>
+<tr>
+<td>baseEfficiency</td>
+<td>float</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>boostScale</td>
+<td>float</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>maxBoost</td>
+<td>float</td>
+<td>1.0</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="ballisticsilo">BallisticSilo</h2>
+<p><em>extends <a href="#payloadblock">PayloadBlock</a></em></p>
+<h2 id="baseturret">BaseTurret</h2>
+<p><em>extends <a href="#block">Block</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>range</td>
+<td>float</td>
+<td>80.0</td>
+<td></td>
+</tr>
+<tr>
+<td>rotateSpeed</td>
+<td>float</td>
+<td>5.0</td>
+<td></td>
+</tr>
+<tr>
+<td>acceptCoolant</td>
+<td>boolean</td>
+<td>true</td>
+<td></td>
+</tr>
+<tr>
+<td>coolEffect</td>
+<td>Effect</td>
+<td>fuelburn</td>
+<td>Effect displayed when coolant is used.</td>
+</tr>
+<tr>
+<td>coolantMultiplier</td>
+<td>float</td>
+<td>5.0</td>
+<td>How much reload is lowered by for each unit of liquid of heat capacity.</td>
+</tr>
+</tbody>
+</table>
 <h2 id="blockloader">BlockLoader</h2>
 <p><em>extends <a href="#payloadblock">PayloadBlock</a></em></p>
 <table>
@@ -9743,6 +9924,38 @@
 </table>
 <h2 id="blockunloader">BlockUnloader</h2>
 <p><em>extends <a href="#blockloader">BlockLoader</a></em></p>
+<h2 id="buffereditembridge">BufferedItemBridge</h2>
+<p><em>extends <a href="#itembridge">ItemBridge</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>timerAccept</td>
+<td>int</td>
+<td>2</td>
+<td></td>
+</tr>
+<tr>
+<td>speed</td>
+<td>float</td>
+<td>40.0</td>
+<td></td>
+</tr>
+<tr>
+<td>bufferCapacity</td>
+<td>int</td>
+<td>50</td>
+<td></td>
+</tr>
+</tbody>
+</table>
 <h2 id="burnergenerator">BurnerGenerator</h2>
 <p><em>extends <a href="#itemliquidgenerator">ItemLiquidGenerator</a></em></p>
 <table>
@@ -9861,6 +10074,38 @@
 </tr>
 </tbody>
 </table>
+<h2 id="cliff">Cliff</h2>
+<p><em>extends <a href="#block">Block</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>size</td>
+<td>float</td>
+<td>11.0</td>
+<td></td>
+</tr>
+<tr>
+<td>cliffs</td>
+<td>TextureRegion[]</td>
+<td>null</td>
+<td></td>
+</tr>
+<tr>
+<td>editorCliffs</td>
+<td>TextureRegion[]</td>
+<td>null</td>
+<td></td>
+</tr>
+</tbody>
+</table>
 <h2 id="commandcenter">CommandCenter</h2>
 <p><em>extends <a href="#block">Block</a></em></p>
 <table>
@@ -9923,8 +10168,8 @@
 </tr>
 </tbody>
 </table>
-<h2 id="conduit">Conduit</h2>
-<p><em>extends <a href="#liquidblock">LiquidBlock</a></em></p>
+<h2 id="conveyor">Conveyor</h2>
+<p><em>extends <a href="#block">Block</a></em></p>
 <table>
 <thead>
 <tr>
@@ -9936,39 +10181,21 @@
 </thead>
 <tbody>
 <tr>
-<td>timerFlow</td>
-<td>int</td>
-<td>1</td>
-<td></td>
-</tr>
-<tr>
-<td>botColor</td>
-<td>Color</td>
-<td>565656ff</td>
-<td></td>
-</tr>
-<tr>
-<td>topRegions</td>
-<td>TextureRegion[]</td>
+<td>regions</td>
+<td>TextureRegion[][]</td>
 <td>null</td>
 <td></td>
 </tr>
 <tr>
-<td>botRegions</td>
-<td>TextureRegion[]</td>
-<td>null</td>
+<td>speed</td>
+<td>float</td>
+<td>0.0</td>
 <td></td>
 </tr>
 <tr>
-<td>capRegion</td>
-<td>TextureRegion</td>
-<td>null</td>
-<td></td>
-</tr>
-<tr>
-<td>leaks</td>
-<td>boolean</td>
-<td>true</td>
+<td>displayedSpeed</td>
+<td>float</td>
+<td>0.0</td>
 <td></td>
 </tr>
 <tr>
@@ -10273,6 +10500,32 @@
 </tr>
 </tbody>
 </table>
+<h2 id="ductrouter">DuctRouter</h2>
+<p><em>extends <a href="#block">Block</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>speed</td>
+<td>float</td>
+<td>5.0</td>
+<td></td>
+</tr>
+<tr>
+<td>topRegion</td>
+<td>TextureRegion</td>
+<td>null</td>
+<td></td>
+</tr>
+</tbody>
+</table>
 <h2 id="floor">Floor</h2>
 <p><em>extends <a href="#block">Block</a></em></p>
 <table>
@@ -10440,259 +10693,6 @@
 <td>boolean</td>
 <td>true</td>
 <td>Whether this overlay needs a surface to be on. False for floating blocks, like spawns.</td>
-</tr>
-</tbody>
-</table>
-<h2 id="airblock">AirBlock</h2>
-<p><em>extends <a href="#floor">Floor</a></em></p>
-<h2 id="attributecrafter">AttributeCrafter</h2>
-<p><em>extends <a href="#genericcrafter">GenericCrafter</a></em></p>
-<p>A crafter that gains efficiency from attribute tiles.</p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>attribute</td>
-<td>Attribute</td>
-<td>heat</td>
-<td></td>
-</tr>
-<tr>
-<td>baseEfficiency</td>
-<td>float</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>boostScale</td>
-<td>float</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>maxBoost</td>
-<td>float</td>
-<td>1.0</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<h2 id="ballisticsilo">BallisticSilo</h2>
-<p><em>extends <a href="#payloadblock">PayloadBlock</a></em></p>
-<h2 id="baseturret">BaseTurret</h2>
-<p><em>extends <a href="#block">Block</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>range</td>
-<td>float</td>
-<td>80.0</td>
-<td></td>
-</tr>
-<tr>
-<td>rotateSpeed</td>
-<td>float</td>
-<td>5.0</td>
-<td></td>
-</tr>
-<tr>
-<td>acceptCoolant</td>
-<td>boolean</td>
-<td>true</td>
-<td></td>
-</tr>
-<tr>
-<td>coolEffect</td>
-<td>Effect</td>
-<td>fuelburn</td>
-<td>Effect displayed when coolant is used.</td>
-</tr>
-<tr>
-<td>coolantMultiplier</td>
-<td>float</td>
-<td>5.0</td>
-<td>How much reload is lowered by for each unit of liquid of heat capacity.</td>
-</tr>
-</tbody>
-</table>
-<h2 id="battery">Battery</h2>
-<p><em>extends <a href="#powerdistributor">PowerDistributor</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>topRegion</td>
-<td>TextureRegion</td>
-<td>null</td>
-<td></td>
-</tr>
-<tr>
-<td>emptyLightColor</td>
-<td>Color</td>
-<td>f8c266ff</td>
-<td></td>
-</tr>
-<tr>
-<td>fullLightColor</td>
-<td>Color</td>
-<td>fb9567ff</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<h2 id="buffereditembridge">BufferedItemBridge</h2>
-<p><em>extends <a href="#itembridge">ItemBridge</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>timerAccept</td>
-<td>int</td>
-<td>2</td>
-<td></td>
-</tr>
-<tr>
-<td>speed</td>
-<td>float</td>
-<td>40.0</td>
-<td></td>
-</tr>
-<tr>
-<td>bufferCapacity</td>
-<td>int</td>
-<td>50</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<h2 id="cliff">Cliff</h2>
-<p><em>extends <a href="#block">Block</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>size</td>
-<td>float</td>
-<td>11.0</td>
-<td></td>
-</tr>
-<tr>
-<td>cliffs</td>
-<td>TextureRegion[]</td>
-<td>null</td>
-<td></td>
-</tr>
-<tr>
-<td>editorCliffs</td>
-<td>TextureRegion[]</td>
-<td>null</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<h2 id="conveyor">Conveyor</h2>
-<p><em>extends <a href="#block">Block</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>regions</td>
-<td>TextureRegion[][]</td>
-<td>null</td>
-<td></td>
-</tr>
-<tr>
-<td>speed</td>
-<td>float</td>
-<td>0.0</td>
-<td></td>
-</tr>
-<tr>
-<td>displayedSpeed</td>
-<td>float</td>
-<td>0.0</td>
-<td></td>
-</tr>
-<tr>
-<td>junctionReplacement</td>
-<td>Block</td>
-<td>null</td>
-<td></td>
-</tr>
-<tr>
-<td>bridgeReplacement</td>
-<td>Block</td>
-<td>null</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<h2 id="ductrouter">DuctRouter</h2>
-<p><em>extends <a href="#block">Block</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>speed</td>
-<td>float</td>
-<td>5.0</td>
-<td></td>
-</tr>
-<tr>
-<td>topRegion</td>
-<td>TextureRegion</td>
-<td>null</td>
-<td></td>
 </tr>
 </tbody>
 </table>
@@ -11790,6 +11790,12 @@ Liquids will take priority over items.</p>
 </tr>
 </tbody>
 </table>
+<h2 id="overlayfloor">OverlayFloor</h2>
+<p><em>extends <a href="#floor">Floor</a></em></p>
+<p>A type of floor that is overlaid on top of other floors.</p>
+<h2 id="oreblock">OreBlock</h2>
+<p><em>extends <a href="#overlayfloor">OverlayFloor</a></em></p>
+<p>An overlay ore for a specific item type.</p>
 <h2 id="overdriveprojector">OverdriveProjector</h2>
 <p><em>extends <a href="#block">Block</a></em></p>
 <table>
@@ -11896,12 +11902,6 @@ Liquids will take priority over items.</p>
 </tr>
 </tbody>
 </table>
-<h2 id="overlayfloor">OverlayFloor</h2>
-<p><em>extends <a href="#floor">Floor</a></em></p>
-<p>A type of floor that is overlaid on top of other floors.</p>
-<h2 id="oreblock">OreBlock</h2>
-<p><em>extends <a href="#overlayfloor">OverlayFloor</a></em></p>
-<p>An overlay ore for a specific item type.</p>
 <h2 id="payloadblock">PayloadBlock</h2>
 <p><em>extends <a href="#block">Block</a></em></p>
 <table>
@@ -13147,180 +13147,6 @@ Use the standard Floor class instead.</p>
 </tr>
 </tbody>
 </table>
-<h2 id="thruster">Thruster</h2>
-<p><em>extends <a href="#wall">Wall</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>topRegion</td>
-<td>TextureRegion</td>
-<td>null</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<h2 id="tractorbeamturret">TractorBeamTurret</h2>
-<p><em>extends <a href="#baseturret">BaseTurret</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>timerTarget</td>
-<td>int</td>
-<td>1</td>
-<td></td>
-</tr>
-<tr>
-<td>retargetTime</td>
-<td>float</td>
-<td>5.0</td>
-<td></td>
-</tr>
-<tr>
-<td>shootCone</td>
-<td>float</td>
-<td>6.0</td>
-<td></td>
-</tr>
-<tr>
-<td>shootLength</td>
-<td>float</td>
-<td>5.0</td>
-<td></td>
-</tr>
-<tr>
-<td>laserWidth</td>
-<td>float</td>
-<td>0.6</td>
-<td></td>
-</tr>
-<tr>
-<td>force</td>
-<td>float</td>
-<td>0.3</td>
-<td></td>
-</tr>
-<tr>
-<td>scaledForce</td>
-<td>float</td>
-<td>0.0</td>
-<td></td>
-</tr>
-<tr>
-<td>damage</td>
-<td>float</td>
-<td>0.0</td>
-<td></td>
-</tr>
-<tr>
-<td>targetAir</td>
-<td>boolean</td>
-<td>true</td>
-<td></td>
-</tr>
-<tr>
-<td>targetGround</td>
-<td>boolean</td>
-<td>false</td>
-<td></td>
-</tr>
-<tr>
-<td>laserColor</td>
-<td>Color</td>
-<td>ffffffff</td>
-<td></td>
-</tr>
-<tr>
-<td>status</td>
-<td>StatusEffect</td>
-<td>none</td>
-<td></td>
-</tr>
-<tr>
-<td>statusDuration</td>
-<td>float</td>
-<td>300.0</td>
-<td></td>
-</tr>
-<tr>
-<td>shootSound</td>
-<td>Sound</td>
-<td>tractorbeam</td>
-<td></td>
-</tr>
-<tr>
-<td>shootSoundVolume</td>
-<td>float</td>
-<td>0.9</td>
-<td></td>
-</tr>
-<tr>
-<td>baseRegion</td>
-<td>TextureRegion</td>
-<td>null</td>
-<td></td>
-</tr>
-<tr>
-<td>laser</td>
-<td>TextureRegion</td>
-<td>null</td>
-<td></td>
-</tr>
-<tr>
-<td>laserStart</td>
-<td>TextureRegion</td>
-<td>null</td>
-<td></td>
-</tr>
-<tr>
-<td>laserEnd</td>
-<td>TextureRegion</td>
-<td>null</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<h2 id="treeblock">TreeBlock</h2>
-<p><em>extends <a href="#block">Block</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>shadow</td>
-<td>TextureRegion</td>
-<td>null</td>
-<td></td>
-</tr>
-<tr>
-<td>shadowOffset</td>
-<td>float</td>
-<td>-4.0</td>
-<td></td>
-</tr>
-</tbody>
-</table>
 <h2 id="turret">Turret</h2>
 <p><em>extends <a href="#reloadturret">ReloadTurret</a></em></p>
 <table>
@@ -13593,54 +13419,6 @@ Use the standard Floor class instead.</p>
 </tr>
 </tbody>
 </table>
-<h2 id="unitblock">UnitBlock</h2>
-<p><em>extends <a href="#payloadblock">PayloadBlock</a></em></p>
-<h2 id="unitfactory">UnitFactory</h2>
-<p><em>extends <a href="#unitblock">UnitBlock</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>capacities</td>
-<td>int[]</td>
-<td>[]</td>
-<td></td>
-</tr>
-<tr>
-<td>plans</td>
-<td>Seq<UnitPlan></td>
-<td>new Seq&lt;&gt;(4)</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<h2 id="unloader">Unloader</h2>
-<p><em>extends <a href="#block">Block</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>speed</td>
-<td>float</td>
-<td>1.0</td>
-<td></td>
-</tr>
-</tbody>
-</table>
 <h2 id="wall">Wall</h2>
 <p><em>extends <a href="#block">Block</a></em></p>
 <table>
@@ -13705,6 +13483,228 @@ Use the standard Floor class instead.</p>
 <td>deflectSound</td>
 <td>Sound</td>
 <td>none</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="thruster">Thruster</h2>
+<p><em>extends <a href="#wall">Wall</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>topRegion</td>
+<td>TextureRegion</td>
+<td>null</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="tractorbeamturret">TractorBeamTurret</h2>
+<p><em>extends <a href="#baseturret">BaseTurret</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>timerTarget</td>
+<td>int</td>
+<td>1</td>
+<td></td>
+</tr>
+<tr>
+<td>retargetTime</td>
+<td>float</td>
+<td>5.0</td>
+<td></td>
+</tr>
+<tr>
+<td>shootCone</td>
+<td>float</td>
+<td>6.0</td>
+<td></td>
+</tr>
+<tr>
+<td>shootLength</td>
+<td>float</td>
+<td>5.0</td>
+<td></td>
+</tr>
+<tr>
+<td>laserWidth</td>
+<td>float</td>
+<td>0.6</td>
+<td></td>
+</tr>
+<tr>
+<td>force</td>
+<td>float</td>
+<td>0.3</td>
+<td></td>
+</tr>
+<tr>
+<td>scaledForce</td>
+<td>float</td>
+<td>0.0</td>
+<td></td>
+</tr>
+<tr>
+<td>damage</td>
+<td>float</td>
+<td>0.0</td>
+<td></td>
+</tr>
+<tr>
+<td>targetAir</td>
+<td>boolean</td>
+<td>true</td>
+<td></td>
+</tr>
+<tr>
+<td>targetGround</td>
+<td>boolean</td>
+<td>false</td>
+<td></td>
+</tr>
+<tr>
+<td>laserColor</td>
+<td>Color</td>
+<td>ffffffff</td>
+<td></td>
+</tr>
+<tr>
+<td>status</td>
+<td>StatusEffect</td>
+<td>none</td>
+<td></td>
+</tr>
+<tr>
+<td>statusDuration</td>
+<td>float</td>
+<td>300.0</td>
+<td></td>
+</tr>
+<tr>
+<td>shootSound</td>
+<td>Sound</td>
+<td>tractorbeam</td>
+<td></td>
+</tr>
+<tr>
+<td>shootSoundVolume</td>
+<td>float</td>
+<td>0.9</td>
+<td></td>
+</tr>
+<tr>
+<td>baseRegion</td>
+<td>TextureRegion</td>
+<td>null</td>
+<td></td>
+</tr>
+<tr>
+<td>laser</td>
+<td>TextureRegion</td>
+<td>null</td>
+<td></td>
+</tr>
+<tr>
+<td>laserStart</td>
+<td>TextureRegion</td>
+<td>null</td>
+<td></td>
+</tr>
+<tr>
+<td>laserEnd</td>
+<td>TextureRegion</td>
+<td>null</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="treeblock">TreeBlock</h2>
+<p><em>extends <a href="#block">Block</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>shadow</td>
+<td>TextureRegion</td>
+<td>null</td>
+<td></td>
+</tr>
+<tr>
+<td>shadowOffset</td>
+<td>float</td>
+<td>-4.0</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="unitblock">UnitBlock</h2>
+<p><em>extends <a href="#payloadblock">PayloadBlock</a></em></p>
+<h2 id="unitfactory">UnitFactory</h2>
+<p><em>extends <a href="#unitblock">UnitBlock</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>capacities</td>
+<td>int[]</td>
+<td>[]</td>
+<td></td>
+</tr>
+<tr>
+<td>plans</td>
+<td>Seq<UnitPlan></td>
+<td>new Seq&lt;&gt;(4)</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="unloader">Unloader</h2>
+<p><em>extends <a href="#block">Block</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>speed</td>
+<td>float</td>
+<td>1.0</td>
 <td></td>
 </tr>
 </tbody>
@@ -15324,7 +15324,7 @@ buildingDamageMultiplier: 0.01
 <tr>
 <td>id</td>
 <td>int</td>
-<td>742</td>
+<td>740</td>
 <td></td>
 </tr>
 <tr>
@@ -18141,6 +18141,254 @@ shootEffect: {
   colorTo: ffffff00
 }
 </code></pre>
+<h2 id="pointdefenseweapon">PointDefenseWeapon</h2>
+<p><em>extends <a href="#weapon">Weapon</a></em></p>
+<p>Note that this requires several things:
+- A bullet with positive maxRange
+- A bullet with positive damage
+- Rotation</p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>color</td>
+<td>Color</td>
+<td>ffffffff</td>
+<td></td>
+</tr>
+<tr>
+<td>beamEffect</td>
+<td>Effect</td>
+<td>pointBeam</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h4 id="example_19">Example</h4>
+<pre><code>name: aftermath-weapon
+controllable: false
+autoTarget: true
+targetInterval: 0
+targetSwitchInterval: 0
+x: 42.75
+y: 47
+beamEffect: none
+recoil: 0
+reload: 3
+rotate: true
+shootSound: none
+bullet: {
+  damage: 2500
+  maxRange: 320
+  shootEffect: {
+    lightOpacity: 0
+    particles: 15
+    baseLength: 25
+    length: -25
+    lifetime: 20
+    cone: 15
+    sizeFrom: 2
+    colorFrom: 00000050
+    colorTo: 000000
+  }
+  hitEffect: {
+    layer: 110.001
+    effects: [
+      {
+        length: 0
+        lightOpacity: 0
+        sizeInterp: pow10In
+        lifetime: 30
+        particles: 1
+        region: exotic-mod-vapour1
+        sizeFrom: 20
+        sizeTo: 0
+        spin: 8
+        colorFrom: 000000
+        colorTo: 000000
+      }
+      {
+        length: 0
+        lightOpacity: 0
+        sizeInterp: pow10In
+        lifetime: 30
+        particles: 1
+        region: exotic-mod-vapour1
+        sizeFrom: 16
+        sizeTo: 0
+        spin: 12
+        colorFrom: 000000
+        colorTo: 000000
+      }
+      {
+        length: 0
+        lightOpacity: 0
+        sizeInterp: pow10In
+        lifetime: 30
+        particles: 1
+        region: exotic-mod-vapour1
+        sizeFrom: 13
+        sizeTo: 0
+        spin: 6
+        colorFrom: 000000
+        colorTo: 000000
+      }
+      {
+        length: 0
+        lightOpacity: 0
+        sizeInterp: pow10In
+        lifetime: 30
+        particles: 1
+        region: circle-shadow
+        sizeFrom: 30
+        sizeTo: 0
+        colorFrom: 000000
+        colorTo: 000000
+      }
+    ]
+  }
+}
+</code></pre>
+<h2 id="repairfieldability">RepairFieldAbility</h2>
+<p><em>extends <a href="#ability">Ability</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>amount</td>
+<td>float</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>reload</td>
+<td>float</td>
+<td>100.0</td>
+<td></td>
+</tr>
+<tr>
+<td>range</td>
+<td>float</td>
+<td>60.0</td>
+<td></td>
+</tr>
+<tr>
+<td>healEffect</td>
+<td>Effect</td>
+<td>heal</td>
+<td></td>
+</tr>
+<tr>
+<td>activeEffect</td>
+<td>Effect</td>
+<td>healWaveDynamic</td>
+<td></td>
+</tr>
+<tr>
+<td>parentizeEffects</td>
+<td>boolean</td>
+<td>false</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h4 id="example_20">Example</h4>
+<pre><code>range: 80
+amount: 650
+reload: 45
+</code></pre>
+<h2 id="shieldregenfieldability">ShieldRegenFieldAbility</h2>
+<p><em>extends <a href="#ability">Ability</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>amount</td>
+<td>float</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>max</td>
+<td>float</td>
+<td>100.0</td>
+<td></td>
+</tr>
+<tr>
+<td>reload</td>
+<td>float</td>
+<td>100.0</td>
+<td></td>
+</tr>
+<tr>
+<td>range</td>
+<td>float</td>
+<td>60.0</td>
+<td></td>
+</tr>
+<tr>
+<td>applyEffect</td>
+<td>Effect</td>
+<td>shieldApply</td>
+<td></td>
+</tr>
+<tr>
+<td>activeEffect</td>
+<td>Effect</td>
+<td>shieldWave</td>
+<td></td>
+</tr>
+<tr>
+<td>parentizeEffects</td>
+<td>boolean</td>
+<td>false</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h4 id="example_21">Example</h4>
+<pre><code>range: 300
+amount: 12500
+max: 45000
+reload: 480
+activeEffect: {
+  lifetime: 35
+  sizeTo: 300
+  strokeFrom: 5
+  strokeTo: 2
+  colorFrom: 8ca4f5
+  colorTo: 8ca4f550
+}
+applyEffect: {
+  lifetime: 35
+  sizeTo: 40
+  strokeFrom: 2
+  strokeTo: 0
+  colorFrom: 8ca4f5
+  colorTo: 8ca4f550
+}
+</code></pre>
 <h2 id="weapon">Weapon</h2>
 <p><em>extends <a href="#object">Object</a></em></p>
 <table>
@@ -18455,7 +18703,7 @@ shootEffect: {
 </tr>
 </tbody>
 </table>
-<h4 id="example_19">Example</h4>
+<h4 id="example_22">Example</h4>
 <pre><code>name: ghost-weapon
 x: 0
 y: -24
@@ -18481,121 +18729,6 @@ bullet: {
   lifetime: 180
   status: sapped
   statusDuration: 1080
-}
-</code></pre>
-<h2 id="pointdefenseweapon">PointDefenseWeapon</h2>
-<p><em>extends <a href="#weapon">Weapon</a></em></p>
-<p>Note that this requires several things:
-- A bullet with positive maxRange
-- A bullet with positive damage
-- Rotation</p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>color</td>
-<td>Color</td>
-<td>ffffffff</td>
-<td></td>
-</tr>
-<tr>
-<td>beamEffect</td>
-<td>Effect</td>
-<td>pointBeam</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<h4 id="example_20">Example</h4>
-<pre><code>name: aftermath-weapon
-controllable: false
-autoTarget: true
-targetInterval: 0
-targetSwitchInterval: 0
-x: 42.75
-y: 47
-beamEffect: none
-recoil: 0
-reload: 3
-rotate: true
-shootSound: none
-bullet: {
-  damage: 2500
-  maxRange: 320
-  shootEffect: {
-    lightOpacity: 0
-    particles: 15
-    baseLength: 25
-    length: -25
-    lifetime: 20
-    cone: 15
-    sizeFrom: 2
-    colorFrom: 00000050
-    colorTo: 000000
-  }
-  hitEffect: {
-    layer: 110.001
-    effects: [
-      {
-        length: 0
-        lightOpacity: 0
-        sizeInterp: pow10In
-        lifetime: 30
-        particles: 1
-        region: exotic-mod-vapour1
-        sizeFrom: 20
-        sizeTo: 0
-        spin: 8
-        colorFrom: 000000
-        colorTo: 000000
-      }
-      {
-        length: 0
-        lightOpacity: 0
-        sizeInterp: pow10In
-        lifetime: 30
-        particles: 1
-        region: exotic-mod-vapour1
-        sizeFrom: 16
-        sizeTo: 0
-        spin: 12
-        colorFrom: 000000
-        colorTo: 000000
-      }
-      {
-        length: 0
-        lightOpacity: 0
-        sizeInterp: pow10In
-        lifetime: 30
-        particles: 1
-        region: exotic-mod-vapour1
-        sizeFrom: 13
-        sizeTo: 0
-        spin: 6
-        colorFrom: 000000
-        colorTo: 000000
-      }
-      {
-        length: 0
-        lightOpacity: 0
-        sizeInterp: pow10In
-        lifetime: 30
-        particles: 1
-        region: circle-shadow
-        sizeFrom: 30
-        sizeTo: 0
-        colorFrom: 000000
-        colorTo: 000000
-      }
-    ]
-  }
 }
 </code></pre>
 <h2 id="repairbeamweapon">RepairBeamWeapon</h2>
@@ -18680,139 +18813,6 @@ Rotation must be set to true. Fixed repair points are not supported.</p>
 </tr>
 </tbody>
 </table>
-<h2 id="repairfieldability">RepairFieldAbility</h2>
-<p><em>extends <a href="#ability">Ability</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>amount</td>
-<td>float</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>reload</td>
-<td>float</td>
-<td>100.0</td>
-<td></td>
-</tr>
-<tr>
-<td>range</td>
-<td>float</td>
-<td>60.0</td>
-<td></td>
-</tr>
-<tr>
-<td>healEffect</td>
-<td>Effect</td>
-<td>heal</td>
-<td></td>
-</tr>
-<tr>
-<td>activeEffect</td>
-<td>Effect</td>
-<td>healWaveDynamic</td>
-<td></td>
-</tr>
-<tr>
-<td>parentizeEffects</td>
-<td>boolean</td>
-<td>false</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<h4 id="example_21">Example</h4>
-<pre><code>range: 80
-amount: 650
-reload: 45
-</code></pre>
-<h2 id="shieldregenfieldability">ShieldRegenFieldAbility</h2>
-<p><em>extends <a href="#ability">Ability</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>amount</td>
-<td>float</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>max</td>
-<td>float</td>
-<td>100.0</td>
-<td></td>
-</tr>
-<tr>
-<td>reload</td>
-<td>float</td>
-<td>100.0</td>
-<td></td>
-</tr>
-<tr>
-<td>range</td>
-<td>float</td>
-<td>60.0</td>
-<td></td>
-</tr>
-<tr>
-<td>applyEffect</td>
-<td>Effect</td>
-<td>shieldApply</td>
-<td></td>
-</tr>
-<tr>
-<td>activeEffect</td>
-<td>Effect</td>
-<td>shieldWave</td>
-<td></td>
-</tr>
-<tr>
-<td>parentizeEffects</td>
-<td>boolean</td>
-<td>false</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<h4 id="example_22">Example</h4>
-<pre><code>range: 300
-amount: 12500
-max: 45000
-reload: 480
-activeEffect: {
-  lifetime: 35
-  sizeTo: 300
-  strokeFrom: 5
-  strokeTo: 2
-  colorFrom: 8ca4f5
-  colorTo: 8ca4f550
-}
-applyEffect: {
-  lifetime: 35
-  sizeTo: 40
-  strokeFrom: 2
-  strokeTo: 0
-  colorFrom: 8ca4f5
-  colorTo: 8ca4f550
-}
-</code></pre>
 <h2 id="statusfieldability">StatusFieldAbility</h2>
 <p><em>extends <a href="#ability">Ability</a></em></p>
 <table>
@@ -19165,7 +19165,7 @@ amount: 0.5
     <script id="__config" type="application/json">{"base": "../..", "features": [], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../../assets/javascripts/workers/search.e99e714c.min.js", "version": null}</script>
     
     
-      <script src="../../assets/javascripts/bundle.c7d1b464.min.js"></script>
+      <script src="../../assets/javascripts/bundle.bc35569b.min.js"></script>
       
     
   </body>
