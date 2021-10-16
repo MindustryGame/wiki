@@ -9705,6 +9705,295 @@
 </tr>
 </tbody>
 </table>
+<h2 id="battery">Battery</h2>
+<p><em>extends <a href="#powerdistributor">PowerDistributor</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>topRegion</td>
+<td>TextureRegion</td>
+<td>null</td>
+<td></td>
+</tr>
+<tr>
+<td>emptyLightColor</td>
+<td>Color</td>
+<td>f8c266ff</td>
+<td></td>
+</tr>
+<tr>
+<td>fullLightColor</td>
+<td>Color</td>
+<td>fb9567ff</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="door">Door</h2>
+<p><em>extends <a href="#wall">Wall</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>timerToggle</td>
+<td>int</td>
+<td>1</td>
+<td></td>
+</tr>
+<tr>
+<td>openfx</td>
+<td>Effect</td>
+<td>dooropen</td>
+<td></td>
+</tr>
+<tr>
+<td>closefx</td>
+<td>Effect</td>
+<td>doorclose</td>
+<td></td>
+</tr>
+<tr>
+<td>doorSound</td>
+<td>Sound</td>
+<td>door</td>
+<td></td>
+</tr>
+<tr>
+<td>openRegion</td>
+<td>TextureRegion</td>
+<td>null</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="impactreactor">ImpactReactor</h2>
+<p><em>extends <a href="#powergenerator">PowerGenerator</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>timerUse</td>
+<td>int</td>
+<td>1</td>
+<td></td>
+</tr>
+<tr>
+<td>warmupSpeed</td>
+<td>float</td>
+<td>0.001</td>
+<td></td>
+</tr>
+<tr>
+<td>itemDuration</td>
+<td>float</td>
+<td>60.0</td>
+<td></td>
+</tr>
+<tr>
+<td>explosionRadius</td>
+<td>int</td>
+<td>23</td>
+<td></td>
+</tr>
+<tr>
+<td>explosionDamage</td>
+<td>int</td>
+<td>1900</td>
+<td></td>
+</tr>
+<tr>
+<td>explodeEffect</td>
+<td>Effect</td>
+<td>impactReactorExplosion</td>
+<td></td>
+</tr>
+<tr>
+<td>plasma1</td>
+<td>Color</td>
+<td>ffd06bff</td>
+<td></td>
+</tr>
+<tr>
+<td>plasma2</td>
+<td>Color</td>
+<td>ff361bff</td>
+<td></td>
+</tr>
+<tr>
+<td>bottomRegion</td>
+<td>TextureRegion</td>
+<td>null</td>
+<td></td>
+</tr>
+<tr>
+<td>plasmaRegions</td>
+<td>TextureRegion[]</td>
+<td>null</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="itemliquidgenerator">ItemLiquidGenerator</h2>
+<p><em>extends <a href="#powergenerator">PowerGenerator</a></em></p>
+<p>Power generation block which can use items, liquids or both as input sources for power production.
+Liquids will take priority over items.</p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>minItemEfficiency</td>
+<td>float</td>
+<td>0.2</td>
+<td></td>
+</tr>
+<tr>
+<td>itemDuration</td>
+<td>float</td>
+<td>70.0</td>
+<td>The time in number of ticks during which a single item will produce power.</td>
+</tr>
+<tr>
+<td>minLiquidEfficiency</td>
+<td>float</td>
+<td>0.2</td>
+<td></td>
+</tr>
+<tr>
+<td>maxLiquidGenerate</td>
+<td>float</td>
+<td>0.4</td>
+<td>Maximum liquid used per frame.</td>
+</tr>
+<tr>
+<td>generateEffect</td>
+<td>Effect</td>
+<td>generatespark</td>
+<td></td>
+</tr>
+<tr>
+<td>generateEffectRnd</td>
+<td>float</td>
+<td>3.0</td>
+<td></td>
+</tr>
+<tr>
+<td>explodeEffect</td>
+<td>Effect</td>
+<td>generatespark</td>
+<td></td>
+</tr>
+<tr>
+<td>heatColor</td>
+<td>Color</td>
+<td>ff9b59ff</td>
+<td></td>
+</tr>
+<tr>
+<td>topRegion</td>
+<td>TextureRegion</td>
+<td>null</td>
+<td></td>
+</tr>
+<tr>
+<td>liquidRegion</td>
+<td>TextureRegion</td>
+<td>null</td>
+<td></td>
+</tr>
+<tr>
+<td>randomlyExplode</td>
+<td>boolean</td>
+<td>true</td>
+<td></td>
+</tr>
+<tr>
+<td>defaults</td>
+<td>boolean</td>
+<td>false</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="itemvoid">ItemVoid</h2>
+<p><em>extends <a href="#block">Block</a></em></p>
+<h2 id="liquidconverter">LiquidConverter</h2>
+<p><em>extends <a href="#genericcrafter">GenericCrafter</a></em></p>
+<h2 id="oreblock">OreBlock</h2>
+<p><em>extends <a href="#overlayfloor">OverlayFloor</a></em></p>
+<p>An overlay ore for a specific item type.</p>
+<h2 id="payloadblock">PayloadBlock</h2>
+<p><em>extends <a href="#block">Block</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>payloadSpeed</td>
+<td>float</td>
+<td>0.7</td>
+<td></td>
+</tr>
+<tr>
+<td>payloadRotateSpeed</td>
+<td>float</td>
+<td>5.0</td>
+<td></td>
+</tr>
+<tr>
+<td>topRegion</td>
+<td>TextureRegion</td>
+<td>null</td>
+<td></td>
+</tr>
+<tr>
+<td>outRegion</td>
+<td>TextureRegion</td>
+<td>null</td>
+<td></td>
+</tr>
+<tr>
+<td>inRegion</td>
+<td>TextureRegion</td>
+<td>null</td>
+<td></td>
+</tr>
+</tbody>
+</table>
 <h2 id="ballisticsilo">BallisticSilo</h2>
 <p><em>extends <a href="#payloadblock">PayloadBlock</a></em></p>
 <h2 id="baseturret">BaseTurret</h2>
@@ -9748,38 +10037,6 @@
 <td>float</td>
 <td>5.0</td>
 <td>How much reload is lowered by for each unit of liquid of heat capacity.</td>
-</tr>
-</tbody>
-</table>
-<h2 id="battery">Battery</h2>
-<p><em>extends <a href="#powerdistributor">PowerDistributor</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>topRegion</td>
-<td>TextureRegion</td>
-<td>null</td>
-<td></td>
-</tr>
-<tr>
-<td>emptyLightColor</td>
-<td>Color</td>
-<td>f8c266ff</td>
-<td></td>
-</tr>
-<tr>
-<td>fullLightColor</td>
-<td>Color</td>
-<td>fb9567ff</td>
-<td></td>
 </tr>
 </tbody>
 </table>
@@ -10089,6 +10346,108 @@
 </tr>
 </tbody>
 </table>
+<h2 id="coreblock">CoreBlock</h2>
+<p><em>extends <a href="#storageblock">StorageBlock</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>thruster1</td>
+<td>TextureRegion</td>
+<td>null</td>
+<td></td>
+</tr>
+<tr>
+<td>thruster2</td>
+<td>TextureRegion</td>
+<td>null</td>
+<td></td>
+</tr>
+<tr>
+<td>thrusterLength</td>
+<td>float</td>
+<td>3.5</td>
+<td></td>
+</tr>
+<tr>
+<td>unitType</td>
+<td>UnitType</td>
+<td>alpha</td>
+<td></td>
+</tr>
+<tr>
+<td>captureInvicibility</td>
+<td>float</td>
+<td>900.0</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="incinerator">Incinerator</h2>
+<p><em>extends <a href="#block">Block</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>effect</td>
+<td>Effect</td>
+<td>fuelburn</td>
+<td></td>
+</tr>
+<tr>
+<td>flameColor</td>
+<td>Color</td>
+<td>ffad9dff</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="liquidblock">LiquidBlock</h2>
+<p><em>extends <a href="#block">Block</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>liquidRegion</td>
+<td>TextureRegion</td>
+<td>null</td>
+<td></td>
+</tr>
+<tr>
+<td>topRegion</td>
+<td>TextureRegion</td>
+<td>null</td>
+<td></td>
+</tr>
+<tr>
+<td>bottomRegion</td>
+<td>TextureRegion</td>
+<td>null</td>
+<td></td>
+</tr>
+</tbody>
+</table>
 <h2 id="conduit">Conduit</h2>
 <p><em>extends <a href="#liquidblock">LiquidBlock</a></em></p>
 <table>
@@ -10228,96 +10587,8 @@
 </tr>
 </tbody>
 </table>
-<h2 id="coreblock">CoreBlock</h2>
-<p><em>extends <a href="#storageblock">StorageBlock</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>thruster1</td>
-<td>TextureRegion</td>
-<td>null</td>
-<td></td>
-</tr>
-<tr>
-<td>thruster2</td>
-<td>TextureRegion</td>
-<td>null</td>
-<td></td>
-</tr>
-<tr>
-<td>thrusterLength</td>
-<td>float</td>
-<td>3.5</td>
-<td></td>
-</tr>
-<tr>
-<td>unitType</td>
-<td>UnitType</td>
-<td>alpha</td>
-<td></td>
-</tr>
-<tr>
-<td>captureInvicibility</td>
-<td>float</td>
-<td>900.0</td>
-<td></td>
-</tr>
-</tbody>
-</table>
 <h2 id="decaygenerator">DecayGenerator</h2>
 <p><em>extends <a href="#itemliquidgenerator">ItemLiquidGenerator</a></em></p>
-<h2 id="door">Door</h2>
-<p><em>extends <a href="#wall">Wall</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>timerToggle</td>
-<td>int</td>
-<td>1</td>
-<td></td>
-</tr>
-<tr>
-<td>openfx</td>
-<td>Effect</td>
-<td>dooropen</td>
-<td></td>
-</tr>
-<tr>
-<td>closefx</td>
-<td>Effect</td>
-<td>doorclose</td>
-<td></td>
-</tr>
-<tr>
-<td>doorSound</td>
-<td>Sound</td>
-<td>door</td>
-<td></td>
-</tr>
-<tr>
-<td>openRegion</td>
-<td>TextureRegion</td>
-<td>null</td>
-<td></td>
-</tr>
-</tbody>
-</table>
 <h2 id="drill">Drill</h2>
 <p><em>extends <a href="#block">Block</a></em></p>
 <table>
@@ -10720,6 +10991,7 @@
 </table>
 <h2 id="emptyfloor">EmptyFloor</h2>
 <p><em>extends <a href="#floor">Floor</a></em></p>
+<p>Empty floor is <em>not</em> equivalent to air. Unlike air, it is solid, and still draws neighboring tile edges.</p>
 <h2 id="forceprojector">ForceProjector</h2>
 <p><em>extends <a href="#block">Block</a></em></p>
 <table>
@@ -10900,106 +11172,6 @@
 </tr>
 </tbody>
 </table>
-<h2 id="impactreactor">ImpactReactor</h2>
-<p><em>extends <a href="#powergenerator">PowerGenerator</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>timerUse</td>
-<td>int</td>
-<td>1</td>
-<td></td>
-</tr>
-<tr>
-<td>warmupSpeed</td>
-<td>float</td>
-<td>0.001</td>
-<td></td>
-</tr>
-<tr>
-<td>itemDuration</td>
-<td>float</td>
-<td>60.0</td>
-<td></td>
-</tr>
-<tr>
-<td>explosionRadius</td>
-<td>int</td>
-<td>23</td>
-<td></td>
-</tr>
-<tr>
-<td>explosionDamage</td>
-<td>int</td>
-<td>1900</td>
-<td></td>
-</tr>
-<tr>
-<td>explodeEffect</td>
-<td>Effect</td>
-<td>impactReactorExplosion</td>
-<td></td>
-</tr>
-<tr>
-<td>plasma1</td>
-<td>Color</td>
-<td>ffd06bff</td>
-<td></td>
-</tr>
-<tr>
-<td>plasma2</td>
-<td>Color</td>
-<td>ff361bff</td>
-<td></td>
-</tr>
-<tr>
-<td>bottomRegion</td>
-<td>TextureRegion</td>
-<td>null</td>
-<td></td>
-</tr>
-<tr>
-<td>plasmaRegions</td>
-<td>TextureRegion[]</td>
-<td>null</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<h2 id="incinerator">Incinerator</h2>
-<p><em>extends <a href="#block">Block</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>effect</td>
-<td>Effect</td>
-<td>fuelburn</td>
-<td></td>
-</tr>
-<tr>
-<td>flameColor</td>
-<td>Color</td>
-<td>ffad9dff</td>
-<td></td>
-</tr>
-</tbody>
-</table>
 <h2 id="itembridge">ItemBridge</h2>
 <p><em>extends <a href="#block">Block</a></em></p>
 <table>
@@ -11098,94 +11270,6 @@
 </tr>
 </tbody>
 </table>
-<h2 id="itemliquidgenerator">ItemLiquidGenerator</h2>
-<p><em>extends <a href="#powergenerator">PowerGenerator</a></em></p>
-<p>Power generation block which can use items, liquids or both as input sources for power production.
-Liquids will take priority over items.</p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>minItemEfficiency</td>
-<td>float</td>
-<td>0.2</td>
-<td></td>
-</tr>
-<tr>
-<td>itemDuration</td>
-<td>float</td>
-<td>70.0</td>
-<td>The time in number of ticks during which a single item will produce power.</td>
-</tr>
-<tr>
-<td>minLiquidEfficiency</td>
-<td>float</td>
-<td>0.2</td>
-<td></td>
-</tr>
-<tr>
-<td>maxLiquidGenerate</td>
-<td>float</td>
-<td>0.4</td>
-<td>Maximum liquid used per frame.</td>
-</tr>
-<tr>
-<td>generateEffect</td>
-<td>Effect</td>
-<td>generatespark</td>
-<td></td>
-</tr>
-<tr>
-<td>generateEffectRnd</td>
-<td>float</td>
-<td>3.0</td>
-<td></td>
-</tr>
-<tr>
-<td>explodeEffect</td>
-<td>Effect</td>
-<td>generatespark</td>
-<td></td>
-</tr>
-<tr>
-<td>heatColor</td>
-<td>Color</td>
-<td>ff9b59ff</td>
-<td></td>
-</tr>
-<tr>
-<td>topRegion</td>
-<td>TextureRegion</td>
-<td>null</td>
-<td></td>
-</tr>
-<tr>
-<td>liquidRegion</td>
-<td>TextureRegion</td>
-<td>null</td>
-<td></td>
-</tr>
-<tr>
-<td>randomlyExplode</td>
-<td>boolean</td>
-<td>true</td>
-<td></td>
-</tr>
-<tr>
-<td>defaults</td>
-<td>boolean</td>
-<td>false</td>
-<td></td>
-</tr>
-</tbody>
-</table>
 <h2 id="itemsource">ItemSource</h2>
 <p><em>extends <a href="#block">Block</a></em></p>
 <h2 id="itemturret">ItemTurret</h2>
@@ -11208,8 +11292,6 @@ Liquids will take priority over items.</p>
 </tr>
 </tbody>
 </table>
-<h2 id="itemvoid">ItemVoid</h2>
-<p><em>extends <a href="#block">Block</a></em></p>
 <h2 id="junction">Junction</h2>
 <p><em>extends <a href="#block">Block</a></em></p>
 <table>
@@ -11338,42 +11420,8 @@ Liquids will take priority over items.</p>
 </tr>
 </tbody>
 </table>
-<h2 id="liquidblock">LiquidBlock</h2>
-<p><em>extends <a href="#block">Block</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>liquidRegion</td>
-<td>TextureRegion</td>
-<td>null</td>
-<td></td>
-</tr>
-<tr>
-<td>topRegion</td>
-<td>TextureRegion</td>
-<td>null</td>
-<td></td>
-</tr>
-<tr>
-<td>bottomRegion</td>
-<td>TextureRegion</td>
-<td>null</td>
-<td></td>
-</tr>
-</tbody>
-</table>
 <h2 id="liquidbridge">LiquidBridge</h2>
 <p><em>extends <a href="#itembridge">ItemBridge</a></em></p>
-<h2 id="liquidconverter">LiquidConverter</h2>
-<p><em>extends <a href="#genericcrafter">GenericCrafter</a></em></p>
 <h2 id="liquidjunction">LiquidJunction</h2>
 <p><em>extends <a href="#liquidblock">LiquidBlock</a></em></p>
 <h2 id="liquidrouter">LiquidRouter</h2>
@@ -11826,9 +11874,6 @@ Liquids will take priority over items.</p>
 </tr>
 </tbody>
 </table>
-<h2 id="oreblock">OreBlock</h2>
-<p><em>extends <a href="#overlayfloor">OverlayFloor</a></em></p>
-<p>An overlay ore for a specific item type.</p>
 <h2 id="overdriveprojector">OverdriveProjector</h2>
 <p><em>extends <a href="#block">Block</a></em></p>
 <table>
@@ -11938,50 +11983,6 @@ Liquids will take priority over items.</p>
 <h2 id="overlayfloor">OverlayFloor</h2>
 <p><em>extends <a href="#floor">Floor</a></em></p>
 <p>A type of floor that is overlaid on top of other floors.</p>
-<h2 id="payloadblock">PayloadBlock</h2>
-<p><em>extends <a href="#block">Block</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>payloadSpeed</td>
-<td>float</td>
-<td>0.7</td>
-<td></td>
-</tr>
-<tr>
-<td>payloadRotateSpeed</td>
-<td>float</td>
-<td>5.0</td>
-<td></td>
-</tr>
-<tr>
-<td>topRegion</td>
-<td>TextureRegion</td>
-<td>null</td>
-<td></td>
-</tr>
-<tr>
-<td>outRegion</td>
-<td>TextureRegion</td>
-<td>null</td>
-<td></td>
-</tr>
-<tr>
-<td>inRegion</td>
-<td>TextureRegion</td>
-<td>null</td>
-<td></td>
-</tr>
-</tbody>
-</table>
 <h2 id="payloadconveyor">PayloadConveyor</h2>
 <p><em>extends <a href="#block">Block</a></em></p>
 <table>
@@ -12329,6 +12330,86 @@ Liquids will take priority over items.</p>
 </tr>
 </tbody>
 </table>
+<h2 id="pointdefenseturret">PointDefenseTurret</h2>
+<p><em>extends <a href="#reloadturret">ReloadTurret</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>timerTarget</td>
+<td>int</td>
+<td>1</td>
+<td></td>
+</tr>
+<tr>
+<td>retargetTime</td>
+<td>float</td>
+<td>5.0</td>
+<td></td>
+</tr>
+<tr>
+<td>baseRegion</td>
+<td>TextureRegion</td>
+<td>null</td>
+<td></td>
+</tr>
+<tr>
+<td>color</td>
+<td>Color</td>
+<td>ffffffff</td>
+<td></td>
+</tr>
+<tr>
+<td>beamEffect</td>
+<td>Effect</td>
+<td>pointBeam</td>
+<td></td>
+</tr>
+<tr>
+<td>hitEffect</td>
+<td>Effect</td>
+<td>pointHit</td>
+<td></td>
+</tr>
+<tr>
+<td>shootEffect</td>
+<td>Effect</td>
+<td>sparkShoot</td>
+<td></td>
+</tr>
+<tr>
+<td>shootSound</td>
+<td>Sound</td>
+<td>lasershoot</td>
+<td></td>
+</tr>
+<tr>
+<td>shootCone</td>
+<td>float</td>
+<td>5.0</td>
+<td></td>
+</tr>
+<tr>
+<td>bulletDamage</td>
+<td>float</td>
+<td>10.0</td>
+<td></td>
+</tr>
+<tr>
+<td>shootLength</td>
+<td>float</td>
+<td>3.0</td>
+<td></td>
+</tr>
+</tbody>
+</table>
 <h2 id="powerblock">PowerBlock</h2>
 <p><em>extends <a href="#block">Block</a></em></p>
 <h2 id="powerdiode">PowerDiode</h2>
@@ -12449,10 +12530,56 @@ Liquids will take priority over items.</p>
 </tr>
 </tbody>
 </table>
-<h2 id="powervoid">PowerVoid</h2>
-<p><em>extends <a href="#powerblock">PowerBlock</a></em></p>
 <h2 id="prop">Prop</h2>
 <p><em>extends <a href="#block">Block</a></em></p>
+<h2 id="reloadturret">ReloadTurret</h2>
+<p><em>extends <a href="#baseturret">BaseTurret</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>reloadTime</td>
+<td>float</td>
+<td>10.0</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="powerturret">PowerTurret</h2>
+<p><em>extends <a href="#turret">Turret</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>shootType</td>
+<td>BulletType</td>
+<td>null</td>
+<td></td>
+</tr>
+<tr>
+<td>powerUse</td>
+<td>float</td>
+<td>1.0</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="powervoid">PowerVoid</h2>
+<p><em>extends <a href="#powerblock">PowerBlock</a></em></p>
 <h2 id="pump">Pump</h2>
 <p><em>extends <a href="#liquidblock">LiquidBlock</a></em></p>
 <table>
@@ -12501,132 +12628,6 @@ Liquids will take priority over items.</p>
 <td>capacities</td>
 <td>int[]</td>
 <td>[]</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<h2 id="reloadturret">ReloadTurret</h2>
-<p><em>extends <a href="#baseturret">BaseTurret</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>reloadTime</td>
-<td>float</td>
-<td>10.0</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<h2 id="pointdefenseturret">PointDefenseTurret</h2>
-<p><em>extends <a href="#reloadturret">ReloadTurret</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>timerTarget</td>
-<td>int</td>
-<td>1</td>
-<td></td>
-</tr>
-<tr>
-<td>retargetTime</td>
-<td>float</td>
-<td>5.0</td>
-<td></td>
-</tr>
-<tr>
-<td>baseRegion</td>
-<td>TextureRegion</td>
-<td>null</td>
-<td></td>
-</tr>
-<tr>
-<td>color</td>
-<td>Color</td>
-<td>ffffffff</td>
-<td></td>
-</tr>
-<tr>
-<td>beamEffect</td>
-<td>Effect</td>
-<td>pointBeam</td>
-<td></td>
-</tr>
-<tr>
-<td>hitEffect</td>
-<td>Effect</td>
-<td>pointHit</td>
-<td></td>
-</tr>
-<tr>
-<td>shootEffect</td>
-<td>Effect</td>
-<td>sparkShoot</td>
-<td></td>
-</tr>
-<tr>
-<td>shootSound</td>
-<td>Sound</td>
-<td>lasershoot</td>
-<td></td>
-</tr>
-<tr>
-<td>shootCone</td>
-<td>float</td>
-<td>5.0</td>
-<td></td>
-</tr>
-<tr>
-<td>bulletDamage</td>
-<td>float</td>
-<td>10.0</td>
-<td></td>
-</tr>
-<tr>
-<td>shootLength</td>
-<td>float</td>
-<td>3.0</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<h2 id="powerturret">PowerTurret</h2>
-<p><em>extends <a href="#turret">Turret</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>shootType</td>
-<td>BulletType</td>
-<td>null</td>
-<td></td>
-</tr>
-<tr>
-<td>powerUse</td>
-<td>float</td>
-<td>1.0</td>
 <td></td>
 </tr>
 </tbody>
@@ -18250,336 +18251,6 @@ shootEffect: {
   colorTo: ffffff00
 }
 </code></pre>
-<h2 id="pointdefenseweapon">PointDefenseWeapon</h2>
-<p><em>extends <a href="#weapon">Weapon</a></em></p>
-<p>Note that this requires several things:
-- A bullet with positive maxRange
-- A bullet with positive damage
-- Rotation</p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>color</td>
-<td>Color</td>
-<td>ffffffff</td>
-<td></td>
-</tr>
-<tr>
-<td>beamEffect</td>
-<td>Effect</td>
-<td>pointBeam</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<h4 id="example_19">Example</h4>
-<pre><code>name: aftermath-weapon
-controllable: false
-autoTarget: true
-targetInterval: 0
-targetSwitchInterval: 0
-x: 42.75
-y: 47
-beamEffect: none
-recoil: 0
-reload: 3
-rotate: true
-shootSound: none
-bullet: {
-  damage: 2500
-  maxRange: 320
-  shootEffect: {
-    lightOpacity: 0
-    particles: 15
-    baseLength: 25
-    length: -25
-    lifetime: 20
-    cone: 15
-    sizeFrom: 2
-    colorFrom: 00000050
-    colorTo: 000000
-  }
-  hitEffect: {
-    layer: 110.001
-    effects: [
-      {
-        length: 0
-        lightOpacity: 0
-        sizeInterp: pow10In
-        lifetime: 30
-        particles: 1
-        region: exotic-mod-vapour1
-        sizeFrom: 20
-        sizeTo: 0
-        spin: 8
-        colorFrom: 000000
-        colorTo: 000000
-      }
-      {
-        length: 0
-        lightOpacity: 0
-        sizeInterp: pow10In
-        lifetime: 30
-        particles: 1
-        region: exotic-mod-vapour1
-        sizeFrom: 16
-        sizeTo: 0
-        spin: 12
-        colorFrom: 000000
-        colorTo: 000000
-      }
-      {
-        length: 0
-        lightOpacity: 0
-        sizeInterp: pow10In
-        lifetime: 30
-        particles: 1
-        region: exotic-mod-vapour1
-        sizeFrom: 13
-        sizeTo: 0
-        spin: 6
-        colorFrom: 000000
-        colorTo: 000000
-      }
-      {
-        length: 0
-        lightOpacity: 0
-        sizeInterp: pow10In
-        lifetime: 30
-        particles: 1
-        region: circle-shadow
-        sizeFrom: 30
-        sizeTo: 0
-        colorFrom: 000000
-        colorTo: 000000
-      }
-    ]
-  }
-}
-</code></pre>
-<h2 id="repairbeamweapon">RepairBeamWeapon</h2>
-<p><em>extends <a href="#weapon">Weapon</a></em></p>
-<p>Note that this weapon requires a bullet with a positive maxRange.
-Rotation must be set to true. Fixed repair points are not supported.</p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>targetBuildings</td>
-<td>boolean</td>
-<td>false</td>
-<td></td>
-</tr>
-<tr>
-<td>repairSpeed</td>
-<td>float</td>
-<td>0.3</td>
-<td></td>
-</tr>
-<tr>
-<td>beamWidth</td>
-<td>float</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>pulseRadius</td>
-<td>float</td>
-<td>6.0</td>
-<td></td>
-</tr>
-<tr>
-<td>pulseStroke</td>
-<td>float</td>
-<td>2.0</td>
-<td></td>
-</tr>
-<tr>
-<td>laser</td>
-<td>TextureRegion</td>
-<td>null</td>
-<td></td>
-</tr>
-<tr>
-<td>laserEnd</td>
-<td>TextureRegion</td>
-<td>null</td>
-<td></td>
-</tr>
-<tr>
-<td>laserTop</td>
-<td>TextureRegion</td>
-<td>null</td>
-<td></td>
-</tr>
-<tr>
-<td>laserTopEnd</td>
-<td>TextureRegion</td>
-<td>null</td>
-<td></td>
-</tr>
-<tr>
-<td>laserColor</td>
-<td>Color</td>
-<td>98ffa9ff</td>
-<td></td>
-</tr>
-<tr>
-<td>laserTopColor</td>
-<td>Color</td>
-<td>ffffffff</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<h2 id="repairfieldability">RepairFieldAbility</h2>
-<p><em>extends <a href="#ability">Ability</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>amount</td>
-<td>float</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>reload</td>
-<td>float</td>
-<td>100.0</td>
-<td></td>
-</tr>
-<tr>
-<td>range</td>
-<td>float</td>
-<td>60.0</td>
-<td></td>
-</tr>
-<tr>
-<td>healEffect</td>
-<td>Effect</td>
-<td>heal</td>
-<td></td>
-</tr>
-<tr>
-<td>activeEffect</td>
-<td>Effect</td>
-<td>healWaveDynamic</td>
-<td></td>
-</tr>
-<tr>
-<td>parentizeEffects</td>
-<td>boolean</td>
-<td>false</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<h4 id="example_20">Example</h4>
-<pre><code>range: 80
-amount: 650
-reload: 45
-</code></pre>
-<h2 id="shieldregenfieldability">ShieldRegenFieldAbility</h2>
-<p><em>extends <a href="#ability">Ability</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>amount</td>
-<td>float</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>max</td>
-<td>float</td>
-<td>100.0</td>
-<td></td>
-</tr>
-<tr>
-<td>reload</td>
-<td>float</td>
-<td>100.0</td>
-<td></td>
-</tr>
-<tr>
-<td>range</td>
-<td>float</td>
-<td>60.0</td>
-<td></td>
-</tr>
-<tr>
-<td>applyEffect</td>
-<td>Effect</td>
-<td>shieldApply</td>
-<td></td>
-</tr>
-<tr>
-<td>activeEffect</td>
-<td>Effect</td>
-<td>shieldWave</td>
-<td></td>
-</tr>
-<tr>
-<td>parentizeEffects</td>
-<td>boolean</td>
-<td>false</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<h4 id="example_21">Example</h4>
-<pre><code>range: 300
-amount: 12500
-max: 45000
-reload: 480
-activeEffect: {
-  lifetime: 35
-  sizeTo: 300
-  strokeFrom: 5
-  strokeTo: 2
-  colorFrom: 8ca4f5
-  colorTo: 8ca4f550
-}
-applyEffect: {
-  lifetime: 35
-  sizeTo: 40
-  strokeFrom: 2
-  strokeTo: 0
-  colorFrom: 8ca4f5
-  colorTo: 8ca4f550
-}
-</code></pre>
 <h2 id="statusfieldability">StatusFieldAbility</h2>
 <p><em>extends <a href="#ability">Ability</a></em></p>
 <table>
@@ -18648,7 +18319,7 @@ applyEffect: {
 </tr>
 </tbody>
 </table>
-<h4 id="example_22">Example</h4>
+<h4 id="example_19">Example</h4>
 <pre><code>reload: 7200
 range: 1
 duration: 5
@@ -18676,62 +18347,6 @@ activeEffect: {
   ]
 }
 effect: exotic-mod-eternal
-</code></pre>
-<h2 id="unitspawnability">UnitSpawnAbility</h2>
-<p><em>extends <a href="#ability">Ability</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>unit</td>
-<td>UnitType</td>
-<td>null</td>
-<td></td>
-</tr>
-<tr>
-<td>spawnTime</td>
-<td>float</td>
-<td>60.0</td>
-<td></td>
-</tr>
-<tr>
-<td>spawnX</td>
-<td>float</td>
-<td>0.0</td>
-<td></td>
-</tr>
-<tr>
-<td>spawnY</td>
-<td>float</td>
-<td>0.0</td>
-<td></td>
-</tr>
-<tr>
-<td>spawnEffect</td>
-<td>Effect</td>
-<td>spawn</td>
-<td></td>
-</tr>
-<tr>
-<td>parentizeEffects</td>
-<td>boolean</td>
-<td>false</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<h4 id="example_23">Example</h4>
-<pre><code>unit: fortress
-spawnX: 30
-spawnY: 0
-spawnTime: 1440
 </code></pre>
 <h2 id="weapon">Weapon</h2>
 <p><em>extends <a href="#object">Object</a></em></p>
@@ -19053,7 +18668,7 @@ spawnTime: 1440
 </tr>
 </tbody>
 </table>
-<h4 id="example_24">Example</h4>
+<h4 id="example_20">Example</h4>
 <pre><code>name: inferno-cannon
 x: 54.75
 top: false
@@ -19085,6 +18700,392 @@ bullet: {
   ]
 }
 </code></pre>
+<h2 id="pointdefenseweapon">PointDefenseWeapon</h2>
+<p><em>extends <a href="#weapon">Weapon</a></em></p>
+<p>Note that this requires several things:
+- A bullet with positive maxRange
+- A bullet with positive damage
+- Rotation</p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>color</td>
+<td>Color</td>
+<td>ffffffff</td>
+<td></td>
+</tr>
+<tr>
+<td>beamEffect</td>
+<td>Effect</td>
+<td>pointBeam</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h4 id="example_21">Example</h4>
+<pre><code>name: aftermath-weapon
+controllable: false
+autoTarget: true
+targetInterval: 0
+targetSwitchInterval: 0
+x: 42.75
+y: 47
+beamEffect: none
+recoil: 0
+reload: 3
+rotate: true
+shootSound: none
+bullet: {
+  damage: 2500
+  maxRange: 320
+  shootEffect: {
+    lightOpacity: 0
+    particles: 15
+    baseLength: 25
+    length: -25
+    lifetime: 20
+    cone: 15
+    sizeFrom: 2
+    colorFrom: 00000050
+    colorTo: 000000
+  }
+  hitEffect: {
+    layer: 110.001
+    effects: [
+      {
+        length: 0
+        lightOpacity: 0
+        sizeInterp: pow10In
+        lifetime: 30
+        particles: 1
+        region: exotic-mod-vapour1
+        sizeFrom: 20
+        sizeTo: 0
+        spin: 8
+        colorFrom: 000000
+        colorTo: 000000
+      }
+      {
+        length: 0
+        lightOpacity: 0
+        sizeInterp: pow10In
+        lifetime: 30
+        particles: 1
+        region: exotic-mod-vapour1
+        sizeFrom: 16
+        sizeTo: 0
+        spin: 12
+        colorFrom: 000000
+        colorTo: 000000
+      }
+      {
+        length: 0
+        lightOpacity: 0
+        sizeInterp: pow10In
+        lifetime: 30
+        particles: 1
+        region: exotic-mod-vapour1
+        sizeFrom: 13
+        sizeTo: 0
+        spin: 6
+        colorFrom: 000000
+        colorTo: 000000
+      }
+      {
+        length: 0
+        lightOpacity: 0
+        sizeInterp: pow10In
+        lifetime: 30
+        particles: 1
+        region: circle-shadow
+        sizeFrom: 30
+        sizeTo: 0
+        colorFrom: 000000
+        colorTo: 000000
+      }
+    ]
+  }
+}
+</code></pre>
+<h2 id="repairbeamweapon">RepairBeamWeapon</h2>
+<p><em>extends <a href="#weapon">Weapon</a></em></p>
+<p>Note that this weapon requires a bullet with a positive maxRange.
+Rotation must be set to true. Fixed repair points are not supported.</p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>targetBuildings</td>
+<td>boolean</td>
+<td>false</td>
+<td></td>
+</tr>
+<tr>
+<td>repairSpeed</td>
+<td>float</td>
+<td>0.3</td>
+<td></td>
+</tr>
+<tr>
+<td>beamWidth</td>
+<td>float</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>pulseRadius</td>
+<td>float</td>
+<td>6.0</td>
+<td></td>
+</tr>
+<tr>
+<td>pulseStroke</td>
+<td>float</td>
+<td>2.0</td>
+<td></td>
+</tr>
+<tr>
+<td>laser</td>
+<td>TextureRegion</td>
+<td>null</td>
+<td></td>
+</tr>
+<tr>
+<td>laserEnd</td>
+<td>TextureRegion</td>
+<td>null</td>
+<td></td>
+</tr>
+<tr>
+<td>laserTop</td>
+<td>TextureRegion</td>
+<td>null</td>
+<td></td>
+</tr>
+<tr>
+<td>laserTopEnd</td>
+<td>TextureRegion</td>
+<td>null</td>
+<td></td>
+</tr>
+<tr>
+<td>laserColor</td>
+<td>Color</td>
+<td>98ffa9ff</td>
+<td></td>
+</tr>
+<tr>
+<td>laserTopColor</td>
+<td>Color</td>
+<td>ffffffff</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="repairfieldability">RepairFieldAbility</h2>
+<p><em>extends <a href="#ability">Ability</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>amount</td>
+<td>float</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>reload</td>
+<td>float</td>
+<td>100.0</td>
+<td></td>
+</tr>
+<tr>
+<td>range</td>
+<td>float</td>
+<td>60.0</td>
+<td></td>
+</tr>
+<tr>
+<td>healEffect</td>
+<td>Effect</td>
+<td>heal</td>
+<td></td>
+</tr>
+<tr>
+<td>activeEffect</td>
+<td>Effect</td>
+<td>healWaveDynamic</td>
+<td></td>
+</tr>
+<tr>
+<td>parentizeEffects</td>
+<td>boolean</td>
+<td>false</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h4 id="example_22">Example</h4>
+<pre><code>range: 80
+amount: 650
+reload: 45
+</code></pre>
+<h2 id="shieldregenfieldability">ShieldRegenFieldAbility</h2>
+<p><em>extends <a href="#ability">Ability</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>amount</td>
+<td>float</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>max</td>
+<td>float</td>
+<td>100.0</td>
+<td></td>
+</tr>
+<tr>
+<td>reload</td>
+<td>float</td>
+<td>100.0</td>
+<td></td>
+</tr>
+<tr>
+<td>range</td>
+<td>float</td>
+<td>60.0</td>
+<td></td>
+</tr>
+<tr>
+<td>applyEffect</td>
+<td>Effect</td>
+<td>shieldApply</td>
+<td></td>
+</tr>
+<tr>
+<td>activeEffect</td>
+<td>Effect</td>
+<td>shieldWave</td>
+<td></td>
+</tr>
+<tr>
+<td>parentizeEffects</td>
+<td>boolean</td>
+<td>false</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h4 id="example_23">Example</h4>
+<pre><code>range: 300
+amount: 12500
+max: 45000
+reload: 480
+activeEffect: {
+  lifetime: 35
+  sizeTo: 300
+  strokeFrom: 5
+  strokeTo: 2
+  colorFrom: 8ca4f5
+  colorTo: 8ca4f550
+}
+applyEffect: {
+  lifetime: 35
+  sizeTo: 40
+  strokeFrom: 2
+  strokeTo: 0
+  colorFrom: 8ca4f5
+  colorTo: 8ca4f550
+}
+</code></pre>
+<h2 id="unitspawnability">UnitSpawnAbility</h2>
+<p><em>extends <a href="#ability">Ability</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>unit</td>
+<td>UnitType</td>
+<td>null</td>
+<td></td>
+</tr>
+<tr>
+<td>spawnTime</td>
+<td>float</td>
+<td>60.0</td>
+<td></td>
+</tr>
+<tr>
+<td>spawnX</td>
+<td>float</td>
+<td>0.0</td>
+<td></td>
+</tr>
+<tr>
+<td>spawnY</td>
+<td>float</td>
+<td>0.0</td>
+<td></td>
+</tr>
+<tr>
+<td>spawnEffect</td>
+<td>Effect</td>
+<td>spawn</td>
+<td></td>
+</tr>
+<tr>
+<td>parentizeEffects</td>
+<td>boolean</td>
+<td>false</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h4 id="example_24">Example</h4>
+<pre><code>unit: fortress
+spawnX: 30
+spawnY: 0
+spawnTime: 1440
+</code></pre>
 <h2 id="buildvisibility">BuildVisibility</h2>
 <p>A flag used by the game to change a few special-case things. It may be one of the following strings:</p>
 <ul>
@@ -19110,6 +19111,7 @@ bullet: {
 <li><code>drills</code></li>
 <li><code>units</code></li>
 <li><code>logic</code></li>
+<li><code>payloads</code></li>
 </ul>
 <h2 id="itemstack">ItemStack</h2>
 <p>A <code>ItemStack</code> can be a string or an object. It's used to describe the type and amount of items to a machine.</p>
