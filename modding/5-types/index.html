@@ -9688,6 +9688,83 @@
 </table>
 <h2 id="airblock">AirBlock</h2>
 <p><em>extends <a href="#floor">Floor</a></em></p>
+<h2 id="conduit">Conduit</h2>
+<p><em>extends <a href="#liquidblock">LiquidBlock</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>timerFlow</td>
+<td>int</td>
+<td>1</td>
+<td></td>
+</tr>
+<tr>
+<td>botColor</td>
+<td>Color</td>
+<td>565656ff</td>
+<td></td>
+</tr>
+<tr>
+<td>topRegions</td>
+<td>TextureRegion[]</td>
+<td>null</td>
+<td></td>
+</tr>
+<tr>
+<td>botRegions</td>
+<td>TextureRegion[]</td>
+<td>null</td>
+<td></td>
+</tr>
+<tr>
+<td>capRegion</td>
+<td>TextureRegion</td>
+<td>null</td>
+<td></td>
+</tr>
+<tr>
+<td>leaks</td>
+<td>boolean</td>
+<td>true</td>
+<td></td>
+</tr>
+<tr>
+<td>junctionReplacement</td>
+<td>Block</td>
+<td>null</td>
+<td></td>
+</tr>
+<tr>
+<td>bridgeReplacement</td>
+<td>Block</td>
+<td>null</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h4 id="example-floating-conduit">Example  <a href="https://github.com/BlueWolf3682/Exotic-Mod/tree/master/content/blocks/liquid/floating-conduit.hjson">("Floating Conduit")</a></h4>
+<pre><code>type: Conduit
+leaks: true
+health: 440
+requirements: [
+  graphite/2
+  metaglass/4
+  ladera/2
+  amethyst-gem/1
+]
+liquidCapacity: 20
+liquidPressure: 4.4
+placeableLiquid: true
+category: liquid
+</code></pre>
 <h2 id="armoredconduit">ArmoredConduit</h2>
 <p><em>extends <a href="#conduit">Conduit</a></em></p>
 <h2 id="armoredconveyor">ArmoredConveyor</h2>
@@ -10147,83 +10224,6 @@ requirements: [
 </tr>
 </tbody>
 </table>
-<h2 id="conduit">Conduit</h2>
-<p><em>extends <a href="#liquidblock">LiquidBlock</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>timerFlow</td>
-<td>int</td>
-<td>1</td>
-<td></td>
-</tr>
-<tr>
-<td>botColor</td>
-<td>Color</td>
-<td>565656ff</td>
-<td></td>
-</tr>
-<tr>
-<td>topRegions</td>
-<td>TextureRegion[]</td>
-<td>null</td>
-<td></td>
-</tr>
-<tr>
-<td>botRegions</td>
-<td>TextureRegion[]</td>
-<td>null</td>
-<td></td>
-</tr>
-<tr>
-<td>capRegion</td>
-<td>TextureRegion</td>
-<td>null</td>
-<td></td>
-</tr>
-<tr>
-<td>leaks</td>
-<td>boolean</td>
-<td>true</td>
-<td></td>
-</tr>
-<tr>
-<td>junctionReplacement</td>
-<td>Block</td>
-<td>null</td>
-<td></td>
-</tr>
-<tr>
-<td>bridgeReplacement</td>
-<td>Block</td>
-<td>null</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<h4 id="example-floating-conduit">Example  <a href="https://github.com/BlueWolf3682/Exotic-Mod/tree/master/content/blocks/liquid/floating-conduit.hjson">("Floating Conduit")</a></h4>
-<pre><code>type: Conduit
-leaks: true
-health: 440
-requirements: [
-  graphite/2
-  metaglass/4
-  ladera/2
-  amethyst-gem/1
-]
-liquidCapacity: 20
-liquidPressure: 4.4
-placeableLiquid: true
-category: liquid
-</code></pre>
 <h2 id="constructor">Constructor</h2>
 <p><em>extends <a href="#blockproducer">BlockProducer</a></em></p>
 <p>Configurable BlockProducer variant.</p>
@@ -12301,38 +12301,6 @@ research: thorium-reactor
 </tr>
 </tbody>
 </table>
-<h2 id="overflowgate">OverflowGate</h2>
-<p><em>extends <a href="#block">Block</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>speed</td>
-<td>float</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>invert</td>
-<td>boolean</td>
-<td>false</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<h2 id="overlayfloor">OverlayFloor</h2>
-<p><em>extends <a href="#floor">Floor</a></em></p>
-<p>A type of floor that is overlaid on top of other floors.</p>
-<h2 id="oreblock">OreBlock</h2>
-<p><em>extends <a href="#overlayfloor">OverlayFloor</a></em></p>
-<p>An overlay ore for a specific item type.</p>
 <h2 id="overdriveprojector">OverdriveProjector</h2>
 <p><em>extends <a href="#block">Block</a></em></p>
 <table>
@@ -12445,6 +12413,38 @@ consumes: {
 }
 research: bluewolframite-overdrive-projector
 </code></pre>
+<h2 id="overlayfloor">OverlayFloor</h2>
+<p><em>extends <a href="#floor">Floor</a></em></p>
+<p>A type of floor that is overlaid on top of other floors.</p>
+<h2 id="oreblock">OreBlock</h2>
+<p><em>extends <a href="#overlayfloor">OverlayFloor</a></em></p>
+<p>An overlay ore for a specific item type.</p>
+<h2 id="overflowgate">OverflowGate</h2>
+<p><em>extends <a href="#block">Block</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>speed</td>
+<td>float</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>invert</td>
+<td>boolean</td>
+<td>false</td>
+<td></td>
+</tr>
+</tbody>
+</table>
 <h2 id="payloadblock">PayloadBlock</h2>
 <p><em>extends <a href="#block">Block</a></em></p>
 <table>
@@ -13092,6 +13092,60 @@ powerProduction: 1354450
 buildVisibility: sandboxOnly
 category: power
 </code></pre>
+<h2 id="powerturret">PowerTurret</h2>
+<p><em>extends <a href="#turret">Turret</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>shootType</td>
+<td>BulletType</td>
+<td>null</td>
+<td></td>
+</tr>
+<tr>
+<td>powerUse</td>
+<td>float</td>
+<td>1.0</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h4 id="example-dimension">Example  <a href="https://github.com/BlueWolf3682/Exotic-Mod/tree/master/content/blocks/turrets/faction-green/1g-dimension.hjson">("Dimension")</a></h4>
+<pre><code>type: PowerTurret
+health: 260
+reloadTime: 30
+range: 120
+shots: 2
+burstSpacing: 3
+spread: 0
+powerUse: 0.85
+targetHealing: true
+shootSound: lasershoot
+shootType: {
+  type: LaserBoltBulletType
+  damage: 5
+  collidesTeam: true
+  healPercent: 2
+  speed: 6
+  lifetime: 20
+  frontColor: ffffff
+  backColor: 83f793
+}
+category: turret
+research: duo
+requirements: [
+  copper/40
+  lead/20
+]
+</code></pre>
 <h2 id="powervoid">PowerVoid</h2>
 <p><em>extends <a href="#powerblock">PowerBlock</a></em></p>
 <h2 id="prop">Prop</h2>
@@ -13241,60 +13295,6 @@ research: alterator
 </tr>
 </tbody>
 </table>
-<h2 id="powerturret">PowerTurret</h2>
-<p><em>extends <a href="#turret">Turret</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>shootType</td>
-<td>BulletType</td>
-<td>null</td>
-<td></td>
-</tr>
-<tr>
-<td>powerUse</td>
-<td>float</td>
-<td>1.0</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<h4 id="example-dimension">Example  <a href="https://github.com/BlueWolf3682/Exotic-Mod/tree/master/content/blocks/turrets/faction-green/1g-dimension.hjson">("Dimension")</a></h4>
-<pre><code>type: PowerTurret
-health: 260
-reloadTime: 30
-range: 120
-shots: 2
-burstSpacing: 3
-spread: 0
-powerUse: 0.85
-targetHealing: true
-shootSound: lasershoot
-shootType: {
-  type: LaserBoltBulletType
-  damage: 5
-  collidesTeam: true
-  healPercent: 2
-  speed: 6
-  lifetime: 20
-  frontColor: ffffff
-  backColor: 83f793
-}
-category: turret
-research: duo
-requirements: [
-  copper/40
-  lead/20
-]
-</code></pre>
 <h2 id="repairpoint">RepairPoint</h2>
 <p><em>extends <a href="#block">Block</a></em></p>
 <table>
@@ -14162,6 +14162,26 @@ requirements: [
 category: power
 research: thermal-generator
 </code></pre>
+<h2 id="thruster">Thruster</h2>
+<p><em>extends <a href="#wall">Wall</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>topRegion</td>
+<td>TextureRegion</td>
+<td>null</td>
+<td></td>
+</tr>
+</tbody>
+</table>
 <h2 id="tractorbeamturret">TractorBeamTurret</h2>
 <p><em>extends <a href="#baseturret">BaseTurret</a></em></p>
 <table>
@@ -14315,6 +14335,32 @@ requirements: [
   plastanium/75
 ]
 </code></pre>
+<h2 id="treeblock">TreeBlock</h2>
+<p><em>extends <a href="#block">Block</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>shadow</td>
+<td>TextureRegion</td>
+<td>null</td>
+<td></td>
+</tr>
+<tr>
+<td>shadowOffset</td>
+<td>float</td>
+<td>-4.0</td>
+<td></td>
+</tr>
+</tbody>
+</table>
 <h2 id="turret">Turret</h2>
 <p><em>extends <a href="#reloadturret">ReloadTurret</a></em></p>
 <table>
@@ -14546,7 +14592,7 @@ requirements: [
 <tr>
 <td>unitSort</td>
 <td>Sortf</td>
-<td>Unit::dst2</td>
+<td>closest</td>
 <td></td>
 </tr>
 <tr>
@@ -14589,6 +14635,81 @@ requirements: [
 </table>
 <h2 id="unitblock">UnitBlock</h2>
 <p><em>extends <a href="#payloadblock">PayloadBlock</a></em></p>
+<h2 id="unitfactory">UnitFactory</h2>
+<p><em>extends <a href="#unitblock">UnitBlock</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>capacities</td>
+<td>int[]</td>
+<td>[]</td>
+<td></td>
+</tr>
+<tr>
+<td>plans</td>
+<td>Seq<UnitPlan></td>
+<td>new Seq&lt;&gt;(4)</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h4 id="example-assembler">Example  <a href="https://github.com/BlueWolf3682/Exotic-Mod/tree/master/content/blocks/units/assembler.hjson">("Assembler")</a></h4>
+<pre><code>type: UnitFactory
+size: 2
+consumes: {
+  power: 1.2
+}
+plans: [
+  {
+    unit: soul
+    time: 1080
+    requirements: [
+      silicon/25
+      metaglass/30
+    ]
+  }
+  {
+    unit: victory
+    time: 1250
+    requirements: [
+      silicon/20
+      lead/35
+      titanium/25
+    ]
+  }
+  {
+    unit: outbreak
+    time: 1100
+    requirements: [
+      silicon/25
+      graphite/20
+    ]
+  }
+  {
+    unit: flicker
+    time: 2400
+    requirements: [
+      silicon/30
+      lead/15
+      graphite/10
+    ]
+  }
+]
+requirements: [
+  lead/75
+  silicon/40
+]
+research: ground-factory
+category: units
+</code></pre>
 <h2 id="unloader">Unloader</h2>
 <p><em>extends <a href="#block">Block</a></em></p>
 <table>
@@ -14691,127 +14812,6 @@ requirements: [
 ]
 category: defense
 research: draconium-wall-large
-</code></pre>
-<h2 id="thruster">Thruster</h2>
-<p><em>extends <a href="#wall">Wall</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>topRegion</td>
-<td>TextureRegion</td>
-<td>null</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<h2 id="treeblock">TreeBlock</h2>
-<p><em>extends <a href="#block">Block</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>shadow</td>
-<td>TextureRegion</td>
-<td>null</td>
-<td></td>
-</tr>
-<tr>
-<td>shadowOffset</td>
-<td>float</td>
-<td>-4.0</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<h2 id="unitfactory">UnitFactory</h2>
-<p><em>extends <a href="#unitblock">UnitBlock</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>capacities</td>
-<td>int[]</td>
-<td>[]</td>
-<td></td>
-</tr>
-<tr>
-<td>plans</td>
-<td>Seq<UnitPlan></td>
-<td>new Seq&lt;&gt;(4)</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<h4 id="example-assembler">Example  <a href="https://github.com/BlueWolf3682/Exotic-Mod/tree/master/content/blocks/units/assembler.hjson">("Assembler")</a></h4>
-<pre><code>type: UnitFactory
-size: 2
-consumes: {
-  power: 1.2
-}
-plans: [
-  {
-    unit: soul
-    time: 1080
-    requirements: [
-      silicon/25
-      metaglass/30
-    ]
-  }
-  {
-    unit: victory
-    time: 1250
-    requirements: [
-      silicon/20
-      lead/35
-      titanium/25
-    ]
-  }
-  {
-    unit: outbreak
-    time: 1100
-    requirements: [
-      silicon/25
-      graphite/20
-    ]
-  }
-  {
-    unit: flicker
-    time: 2400
-    requirements: [
-      silicon/30
-      lead/15
-      graphite/10
-    ]
-  }
-]
-requirements: [
-  lead/75
-  silicon/40
-]
-research: ground-factory
-category: units
 </code></pre>
 <h2 id="walloreblock">WallOreBlock</h2>
 <p><em>extends <a href="#oreblock">OreBlock</a></em></p>
@@ -19420,6 +19420,121 @@ shootEffect: {
   colorTo: ffffff00
 }
 </code></pre>
+<h2 id="pointdefenseweapon">PointDefenseWeapon</h2>
+<p><em>extends <a href="#weapon">Weapon</a></em></p>
+<p>Note that this requires several things:
+- A bullet with positive maxRange
+- A bullet with positive damage
+- Rotation</p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>color</td>
+<td>Color</td>
+<td>ffffffff</td>
+<td></td>
+</tr>
+<tr>
+<td>beamEffect</td>
+<td>Effect</td>
+<td>pointBeam</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h4 id="example_19">Example</h4>
+<pre><code>name: aftermath-weapon
+controllable: false
+autoTarget: true
+targetInterval: 0
+targetSwitchInterval: 0
+x: 42.75
+y: 47
+beamEffect: none
+recoil: 0
+reload: 3
+rotate: true
+shootSound: none
+bullet: {
+  damage: 2500
+  maxRange: 320
+  shootEffect: {
+    lightOpacity: 0
+    particles: 15
+    baseLength: 25
+    length: -25
+    lifetime: 20
+    cone: 15
+    sizeFrom: 2
+    colorFrom: 00000050
+    colorTo: 000000
+  }
+  hitEffect: {
+    layer: 110.001
+    effects: [
+      {
+        length: 0
+        lightOpacity: 0
+        sizeInterp: pow10In
+        lifetime: 30
+        particles: 1
+        region: exotic-mod-vapour1
+        sizeFrom: 20
+        sizeTo: 0
+        spin: 8
+        colorFrom: 000000
+        colorTo: 000000
+      }
+      {
+        length: 0
+        lightOpacity: 0
+        sizeInterp: pow10In
+        lifetime: 30
+        particles: 1
+        region: exotic-mod-vapour1
+        sizeFrom: 16
+        sizeTo: 0
+        spin: 12
+        colorFrom: 000000
+        colorTo: 000000
+      }
+      {
+        length: 0
+        lightOpacity: 0
+        sizeInterp: pow10In
+        lifetime: 30
+        particles: 1
+        region: exotic-mod-vapour1
+        sizeFrom: 13
+        sizeTo: 0
+        spin: 6
+        colorFrom: 000000
+        colorTo: 000000
+      }
+      {
+        length: 0
+        lightOpacity: 0
+        sizeInterp: pow10In
+        lifetime: 30
+        particles: 1
+        region: circle-shadow
+        sizeFrom: 30
+        sizeTo: 0
+        colorFrom: 000000
+        colorTo: 000000
+      }
+    ]
+  }
+}
+</code></pre>
 <h2 id="repairbeamweapon">RepairBeamWeapon</h2>
 <p><em>extends <a href="#weapon">Weapon</a></em></p>
 <p>Note that this weapon requires a bullet with a positive maxRange.
@@ -19552,7 +19667,7 @@ Rotation must be set to true. Fixed repair points are not supported.</p>
 </tr>
 </tbody>
 </table>
-<h4 id="example_19">Example</h4>
+<h4 id="example_20">Example</h4>
 <pre><code>range: 80
 amount: 650
 reload: 45
@@ -19613,7 +19728,7 @@ reload: 45
 </tr>
 </tbody>
 </table>
-<h4 id="example_20">Example</h4>
+<h4 id="example_21">Example</h4>
 <pre><code>range: 300
 amount: 12500
 max: 45000
@@ -19703,7 +19818,7 @@ applyEffect: {
 </tr>
 </tbody>
 </table>
-<h4 id="example_21">Example</h4>
+<h4 id="example_22">Example</h4>
 <pre><code>reload: 7200
 range: 1
 duration: 5
@@ -19731,6 +19846,62 @@ activeEffect: {
   ]
 }
 effect: exotic-mod-eternal
+</code></pre>
+<h2 id="unitspawnability">UnitSpawnAbility</h2>
+<p><em>extends <a href="#ability">Ability</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>unit</td>
+<td>UnitType</td>
+<td>null</td>
+<td></td>
+</tr>
+<tr>
+<td>spawnTime</td>
+<td>float</td>
+<td>60.0</td>
+<td></td>
+</tr>
+<tr>
+<td>spawnX</td>
+<td>float</td>
+<td>0.0</td>
+<td></td>
+</tr>
+<tr>
+<td>spawnY</td>
+<td>float</td>
+<td>0.0</td>
+<td></td>
+</tr>
+<tr>
+<td>spawnEffect</td>
+<td>Effect</td>
+<td>spawn</td>
+<td></td>
+</tr>
+<tr>
+<td>parentizeEffects</td>
+<td>boolean</td>
+<td>false</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h4 id="example_23">Example</h4>
+<pre><code>unit: fortress
+spawnX: 30
+spawnY: 0
+spawnTime: 1440
 </code></pre>
 <h2 id="weapon">Weapon</h2>
 <p><em>extends <a href="#object">Object</a></em></p>
@@ -20058,7 +20229,7 @@ effect: exotic-mod-eternal
 </tr>
 </tbody>
 </table>
-<h4 id="example_22">Example</h4>
+<h4 id="example_24">Example</h4>
 <pre><code>name: inferno-cannon
 x: 54.75
 top: false
@@ -20089,177 +20260,6 @@ bullet: {
     ffffff
   ]
 }
-</code></pre>
-<h2 id="pointdefenseweapon">PointDefenseWeapon</h2>
-<p><em>extends <a href="#weapon">Weapon</a></em></p>
-<p>Note that this requires several things:
-- A bullet with positive maxRange
-- A bullet with positive damage
-- Rotation</p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>color</td>
-<td>Color</td>
-<td>ffffffff</td>
-<td></td>
-</tr>
-<tr>
-<td>beamEffect</td>
-<td>Effect</td>
-<td>pointBeam</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<h4 id="example_23">Example</h4>
-<pre><code>name: aftermath-weapon
-controllable: false
-autoTarget: true
-targetInterval: 0
-targetSwitchInterval: 0
-x: 42.75
-y: 47
-beamEffect: none
-recoil: 0
-reload: 3
-rotate: true
-shootSound: none
-bullet: {
-  damage: 2500
-  maxRange: 320
-  shootEffect: {
-    lightOpacity: 0
-    particles: 15
-    baseLength: 25
-    length: -25
-    lifetime: 20
-    cone: 15
-    sizeFrom: 2
-    colorFrom: 00000050
-    colorTo: 000000
-  }
-  hitEffect: {
-    layer: 110.001
-    effects: [
-      {
-        length: 0
-        lightOpacity: 0
-        sizeInterp: pow10In
-        lifetime: 30
-        particles: 1
-        region: exotic-mod-vapour1
-        sizeFrom: 20
-        sizeTo: 0
-        spin: 8
-        colorFrom: 000000
-        colorTo: 000000
-      }
-      {
-        length: 0
-        lightOpacity: 0
-        sizeInterp: pow10In
-        lifetime: 30
-        particles: 1
-        region: exotic-mod-vapour1
-        sizeFrom: 16
-        sizeTo: 0
-        spin: 12
-        colorFrom: 000000
-        colorTo: 000000
-      }
-      {
-        length: 0
-        lightOpacity: 0
-        sizeInterp: pow10In
-        lifetime: 30
-        particles: 1
-        region: exotic-mod-vapour1
-        sizeFrom: 13
-        sizeTo: 0
-        spin: 6
-        colorFrom: 000000
-        colorTo: 000000
-      }
-      {
-        length: 0
-        lightOpacity: 0
-        sizeInterp: pow10In
-        lifetime: 30
-        particles: 1
-        region: circle-shadow
-        sizeFrom: 30
-        sizeTo: 0
-        colorFrom: 000000
-        colorTo: 000000
-      }
-    ]
-  }
-}
-</code></pre>
-<h2 id="unitspawnability">UnitSpawnAbility</h2>
-<p><em>extends <a href="#ability">Ability</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>unit</td>
-<td>UnitType</td>
-<td>null</td>
-<td></td>
-</tr>
-<tr>
-<td>spawnTime</td>
-<td>float</td>
-<td>60.0</td>
-<td></td>
-</tr>
-<tr>
-<td>spawnX</td>
-<td>float</td>
-<td>0.0</td>
-<td></td>
-</tr>
-<tr>
-<td>spawnY</td>
-<td>float</td>
-<td>0.0</td>
-<td></td>
-</tr>
-<tr>
-<td>spawnEffect</td>
-<td>Effect</td>
-<td>spawn</td>
-<td></td>
-</tr>
-<tr>
-<td>parentizeEffects</td>
-<td>boolean</td>
-<td>false</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<h4 id="example_24">Example</h4>
-<pre><code>unit: fortress
-spawnX: 30
-spawnY: 0
-spawnTime: 1440
 </code></pre>
 <h2 id="buildvisibility">BuildVisibility</h2>
 <p>A flag used by the game to change a few special-case things. It may be one of the following strings:</p>
