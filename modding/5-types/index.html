@@ -9686,6 +9686,8 @@
 </tr>
 </tbody>
 </table>
+<h2 id="airblock">AirBlock</h2>
+<p><em>extends <a href="#floor">Floor</a></em></p>
 <h2 id="armoredconduit">ArmoredConduit</h2>
 <p><em>extends <a href="#conduit">Conduit</a></em></p>
 <h2 id="armoredconveyor">ArmoredConveyor</h2>
@@ -9729,372 +9731,6 @@
 </tr>
 </tbody>
 </table>
-<h2 id="ballisticsilo">BallisticSilo</h2>
-<p><em>extends <a href="#payloadblock">PayloadBlock</a></em></p>
-<h2 id="drill">Drill</h2>
-<p><em>extends <a href="#block">Block</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>hardnessDrillMultiplier</td>
-<td>float</td>
-<td>50.0</td>
-<td></td>
-</tr>
-<tr>
-<td>tier</td>
-<td>int</td>
-<td>0</td>
-<td>Maximum tier of blocks this drill can mine.</td>
-</tr>
-<tr>
-<td>drillTime</td>
-<td>float</td>
-<td>300.0</td>
-<td>Base time to drill one ore, in frames.</td>
-</tr>
-<tr>
-<td>liquidBoostIntensity</td>
-<td>float</td>
-<td>1.6</td>
-<td>How many times faster the drill will progress when boosted by liquid.</td>
-</tr>
-<tr>
-<td>warmupSpeed</td>
-<td>float</td>
-<td>0.015</td>
-<td>Speed at which the drill speeds up.</td>
-</tr>
-<tr>
-<td>drawMineItem</td>
-<td>boolean</td>
-<td>true</td>
-<td>Whether to draw the item this drill is mining.</td>
-</tr>
-<tr>
-<td>drillEffect</td>
-<td>Effect</td>
-<td>mine</td>
-<td>Effect played when an item is produced. This is colored.</td>
-</tr>
-<tr>
-<td>drillEffectRnd</td>
-<td>float</td>
-<td>-1.0</td>
-<td>Drill effect randomness. Block size by default.</td>
-</tr>
-<tr>
-<td>rotateSpeed</td>
-<td>float</td>
-<td>2.0</td>
-<td>Speed the drill bit rotates at.</td>
-</tr>
-<tr>
-<td>updateEffect</td>
-<td>Effect</td>
-<td>pulverizeSmall</td>
-<td>Effect randomly played while drilling.</td>
-</tr>
-<tr>
-<td>updateEffectChance</td>
-<td>float</td>
-<td>0.02</td>
-<td>Chance the update effect will appear.</td>
-</tr>
-<tr>
-<td>drawRim</td>
-<td>boolean</td>
-<td>false</td>
-<td></td>
-</tr>
-<tr>
-<td>drawSpinSprite</td>
-<td>boolean</td>
-<td>true</td>
-<td></td>
-</tr>
-<tr>
-<td>heatColor</td>
-<td>Color</td>
-<td>ff5512ff</td>
-<td></td>
-</tr>
-<tr>
-<td>rimRegion</td>
-<td>TextureRegion</td>
-<td>null</td>
-<td></td>
-</tr>
-<tr>
-<td>rotatorRegion</td>
-<td>TextureRegion</td>
-<td>null</td>
-<td></td>
-</tr>
-<tr>
-<td>topRegion</td>
-<td>TextureRegion</td>
-<td>null</td>
-<td></td>
-</tr>
-<tr>
-<td>itemRegion</td>
-<td>TextureRegion</td>
-<td>null</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<h4 id="example-bluewolframite-drill">Example  <a href="https://github.com/BlueWolf3682/Exotic-Mod/tree/master/content/blocks/production/bluewolframite-drill.hjson">("Bluewolframite Drill")</a></h4>
-<pre><code>type: Drill
-size: 7
-tier: 28
-drillTime: 3.5
-liquidBoostIntensity: 6.4
-liquidCapacity: 480
-drawRim: true
-consumes: {
-  power: 14.8
-  liquid: {
-    liquid: mag-slag
-    amount: 0.85
-    booster: true
-    optional: true
-  }
-}
-requirements: [
-  copper/2310
-  lead/2540
-  silicon/1540
-  titanium/1330
-  thorium/1660
-  surge-alloy/450
-  bluewolframite/380
-]
-category: production
-research: andromeda-drill
-ambientSound: drill
-ambientSoundVolume: 1.55
-</code></pre>
-<h2 id="duct">Duct</h2>
-<p><em>extends <a href="#block">Block</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>speed</td>
-<td>float</td>
-<td>5.0</td>
-<td></td>
-</tr>
-<tr>
-<td>topRegions</td>
-<td>TextureRegion[]</td>
-<td>null</td>
-<td></td>
-</tr>
-<tr>
-<td>botRegions</td>
-<td>TextureRegion[]</td>
-<td>null</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<h2 id="floor">Floor</h2>
-<p><em>extends <a href="#block">Block</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>edge</td>
-<td>String</td>
-<td>"stone"</td>
-<td>edge fallback, used mainly for ores</td>
-</tr>
-<tr>
-<td>speedMultiplier</td>
-<td>float</td>
-<td>1.0</td>
-<td>Multiplies unit velocity by this when walked on.</td>
-</tr>
-<tr>
-<td>dragMultiplier</td>
-<td>float</td>
-<td>1.0</td>
-<td>Multiplies unit drag by this when walked on.</td>
-</tr>
-<tr>
-<td>damageTaken</td>
-<td>float</td>
-<td>0.0</td>
-<td>Damage taken per tick on this tile.</td>
-</tr>
-<tr>
-<td>drownTime</td>
-<td>float</td>
-<td>0.0</td>
-<td>How many ticks it takes to drown on this. 0 to disable.</td>
-</tr>
-<tr>
-<td>walkEffect</td>
-<td>Effect</td>
-<td>none</td>
-<td>Effect when walking on this floor.</td>
-</tr>
-<tr>
-<td>walkSound</td>
-<td>Sound</td>
-<td>none</td>
-<td>Sound made when walking.</td>
-</tr>
-<tr>
-<td>walkSoundVolume</td>
-<td>float</td>
-<td>0.1</td>
-<td>Volume of sound made when walking.</td>
-</tr>
-<tr>
-<td>walkSoundPitchMin</td>
-<td>float</td>
-<td>0.8</td>
-<td>Volume of sound made when walking.</td>
-</tr>
-<tr>
-<td>walkSoundPitchMax</td>
-<td>float</td>
-<td>1.2</td>
-<td>Volume of sound made when walking.</td>
-</tr>
-<tr>
-<td>drownUpdateEffect</td>
-<td>Effect</td>
-<td>bubble</td>
-<td>Effect displayed when drowning on this floor.</td>
-</tr>
-<tr>
-<td>status</td>
-<td>StatusEffect</td>
-<td>none</td>
-<td>Status effect applied when walking on.</td>
-</tr>
-<tr>
-<td>statusDuration</td>
-<td>float</td>
-<td>60.0</td>
-<td>Intensity of applied status effect.</td>
-</tr>
-<tr>
-<td>liquidDrop</td>
-<td>Liquid</td>
-<td>null</td>
-<td>liquids that drop from this block, used for pumps.</td>
-</tr>
-<tr>
-<td>liquidMultiplier</td>
-<td>float</td>
-<td>1.0</td>
-<td>Multiplier for pumped liquids, used for deep water.</td>
-</tr>
-<tr>
-<td>isLiquid</td>
-<td>boolean</td>
-<td>false</td>
-<td>whether this block is liquid.</td>
-</tr>
-<tr>
-<td>shallow</td>
-<td>boolean</td>
-<td>false</td>
-<td>shallow water flag used for generation</td>
-</tr>
-<tr>
-<td>playerUnmineable</td>
-<td>boolean</td>
-<td>false</td>
-<td>if true, this block cannot be mined by players. useful for annoying things like sand.</td>
-</tr>
-<tr>
-<td>blendGroup</td>
-<td>Block</td>
-<td>this</td>
-<td>Group of blocks that this block does not draw edges on.</td>
-</tr>
-<tr>
-<td>oreDefault</td>
-<td>boolean</td>
-<td>false</td>
-<td>Whether this ore generates in maps by default.</td>
-</tr>
-<tr>
-<td>oreScale</td>
-<td>float</td>
-<td>24.0</td>
-<td>Ore generation params.</td>
-</tr>
-<tr>
-<td>oreThreshold</td>
-<td>float</td>
-<td>0.828</td>
-<td>Ore generation params.</td>
-</tr>
-<tr>
-<td>wall</td>
-<td>Block</td>
-<td>air</td>
-<td>Wall variant of this block. May be Blocks.air if not found.</td>
-</tr>
-<tr>
-<td>decoration</td>
-<td>Block</td>
-<td>air</td>
-<td>Decoration block. Usually a rock. May be air.</td>
-</tr>
-<tr>
-<td>canShadow</td>
-<td>boolean</td>
-<td>true</td>
-<td>Whether units can draw shadows over this.</td>
-</tr>
-<tr>
-<td>needsSurface</td>
-<td>boolean</td>
-<td>true</td>
-<td>Whether this overlay needs a surface to be on. False for floating blocks, like spawns.</td>
-</tr>
-</tbody>
-</table>
-<h4 id="example-crystal-dunes">Example  <a href="https://github.com/BlueWolf3682/Exotic-Mod/tree/master/content/blocks/environment/crystal-dune.hjson">("Crystal Dunes")</a></h4>
-<pre><code>type: Floor
-variants: 3
-wall: crystal-wall
-itemDrop: sand
-playerUnmineable: true
-</code></pre>
-<h2 id="airblock">AirBlock</h2>
-<p><em>extends <a href="#floor">Floor</a></em></p>
 <h2 id="baseturret">BaseTurret</h2>
 <p><em>extends <a href="#block">Block</a></em></p>
 <table>
@@ -10280,8 +9916,8 @@ requirements: [
 </tr>
 </tbody>
 </table>
-<h2 id="bush">Bush</h2>
-<p><em>extends <a href="#prop">Prop</a></em></p>
+<h2 id="burnergenerator">BurnerGenerator</h2>
+<p><em>extends <a href="#itemliquidgenerator">ItemLiquidGenerator</a></em></p>
 <table>
 <thead>
 <tr>
@@ -10293,111 +9929,42 @@ requirements: [
 </thead>
 <tbody>
 <tr>
-<td>botRegion</td>
-<td>TextureRegion</td>
-<td>null</td>
-<td></td>
-</tr>
-<tr>
-<td>centerRegion</td>
-<td>TextureRegion</td>
-<td>null</td>
-<td></td>
-</tr>
-<tr>
-<td>lobesMin</td>
-<td>int</td>
-<td>7</td>
-<td></td>
-</tr>
-<tr>
-<td>lobesMax</td>
-<td>int</td>
-<td>7</td>
-<td></td>
-</tr>
-<tr>
-<td>botAngle</td>
-<td>float</td>
-<td>60.0</td>
-<td></td>
-</tr>
-<tr>
-<td>origin</td>
-<td>float</td>
-<td>0.1</td>
-<td></td>
-</tr>
-<tr>
-<td>sclMin</td>
-<td>float</td>
-<td>30.0</td>
-<td></td>
-</tr>
-<tr>
-<td>sclMax</td>
-<td>float</td>
-<td>50.0</td>
-<td></td>
-</tr>
-<tr>
-<td>magMin</td>
-<td>float</td>
-<td>5.0</td>
-<td></td>
-</tr>
-<tr>
-<td>magMax</td>
-<td>float</td>
-<td>15.0</td>
-<td></td>
-</tr>
-<tr>
-<td>timeRange</td>
-<td>float</td>
-<td>40.0</td>
-<td></td>
-</tr>
-<tr>
-<td>spread</td>
-<td>float</td>
-<td>0.0</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<h2 id="cliff">Cliff</h2>
-<p><em>extends <a href="#block">Block</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>size</td>
-<td>float</td>
-<td>11.0</td>
-<td></td>
-</tr>
-<tr>
-<td>cliffs</td>
+<td>turbineRegions</td>
 <td>TextureRegion[]</td>
 <td>null</td>
 <td></td>
 </tr>
 <tr>
-<td>editorCliffs</td>
-<td>TextureRegion[]</td>
+<td>capRegion</td>
+<td>TextureRegion</td>
 <td>null</td>
+<td></td>
+</tr>
+<tr>
+<td>turbineSpeed</td>
+<td>float</td>
+<td>2.0</td>
 <td></td>
 </tr>
 </tbody>
 </table>
+<h4 id="example-burner-array">Example  <a href="https://github.com/BlueWolf3682/Exotic-Mod/tree/master/content/blocks/power/burner-array.hjson">("Burner Array")</a></h4>
+<pre><code>type: BurnerGenerator
+size: 4
+powerProduction: 10.5
+itemDuration: 20
+minItemEfficiency: 0.4
+minLiquidEfficiency: 0.6
+category: power
+research: combustion-generator
+requirements: [
+  copper/250
+  lead/200
+  territe-alloy/200
+  thorium/150
+  amethyst-gem/50
+]
+</code></pre>
 <h2 id="commandcenter">CommandCenter</h2>
 <p><em>extends <a href="#block">Block</a></em></p>
 <table>
@@ -10537,6 +10104,39 @@ liquidPressure: 4.4
 placeableLiquid: true
 category: liquid
 </code></pre>
+<h2 id="constructor">Constructor</h2>
+<p><em>extends <a href="#blockproducer">BlockProducer</a></em></p>
+<p>Configurable BlockProducer variant.</p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>buildSpeed</td>
+<td>float</td>
+<td>0.4</td>
+<td></td>
+</tr>
+<tr>
+<td>minBlockSize</td>
+<td>int</td>
+<td>1</td>
+<td></td>
+</tr>
+<tr>
+<td>maxBlockSize</td>
+<td>int</td>
+<td>2</td>
+<td></td>
+</tr>
+</tbody>
+</table>
 <h2 id="conveyor">Conveyor</h2>
 <p><em>extends <a href="#block">Block</a></em></p>
 <table>
@@ -10658,7 +10258,51 @@ requirements: [
 ]
 research: core-nexus
 </code></pre>
-<h2 id="forceprojector">ForceProjector</h2>
+<h2 id="door">Door</h2>
+<p><em>extends <a href="#wall">Wall</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>timerToggle</td>
+<td>int</td>
+<td>1</td>
+<td></td>
+</tr>
+<tr>
+<td>openfx</td>
+<td>Effect</td>
+<td>dooropen</td>
+<td></td>
+</tr>
+<tr>
+<td>closefx</td>
+<td>Effect</td>
+<td>doorclose</td>
+<td></td>
+</tr>
+<tr>
+<td>doorSound</td>
+<td>Sound</td>
+<td>door</td>
+<td></td>
+</tr>
+<tr>
+<td>openRegion</td>
+<td>TextureRegion</td>
+<td>null</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="duct">Duct</h2>
 <p><em>extends <a href="#block">Block</a></em></p>
 <table>
 <thead>
@@ -10671,69 +10315,91 @@ research: core-nexus
 </thead>
 <tbody>
 <tr>
-<td>timerUse</td>
+<td>speed</td>
+<td>float</td>
+<td>5.0</td>
+<td></td>
+</tr>
+<tr>
+<td>topRegions</td>
+<td>TextureRegion[]</td>
+<td>null</td>
+<td></td>
+</tr>
+<tr>
+<td>botRegions</td>
+<td>TextureRegion[]</td>
+<td>null</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="ductbridge">DuctBridge</h2>
+<p><em>extends <a href="#block">Block</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>bridgeRegion</td>
+<td>TextureRegion</td>
+<td>null</td>
+<td></td>
+</tr>
+<tr>
+<td>bridgeBotRegion</td>
+<td>TextureRegion</td>
+<td>null</td>
+<td></td>
+</tr>
+<tr>
+<td>arrowRegion</td>
+<td>TextureRegion</td>
+<td>null</td>
+<td></td>
+</tr>
+<tr>
+<td>dirRegion</td>
+<td>TextureRegion</td>
+<td>null</td>
+<td></td>
+</tr>
+<tr>
+<td>range</td>
 <td>int</td>
-<td>1</td>
+<td>4</td>
 <td></td>
 </tr>
 <tr>
-<td>phaseUseTime</td>
+<td>speed</td>
 <td>float</td>
-<td>350.0</td>
+<td>5.0</td>
 <td></td>
 </tr>
+</tbody>
+</table>
+<h2 id="ductrouter">DuctRouter</h2>
+<p><em>extends <a href="#block">Block</a></em></p>
+<table>
+<thead>
 <tr>
-<td>phaseRadiusBoost</td>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>speed</td>
 <td>float</td>
-<td>80.0</td>
-<td></td>
-</tr>
-<tr>
-<td>phaseShieldBoost</td>
-<td>float</td>
-<td>400.0</td>
-<td></td>
-</tr>
-<tr>
-<td>radius</td>
-<td>float</td>
-<td>101.7</td>
-<td></td>
-</tr>
-<tr>
-<td>shieldHealth</td>
-<td>float</td>
-<td>700.0</td>
-<td></td>
-</tr>
-<tr>
-<td>cooldownNormal</td>
-<td>float</td>
-<td>1.75</td>
-<td></td>
-</tr>
-<tr>
-<td>cooldownLiquid</td>
-<td>float</td>
-<td>1.5</td>
-<td></td>
-</tr>
-<tr>
-<td>cooldownBrokenBase</td>
-<td>float</td>
-<td>0.35</td>
-<td></td>
-</tr>
-<tr>
-<td>absorbEffect</td>
-<td>Effect</td>
-<td>absorb</td>
-<td></td>
-</tr>
-<tr>
-<td>shieldBreakEffect</td>
-<td>Effect</td>
-<td>shieldBreak</td>
+<td>5.0</td>
 <td></td>
 </tr>
 <tr>
@@ -10744,36 +10410,232 @@ research: core-nexus
 </tr>
 </tbody>
 </table>
-<h4 id="example-shielded-wall">Example  <a href="https://github.com/BlueWolf3682/Exotic-Mod/tree/master/content/blocks/defence/shielded-wall.hjson">("Shielded Wall")</a></h4>
-<pre><code>type: ForceProjector
-health: 4600
-size: 2
-radius: 20
-shieldHealth: 11000
-cooldownNormal: 48.5
+<h2 id="floor">Floor</h2>
+<p><em>extends <a href="#block">Block</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>edge</td>
+<td>String</td>
+<td>"stone"</td>
+<td>edge fallback, used mainly for ores</td>
+</tr>
+<tr>
+<td>speedMultiplier</td>
+<td>float</td>
+<td>1.0</td>
+<td>Multiplies unit velocity by this when walked on.</td>
+</tr>
+<tr>
+<td>dragMultiplier</td>
+<td>float</td>
+<td>1.0</td>
+<td>Multiplies unit drag by this when walked on.</td>
+</tr>
+<tr>
+<td>damageTaken</td>
+<td>float</td>
+<td>0.0</td>
+<td>Damage taken per tick on this tile.</td>
+</tr>
+<tr>
+<td>drownTime</td>
+<td>float</td>
+<td>0.0</td>
+<td>How many ticks it takes to drown on this. 0 to disable.</td>
+</tr>
+<tr>
+<td>walkEffect</td>
+<td>Effect</td>
+<td>none</td>
+<td>Effect when walking on this floor.</td>
+</tr>
+<tr>
+<td>walkSound</td>
+<td>Sound</td>
+<td>none</td>
+<td>Sound made when walking.</td>
+</tr>
+<tr>
+<td>walkSoundVolume</td>
+<td>float</td>
+<td>0.1</td>
+<td>Volume of sound made when walking.</td>
+</tr>
+<tr>
+<td>walkSoundPitchMin</td>
+<td>float</td>
+<td>0.8</td>
+<td>Volume of sound made when walking.</td>
+</tr>
+<tr>
+<td>walkSoundPitchMax</td>
+<td>float</td>
+<td>1.2</td>
+<td>Volume of sound made when walking.</td>
+</tr>
+<tr>
+<td>drownUpdateEffect</td>
+<td>Effect</td>
+<td>bubble</td>
+<td>Effect displayed when drowning on this floor.</td>
+</tr>
+<tr>
+<td>status</td>
+<td>StatusEffect</td>
+<td>none</td>
+<td>Status effect applied when walking on.</td>
+</tr>
+<tr>
+<td>statusDuration</td>
+<td>float</td>
+<td>60.0</td>
+<td>Intensity of applied status effect.</td>
+</tr>
+<tr>
+<td>liquidDrop</td>
+<td>Liquid</td>
+<td>null</td>
+<td>liquids that drop from this block, used for pumps.</td>
+</tr>
+<tr>
+<td>liquidMultiplier</td>
+<td>float</td>
+<td>1.0</td>
+<td>Multiplier for pumped liquids, used for deep water.</td>
+</tr>
+<tr>
+<td>isLiquid</td>
+<td>boolean</td>
+<td>false</td>
+<td>whether this block is liquid.</td>
+</tr>
+<tr>
+<td>shallow</td>
+<td>boolean</td>
+<td>false</td>
+<td>shallow water flag used for generation</td>
+</tr>
+<tr>
+<td>playerUnmineable</td>
+<td>boolean</td>
+<td>false</td>
+<td>if true, this block cannot be mined by players. useful for annoying things like sand.</td>
+</tr>
+<tr>
+<td>blendGroup</td>
+<td>Block</td>
+<td>this</td>
+<td>Group of blocks that this block does not draw edges on.</td>
+</tr>
+<tr>
+<td>oreDefault</td>
+<td>boolean</td>
+<td>false</td>
+<td>Whether this ore generates in maps by default.</td>
+</tr>
+<tr>
+<td>oreScale</td>
+<td>float</td>
+<td>24.0</td>
+<td>Ore generation params.</td>
+</tr>
+<tr>
+<td>oreThreshold</td>
+<td>float</td>
+<td>0.828</td>
+<td>Ore generation params.</td>
+</tr>
+<tr>
+<td>wall</td>
+<td>Block</td>
+<td>air</td>
+<td>Wall variant of this block. May be Blocks.air if not found.</td>
+</tr>
+<tr>
+<td>decoration</td>
+<td>Block</td>
+<td>air</td>
+<td>Decoration block. Usually a rock. May be air.</td>
+</tr>
+<tr>
+<td>canShadow</td>
+<td>boolean</td>
+<td>true</td>
+<td>Whether units can draw shadows over this.</td>
+</tr>
+<tr>
+<td>needsSurface</td>
+<td>boolean</td>
+<td>true</td>
+<td>Whether this overlay needs a surface to be on. False for floating blocks, like spawns.</td>
+</tr>
+</tbody>
+</table>
+<h4 id="example-crystal-dunes">Example  <a href="https://github.com/BlueWolf3682/Exotic-Mod/tree/master/content/blocks/environment/crystal-dune.hjson">("Crystal Dunes")</a></h4>
+<pre><code>type: Floor
+variants: 3
+wall: crystal-wall
+itemDrop: sand
+playerUnmineable: true
+</code></pre>
+<h2 id="emptyfloor">EmptyFloor</h2>
+<p><em>extends <a href="#floor">Floor</a></em></p>
+<p>Empty floor is <em>not</em> equivalent to air. Unlike air, it is solid, and still draws neighboring tile edges.</p>
+<h2 id="fracker">Fracker</h2>
+<p><em>extends <a href="#solidpump">SolidPump</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>itemUseTime</td>
+<td>float</td>
+<td>100.0</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h4 id="example-mass-extractor">Example  <a href="https://github.com/BlueWolf3682/Exotic-Mod/tree/master/content/blocks/production/mass-extractor.hjson">("Mass Extractor")</a></h4>
+<pre><code>type: Fracker
+size: 5
+liquidCapacity: 120
+result: water
+attribute: water
+pumpAmount: 1.2
+itemUseTime: 210
 consumes: {
-  power: 1.75
+  power: 11
   items: {
     items: [
-      silicon/1
+      amethyst-gem/1
     ]
-    booster: false
-    optional: true
   }
 }
+category: production
+research: water-extractor
 requirements: [
-  lead/75
-  silicon/25
-  titanium/35
-  surge-alloy/25
-  bluewolframite/15
+  copper/1500
+  silicon/1200
+  metaglass/1000
+  graphite/600
+  thorium/450
+  ladera/150
 ]
-hasItems: false
-itemCapacity: 0
-phaseUseTime: 2147483647
-phaseRadiusBoost: 0
-category: defense
-research: force-projector
 </code></pre>
 <h2 id="genericcrafter">GenericCrafter</h2>
 <p><em>extends <a href="#block">Block</a></em></p>
@@ -10988,455 +10850,6 @@ ambientSound: pulse
 ambientSoundVolume: 0.2
 research: impact-reactor
 </code></pre>
-<h2 id="itemliquidgenerator">ItemLiquidGenerator</h2>
-<p><em>extends <a href="#powergenerator">PowerGenerator</a></em></p>
-<p>Power generation block which can use items, liquids or both as input sources for power production.
-Liquids will take priority over items.</p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>minItemEfficiency</td>
-<td>float</td>
-<td>0.2</td>
-<td></td>
-</tr>
-<tr>
-<td>itemDuration</td>
-<td>float</td>
-<td>70.0</td>
-<td>The time in number of ticks during which a single item will produce power.</td>
-</tr>
-<tr>
-<td>minLiquidEfficiency</td>
-<td>float</td>
-<td>0.2</td>
-<td></td>
-</tr>
-<tr>
-<td>maxLiquidGenerate</td>
-<td>float</td>
-<td>0.4</td>
-<td>Maximum liquid used per frame.</td>
-</tr>
-<tr>
-<td>generateEffect</td>
-<td>Effect</td>
-<td>generatespark</td>
-<td></td>
-</tr>
-<tr>
-<td>generateEffectRnd</td>
-<td>float</td>
-<td>3.0</td>
-<td></td>
-</tr>
-<tr>
-<td>explodeEffect</td>
-<td>Effect</td>
-<td>generatespark</td>
-<td></td>
-</tr>
-<tr>
-<td>heatColor</td>
-<td>Color</td>
-<td>ff9b59ff</td>
-<td></td>
-</tr>
-<tr>
-<td>topRegion</td>
-<td>TextureRegion</td>
-<td>null</td>
-<td></td>
-</tr>
-<tr>
-<td>liquidRegion</td>
-<td>TextureRegion</td>
-<td>null</td>
-<td></td>
-</tr>
-<tr>
-<td>randomlyExplode</td>
-<td>boolean</td>
-<td>true</td>
-<td></td>
-</tr>
-<tr>
-<td>defaults</td>
-<td>boolean</td>
-<td>false</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<h2 id="burnergenerator">BurnerGenerator</h2>
-<p><em>extends <a href="#itemliquidgenerator">ItemLiquidGenerator</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>turbineRegions</td>
-<td>TextureRegion[]</td>
-<td>null</td>
-<td></td>
-</tr>
-<tr>
-<td>capRegion</td>
-<td>TextureRegion</td>
-<td>null</td>
-<td></td>
-</tr>
-<tr>
-<td>turbineSpeed</td>
-<td>float</td>
-<td>2.0</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<h4 id="example-burner-array">Example  <a href="https://github.com/BlueWolf3682/Exotic-Mod/tree/master/content/blocks/power/burner-array.hjson">("Burner Array")</a></h4>
-<pre><code>type: BurnerGenerator
-size: 4
-powerProduction: 10.5
-itemDuration: 20
-minItemEfficiency: 0.4
-minLiquidEfficiency: 0.6
-category: power
-research: combustion-generator
-requirements: [
-  copper/250
-  lead/200
-  territe-alloy/200
-  thorium/150
-  amethyst-gem/50
-]
-</code></pre>
-<h2 id="constructor">Constructor</h2>
-<p><em>extends <a href="#blockproducer">BlockProducer</a></em></p>
-<p>Configurable BlockProducer variant.</p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>buildSpeed</td>
-<td>float</td>
-<td>0.4</td>
-<td></td>
-</tr>
-<tr>
-<td>minBlockSize</td>
-<td>int</td>
-<td>1</td>
-<td></td>
-</tr>
-<tr>
-<td>maxBlockSize</td>
-<td>int</td>
-<td>2</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<h2 id="decaygenerator">DecayGenerator</h2>
-<p><em>extends <a href="#itemliquidgenerator">ItemLiquidGenerator</a></em></p>
-<h2 id="door">Door</h2>
-<p><em>extends <a href="#wall">Wall</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>timerToggle</td>
-<td>int</td>
-<td>1</td>
-<td></td>
-</tr>
-<tr>
-<td>openfx</td>
-<td>Effect</td>
-<td>dooropen</td>
-<td></td>
-</tr>
-<tr>
-<td>closefx</td>
-<td>Effect</td>
-<td>doorclose</td>
-<td></td>
-</tr>
-<tr>
-<td>doorSound</td>
-<td>Sound</td>
-<td>door</td>
-<td></td>
-</tr>
-<tr>
-<td>openRegion</td>
-<td>TextureRegion</td>
-<td>null</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<h2 id="ductbridge">DuctBridge</h2>
-<p><em>extends <a href="#block">Block</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>bridgeRegion</td>
-<td>TextureRegion</td>
-<td>null</td>
-<td></td>
-</tr>
-<tr>
-<td>bridgeBotRegion</td>
-<td>TextureRegion</td>
-<td>null</td>
-<td></td>
-</tr>
-<tr>
-<td>arrowRegion</td>
-<td>TextureRegion</td>
-<td>null</td>
-<td></td>
-</tr>
-<tr>
-<td>dirRegion</td>
-<td>TextureRegion</td>
-<td>null</td>
-<td></td>
-</tr>
-<tr>
-<td>range</td>
-<td>int</td>
-<td>4</td>
-<td></td>
-</tr>
-<tr>
-<td>speed</td>
-<td>float</td>
-<td>5.0</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<h2 id="ductrouter">DuctRouter</h2>
-<p><em>extends <a href="#block">Block</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>speed</td>
-<td>float</td>
-<td>5.0</td>
-<td></td>
-</tr>
-<tr>
-<td>topRegion</td>
-<td>TextureRegion</td>
-<td>null</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<h2 id="emptyfloor">EmptyFloor</h2>
-<p><em>extends <a href="#floor">Floor</a></em></p>
-<p>Empty floor is <em>not</em> equivalent to air. Unlike air, it is solid, and still draws neighboring tile edges.</p>
-<h2 id="lightblock">LightBlock</h2>
-<p><em>extends <a href="#block">Block</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>brightness</td>
-<td>float</td>
-<td>0.9</td>
-<td></td>
-</tr>
-<tr>
-<td>radius</td>
-<td>float</td>
-<td>200.0</td>
-<td></td>
-</tr>
-<tr>
-<td>topRegion</td>
-<td>TextureRegion</td>
-<td>null</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<h4 id="example-wormhole-core">Example  <a href="https://github.com/BlueWolf3682/Exotic-Mod/tree/master/content/blocks/effect/wormhole-core.hjson">("Wormhole Core")</a></h4>
-<pre><code>type: LightBlock
-size: 4
-health: 1200
-baseExplosiveness: 25
-configurable: false
-hasPower: false
-radius: 90
-brightness: 0.5
-category: effect
-requirements: [
-  territe-alloy/100
-  thorium/75
-  forge-plating/30
-]
-buildVisibility: editorOnly
-</code></pre>
-<h2 id="liquidblock">LiquidBlock</h2>
-<p><em>extends <a href="#block">Block</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>liquidRegion</td>
-<td>TextureRegion</td>
-<td>null</td>
-<td></td>
-</tr>
-<tr>
-<td>topRegion</td>
-<td>TextureRegion</td>
-<td>null</td>
-<td></td>
-</tr>
-<tr>
-<td>bottomRegion</td>
-<td>TextureRegion</td>
-<td>null</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<h2 id="fracker">Fracker</h2>
-<p><em>extends <a href="#solidpump">SolidPump</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>itemUseTime</td>
-<td>float</td>
-<td>100.0</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<h4 id="example-mass-extractor">Example  <a href="https://github.com/BlueWolf3682/Exotic-Mod/tree/master/content/blocks/production/mass-extractor.hjson">("Mass Extractor")</a></h4>
-<pre><code>type: Fracker
-size: 5
-liquidCapacity: 120
-result: water
-attribute: water
-pumpAmount: 1.2
-itemUseTime: 210
-consumes: {
-  power: 11
-  items: {
-    items: [
-      amethyst-gem/1
-    ]
-  }
-}
-category: production
-research: water-extractor
-requirements: [
-  copper/1500
-  silicon/1200
-  metaglass/1000
-  graphite/600
-  thorium/450
-  ladera/150
-]
-</code></pre>
-<h2 id="incinerator">Incinerator</h2>
-<p><em>extends <a href="#block">Block</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>effect</td>
-<td>Effect</td>
-<td>fuelburn</td>
-<td></td>
-</tr>
-<tr>
-<td>flameColor</td>
-<td>Color</td>
-<td>ffad9dff</td>
-<td></td>
-</tr>
-</tbody>
-</table>
 <h2 id="itembridge">ItemBridge</h2>
 <p><em>extends <a href="#block">Block</a></em></p>
 <table>
@@ -11531,6 +10944,94 @@ requirements: [
 <td>lastBuild</td>
 <td>ItemBridgeBuild</td>
 <td>null</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="itemliquidgenerator">ItemLiquidGenerator</h2>
+<p><em>extends <a href="#powergenerator">PowerGenerator</a></em></p>
+<p>Power generation block which can use items, liquids or both as input sources for power production.
+Liquids will take priority over items.</p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>minItemEfficiency</td>
+<td>float</td>
+<td>0.2</td>
+<td></td>
+</tr>
+<tr>
+<td>itemDuration</td>
+<td>float</td>
+<td>70.0</td>
+<td>The time in number of ticks during which a single item will produce power.</td>
+</tr>
+<tr>
+<td>minLiquidEfficiency</td>
+<td>float</td>
+<td>0.2</td>
+<td></td>
+</tr>
+<tr>
+<td>maxLiquidGenerate</td>
+<td>float</td>
+<td>0.4</td>
+<td>Maximum liquid used per frame.</td>
+</tr>
+<tr>
+<td>generateEffect</td>
+<td>Effect</td>
+<td>generatespark</td>
+<td></td>
+</tr>
+<tr>
+<td>generateEffectRnd</td>
+<td>float</td>
+<td>3.0</td>
+<td></td>
+</tr>
+<tr>
+<td>explodeEffect</td>
+<td>Effect</td>
+<td>generatespark</td>
+<td></td>
+</tr>
+<tr>
+<td>heatColor</td>
+<td>Color</td>
+<td>ff9b59ff</td>
+<td></td>
+</tr>
+<tr>
+<td>topRegion</td>
+<td>TextureRegion</td>
+<td>null</td>
+<td></td>
+</tr>
+<tr>
+<td>liquidRegion</td>
+<td>TextureRegion</td>
+<td>null</td>
+<td></td>
+</tr>
+<tr>
+<td>randomlyExplode</td>
+<td>boolean</td>
+<td>true</td>
+<td></td>
+</tr>
+<tr>
+<td>defaults</td>
+<td>boolean</td>
+<td>false</td>
 <td></td>
 </tr>
 </tbody>
@@ -11745,18 +11246,143 @@ research: junction
 </tr>
 </tbody>
 </table>
+<h2 id="lightblock">LightBlock</h2>
+<p><em>extends <a href="#block">Block</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>brightness</td>
+<td>float</td>
+<td>0.9</td>
+<td></td>
+</tr>
+<tr>
+<td>radius</td>
+<td>float</td>
+<td>200.0</td>
+<td></td>
+</tr>
+<tr>
+<td>topRegion</td>
+<td>TextureRegion</td>
+<td>null</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h4 id="example-wormhole-core">Example  <a href="https://github.com/BlueWolf3682/Exotic-Mod/tree/master/content/blocks/effect/wormhole-core.hjson">("Wormhole Core")</a></h4>
+<pre><code>type: LightBlock
+size: 4
+health: 1200
+baseExplosiveness: 25
+configurable: false
+hasPower: false
+radius: 90
+brightness: 0.5
+category: effect
+requirements: [
+  territe-alloy/100
+  thorium/75
+  forge-plating/30
+]
+buildVisibility: editorOnly
+</code></pre>
 <h2 id="liquidbridge">LiquidBridge</h2>
 <p><em>extends <a href="#itembridge">ItemBridge</a></em></p>
 <h2 id="liquidconverter">LiquidConverter</h2>
 <p><em>extends <a href="#genericcrafter">GenericCrafter</a></em></p>
 <h2 id="liquidjunction">LiquidJunction</h2>
 <p><em>extends <a href="#liquidblock">LiquidBlock</a></em></p>
-<h2 id="liquidrouter">LiquidRouter</h2>
-<p><em>extends <a href="#liquidblock">LiquidBlock</a></em></p>
 <h2 id="liquidsource">LiquidSource</h2>
 <p><em>extends <a href="#block">Block</a></em></p>
-<h2 id="liquidvoid">LiquidVoid</h2>
-<p><em>extends <a href="#block">Block</a></em></p>
+<h2 id="liquidturret">LiquidTurret</h2>
+<p><em>extends <a href="#turret">Turret</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ammoTypes</td>
+<td>ObjectMap<Liquid,BulletType></td>
+<td>new ObjectMap&lt;&gt;()</td>
+<td></td>
+</tr>
+<tr>
+<td>liquidRegion</td>
+<td>TextureRegion</td>
+<td>null</td>
+<td></td>
+</tr>
+<tr>
+<td>topRegion</td>
+<td>TextureRegion</td>
+<td>null</td>
+<td></td>
+</tr>
+<tr>
+<td>extinguish</td>
+<td>boolean</td>
+<td>true</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h4 id="example-torrent">Example  <a href="https://github.com/BlueWolf3682/Exotic-Mod/tree/master/content/blocks/turrets/faction-purple/1p-torrent.hjson">("Torrent")</a></h4>
+<pre><code>type: LiquidTurret
+size: 3
+squareSprite: false
+requiresWater: true
+range: 240
+health: 1100
+reloadTime: 3
+shots: 3
+inaccuracy: 0.5
+velocityInaccuracy: 0.5
+shootEffect: {
+  type: ParticleEffect
+  cone: 5
+  particles: 5
+  length: 64
+  lifetime: 50
+  interp: pow5Out
+  sizeFrom: 4
+  sizeTo: 2
+  colorFrom: 596ab8
+  colorTo: 596ab825
+}
+ammoTypes: {
+  water: {
+    type: LiquidBulletType
+    liquid: water
+    damage: 8
+    speed: 12
+    lifetime: 30
+    drag: 0.05
+    orbSize: 3
+  }
+}
+category: turret
+research: tsunami
+requirements: [
+  metaglass/350
+  thorium/300
+  ladera/200
+]
+</code></pre>
 <h2 id="logicblock">LogicBlock</h2>
 <p><em>extends <a href="#block">Block</a></em></p>
 <table>
@@ -11919,26 +11545,6 @@ research: junction
 </tr>
 </tbody>
 </table>
-<h2 id="memoryblock">MemoryBlock</h2>
-<p><em>extends <a href="#block">Block</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>memoryCapacity</td>
-<td>int</td>
-<td>32</td>
-<td></td>
-</tr>
-</tbody>
-</table>
 <h2 id="mendprojector">MendProjector</h2>
 <p><em>extends <a href="#block">Block</a></em></p>
 <table>
@@ -12028,6 +11634,42 @@ research: surge-wall
 requirements: [
   baenite/6
 ]
+</code></pre>
+<h2 id="messageblock">MessageBlock</h2>
+<p><em>extends <a href="#block">Block</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>maxTextLength</td>
+<td>int</td>
+<td>220</td>
+<td></td>
+</tr>
+<tr>
+<td>maxNewlines</td>
+<td>int</td>
+<td>24</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h4 id="example-warden-log">Example  <a href="https://github.com/BlueWolf3682/Exotic-Mod/tree/master/content/blocks/effect/warden-log.hjson">("Warden Log")</a></h4>
+<pre><code>type: MessageBlock
+size: 2
+maxTextLength: 250
+requirements: [
+  graphite/15
+  territe-alloy/10
+]
+buildVisibility: editorOnly
 </code></pre>
 <h2 id="nuclearwarhead">NuclearWarhead</h2>
 <p><em>extends <a href="#block">Block</a></em></p>
@@ -12237,7 +11879,95 @@ research: bluewolframite-overdrive-projector
 </tr>
 </tbody>
 </table>
-<h2 id="payloadconveyor">PayloadConveyor</h2>
+<h2 id="ballisticsilo">BallisticSilo</h2>
+<p><em>extends <a href="#payloadblock">PayloadBlock</a></em></p>
+<h2 id="bush">Bush</h2>
+<p><em>extends <a href="#prop">Prop</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>botRegion</td>
+<td>TextureRegion</td>
+<td>null</td>
+<td></td>
+</tr>
+<tr>
+<td>centerRegion</td>
+<td>TextureRegion</td>
+<td>null</td>
+<td></td>
+</tr>
+<tr>
+<td>lobesMin</td>
+<td>int</td>
+<td>7</td>
+<td></td>
+</tr>
+<tr>
+<td>lobesMax</td>
+<td>int</td>
+<td>7</td>
+<td></td>
+</tr>
+<tr>
+<td>botAngle</td>
+<td>float</td>
+<td>60.0</td>
+<td></td>
+</tr>
+<tr>
+<td>origin</td>
+<td>float</td>
+<td>0.1</td>
+<td></td>
+</tr>
+<tr>
+<td>sclMin</td>
+<td>float</td>
+<td>30.0</td>
+<td></td>
+</tr>
+<tr>
+<td>sclMax</td>
+<td>float</td>
+<td>50.0</td>
+<td></td>
+</tr>
+<tr>
+<td>magMin</td>
+<td>float</td>
+<td>5.0</td>
+<td></td>
+</tr>
+<tr>
+<td>magMax</td>
+<td>float</td>
+<td>15.0</td>
+<td></td>
+</tr>
+<tr>
+<td>timeRange</td>
+<td>float</td>
+<td>40.0</td>
+<td></td>
+</tr>
+<tr>
+<td>spread</td>
+<td>float</td>
+<td>0.0</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="cliff">Cliff</h2>
 <p><em>extends <a href="#block">Block</a></em></p>
 <table>
 <thead>
@@ -12250,55 +11980,25 @@ research: bluewolframite-overdrive-projector
 </thead>
 <tbody>
 <tr>
-<td>moveTime</td>
+<td>size</td>
 <td>float</td>
-<td>40.0</td>
+<td>11.0</td>
 <td></td>
 </tr>
 <tr>
-<td>moveForce</td>
-<td>float</td>
-<td>201.0</td>
-<td></td>
-</tr>
-<tr>
-<td>topRegion</td>
-<td>TextureRegion</td>
+<td>cliffs</td>
+<td>TextureRegion[]</td>
 <td>null</td>
 <td></td>
 </tr>
 <tr>
-<td>edgeRegion</td>
-<td>TextureRegion</td>
+<td>editorCliffs</td>
+<td>TextureRegion[]</td>
 <td>null</td>
-<td></td>
-</tr>
-<tr>
-<td>interp</td>
-<td>Interp</td>
-<td>pow5</td>
-<td></td>
-</tr>
-<tr>
-<td>payloadLimit</td>
-<td>float</td>
-<td>3.0</td>
 <td></td>
 </tr>
 </tbody>
 </table>
-<h4 id="example-atlas">Example  <a href="https://github.com/BlueWolf3682/Exotic-Mod/tree/master/content/blocks/distribution/atlas.hjson">("Atlas")</a></h4>
-<pre><code>type: PayloadConveyor
-size: 8
-moveTime: 120
-moveForce: 536
-payloadLimit: 7.2
-requirements: [
-  titanium/200
-  thorium/100
-  bluewolframite/25
-]
-</code></pre>
 <h2 id="payloadloader">PayloadLoader</h2>
 <p><em>extends <a href="#payloadblock">PayloadBlock</a></em></p>
 <table>
@@ -12495,6 +12195,55 @@ requirements: [
 </tr>
 </tbody>
 </table>
+<h2 id="payloadrouter">PayloadRouter</h2>
+<p><em>extends <a href="#payloadconveyor">PayloadConveyor</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>overRegion</td>
+<td>TextureRegion</td>
+<td>null</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="payloadsource">PayloadSource</h2>
+<p><em>extends <a href="#payloadblock">PayloadBlock</a></em></p>
+<p>Generic building that produces other buildings.</p>
+<h2 id="payloadvoid">PayloadVoid</h2>
+<p><em>extends <a href="#payloadblock">PayloadBlock</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>incinerateEffect</td>
+<td>Effect</td>
+<td>blastExplosion</td>
+<td></td>
+</tr>
+<tr>
+<td>incinerateSound</td>
+<td>Sound</td>
+<td>bang</td>
+<td></td>
+</tr>
+</tbody>
+</table>
 <h2 id="pointdefenseturret">PointDefenseTurret</h2>
 <p><em>extends <a href="#reloadturret">ReloadTurret</a></em></p>
 <table>
@@ -12592,6 +12341,10 @@ requirements: [
 category: turret
 research: arc
 </code></pre>
+<h2 id="powerblock">PowerBlock</h2>
+<p><em>extends <a href="#block">Block</a></em></p>
+<h2 id="powerdistributor">PowerDistributor</h2>
+<p><em>extends <a href="#powerblock">PowerBlock</a></em></p>
 <h2 id="powergenerator">PowerGenerator</h2>
 <p><em>extends <a href="#powerdistributor">PowerDistributor</a></em></p>
 <table>
@@ -12618,109 +12371,10 @@ research: arc
 </tr>
 </tbody>
 </table>
-<h2 id="powernode">PowerNode</h2>
-<p><em>extends <a href="#powerblock">PowerBlock</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>laser</td>
-<td>TextureRegion</td>
-<td>null</td>
-<td></td>
-</tr>
-<tr>
-<td>laserEnd</td>
-<td>TextureRegion</td>
-<td>null</td>
-<td></td>
-</tr>
-<tr>
-<td>laserRange</td>
-<td>float</td>
-<td>6.0</td>
-<td></td>
-</tr>
-<tr>
-<td>maxNodes</td>
-<td>int</td>
-<td>3</td>
-<td></td>
-</tr>
-<tr>
-<td>laserColor1</td>
-<td>Color</td>
-<td>ffffffff</td>
-<td></td>
-</tr>
-<tr>
-<td>laserColor2</td>
-<td>Color</td>
-<td>fbd367ff</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<h4 id="example-bluewolframite-power-node">Example  <a href="https://github.com/BlueWolf3682/Exotic-Mod/tree/master/content/blocks/power/bluewolframite-node.hjson">("Bluewolframite Power Node")</a></h4>
-<pre><code>type: PowerNode
-health: 540
-laserRange: 8
-laserColor1: acbbf9
-laserColor2: 6579c9
-maxNodes: 35
-requirements: [
-  lead/10
-  silicon/3
-  bluewolframite/5
-]
-category: power
-research: power-node
-</code></pre>
-<h2 id="powersource">PowerSource</h2>
-<p><em>extends <a href="#powernode">PowerNode</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>powerProduction</td>
-<td>float</td>
-<td>10000.0</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<h4 id="example-exotic-power-source">Example  <a href="https://github.com/BlueWolf3682/Exotic-Mod/tree/master/content/blocks/power/exotic-power-source.hjson">("Exotic Power Source")</a></h4>
-<pre><code>type: PowerSource
-size: 1
-health: 2000000
-maxNodes: 255
-laserRange: 15
-laserColor1: acbbf9
-laserColor2: 6579c9
-powerProduction: 1354450
-buildVisibility: sandboxOnly
-category: power
-</code></pre>
-<h2 id="powervoid">PowerVoid</h2>
-<p><em>extends <a href="#powerblock">PowerBlock</a></em></p>
-<h2 id="prop">Prop</h2>
+<h2 id="decaygenerator">DecayGenerator</h2>
+<p><em>extends <a href="#itemliquidgenerator">ItemLiquidGenerator</a></em></p>
+<h2 id="drill">Drill</h2>
 <p><em>extends <a href="#block">Block</a></em></p>
-<h2 id="reloadturret">ReloadTurret</h2>
-<p><em>extends <a href="#baseturret">BaseTurret</a></em></p>
 <table>
 <thead>
 <tr>
@@ -12732,15 +12386,148 @@ category: power
 </thead>
 <tbody>
 <tr>
-<td>reloadTime</td>
+<td>hardnessDrillMultiplier</td>
 <td>float</td>
-<td>10.0</td>
+<td>50.0</td>
+<td></td>
+</tr>
+<tr>
+<td>tier</td>
+<td>int</td>
+<td>0</td>
+<td>Maximum tier of blocks this drill can mine.</td>
+</tr>
+<tr>
+<td>drillTime</td>
+<td>float</td>
+<td>300.0</td>
+<td>Base time to drill one ore, in frames.</td>
+</tr>
+<tr>
+<td>liquidBoostIntensity</td>
+<td>float</td>
+<td>1.6</td>
+<td>How many times faster the drill will progress when boosted by liquid.</td>
+</tr>
+<tr>
+<td>warmupSpeed</td>
+<td>float</td>
+<td>0.015</td>
+<td>Speed at which the drill speeds up.</td>
+</tr>
+<tr>
+<td>drawMineItem</td>
+<td>boolean</td>
+<td>true</td>
+<td>Whether to draw the item this drill is mining.</td>
+</tr>
+<tr>
+<td>drillEffect</td>
+<td>Effect</td>
+<td>mine</td>
+<td>Effect played when an item is produced. This is colored.</td>
+</tr>
+<tr>
+<td>drillEffectRnd</td>
+<td>float</td>
+<td>-1.0</td>
+<td>Drill effect randomness. Block size by default.</td>
+</tr>
+<tr>
+<td>rotateSpeed</td>
+<td>float</td>
+<td>2.0</td>
+<td>Speed the drill bit rotates at.</td>
+</tr>
+<tr>
+<td>updateEffect</td>
+<td>Effect</td>
+<td>pulverizeSmall</td>
+<td>Effect randomly played while drilling.</td>
+</tr>
+<tr>
+<td>updateEffectChance</td>
+<td>float</td>
+<td>0.02</td>
+<td>Chance the update effect will appear.</td>
+</tr>
+<tr>
+<td>drawRim</td>
+<td>boolean</td>
+<td>false</td>
+<td></td>
+</tr>
+<tr>
+<td>drawSpinSprite</td>
+<td>boolean</td>
+<td>true</td>
+<td></td>
+</tr>
+<tr>
+<td>heatColor</td>
+<td>Color</td>
+<td>ff5512ff</td>
+<td></td>
+</tr>
+<tr>
+<td>rimRegion</td>
+<td>TextureRegion</td>
+<td>null</td>
+<td></td>
+</tr>
+<tr>
+<td>rotatorRegion</td>
+<td>TextureRegion</td>
+<td>null</td>
+<td></td>
+</tr>
+<tr>
+<td>topRegion</td>
+<td>TextureRegion</td>
+<td>null</td>
+<td></td>
+</tr>
+<tr>
+<td>itemRegion</td>
+<td>TextureRegion</td>
+<td>null</td>
 <td></td>
 </tr>
 </tbody>
 </table>
-<h2 id="liquidturret">LiquidTurret</h2>
-<p><em>extends <a href="#turret">Turret</a></em></p>
+<h4 id="example-bluewolframite-drill">Example  <a href="https://github.com/BlueWolf3682/Exotic-Mod/tree/master/content/blocks/production/bluewolframite-drill.hjson">("Bluewolframite Drill")</a></h4>
+<pre><code>type: Drill
+size: 7
+tier: 28
+drillTime: 3.5
+liquidBoostIntensity: 6.4
+liquidCapacity: 480
+drawRim: true
+consumes: {
+  power: 14.8
+  liquid: {
+    liquid: mag-slag
+    amount: 0.85
+    booster: true
+    optional: true
+  }
+}
+requirements: [
+  copper/2310
+  lead/2540
+  silicon/1540
+  titanium/1330
+  thorium/1660
+  surge-alloy/450
+  bluewolframite/380
+]
+category: production
+research: andromeda-drill
+ambientSound: drill
+ambientSoundVolume: 1.55
+</code></pre>
+<h2 id="forceprojector">ForceProjector</h2>
+<p><em>extends <a href="#block">Block</a></em></p>
 <table>
 <thead>
 <tr>
@@ -12752,11 +12539,148 @@ category: power
 </thead>
 <tbody>
 <tr>
-<td>ammoTypes</td>
-<td>ObjectMap<Liquid,BulletType></td>
-<td>new ObjectMap&lt;&gt;()</td>
+<td>timerUse</td>
+<td>int</td>
+<td>1</td>
 <td></td>
 </tr>
+<tr>
+<td>phaseUseTime</td>
+<td>float</td>
+<td>350.0</td>
+<td></td>
+</tr>
+<tr>
+<td>phaseRadiusBoost</td>
+<td>float</td>
+<td>80.0</td>
+<td></td>
+</tr>
+<tr>
+<td>phaseShieldBoost</td>
+<td>float</td>
+<td>400.0</td>
+<td></td>
+</tr>
+<tr>
+<td>radius</td>
+<td>float</td>
+<td>101.7</td>
+<td></td>
+</tr>
+<tr>
+<td>shieldHealth</td>
+<td>float</td>
+<td>700.0</td>
+<td></td>
+</tr>
+<tr>
+<td>cooldownNormal</td>
+<td>float</td>
+<td>1.75</td>
+<td></td>
+</tr>
+<tr>
+<td>cooldownLiquid</td>
+<td>float</td>
+<td>1.5</td>
+<td></td>
+</tr>
+<tr>
+<td>cooldownBrokenBase</td>
+<td>float</td>
+<td>0.35</td>
+<td></td>
+</tr>
+<tr>
+<td>absorbEffect</td>
+<td>Effect</td>
+<td>absorb</td>
+<td></td>
+</tr>
+<tr>
+<td>shieldBreakEffect</td>
+<td>Effect</td>
+<td>shieldBreak</td>
+<td></td>
+</tr>
+<tr>
+<td>topRegion</td>
+<td>TextureRegion</td>
+<td>null</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h4 id="example-shielded-wall">Example  <a href="https://github.com/BlueWolf3682/Exotic-Mod/tree/master/content/blocks/defence/shielded-wall.hjson">("Shielded Wall")</a></h4>
+<pre><code>type: ForceProjector
+health: 4600
+size: 2
+radius: 20
+shieldHealth: 11000
+cooldownNormal: 48.5
+consumes: {
+  power: 1.75
+  items: {
+    items: [
+      silicon/1
+    ]
+    booster: false
+    optional: true
+  }
+}
+requirements: [
+  lead/75
+  silicon/25
+  titanium/35
+  surge-alloy/25
+  bluewolframite/15
+]
+hasItems: false
+itemCapacity: 0
+phaseUseTime: 2147483647
+phaseRadiusBoost: 0
+category: defense
+research: force-projector
+</code></pre>
+<h2 id="incinerator">Incinerator</h2>
+<p><em>extends <a href="#block">Block</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>effect</td>
+<td>Effect</td>
+<td>fuelburn</td>
+<td></td>
+</tr>
+<tr>
+<td>flameColor</td>
+<td>Color</td>
+<td>ffad9dff</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="liquidblock">LiquidBlock</h2>
+<p><em>extends <a href="#block">Block</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
 <tr>
 <td>liquidRegion</td>
 <td>TextureRegion</td>
@@ -12770,56 +12694,18 @@ category: power
 <td></td>
 </tr>
 <tr>
-<td>extinguish</td>
-<td>boolean</td>
-<td>true</td>
+<td>bottomRegion</td>
+<td>TextureRegion</td>
+<td>null</td>
 <td></td>
 </tr>
 </tbody>
 </table>
-<h4 id="example-torrent">Example  <a href="https://github.com/BlueWolf3682/Exotic-Mod/tree/master/content/blocks/turrets/faction-purple/1p-torrent.hjson">("Torrent")</a></h4>
-<pre><code>type: LiquidTurret
-size: 3
-squareSprite: false
-requiresWater: true
-range: 240
-health: 1100
-reloadTime: 3
-shots: 3
-inaccuracy: 0.5
-velocityInaccuracy: 0.5
-shootEffect: {
-  type: ParticleEffect
-  cone: 5
-  particles: 5
-  length: 64
-  lifetime: 50
-  interp: pow5Out
-  sizeFrom: 4
-  sizeTo: 2
-  colorFrom: 596ab8
-  colorTo: 596ab825
-}
-ammoTypes: {
-  water: {
-    type: LiquidBulletType
-    liquid: water
-    damage: 8
-    speed: 12
-    lifetime: 30
-    drag: 0.05
-    orbSize: 3
-  }
-}
-category: turret
-research: tsunami
-requirements: [
-  metaglass/350
-  thorium/300
-  ladera/200
-]
-</code></pre>
-<h2 id="messageblock">MessageBlock</h2>
+<h2 id="liquidrouter">LiquidRouter</h2>
+<p><em>extends <a href="#liquidblock">LiquidBlock</a></em></p>
+<h2 id="liquidvoid">LiquidVoid</h2>
+<p><em>extends <a href="#block">Block</a></em></p>
+<h2 id="memoryblock">MemoryBlock</h2>
 <p><em>extends <a href="#block">Block</a></em></p>
 <table>
 <thead>
@@ -12832,31 +12718,13 @@ requirements: [
 </thead>
 <tbody>
 <tr>
-<td>maxTextLength</td>
+<td>memoryCapacity</td>
 <td>int</td>
-<td>220</td>
-<td></td>
-</tr>
-<tr>
-<td>maxNewlines</td>
-<td>int</td>
-<td>24</td>
+<td>32</td>
 <td></td>
 </tr>
 </tbody>
 </table>
-<h4 id="example-warden-log">Example  <a href="https://github.com/BlueWolf3682/Exotic-Mod/tree/master/content/blocks/effect/warden-log.hjson">("Warden Log")</a></h4>
-<pre><code>type: MessageBlock
-size: 2
-maxTextLength: 250
-requirements: [
-  graphite/15
-  territe-alloy/10
-]
-buildVisibility: editorOnly
-</code></pre>
-<h2 id="powerdistributor">PowerDistributor</h2>
-<p><em>extends <a href="#powerblock">PowerBlock</a></em></p>
 <h2 id="nuclearreactor">NuclearReactor</h2>
 <p><em>extends <a href="#powergenerator">PowerGenerator</a></em></p>
 <table>
@@ -12993,6 +12861,68 @@ requirements: [
 category: power
 research: thorium-reactor
 </code></pre>
+<h2 id="payloadconveyor">PayloadConveyor</h2>
+<p><em>extends <a href="#block">Block</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>moveTime</td>
+<td>float</td>
+<td>40.0</td>
+<td></td>
+</tr>
+<tr>
+<td>moveForce</td>
+<td>float</td>
+<td>201.0</td>
+<td></td>
+</tr>
+<tr>
+<td>topRegion</td>
+<td>TextureRegion</td>
+<td>null</td>
+<td></td>
+</tr>
+<tr>
+<td>edgeRegion</td>
+<td>TextureRegion</td>
+<td>null</td>
+<td></td>
+</tr>
+<tr>
+<td>interp</td>
+<td>Interp</td>
+<td>pow5</td>
+<td></td>
+</tr>
+<tr>
+<td>payloadLimit</td>
+<td>float</td>
+<td>3.0</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h4 id="example-atlas">Example  <a href="https://github.com/BlueWolf3682/Exotic-Mod/tree/master/content/blocks/distribution/atlas.hjson">("Atlas")</a></h4>
+<pre><code>type: PayloadConveyor
+size: 8
+moveTime: 120
+moveForce: 536
+payloadLimit: 7.2
+requirements: [
+  titanium/200
+  thorium/100
+  bluewolframite/25
+]
+</code></pre>
 <h2 id="payloaddeconstructor">PayloadDeconstructor</h2>
 <p><em>extends <a href="#payloadblock">PayloadBlock</a></em></p>
 <table>
@@ -13025,29 +12955,6 @@ research: thorium-reactor
 </tr>
 </tbody>
 </table>
-<h2 id="payloadrouter">PayloadRouter</h2>
-<p><em>extends <a href="#payloadconveyor">PayloadConveyor</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>overRegion</td>
-<td>TextureRegion</td>
-<td>null</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<h2 id="payloadsource">PayloadSource</h2>
-<p><em>extends <a href="#payloadblock">PayloadBlock</a></em></p>
-<p>Generic building that produces other buildings.</p>
 <h2 id="payloadunloader">PayloadUnloader</h2>
 <p><em>extends <a href="#payloadloader">PayloadLoader</a></em></p>
 <table>
@@ -13068,34 +12975,6 @@ research: thorium-reactor
 </tr>
 </tbody>
 </table>
-<h2 id="payloadvoid">PayloadVoid</h2>
-<p><em>extends <a href="#payloadblock">PayloadBlock</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>incinerateEffect</td>
-<td>Effect</td>
-<td>blastExplosion</td>
-<td></td>
-</tr>
-<tr>
-<td>incinerateSound</td>
-<td>Sound</td>
-<td>bang</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<h2 id="powerblock">PowerBlock</h2>
-<p><em>extends <a href="#block">Block</a></em></p>
 <h2 id="powerdiode">PowerDiode</h2>
 <p><em>extends <a href="#block">Block</a></em></p>
 <table>
@@ -13116,6 +12995,103 @@ research: thorium-reactor
 </tr>
 </tbody>
 </table>
+<h2 id="powernode">PowerNode</h2>
+<p><em>extends <a href="#powerblock">PowerBlock</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>laser</td>
+<td>TextureRegion</td>
+<td>null</td>
+<td></td>
+</tr>
+<tr>
+<td>laserEnd</td>
+<td>TextureRegion</td>
+<td>null</td>
+<td></td>
+</tr>
+<tr>
+<td>laserRange</td>
+<td>float</td>
+<td>6.0</td>
+<td></td>
+</tr>
+<tr>
+<td>maxNodes</td>
+<td>int</td>
+<td>3</td>
+<td></td>
+</tr>
+<tr>
+<td>laserColor1</td>
+<td>Color</td>
+<td>ffffffff</td>
+<td></td>
+</tr>
+<tr>
+<td>laserColor2</td>
+<td>Color</td>
+<td>fbd367ff</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h4 id="example-bluewolframite-power-node">Example  <a href="https://github.com/BlueWolf3682/Exotic-Mod/tree/master/content/blocks/power/bluewolframite-node.hjson">("Bluewolframite Power Node")</a></h4>
+<pre><code>type: PowerNode
+health: 540
+laserRange: 8
+laserColor1: acbbf9
+laserColor2: 6579c9
+maxNodes: 35
+requirements: [
+  lead/10
+  silicon/3
+  bluewolframite/5
+]
+category: power
+research: power-node
+</code></pre>
+<h2 id="powersource">PowerSource</h2>
+<p><em>extends <a href="#powernode">PowerNode</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>powerProduction</td>
+<td>float</td>
+<td>10000.0</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h4 id="example-exotic-power-source">Example  <a href="https://github.com/BlueWolf3682/Exotic-Mod/tree/master/content/blocks/power/exotic-power-source.hjson">("Exotic Power Source")</a></h4>
+<pre><code>type: PowerSource
+size: 1
+health: 2000000
+maxNodes: 255
+laserRange: 15
+laserColor1: acbbf9
+laserColor2: 6579c9
+powerProduction: 1354450
+buildVisibility: sandboxOnly
+category: power
+</code></pre>
 <h2 id="powerturret">PowerTurret</h2>
 <p><em>extends <a href="#turret">Turret</a></em></p>
 <table>
@@ -13170,6 +13146,10 @@ requirements: [
   lead/20
 ]
 </code></pre>
+<h2 id="powervoid">PowerVoid</h2>
+<p><em>extends <a href="#powerblock">PowerBlock</a></em></p>
+<h2 id="prop">Prop</h2>
+<p><em>extends <a href="#block">Block</a></em></p>
 <h2 id="pump">Pump</h2>
 <p><em>extends <a href="#liquidblock">LiquidBlock</a></em></p>
 <table>
@@ -13295,6 +13275,26 @@ requirements: [
 category: units
 research: alterator
 </code></pre>
+<h2 id="reloadturret">ReloadTurret</h2>
+<p><em>extends <a href="#baseturret">BaseTurret</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>reloadTime</td>
+<td>float</td>
+<td>10.0</td>
+<td></td>
+</tr>
+</tbody>
+</table>
 <h2 id="repairpoint">RepairPoint</h2>
 <p><em>extends <a href="#block">Block</a></em></p>
 <table>
@@ -19426,6 +19426,258 @@ shootEffect: {
   colorTo: ffffff00
 }
 </code></pre>
+<h2 id="pointdefenseweapon">PointDefenseWeapon</h2>
+<p><em>extends <a href="#weapon">Weapon</a></em></p>
+<p>Note that this requires several things:
+- A bullet with positive maxRange
+- A bullet with positive damage
+- Rotation</p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>color</td>
+<td>Color</td>
+<td>ffffffff</td>
+<td></td>
+</tr>
+<tr>
+<td>beamEffect</td>
+<td>Effect</td>
+<td>pointBeam</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h4 id="example_19">Example</h4>
+<pre><code>name: aftermath-weapon
+controllable: false
+autoTarget: true
+targetInterval: 0
+targetSwitchInterval: 0
+x: 42.75
+y: 47
+beamEffect: none
+recoil: 0
+reload: 3
+rotate: true
+shootSound: none
+bullet: {
+  damage: 2500
+  maxRange: 320
+  shootEffect: {
+    lightOpacity: 0
+    particles: 15
+    baseLength: 25
+    length: -25
+    lifetime: 20
+    cone: 15
+    sizeFrom: 2
+    colorFrom: 00000050
+    colorTo: 000000
+  }
+  hitEffect: {
+    layer: 110.001
+    effects: [
+      {
+        length: 0
+        lightOpacity: 0
+        sizeInterp: pow10In
+        lifetime: 30
+        particles: 1
+        region: exotic-mod-vapour1
+        sizeFrom: 20
+        sizeTo: 0
+        spin: 8
+        colorFrom: 000000
+        colorTo: 000000
+      }
+      {
+        length: 0
+        lightOpacity: 0
+        sizeInterp: pow10In
+        lifetime: 30
+        particles: 1
+        region: exotic-mod-vapour1
+        sizeFrom: 16
+        sizeTo: 0
+        spin: 12
+        colorFrom: 000000
+        colorTo: 000000
+      }
+      {
+        length: 0
+        lightOpacity: 0
+        sizeInterp: pow10In
+        lifetime: 30
+        particles: 1
+        region: exotic-mod-vapour1
+        sizeFrom: 13
+        sizeTo: 0
+        spin: 6
+        colorFrom: 000000
+        colorTo: 000000
+      }
+      {
+        length: 0
+        lightOpacity: 0
+        sizeInterp: pow10In
+        lifetime: 30
+        particles: 1
+        region: circle-shadow
+        sizeFrom: 30
+        sizeTo: 0
+        colorFrom: 000000
+        colorTo: 000000
+      }
+    ]
+  }
+}
+</code></pre>
+<h2 id="repairbeamweapon">RepairBeamWeapon</h2>
+<p><em>extends <a href="#weapon">Weapon</a></em></p>
+<p>Note that this weapon requires a bullet with a positive maxRange.
+Rotation must be set to true. Fixed repair points are not supported.</p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>targetBuildings</td>
+<td>boolean</td>
+<td>false</td>
+<td></td>
+</tr>
+<tr>
+<td>repairSpeed</td>
+<td>float</td>
+<td>0.3</td>
+<td></td>
+</tr>
+<tr>
+<td>beamWidth</td>
+<td>float</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>pulseRadius</td>
+<td>float</td>
+<td>6.0</td>
+<td></td>
+</tr>
+<tr>
+<td>pulseStroke</td>
+<td>float</td>
+<td>2.0</td>
+<td></td>
+</tr>
+<tr>
+<td>laser</td>
+<td>TextureRegion</td>
+<td>null</td>
+<td></td>
+</tr>
+<tr>
+<td>laserEnd</td>
+<td>TextureRegion</td>
+<td>null</td>
+<td></td>
+</tr>
+<tr>
+<td>laserTop</td>
+<td>TextureRegion</td>
+<td>null</td>
+<td></td>
+</tr>
+<tr>
+<td>laserTopEnd</td>
+<td>TextureRegion</td>
+<td>null</td>
+<td></td>
+</tr>
+<tr>
+<td>laserColor</td>
+<td>Color</td>
+<td>98ffa9ff</td>
+<td></td>
+</tr>
+<tr>
+<td>laserTopColor</td>
+<td>Color</td>
+<td>ffffffff</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="repairfieldability">RepairFieldAbility</h2>
+<p><em>extends <a href="#ability">Ability</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>amount</td>
+<td>float</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>reload</td>
+<td>float</td>
+<td>100.0</td>
+<td></td>
+</tr>
+<tr>
+<td>range</td>
+<td>float</td>
+<td>60.0</td>
+<td></td>
+</tr>
+<tr>
+<td>healEffect</td>
+<td>Effect</td>
+<td>heal</td>
+<td></td>
+</tr>
+<tr>
+<td>activeEffect</td>
+<td>Effect</td>
+<td>healWaveDynamic</td>
+<td></td>
+</tr>
+<tr>
+<td>parentizeEffects</td>
+<td>boolean</td>
+<td>false</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h4 id="example_20">Example</h4>
+<pre><code>range: 80
+amount: 650
+reload: 45
+</code></pre>
 <h2 id="shieldregenfieldability">ShieldRegenFieldAbility</h2>
 <p><em>extends <a href="#ability">Ability</a></em></p>
 <table>
@@ -19482,7 +19734,7 @@ shootEffect: {
 </tr>
 </tbody>
 </table>
-<h4 id="example_19">Example</h4>
+<h4 id="example_21">Example</h4>
 <pre><code>range: 300
 amount: 12500
 max: 45000
@@ -19503,6 +19755,159 @@ applyEffect: {
   colorFrom: 8ca4f5
   colorTo: 8ca4f550
 }
+</code></pre>
+<h2 id="statusfieldability">StatusFieldAbility</h2>
+<p><em>extends <a href="#ability">Ability</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>effect</td>
+<td>StatusEffect</td>
+<td>null</td>
+<td></td>
+</tr>
+<tr>
+<td>duration</td>
+<td>float</td>
+<td>60.0</td>
+<td></td>
+</tr>
+<tr>
+<td>reload</td>
+<td>float</td>
+<td>100.0</td>
+<td></td>
+</tr>
+<tr>
+<td>range</td>
+<td>float</td>
+<td>20.0</td>
+<td></td>
+</tr>
+<tr>
+<td>applyEffect</td>
+<td>Effect</td>
+<td>none</td>
+<td></td>
+</tr>
+<tr>
+<td>activeEffect</td>
+<td>Effect</td>
+<td>overdriveWave</td>
+<td></td>
+</tr>
+<tr>
+<td>effectX</td>
+<td>float</td>
+<td>0.0</td>
+<td></td>
+</tr>
+<tr>
+<td>effectY</td>
+<td>float</td>
+<td>0.0</td>
+<td></td>
+</tr>
+<tr>
+<td>parentizeEffects</td>
+<td>boolean</td>
+<td>false</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h4 id="example_22">Example</h4>
+<pre><code>reload: 7200
+range: 1
+duration: 5
+activeEffect: {
+  lifetime: 80
+  layer: 94
+  effects: [
+    {
+      particles: 1
+      length: 0
+      region: exotic-mod-heal
+      lifetime: 45
+      sizeFrom: 150
+      sizeTo: 75
+      colorFrom: 84f591
+      colorTo: 84f59100
+    }
+    {
+      lifetime: 80
+      sizeFrom: 150
+      sizeTo: 150
+      strokeFrom: 4
+      colorTo: 84f591
+    }
+  ]
+}
+effect: exotic-mod-eternal
+</code></pre>
+<h2 id="unitspawnability">UnitSpawnAbility</h2>
+<p><em>extends <a href="#ability">Ability</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>unit</td>
+<td>UnitType</td>
+<td>null</td>
+<td></td>
+</tr>
+<tr>
+<td>spawnTime</td>
+<td>float</td>
+<td>60.0</td>
+<td></td>
+</tr>
+<tr>
+<td>spawnX</td>
+<td>float</td>
+<td>0.0</td>
+<td></td>
+</tr>
+<tr>
+<td>spawnY</td>
+<td>float</td>
+<td>0.0</td>
+<td></td>
+</tr>
+<tr>
+<td>spawnEffect</td>
+<td>Effect</td>
+<td>spawn</td>
+<td></td>
+</tr>
+<tr>
+<td>parentizeEffects</td>
+<td>boolean</td>
+<td>false</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h4 id="example_23">Example</h4>
+<pre><code>unit: fortress
+spawnX: 30
+spawnY: 0
+spawnTime: 1440
 </code></pre>
 <h2 id="weapon">Weapon</h2>
 <p><em>extends <a href="#object">Object</a></em></p>
@@ -19830,7 +20235,7 @@ applyEffect: {
 </tr>
 </tbody>
 </table>
-<h4 id="example_20">Example</h4>
+<h4 id="example_24">Example</h4>
 <pre><code>name: inferno-cannon
 x: 54.75
 top: false
@@ -19861,411 +20266,6 @@ bullet: {
     ffffff
   ]
 }
-</code></pre>
-<h2 id="pointdefenseweapon">PointDefenseWeapon</h2>
-<p><em>extends <a href="#weapon">Weapon</a></em></p>
-<p>Note that this requires several things:
-- A bullet with positive maxRange
-- A bullet with positive damage
-- Rotation</p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>color</td>
-<td>Color</td>
-<td>ffffffff</td>
-<td></td>
-</tr>
-<tr>
-<td>beamEffect</td>
-<td>Effect</td>
-<td>pointBeam</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<h4 id="example_21">Example</h4>
-<pre><code>name: aftermath-weapon
-controllable: false
-autoTarget: true
-targetInterval: 0
-targetSwitchInterval: 0
-x: 42.75
-y: 47
-beamEffect: none
-recoil: 0
-reload: 3
-rotate: true
-shootSound: none
-bullet: {
-  damage: 2500
-  maxRange: 320
-  shootEffect: {
-    lightOpacity: 0
-    particles: 15
-    baseLength: 25
-    length: -25
-    lifetime: 20
-    cone: 15
-    sizeFrom: 2
-    colorFrom: 00000050
-    colorTo: 000000
-  }
-  hitEffect: {
-    layer: 110.001
-    effects: [
-      {
-        length: 0
-        lightOpacity: 0
-        sizeInterp: pow10In
-        lifetime: 30
-        particles: 1
-        region: exotic-mod-vapour1
-        sizeFrom: 20
-        sizeTo: 0
-        spin: 8
-        colorFrom: 000000
-        colorTo: 000000
-      }
-      {
-        length: 0
-        lightOpacity: 0
-        sizeInterp: pow10In
-        lifetime: 30
-        particles: 1
-        region: exotic-mod-vapour1
-        sizeFrom: 16
-        sizeTo: 0
-        spin: 12
-        colorFrom: 000000
-        colorTo: 000000
-      }
-      {
-        length: 0
-        lightOpacity: 0
-        sizeInterp: pow10In
-        lifetime: 30
-        particles: 1
-        region: exotic-mod-vapour1
-        sizeFrom: 13
-        sizeTo: 0
-        spin: 6
-        colorFrom: 000000
-        colorTo: 000000
-      }
-      {
-        length: 0
-        lightOpacity: 0
-        sizeInterp: pow10In
-        lifetime: 30
-        particles: 1
-        region: circle-shadow
-        sizeFrom: 30
-        sizeTo: 0
-        colorFrom: 000000
-        colorTo: 000000
-      }
-    ]
-  }
-}
-</code></pre>
-<h2 id="repairbeamweapon">RepairBeamWeapon</h2>
-<p><em>extends <a href="#weapon">Weapon</a></em></p>
-<p>Note that this weapon requires a bullet with a positive maxRange.
-Rotation must be set to true. Fixed repair points are not supported.</p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>targetBuildings</td>
-<td>boolean</td>
-<td>false</td>
-<td></td>
-</tr>
-<tr>
-<td>repairSpeed</td>
-<td>float</td>
-<td>0.3</td>
-<td></td>
-</tr>
-<tr>
-<td>beamWidth</td>
-<td>float</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>pulseRadius</td>
-<td>float</td>
-<td>6.0</td>
-<td></td>
-</tr>
-<tr>
-<td>pulseStroke</td>
-<td>float</td>
-<td>2.0</td>
-<td></td>
-</tr>
-<tr>
-<td>laser</td>
-<td>TextureRegion</td>
-<td>null</td>
-<td></td>
-</tr>
-<tr>
-<td>laserEnd</td>
-<td>TextureRegion</td>
-<td>null</td>
-<td></td>
-</tr>
-<tr>
-<td>laserTop</td>
-<td>TextureRegion</td>
-<td>null</td>
-<td></td>
-</tr>
-<tr>
-<td>laserTopEnd</td>
-<td>TextureRegion</td>
-<td>null</td>
-<td></td>
-</tr>
-<tr>
-<td>laserColor</td>
-<td>Color</td>
-<td>98ffa9ff</td>
-<td></td>
-</tr>
-<tr>
-<td>laserTopColor</td>
-<td>Color</td>
-<td>ffffffff</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<h2 id="repairfieldability">RepairFieldAbility</h2>
-<p><em>extends <a href="#ability">Ability</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>amount</td>
-<td>float</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>reload</td>
-<td>float</td>
-<td>100.0</td>
-<td></td>
-</tr>
-<tr>
-<td>range</td>
-<td>float</td>
-<td>60.0</td>
-<td></td>
-</tr>
-<tr>
-<td>healEffect</td>
-<td>Effect</td>
-<td>heal</td>
-<td></td>
-</tr>
-<tr>
-<td>activeEffect</td>
-<td>Effect</td>
-<td>healWaveDynamic</td>
-<td></td>
-</tr>
-<tr>
-<td>parentizeEffects</td>
-<td>boolean</td>
-<td>false</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<h4 id="example_22">Example</h4>
-<pre><code>range: 80
-amount: 650
-reload: 45
-</code></pre>
-<h2 id="statusfieldability">StatusFieldAbility</h2>
-<p><em>extends <a href="#ability">Ability</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>effect</td>
-<td>StatusEffect</td>
-<td>null</td>
-<td></td>
-</tr>
-<tr>
-<td>duration</td>
-<td>float</td>
-<td>60.0</td>
-<td></td>
-</tr>
-<tr>
-<td>reload</td>
-<td>float</td>
-<td>100.0</td>
-<td></td>
-</tr>
-<tr>
-<td>range</td>
-<td>float</td>
-<td>20.0</td>
-<td></td>
-</tr>
-<tr>
-<td>applyEffect</td>
-<td>Effect</td>
-<td>none</td>
-<td></td>
-</tr>
-<tr>
-<td>activeEffect</td>
-<td>Effect</td>
-<td>overdriveWave</td>
-<td></td>
-</tr>
-<tr>
-<td>effectX</td>
-<td>float</td>
-<td>0.0</td>
-<td></td>
-</tr>
-<tr>
-<td>effectY</td>
-<td>float</td>
-<td>0.0</td>
-<td></td>
-</tr>
-<tr>
-<td>parentizeEffects</td>
-<td>boolean</td>
-<td>false</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<h4 id="example_23">Example</h4>
-<pre><code>reload: 7200
-range: 1
-duration: 5
-activeEffect: {
-  lifetime: 80
-  layer: 94
-  effects: [
-    {
-      particles: 1
-      length: 0
-      region: exotic-mod-heal
-      lifetime: 45
-      sizeFrom: 150
-      sizeTo: 75
-      colorFrom: 84f591
-      colorTo: 84f59100
-    }
-    {
-      lifetime: 80
-      sizeFrom: 150
-      sizeTo: 150
-      strokeFrom: 4
-      colorTo: 84f591
-    }
-  ]
-}
-effect: exotic-mod-eternal
-</code></pre>
-<h2 id="unitspawnability">UnitSpawnAbility</h2>
-<p><em>extends <a href="#ability">Ability</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>unit</td>
-<td>UnitType</td>
-<td>null</td>
-<td></td>
-</tr>
-<tr>
-<td>spawnTime</td>
-<td>float</td>
-<td>60.0</td>
-<td></td>
-</tr>
-<tr>
-<td>spawnX</td>
-<td>float</td>
-<td>0.0</td>
-<td></td>
-</tr>
-<tr>
-<td>spawnY</td>
-<td>float</td>
-<td>0.0</td>
-<td></td>
-</tr>
-<tr>
-<td>spawnEffect</td>
-<td>Effect</td>
-<td>spawn</td>
-<td></td>
-</tr>
-<tr>
-<td>parentizeEffects</td>
-<td>boolean</td>
-<td>false</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<h4 id="example_24">Example</h4>
-<pre><code>unit: fortress
-spawnX: 30
-spawnY: 0
-spawnTime: 1440
 </code></pre>
 <h2 id="buildvisibility">BuildVisibility</h2>
 <p>A flag used by the game to change a few special-case things. It may be one of the following strings:</p>
