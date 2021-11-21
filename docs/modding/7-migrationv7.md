@@ -10,9 +10,10 @@
 - `Iconc` and related methods have been removed; use `UnlockableContent.uiIcon/fullIcon`. 
 - `Smelter` and `AttributeSmelter` have been deprecated. These classes had hard-coded drawing functionality. Transition to `GenericCrafter` with a `DrawSmelter` as quickly as possible. For attribute support, use `AttributeCrafter`.
 - `Cultivator` is deprecated for the same reasons as `Smelter`, use `AttributeCrafter` instead.
+- `ExtendingItemBridge` and `LiquidExtendingBridge` have been merged with `ItemBridge` / `LiquidBridge`, use those instead.
 - `PayloadAcceptor` was a misleading name in the wrong package, use `PayloadBlock` instead.
 - Generated icons **must** be created in `createIcons` now; attempting to use `Core.atlas.addRegion` simply will not work.
-- All fields in `Tex` are now `Drawable`, not `NinePatchDrawable` or `TextureRegionDrawable`. Why? These fields are loaded from the atlas, which means mods that change UI sprites or an outdated atlas could previously cause a `ClassCastException` crash.
+- `LiquidModule#total()` has been deprecated; use `currentAmount()` instead.
 
 ## Ammo
 
@@ -44,6 +45,7 @@
 - `BulletType#despawned` is no longer called in many cases, use `#removed` if you need to listen to all removal events
 - `Attribute` is now a standard class, not an enum. Use `Attribute.add` to register a new one.
 - `Vars.miningRange` has been moved to `UnitType`.
+- All fields in `Tex` are now `Drawable`, not `NinePatchDrawable` or `TextureRegionDrawable`. Why? These fields are loaded from the atlas, which means mods that change UI sprites or an outdated atlas could previously cause a `ClassCastException` crash.
 
 ## Sprites
 
