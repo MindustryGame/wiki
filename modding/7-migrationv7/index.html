@@ -9037,9 +9037,10 @@
 <li><code>Iconc</code> and related methods have been removed; use <code>UnlockableContent.uiIcon/fullIcon</code>. </li>
 <li><code>Smelter</code> and <code>AttributeSmelter</code> have been deprecated. These classes had hard-coded drawing functionality. Transition to <code>GenericCrafter</code> with a <code>DrawSmelter</code> as quickly as possible. For attribute support, use <code>AttributeCrafter</code>.</li>
 <li><code>Cultivator</code> is deprecated for the same reasons as <code>Smelter</code>, use <code>AttributeCrafter</code> instead.</li>
+<li><code>ExtendingItemBridge</code> and <code>LiquidExtendingBridge</code> have been merged with <code>ItemBridge</code> / <code>LiquidBridge</code>, use those instead.</li>
 <li><code>PayloadAcceptor</code> was a misleading name in the wrong package, use <code>PayloadBlock</code> instead.</li>
 <li>Generated icons <strong>must</strong> be created in <code>createIcons</code> now; attempting to use <code>Core.atlas.addRegion</code> simply will not work.</li>
-<li>All fields in <code>Tex</code> are now <code>Drawable</code>, not <code>NinePatchDrawable</code> or <code>TextureRegionDrawable</code>. Why? These fields are loaded from the atlas, which means mods that change UI sprites or an outdated atlas could previously cause a <code>ClassCastException</code> crash.</li>
+<li><code>LiquidModule#total()</code> has been deprecated; use <code>currentAmount()</code> instead.</li>
 </ul>
 <h2 id="ammo">Ammo</h2>
 <ul>
@@ -9071,6 +9072,7 @@
 <li><code>BulletType#despawned</code> is no longer called in many cases, use <code>#removed</code> if you need to listen to all removal events</li>
 <li><code>Attribute</code> is now a standard class, not an enum. Use <code>Attribute.add</code> to register a new one.</li>
 <li><code>Vars.miningRange</code> has been moved to <code>UnitType</code>.</li>
+<li>All fields in <code>Tex</code> are now <code>Drawable</code>, not <code>NinePatchDrawable</code> or <code>TextureRegionDrawable</code>. Why? These fields are loaded from the atlas, which means mods that change UI sprites or an outdated atlas could previously cause a <code>ClassCastException</code> crash.</li>
 </ul>
 <h2 id="sprites">Sprites</h2>
 <ul>
