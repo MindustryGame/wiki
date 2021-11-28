@@ -16,7 +16,7 @@ require("items");
 *scripts/blocks.js*:
 ```js
 const myBlock = extend(Conveyor, "terrible-conveyor", {
-  //various overrides...
+  // various overrides...
   size: 3,
   health: 200
   //...
@@ -38,9 +38,9 @@ terribleium.color = Color.valueOf("ff0000");
 
 ```js
 
-//listen for the event where a unit is destroyed
+// listen for the event where a unit is destroyed
 Events.on(UnitDestroyEvent, event => {
-  //display toast on top of screen when the unit was a player
+  // display toast on top of screen when the unit was a player
   if(event.unit.isPlayer()){
     Vars.ui.hudfrag.showToast("Pathetic.");
   }
@@ -48,16 +48,55 @@ Events.on(UnitDestroyEvent, event => {
 
 ```
 
+The easiest way to find events you can listen to is to look at source file: [Mindustry/blob/master/core/src/mindustry/game/EventType.java](https://github.com/Anuken/Mindustry/blob/master/core/src/mindustry/game/EventType.java)
+
+
 ## Displaying a dialog box
 
 ```js
 const myDialog = new BaseDialog("Dialog Title");
-//Add "go back" button
+// Add "go back" button
 myDialog.addCloseButton();
-//Add text to the main content
+// Add text to the main content
 myDialog.cont.add("Goodbye.");
-//Show dialog
+// Show dialog
 myDialog.show();
+```
+
+## Play some custom sounds
+
+Playing custom audio is easy provided you store your sound clip as `.mp3` format in your `/sounds` directory.
+
+For this example we have stored `example.mp3` at `/sounds/example.mp3`.
+
+### Using a lib to load the sound
+
+*scripts/alib.js*:
+```js
+exports.loadSound = (() => {
+    const cache = {};
+    return (path) => {
+        const c = cache[path];
+        if (c === undefined) {
+            return cache[path] = Vars.mods.scripts.loadSound(path);
+        }
+        return c;
+    }
+})();
+
+```
+
+*scripts/main.js*:
+
+```js
+const lib = require("alib");
+
+Events.on(WaveEvent, event => {
+    // loads example.mp3
+    const mySound = lib.loadSound("example");
+    // engine will spawn this sound at this location (X,Y,Z)
+    mySound.at(1,1,1);
+})
 ```
 
 //TODO test these out and add more examples
