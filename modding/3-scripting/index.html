@@ -8916,7 +8916,7 @@ require(&quot;items&quot;);
 </code></pre>
 <p><em>scripts/blocks.js</em>:</p>
 <pre><code class="language-js">const myBlock = extend(Conveyor, &quot;terrible-conveyor&quot;, {
-  //various overrides...
+  // various overrides...
   size: 3,
   health: 200
   //...
@@ -8932,23 +8932,51 @@ terribleium.color = Color.valueOf(&quot;ff0000&quot;);
 <h1 id="examples">Examples</h1>
 <h2 id="listening-to-events">Listening to events</h2>
 <pre><code class="language-js">
-//listen for the event where a unit is destroyed
+// listen for the event where a unit is destroyed
 Events.on(UnitDestroyEvent, event =&gt; {
-  //display toast on top of screen when the unit was a player
+  // display toast on top of screen when the unit was a player
   if(event.unit.isPlayer()){
     Vars.ui.hudfrag.showToast(&quot;Pathetic.&quot;);
   }
 })
 
 </code></pre>
+<p>The easiest way to find events you can listen to is to look at source file: <a href="https://github.com/Anuken/Mindustry/blob/master/core/src/mindustry/game/EventType.java">Mindustry/blob/master/core/src/mindustry/game/EventType.java</a></p>
 <h2 id="displaying-a-dialog-box">Displaying a dialog box</h2>
 <pre><code class="language-js">const myDialog = new BaseDialog(&quot;Dialog Title&quot;);
-//Add &quot;go back&quot; button
+// Add &quot;go back&quot; button
 myDialog.addCloseButton();
-//Add text to the main content
+// Add text to the main content
 myDialog.cont.add(&quot;Goodbye.&quot;);
-//Show dialog
+// Show dialog
 myDialog.show();
+</code></pre>
+<h2 id="play-some-custom-sounds">Play some custom sounds</h2>
+<p>Playing custom audio is easy provided you store your sound clip as <code>.mp3</code> format in your <code>/sounds</code> directory.</p>
+<p>For this example we have stored <code>example.mp3</code> at <code>/sounds/example.mp3</code>.</p>
+<h3 id="using-a-lib-to-load-the-sound">Using a lib to load the sound</h3>
+<p><em>scripts/alib.js</em>:</p>
+<pre><code class="language-js">exports.loadSound = (() =&gt; {
+    const cache = {};
+    return (path) =&gt; {
+        const c = cache[path];
+        if (c === undefined) {
+            return cache[path] = Vars.mods.scripts.loadSound(path);
+        }
+        return c;
+    }
+})();
+
+</code></pre>
+<p><em>scripts/main.js</em>:</p>
+<pre><code class="language-js">const lib = require(&quot;alib&quot;);
+
+Events.on(WaveEvent, event =&gt; {
+    // loads example.mp3
+    const mySound = lib.loadSound(&quot;example&quot;);
+    // engine will spawn this sound at this location (X,Y,Z)
+    mySound.at(1,1,1);
+})
 </code></pre>
 <p>//TODO test these out and add more examples</p>
 
