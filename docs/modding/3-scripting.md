@@ -65,9 +65,9 @@ myDialog.show();
 
 ## Play some custom sounds
 
-Playing custom audio is easy provided you store your sound clip as `.mp3` format in your `/sounds` directory.
+Playing custom audio is easy, provided you store your sound clip as a `.mp3` or `.ogg` file in your `/sounds` directory.
 
-For this example we have stored `example.mp3` at `/sounds/example.mp3`.
+For this example, we have stored `example.mp3` at `/sounds/example.mp3`.
 
 ### Using a lib to load the sound
 
@@ -78,7 +78,7 @@ exports.loadSound = (() => {
     return (path) => {
         const c = cache[path];
         if (c === undefined) {
-            return cache[path] = Vars.mods.scripts.loadSound(path);
+            return cache[path] = loadSound(path);
         }
         return c;
     }
@@ -94,8 +94,8 @@ const lib = require("alib");
 Events.on(WaveEvent, event => {
     // loads example.mp3
     const mySound = lib.loadSound("example");
-    // engine will spawn this sound at this location (X,Y,Z)
-    mySound.at(1,1,1);
+    // engine will spawn this sound at this location (X,Y)
+    mySound.at(1, 1);
 })
 ```
 
