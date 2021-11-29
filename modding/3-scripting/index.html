@@ -8952,8 +8952,8 @@ myDialog.cont.add(&quot;Goodbye.&quot;);
 myDialog.show();
 </code></pre>
 <h2 id="play-some-custom-sounds">Play some custom sounds</h2>
-<p>Playing custom audio is easy provided you store your sound clip as <code>.mp3</code> format in your <code>/sounds</code> directory.</p>
-<p>For this example we have stored <code>example.mp3</code> at <code>/sounds/example.mp3</code>.</p>
+<p>Playing custom audio is easy, provided you store your sound clip as a <code>.mp3</code> or <code>.ogg</code> file in your <code>/sounds</code> directory.</p>
+<p>For this example, we have stored <code>example.mp3</code> at <code>/sounds/example.mp3</code>.</p>
 <h3 id="using-a-lib-to-load-the-sound">Using a lib to load the sound</h3>
 <p><em>scripts/alib.js</em>:</p>
 <pre><code class="language-js">exports.loadSound = (() =&gt; {
@@ -8961,7 +8961,7 @@ myDialog.show();
     return (path) =&gt; {
         const c = cache[path];
         if (c === undefined) {
-            return cache[path] = Vars.mods.scripts.loadSound(path);
+            return cache[path] = loadSound(path);
         }
         return c;
     }
@@ -8974,8 +8974,8 @@ myDialog.show();
 Events.on(WaveEvent, event =&gt; {
     // loads example.mp3
     const mySound = lib.loadSound(&quot;example&quot;);
-    // engine will spawn this sound at this location (X,Y,Z)
-    mySound.at(1,1,1);
+    // engine will spawn this sound at this location (X,Y)
+    mySound.at(1, 1);
 })
 </code></pre>
 <p>//TODO test these out and add more examples</p>
