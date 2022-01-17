@@ -10,11 +10,11 @@ You can connect to one using the "Join Game" button under the "Play" menu. Unlik
 
 To establish a dedicated server, a dedicated Linux or Windows machine is **highly** recommended.
 
-1. If you haven't already, install Java 8. (If you can launch the client, this step is already done.)
-2. Download the desired server release from [itch.io](https://anuke.itch.io/mindustry), [Github releases](https://github.com/Anuken/Mindustry/releases). The filename should be `server-release.jar`, although if you are on Windows it may only show as `server-release`.
-3. Move the server-release file to your desired folder. It is recommended to place it in a new directory on your desktop.
-4. Open a new terminal window(CMD if you are on windows). Use the command "[cd](https://www.digitalcitizen.life/command-prompt-how-use-basic-commands/)" to navigate into the directory you placed the server-release file in, ex `cd Desktop` then `cd Server`. Run `java -jar server-release.jar`. 
-5. Your server should have started. Type `help` for a list of all console commands. If you get a message similar to "Unable to access file server-release.jar" you are in the wrong directory.
+1. If you haven't already, install Java.
+2. Download the desired server release from [itch.io](https://anuke.itch.io/mindustry) or [Github releases](https://github.com/Anuken/Mindustry/releases). The filename should be `server.jar` or `server-release.jar`, although if you are on Windows it may only show as `server` or `server-release`.
+3. Move the server file to your desired folder. It is recommended to place it in a new directory on your desktop.
+4. Open a new terminal window(CMD if you are on windows). Use the command "[cd](https://www.digitalcitizen.life/command-prompt-how-use-basic-commands/)" to navigate into the directory you placed the server file in, ex `cd Desktop` then `cd Server`. Run `java -jar [server].jar`, replacing \[server] with the name of your server file.
+5. Your server should start. Type `help` for a list of all console commands. If you get a message similar to "Unable to access file server.jar" you are likely in the wrong directory.
 6. Start hosting a map with the command `host <mapname> [mode]`.
 7. If you are using Windows to run your server, use your favorite search engine to look up how to add rules to your Windows Firewall, as it blocks the necessary port most of the time. Make sure to allow **port 6567 TCP and UDP**.
 8. To close the server, either close the terminal window or press Ctrl+C on the terminal window.
