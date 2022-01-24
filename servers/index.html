@@ -11,7 +11,7 @@
         <link rel="canonical" href="https://mindustrygame.github.io/wiki/servers/">
       
       <link rel="icon" href="../images/favicon.png">
-      <meta name="generator" content="mkdocs-1.2.3, mkdocs-material-8.1.7">
+      <meta name="generator" content="mkdocs-1.2.3, mkdocs-material-8.1.8">
     
     
       
@@ -19,7 +19,7 @@
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.cd566b2a.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.6e60f8b8.min.css">
       
         
         <link rel="stylesheet" href="../assets/stylesheets/palette.e6a45f82.min.css">
@@ -9036,12 +9036,14 @@
 <p>You can connect to one using the "Join Game" button under the "Play" menu. Unlike local LAN servers, you will have to enter the host's IP address and port. Also unlike local LAN servers, once you add a server, it will automatically show up on your server list when you open it, and the game will automatically check the server's status.</p>
 <p>To establish a dedicated server, a dedicated Linux or Windows machine is <strong>highly</strong> recommended.</p>
 <ol>
-<li>If you haven't already, install at least JRE and JDK 8.</li>
-<li>Download the desired server release from <a href="https://anuke.itch.io/mindustry">itch.io</a>, or compile one yourself. </li>
-<li>Open a terminal or TTY session then change <code>cd</code> to the directory the JAR is placed in.</li>
-<li>Run <code>java -jar server.jar</code> using Command Prompt (on Windows) or your favorite terminal (on Linux and Mac). The commands are explained in the <code>help</code> command.</li>
-<li>Start hosting a map with <code>host &lt;mapname&gt; [mode]</code> after you configured your server.</li>
-<li>If you are using Windows to run your server, use your favorite search engine to look up how to add rules to your Windows Firewall, as it blocks that port most of the time. Make sure to allow <strong>port 6567 TCP and UDP</strong>.</li>
+<li>If you haven't already, install Java.</li>
+<li>Download the desired server release from <a href="https://anuke.itch.io/mindustry">itch.io</a> or <a href="https://github.com/Anuken/Mindustry/releases">Github releases</a>. The filename should be <code>server.jar</code> or <code>server-release.jar</code>, although if you are on Windows it may only show as <code>server</code> or <code>server-release</code>.</li>
+<li>Move the server file to your desired folder. It is recommended to place it in a new directory on your desktop.</li>
+<li>Open a new terminal window(CMD if you are on windows). Use the command "<a href="https://www.digitalcitizen.life/command-prompt-how-use-basic-commands/">cd</a>" to navigate into the directory you placed the server file in, ex <code>cd Desktop</code> then <code>cd Server</code>. Run <code>java -jar [server].jar</code>, replacing [server] with the name of your server file.</li>
+<li>Your server should start. Type <code>help</code> for a list of all console commands. If you get a message similar to "Unable to access file server.jar" you are likely in the wrong directory.</li>
+<li>Start hosting a map with the command <code>host &lt;mapname&gt; [mode]</code>.</li>
+<li>If you are using Windows to run your server, use your favorite search engine to look up how to add rules to your Windows Firewall, as it blocks the necessary port most of the time. Make sure to allow <strong>port 6567 TCP and UDP</strong>.</li>
+<li>To close the server, either close the terminal window or press Ctrl+C on the terminal window.</li>
 </ol>
 <p>Unless you have already enabled port forwarding, your dedicated server can only be connected to by clients within your local network. If you want to make your server globally available, read below.</p>
 <h3 id="what-is-an-ip-and-how-do-i-find-out-what-mine-is">What is an IP and how do I find out what mine is?</h3>
@@ -9199,7 +9201,7 @@
     <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tracking"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../assets/javascripts/workers/search.22074ed6.min.js"}</script>
     
     
-      <script src="../assets/javascripts/bundle.01de222e.min.js"></script>
+      <script src="../assets/javascripts/bundle.960e086b.min.js"></script>
       
     
   </body>
