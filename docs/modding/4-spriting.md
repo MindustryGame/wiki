@@ -1,15 +1,19 @@
 # Spriting
 
- Spriting is an essential part of mindustry modding, without it everything you've made in JSON, HJSON, Script [JS] or Java won't be visible and would just show "Oh No" error sprite.
+Spriting is an essential part of Mindustry modding, without it anything you've made would just shows up as an "oh no" image.
 
-It is highly recomended that you have pixel art software that supports transparency.
+Spriting style in Mindustry is very simple yet very strict and restrictive, what you can get away with other games would look out of place in Mindustry.
 
-This includes but not limited to: 
+You can find all the vanilla sprites [here](https://github.com/Anuken/Mindustry/tree/master/core/assets-raw/sprites).
+
+## Spriting Software
+
+It is highly recommended that you use spriting software that supports transparency and exporting image in `.PNG` format. Below there's recommendation for such.
 
 ### **Desktop**
   1. **[Aseprite](https://www.aseprite.org/)**
        - The gold standard, has a bit of learning curve, but very simple once you get used to it. 
-       - It is a **paid** software, but you can get it for free if you **compile the source code on your own**.
+       - It is a **paid** software, but you can get it for free if you **[compile the source code on your own](https://github.com/aseprite/aseprite/blob/main/INSTALL.md#compiling)**.
        - Has many feature useful for mindustry spriting such as:
          - Mirroring
          - Pallete Control
@@ -45,7 +49,7 @@ However you are not limited to those options, the game will still load sprites b
 ## Storing Sprites
 Sprites can simply be dropped in the `sprites/` subdirectory. The content parser will look through it recursively. 
 
-Images are packed into an "atlas" for efficient for rendering. The first directory in sprites/, e.g. sprites/blocks, determines the page in this atlas that sprites are put in. Putting a block's sprite in the units page is likely to cause lots of lag; thus, you should try to organize things similarly to how the vanilla game does.
+Images are packed into an "atlas" for efficient for rendering. The first directory in sprites/, e.g. `sprites/blocks`, determines the page in this atlas that sprites are put in. Putting a block's sprite in the units page is likely to cause lots of lag; thus, you should try to organize things similarly to how the vanilla game does.
 > Anuke
 
 The game will look for sprites relative to its own name. `content/blocks/test-turret.json` has the name `test-turret` and similarly `sprites/test-turret.png` has the name `test-turret`, so it'll be used by this content.
@@ -61,7 +65,7 @@ Same thing applies with overriding sprites.
 
 ### Overriding
 
-Overidding existing sprites is possible, for this sprites must be placed at `sprites-override/`
+Overidding existing sprites is possible, for this, sprites must be placed at `sprites-override/`
 
 ## Suffixes
 The game also have the capability to look for multiple sprites for a single block.
@@ -79,6 +83,8 @@ Just like every game out there, Mindustry has its own color palette. For beginne
 You can get it here: 
 
 <img src="/wiki/images/spriting/pal-mindustry.png">
+
+Assuming you have properly acquired a proper spriting software, you just download that image and use it as a pallete.
 
 
 
