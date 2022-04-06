@@ -18,7 +18,6 @@ Your project directory should look something like this:
     ├── content
     │   ├── items
     │   ├── blocks
-    │   ├── mechs
     │   ├── liquids
     │   └── units
     ├── maps
@@ -146,21 +145,28 @@ Types *extend* each other, so if `MissileBulletType` extends `BasicBulletType`, 
 
 What you can expect a field to do is up to the specific type, some types do absolutely nothing with their fields, and work mostly as a base types will extend from. One such type is `Block`.
 
-`type` can be refer to the actual type field of the object. A type may also refer to other things like `float` is a type so it means you can type `0.3` in a field.
+In this unit example, the type of the unit is `flying`. The type of the `bullet` is `BulletType`, so you can use `MissileBulletType`, because `MissileBulletType` extends `BulletType`.
 
-Here you can see, the type of the top level object is `Revenant`, but the type of the `bullet` is `BulletType` so you can use `MissileBulletType`, because `MissileBulletType` extends `BulletType`.
+One could also use `mech`, `legs`, `naval` or `payload` as the unit type here.
 
-    type: Revenant
-    weapons: [
-      {
-        bullet: {
-          type: MissileBulletType
-          damage: 9000
-        }
-      }
-    ]
+```hjson
+type: flying
+weapons: [
+  {
+    bullet: {
+      type: MissileBulletType
+      damage: 9000
+    }
+  }
+]
+```
 
+As of build `125.1`, types can also be the *fully-qualified class name* of a Java class. 
 
+For example, to specify a block as a `MendProjector`, you may write
+`type: mindustry.world.blocks.defense.MendProjector` instead of `type: MendProjector`.
+
+While not particularly useful for vanilla types, this can be used to load block types *from other Java mods* as dependencies.
 
 ## Tech Tree
 
@@ -170,9 +176,18 @@ Much like `type` there exist another magical field known as `research` which can
 
 This would put your block after `duo` in the techtree, and to put it after your own mods block you would write your `<block-name>`, a mod name prefix is only required if you're using the content from another mod.
 
-Research cost will be `40 + round(requirements ^ 1.25) * 6 rounded down to the nearest 10`, where `requirements` is the build cost of your block.
+Research costs:
 
-If you want to set custom research requirements, which is **required** for Items and Liquids, use this object in place of just a name:
+|type|cost|notes|
+|---|---|---|
+|blocks|`requirements ^ 1.1 * 20 * researchCostMultiplier`|`researchCostMultiplier` is a stat that can be set on blocks|
+|units|`requirements ^ 1.1 * 50`|---|
+
+The cost is then rounded down to the nearest 10, 100, 1k, 10k, or 100k depending on how expensive the cost is.
+
+`requirements` is the cost of the block or unit. Units use their build cost/upgrade cost for the calculations.
+
+If you want to set custom research requirements use this object in place of just a name:
 
     research: {
       parent: duo
@@ -181,7 +196,7 @@ If you want to set custom research requirements, which is **required** for Items
       ]
     }
 
-
+This can be used to override block or unit costs, or make resources need to be researched instead of just having to produce it.
 
 ## Sprites
 
@@ -192,8 +207,8 @@ All you need to make sprites, is an image editor that supports transparency *(ak
 
 If any of them are not 32-bit RGBA formatted, fix them.
 
-Sprites can simply be dropped in the `sprites/` subdirectory. The content parser will look through it recursively, so you can organize them how ever you feel, once their first directory is correct.
-Sprites are packed into an "atlas" that is very efficient for rendering. The first directory in `sprites/`, e.g. `sprites/blocks`, determines the page in this atlas that sprites are put in. Putting a block's sprite in the `units` page is likely to cause lots of lag, just put it in a similar path to vanilla's sprites at <https://github.com/Anuken/Mindustry/tree/master/core/assets-raw/sprites>.
+Sprites can simply be dropped in the `sprites/` subdirectory. The content parser will look through it recursively.
+Images are packed into an "atlas" for efficient for rendering. The first directory in `sprites/`, e.g. `sprites/blocks`, determines the page in this atlas that sprites are put in. Putting a block's sprite in the `units` page is likely to cause lots of lag; thus, you should try to organize things similarly to how the [vanilla game does](https://github.com/Anuken/Mindustry/tree/master/core/assets-raw/sprites).
 
 Content is going to look for sprites relative to it's own name. `content/blocks/my-hail.json` has the name `my-hail` and similarly `sprites/my-hail.png` has the name `my-hail`, so it'll be used by this content.
 
@@ -278,19 +293,19 @@ Once you have a mod of some kind, you'll want to actually share it, and you may 
 
 All you need understand is how to open repositories on GitHub, stage and commit changes in your local repository, and push changes to the GitHub repository. Once your project is on GitHub, there are three ways to share it:
 
--   with the endpoint, for example `Anuken/ExampleMod`, which could then be typed in the ingame GitHub interface, and that would download it;
--   with the zip file, for example `https://github.com/Anuken/ExampleMod/archive/master.zip`, which would download the repository as a zip file, and put in mod directory (unzipping is not required);
--   add the topic/tag `mindustry-mod` on your repository, which should add it to the topic search and the (Mod scraper)[https://github.com/Anuken/MindustryMods].
+-   with the endpoint, for example `Anuken/MindustryJavaModTemplate`, which could then be typed in the ingame GitHub interface, and that would download it;
+-   with the zip file, for example `https://github.com/Anuken/MindustryJavaModTemplate/archive/master.zip`, which would download the repository as a zip file, and put in mod directory (unzipping is not required);
+-   add the topic/tag `mindustry-mod` on your repository, which should add it to the topic search and the [Mod scraper](https://github.com/Anuken/MindustryMods).
 
 
 
 ## FAQ
 
 -   `time` in game is calculated through `ticks`;
--   `ticks` *sometimes called `frames`,* are assumed to be 60/1 second;
+-   `ticks` *sometimes called `frames`,* are assumed to be 1/60th of a second;
 -   `tilesize` is 8 units internally;
 -   to calculate range out of `lifetime` and `speed` you can do `lifetime * speed = range`;
--   *Abstract* what is `abstract`? all you need to know about abstract types, is this is a Java specific term, which means you cannot instantiate/initialize this specific type by itself. If you do so you'll probably get an *"initialization exception"* of some kind;
+-   *Abstract* what is `abstract`? All you need to know about abstract types is that they cannot be instantiated/initialized by themselves. If you do so, you'll  get an *"initialization exception"* of some kind;
 -   what is a `NullPointerException`? This is an error message that indicates a field is null and shouldn't be null, meaning one of the required fields may be missing;
 -   *bleeding-edge* what is `bleeding-edge`? This is the developer version of Mindustry, specifically it's refering to the Github master branch. Changes on bleeding-edge usually make it into Mindustry in the next release.
 

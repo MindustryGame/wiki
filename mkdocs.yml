@@ -7,5 +7,7 @@ theme:
   favicon: images/favicon.png
   logo: images/favicon.png
   custom_dir: overrides
+  features:
+    - navigation.tracking
 extra_css:
   - 'stylesheets/style.css'

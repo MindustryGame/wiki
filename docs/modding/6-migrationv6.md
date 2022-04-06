@@ -12,9 +12,29 @@ Simply add `minGameVersion: "$latestRelease"` to your `mod.hjson` file.
 
 ## Name Changes
 
-### mindustry.plugin.Plugin -> mindustry.mod.Plugin
+### Variable & Class name changes
 
-The `Plugin` class has been moved into the `mod` package, as the old package only contained a single class anyway.
+`ItemTurret`:
+
+- `ammo` -> `ammoTypes`
+- `reload` -> `reloadTime`
+
+`ArtilleryTurret`, `BurstTurret`, `ChargeTurret`:
+
+- Removed. Use `ItemTurret` or `PowerTurret` instead; all the functionality has been merged into the base classes.
+
+`BasicBulletType`:
+
+- `bulletWidth` -> `width`
+- `bulletHeight` -> `height`
+- `bulletSprite` -> `sprite`
+
+### TileEntity -> Building
+
+`TileEntity` is now `Building`.
+Thus, the former `TileEntity`'s functions, as well as any function associated with it(containing or mentioning "entity") have been renamed, now they will refer to the `TileEntity` to "building", or "build". `Tile.entity` has been renamed to `Tile.build`, and all `TileEntity` instances (ex. `RouterEntity`, `ConveyorEntity`) were renamed to end with a "Build" suffix (ex. `RouterBuild`, `ConveyorBuild`), to name a few.  
+
+Many functions like `draw()` or `placed()` have moved from being declared in the `Block` to being so in `Building`. This means that these functions do not pass the `Tile`, as well as making block-specific behavior less complicated. Notably, `update(Tile tile)` has been moved to the `Building` and renamed (technically not true, but this detail can be ignored for porting) to `updateTile()`.
 
 ### Array<T> -> Seq<T>
 
@@ -25,6 +45,10 @@ Why?
 - It's more accurate. The data structure is not an array, it's a list like `ArrayList`.
 - It doesn't conflict with other classes named `Array`, such as those in Java's reflection API or Javascript's array.
 - It's shorter, which is nice.
+
+### mindustry.plugin.Plugin -> mindustry.mod.Plugin
+
+The `Plugin` class has been moved into the `mod` package, as the old package only contained a single class anyway.
 
 ### Removal of "on" prefix for Call methods
 

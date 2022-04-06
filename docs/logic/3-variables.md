@@ -68,6 +68,14 @@ The x coordinate of the processor.
 
 The y coordinate of the processor.
 
+#### @ipt `constant` `number`
+
+The number of instructions executed per tick (60 ticks/second).
+
+* Micro Processor -> 2
+* Logic Processor -> 8
+* Hyper Processor -> 25 
+
 #### @counter `variable` `number`
 
 A variable that represents the next line the processor will read code from, equivalent to `%IP` in x86. It can be changed like any other variable as another way to perform jumps.
@@ -112,7 +120,7 @@ This can be a little hard to understand, so here are some examples:
 
 You can also view each linked building's "constant name" over them when the processor is selected.
 
-<img src="/wiki-testing/images/misc/logic-variables-constants-links-linkedBuilding.png">
+<img src="/wiki/images/misc/logic-variables-constants-links-linkedBuilding.png">
 
 ### Misc
 
@@ -120,8 +128,20 @@ You can also view each linked building's "constant name" over them when the proc
 
 A constant that represents the current bound unit. It only changes when the processor unbinds a unit, or binds another one. It can be accessed using Unit instructions such as `ucontrol`, `ulocate`, and `uradar`. Since it's a Unit Object, you can also use it with `sensor`.
 
-This presents a core part of unit control in mlog; **only one unit can be bound at a time.** However, you can reference this in a variable, like `set unitReference @unit`. That variable, though, can not be used to get information about or control the referenced unit. It can only be used to check against other units. Therefore, you can think of it as a "unit identity".
+This presents a core part of unit control in mlog; **only one unit can be bound at a time.** However, you can reference this in a variable, like `set unitReference @unit`. That variable, though, can not be used to control the referenced unit. It can only be used to check against other units or to get information about it. Therefore, you can think of it as a "unit identity".
 
 #### @time `constant` `number`
 
 Represents the current UNIX timestamp *in milliseconds*.
+
+#### @tick `constant` `float`
+
+Represents the amount of ticks (60 ticks/second) since the map began. 
+
+#### @mapw `constant` `number`
+
+Width of the map, in tiles.
+
+#### @maph `constant` `number`
+
+Height of the map, in tiles.
