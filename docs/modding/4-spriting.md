@@ -22,27 +22,15 @@ This includes but not limited to:
   3. **[Piskel](https://www.piskelapp.com/)**
       - A very simple pixel art software, not as powerful as Aseprite or LibreSprite, but it is sufficient enough. There's the online version & an offline downloadable version. Both version has the same feature.
       - Lacks the ability to export individual layer
- 
-  4. **[Krita](https://krita.org/en)** 
-      - A very powerful art software that's probably an overkill for mindustry style spriting, though with some minor configuration changes Krita can be used for pixel art.
-      - If you're already familiar with this software, go ahead and feel free to use this.
 
-  5. **[Paint.NET](https://www.getpaint.net/)**
+  4. **[Paint.NET](https://www.getpaint.net/)**
       - Very basic painting software, not to be confused with Paint 3D, `Paint.NET` is a usable but not as convinient as the above mentioned.
       - `Paint.NET` lacks basic feature used for spriting in mindustry style, though some of these missing features you can get them with the use of plugins that you can install manually.
       - That said, it is not recommended to use this for the sake of convinience, if you can download `Paint.NET` pretty darn sure you can download Piskel and LibreSprite that is a specialized Pixel Art software.
 
 ### **Mobile**
-1. **[Novix](https://play.google.com/store/apps/details?id=io.anuke.novix)**
-   - Old and reliable, made and abandoned by anuke himself, its simple, no ads, and simply works with no fuss, although a bit old, its still reliable as a spriting app for mobile users, also has mirror feature
-   - Occasionally breaks if spriting a larger sprite, give or take.
-   - > sk7725
+// TODO
 
-2. **[Ibispaint X](https://play.google.com/store/apps/details?id=jp.ne.ibis.ibispaintx.app)**
-   - Usually not used for spriting, and requires some settings before use.
-   - Supports various tools like octal mirrors, bloom, and gradients, as well as fundamental features like region select and layers.
-   - Can be used to sprite complex sprites at ease, but could be bloated for simple sprites.
-   - > sk7725
 
 ## Size
 The smallest block size you could make is `32px × 32px` size, which is a 1×1 block, making bigger block means increasing the sprite size by additional `32px`, so a 2×2 block is `64×64` and so on, this applies to both turrets and blocks.
@@ -86,8 +74,11 @@ For more details, you can read the source code for each respective block class f
 
 ## Color Pallete
 
-Just like every game out there, Mindustry has its own color palette. For beginners, it is highly recommended to stick to these colors selection for your sprites or it may look out of place even become heretical and may inflict great disturbance upon the #spriting channel.
+Just like every game out there, Mindustry has its own color palette. For beginners, it is highly recommended to stick to these colors selection for your sprites or it may look out of place even become heretical and may inflict great disturbance upon the #spriting discord channel.
 
-### Blocks
-**1. Base**
-![PalBlockBase]()
+You can get it here: 
+
+<img src="/wiki/images/spriting/pal-mindustry.png">
+
+
+
