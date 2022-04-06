@@ -1,29 +1,65 @@
 # Spriting
 
-### Spriting is an essential part of mindustry modding, without it everything you've made in JSON, HJSON, or Script [JS] won't be visible
-It is highly recomended that you have an image editing software that supports transparency.
+ Spriting is an essential part of mindustry modding, without it everything you've made in JSON, HJSON, Script [JS] or Java won't be visible and would just show "Oh No" error sprite.
+
+It is highly recomended that you have pixel art software that supports transparency.
 
 This includes but not limited to: 
-  - Aseprite 
-  - Piskel
-  - GIMP
-  - Paint.net
+
+### **Desktop**
+  1. **[Aseprite](https://www.aseprite.org/)**
+       - The gold standard, has a bit of learning curve, but very simple once you get used to it. 
+       - It is a **paid** software, but you can get it for free if you **compile the source code on your own**.
+       - Has many feature useful for mindustry spriting such as:
+         - Mirroring
+         - Pallete Control
+         - Animation
+         - Layering (Can also export individual layer)
+  
+  2. **[LibreSprite](https://libresprite.github.io/#!/)**
+      - A copy of the Aseprite respository, not as up to date or as powerful as the original one, though you wouldn't need it for spriting in mindustry style anyway.
+  
+  3. **[Piskel](https://www.piskelapp.com/)**
+      - A very simple pixel art software, not as powerful as Aseprite or LibreSprite, but it is sufficient enough. There's the online version & an offline downloadable version. Both version has the same feature.
+      - Lacks the ability to export individual layer
+ 
+  4. **[Krita](https://krita.org/en)** 
+      - A very powerful art software that's probably an overkill for mindustry style spriting, though with some minor configuration changes Krita can be used for pixel art.
+      - If you're already familiar with this software, go ahead and feel free to use this.
+
+  5. **[Paint.NET](https://www.getpaint.net/)**
+      - Very basic painting software, not to be confused with Paint 3D, `Paint.NET` is a usable but not as convinient as the above mentioned.
+      - `Paint.NET` lacks basic feature used for spriting in mindustry style, though some of these missing features you can get them with the use of plugins that you can install manually.
+      - That said, it is not recommended to use this for the sake of convinience, if you can download `Paint.NET` pretty darn sure you can download Piskel and LibreSprite that is a specialized Pixel Art software.
+
+### **Mobile**
+1. **[Novix](https://play.google.com/store/apps/details?id=io.anuke.novix)**
+   - Old and reliable, made and abandoned by anuke himself, its simple, no ads, and simply works with no fuss, although a bit old, its still reliable as a spriting app for mobile users, also has mirror feature
+   - Occasionally breaks if spriting a larger sprite, give or take.
+   - > sk7725
+
+2. **[Ibispaint X](https://play.google.com/store/apps/details?id=jp.ne.ibis.ibispaintx.app)**
+   - Usually not used for spriting, and requires some settings before use.
+   - Supports various tools like octal mirrors, bloom, and gradients, as well as fundamental features like region select and layers.
+   - Can be used to sprite complex sprites at ease, but could be bloated for simple sprites.
+   - > sk7725
 
 ## Size
-The smallest block size you could make is `32×32` size, which is a 1×1 block, making bigger block means increasing the sprite size by additional `32`, so a 2×2 block is `64×64` and so on, this applies to both turrets and blocks.
-- `1×1` : `32×32`
-- `2×2` : `64×64`
-- `3×3` : `96×96`
-- `4×4` : `128×128`
-- `5×5` : `160×160`
+The smallest block size you could make is `32px × 32px` size, which is a 1×1 block, making bigger block means increasing the sprite size by additional `32px`, so a 2×2 block is `64×64` and so on, this applies to both turrets and blocks.
+- `1×1` : `32px × 32px`
+- `2×2` : `64px × 64px`
+- `3×3` : `96px × 96px`
+- `4×4` : `128px × 128px`
+- `5×5` : `160px × 160px`
 
 However you are not limited to those options, the game will still load sprites bigger or smaller than the block you've assigned it for, which can result in a unique looking sprite or an atrocity.
 
 ## Storing Sprites
 Sprites can simply be dropped in the `sprites/` subdirectory. The content parser will look through it recursively. 
 
-Of course you need to organize it as well, as explained by Anuke :
-> Images are packed into an "atlas" for efficient for rendering. The first directory in sprites/, e.g. sprites/blocks, determines the page in this atlas that sprites are put in. Putting a block's sprite in the units page is likely to cause lots of lag; thus, you should try to organize things similarly to how the vanilla game does.
+Images are packed into an "atlas" for efficient for rendering. The first directory in sprites/, e.g. sprites/blocks, determines the page in this atlas that sprites are put in. Putting a block's sprite in the units page is likely to cause lots of lag; thus, you should try to organize things similarly to how the vanilla game does.
+> Anuke
+
 The game will look for sprites relative to its own name. `content/blocks/test-turret.json` has the name `test-turret` and similarly `sprites/test-turret.png` has the name `test-turret`, so it'll be used by this content.
 
 To put this simply, the game will look for 3 kinds of sprites, blocks, units, & items, thus the sprites you've made should be placed into their own subfolder.
@@ -31,7 +67,7 @@ To put this simply, the game will look for 3 kinds of sprites, blocks, units, & 
 - Units should be stored in `sprites/units`
 - Items should be stored in `sprites/items`
 
-Some sprites will be slightly modified by the game. Both turrets and units will have a black border added to them, so you must account for that while making your sprites, leaving transparent space around turrets.
+Some sprites will be slightly modified by the game. Both turrets and units will have a black border added to them, so you must account for that while making your sprites, leaving empty space around turrets.
 
 Same thing applies with overriding sprites.
 
@@ -46,55 +82,12 @@ For turrets, depending on its type, the game could look for the suffix `<name>-h
 
 For blocks and crafters/smelters this could include `<name>-top`, `<name>-liquid`, etc. which will be documented in their own section.
 
+For more details, you can read the source code for each respective block class for what sprite that they can load. Usually located in `load()` method within the class.
+
 ## Color Pallete
 
-Just like every game out there, Mindustry has its own color palette, it is highly recommended to stick to these colors selection for your sprites or it may look out of place even become heretical and may inflict great disturbance in #spriting channel.
+Just like every game out there, Mindustry has its own color palette. For beginners, it is highly recommended to stick to these colors selection for your sprites or it may look out of place even become heretical and may inflict great disturbance upon the #spriting channel.
 
 ### Blocks
-- **Type 1** : 
-  - ![#B0BAC0](https://via.placeholder.com/15/B0BAC0/000000?text=+) `#B0BAC0` Light | ![#989AA4](https://via.placeholder.com/15/989AA4/000000?text=+) `#989AA4` Shading | ![#6E7080](https://via.placeholder.com/15/6E7080/000000?text=+) `#6E7080` Dark
-- **Type 2** : 
-  - ![#989AA4](https://via.placeholder.com/15/989AA4/000000?text=+) `#989AA4` Light | ![#6E7080](https://via.placeholder.com/15/6E7080/000000?text=+) `#6E7080` Shading | ![#4A4B53](https://via.placeholder.com/15/4A4B53/000000?text=+) `#4A4B53` Dark
-- **Deep / Bottom** : 
-  - ![#2F2D39](https://via.placeholder.com/15/2F2D39/000000?text=+) `#2F2D39`
-  
-### Turrets
-- **Brown** : 
-  - ![#C9A58F](https://via.placeholder.com/15/C9A58F/000000?text=+) `#C9A58F` Light | ![#8F665B](https://via.placeholder.com/15/8F665B/000000?text=+) `#8F665B` Dark
-- **White** : 
-  - ![#F4F4F4](https://via.placeholder.com/15/F4F4F4/000000?text=+) `#F4F4F4` Light | ![#C1C3D4](https://via.placeholder.com/15/C1C3D4/000000?text=+) `#C1C3D4` Dark
-- **Dark**  : 
-  - ![#7B7B7B](https://via.placeholder.com/15/7B7B7B/000000?text=+) `#7B7B7B` Light | ![#4D4E58](https://via.placeholder.com/15/4D4E58/000000?text=+) `#4D4E58` Dark
- 
-### Decals
-- Blue
-  - ![#C0ECFF](https://via.placeholder.com/15/C0ECFF/000000?text=+) `#C0ECFF` Light | ![#87CEEB](https://via.placeholder.com/15/87CEEB/000000?text=+) `#87CEEB` Medium | 
- ![#6586B0](https://via.placeholder.com/15/6586B0/000000?text=+) `#6586B0` Dark
-  - ![#87A3FF](https://via.placeholder.com/15/87A3FF/000000?text=+) `#87A3FF` Light | ![#6F7FE8](https://via.placeholder.com/15/6F7FE8/000000?text=+) `#6F7FE8` Medium | 
- ![#5757C2](https://via.placeholder.com/15/5757C2/000000?text=+) `#5757C2` Dark
-  - ![#A4B8FA](https://via.placeholder.com/15/A4B8FA/000000?text=+) `#A4B8FA` Light | ![#919FE7](https://via.placeholder.com/15/919FE7/000000?text=+) `#919FE7` Medium | ![#7575C8](https://via.placeholder.com/15/7575C8/000000?text=+) `#7575C8` Dark
-- Gray
-  - ![#646567](https://via.placeholder.com/15/646567/000000?text=+) `#646567` Light | ![#515151](https://via.placeholder.com/15/515151/000000?text=+) `#515151` Medium | 
- ![#3C3837](https://via.placeholder.com/15/3C3837/000000?text=+) `#3C3837` Dark
-- Green
-  - ![#EDF3A9](https://via.placeholder.com/15/EDF3A9/000000?text=+) `#EDF3A9` Light | ![#CBD97F](https://via.placeholder.com/15/CBD97F/000000?text=+) `#CBD97F` Medium | 
- ![#9CB664](https://via.placeholder.com/15/9CB664/000000?text=+) `#9CB664` Dark
-  - ![#84F491](https://via.placeholder.com/15/84F491/000000?text=+) `#84F491` Light | ![#7BD69D](https://via.placeholder.com/15/7BD69D/000000?text=+) `#7BD69D` Medium | 
- ![#62AE7F](https://via.placeholder.com/15/62AE7F/000000?text=+) `#62AE7F` Dark
-- Orange | Red
-  - ![#FEB380](https://via.placeholder.com/15/FEB380/000000?text=+) `#FEB380` Light | ![#EA8878](https://via.placeholder.com/15/EA8878/000000?text=+) `#EA8878` Medium | 
- ![#BC5452](https://via.placeholder.com/15/BC5452/000000?text=+) `#BC5452` Dark
-  - ![#FFF3D6](https://via.placeholder.com/15/FFF3D6/000000?text=+) `#FFF3D6` Light | ![#FFD59E](https://via.placeholder.com/15/FFD59E/000000?text=+) `#FFD59E` Medium | 
- ![#F19583](https://via.placeholder.com/15/F19583/000000?text=+) `#F19583` Dark
-- Purple | Pink
-  - ![#AB99D3](https://via.placeholder.com/15/AB99D3/000000?text=+) `#AB99D3` Light | ![#8C7FA9](https://via.placeholder.com/15/8C7FA9/000000?text=+) `#8C7FA9` Medium | 
- ![#6F687E](https://via.placeholder.com/15/6F687E/000000?text=+) `#6F687E` Dark 
-  - ![#BF92F9](https://via.placeholder.com/15/BF92F9/000000?text=+) `#BF92F9` Light | ![#8A73C6](https://via.placeholder.com/15/8A73C6/000000?text=+) `#8A73C6` Medium | 
- ![#665C9F](https://via.placeholder.com/15/665C9F/000000?text=+) `#665C9F` Dark
-  - ![#F9A3C7](https://via.placeholder.com/15/F9A3C7/000000?text=+) `#F9A3C7` Light | ![#CB8EBF](https://via.placeholder.com/15/CB8EBF/000000?text=+) `#CB8EBF` Medium
-- White
-  - ![#FFFFFF](https://via.placeholder.com/15/FFFFFF/000000?text=+) `#FFFFFF` Light | ![#EBEEF5](https://via.placeholder.com/15/EBEEF5/000000?text=+) `#EBEEF5` Medium | 
- ![#D0D0E0](https://via.placeholder.com/15/D0D0E0/000000?text=+) `#D0D0E0` Dark
-- Yellow
-  - ![#F3E979](https://via.placeholder.com/15/F3E979/000000?text=+) `#F3E979` Light | ![#E8D174](https://via.placeholder.com/15/E8D174/000000?text=+) `#E8D174` Medium | 
- ![#D99F6B](https://via.placeholder.com/15/D99F6B/000000?text=+) `#D99F6B` Dark
+**1. Base**
+![PalBlockBase]()
