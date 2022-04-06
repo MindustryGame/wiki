@@ -84,7 +84,65 @@ You can get it here:
 
 <img src="/wiki/images/spriting/pal-mindustry.png">
 
-Assuming you have properly acquired a proper spriting software, you just download that image and use it as a pallete.
+Assuming you have properly acquired a proper spriting software, just download that image and use it as a pallete.
+
+## Style
+Mindustry has simple yet strict art style, what may works for other game, would just looks out of place in Mindustry due to this nature, and for that reason rules and guidelines has been established to help modder to sprite in a way that the result will fit inside the game.
+
+### Shading
+Mindustry is a 2D game, so to add depth such as elevation and depression we need to do a trick called 'Shading', despite the actual asset is a 2D image, make it such a way that it would look 3D in-game.
+
+Depending on where the light is shined, **elevations** are marked with **lighter tone**, **flat area** with the **mid-tone**, **depression** with the **darker tone**, picture something in its 3D form, and then draw it in 2D is usually a general way to sprite something in Mindustry
 
 
+**1. Blocks Shading**
+![Surge Smelter](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/production/alloy-smelter.png)
 
+We will use the Surge Smelter as an example in this part. 
+
+With blocks, lights came from top right corner to bottom left corner. So, the closer it is to the light source, the lighter the tone will be.
+
+Smelter in general has 3 types of color type, in this case 
+	- Base Color, which have 3 tone: 
+		- ![#B0BAC0](https://via.placeholder.com/15/B0BAC0/000000?text=+) `B0BAC0` 
+		- ![#989AA4](https://via.placeholder.com/15/989AA4/000000?text=+) `989AA4` 
+		- ![#6E7080](https://via.placeholder.com/15/6E7080/000000?text=+) `6E7080` 
+	- Decal Color, which also have 3 tone:
+		- ![#feb380](https://via.placeholder.com/15/feb380/000000?text=+) `FEB380` 
+		- ![#ea8878](https://via.placeholder.com/15/ea8878/000000?text=+) `EA8878` 
+		- ![#bc5452](https://via.placeholder.com/15/bc5452/000000?text=+) `BC5452` 
+	- Bottom Color
+		- ![#4a4b53](https://via.placeholder.com/15/4a4b53/000000?text=+) `4a4b53` 
+
+**Base Color** represents the main color of the block, this color is usually limited to light gray and dark gray. This will look the same across all blocks. 
+
+**Decal Color** represents the blocks **role** or **purpose**, and a way to differentiate it with each others. To pick what decal color to use for your own blocks, you should think about what purpose does your block has. For example:
+
+**Pastanium Compressor**
+![Plast-Comp](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/production/plastanium-compressor.png) 
+Plastanium Compressor has a green decal, this green decal is the exact same as the plastanium ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/items/item-plastanium.png) . And thus you can get the general idea that this block has a connection around plastanium.
+
+**Bottom Color** represents the insides of the block, the insides are not usually gets shined by the lights, so a dark color is chosen here. This could be used to represents the bottom of a block that has a chimney, like Surge Smelter for example.
+
+**2. Turret Shading**
+With Turret shading, lights came from the **right side** of the turret. 
+
+![ripple](https://github.com/Anuken/Mindustry/blob/master/core/assets-raw/sprites/blocks/turrets/ripple.png?raw=true)
+We will use the '**Ripple**' as an example for this part.
+
+Turrets in general has 2 to 3 color type with 2 tone for each:
+	- Base Color
+		- ![#7b7b7b](https://via.placeholder.com/15/7b7b7b/000000?text=+) `7B7B7B` 
+		- ![#4d4e58](https://via.placeholder.com/15/4d4e58/000000?text=+) `4D4E58` 
+	- Decal Color
+		- ![#feb380](https://via.placeholder.com/15/feb380/000000?text=+) `FEB380` 
+		- ![#ea8878](https://via.placeholder.com/15/ea8878/000000?text=+) `EA8878` 
+	- [Optional] Barrel Hole Color
+		- ![#2c2d38](https://via.placeholder.com/15/2c2d38/000000?text=+) `2C2D38` 
+
+Some turrets even has an additional decal color, for example like the **Salvo**,
+![](https://github.com/Anuken/Mindustry/blob/master/core/assets-raw/sprites/blocks/turrets/salvo.png?raw=true)
+
+
+**Base Color** or Body Color, self explanatory, it is the main color of the turret. This can range from the classic copper brown, white lancer body color, or dark grey like the **"ripple"**.
+	- 
