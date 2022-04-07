@@ -141,7 +141,7 @@ Plastanium Compressor has a green decal, this green decal is the exact same as t
 
 ### Turret Shading
 
-With Turret shading, lights came from the **right side** of the turret. 
+With Turret shading, lights came from the **right to left** of the turret. 
 
 ![ripple](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/turrets/ripple.png)
 
@@ -192,4 +192,18 @@ Turrets in general has 2 to 3 color type with 2 tone for each:
          - ![](https://raw.githubusercontent.com/Eschatologue/Unlimited-Armament-Works/master/assets/sprites/blocks/turrets/ART/skyhammer.png)
 
 ### Resources Shading
-Resource shading is quite simple, and can have its light coming from **top corners**, **Top to down**, or **right side**
+Resource shading is quite simple, and can have its light coming from **top corners**, **top to down**, or **right to left**.
+
+For color tones it should have either 3 or 2, and dont make the sprite looks 2D
+
+Examples:
+
+![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/items/item-copper.png)
+![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/items/item-plastanium.png)
+![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/items/item-graphite.png)
+![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/items/item-coal.png)
+![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/items/item-surge-alloy.png)
+![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/items/item-scrap.png)
+![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/items/item-pyratite.png)
+![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/items/liquid-cryofluid.png)
+
