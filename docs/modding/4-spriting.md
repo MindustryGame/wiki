@@ -6,7 +6,7 @@ Spriting style in Mindustry is very simple yet very strict and restrictive, what
 
 You can find all the vanilla sprites [here](https://github.com/Anuken/Mindustry/tree/master/core/assets-raw/sprites).
 
-## Spriting Software
+## **Spriting Software**
 
 It is highly recommended that you use spriting software that supports transparency and exporting image in `.PNG` format. Below there's recommendation for such.
 
@@ -36,8 +36,9 @@ It is highly recommended that you use spriting software that supports transparen
 // TODO
 
 
-## Size
-The smallest block size you could make is `32px × 32px` size, which is a 1×1 block, making bigger block means increasing the sprite size by additional `32px`, so a 2×2 block is `64×64` and so on, this applies to both turrets and blocks.
+## **Size**
+### Blocks 
+The smallest block size you could make is `32px × 32px` size, which is a 1×1 block, making bigger block means increasing the sprite size by additional `32px`, so a 2×2 block is `64 × 64` and so on, this applies to both turrets and blocks.
 - `1×1` : `32px × 32px`
 - `2×2` : `64px × 64px`
 - `3×3` : `96px × 96px`
@@ -46,7 +47,13 @@ The smallest block size you could make is `32px × 32px` size, which is a 1×1 b
 
 However you are not limited to those options, the game will still load sprites bigger or smaller than the block you've assigned it for, which can result in a unique looking sprite or an atrocity.
 
-## Storing Sprites
+### Items, Liquid, Statuses
+These content type, the minimum sprite size is `32px`, you can make bigger one though the game will just squish it down to `32px`, unfortunately the game wont enlarge smaller one, so `32px` is the minimum.
+
+### Units
+Unit sprite size are more lenient, though try to not go below `48px`. Though the bigger your units are, the more you will have to adjust their `hitSize`.
+
+## **Storing Sprites**
 Sprites can simply be dropped in the `sprites/` subdirectory. The content parser will look through it recursively. 
 
 Images are packed into an "atlas" for efficient for rendering. The first directory in sprites/, e.g. `sprites/blocks`, determines the page in this atlas that sprites are put in. Putting a block's sprite in the units page is likely to cause lots of lag; thus, you should try to organize things similarly to how the vanilla game does.
@@ -67,7 +74,7 @@ Same thing applies with overriding sprites.
 
 Overidding existing sprites is possible, for this, sprites must be placed at `sprites-override/`
 
-## Suffixes
+## **Suffixes**
 The game also have the capability to look for multiple sprites for a single block.
 
 For turrets, depending on its type, the game could look for the suffix `<name>-heat` and it means that it'll look for `test-turret-heat.png`.
@@ -76,7 +83,7 @@ For blocks and crafters/smelters this could include `<name>-top`, `<name>-liquid
 
 For more details, you can read the source code for each respective block class for what sprite that they can load. Usually located in `load()` method within the class.
 
-## Color Pallete
+## **Color Pallete**
 
 Just like every game out there, Mindustry has its own color palette. For beginners, it is highly recommended to stick to these colors selection for your sprites or it may look out of place even become heretical and may inflict great disturbance upon the #spriting discord channel.
 
@@ -90,16 +97,17 @@ Environment Color Pallete
 
 Assuming you have properly acquired a proper spriting software, just download that image and use it as a pallete.
 
-## Style
+**## Styles and Shading**
+
 Mindustry has simple yet strict art style, what may works for other game, would just looks out of place in Mindustry due to this nature, and for that reason rules and guidelines has been established to help modder to sprite in a way that the result will fit inside the game.
 
-### Shading
 Mindustry is a 2D game, so to add depth such as elevation and depression we need to do a trick called 'Shading', despite the actual asset is a 2D image, make it such a way that it would look 3D in-game.
 
 Depending on where the light is shined, **elevations** are marked with **lighter tone**, **flat area** with the **mid-tone**, **depression** with the **darker tone**, picture something in its 3D form, and then draw it in 2D is usually a general way to sprite something in Mindustry
 
+Keep in mind, this is mostly a guidelines, you can bend this guidelines however you'd like, but please try to understand the basics first and gain decent experience before you do that.
 
-**1. Blocks Shading**
+### Blocks Shading
 
 ![Surge Smelter](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/production/alloy-smelter.png)
 
@@ -109,13 +117,13 @@ With blocks, lights came from **top right corner** to bottom left corner. So, th
 
 Smelter in general has 3 types of color type, in this case 
   - Base Color, which have 3 tone: 
-	- ![](https://via.placeholder.com/15/B0BAC0/000000?text=+) `B0BAC0` 
-	- ![](https://via.placeholder.com/15/989AA4/000000?text=+) `989AA4` 
-	- ![](https://via.placeholder.com/15/6E7080/000000?text=+) `6E7080` 
+	- ![](https://via.placeholder.com/15/B0BAC0/000000?text=+) `B0BAC0` | Light Tone
+	- ![](https://via.placeholder.com/15/989AA4/000000?text=+) `989AA4` | Mid-Tone
+	- ![](https://via.placeholder.com/15/6E7080/000000?text=+) `6E7080` | Dark Tone
   - Decal Color, which also have 3 tone:
-	- ![](https://via.placeholder.com/15/feb380/000000?text=+) `FEB380` 
-	- ![](https://via.placeholder.com/15/ea8878/000000?text=+) `EA8878` 
-	- ![](https://via.placeholder.com/15/bc5452/000000?text=+) `BC5452` 
+	- ![](https://via.placeholder.com/15/feb380/000000?text=+) `FEB380` | Light Tone 
+	- ![](https://via.placeholder.com/15/ea8878/000000?text=+) `EA8878` | Mid-Tone 
+	- ![](https://via.placeholder.com/15/bc5452/000000?text=+) `BC5452` | Dark Tone 
   - Bottom Color
 	- ![](https://via.placeholder.com/15/4a4b53/000000?text=+) `4a4b53` 
 
@@ -131,43 +139,57 @@ Plastanium Compressor has a green decal, this green decal is the exact same as t
 
 **Bottom Color** represents the insides of the block, the insides are not usually gets shined by the lights, so a dark color is chosen here. This could be used to represents the bottom of a block that has a chimney, like Surge Smelter for example.
 
-**2. Turret Shading**
+### Turret Shading
 
 With Turret shading, lights came from the **right side** of the turret. 
 
-![ripple](https://github.com/Anuken/Mindustry/blob/master/core/assets-raw/sprites/blocks/turrets/ripple.png?raw=true)
+![ripple](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/turrets/ripple.png)
 
 We will use the '**Ripple**' as an example for this part.
 
 Turrets in general has 2 to 3 color type with 2 tone for each:
 - Base Color
-  - ![](https://via.placeholder.com/15/7b7b7b/000000?text=+) `7B7B7B` 
-  - ![](https://via.placeholder.com/15/4d4e58/000000?text=+) `4D4E58` 
+  - ![](https://via.placeholder.com/15/7b7b7b/000000?text=+) `7B7B7B` | Light Tone 
+  - ![](https://via.placeholder.com/15/4d4e58/000000?text=+) `4D4E58` | Dark Tone 
 - Decal Color
-  - ![](https://via.placeholder.com/15/feb380/000000?text=+) `FEB380` 
-  - ![](https://via.placeholder.com/15/ea8878/000000?text=+) `EA8878` 
+  - ![](https://via.placeholder.com/15/feb380/000000?text=+) `FEB380` | Light Tone 
+  - ![](https://via.placeholder.com/15/ea8878/000000?text=+) `EA8878` | Dark Tone 
 - [Optional] Barrel Hole Color
   - ![](https://via.placeholder.com/15/2c2d38/000000?text=+) `2C2D38` 
 
 **Base Color** or Body Color, self explanatory, it is the main color of the turret. This can range from the classic copper brown, white, or dark grey.
   - Copper Brown
-    - ![](https://github.com/Anuken/Mindustry/blob/master/core/assets-raw/sprites/blocks/turrets/duo.png?raw=true) ![](https://github.com/Anuken/Mindustry/blob/master/core/assets-raw/sprites/blocks/turrets/scorch.png?raw=true) ![](https://github.com/Anuken/Mindustry/blob/master/core/assets-raw/sprites/blocks/turrets/hail.png?raw=true)
+    - ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/turrets/duo.png) ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/turrets/scorch.png) ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/turrets/hail.png)
     - Usually represents low tiered turret, such as **Duo**, **Scorch**, **Hail**, etc.	
       - ![](https://via.placeholder.com/15/c9a58f/000000?text=+) `C9A58F` 
       - ![](https://via.placeholder.com/15/8f665b/000000?text=+) `8F665B` 
   - White
-    - ![](https://github.com/Anuken/Mindustry/blob/master/core/assets-raw/sprites/blocks/turrets/arc.png?raw=true) ![](https://github.com/Anuken/Mindustry/blob/master/core/assets-raw/sprites/blocks/turrets/lancer.png?raw=true) ![](https://github.com/Anuken/Mindustry/blob/master/core/assets-raw/sprites/blocks/defense/parallax.png?raw=true) ![](https://github.com/Anuken/Mindustry/blob/master/core/assets-raw/sprites/blocks/defense/segment.png?raw=true)
+    - ![Arc](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/turrets/arc.png) ![Lancer](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/turrets/lancer.png) ![Parallax](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/defense/parallax.png) ![Segment](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/defense/segment.png)
     - Usually represents turret that uses power instead of items to shoot, such as **Arc**, **Lancer**, **Paralax**, **Segment**.
       - ![](https://via.placeholder.com/15/f4f4f4/000000?text=+) `F4F4F4` 
       - ![](https://via.placeholder.com/15/c1c3d4/000000?text=+) `C1C3D4`
   - Dark Gray
-    -  ![](https://github.com/Anuken/Mindustry/blob/master/core/assets-raw/sprites/blocks/turrets/swarmer.png?raw=true) ![](https://github.com/Anuken/Mindustry/blob/master/core/assets-raw/sprites/blocks/turrets/cyclone.png?raw=true) ![](https://github.com/Anuken/Mindustry/blob/master/core/assets-raw/sprites/blocks/turrets/meltdown.png?raw=true)
+    -  ![Swarmer](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/turrets/swarmer.png) ![Cyclone](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/turrets/cyclone.png) ![Meltdown](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/turrets/meltdown.png)
     - In most cases, dark gray represents mid to high tiered turret.
       - ![](https://via.placeholder.com/15/7b7b7b/000000?text=+) `7B7B7B` 
       - ![](https://via.placeholder.com/15/4d4e58/000000?text=+) `4D4E58` 
 
-**Barrel Hole** is an optional detail for turrets that represents the barrel hole of your turret, this is usually are used for artillery turrets or missile launchers. This mostly are optional.
+**Decals Color** in turret is similar to what decal is to a regular block, it represents the turret role, purpose, or archetype.
 
-![](https://github.com/Anuken/Mindustry/blob/master/core/assets-raw/sprites/blocks/turrets/swarmer.png?raw=true) ![ripple](https://github.com/Anuken/Mindustry/blob/master/core/assets-raw/sprites/blocks/turrets/ripple.png?raw=true)
+**Barrel Hole** is an optional detail for turrets that represents the barrel hole of your turret, this is usually are used for artillery turrets or missile launchers.
+
+![Swarmer](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/turrets/swarmer.png) 
+![Ripple](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/turrets/ripple.png)
 
   - ![](https://via.placeholder.com/15/2c2d38/000000?text=+) `2C2D38` 
+
+  #### Unconventional Methods
+  - **Turret Mid-Tone**
+       - Still a relatively new unconditional method is adding Mid-tones into turret to make it seemingly has a flat surface instead of only light and dark tone
+       -  One of the example is the "Javelin" from [Exotic Mod](https://github.com/BlueWolf3682/Exotic-Mod). You can see there's 3 tones instead of the common vanilla 2 tones.
+          - ![](https://raw.githubusercontent.com/BlueWolf3682/Exotic-Mod/master/sprites/blocks/turrets/red/0r-javelin.png)
+       - Another example is the "Skyhammer" from [Unlimited Armament Works](https://github.com/Eschatologue/Unlimited-Armament-Works)
+         - ![](https://raw.githubusercontent.com/Eschatologue/Unlimited-Armament-Works/master/assets/sprites/blocks/turrets/ART/skyhammer.png)
+
+### Resources Shading
+Resource shading is quite simple, and can have its light coming from **top corners**, **Top to down**, or **right side**
