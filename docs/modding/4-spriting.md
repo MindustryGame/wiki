@@ -97,7 +97,7 @@ Environment Color Pallete
 
 Assuming you have properly acquired a proper spriting software, just download that image and use it as a pallete.
 
-** ## Styles and Shading**
+**## Styles and Shading**
 
 Mindustry has simple yet strict art style, what may works for other game, would just looks out of place in Mindustry due to this nature, and for that reason rules and guidelines has been established to help modder to sprite in a way that the result will fit inside the game.
 
