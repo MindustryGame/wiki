@@ -80,7 +80,11 @@ For more details, you can read the source code for each respective block class f
 
 Just like every game out there, Mindustry has its own color palette. For beginners, it is highly recommended to stick to these colors selection for your sprites or it may look out of place even become heretical and may inflict great disturbance upon the #spriting discord channel.
 
-You can get it here: 
+Block Color Pallete:
+
+<img src="/wiki/images/spriting/pal-mindustry.png">
+
+Environment Color Pallete
 
 <img src="/wiki/images/spriting/pal-mindustry.png">
 
@@ -96,53 +100,74 @@ Depending on where the light is shined, **elevations** are marked with **lighter
 
 
 **1. Blocks Shading**
+
 ![Surge Smelter](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/production/alloy-smelter.png)
 
 We will use the Surge Smelter as an example in this part. 
 
-With blocks, lights came from top right corner to bottom left corner. So, the closer it is to the light source, the lighter the tone will be.
+With blocks, lights came from **top right corner** to bottom left corner. So, the closer it is to the light source, the lighter the tone will be and with a diagonal mid-tone seperating it.
 
 Smelter in general has 3 types of color type, in this case 
-	- Base Color, which have 3 tone: 
-		- ![#B0BAC0](https://via.placeholder.com/15/B0BAC0/000000?text=+) `B0BAC0` 
-		- ![#989AA4](https://via.placeholder.com/15/989AA4/000000?text=+) `989AA4` 
-		- ![#6E7080](https://via.placeholder.com/15/6E7080/000000?text=+) `6E7080` 
-	- Decal Color, which also have 3 tone:
-		- ![#feb380](https://via.placeholder.com/15/feb380/000000?text=+) `FEB380` 
-		- ![#ea8878](https://via.placeholder.com/15/ea8878/000000?text=+) `EA8878` 
-		- ![#bc5452](https://via.placeholder.com/15/bc5452/000000?text=+) `BC5452` 
-	- Bottom Color
-		- ![#4a4b53](https://via.placeholder.com/15/4a4b53/000000?text=+) `4a4b53` 
+  - Base Color, which have 3 tone: 
+	- ![](https://via.placeholder.com/15/B0BAC0/000000?text=+) `B0BAC0` 
+	- ![](https://via.placeholder.com/15/989AA4/000000?text=+) `989AA4` 
+	- ![](https://via.placeholder.com/15/6E7080/000000?text=+) `6E7080` 
+  - Decal Color, which also have 3 tone:
+	- ![](https://via.placeholder.com/15/feb380/000000?text=+) `FEB380` 
+	- ![](https://via.placeholder.com/15/ea8878/000000?text=+) `EA8878` 
+	- ![](https://via.placeholder.com/15/bc5452/000000?text=+) `BC5452` 
+  - Bottom Color
+	- ![](https://via.placeholder.com/15/4a4b53/000000?text=+) `4a4b53` 
 
 **Base Color** represents the main color of the block, this color is usually limited to light gray and dark gray. This will look the same across all blocks. 
 
 **Decal Color** represents the blocks **role** or **purpose**, and a way to differentiate it with each others. To pick what decal color to use for your own blocks, you should think about what purpose does your block has. For example:
 
 **Pastanium Compressor**
+
 ![Plast-Comp](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/production/plastanium-compressor.png) 
-Plastanium Compressor has a green decal, this green decal is the exact same as the plastanium ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/items/item-plastanium.png) . And thus you can get the general idea that this block has a connection around plastanium.
+
+Plastanium Compressor has a green decal, this green decal is the exact same as the plastanium, and thus you can get the general idea that this block has a connection around plastanium.
 
 **Bottom Color** represents the insides of the block, the insides are not usually gets shined by the lights, so a dark color is chosen here. This could be used to represents the bottom of a block that has a chimney, like Surge Smelter for example.
 
 **2. Turret Shading**
+
 With Turret shading, lights came from the **right side** of the turret. 
 
 ![ripple](https://github.com/Anuken/Mindustry/blob/master/core/assets-raw/sprites/blocks/turrets/ripple.png?raw=true)
+
 We will use the '**Ripple**' as an example for this part.
 
 Turrets in general has 2 to 3 color type with 2 tone for each:
-	- Base Color
-		- ![#7b7b7b](https://via.placeholder.com/15/7b7b7b/000000?text=+) `7B7B7B` 
-		- ![#4d4e58](https://via.placeholder.com/15/4d4e58/000000?text=+) `4D4E58` 
-	- Decal Color
-		- ![#feb380](https://via.placeholder.com/15/feb380/000000?text=+) `FEB380` 
-		- ![#ea8878](https://via.placeholder.com/15/ea8878/000000?text=+) `EA8878` 
-	- [Optional] Barrel Hole Color
-		- ![#2c2d38](https://via.placeholder.com/15/2c2d38/000000?text=+) `2C2D38` 
+- Base Color
+  - ![](https://via.placeholder.com/15/7b7b7b/000000?text=+) `7B7B7B` 
+  - ![](https://via.placeholder.com/15/4d4e58/000000?text=+) `4D4E58` 
+- Decal Color
+  - ![](https://via.placeholder.com/15/feb380/000000?text=+) `FEB380` 
+  - ![](https://via.placeholder.com/15/ea8878/000000?text=+) `EA8878` 
+- [Optional] Barrel Hole Color
+  - ![](https://via.placeholder.com/15/2c2d38/000000?text=+) `2C2D38` 
 
-Some turrets even has an additional decal color, for example like the **Salvo**,
-![](https://github.com/Anuken/Mindustry/blob/master/core/assets-raw/sprites/blocks/turrets/salvo.png?raw=true)
+**Base Color** or Body Color, self explanatory, it is the main color of the turret. This can range from the classic copper brown, white, or dark grey.
+  - Copper Brown
+    - ![](https://github.com/Anuken/Mindustry/blob/master/core/assets-raw/sprites/blocks/turrets/duo.png?raw=true) ![](https://github.com/Anuken/Mindustry/blob/master/core/assets-raw/sprites/blocks/turrets/scorch.png?raw=true) ![](https://github.com/Anuken/Mindustry/blob/master/core/assets-raw/sprites/blocks/turrets/hail.png?raw=true)
+    - Usually represents low tiered turret, such as **Duo**, **Scorch**, **Hail**, etc.	
+      - ![](https://via.placeholder.com/15/c9a58f/000000?text=+) `C9A58F` 
+      - ![](https://via.placeholder.com/15/8f665b/000000?text=+) `8F665B` 
+  - White
+    - ![](https://github.com/Anuken/Mindustry/blob/master/core/assets-raw/sprites/blocks/turrets/arc.png?raw=true) ![](https://github.com/Anuken/Mindustry/blob/master/core/assets-raw/sprites/blocks/turrets/lancer.png?raw=true) ![](https://github.com/Anuken/Mindustry/blob/master/core/assets-raw/sprites/blocks/defense/parallax.png?raw=true) ![](https://github.com/Anuken/Mindustry/blob/master/core/assets-raw/sprites/blocks/defense/segment.png?raw=true)
+    - Usually represents turret that uses power instead of items to shoot, such as **Arc**, **Lancer**, **Paralax**, **Segment**.
+      - ![](https://via.placeholder.com/15/f4f4f4/000000?text=+) `F4F4F4` 
+      - ![](https://via.placeholder.com/15/c1c3d4/000000?text=+) `C1C3D4`
+  - Dark Gray
+    -  ![](https://github.com/Anuken/Mindustry/blob/master/core/assets-raw/sprites/blocks/turrets/swarmer.png?raw=true) ![](https://github.com/Anuken/Mindustry/blob/master/core/assets-raw/sprites/blocks/turrets/cyclone.png?raw=true) ![](https://github.com/Anuken/Mindustry/blob/master/core/assets-raw/sprites/blocks/turrets/meltdown.png?raw=true)
+    - In most cases, dark gray represents mid to high tiered turret.
+      - ![](https://via.placeholder.com/15/7b7b7b/000000?text=+) `7B7B7B` 
+      - ![](https://via.placeholder.com/15/4d4e58/000000?text=+) `4D4E58` 
 
+**Barrel Hole** is an optional detail for turrets that represents the barrel hole of your turret, this is usually are used for artillery turrets or missile launchers. This mostly are optional.
 
-**Base Color** or Body Color, self explanatory, it is the main color of the turret. This can range from the classic copper brown, white lancer body color, or dark grey like the **"ripple"**.
-	- 
+![](https://github.com/Anuken/Mindustry/blob/master/core/assets-raw/sprites/blocks/turrets/swarmer.png?raw=true) ![ripple](https://github.com/Anuken/Mindustry/blob/master/core/assets-raw/sprites/blocks/turrets/ripple.png?raw=true)
+
+  - ![](https://via.placeholder.com/15/2c2d38/000000?text=+) `2C2D38` 
