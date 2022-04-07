@@ -86,7 +86,7 @@ Block Color Pallete:
 
 Environment Color Pallete
 
-<img src="/wiki/images/spriting/pal-mindustry.png">
+<img src="/wiki/images/spriting/pal-mindustry-evn.png">
 
 Assuming you have properly acquired a proper spriting software, just download that image and use it as a pallete.
 
