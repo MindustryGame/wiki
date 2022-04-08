@@ -103,27 +103,25 @@ Mindustry has simple yet strict art style, what may works for other game, would 
 
 Mindustry is a 2D game, so to add depth such as elevation and depression we need to do a trick called 'Shading', despite the actual asset is a 2D image, make it such a way that it would look 3D in-game.
 
-Depending on where the light is shined, **elevations** are marked with **lighter tone**, **flat area** with the **mid-tone**, **depression** with the **darker tone**, picture something in its 3D form, and then draw it in 2D is usually a general way to sprite something in Mindustry
+Depending on where the light is shined, **elevations** are marked with **lighter tone**, **flat area** with the **midtone**, **depression** with the **darker tone**, picture something in its 3D form, and then draw it in 2D is usually a general way to sprite something in Mindustry
 
 Keep in mind, this is mostly a guidelines, you can bend this guidelines however you'd like, but please try to understand the basics first and gain decent experience before you do that.
 
 ### Blocks Shading
-
-<img align = "left" src="https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/production/alloy-smelter.png">
+![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/production/alloy-smelter.png)
 
 We will use the Surge Smelter as an example in this part. 
 
-With blocks, lights came from **top right corner** to bottom left corner. So, the closer it is to the light source, the lighter the tone will be and with a diagonal mid-tone seperating it.
-
+With blocks, lights came from **top right corner** to bottom left corner. So, the closer it is to the light source, the lighter the tone will be and with a diagonal midtone seperating it.
 
 Smelter in general has 3 types of color type, in this case 
   - Base Color, which have 3 tone: 
 	- ![](https://via.placeholder.com/15/B0BAC0/000000?text=+) `B0BAC0` | Light Tone
-	- ![](https://via.placeholder.com/15/989AA4/000000?text=+) `989AA4` | Mid-Tone
+	- ![](https://via.placeholder.com/15/989AA4/000000?text=+) `989AA4` | Midtone
 	- ![](https://via.placeholder.com/15/6E7080/000000?text=+) `6E7080` | Dark Tone
   - Decal Color, which also have 3 tone:
-	- ![](https://via.placeholder.com/15/feb380/000000?text=+) `FEB380` | Light Tone 
-	- ![](https://via.placeholder.com/15/ea8878/000000?text=+) `EA8878` | Mid-Tone 
+	- ![](https://via.placeholder.com/15/feb380/000000?text=+) `FEB380` | Lght Tone 
+	- ![](https://via.placeholder.com/15/ea8878/000000?text=+) `EA8878` | Midtone 
 	- ![](https://via.placeholder.com/15/bc5452/000000?text=+) `BC5452` | Dark Tone 
   - Bottom Color
 	- ![](https://via.placeholder.com/15/4a4b53/000000?text=+) `4a4b53` 
@@ -185,8 +183,8 @@ Turrets in general has 2 to 3 color type with 2 tone for each:
   - ![](https://via.placeholder.com/15/2c2d38/000000?text=+) `2C2D38` 
 
   #### Unconventional Methods
-  - **Turret Mid-Tone**
-       - Still a relatively new unconditional method is adding Mid-tones into turret to make it seemingly has a flat surface instead of only light and dark tone
+  - **Turret Midtone**
+       - Still a relatively new unconditional method is adding Midtones into turret to make it seemingly has a flat surface instead of only light and dark tone
        - One of example is the "Skyhammer" from [Unlimited Armament Works](https://github.com/Eschatologue/Unlimited-Armament-Works)
          - ![](https://raw.githubusercontent.com/Eschatologue/Unlimited-Armament-Works/master/assets/sprites/blocks/turrets/ART/skyhammer.png)
 
@@ -209,4 +207,39 @@ Examples:
 ### Unit Shading
 Now we arrived at the tricky part of shadings. 
 
-Unit c
+Unit shading can be fairly complex the bigger your units are. In unit shading lights came from the **top to bottom** or **front to back**. The intensity of lighter tone and darker tone are changing depending on what part you're working with on the unit.
+
+As mentioned above, Light tone represents **elevation**, midtone represents **flat area**, dark tone represents **depression**.
+
+#### **Unit Base Color**
+
+![](/docs/images/modding/spriting/spriting-unit-shading.png)
+
+Please take a look at the image above, we use **Eclipse** for this example. As you continously work torwards the backside, there will be less light tone and more midtone and dark tone.
+
+Parts that gets lit by the lights will have a lighter tone, while the one that are not gets darker tone, flat area are midtone.
+
+![](/docs/images/modding/spriting/spriting-unit-shading-illustration.png)
+
+Above are the rough illustration of units if imagined in 3D.
+
+- Base Color, has 3 tone: 
+	- ![](https://via.placeholder.com/15/B0BAC0/000000?text=+) `B0BAC0` | Light Tone
+	- ![](https://via.placeholder.com/15/989AA4/000000?text=+) `989AA4` | Midtone
+	- ![](https://via.placeholder.com/15/6E7080/000000?text=+) `6E7080` | Dark Tone
+
+#### **Unit Decal Color**
+
+Unit decal color only consisted of 2 tones, which are light tone and dark tone. They represents the unit role in-game.
+
+- Yellow Color, represents **Core** units, which are produced by the Core.
+- ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/units/gamma.png) ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/units/beta.png)
+  - ![](https://via.placeholder.com/15/ffd37f/000000?text=+) `FFD37F` | Light Tone 
+  - ![](https://via.placeholder.com/15/d4816b/000000?text=+) `D4816B` | Dark Tone 
+
+- Orange Color, represents **Assault** units, which have the main role of attacking.
+  - ![](https://via.placeholder.com/15/ffa665/000000?text=+) `FFA665` | Light Tone 
+  - ![](https://via.placeholder.com/15/d06b53/000000?text=+) `D06B53` | Dark Tone 
+
+
+
