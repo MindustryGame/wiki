@@ -89,11 +89,11 @@ Just like every game out there, Mindustry has its own color palette. For beginne
 
 Block Color Pallete:
 
-<img src="/wiki/images/spriting/pal-mindustry.png">
+![](/docs/images/modding/spriting/pal-mindustry.png)
 
 Environment Color Pallete
 
-<img src="/wiki/images/spriting/pal-mindustry-evn.png">
+![](/docs/images/modding/spriting/pal-mindustry-evn.png)
 
 Assuming you have properly acquired a proper spriting software, just download that image and use it as a pallete.
 
@@ -109,11 +109,12 @@ Keep in mind, this is mostly a guidelines, you can bend this guidelines however 
 
 ### Blocks Shading
 
-![Surge Smelter](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/production/alloy-smelter.png)
+<img align = "left" src="https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/production/alloy-smelter.png">
 
 We will use the Surge Smelter as an example in this part. 
 
 With blocks, lights came from **top right corner** to bottom left corner. So, the closer it is to the light source, the lighter the tone will be and with a diagonal mid-tone seperating it.
+
 
 Smelter in general has 3 types of color type, in this case 
   - Base Color, which have 3 tone: 
@@ -186,9 +187,7 @@ Turrets in general has 2 to 3 color type with 2 tone for each:
   #### Unconventional Methods
   - **Turret Mid-Tone**
        - Still a relatively new unconditional method is adding Mid-tones into turret to make it seemingly has a flat surface instead of only light and dark tone
-       -  One of the example is the "Javelin" from [Exotic Mod](https://github.com/BlueWolf3682/Exotic-Mod). You can see there's 3 tones instead of the common vanilla 2 tones.
-          - ![](https://raw.githubusercontent.com/BlueWolf3682/Exotic-Mod/master/sprites/blocks/turrets/red/0r-javelin.png)
-       - Another example is the "Skyhammer" from [Unlimited Armament Works](https://github.com/Eschatologue/Unlimited-Armament-Works)
+       - One of example is the "Skyhammer" from [Unlimited Armament Works](https://github.com/Eschatologue/Unlimited-Armament-Works)
          - ![](https://raw.githubusercontent.com/Eschatologue/Unlimited-Armament-Works/master/assets/sprites/blocks/turrets/ART/skyhammer.png)
 
 ### Resources Shading
@@ -207,3 +206,7 @@ Examples:
 ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/items/item-pyratite.png)
 ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/items/liquid-cryofluid.png)
 
+### Unit Shading
+Now we arrived at the tricky part of shadings. 
+
+Unit c
