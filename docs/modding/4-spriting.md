@@ -231,15 +231,30 @@ Above are the rough illustration of units if imagined in 3D.
 #### **Unit Decal Color**
 
 Unit decal color only consisted of 2 tones, which are light tone and dark tone. They represents the unit role in-game.
-
+ 
 - Yellow Color, represents **Core** units, which are produced by the Core.
-- ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/units/gamma.png) ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/units/beta.png)
-  - ![](https://via.placeholder.com/15/ffd37f/000000?text=+) `FFD37F` | Light Tone 
-  - ![](https://via.placeholder.com/15/d4816b/000000?text=+) `D4816B` | Dark Tone 
+  - ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/units/gamma.png) ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/units/beta.png)
+    - ![](https://via.placeholder.com/15/ffd37f/000000?text=+) `FFD37F` | Light Tone 
+    - ![](https://via.placeholder.com/15/d4816b/000000?text=+) `D4816B` | Dark Tone 
 
-- Orange Color, represents **Assault** units, which have the main role of attacking.
-  - ![](https://via.placeholder.com/15/ffa665/000000?text=+) `FFA665` | Light Tone 
-  - ![](https://via.placeholder.com/15/d06b53/000000?text=+) `D06B53` | Dark Tone 
+- Orange Color, represents **Assault** units, which have the role of attacking your opponents.
+  - ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/units/fortress.png) ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/units/horizon.png)
+    - ![](https://via.placeholder.com/15/ffa665/000000?text=+) `FFA665` | Light Tone 
+    - ![](https://via.placeholder.com/15/d06b53/000000?text=+) `D06B53` | Dark Tone 
 
+- Green Color, represents **Support** units. Units that can build, heal, shields your units, etc.
+  - ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/units/poly.png) ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/units/retusa.png)
+    - ![](https://via.placeholder.com/15/84f491/000000?text=+) `84F491` | Light Tone 
+    - ![](https://via.placeholder.com/15/62ae7f/000000?text=+) `62AE7F` | Dark Tone 
 
+- Purple Color, represents **Specialist** units. Units that have very unique charaterstic, that can't be put into the same category as the above.
+  - ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/units/crawler.png) ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/units/arkyid.png)
+    - ![](https://via.placeholder.com/15/bf92f9/000000?text=+) `BF92F9` | Light Tone 
+    - ![](https://via.placeholder.com/15/665c9f/000000?text=+) `665C9F` | Dark Tone 
 
+#### Unit Cell/Team Color
+Unit Cells are sprite that are used to differentiate units between teams, they're a seperate sprite that will be loaded on top of the unit.
+
+![](/docs/images/modding/spriting/spriting-unit-cell.png)
+
+The Cells are automatically colored depending on what team the units are in.
