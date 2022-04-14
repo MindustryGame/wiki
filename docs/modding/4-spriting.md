@@ -27,17 +27,33 @@ It is highly recommended that you use spriting software that supports transparen
       - A copy of the Aseprite repository, not as up-to-date or as powerful as the original one, though you would not need it for spriting in mindustry style anyway.
   
   3. **[Piskel](https://www.piskelapp.com/)**
-      IT is a straightforward pixel art software that is not as powerful as Aseprite or LibreSprite, but it is sufficient. There is an online version & an offline downloadable version. Both versions have the same feature.
+      - A straightforward pixel art software that is not as powerful as Aseprite or LibreSprite, but it is sufficient. There is an online version & an offline downloadable version. Both versions have the same feature.
       - Cannot export individual layer
 
-  4. **[Paint.NET](https://www.getpaint.net/)**
-      - Very basic painting software, not to be confused with Paint 3D, `Paint.NET` is usable but not as convenient as the above mentioned.
-      - `Paint.NET` lacks basic features used for spriting in mindustry style. However, you can get some of these missing features with plugins that you can install manually.
-      - That said, it is not recommended to use this for the sake of convenience. If you can download `Paint.NET`, pretty darn sure you can download Piskel and LibreSprite, which is a specialized Pixel Art software.
+  4. **[Pixilart](https://www.pixilart.com/)**
+      - An online spriting tool that has more features than piskel though it lacks a mirror tool. If you're more familiar with pixilart, use this over piskel.
+      - Pretty bloated for spriting in Mindustry style.
+
+  5. **[Paint.NET](https://www.getpaint.net/)**
+      - Very basic painting software, not to be confused with Paint 3D, Paint&#46;NET is usable but not as convenient as the above mentioned.
+      - Paint&#46;NET lacks basic features used for spriting in mindustry style. However, you can get some of these missing features with plugins that you can install manually.
+      - That said, it is not recommended to use this for the sake of convenience. If you can download Paint&#46;NET, pretty darn sure you can download Piskel and LibreSprite, which is a specialized Pixel Art software.
 
 ### **Mobile**
-// TODO
+1. **[Novix Pixel Editor](https://play.google.com/store/apps/details?id=io.anuke.novix)**
+     - Old and reliable, made and abandoned by Anuke, its simple, has no ads, though a bit old, its still reliable as a spriting tool for mobile users, also has mirror feature.
+     - Occasionally breaks if spriting a larger sprite.
+  
+2.  **[Pixel Studio](https://play.google.com/store/apps/details?id=com.PixelStudio)**
+    - One of the most popular pixel art software.
+    - Has mostly all the feature you need and it can link with its PC version also.
+    - Has ads
 
+3. **[Ibispaint X](https://play.google.com/store/apps/details?id=jp.ne.ibis.ibispaintx.app)**
+    - Usually not used for spriting, and requires some settings before use.
+    - Supports various tools like octal mirrors, bloom, and gradients, as well as fundamental features like region select and layers.
+    - Can be used to sprite complex sprites at ease, but could be bloated for simple sprites. 
+    - Also has ads
 
 ## **Size**
 ### Blocks 
@@ -365,7 +381,7 @@ Environmental sprites will make up most, if not the majority, of a Mindustry gam
 ---
 
 ## Linear Filtering
-//TODO
+//TODO idk what to write here
 
 ## Anti-aliasing
-//TODO
+//TODO also idk, dont know much
