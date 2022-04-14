@@ -143,7 +143,7 @@ Please note that different blocks require different sprites depending on their t
 
 Modded Examples:
   - Unit Bunker by Flin#8261 from [DiverseTech](https://github.com/FlinTyX/DiverseTech)
-    - ![](/docs/images/modding/spriting/sprite-examples/flintyx-unit-bunker.png)
+    - [![](/docs/images/modding/spriting/sprite-examples/flintyx-unit-bunker.png)](ehe)
   - Steam Press by Geschiedenis #4783 from [Unlimited Armament Works](https://github.com/Eschatologue/Unlimited-Armament-Works)
     - ![](https://raw.githubusercontent.com/Eschatologue/Unlimited-Armament-Works/master/assets/sprites/blocks/production/steam-press.png)
 
