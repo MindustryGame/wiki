@@ -108,7 +108,7 @@ Keep in mind that this is primarily a guideline; you can bend this guideline how
 
 ---
 
-### Blocks Shading
+### **Blocks Shading**
 ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/production/alloy-smelter.png)
 
 We will use the Surge Smelter as an example in this part. 
@@ -139,9 +139,18 @@ Plastanium Compressor has a green decal. This green decal is the same as the pla
 
 **Bottom Color** represents the insides of the block; the insides are not usually gets shined by the lights, so a dark color is chosen here. This could represent the bottom of a block with a chimney, like Surge Smelter, for example.
 
+Please note that different blocks require different sprites depending on their type; for example, a wall would need only 1 sprite, which is the sprite itself, while blocks like a reconstructor would need up to 4. Refer to [suffixes](#suffixes)
+
+Modded Examples:
+  - Unit Bunker by Flin#8261 from [DiverseTech](https://github.com/FlinTyX/DiverseTech)
+    - ![](/docs/images/modding/spriting/sprite-examples/flintyx-unit-bunker.png)
+  - Steam Press by Geschiedenis #4783 from [Unlimited Armament Works](https://github.com/Eschatologue/Unlimited-Armament-Works)
+    - ![](https://raw.githubusercontent.com/Eschatologue/Unlimited-Armament-Works/master/assets/sprites/blocks/production/steam-press.png)
+
+
 ---
 
-### Turret Shading
+### **Turret Shading**
 
 With Turret shading, lights came from the turret's **right to left**. 
 
@@ -193,10 +202,10 @@ Turrets in general has 2 to 3 color type with 2 tone for each:
 
 ---
 
-### Resources Shading
+### **Resources Shading**
 Resource shading is quite simple and can have its light coming from **top corners**, **top to down**, or **right to left**.
 
-For color tones, it should have either 3 or 2 and do not make the sprite looks 2D
+For color tones, it should have either 3 or 2 and don't make the sprite looks 2D
 
 Examples:
 
@@ -209,7 +218,7 @@ Examples:
 ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/items/item-pyratite.png)
 ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/items/liquid-cryofluid.png)
 
-### Unit Shading
+### **Unit Shading**
 Now we arrived at the tricky part of shadings. 
 
 Unit shading can be pretty complex the bigger your units are. In unit shading, lights came from the **top to bottom** or **front to back**. The intensity of lighter tone and darker tone changes depending on what part you are working with on the unit.
@@ -280,7 +289,7 @@ Unit Weapons can follow the same rule as turrets and unit shading; they can be s
 
  Weapons rotation is based on the centre of the sprite; if you want to shift the weapon rotation point, shift the sprite.
 
-### Unit Spriting Stages
+#### **Unit Spriting Stages**
 
 ![](/docs/images/modding/spriting/spriting-unit-stepbystep.png)
  
@@ -288,7 +297,7 @@ The process of drawing units can be roughly divided into 5 stages:
 
 1. Here, you want to scribble down the general shape. Pick a thick brush with a dark tone and paint it, slowly adding lines over each other and forming basic shapes without much precision. Try to make them slightly deformed or curved, and make sure the shape looks nice - you cannot make a good sprite out of a bad shape in most cases, so make sure you are satisfied before you move on.
 
-2. Refine the shape and transform it where lines are incremental by 45 degrees. You may want to tweak some of them, and do not try to follow the doodle you already made too closely.
+2. Refine the shape and transform it where lines are incremental by 45 degrees. You may want to tweak some of them, and don't try to follow the doodle you already made too closely.
 
 3. Add decals. This is a tricky one because decals are hard to get right. I showed 3 examples of what kind of work - you should experiment for yourself, however, and see what works best for you. The reason why it's better to add them now is that later you will be able to "build shades" around decals, making it easier to proceed at stage 5. 
 
@@ -300,3 +309,59 @@ The process of drawing units can be roughly divided into 5 stages:
 
 ---
 
+### **Evironmental Sprites**
+
+Environmental sprites are a bit different from the rest of the Mindustry spriting style, which is that the **45° increment rule doesn't always apply**.
+
+Environmental sprites will make up most, if not the majority, of a Mindustry game, so it should be in your best interest that the sprite you've made is subtle enough and looks great despite being repetitive.
+
+1. Floors
+     - Floors only has 2 color tones
+     - Floors variation amount is up to your personal preferences.
+       - Vanilla Examples :
+         - ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/environment/basalt1.png) ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/environment/basalt2.png) ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/environment/basalt3.png)
+         - ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/environment/dirt1.png) ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/environment/dirt2.png) ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/environment/dirt3.png)
+       - Modded Examples :
+          - ![](https://raw.githubusercontent.com/Sh1penfire/Endless-Rusting-Demo/master/assets/sprites/blocks/environment/classem-stolnene1.png) ![](https://raw.githubusercontent.com/Sh1penfire/Endless-Rusting-Demo/master/assets/sprites/blocks/environment/classem-stolnene2.png) ![](https://raw.githubusercontent.com/Sh1penfire/Endless-Rusting-Demo/master/assets/sprites/blocks/environment/classem-stolnene3.png) 
+          - ![](https://raw.githubusercontent.com/Sh1penfire/Endless-Rusting-Demo/master/assets/sprites/blocks/environment/ebrin-drylon1.png) ![](https://raw.githubusercontent.com/Sh1penfire/Endless-Rusting-Demo/master/assets/sprites/blocks/environment/ebrin-drylon2.png) ![](https://raw.githubusercontent.com/Sh1penfire/Endless-Rusting-Demo/master/assets/sprites/blocks/environment/ebrin-drylon3.png) ![](https://raw.githubusercontent.com/Sh1penfire/Endless-Rusting-Demo/master/assets/sprites/blocks/environment/ebrin-drylon4.png) ![](https://raw.githubusercontent.com/Sh1penfire/Endless-Rusting-Demo/master/assets/sprites/blocks/environment/ebrin-drylon5.png) ![](https://raw.githubusercontent.com/Sh1penfire/Endless-Rusting-Demo/master/assets/sprites/blocks/environment/ebrin-drylon6.png) 
+        - > Sprites by Sh1penfire from [Endless-Rusting](https://github.com/Sh1penfire/Endless-Rusting-Demo)
+  
+2. Static Walls
+    - Please not to be confused with buildable defenses wall
+    - Wall has 3 color tones, and just like floors, the number of variations is up to you.
+    - Walls also has a larger 2x2 version, which is optional.
+      - Vanilla Example :
+        - ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/environment/dacite-wall1.png) ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/environment/dacite-wall2.png) ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/environment/dacite-wall-large.png)
+      - Modded Example :
+        - ![](https://raw.githubusercontent.com/Sh1penfire/Endless-Rusting-Demo/master/assets/sprites/blocks/environment/classem-wallen1.png) ![](https://raw.githubusercontent.com/Sh1penfire/Endless-Rusting-Demo/master/assets/sprites/blocks/environment/classem-wallen2.png)
+      - > Sprites by Sh1penfire from [Endless-Rusting](https://github.com/Sh1penfire/Endless-Rusting-Demo)
+
+3. Ores
+   - Ores are considered floor overlays; they are a way for players to get resources and where drills can be placed.
+      - Vanilla Examples :
+        - ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/environment/thorium1.png) ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/environment/thorium2.png) ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/environment/thorium3.png)
+        - ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/environment/scrap1.png) ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/environment/scrap2.png) ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/environment/scrap3.png)
+      - Modded Examples : 
+        - ![](https://raw.githubusercontent.com/Sh1penfire/Endless-Rusting-Demo/master/assets/sprites/blocks/environment/melonaleum1.png) ![](https://raw.githubusercontent.com/Sh1penfire/Endless-Rusting-Demo/master/assets/sprites/blocks/environment/melonaleum2.png) 
+        - ![](https://raw.githubusercontent.com/Sh1penfire/Endless-Rusting-Demo/master/assets/sprites/blocks/environment/taconite1.png) ![](https://raw.githubusercontent.com/Sh1penfire/Endless-Rusting-Demo/master/assets/sprites/blocks/environment/taconite2.png) ![](https://raw.githubusercontent.com/Sh1penfire/Endless-Rusting-Demo/master/assets/sprites/blocks/environment/taconite3.png)  
+
+4. Props
+    - Props are player breakable environmental blocks that will occur randomly over a floor.
+    - Props have their own files, separate from environmental sprites.
+    - Their sizes are up to you.
+    - Examples :
+      -  ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/props/boulder1.png) ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/props/boulder2.png)      
+       - ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/props/spore-cluster1.png) ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/props/spore-cluster2.png) ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/props/spore-cluster3.png)
+       - ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/props/sand-boulder1.png) ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/props/sand-boulder2.png)
+5. Trees
+    - Trees are drawn above most types of blocks, units can also pass through them, and they only act as additional foliage for maps. 
+    - Examples :
+      - ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/props/white-tree.png)
+
+---
+
+## Linear Filtering
+//TODO
+
+## Anti-aliasing
+//TODO
