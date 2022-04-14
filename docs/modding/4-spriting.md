@@ -1,12 +1,12 @@
 # Spriting
 
-Spriting is an essential part of Mindustry modding; anything you have made would show up as an "oh no" image without it.
+Spriting is an essential part of Mindustry modding; anything you have made would appear as an "oh no" image without it.
 
 The spriting style in Mindustry is simple yet very restrictive; what you can get away with in other games would look out of place in Mindustry.
 
 You can find all the vanilla sprites [here](https://github.com/Anuken/Mindustry/tree/master/core/assets-raw/sprites).
 
-**Please note that using other modder's sprites without their permission is highly discouraged, though using it as inspiration or reference is allowed.**
+**Please note that using other modder's sprites without their permission is highly discouraged, though it is allowed to be used as inspiration or reference.**
 
 **Reasoning such as "The mod is open-source, I can do whatever I want with it," and something similar will not be acknowledged nor tolerated and, if found out, would lead your mod to be blacklisted from the mod browser**
 
@@ -27,7 +27,7 @@ It is highly recommended that you use spriting software that supports transparen
       - A copy of the Aseprite repository, not as up-to-date or as powerful as the original one, though you would not need it for spriting in mindustry style anyway.
   
   3. **[Piskel](https://www.piskelapp.com/)**
-      - A straightforward pixel art software, not as powerful as Aseprite or LibreSprite, but it is sufficient enough. There is an online version & an offline downloadable version. Both versions have the same feature.
+      IT is a straightforward pixel art software that is not as powerful as Aseprite or LibreSprite, but it is sufficient. There is an online version & an offline downloadable version. Both versions have the same feature.
       - Cannot export individual layer
 
   4. **[Paint.NET](https://www.getpaint.net/)**
@@ -54,15 +54,15 @@ However, you are not limited to those options; the game will still load sprites 
 For these content types, the minimum sprite size is `32px`; you can make a bigger one though the game will squish it down to `32px`. Unfortunately, the game will not enlarge the smaller one, so `32px` is the minimum.
 
 ### Units
-Unit sprite sizes are more lenient compared to others, though try not to go below `48px`. The bigger your units are, the more you will have to adjust their `hitSize`.
+Unit sprite sizes are more lenient than others, though try not to go below `48px`. The bigger your units are, the more you will have to adjust their `hitSize`.
 
 ## **Storing Sprites**
 Sprites can be dropped in the `sprites/` subdirectory. The content parser will look through it recursively. 
 
-Images are packed into "atlas" for efficient rendering. The first directory in sprites/, e.g. `sprites/blocks`, determines the page in this atlas that sprites are put in. Putting a block's sprite in the units page is likely to cause lots of lag; thus, you should try to organize things similarly to how the vanilla game does.
+Images are packed into "atlas" for efficient rendering. The first directory in sprites/, e.g., `sprites/blocks`, determines the page in this atlas that sprites are put in. Putting a block's sprite in the units page is likely to cause lots of lag; thus, you should try to organize things similarly to how the vanilla game does.
 > Anuke
 
-The game will look for sprites relative to its name. `content/blocks/test-turret.json` has the name `test-turret` and similarly `sprites/test-turret.png` has the name `test-turret`, so it will be used by this content.
+The game will look for sprites relative to its name. `content/blocks/test-turret.json` has the name `test-turret`, and similarly, `sprites/test-turret.png` has the name `test-turret`, so it will be used by this content.
 
 To put this simply, the game will look for 3 kinds of sprites, blocks, units, & items; thus, the sprites you have made should be placed into their subfolder.
 - Blocks should be stored in `sprites/blocks`
@@ -75,7 +75,7 @@ The same thing applies to overriding sprites.
 
 ### Overriding
 
-Overriding existing sprites is possible; for this, sprites must be placed at `sprites-override/`
+Overriding existing sprites is possible; for this, sprites must be placed at `sprites-override/`.
 
 ## **Suffixes**
 The game also can look for multiple sprites for a single block.
@@ -147,7 +147,7 @@ Please note that different blocks require different sprites depending on their t
 
 Modded Examples:
   - Unit Bunker by Flin#8261 from [DiverseTech](https://github.com/FlinTyX/DiverseTech)
-    - [![](/docs/images/modding/spriting/sprite-examples/flintyx-unit-bunker.png)](#)
+    - [![](/docs/images/modding/spriting/sprite-examples/flintyx-unit-bunker.png)](ehe)
   - Steam Press by Geschiedenis #4783 from [Unlimited Armament Works](https://github.com/Eschatologue/Unlimited-Armament-Works)
     - ![](https://raw.githubusercontent.com/Eschatologue/Unlimited-Armament-Works/master/assets/sprites/blocks/production/steam-press.png)
 
@@ -321,7 +321,7 @@ Environmental sprites will make up most, if not the majority, of a Mindustry gam
 
 1. Floors
      - Floors only has 2 color tones
-     - Floors variation amount is up to your personal preferences.
+     - The number of variations is up to you.
        - Vanilla Examples :
          - ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/environment/basalt1.png) ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/environment/basalt2.png) ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/environment/basalt3.png)
          - ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/environment/dirt1.png) ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/environment/dirt2.png) ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/environment/dirt3.png)
