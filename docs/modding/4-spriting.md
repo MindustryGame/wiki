@@ -6,6 +6,10 @@ The spriting style in Mindustry is simple yet very restrictive; what you can get
 
 You can find all the vanilla sprites [here](https://github.com/Anuken/Mindustry/tree/master/core/assets-raw/sprites).
 
+**Please note that using other modder's sprites without their permission is highly discouraged, though using it as inspiration or reference is allowed.**
+
+**Reasoning such as "The mod is open-source, I can do whatever I want with it," and something similar will not be acknowledged nor tolerated and, if found out, would lead your mod to be blacklisted from the mod browser**
+
 ## **Spriting Software**
 It is highly recommended that you use spriting software that supports transparency and exporting images in `.PNG` format. Below there is the recommendation for such.
 
@@ -143,7 +147,7 @@ Please note that different blocks require different sprites depending on their t
 
 Modded Examples:
   - Unit Bunker by Flin#8261 from [DiverseTech](https://github.com/FlinTyX/DiverseTech)
-    - [![](/docs/images/modding/spriting/sprite-examples/flintyx-unit-bunker.png)](ehe)
+    - [![](/docs/images/modding/spriting/sprite-examples/flintyx-unit-bunker.png)](#)
   - Steam Press by Geschiedenis #4783 from [Unlimited Armament Works](https://github.com/Eschatologue/Unlimited-Armament-Works)
     - ![](https://raw.githubusercontent.com/Eschatologue/Unlimited-Armament-Works/master/assets/sprites/blocks/production/steam-press.png)
 
