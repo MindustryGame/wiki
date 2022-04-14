@@ -286,6 +286,8 @@ Unit decal color only consisted of 2 tones: light tone and dark tone. They repre
     - ![](https://via.placeholder.com/15/bf92f9/000000?text=+) `BF92F9` | Light Tone 
     - ![](https://via.placeholder.com/15/665c9f/000000?text=+) `665C9F` | Dark Tone 
 
+**You are free to pick whatever color you would like, as long as it's consistent throughout your whole mod**
+
 #### **Unit Cell/Team Color**
 Unit Cells are sprites used to differentiate units between teams; they are separate sprites that will be loaded on top of the unit.
 
