@@ -136,7 +136,6 @@ Other fields included will be the fields of the type itself.
 A side note, `name` and `description` are not required to be in the json structure. You can define them for any language with (Bundles)[#bundles]. However, if they are not present in either then the name will be <type>.<modname>-<stemname>.name and an empty description respectively.
 
 
-
 ## Types
 
 Types have numerous fields, but the important one is `type`; this is a special field used by the content parser, that changes which type your object is. *A `Router` type can't be a `Turret` type*, as they're just completely different.
