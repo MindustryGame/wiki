@@ -397,9 +397,9 @@ Props are player breakable environmental blocks that will occur randomly over a 
 
 
 #### **Trees**
-Trees are drawn above most types of blocks, units can also pass through them, and they only act as additional foliage for maps. 
+Trees are drawn above most types of blocks, units can also pass through them, and they only act as additional foliage for maps.
 
   - Examples :
-    - ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/props/white-tree.png)
+    - <img src="/wiki/images/modding/spriting/spriting-props-white-tree.png" draggable="false">
 
 ---
