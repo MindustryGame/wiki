@@ -28,7 +28,7 @@ It is highly recommended that you use spriting software that supports transparen
   
   3. **[Piskel](https://www.piskelapp.com/)**
       - A straightforward pixel art software that is not as powerful as Aseprite or LibreSprite, but it is sufficient. There is an online version & an offline downloadable version. Both versions have the same feature.
-      - Cannot export individual layer
+      - Cannot export individual layers
 
   4. **[Pixilart](https://www.pixilart.com/)**
       - An online spriting tool that has more features than piskel though it lacks a mirror tool. If you're more familiar with pixilart, use this over piskel.
@@ -57,17 +57,17 @@ It is highly recommended that you use spriting software that supports transparen
 
 ## **Size**
 ### Blocks 
-The smallest block size you could make is `32px × 32px` size, which is a 1×1 block, making bigger block means increasing the sprite size by additional `32px`, so a 2×2 block is `64 × 64` and so on, this applies to both turrets and blocks.
+The smallest block size you could make is `32px × 32px`, which is a 1×1 block. Making bigger blocks means increasing the sprite size by an additional `32px`, so a 2×2 block is `64 × 64`, and so on. This applies to both turrets and blocks.
 - `1×1` : `32px × 32px`
 - `2×2` : `64px × 64px`
 - `3×3` : `96px × 96px`
 - `4×4` : `128px × 128px`
 - `5×5` : `160px × 160px`
 
-However, you are not limited to those options; the game will still load sprites bigger or smaller than the block you have assigned it for, which can result in a unique-looking sprite or an atrocity.
+However, you are not limited to those options; the game will still load sprites bigger or smaller than the block you have assigned it for, which can result in a unique-looking sprite, or an atrocity.
 
 ### Items, Liquid, Statuses
-For these content types, the minimum sprite size is `32px`; you can make a bigger one though the game will squish it down to `32px`. Unfortunately, the game will not enlarge the smaller one, so `32px` is the minimum.
+For these content types, the minimum sprite size is `32px`; you can use larger images, but the game will squish them down to `32px`. The game will not enlarge smaller images, so `32px` is the minimum.
 
 ### Units
 Unit sprite sizes are more lenient than others, though try not to go below `48px`. The bigger your units are, the more you will have to adjust their `hitSize`.
@@ -76,7 +76,6 @@ Unit sprite sizes are more lenient than others, though try not to go below `48px
 Sprites can be dropped in the `sprites/` subdirectory. The content parser will look through it recursively. 
 
 Images are packed into "atlas" for efficient rendering. The first directory in sprites/, e.g., `sprites/blocks`, determines the page in this atlas that sprites are put in. Putting a block's sprite in the units page is likely to cause lots of lag; thus, you should try to organize things similarly to how the vanilla game does.
-> Anuke
 
 The game will look for sprites relative to its name. `content/blocks/test-turret.json` has the name `test-turret`, and similarly, `sprites/test-turret.png` has the name `test-turret`, so it will be used by this content.
 
@@ -85,9 +84,7 @@ To put this simply, the game will look for 3 kinds of sprites, blocks, units, & 
 - Units should be stored in `sprites/units`
 - Items should be stored in `sprites/items`
 
-The game will slightly modify some sprites. Both turrets and units will have a black border added to them, so you must account for that while making your sprites, leaving space around turrets.
-
-The same thing applies to overriding sprites.
+The game will modify some sprites. Turrets and units will have a `3-4px` gray border added to them, so you must account for that while making your sprites, leaving space around turrets. Default outline radius and color can be customized by changing the `outlineRadius` / `outlineColor` fields in the `Block` and `UnitType` classes.
 
 ### Overriding
 
@@ -128,7 +125,7 @@ Keep in mind that this is primarily a guideline; you can bend this guideline how
 
 ---
 
-### **Blocks Shading**
+### **Block Shading**
 ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/production/alloy-smelter.png)
 
 We will use the Surge Smelter as an example in this part. 
@@ -349,7 +346,7 @@ Environmental sprites will make up most, if not the majority, of a Mindustry gam
         - > Sprites by Sh1penfire from [Endless-Rusting](https://github.com/Sh1penfire/Endless-Rusting-Demo)
   
 2. Static Walls
-    - Please not to be confused with buildable defenses wall
+    - Not to be confused with buildable defenses wall
     - Wall has 3 color tones, and just like floors, the number of variations is up to you.
     - Walls also has a larger 2x2 version, which is optional.
       - Vanilla Example :
@@ -381,9 +378,3 @@ Environmental sprites will make up most, if not the majority, of a Mindustry gam
       - ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/props/white-tree.png)
 
 ---
-
-## Linear Filtering
-//TODO idk what to write here
-
-## Anti-aliasing
-//TODO also idk, dont know much
