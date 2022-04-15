@@ -319,6 +319,7 @@ This is why spriting software capable of using layers and exporting them separat
 #### **Unit Weapons**
 Unit Weapons can follow the same rule as turrets and unit shading; they can be shaded from **top to bottom** or **right to left**.
 
+
 ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/units/weapons/zenith-missiles.png) 
 ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/units/weapons/large-artillery.png) 
 ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/units/weapons/large-laser-mount.png)
@@ -393,11 +394,5 @@ Props are player breakable environmental blocks that will occur randomly over a 
   - Examples :
     - ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/props/boulder1.png) ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/props/boulder2.png)      
     - ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/props/sand-boulder1.png) ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/props/sand-boulder2.png)
-  
-#### **Trees**
-Trees are drawn above most types of blocks, units can also pass through them, and they only act as additional foliage for maps. 
-
-  - Examples :
-    - ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/props/white-tree.png)
 
 ---

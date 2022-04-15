@@ -36,6 +36,8 @@ terribleium.color = Color.valueOf("ff0000");
 
 ## Listening to events
 
+<img src="/wiki/images/misc/modding-pathetic.gif">
+
 ```js
 
 // listen for the event where a unit is destroyed
@@ -49,7 +51,6 @@ Events.on(UnitDestroyEvent, event => {
 ```
 
 The easiest way to find events you can listen to is to look at source file: [Mindustry/blob/master/core/src/mindustry/game/EventType.java](https://github.com/Anuken/Mindustry/blob/master/core/src/mindustry/game/EventType.java)
-
 
 ## Displaying a dialog box
 
