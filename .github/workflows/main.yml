@@ -6,6 +6,7 @@ on:
       - master
   schedule:
     - cron: "0 1 * * *"
+  workflow_dispatch:
 
 jobs:
   deploy:
@@ -38,15 +39,22 @@ jobs:
       - name: Install dependencies
         run: python3 -m pip install -r ./requirements.txt
 
-      - name: Set up JDK 14
+      - name: Set up JDK 16
         uses: actions/setup-java@v1
         with:
-          java-version: 14
-
+          java-version: 16
+      - name: Checkout latest Mindustry tag
+        run: |
+          cd ..
+          git clone https://github.com/Anuken/Mindustry
+          cd Mindustry
+          git fetch --tags
+          latestTag=$(git describe --tags `git rev-list --tags --max-count=1`)
+          echo "Checking out tag: ${latestTag}"
+#          git checkout ${latestTag} #disabled until next release, for reasons
       - name: Generate docs
         run: |
           cd ..
-          git clone https://github.com/Anuken/Mindustry --depth 1
           git clone https://github.com/Anuken/Mindustry-Wiki-Generator --depth 1
           cd Mindustry-Wiki-Generator/
           ./run.sh

@@ -128,11 +128,15 @@ You can also view each linked building's "constant name" over them when the proc
 
 A constant that represents the current bound unit. It only changes when the processor unbinds a unit, or binds another one. It can be accessed using Unit instructions such as `ucontrol`, `ulocate`, and `uradar`. Since it's a Unit Object, you can also use it with `sensor`.
 
-This presents a core part of unit control in mlog; **only one unit can be bound at a time.** However, you can reference this in a variable, like `set unitReference @unit`. That variable, though, can not be used to get information about or control the referenced unit. It can only be used to check against other units. Therefore, you can think of it as a "unit identity".
+This presents a core part of unit control in mlog; **only one unit can be bound at a time.** However, you can reference this in a variable, like `set unitReference @unit`. That variable, though, can not be used to control the referenced unit. It can only be used to check against other units or to get information about it. Therefore, you can think of it as a "unit identity".
 
 #### @time `constant` `number`
 
 Represents the current UNIX timestamp *in milliseconds*.
+
+#### @tick `constant` `float`
+
+Represents the amount of ticks (60 ticks/second) since the map began. 
 
 #### @mapw `constant` `number`
 

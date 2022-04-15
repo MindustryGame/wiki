@@ -1,3 +1,6 @@
 /.vscode
 /site
 /docs_out
+.obsidian/app.json
+*.json
+.obsidian/workspace
