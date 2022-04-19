@@ -4298,6 +4298,47 @@
     Evironmental Sprites
   </a>
   
+    <nav class="md-nav" aria-label="Evironmental Sprites">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#floors" class="md-nav__link">
+    Floors
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#static-walls" class="md-nav__link">
+    Static Walls
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ores" class="md-nav__link">
+    Ores
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#props" class="md-nav__link">
+    Props
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trees" class="md-nav__link">
+    Trees
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
         
       </ul>
@@ -5464,6 +5505,47 @@
     Evironmental Sprites
   </a>
   
+    <nav class="md-nav" aria-label="Evironmental Sprites">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#floors" class="md-nav__link">
+    Floors
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#static-walls" class="md-nav__link">
+    Static Walls
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ores" class="md-nav__link">
+    Ores
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#props" class="md-nav__link">
+    Props
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trees" class="md-nav__link">
+    Trees
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
         
       </ul>
@@ -5547,7 +5629,7 @@
 <li>
 <p><strong><a href="https://play.google.com/store/apps/details?id=io.anuke.novix">Novix Pixel Editor</a></strong></p>
 <ul>
-<li>Old and reliable, made and abandoned by Anuke, its simple, has no ads, though a bit old, its still reliable as a spriting tool for mobile users, also has mirror feature.</li>
+<li>Old and reliable, made and abandoned by Anuke, it is simple, has no ads, though a bit old, it is still reliable as a spriting tool for mobile users, also has mirror feature.</li>
 <li>Occasionally breaks if spriting a larger sprite.</li>
 </ul>
 </li>
@@ -5555,7 +5637,7 @@
 <p><strong><a href="https://play.google.com/store/apps/details?id=com.PixelStudio">Pixel Studio</a></strong></p>
 <ul>
 <li>One of the most popular pixel art software.</li>
-<li>Has mostly all the feature you need and it can link with its PC version also.</li>
+<li>Has mostly all the features you need and it can link with its PC version also.</li>
 <li>Has ads</li>
 </ul>
 </li>
@@ -5571,12 +5653,14 @@
 </ol>
 <h2 id="size"><strong>Size</strong></h2>
 <h3 id="blocks">Blocks</h3>
-<p>The smallest block size you could make is <code>32px × 32px</code>, which is a 1×1 block. Making bigger blocks means increasing the sprite size by an additional <code>32px</code>, so a 2×2 block is <code>64 × 64</code>, and so on. This applies to both turrets and blocks.
-- <code>1×1</code> : <code>32px × 32px</code>
-- <code>2×2</code> : <code>64px × 64px</code>
-- <code>3×3</code> : <code>96px × 96px</code>
-- <code>4×4</code> : <code>128px × 128px</code>
-- <code>5×5</code> : <code>160px × 160px</code></p>
+<p>The smallest block size you could make is <code>32px × 32px</code>, which is a 1×1 block. Making bigger blocks means increasing the sprite size by an additional <code>32px</code>, so a 2×2 block is <code>64 × 64</code>, and so on. This applies to both turrets and blocks.</p>
+<ul>
+<li><code>1×1</code> : <code>32px × 32px</code></li>
+<li><code>2×2</code> : <code>64px × 64px</code></li>
+<li><code>3×3</code> : <code>96px × 96px</code></li>
+<li><code>4×4</code> : <code>128px × 128px</code></li>
+<li><code>5×5</code> : <code>160px × 160px</code></li>
+</ul>
 <p>However, you are not limited to those options; the game will still load sprites bigger or smaller than the block you have assigned it for, which can result in a unique-looking sprite, or an atrocity.</p>
 <h3 id="items-liquid-statuses">Items, Liquid, Statuses</h3>
 <p>For these content types, the minimum sprite size is <code>32px</code>; you can use larger images, but the game will squish them down to <code>32px</code>. The game will not enlarge smaller images, so <code>32px</code> is the minimum.</p>
@@ -5597,7 +5681,7 @@
 <p>The game also can look for multiple sprites for a single block.</p>
 <p>For turrets, depending on their type, the game could look for the suffix <code>&lt;name&gt;-heat</code>, which means that it will look for <code>test-turret-heat.png</code>.</p>
 <p>For blocks and crafters/smelters, this could include <code>&lt;name&gt;-top</code>, and <code>&lt;name&gt;-liquid</code>, which will be documented in their section.</p>
-<p>You can read the source code for each respective block class for what sprite they can load for more details—usually located in <code>load()</code> method within the class.</p>
+<p>You can read the source code for each respective block class for what sprite they can load for more details—usually located in the <code>load()</code> method within the class.</p>
 <h2 id="color-pallete"><strong>Color Pallete</strong></h2>
 <p>Just like every game out there, Mindustry has its color palette. For beginners, it is highly recommended to stick to these colors selection for your sprites, or it may look out of place and even become heretical. It may inflict great disturbance upon the #spriting discord channel.</p>
 <p>Block Color Pallete:</p>
@@ -5615,7 +5699,7 @@
 <p><img alt="" src="https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/production/alloy-smelter.png" /></p>
 <p>We will use the Surge Smelter as an example in this part. </p>
 <p>With blocks, lights came from <strong>top right corner</strong> to the bottom left corner. So, the closer it is to the light source, the lighter the tone will be and with a diagonal midtone separating it.</p>
-<p>Smelter in general has 3 types of color type, in this case </p>
+<p>Smelters in general have 3 color types, in this case </p>
 <ul>
 <li>
 <p>Base Color, which have 3 tone: </p>
@@ -5642,7 +5726,7 @@
 </ul>
 <p><strong>Base Color</strong> represents the primary color of the block; this color is usually limited to light grey and dark grey. This will look the same across all blocks. </p>
 <p><strong>Decal Color</strong> represents the block's <strong>role</strong> or <strong>purpose</strong> and a way to differentiate them from each other. To pick what decal color to use for your blocks, you should think about your block's purpose. For example:</p>
-<p><strong>Pastanium Compressor</strong></p>
+<p><strong>Plastanium Compressor</strong></p>
 <p><img alt="Plast-Comp" src="https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/production/plastanium-compressor.png" /> </p>
 <p>Plastanium Compressor has a green decal. This green decal is the same as the plastanium. Thus you can get the general idea that this block has a connection around the plastanium.</p>
 <p><strong>Bottom Color</strong> represents the insides of the block; the insides are not usually gets shined by the lights, so a dark color is chosen here. This could represent the bottom of a block with a chimney, like Surge Smelter, for example.</p>
@@ -5669,22 +5753,30 @@
 <p>We will use the '<strong>Ripple</strong>' as an example for this part.</p>
 <p>Turrets in general has 2 to 3 color type with 2 tone for each:</p>
 <ul>
-<li>Base Color</li>
-<li><img alt="" src="https://via.placeholder.com/15/7b7b7b/000000?text=+" /> <code>7B7B7B</code> | Light Tone </li>
+<li>
+<p>Base Color</p>
+</li>
+<li>
+<p><img alt="" src="https://via.placeholder.com/15/7b7b7b/000000?text=+" /> <code>7B7B7B</code> | Light Tone </p>
+</li>
 <li>
 <p><img alt="" src="https://via.placeholder.com/15/4d4e58/000000?text=+" /> <code>4D4E58</code> | Dark Tone </p>
 </li>
 <li>
 <p>Decal Color</p>
 </li>
-<li><img alt="" src="https://via.placeholder.com/15/feb380/000000?text=+" /> <code>FEB380</code> | Light Tone </li>
+<li>
+<p><img alt="" src="https://via.placeholder.com/15/feb380/000000?text=+" /> <code>FEB380</code> | Light Tone </p>
+</li>
 <li>
 <p><img alt="" src="https://via.placeholder.com/15/ea8878/000000?text=+" /> <code>EA8878</code> | Dark Tone </p>
 </li>
 <li>
 <p>[Optional] Barrel Hole Color</p>
 </li>
-<li><img alt="" src="https://via.placeholder.com/15/2c2d38/000000?text=+" /> <code>2C2D38</code> </li>
+<li>
+<p><img alt="" src="https://via.placeholder.com/15/2c2d38/000000?text=+" /> <code>2C2D38</code> </p>
+</li>
 </ul>
 <p><strong>Base Color</strong> or Body-Color, is the primary color of the turret. This can range from classic copper brown, white, or dark grey.</p>
 <ul>
@@ -5692,8 +5784,12 @@
 <p>Copper Brown</p>
 <ul>
 <li><img alt="" src="https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/turrets/duo.png" /> <img alt="" src="https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/turrets/scorch.png" /> <img alt="" src="https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/turrets/hail.png" /></li>
-<li>Usually represents low tiered turret, such as <strong>Duo</strong>, <strong>Scorch</strong>, <strong>Hail</strong>, etc. </li>
-<li><img alt="" src="https://via.placeholder.com/15/c9a58f/000000?text=+" /> <code>C9A58F</code> </li>
+<li>
+<p>Usually represents low tiered turret, such as <strong>Duo</strong>, <strong>Scorch</strong>, <strong>Hail</strong>, etc. </p>
+</li>
+<li>
+<p><img alt="" src="https://via.placeholder.com/15/c9a58f/000000?text=+" /> <code>C9A58F</code> </p>
+</li>
 <li><img alt="" src="https://via.placeholder.com/15/8f665b/000000?text=+" /> <code>8F665B</code> </li>
 </ul>
 </li>
@@ -5701,8 +5797,12 @@
 <p>White</p>
 <ul>
 <li><img alt="Arc" src="https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/turrets/arc.png" /> <img alt="Lancer" src="https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/turrets/lancer.png" /> <img alt="Parallax" src="https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/defense/parallax.png" /> <img alt="Segment" src="https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/defense/segment.png" /></li>
-<li>Usually represents turret that uses power instead of items to shoot, such as <strong>Arc</strong>, <strong>Lancer</strong>, <strong>Paralax</strong>, <strong>Segment</strong>.</li>
-<li><img alt="" src="https://via.placeholder.com/15/f4f4f4/000000?text=+" /> <code>F4F4F4</code> </li>
+<li>
+<p>Usually represents turret that uses power instead of items to shoot, such as <strong>Arc</strong>, <strong>Lancer</strong>, <strong>Paralax</strong>, <strong>Segment</strong>.</p>
+</li>
+<li>
+<p><img alt="" src="https://via.placeholder.com/15/f4f4f4/000000?text=+" /> <code>F4F4F4</code> </p>
+</li>
 <li><img alt="" src="https://via.placeholder.com/15/c1c3d4/000000?text=+" /> <code>C1C3D4</code></li>
 </ul>
 </li>
@@ -5710,8 +5810,12 @@
 <p>Dark Gray</p>
 <ul>
 <li><img alt="Swarmer" src="https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/turrets/swarmer.png" /> <img alt="Cyclone" src="https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/turrets/cyclone.png" /> <img alt="Meltdown" src="https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/turrets/meltdown.png" /></li>
-<li>In most cases, dark grey represents mid to high tiered turret.</li>
-<li><img alt="" src="https://via.placeholder.com/15/7b7b7b/000000?text=+" /> <code>7B7B7B</code> </li>
+<li>
+<p>In most cases, dark grey represents mid to high tiered turret.</p>
+</li>
+<li>
+<p><img alt="" src="https://via.placeholder.com/15/7b7b7b/000000?text=+" /> <code>7B7B7B</code> </p>
+</li>
 <li><img alt="" src="https://via.placeholder.com/15/4d4e58/000000?text=+" /> <code>4D4E58</code> </li>
 </ul>
 </li>
@@ -5725,11 +5829,17 @@
 </ul>
 <h4 id="unconventional-methods">Unconventional Methods</h4>
 <ul>
-<li><strong>Turret Midtone</strong><ul>
-<li>Still a relatively new unconditional method is adding Midtones into turret to make it seemingly has a flat surface instead of only light and dark tone</li>
-<li>One of example is the "Skyhammer" from <a href="https://github.com/Eschatologue/Unlimited-Armament-Works">Unlimited Armament Works</a><ul>
-<li><img alt="" src="https://raw.githubusercontent.com/Eschatologue/Unlimited-Armament-Works/master/assets/sprites/blocks/turrets/ART/skyhammer.png" /></li>
-</ul>
+<li>
+<p><strong>Turret Midtone</strong></p>
+<ul>
+<li>
+<p>Still a relatively new unconditional method is adding Midtones into turret to make it seemingly has a flat surface instead of only light and dark tone</p>
+</li>
+<li>
+<p>One of example is the "Skyhammer" from <a href="https://github.com/Eschatologue/Unlimited-Armament-Works">Unlimited Armament Works</a></p>
+</li>
+<li>
+<p><img alt="" src="https://raw.githubusercontent.com/Eschatologue/Unlimited-Armament-Works/master/assets/sprites/blocks/turrets/ART/skyhammer.png" /></p>
 </li>
 </ul>
 </li>
@@ -5758,15 +5868,21 @@
 <p><img src="/wiki/images/modding/spriting/spriting-unit-shading-illustration.png" draggable="false"></p>
 <p>Above are the rough illustration of units if imagined in 3D.</p>
 <ul>
-<li>Base Color, has 3 tone: </li>
-<li><img alt="" src="https://via.placeholder.com/15/B0BAC0/000000?text=+" /> <code>B0BAC0</code> | Light Tone</li>
+<li>
+<p>Base Color, has 3 tone: </p>
+</li>
+<li>
+<p><img alt="" src="https://via.placeholder.com/15/B0BAC0/000000?text=+" /> <code>B0BAC0</code> | Light Tone</p>
+</li>
 <li><img alt="" src="https://via.placeholder.com/15/989AA4/000000?text=+" /> <code>989AA4</code> | Midtone</li>
 <li><img alt="" src="https://via.placeholder.com/15/6E7080/000000?text=+" /> <code>6E7080</code> | Dark Tone</li>
 </ul>
 <h4 id="unit-decal-color"><strong>Unit Decal Color</strong></h4>
 <p>Unit decal color only consisted of 2 tones: light tone and dark tone. They represent the unit's role in-game.</p>
 <ul>
-<li>Yellow Color represents <strong>Core</strong> units, which the Core produces.</li>
+<li>
+<p>Yellow Color represents <strong>Core</strong> units, which the Core produces.</p>
+</li>
 <li>
 <p><img alt="" src="https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/units/gamma.png" /> <img alt="" src="https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/units/beta.png" /></p>
 <ul>
@@ -5797,13 +5913,15 @@
 <li>
 <p>Purple Color represents <strong>Specialist</strong> units, which have unique characteristics, and cannot be put into the same category as the above.</p>
 </li>
-<li><img alt="" src="https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/units/crawler.png" /> <img alt="" src="https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/units/arkyid.png" /><ul>
+<li>
+<p><img alt="" src="https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/units/crawler.png" /> <img alt="" src="https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/units/arkyid.png" /></p>
+<ul>
 <li><img alt="" src="https://via.placeholder.com/15/bf92f9/000000?text=+" /> <code>BF92F9</code> | Light Tone </li>
 <li><img alt="" src="https://via.placeholder.com/15/665c9f/000000?text=+" /> <code>665C9F</code> | Dark Tone </li>
 </ul>
 </li>
 </ul>
-<p><strong>You are free to pick whatever color you would like, as long as it's consistent throughout your whole mod</strong></p>
+<p><strong>You are free to pick whatever color you would like, as long as it's consistent throughout your whole mod.</strong></p>
 <h4 id="unit-cellteam-color"><strong>Unit Cell/Team Color</strong></h4>
 <p>Unit Cells are sprites used to differentiate units between teams; they are separate sprites that will be loaded on top of the unit.</p>
 <p><img src="/wiki/images/modding/spriting/spriting-unit-cell.png" draggable="false"></p>
@@ -5817,7 +5935,8 @@
 <p>This is why spriting software capable of using layers and exporting them separately is highly recommended because you can sprite the unit itself and the cell on a separate layer within one file.</p>
 <h4 id="unit-weapons"><strong>Unit Weapons</strong></h4>
 <p>Unit Weapons can follow the same rule as turrets and unit shading; they can be shaded from <strong>top to bottom</strong> or <strong>right to left</strong>.</p>
-<p><img alt="" src="https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/units/weapons/large-artillery.png" /> 
+<p><img alt="" src="https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/units/weapons/zenith-missiles.png" /> 
+<img alt="" src="https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/units/weapons/large-artillery.png" /> 
 <img alt="" src="https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/units/weapons/large-laser-mount.png" /></p>
 <p>Weapons rotation is based on the centre of the sprite; if you want to shift the weapon rotation point, shift the sprite.</p>
 <h4 id="unit-spriting-stages"><strong>Unit Spriting Stages</strong></h4>
@@ -5841,41 +5960,37 @@
 </li>
 </ol>
 <blockquote>
-<p>written by Zhenьkotron #9493, proofread by Geschiedenis #4783</p>
+<p>written by Zhenьkotron#9493, proofread by Geschiedenis#4783</p>
 </blockquote>
 <hr />
 <h3 id="evironmental-sprites"><strong>Evironmental Sprites</strong></h3>
 <p>Environmental sprites are a bit different from the rest of the Mindustry spriting style, which is that the <strong>45° increment rule doesn't always apply</strong>.</p>
 <p>Environmental sprites will make up most, if not the majority, of a Mindustry game, so it should be in your best interest that the sprite you've made is subtle enough and looks great despite being repetitive.</p>
-<ol>
-<li>
-<p>Floors</p>
+<h4 id="floors"><strong>Floors</strong></h4>
+<p>Floors only has 2 color tones and  The number of variations is up to you.</p>
 <ul>
-<li>Floors only has 2 color tones</li>
-<li>The number of variations is up to you.</li>
-<li>Vanilla Examples :<ul>
+<li>
+<p>Vanilla Examples :</p>
+<ul>
 <li><img alt="" src="https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/environment/basalt1.png" /> <img alt="" src="https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/environment/basalt2.png" /> <img alt="" src="https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/environment/basalt3.png" /></li>
 <li><img alt="" src="https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/environment/dirt1.png" /> <img alt="" src="https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/environment/dirt2.png" /> <img alt="" src="https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/environment/dirt3.png" /></li>
 </ul>
 </li>
-<li>Modded Examples :<ul>
+<li>
+<p>Modded Examples :</p>
+<ul>
 <li><img alt="" src="https://raw.githubusercontent.com/Sh1penfire/Endless-Rusting-Demo/master/assets/sprites/blocks/environment/classem-stolnene1.png" /> <img alt="" src="https://raw.githubusercontent.com/Sh1penfire/Endless-Rusting-Demo/master/assets/sprites/blocks/environment/classem-stolnene2.png" /> <img alt="" src="https://raw.githubusercontent.com/Sh1penfire/Endless-Rusting-Demo/master/assets/sprites/blocks/environment/classem-stolnene3.png" /> </li>
 <li><img alt="" src="https://raw.githubusercontent.com/Sh1penfire/Endless-Rusting-Demo/master/assets/sprites/blocks/environment/ebrin-drylon1.png" /> <img alt="" src="https://raw.githubusercontent.com/Sh1penfire/Endless-Rusting-Demo/master/assets/sprites/blocks/environment/ebrin-drylon2.png" /> <img alt="" src="https://raw.githubusercontent.com/Sh1penfire/Endless-Rusting-Demo/master/assets/sprites/blocks/environment/ebrin-drylon3.png" /> <img alt="" src="https://raw.githubusercontent.com/Sh1penfire/Endless-Rusting-Demo/master/assets/sprites/blocks/environment/ebrin-drylon4.png" /> <img alt="" src="https://raw.githubusercontent.com/Sh1penfire/Endless-Rusting-Demo/master/assets/sprites/blocks/environment/ebrin-drylon5.png" /> <img alt="" src="https://raw.githubusercontent.com/Sh1penfire/Endless-Rusting-Demo/master/assets/sprites/blocks/environment/ebrin-drylon6.png" /> </li>
-<li>
+</ul>
+</li>
+</ul>
 <blockquote>
-<p>Sprites by Sh1penfire from <a href="https://github.com/Sh1penfire/Endless-Rusting-Demo">Endless-Rusting</a></p>
+<p>Sprites by Sh1penfire#0868 from <a href="https://github.com/Sh1penfire/Endless-Rusting-Demo">Endless-Rusting</a></p>
 </blockquote>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>
-<p>Static Walls</p>
+<h4 id="static-walls"><strong>Static Walls</strong></h4>
+<p>Not to be confused with buildable defenses, wall has <strong>3 color tones</strong>, and just like floors, the number of variations is up to you.</p>
+<p>Walls also has a larger 2x2 version, which is optional.</p>
 <ul>
-<li>Not to be confused with buildable defenses wall</li>
-<li>Wall has 3 color tones, and just like floors, the number of variations is up to you.</li>
-<li>Walls also has a larger 2x2 version, which is optional.</li>
 <li>Vanilla Example :<ul>
 <li><img alt="" src="https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/environment/dacite-wall1.png" /> <img alt="" src="https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/environment/dacite-wall2.png" /> <img alt="" src="https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/environment/dacite-wall-large.png" /></li>
 </ul>
@@ -5884,17 +5999,11 @@
 <li><img alt="" src="https://raw.githubusercontent.com/Sh1penfire/Endless-Rusting-Demo/master/assets/sprites/blocks/environment/classem-wallen1.png" /> <img alt="" src="https://raw.githubusercontent.com/Sh1penfire/Endless-Rusting-Demo/master/assets/sprites/blocks/environment/classem-wallen2.png" /></li>
 </ul>
 </li>
-<li>
-<blockquote>
-<p>Sprites by Sh1penfire from <a href="https://github.com/Sh1penfire/Endless-Rusting-Demo">Endless-Rusting</a></p>
-</blockquote>
-</li>
 </ul>
-</li>
-<li>
-<p>Ores</p>
-</li>
-<li>
+<blockquote>
+<p>Sprites by Sh1penfire#0868 from <a href="https://github.com/Sh1penfire/Endless-Rusting-Demo">Endless-Rusting</a></p>
+</blockquote>
+<h4 id="ores"><strong>Ores</strong></h4>
 <p>Ores are considered floor overlays; they are a way for players to get resources and where drills can be placed.</p>
 <ul>
 <li>Vanilla Examples :<ul>
@@ -5908,28 +6017,37 @@
 </ul>
 </li>
 </ul>
-</li>
-<li>
-<p>Props</p>
+<blockquote>
+<p>Sprites by Sh1penfire from <a href="https://github.com/Sh1penfire/Endless-Rusting-Demo">Endless-Rusting</a></p>
+</blockquote>
+<h4 id="props"><strong>Props</strong></h4>
+<p>Props are player breakable environmental blocks that will occur randomly over a floor, they have their own files, separate from environmental sprites.</p>
 <ul>
-<li>Props are player breakable environmental blocks that will occur randomly over a floor.</li>
-<li>Props have their own files, separate from environmental sprites.</li>
-<li>Their sizes are up to you.</li>
-<li>Examples :</li>
+<li>
+<p>Examples :</p>
+<ul>
 <li><img alt="" src="https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/props/boulder1.png" /> <img alt="" src="https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/props/boulder2.png" />      </li>
-<li><img alt="" src="https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/props/spore-cluster1.png" /> <img alt="" src="https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/props/spore-cluster2.png" /> <img alt="" src="https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/props/spore-cluster3.png" /></li>
 <li><img alt="" src="https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/props/sand-boulder1.png" /> <img alt="" src="https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/props/sand-boulder2.png" /></li>
 </ul>
 </li>
-<li>
-<p>Trees</p>
+</ul>
+<h4 id="trees"><strong>Trees</strong></h4>
+<p><img src="/wiki/images/modding/spriting/spriting-props-white-tree-screenshot.png" draggable="false"></p>
+<p>Trees are drawn above most types of blocks, units can also pass through them, and they only act as additional foliage for maps.</p>
+<p>Keep in mind that trees in particular has shadows, you have to sprite this on your own as well.</p>
 <ul>
-<li>Trees are drawn above most types of blocks, units can also pass through them, and they only act as additional foliage for maps. </li>
-<li>Examples :</li>
-<li><img alt="" src="https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/props/white-tree.png" /></li>
+<li>
+<p>Examples :</p>
+<ul>
+<li>
+<p><img src="/wiki/images/modding/spriting/spriting-props-white-tree.png" draggable="false"></p>
+</li>
+<li>
+<p><img alt="" src="https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/props/white-tree-shadow.png" /></p>
+</li>
 </ul>
 </li>
-</ol>
+</ul>
 <hr />
 
               
