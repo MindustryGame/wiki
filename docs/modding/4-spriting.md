@@ -410,6 +410,4 @@ Keep in mind that trees in particular has shadows, you have to sprite this on yo
   
       - ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/props/white-tree-shadow.png)
 
-
-
 ---
