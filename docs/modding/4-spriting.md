@@ -36,9 +36,9 @@ It is highly recommended that you use spriting software that supports transparen
       - Pretty bloated for spriting in Mindustry style.
 
   5. **[Paint.NET](https://www.getpaint.net/)**
-      - Very basic painting software, not to be confused with Paint 3D, Paint.NET is usable but not as convenient as the other options.
-      - Paint.NET lacks basic features used for spriting in mindustry style. However, you can get some of these missing features with plugins that you can install manually.
-      - That said, it is not recommended to use this for the sake of convenience. If you can download Paint.NET, pretty darn sure you can download Piskel and LibreSprite, which is a more specialized Pixel Art software.
+      - Very basic painting software, not to be confused with Paint 3D, Paint&#46;NET is usable but not as convenient as the other options.
+      - Paint&#46;NET lacks basic features used for spriting in mindustry style. However, you can get some of these missing features with plugins that you can install manually.
+      - That said, it is not recommended to use this for the sake of convenience. If you can download Paint&#46;NET, pretty darn sure you can download Piskel and LibreSprite, which is a more specialized Pixel Art software.
 
 ### **Mobile**
 1. **[Novix Pixel Editor](https://play.google.com/store/apps/details?id=io.anuke.novix)**
