@@ -137,23 +137,26 @@ With blocks, lights came from **top right corner** to the bottom left corner. So
 Smelter in general has 3 types of color type, in this case 
 
   - Base Color, which have 3 tone: 
+    
     - ![](https://via.placeholder.com/15/B0BAC0/000000?text=+) `B0BAC0` | Light Tone
     - ![](https://via.placeholder.com/15/989AA4/000000?text=+) `989AA4` | Midtone
     - ![](https://via.placeholder.com/15/6E7080/000000?text=+) `6E7080` | Dark Tone
   
   - Decal Color, which also have 3 tone:
+    
     - ![](https://via.placeholder.com/15/feb380/000000?text=+) `FEB380` | Lght Tone 
     - ![](https://via.placeholder.com/15/ea8878/000000?text=+) `EA8878` | Midtone 
     - ![](https://via.placeholder.com/15/bc5452/000000?text=+) `BC5452` | Dark Tone
    
   - Bottom Color
+    
     - ![](https://via.placeholder.com/15/4a4b53/000000?text=+) `4a4b53` 
 
 **Base Color** represents the primary color of the block; this color is usually limited to light grey and dark grey. This will look the same across all blocks. 
 
 **Decal Color** represents the block's **role** or **purpose** and a way to differentiate them from each other. To pick what decal color to use for your blocks, you should think about your block's purpose. For example:
 
-**Pastanium Compressor**
+**Plastanium Compressor**
 
 ![Plast-Comp](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/production/plastanium-compressor.png) 
 
@@ -170,6 +173,7 @@ Modded Examples:
     - <img src="/wiki/images/modding/spriting/sprite-examples/flintyx-unit-bunker.png" draggable="false">
   
   - Steam Press by Geschiedenis #4783 from [Unlimited Armament Works](https://github.com/Eschatologue/Unlimited-Armament-Works)
+    
     - ![](https://raw.githubusercontent.com/Eschatologue/Unlimited-Armament-Works/master/assets/sprites/blocks/production/steam-press.png)
 
 
@@ -186,14 +190,17 @@ We will use the '**Ripple**' as an example for this part.
 Turrets in general has 2 to 3 color type with 2 tone for each:
 
 - Base Color
+
   - ![](https://via.placeholder.com/15/7b7b7b/000000?text=+) `7B7B7B` | Light Tone 
   - ![](https://via.placeholder.com/15/4d4e58/000000?text=+) `4D4E58` | Dark Tone 
   
 - Decal Color
+  
   - ![](https://via.placeholder.com/15/feb380/000000?text=+) `FEB380` | Light Tone 
   - ![](https://via.placeholder.com/15/ea8878/000000?text=+) `EA8878` | Dark Tone 
   
 - [Optional] Barrel Hole Color
+  
   - ![](https://via.placeholder.com/15/2c2d38/000000?text=+) `2C2D38` 
 
 **Base Color** or Body-Color, is the primary color of the turret. This can range from classic copper brown, white, or dark grey.
@@ -201,18 +208,23 @@ Turrets in general has 2 to 3 color type with 2 tone for each:
   - Copper Brown
     - ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/turrets/duo.png) ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/turrets/scorch.png) ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/turrets/hail.png)
     - Usually represents low tiered turret, such as **Duo**, **Scorch**, **Hail**, etc. 
+      
       - ![](https://via.placeholder.com/15/c9a58f/000000?text=+) `C9A58F` 
       - ![](https://via.placeholder.com/15/8f665b/000000?text=+) `8F665B` 
   
   - White
+    
     - ![Arc](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/turrets/arc.png) ![Lancer](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/turrets/lancer.png) ![Parallax](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/defense/parallax.png) ![Segment](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/defense/segment.png)
     - Usually represents turret that uses power instead of items to shoot, such as **Arc**, **Lancer**, **Paralax**, **Segment**.
+  
       - ![](https://via.placeholder.com/15/f4f4f4/000000?text=+) `F4F4F4` 
       - ![](https://via.placeholder.com/15/c1c3d4/000000?text=+) `C1C3D4`
   
   - Dark Gray
+    
     - ![Swarmer](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/turrets/swarmer.png) ![Cyclone](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/turrets/cyclone.png) ![Meltdown](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/turrets/meltdown.png)
     - In most cases, dark grey represents mid to high tiered turret.
+      
       - ![](https://via.placeholder.com/15/7b7b7b/000000?text=+) `7B7B7B` 
       - ![](https://via.placeholder.com/15/4d4e58/000000?text=+) `4D4E58` 
 
@@ -228,9 +240,12 @@ Turrets in general has 2 to 3 color type with 2 tone for each:
 #### Unconventional Methods
 
   - **Turret Midtone**
-       - Still a relatively new unconditional method is adding Midtones into turret to make it seemingly has a flat surface instead of only light and dark tone
-       - One of example is the "Skyhammer" from [Unlimited Armament Works](https://github.com/Eschatologue/Unlimited-Armament-Works)
-         - ![](https://raw.githubusercontent.com/Eschatologue/Unlimited-Armament-Works/master/assets/sprites/blocks/turrets/ART/skyhammer.png)
+    
+    - Still a relatively new unconditional method is adding Midtones into turret to make it seemingly has a flat surface instead of only light and dark tone
+    
+    - One of example is the "Skyhammer" from [Unlimited Armament Works](https://github.com/Eschatologue/Unlimited-Armament-Works)
+      
+      - ![](https://raw.githubusercontent.com/Eschatologue/Unlimited-Armament-Works/master/assets/sprites/blocks/turrets/ART/skyhammer.png)
 
 ---
 
@@ -270,6 +285,7 @@ Parts that get lit by the lights will have a lighter tone, while the ones that a
 Above are the rough illustration of units if imagined in 3D.
 
 - Base Color, has 3 tone: 
+  
   - ![](https://via.placeholder.com/15/B0BAC0/000000?text=+) `B0BAC0` | Light Tone
   - ![](https://via.placeholder.com/15/989AA4/000000?text=+) `989AA4` | Midtone
   - ![](https://via.placeholder.com/15/6E7080/000000?text=+) `6E7080` | Dark Tone
@@ -279,22 +295,30 @@ Above are the rough illustration of units if imagined in 3D.
 Unit decal color only consisted of 2 tones: light tone and dark tone. They represent the unit's role in-game.
  
 - Yellow Color represents **Core** units, which the Core produces.
+  
   - ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/units/gamma.png) ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/units/beta.png)
+    
     - ![](https://via.placeholder.com/15/ffd37f/000000?text=+) `FFD37F` | Light Tone 
     - ![](https://via.placeholder.com/15/d4816b/000000?text=+) `D4816B` | Dark Tone 
 
 - Orange Color represents **Assault** units, which have the role of attacking your opponents.
+  
   - ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/units/fortress.png) ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/units/horizon.png)
+    
     - ![](https://via.placeholder.com/15/ffa665/000000?text=+) `FFA665` | Light Tone 
     - ![](https://via.placeholder.com/15/d06b53/000000?text=+) `D06B53` | Dark Tone 
 
 - Green Color represents **Support** units that can build, heal, and shield your units.
+  
   - ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/units/poly.png) ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/units/retusa.png)
+
     - ![](https://via.placeholder.com/15/84f491/000000?text=+) `84F491` | Light Tone 
     - ![](https://via.placeholder.com/15/62ae7f/000000?text=+) `62AE7F` | Dark Tone 
 
 - Purple Color represents **Specialist** units, which have unique characteristics, and cannot be put into the same category as the above.
+  
   - ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/units/crawler.png) ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/units/arkyid.png)
+    
     - ![](https://via.placeholder.com/15/bf92f9/000000?text=+) `BF92F9` | Light Tone 
     - ![](https://via.placeholder.com/15/665c9f/000000?text=+) `665C9F` | Dark Tone 
 
@@ -356,9 +380,12 @@ Environmental sprites will make up most, if not the majority, of a Mindustry gam
 Floors only has 2 color tones and  The number of variations is up to you.
 
   - Vanilla Examples :
+    
     - ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/environment/basalt1.png) ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/environment/basalt2.png) ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/environment/basalt3.png)
     - ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/environment/dirt1.png) ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/environment/dirt2.png) ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/environment/dirt3.png)
+  
   - Modded Examples :
+    
     - ![](https://raw.githubusercontent.com/Sh1penfire/Endless-Rusting-Demo/master/assets/sprites/blocks/environment/classem-stolnene1.png) ![](https://raw.githubusercontent.com/Sh1penfire/Endless-Rusting-Demo/master/assets/sprites/blocks/environment/classem-stolnene2.png) ![](https://raw.githubusercontent.com/Sh1penfire/Endless-Rusting-Demo/master/assets/sprites/blocks/environment/classem-stolnene3.png) 
     - ![](https://raw.githubusercontent.com/Sh1penfire/Endless-Rusting-Demo/master/assets/sprites/blocks/environment/ebrin-drylon1.png) ![](https://raw.githubusercontent.com/Sh1penfire/Endless-Rusting-Demo/master/assets/sprites/blocks/environment/ebrin-drylon2.png) ![](https://raw.githubusercontent.com/Sh1penfire/Endless-Rusting-Demo/master/assets/sprites/blocks/environment/ebrin-drylon3.png) ![](https://raw.githubusercontent.com/Sh1penfire/Endless-Rusting-Demo/master/assets/sprites/blocks/environment/ebrin-drylon4.png) ![](https://raw.githubusercontent.com/Sh1penfire/Endless-Rusting-Demo/master/assets/sprites/blocks/environment/ebrin-drylon5.png) ![](https://raw.githubusercontent.com/Sh1penfire/Endless-Rusting-Demo/master/assets/sprites/blocks/environment/ebrin-drylon6.png) 
 
@@ -392,6 +419,7 @@ Ores are considered floor overlays; they are a way for players to get resources 
 Props are player breakable environmental blocks that will occur randomly over a floor, they have their own files, separate from environmental sprites.
 
   - Examples :
+
     - ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/props/boulder1.png) ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/props/boulder2.png)      
     - ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/props/sand-boulder1.png) ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/props/sand-boulder2.png)
 
