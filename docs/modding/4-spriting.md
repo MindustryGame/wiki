@@ -36,23 +36,23 @@ It is highly recommended that you use spriting software that supports transparen
       - Pretty bloated for spriting in Mindustry style.
 
   5. **[Paint.NET](https://www.getpaint.net/)**
-      - Very basic painting software, not to be confused with Paint 3D, Paint&#46;NET is usable but not as convenient as the above mentioned.
-      - Paint&#46;NET lacks basic features used for spriting in mindustry style. However, you can get some of these missing features with plugins that you can install manually.
-      - That said, it is not recommended to use this for the sake of convenience. If you can download Paint&#46;NET, pretty darn sure you can download Piskel and LibreSprite, which is a specialized Pixel Art software.
+      - Very basic painting software, not to be confused with Paint 3D, Paint.NET is usable but not as convenient as the other options.
+      - Paint.NET lacks basic features used for spriting in mindustry style. However, you can get some of these missing features with plugins that you can install manually.
+      - That said, it is not recommended to use this for the sake of convenience. If you can download Paint.NET, pretty darn sure you can download Piskel and LibreSprite, which is a more specialized Pixel Art software.
 
 ### **Mobile**
 1. **[Novix Pixel Editor](https://play.google.com/store/apps/details?id=io.anuke.novix)**
-     - Old and reliable, made and abandoned by Anuke, its simple, has no ads, though a bit old, its still reliable as a spriting tool for mobile users, also has mirror feature.
+     - Old and reliable, made and abandoned by Anuke, its simple, has no ads, though a bit old, it's still reliable as a spriting tool for mobile users, also has a mirror feature.
      - Occasionally breaks if spriting a larger sprite.
   
 2.  **[Pixel Studio](https://play.google.com/store/apps/details?id=com.PixelStudio)**
     - One of the most popular pixel art software.
-    - Has mostly all the feature you need and it can link with its PC version also.
+    - Has mostly all the features you need and it can link with its PC version also.
     - Has ads
 
 3. **[Ibispaint X](https://play.google.com/store/apps/details?id=jp.ne.ibis.ibispaintx.app)**
     - Usually not used for spriting, and requires some settings before use.
-    - Supports various tools like octal mirrors, bloom, and gradients, as well as fundamental features like region select and layers.
+    - Supports various tools like octal mirrors, bloom, and gradients, as well as fundamental features like region selection and layers.
     - Can be used to sprite complex sprites at ease, but could be bloated for simple sprites. 
     - Also has ads
 
@@ -98,7 +98,7 @@ For turrets, depending on their type, the game could look for the suffix `<name>
 
 For blocks and crafters/smelters, this could include `<name>-top`, and `<name>-liquid`, which will be documented in their section.
 
-You can read the source code for each respective block class for what sprite they can load for more details—usually located in `load()` method within the class.
+You can read the source code for each respective block class for what sprite they can load for more details—usually located in the `load()` method within the class.
 
 ## **Color Pallete**
 
@@ -133,7 +133,7 @@ We will use the Surge Smelter as an example in this part.
 
 With blocks, lights came from **top right corner** to the bottom left corner. So, the closer it is to the light source, the lighter the tone will be and with a diagonal midtone separating it.
 
-Smelter in general has 3 types of color type, in this case 
+Smelters in general have 3 color types, in this case 
 
   - Base Color, which have 3 tone: 
     - ![](https://via.placeholder.com/15/B0BAC0/000000?text=+) `B0BAC0` | Light Tone
@@ -152,7 +152,7 @@ Smelter in general has 3 types of color type, in this case
 
 **Decal Color** represents the block's **role** or **purpose** and a way to differentiate them from each other. To pick what decal color to use for your blocks, you should think about your block's purpose. For example:
 
-**Pastanium Compressor**
+**Plastanium Compressor**
 
 ![Plast-Comp](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/production/plastanium-compressor.png) 
 
@@ -205,7 +205,7 @@ Turrets in general has 2 to 3 color type with 2 tone for each:
   
   - White
     - ![Arc](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/turrets/arc.png) ![Lancer](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/turrets/lancer.png) ![Parallax](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/defense/parallax.png) ![Segment](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/defense/segment.png)
-    - Usually represents turret that uses power instead of items to shoot, such as **Arc**, **Lancer**, **Paralax**, **Segment**.
+    - Usually represents turret that uses power instead of items to shoot, such as **Arc**, **Lancer**, **Parallax**, **Segment**.
       - ![](https://via.placeholder.com/15/f4f4f4/000000?text=+) `F4F4F4` 
       - ![](https://via.placeholder.com/15/c1c3d4/000000?text=+) `C1C3D4`
   
@@ -227,8 +227,8 @@ Turrets in general has 2 to 3 color type with 2 tone for each:
 #### Unconventional Methods
 
   - **Turret Midtone**
-       - Still a relatively new unconditional method is adding Midtones into turret to make it seemingly has a flat surface instead of only light and dark tone
-       - One of example is the "Skyhammer" from [Unlimited Armament Works](https://github.com/Eschatologue/Unlimited-Armament-Works)
+       - Still, a relatively new unconditional method is adding Midtones onto the turret to make it seemingly has a flat surface instead of only light and dark tone
+       - One example is the "Skyhammer" from [Unlimited Armament Works](https://github.com/Eschatologue/Unlimited-Armament-Works)
          - ![](https://raw.githubusercontent.com/Eschatologue/Unlimited-Armament-Works/master/assets/sprites/blocks/turrets/ART/skyhammer.png)
 
 ---
@@ -262,7 +262,7 @@ As mentioned above, Light tone represents **elevation**, midtone represents **fl
 
 Please take a look at the image above; we use **Eclipse** for this example. As you continuously work towards the backside, there will be less light tone and more midtone and dark tone.
 
-Parts that get lit by the lights will have a lighter tone, while the ones that are not get a darker tone; flat areas are midtone.
+Parts that get lit by the lights will have a lighter tone, while the ones that are not getting a darker tone; flat areas are midtone.
 
 <img src="/wiki/images/modding/spriting/spriting-unit-shading-illustration.png" draggable="false">
 
@@ -321,7 +321,7 @@ Unit Weapons can follow the same rule as turrets and unit shading; they can be s
 ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/units/weapons/large-artillery.png) 
 ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/units/weapons/large-laser-mount.png)
 
-Weapons rotation is based on the centre of the sprite; if you want to shift the weapon rotation point, shift the sprite.
+Weapons rotation is based on the center of the sprite; if you want to shift the weapon rotation point, shift the sprite.
 
 
 #### **Unit Spriting Stages**
@@ -351,7 +351,7 @@ Environmental sprites are a bit different from the rest of the Mindustry spritin
 Environmental sprites will make up most, if not the majority, of a Mindustry game, so it should be in your best interest that the sprite you've made is subtle enough and looks great despite being repetitive.
 
 1. Floors
-     - Floors only has 2 color tones
+     - Floors only have 2 color tones
      - The number of variations is up to you.
        - Vanilla Examples :
          - ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/environment/basalt1.png) ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/environment/basalt2.png) ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/environment/basalt3.png)
@@ -362,7 +362,7 @@ Environmental sprites will make up most, if not the majority, of a Mindustry gam
         - > Sprites by Sh1penfire from [Endless-Rusting](https://github.com/Sh1penfire/Endless-Rusting-Demo)
   
 2. Static Walls
-    - Not to be confused with buildable defenses wall
+    - Not to be confused with a buildable defense wall
     - Wall has 3 color tones, and just like floors, the number of variations is up to you.
     - Walls also has a larger 2x2 version, which is optional.
       - Vanilla Example :
