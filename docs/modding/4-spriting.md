@@ -42,12 +42,12 @@ It is highly recommended that you use spriting software that supports transparen
 
 ### **Mobile**
 1. **[Novix Pixel Editor](https://play.google.com/store/apps/details?id=io.anuke.novix)**
-     - Old and reliable, made and abandoned by Anuke, its simple, has no ads, though a bit old, its still reliable as a spriting tool for mobile users, also has mirror feature.
+     - Old and reliable, made and abandoned by Anuke, it is simple, has no ads, though a bit old, it is still reliable as a spriting tool for mobile users, also has mirror feature.
      - Occasionally breaks if spriting a larger sprite.
   
 2.  **[Pixel Studio](https://play.google.com/store/apps/details?id=com.PixelStudio)**
     - One of the most popular pixel art software.
-    - Has mostly all the feature you need and it can link with its PC version also.
+    - Has mostly all the features you need and it can link with its PC version also.
     - Has ads
 
 3. **[Ibispaint X](https://play.google.com/store/apps/details?id=jp.ne.ibis.ibispaintx.app)**
@@ -99,7 +99,7 @@ For turrets, depending on their type, the game could look for the suffix `<name>
 
 For blocks and crafters/smelters, this could include `<name>-top`, and `<name>-liquid`, which will be documented in their section.
 
-You can read the source code for each respective block class for what sprite they can load for more details—usually located in `load()` method within the class.
+You can read the source code for each respective block class for what sprite they can load for more details—usually located in the `load()` method within the class.
 
 ## **Color Pallete**
 
@@ -134,7 +134,7 @@ We will use the Surge Smelter as an example in this part.
 
 With blocks, lights came from **top right corner** to the bottom left corner. So, the closer it is to the light source, the lighter the tone will be and with a diagonal midtone separating it.
 
-Smelter in general has 3 types of color type, in this case 
+Smelters in general have 3 color types, in this case 
 
   - Base Color, which have 3 tone: 
     
