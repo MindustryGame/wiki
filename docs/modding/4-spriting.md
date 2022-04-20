@@ -32,17 +32,17 @@ It is highly recommended that you use spriting software that supports transparen
       - Cannot export individual layers
 
   4. **[Pixilart](https://www.pixilart.com/)**
-      - An online spriting tool that has more features than piskel though it lacks a mirror tool. If you're more familiar with pixilart, use this instead of piskel.
+      - An online spriting tool that has more features than piskel though it lacks a mirror tool. If you're more familiar with pixilart, use this over piskel.
       - Pretty bloated for spriting in Mindustry style.
 
   5. **[Paint.NET](https://www.getpaint.net/)**
-      - Very basic painting software, not to be confused with Paint 3D, Paint&#46;NET is usable but not as convenient as the above mentioned.
+      - Very basic painting software, not to be confused with Paint 3D, Paint&#46;NET is usable but not as convenient as the other options.
       - Paint&#46;NET lacks basic features used for spriting in mindustry style. However, you can get some of these missing features with plugins that you can install manually.
-      - That said, it is not recommended to use this for the sake of convenience. If you can download Paint&#46;NET, pretty darn sure you can download Piskel and LibreSprite, which is a specialized Pixel Art software.
+      - That said, it is not recommended to use this for the sake of convenience. If you can download Paint&#46;NET, pretty darn sure you can download Piskel and LibreSprite, which is a more specialized Pixel Art software.
 
 ### **Mobile**
 1. **[Novix Pixel Editor](https://play.google.com/store/apps/details?id=io.anuke.novix)**
-     - Old and reliable, made and abandoned by Anuke, it is simple, has no ads, though a bit old, it is still reliable as a spriting tool for mobile users, also has a mirror feature.
+     - Old and reliable, made and abandoned by Anuke, its simple, has no ads, though a bit old, it's still reliable as a spriting tool for mobile users, also has a mirror feature.
      - Occasionally breaks if spriting a larger sprite.
   
 2.  **[Pixel Studio](https://play.google.com/store/apps/details?id=com.PixelStudio)**
@@ -51,7 +51,7 @@ It is highly recommended that you use spriting software that supports transparen
     - Has ads
 
 3. **[Ibispaint X](https://play.google.com/store/apps/details?id=jp.ne.ibis.ibispaintx.app)**
-    - Usually not used for spriting, and requires some setting before use.
+    - Usually not used for spriting, and requires some settings before use.
     - Supports various tools like octal mirrors, bloom, and gradients, as well as fundamental features like region selection and layers.
     - Can be used to sprite complex sprites at ease, but could be bloated for simple sprites. 
     - Also has ads
@@ -59,7 +59,6 @@ It is highly recommended that you use spriting software that supports transparen
 ## **Size**
 ### Blocks 
 The smallest block size you could make is `32px × 32px`, which is a 1×1 block. Making bigger blocks means increasing the sprite size by an additional `32px`, so a 2×2 block is `64 × 64`, and so on. This applies to both turrets and blocks.
-
 - `1×1` : `32px × 32px`
 - `2×2` : `64px × 64px`
 - `3×3` : `96px × 96px`
@@ -77,7 +76,7 @@ Unit sprite sizes are more lenient than others, though try not to go below `48px
 ## **Storing Sprites**
 Sprites can be dropped in the `sprites/` subdirectory. The content parser will look through it recursively. 
 
-Images are packed into an "atlas" for efficient rendering. The first directory in sprites/, e.g., `sprites/blocks`, determines the page in this atlas that sprites are put in. Putting a block's sprite in the units page is likely to cause lots of lag; thus, you should try to organize things similarly to how the vanilla game does.
+Images are packed into "atlas" for efficient rendering. The first directory in sprites/, e.g., `sprites/blocks`, determines the page in this atlas that sprites are put in. Putting a block's sprite in the units page is likely to cause lots of lag; thus, you should try to organize things similarly to how the vanilla game does.
 
 The game will look for sprites relative to its name. `content/blocks/test-turret.json` has the name `test-turret`, and similarly, `sprites/test-turret.png` has the name `test-turret`, so it will be used by this content.
 
@@ -137,19 +136,16 @@ With blocks, lights came from **top right corner** to the bottom left corner. So
 Smelters in general have 3 color types, in this case 
 
   - Base Color, which have 3 tone: 
-    
     - ![](https://via.placeholder.com/15/B0BAC0/000000?text=+) `B0BAC0` | Light Tone
     - ![](https://via.placeholder.com/15/989AA4/000000?text=+) `989AA4` | Midtone
     - ![](https://via.placeholder.com/15/6E7080/000000?text=+) `6E7080` | Dark Tone
   
   - Decal Color, which also have 3 tone:
-    
     - ![](https://via.placeholder.com/15/feb380/000000?text=+) `FEB380` | Lght Tone 
     - ![](https://via.placeholder.com/15/ea8878/000000?text=+) `EA8878` | Midtone 
     - ![](https://via.placeholder.com/15/bc5452/000000?text=+) `BC5452` | Dark Tone
    
   - Bottom Color
-    
     - ![](https://via.placeholder.com/15/4a4b53/000000?text=+) `4a4b53` 
 
 **Base Color** represents the primary color of the block; this color is usually limited to light grey and dark grey. This will look the same across all blocks. 
@@ -173,7 +169,6 @@ Modded Examples:
     - <img src="/wiki/images/modding/spriting/sprite-examples/flintyx-unit-bunker.png" draggable="false">
   
   - Steam Press by Geschiedenis #4783 from [Unlimited Armament Works](https://github.com/Eschatologue/Unlimited-Armament-Works)
-    
     - ![](https://raw.githubusercontent.com/Eschatologue/Unlimited-Armament-Works/master/assets/sprites/blocks/production/steam-press.png)
 
 
@@ -190,17 +185,14 @@ We will use the '**Ripple**' as an example for this part.
 Turrets in general has 2 to 3 color type with 2 tone for each:
 
 - Base Color
-
   - ![](https://via.placeholder.com/15/7b7b7b/000000?text=+) `7B7B7B` | Light Tone 
   - ![](https://via.placeholder.com/15/4d4e58/000000?text=+) `4D4E58` | Dark Tone 
   
 - Decal Color
-  
   - ![](https://via.placeholder.com/15/feb380/000000?text=+) `FEB380` | Light Tone 
   - ![](https://via.placeholder.com/15/ea8878/000000?text=+) `EA8878` | Dark Tone 
   
 - [Optional] Barrel Hole Color
-  
   - ![](https://via.placeholder.com/15/2c2d38/000000?text=+) `2C2D38` 
 
 **Base Color** or Body-Color, is the primary color of the turret. This can range from classic copper brown, white, or dark grey.
@@ -208,23 +200,18 @@ Turrets in general has 2 to 3 color type with 2 tone for each:
   - Copper Brown
     - ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/turrets/duo.png) ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/turrets/scorch.png) ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/turrets/hail.png)
     - Usually represents low tiered turret, such as **Duo**, **Scorch**, **Hail**, etc. 
-      
       - ![](https://via.placeholder.com/15/c9a58f/000000?text=+) `C9A58F` 
       - ![](https://via.placeholder.com/15/8f665b/000000?text=+) `8F665B` 
   
   - White
-    
     - ![Arc](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/turrets/arc.png) ![Lancer](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/turrets/lancer.png) ![Parallax](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/defense/parallax.png) ![Segment](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/defense/segment.png)
-    - Usually represents turret that uses power instead of items to shoot, such as **Arc**, **Lancer**, **Paralax**, **Segment**.
-  
+    - Usually represents turret that uses power instead of items to shoot, such as **Arc**, **Lancer**, **Parallax**, **Segment**.
       - ![](https://via.placeholder.com/15/f4f4f4/000000?text=+) `F4F4F4` 
       - ![](https://via.placeholder.com/15/c1c3d4/000000?text=+) `C1C3D4`
   
   - Dark Gray
-    
     - ![Swarmer](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/turrets/swarmer.png) ![Cyclone](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/turrets/cyclone.png) ![Meltdown](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/turrets/meltdown.png)
     - In most cases, dark grey represents mid to high tiered turret.
-      
       - ![](https://via.placeholder.com/15/7b7b7b/000000?text=+) `7B7B7B` 
       - ![](https://via.placeholder.com/15/4d4e58/000000?text=+) `4D4E58` 
 
@@ -240,11 +227,17 @@ Turrets in general has 2 to 3 color type with 2 tone for each:
 #### Unconventional Methods
 
   - **Turret Midtone**
+<<<<<<< HEAD
     
     - Still a relatively new unconditional method is adding Midtones into turret to make it seemingly has a flat surface instead of only light and dark tone
     - One example is the "Skyhammer" from [Unlimited Armament Works](https://github.com/Eschatologue/Unlimited-Armament-Works)
       
       - ![](https://raw.githubusercontent.com/Eschatologue/Unlimited-Armament-Works/master/assets/sprites/blocks/turrets/ART/skyhammer.png)
+=======
+       - Still, a relatively new unconditional method is adding Midtones onto the turret to make it seemingly has a flat surface instead of only light and dark tone
+       - One example is the "Skyhammer" from [Unlimited Armament Works](https://github.com/Eschatologue/Unlimited-Armament-Works)
+         - ![](https://raw.githubusercontent.com/Eschatologue/Unlimited-Armament-Works/master/assets/sprites/blocks/turrets/ART/skyhammer.png)
+>>>>>>> parent of f78e83e (resolve conflicts?)
 
 ---
 
@@ -277,14 +270,13 @@ As mentioned above, Light tone represents **elevation**, midtone represents **fl
 
 Please take a look at the image above; we use **Eclipse** for this example. As you continuously work towards the backside, there will be less light tone and more midtone and dark tone.
 
-Parts that get lit by the lights will have a lighter tone, while the darker parts get a darker tone; flat areas are midtone.
+Parts that get lit by the lights will have a lighter tone, while the ones that are not getting a darker tone; flat areas are midtone.
 
 <img src="/wiki/images/modding/spriting/spriting-unit-shading-illustration.png" draggable="false">
 
 Above are the rough illustration of units if imagined in 3D.
 
 - Base Color, has 3 tone: 
-  
   - ![](https://via.placeholder.com/15/B0BAC0/000000?text=+) `B0BAC0` | Light Tone
   - ![](https://via.placeholder.com/15/989AA4/000000?text=+) `989AA4` | Midtone
   - ![](https://via.placeholder.com/15/6E7080/000000?text=+) `6E7080` | Dark Tone
@@ -294,34 +286,26 @@ Above are the rough illustration of units if imagined in 3D.
 Unit decal color only consisted of 2 tones: light tone and dark tone. They represent the unit's role in-game.
  
 - Yellow Color represents **Core** units, which the Core produces.
-  
   - ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/units/gamma.png) ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/units/beta.png)
-    
     - ![](https://via.placeholder.com/15/ffd37f/000000?text=+) `FFD37F` | Light Tone 
     - ![](https://via.placeholder.com/15/d4816b/000000?text=+) `D4816B` | Dark Tone 
 
 - Orange Color represents **Assault** units, which have the role of attacking your opponents.
-  
   - ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/units/fortress.png) ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/units/horizon.png)
-    
     - ![](https://via.placeholder.com/15/ffa665/000000?text=+) `FFA665` | Light Tone 
     - ![](https://via.placeholder.com/15/d06b53/000000?text=+) `D06B53` | Dark Tone 
 
 - Green Color represents **Support** units that can build, heal, and shield your units.
-  
   - ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/units/poly.png) ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/units/retusa.png)
-
     - ![](https://via.placeholder.com/15/84f491/000000?text=+) `84F491` | Light Tone 
     - ![](https://via.placeholder.com/15/62ae7f/000000?text=+) `62AE7F` | Dark Tone 
 
 - Purple Color represents **Specialist** units, which have unique characteristics, and cannot be put into the same category as the above.
-  
   - ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/units/crawler.png) ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/units/arkyid.png)
-    
     - ![](https://via.placeholder.com/15/bf92f9/000000?text=+) `BF92F9` | Light Tone 
     - ![](https://via.placeholder.com/15/665c9f/000000?text=+) `665C9F` | Dark Tone 
 
-**You are free to pick whatever color you would like, as long as it's consistent throughout your whole mod.**
+**You are free to pick whatever color you would like, as long as it's consistent throughout your whole mod**
 
 #### **Unit Cell/Team Color**
 Unit Cells are sprites used to differentiate units between teams; they are separate sprites that will be loaded on top of the unit.
@@ -342,8 +326,6 @@ This is why spriting software capable of using layers and exporting them separat
 #### **Unit Weapons**
 Unit Weapons can follow the same rule as turrets and unit shading; they can be shaded from **top to bottom** or **right to left**.
 
-
-![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/units/weapons/zenith-missiles.png) 
 ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/units/weapons/large-artillery.png) 
 ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/units/weapons/large-laser-mount.png)
 
@@ -366,30 +348,56 @@ The process of drawing units can be roughly divided into 5 stages:
 
 5. By far the most complex part - "add details". There are not many tricks you can use; you have to get good at this. However, there is one I use: when uncertain about what should you add, add cells there. They can work like extra decals, and you may want to build your shapes around them. Refrain from adding too many details, and use any convenient corner or slab to carve a new shape.
 
-> written by Zhenьkotron#9493, proofread by Geschiedenis#4783
+> written by Zhenьkotron #9493, proofread by Geschiedenis #4783
 
 ---
 
 ### **Evironmental Sprites**
+
 Environmental sprites are a bit different from the rest of the Mindustry spriting style, which is that the **45° increment rule doesn't always apply**.
 
 Environmental sprites will make up most, if not the majority, of a Mindustry game, so it should be in your best interest that the sprite you've made is subtle enough and looks great despite being repetitive.
 
-#### **Floors**
-Floors only have 2 color tones and  The number of variations is up to you.
-
-  - Vanilla Examples :
-    
-    - ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/environment/basalt1.png) ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/environment/basalt2.png) ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/environment/basalt3.png)
-    - ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/environment/dirt1.png) ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/environment/dirt2.png) ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/environment/dirt3.png)
+1. Floors
+     - Floors only have 2 color tones
+     - The number of variations is up to you.
+       - Vanilla Examples :
+         - ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/environment/basalt1.png) ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/environment/basalt2.png) ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/environment/basalt3.png)
+         - ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/environment/dirt1.png) ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/environment/dirt2.png) ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/environment/dirt3.png)
+       - Modded Examples :
+          - ![](https://raw.githubusercontent.com/Sh1penfire/Endless-Rusting-Demo/master/assets/sprites/blocks/environment/classem-stolnene1.png) ![](https://raw.githubusercontent.com/Sh1penfire/Endless-Rusting-Demo/master/assets/sprites/blocks/environment/classem-stolnene2.png) ![](https://raw.githubusercontent.com/Sh1penfire/Endless-Rusting-Demo/master/assets/sprites/blocks/environment/classem-stolnene3.png) 
+          - ![](https://raw.githubusercontent.com/Sh1penfire/Endless-Rusting-Demo/master/assets/sprites/blocks/environment/ebrin-drylon1.png) ![](https://raw.githubusercontent.com/Sh1penfire/Endless-Rusting-Demo/master/assets/sprites/blocks/environment/ebrin-drylon2.png) ![](https://raw.githubusercontent.com/Sh1penfire/Endless-Rusting-Demo/master/assets/sprites/blocks/environment/ebrin-drylon3.png) ![](https://raw.githubusercontent.com/Sh1penfire/Endless-Rusting-Demo/master/assets/sprites/blocks/environment/ebrin-drylon4.png) ![](https://raw.githubusercontent.com/Sh1penfire/Endless-Rusting-Demo/master/assets/sprites/blocks/environment/ebrin-drylon5.png) ![](https://raw.githubusercontent.com/Sh1penfire/Endless-Rusting-Demo/master/assets/sprites/blocks/environment/ebrin-drylon6.png) 
+        - > Sprites by Sh1penfire from [Endless-Rusting](https://github.com/Sh1penfire/Endless-Rusting-Demo)
   
-  - Modded Examples :
-    
-    - ![](https://raw.githubusercontent.com/Sh1penfire/Endless-Rusting-Demo/master/assets/sprites/blocks/environment/classem-stolnene1.png) ![](https://raw.githubusercontent.com/Sh1penfire/Endless-Rusting-Demo/master/assets/sprites/blocks/environment/classem-stolnene2.png) ![](https://raw.githubusercontent.com/Sh1penfire/Endless-Rusting-Demo/master/assets/sprites/blocks/environment/classem-stolnene3.png) 
-    - ![](https://raw.githubusercontent.com/Sh1penfire/Endless-Rusting-Demo/master/assets/sprites/blocks/environment/ebrin-drylon1.png) ![](https://raw.githubusercontent.com/Sh1penfire/Endless-Rusting-Demo/master/assets/sprites/blocks/environment/ebrin-drylon2.png) ![](https://raw.githubusercontent.com/Sh1penfire/Endless-Rusting-Demo/master/assets/sprites/blocks/environment/ebrin-drylon3.png) ![](https://raw.githubusercontent.com/Sh1penfire/Endless-Rusting-Demo/master/assets/sprites/blocks/environment/ebrin-drylon4.png) ![](https://raw.githubusercontent.com/Sh1penfire/Endless-Rusting-Demo/master/assets/sprites/blocks/environment/ebrin-drylon5.png) ![](https://raw.githubusercontent.com/Sh1penfire/Endless-Rusting-Demo/master/assets/sprites/blocks/environment/ebrin-drylon6.png) 
+2. Static Walls
+    - Not to be confused with a buildable defense wall
+    - Wall has 3 color tones, and just like floors, the number of variations is up to you.
+    - Walls also has a larger 2x2 version, which is optional.
+      - Vanilla Example :
+        - ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/environment/dacite-wall1.png) ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/environment/dacite-wall2.png) ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/environment/dacite-wall-large.png)
+      - Modded Example :
+        - ![](https://raw.githubusercontent.com/Sh1penfire/Endless-Rusting-Demo/master/assets/sprites/blocks/environment/classem-wallen1.png) ![](https://raw.githubusercontent.com/Sh1penfire/Endless-Rusting-Demo/master/assets/sprites/blocks/environment/classem-wallen2.png)
+      - > Sprites by Sh1penfire from [Endless-Rusting](https://github.com/Sh1penfire/Endless-Rusting-Demo)
 
-> Sprites by Sh1penfire#0868 from [Endless-Rusting](https://github.com/Sh1penfire/Endless-Rusting-Demo)
+3. Ores
+   - Ores are considered floor overlays; they are a way for players to get resources and where drills can be placed.
+      - Vanilla Examples :
+        - ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/environment/thorium1.png) ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/environment/thorium2.png) ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/environment/thorium3.png)
+        - ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/environment/scrap1.png) ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/environment/scrap2.png) ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/environment/scrap3.png)
+      - Modded Examples : 
+        - ![](https://raw.githubusercontent.com/Sh1penfire/Endless-Rusting-Demo/master/assets/sprites/blocks/environment/melonaleum1.png) ![](https://raw.githubusercontent.com/Sh1penfire/Endless-Rusting-Demo/master/assets/sprites/blocks/environment/melonaleum2.png) 
+        - ![](https://raw.githubusercontent.com/Sh1penfire/Endless-Rusting-Demo/master/assets/sprites/blocks/environment/taconite1.png) ![](https://raw.githubusercontent.com/Sh1penfire/Endless-Rusting-Demo/master/assets/sprites/blocks/environment/taconite2.png) ![](https://raw.githubusercontent.com/Sh1penfire/Endless-Rusting-Demo/master/assets/sprites/blocks/environment/taconite3.png)  
+
+4. Props
+    - Props are player breakable environmental blocks that will occur randomly over a floor.
+    - Props have their own files, separate from environmental sprites.
+    - Their sizes are up to you.
+    - Examples :
+      - ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/props/boulder1.png) ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/props/boulder2.png)      
+      - ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/props/spore-cluster1.png) ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/props/spore-cluster2.png) ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/props/spore-cluster3.png)
+      - ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/props/sand-boulder1.png) ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/props/sand-boulder2.png)
   
+<<<<<<< HEAD
 #### **Static Walls**
 Not to be confused with buildable defenses, a wall has **3 color tones**, and just like floors, the number of variations is up to you.
 
@@ -438,5 +446,11 @@ Keep in mind that trees, in particular, have shadows, you have to sprite this as
     - <img src="/wiki/images/modding/spriting/spriting-props-white-tree.png" draggable="false">
   
       - ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/props/white-tree-shadow.png)
+=======
+5. Trees
+    - Trees are drawn above most types of blocks, units can also pass through them, and they only act as additional foliage for maps. 
+    - Examples :
+      - ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/props/white-tree.png)
+>>>>>>> parent of f78e83e (resolve conflicts?)
 
 ---
