@@ -393,7 +393,7 @@ Floors only have 2 color tones and  The number of variations is up to you.
 #### **Static Walls**
 Not to be confused with buildable defenses, a wall has **3 color tones**, and just like floors, the number of variations is up to you.
 
-Walls also has a larger 2x2 version, which is optional.
+Walls also have a larger 2x2 version, which is optional.
 
   - Vanilla Example :
     - ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/environment/dacite-wall1.png) ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/environment/dacite-wall2.png) ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/environment/dacite-wall-large.png)
