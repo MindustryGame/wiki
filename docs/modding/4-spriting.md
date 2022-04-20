@@ -242,6 +242,7 @@ Turrets in general has 2 to 3 color type with 2 tone for each:
   - **Turret Midtone**
     
     - Still a relatively new unconditional method is adding Midtones into turret to make it seemingly has a flat surface instead of only light and dark tone
+    - One example is the "Skyhammer" from [Unlimited Armament Works](https://github.com/Eschatologue/Unlimited-Armament-Works)
       
       - ![](https://raw.githubusercontent.com/Eschatologue/Unlimited-Armament-Works/master/assets/sprites/blocks/turrets/ART/skyhammer.png)
 
