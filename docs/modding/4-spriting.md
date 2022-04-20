@@ -241,9 +241,7 @@ Turrets in general has 2 to 3 color type with 2 tone for each:
 
   - **Turret Midtone**
     
-    - Still a relatively new unconditional method is adding Midtones onto the turret to make it seemingly has a flat surface instead of only light and dark tone
-    
-    - One example is the "Skyhammer" from [Unlimited Armament Works](https://github.com/Eschatologue/Unlimited-Armament-Works)
+    - Still a relatively new unconditional method is adding Midtones into turret to make it seemingly has a flat surface instead of only light and dark tone
       
       - ![](https://raw.githubusercontent.com/Eschatologue/Unlimited-Armament-Works/master/assets/sprites/blocks/turrets/ART/skyhammer.png)
 
@@ -430,7 +428,9 @@ Props are player breakable environmental blocks that will occur randomly over a 
 
 Trees are drawn above most types of blocks, units can also pass through them, and they only act as additional foliage for maps.
 
-Keep in mind that trees, in particular, have shadows, you have to sprite this on your own as well.
+Keep in mind that trees, in particular, have shadows, you have to sprite this as well.
+
+
 
   - Examples :
   
