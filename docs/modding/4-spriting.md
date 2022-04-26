@@ -369,6 +369,12 @@ The process of drawing units can be roughly divided into 5 stages:
 
 > written by Zhenьkotron#9493, proofread by Geschiedenis#4783
 
+An alternative way of drawing units is demonstrated here in a timelapse recorded by Anuke of himself (struggling) to make a unit sprite.
+
+<img src="/wiki/images/modding/spriting/spriting-anuke-timelapse.mp4" draggable="false">
+
+In this method, step 2 from above (straightening the lines) is saved to the end.
+
 ---
 
 ### **Evironmental Sprites**
