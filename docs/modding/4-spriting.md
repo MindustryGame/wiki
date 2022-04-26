@@ -99,7 +99,8 @@ For turrets, depending on their type, the game could look for the suffix `<name>
 
 For blocks and crafters/smelters, this could include `<name>-top`, and `<name>-liquid`, which will be documented in their section.
 
-You can read the source code for each respective block class for what sprite they can load for more details—usually located in the `load()` method within the class.
+You can read the source code for each respective block class for what sprites they can load for more details. See the lines with `@Load`.
+For sprites in mods, check each `load()` method within the block class, if there is one.
 
 ## **Color Pallete**
 
