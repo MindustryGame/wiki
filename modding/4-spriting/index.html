@@ -6408,6 +6408,13 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#outlines" class="md-nav__link">
+    Outlines
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#evironmental-sprites" class="md-nav__link">
     Evironmental Sprites
   </a>
@@ -7909,6 +7916,13 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#outlines" class="md-nav__link">
+    Outlines
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#evironmental-sprites" class="md-nav__link">
     Evironmental Sprites
   </a>
@@ -8089,7 +8103,8 @@
 <p>The game also can look for multiple sprites for a single block.</p>
 <p>For turrets, depending on their type, the game could look for the suffix <code>&lt;name&gt;-heat</code>, which means that it will look for <code>test-turret-heat.png</code>.</p>
 <p>For blocks and crafters/smelters, this could include <code>&lt;name&gt;-top</code>, and <code>&lt;name&gt;-liquid</code>, which will be documented in their section.</p>
-<p>You can read the source code for each respective block class for what sprite they can load for more details—usually located in the <code>load()</code> method within the class.</p>
+<p>You can read the source code for each respective block class for what sprites they can load for more details. See the lines with <code>@Load</code>.
+For sprites in mods, check each <code>load()</code> method within the block class, if there is one.</p>
 <h2 id="color-pallete"><strong>Color Pallete</strong></h2>
 <p>Just like every game out there, Mindustry has its color palette. For beginners, it is highly recommended to stick to these colors selection for your sprites, or it may look out of place and even become heretical. It may inflict great disturbance upon the #spriting discord channel.</p>
 <p>Block Color Pallete:</p>
@@ -8370,6 +8385,8 @@
 <blockquote>
 <p>written by Zhenьkotron#9493, proofread by Geschiedenis#4783</p>
 </blockquote>
+<h3 id="outlines"><strong>Outlines</strong></h3>
+<p>Leave 4 pixels of space around the edges of turret sprites and unit sprites, as the game will use that space to automatically add outlines.</p>
 <hr />
 <h3 id="evironmental-sprites"><strong>Evironmental Sprites</strong></h3>
 <p>Environmental sprites are a bit different from the rest of the Mindustry spriting style, which is that the <strong>45° increment rule doesn't always apply</strong>.</p>
