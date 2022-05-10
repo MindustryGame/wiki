@@ -370,6 +370,9 @@ The process of drawing units can be roughly divided into 5 stages:
 
 > written by Zhenьkotron#9493, proofread by Geschiedenis#4783
 
+### **Outlines**
+Leave 4 pixels of space around the edges of turret sprites and unit sprites, as the game will use that space to automatically add outlines.
+
 ---
 
 ### **Evironmental Sprites**
