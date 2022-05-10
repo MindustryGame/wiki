@@ -132,7 +132,7 @@ Keep in mind that this is primarily a guideline; you can bend this guideline how
 
 We will use the Surge Smelter as an example in this part. 
 
-With blocks, lights came from **top right corner** to the bottom left corner. So, the closer it is to the light source, the lighter the tone will be and with a diagonal midtone separating it.
+With blocks, light comes from **top right corner** to the bottom left corner. So, the closer it is to the light source, the lighter the tone will be and with a diagonal midtone separating it.
 
 Smelters in general have 3 color types, in this case 
 
@@ -162,7 +162,7 @@ Smelters in general have 3 color types, in this case
 
 Plastanium Compressor has a green decal. This green decal is the same as the plastanium. Thus you can get the general idea that this block has a connection around the plastanium.
 
-**Bottom Color** represents the insides of the block; the insides are not usually gets shined by the lights, so a dark color is chosen here. This could represent the bottom of a block with a chimney, like Surge Smelter, for example.
+**Bottom Color** represents the insides of the block; the insides are not usually gets shined by the light, so a dark color is chosen here. This could represent the bottom of a block with a chimney, like Surge Smelter, for example.
 
 Please note that different blocks require different sprites depending on their type; for example, a wall would need only 1 sprite, which is the sprite itself, while blocks like a reconstructor would need up to 4. Refer to [suffixes](#suffixes)
 
@@ -181,7 +181,7 @@ Modded Examples:
 
 ### **Turret Shading**
 
-With Turret shading, lights came from the turret's **right to left**. 
+With Turret shading, light comes from the turret's **right to left**. 
 
 ![ripple](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/turrets/ripple.png)
 
@@ -268,7 +268,7 @@ Examples:
 ### **Unit Shading**
 Now we arrived at the tricky part of shadings. 
 
-Unit shading can be pretty complex the bigger your units are. In unit shading, lights came from the **top to bottom** or **front to back**. The intensity of lighter tone and darker tone changes depending on what part you are working with on the unit.
+Unit shading can be pretty complex the bigger your units are. In unit shading, light comes from the **top to bottom** or **front to back**. The intensity of lighter tone and darker tone changes depending on what part you are working with on the unit.
 
 As mentioned above, Light tone represents **elevation**, midtone represents **flat area**, dark tone represents **depression**.
 
@@ -278,7 +278,7 @@ As mentioned above, Light tone represents **elevation**, midtone represents **fl
 
 Please take a look at the image above; we use **Eclipse** for this example. As you continuously work towards the backside, there will be less light tone and more midtone and dark tone.
 
-Parts that get lit by the lights will have a lighter tone, while the ones that are not get a darker tone; flat areas are midtone.
+Parts that get lit by the light will have a lighter tone, while the ones that are not get a darker tone; flat areas are midtone.
 
 <img src="/wiki/images/modding/spriting/spriting-unit-shading-illustration.png" draggable="false">
 
