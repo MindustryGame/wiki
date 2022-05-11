@@ -99,7 +99,9 @@ For turrets, depending on their type, the game could look for the suffix `<name>
 
 For blocks and crafters/smelters, this could include `<name>-top`, and `<name>-liquid`, which will be documented in their section.
 
-You can read the source code for each respective block class for what sprite they can load for more details—usually located in the `load()` method within the class.
+You can read the source code for each respective block class for what sprites they can load for more details. See the lines with `@Load`.
+
+For sprites in mods, check each `load()` method within the block class, if there is one.
 
 ## **Color Pallete**
 
@@ -400,6 +402,9 @@ The process of drawing units can be roughly divided into 5 stages:
 5. By far the most complex part - "add details". There are not many tricks you can use; you have to get good at this. However, there is one I use: when uncertain about what should you add, add cells there. They can work like extra decals, and you may want to build your shapes around them. Refrain from adding too many details, and use any convenient corner or slab to carve a new shape.
 
 > written by Zhenьkotron#9493, proofread by Geschiedenis#4783
+
+### **Outlines**
+Leave 4 pixels of space around the edges of turret sprites and unit sprites, as the game will use that space to automatically add outlines.
 
 ---
 
