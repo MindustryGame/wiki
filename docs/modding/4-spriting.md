@@ -189,7 +189,7 @@ We will use the '**Ripple**' as an example for this part.
 
 Turrets in general has 2 to 3 color type with 2 tone for each:
 
-- Base Color
+- Body Color
 
   - ![](https://via.placeholder.com/15/7b7b7b/000000?text=+) `7B7B7B` | Light Tone 
   - ![](https://via.placeholder.com/15/4d4e58/000000?text=+) `4D4E58` | Dark Tone 
@@ -203,7 +203,7 @@ Turrets in general has 2 to 3 color type with 2 tone for each:
   
   - ![](https://via.placeholder.com/15/2c2d38/000000?text=+) `2C2D38` 
 
-**Base Color** or Body-Color, is the primary color of the turret. This can range from classic copper brown, white, or dark grey.
+**Body Color** is the primary color of the turret. This can range from classic copper brown, white, or dark grey.
 
   - Copper Brown
     - ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/turrets/duo.png) ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/turrets/scorch.png) ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/turrets/hail.png)
@@ -254,16 +254,36 @@ Resource shading is quite simple and can have its light coming from **top corner
 
 For color tones, it should have either 3 or 2 and don't make the sprite looks 2D
 
-Examples:
+**Examples:**
+
+Items 
 
 ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/items/item-copper.png)
 ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/items/item-plastanium.png)
-![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/items/item-graphite.png)
 ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/items/item-coal.png)
 ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/items/item-surge-alloy.png)
 ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/items/item-scrap.png)
 ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/items/item-pyratite.png)
+![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/items/item-tungsten.png)
+![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/items/item-carbide.png)
+![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/items/item-fissile-matter.png)
+![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/items/item-beryllium.png)
+
+Liquids
+
 ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/items/liquid-cryofluid.png)
+![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/items/liquid-oil.png)
+![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/items/liquid-gallium.png)
+![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/items/liquid-neoplasm.png)
+
+Gasses
+
+![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/items/liquid-hydrogen.png)
+![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/items/liquid-nitrogen.png)
+![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/items/liquid-ozone.png)
+![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/items/liquid-cyanogen.png)
+
+
 
 ### **Unit Shading**
 Now we arrived at the tricky part of shadings. 
@@ -286,20 +306,30 @@ Above are the rough illustration of units if imagined in 3D.
 
 - Base Color, has 3 tone: 
   
-  - ![](https://via.placeholder.com/15/B0BAC0/000000?text=+) `B0BAC0` | Light Tone
-  - ![](https://via.placeholder.com/15/989AA4/000000?text=+) `989AA4` | Midtone
-  - ![](https://via.placeholder.com/15/6E7080/000000?text=+) `6E7080` | Dark Tone
+  - Serpulo Units 
+  
+    - ![](https://via.placeholder.com/15/B0BAC0/000000?text=+) `B0BAC0` | Light Tone
+    - ![](https://via.placeholder.com/15/989AA4/000000?text=+) `989AA4` | Midtone
+    - ![](https://via.placeholder.com/15/6E7080/000000?text=+) `6E7080` | Dark Tone
+  
+  - Erekir Units
+  
+    - ![](https://via.placeholder.com/15/989AA4/000000?text=+) `989AA4` | Light Tone
+    - ![](https://via.placeholder.com/15/6e7080/000000?text=+) `6E7080` | Midtone
+    - ![](https://via.placeholder.com/15/4a4b53/000000?text=+) `4A4B53` | Dark Tone
 
 #### **Unit Decal Color**
 
 Unit decal color only consisted of 2 tones: light tone and dark tone. They represent the unit's role in-game.
  
+
 - Yellow Color represents **Core** units, which the Core produces.
   
   - ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/units/gamma.png) ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/units/beta.png)
     
     - ![](https://via.placeholder.com/15/ffd37f/000000?text=+) `FFD37F` | Light Tone 
     - ![](https://via.placeholder.com/15/d4816b/000000?text=+) `D4816B` | Dark Tone 
+
 
 - Orange Color represents **Assault** units, which have the role of attacking your opponents.
   
@@ -308,12 +338,14 @@ Unit decal color only consisted of 2 tones: light tone and dark tone. They repre
     - ![](https://via.placeholder.com/15/ffa665/000000?text=+) `FFA665` | Light Tone 
     - ![](https://via.placeholder.com/15/d06b53/000000?text=+) `D06B53` | Dark Tone 
 
+
 - Green Color represents **Support** units that can build, heal, and shield your units.
   
   - ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/units/poly.png) ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/units/retusa.png)
 
     - ![](https://via.placeholder.com/15/84f491/000000?text=+) `84F491` | Light Tone 
     - ![](https://via.placeholder.com/15/62ae7f/000000?text=+) `62AE7F` | Dark Tone 
+
 
 - Purple Color represents **Specialist** units, which have unique characteristics, and cannot be put into the same category as the above.
   
