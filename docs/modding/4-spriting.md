@@ -1,6 +1,6 @@
 # Spriting
 
-Spriting is an essential part of Mindustry modding; anything you have made will be poorly scaled "oh no" images without it.
+Spriting is an essential part of Mindustry modding; anything you have made will appear as poorly scaled "oh no" images without it.
 
 The spriting style in Mindustry is simple yet very restrictive; what you can get away with in other games looks out of place in Mindustry.
 
@@ -25,7 +25,7 @@ It is highly recommended that you use spriting software that supports transparen
          - Layering (Can also export individual layers)
   
   2. **[LibreSprite](https://libresprite.github.io/#!/)**
-      - A fork of the Aseprite repository, not as up-to-date or as powerful as Aseprite, but it should work for spriting in Mindustry style anyway.
+      - A fork of the Aseprite repository, not as up-to-date or as powerful as Aseprite, but it should work for spriting in Mindustry style.
   
   3. **[Piskel](https://www.piskelapp.com/)**
       - A straightforward pixel art software that is not as powerful as Aseprite or LibreSprite, but it is sufficient. There is an online version & an offline downloadable version, both with the same features.
@@ -37,8 +37,8 @@ It is highly recommended that you use spriting software that supports transparen
 
   5. **[Paint.NET](https://www.getpaint.net/)**
       - Very basic painting software, not to be confused with Paint 3D, Paint&#46;NET is usable but not as convenient as the above mentioned.
-      - Paint&#46;NET lacks basic features needed for spriting in mindustry style. However, you can get some of these missing features with plugins that you can install manually.
-      - That said, it is not recommended to use this for the sake of convenience. If you can download Paint&#46;NET, you can probably download Piskel or LibreSprite instead, which are specifically for pixel art.
+      - Paint&#46;NET lacks basic features needed for spriting in mindustry style. You can get some of these missing features with plugins.
+      - That said, it is not recommended to use this for the sake of convenience. If you can download Paint&#46;NET, you can probably download Piskel or LibreSprite instead, which are meant for pixel art.
 
 ### **Mobile**
 1. **[Novix Pixel Editor](https://play.google.com/store/apps/details?id=io.anuke.novix)**
