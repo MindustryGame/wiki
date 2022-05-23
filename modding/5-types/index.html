@@ -15088,7 +15088,7 @@ Use the standard Floor class instead.</p>
 </table>
 <h2 id="basicbullettype">BasicBulletType</h2>
 <p><em>extends <a href="#bullettype">BulletType</a></em></p>
-<p>An extended BulletType for most ammo-based bullets shot from turrets and units.</p>
+<p>An extended BulletType for most ammo-based bullets shot from turrets and units. Draws 1-2 sprites that can spin or shrink.</p>
 <table>
 <thead>
 <tr>
@@ -15145,6 +15145,12 @@ Use the standard Floor class instead.</p>
 <td>shrinkY</td>
 <td>float</td>
 <td>0.5</td>
+<td></td>
+</tr>
+<tr>
+<td>shrinkInterp</td>
+<td>Interp</td>
+<td>linear</td>
 <td></td>
 </tr>
 <tr>
@@ -15213,6 +15219,7 @@ Use the standard Floor class instead.</p>
 </table>
 <h2 id="bombbullettype">BombBulletType</h2>
 <p><em>extends <a href="#basicbullettype">BasicBulletType</a></em></p>
+<p>Template class for an unmoving shrinking bullet.</p>
 <h2 id="continuousbullettype">ContinuousBulletType</h2>
 <p><em>extends <a href="#bullettype">BulletType</a></em></p>
 <p>Basic continuous bullet type that does not draw itself. Essentially abstract.</p>
@@ -15536,6 +15543,7 @@ Use the standard Floor class instead.</p>
 </table>
 <h2 id="explosionbullettype">ExplosionBulletType</h2>
 <p><em>extends <a href="#bullettype">BulletType</a></em></p>
+<p>Template class for a non-drawing bullet type that makes an explosion and disappears instantly.</p>
 <h2 id="firebullettype">FireBulletType</h2>
 <p><em>extends <a href="#bullettype">BulletType</a></em></p>
 <table>
@@ -18668,7 +18676,6 @@ Z layer of child effects is ignored.</p>
 </table>
 <h2 id="drawblurspin">DrawBlurSpin</h2>
 <p><em>extends <a href="#drawblock">DrawBlock</a></em></p>
-<p>Not standalone.</p>
 <table>
 <thead>
 <tr>
@@ -19283,7 +19290,6 @@ Z layer of child effects is ignored.</p>
 </table>
 <h2 id="drawglowregion">DrawGlowRegion</h2>
 <p><em>extends <a href="#drawblock">DrawBlock</a></em></p>
-<p>Not standalone.</p>
 <table>
 <thead>
 <tr>
@@ -19358,7 +19364,6 @@ Z layer of child effects is ignored.</p>
 </table>
 <h2 id="drawheatinput">DrawHeatInput</h2>
 <p><em>extends <a href="#drawblock">DrawBlock</a></em></p>
-<p>Not standalone.</p>
 <table>
 <thead>
 <tr>
@@ -19465,7 +19470,6 @@ Z layer of child effects is ignored.</p>
 </table>
 <h2 id="drawheatregion">DrawHeatRegion</h2>
 <p><em>extends <a href="#drawblock">DrawBlock</a></em></p>
-<p>Not standalone.</p>
 <table>
 <thead>
 <tr>
@@ -19531,7 +19535,6 @@ Z layer of child effects is ignored.</p>
 </table>
 <h2 id="drawliquidregion">DrawLiquidRegion</h2>
 <p><em>extends <a href="#drawblock">DrawBlock</a></em></p>
-<p>Not standalone.</p>
 <table>
 <thead>
 <tr>
@@ -19570,7 +19573,6 @@ Z layer of child effects is ignored.</p>
 </table>
 <h2 id="drawliquidtile">DrawLiquidTile</h2>
 <p><em>extends <a href="#drawblock">DrawBlock</a></em></p>
-<p>Not standalone.</p>
 <table>
 <thead>
 <tr>
@@ -19624,7 +19626,6 @@ Z layer of child effects is ignored.</p>
 </table>
 <h2 id="drawmultiweave">DrawMultiWeave</h2>
 <p><em>extends <a href="#drawblock">DrawBlock</a></em></p>
-<p>Not standalone.</p>
 <table>
 <thead>
 <tr>
@@ -19681,7 +19682,6 @@ Z layer of child effects is ignored.</p>
 </table>
 <h2 id="drawparticles">DrawParticles</h2>
 <p><em>extends <a href="#drawblock">DrawBlock</a></em></p>
-<p>Not standalone.</p>
 <table>
 <thead>
 <tr>
@@ -19912,7 +19912,6 @@ Z layer of child effects is ignored.</p>
 </table>
 <h2 id="drawregion">DrawRegion</h2>
 <p><em>extends <a href="#drawblock">DrawBlock</a></em></p>
-<p>Not standalone.</p>
 <table>
 <thead>
 <tr>
@@ -21216,6 +21215,12 @@ Rotation must be set to true. Fixed repair points are not supported.</p>
 <td>parentizeEffects</td>
 <td>boolean</td>
 <td>false</td>
+<td></td>
+</tr>
+<tr>
+<td>effectSizeParam</td>
+<td>boolean</td>
+<td>true</td>
 <td></td>
 </tr>
 </tbody>
