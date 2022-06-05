@@ -11,7 +11,7 @@
         <link rel="canonical" href="https://mindustrygame.github.io/wiki/modding/5-types/">
       
       <link rel="icon" href="../../images/favicon.png">
-      <meta name="generator" content="mkdocs-1.3.0, mkdocs-material-8.3.0">
+      <meta name="generator" content="mkdocs-1.3.0, mkdocs-material-8.3.1">
     
     
       
@@ -19,7 +19,7 @@
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.fd896c8a.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.c0b802b2.min.css">
       
         
         <link rel="stylesheet" href="../../assets/stylesheets/palette.cbb835fc.min.css">
@@ -9317,6 +9317,80 @@
 </tr>
 </tbody>
 </table>
+<h2 id="directionalforceprojector">DirectionalForceProjector</h2>
+<p><em>extends <a href="#block">Block</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>width</td>
+<td>float</td>
+<td>30.0</td>
+<td></td>
+</tr>
+<tr>
+<td>shieldHealth</td>
+<td>float</td>
+<td>3000.0</td>
+<td></td>
+</tr>
+<tr>
+<td>cooldownNormal</td>
+<td>float</td>
+<td>1.75</td>
+<td></td>
+</tr>
+<tr>
+<td>cooldownLiquid</td>
+<td>float</td>
+<td>1.5</td>
+<td></td>
+</tr>
+<tr>
+<td>cooldownBrokenBase</td>
+<td>float</td>
+<td>0.35</td>
+<td></td>
+</tr>
+<tr>
+<td>absorbEffect</td>
+<td>Effect</td>
+<td>absorb</td>
+<td></td>
+</tr>
+<tr>
+<td>shieldBreakEffect</td>
+<td>Effect</td>
+<td>shieldBreak</td>
+<td></td>
+</tr>
+<tr>
+<td>topRegion</td>
+<td>TextureRegion</td>
+<td>null</td>
+<td></td>
+</tr>
+<tr>
+<td>length</td>
+<td>float</td>
+<td>40.0</td>
+<td></td>
+</tr>
+<tr>
+<td>padSize</td>
+<td>float</td>
+<td>40.0</td>
+<td></td>
+</tr>
+</tbody>
+</table>
 <h2 id="directionalunloader">DirectionalUnloader</h2>
 <p><em>extends <a href="#block">Block</a></em></p>
 <table>
@@ -9666,26 +9740,6 @@
 <h2 id="overlayfloor">OverlayFloor</h2>
 <p><em>extends <a href="#floor">Floor</a></em></p>
 <p>A type of floor that is overlaid on top of other floors.</p>
-<h2 id="payloadammoturret">PayloadAmmoTurret</h2>
-<p><em>extends <a href="#turret">Turret</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>ammoTypes</td>
-<td>ObjectMap<UnlockableContent,BulletType></td>
-<td>new ObjectMap&lt;&gt;()</td>
-<td></td>
-</tr>
-</tbody>
-</table>
 <h2 id="powerdistributor">PowerDistributor</h2>
 <p><em>extends <a href="#powerblock">PowerBlock</a></em></p>
 <h2 id="powergenerator">PowerGenerator</h2>
@@ -10014,80 +10068,6 @@
 <td>bottomRegion</td>
 <td>TextureRegion</td>
 <td>null</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<h2 id="directionalforceprojector">DirectionalForceProjector</h2>
-<p><em>extends <a href="#block">Block</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>width</td>
-<td>float</td>
-<td>30.0</td>
-<td></td>
-</tr>
-<tr>
-<td>shieldHealth</td>
-<td>float</td>
-<td>3000.0</td>
-<td></td>
-</tr>
-<tr>
-<td>cooldownNormal</td>
-<td>float</td>
-<td>1.75</td>
-<td></td>
-</tr>
-<tr>
-<td>cooldownLiquid</td>
-<td>float</td>
-<td>1.5</td>
-<td></td>
-</tr>
-<tr>
-<td>cooldownBrokenBase</td>
-<td>float</td>
-<td>0.35</td>
-<td></td>
-</tr>
-<tr>
-<td>absorbEffect</td>
-<td>Effect</td>
-<td>absorb</td>
-<td></td>
-</tr>
-<tr>
-<td>shieldBreakEffect</td>
-<td>Effect</td>
-<td>shieldBreak</td>
-<td></td>
-</tr>
-<tr>
-<td>topRegion</td>
-<td>TextureRegion</td>
-<td>null</td>
-<td></td>
-</tr>
-<tr>
-<td>length</td>
-<td>float</td>
-<td>40.0</td>
-<td></td>
-</tr>
-<tr>
-<td>padSize</td>
-<td>float</td>
-<td>40.0</td>
 <td></td>
 </tr>
 </tbody>
@@ -10534,7 +10514,7 @@
 <tr>
 <td>coolantConsumer</td>
 <td>Consume</td>
-<td>mindustry.world.consumers.ConsumeCoolant@744199bb</td>
+<td>mindustry.world.consumers.ConsumeCoolant@532e00bd</td>
 <td></td>
 </tr>
 </tbody>
@@ -11021,6 +11001,588 @@
 </table>
 <h2 id="itemvoid">ItemVoid</h2>
 <p><em>extends <a href="#block">Block</a></em></p>
+<h2 id="liquidbridge">LiquidBridge</h2>
+<p><em>extends <a href="#itembridge">ItemBridge</a></em></p>
+<h2 id="liquidjunction">LiquidJunction</h2>
+<p><em>extends <a href="#liquidblock">LiquidBlock</a></em></p>
+<h2 id="liquidrouter">LiquidRouter</h2>
+<p><em>extends <a href="#liquidblock">LiquidBlock</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>liquidPadding</td>
+<td>float</td>
+<td>0.0</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="liquidsource">LiquidSource</h2>
+<p><em>extends <a href="#block">Block</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>crossRegion</td>
+<td>TextureRegion</td>
+<td>null</td>
+<td></td>
+</tr>
+<tr>
+<td>bottomRegion</td>
+<td>TextureRegion</td>
+<td>null</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="liquidvoid">LiquidVoid</h2>
+<p><em>extends <a href="#block">Block</a></em></p>
+<h2 id="logicblock">LogicBlock</h2>
+<p><em>extends <a href="#block">Block</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>maxInstructionScale</td>
+<td>int</td>
+<td>5</td>
+<td></td>
+</tr>
+<tr>
+<td>instructionsPerTick</td>
+<td>int</td>
+<td>1</td>
+<td></td>
+</tr>
+<tr>
+<td>maxInstructionsPerTick</td>
+<td>int</td>
+<td>40</td>
+<td></td>
+</tr>
+<tr>
+<td>range</td>
+<td>float</td>
+<td>80.0</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="logicdisplay">LogicDisplay</h2>
+<p><em>extends <a href="#block">Block</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>maxSides</td>
+<td>int</td>
+<td>25</td>
+<td></td>
+</tr>
+<tr>
+<td>displaySize</td>
+<td>int</td>
+<td>64</td>
+<td></td>
+</tr>
+<tr>
+<td>scaleFactor</td>
+<td>float</td>
+<td>1.0</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="memoryblock">MemoryBlock</h2>
+<p><em>extends <a href="#block">Block</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>memoryCapacity</td>
+<td>int</td>
+<td>32</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="mendprojector">MendProjector</h2>
+<p><em>extends <a href="#block">Block</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>timerUse</td>
+<td>int</td>
+<td>1</td>
+<td></td>
+</tr>
+<tr>
+<td>baseColor</td>
+<td>Color</td>
+<td>84f491ff</td>
+<td></td>
+</tr>
+<tr>
+<td>phaseColor</td>
+<td>Color</td>
+<td>84f491ff</td>
+<td></td>
+</tr>
+<tr>
+<td>topRegion</td>
+<td>TextureRegion</td>
+<td>null</td>
+<td></td>
+</tr>
+<tr>
+<td>reload</td>
+<td>float</td>
+<td>250.0</td>
+<td></td>
+</tr>
+<tr>
+<td>range</td>
+<td>float</td>
+<td>60.0</td>
+<td></td>
+</tr>
+<tr>
+<td>healPercent</td>
+<td>float</td>
+<td>12.0</td>
+<td></td>
+</tr>
+<tr>
+<td>phaseBoost</td>
+<td>float</td>
+<td>12.0</td>
+<td></td>
+</tr>
+<tr>
+<td>phaseRangeBoost</td>
+<td>float</td>
+<td>50.0</td>
+<td></td>
+</tr>
+<tr>
+<td>useTime</td>
+<td>float</td>
+<td>400.0</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="nuclearreactor">NuclearReactor</h2>
+<p><em>extends <a href="#powergenerator">PowerGenerator</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>timerFuel</td>
+<td>int</td>
+<td>1</td>
+<td></td>
+</tr>
+<tr>
+<td>tr</td>
+<td>Vec2</td>
+<td>(0.0,0.0)</td>
+<td></td>
+</tr>
+<tr>
+<td>lightColor</td>
+<td>Color</td>
+<td>7f19eaff</td>
+<td></td>
+</tr>
+<tr>
+<td>coolColor</td>
+<td>Color</td>
+<td>ffffff00</td>
+<td></td>
+</tr>
+<tr>
+<td>hotColor</td>
+<td>Color</td>
+<td>ff9575a3</td>
+<td></td>
+</tr>
+<tr>
+<td>explodeEffect</td>
+<td>Effect</td>
+<td>reactorExplosion</td>
+<td></td>
+</tr>
+<tr>
+<td>itemDuration</td>
+<td>float</td>
+<td>120.0</td>
+<td>ticks to consume 1 fuel</td>
+</tr>
+<tr>
+<td>heating</td>
+<td>float</td>
+<td>0.01</td>
+<td>heating per frame * fullness</td>
+</tr>
+<tr>
+<td>smokeThreshold</td>
+<td>float</td>
+<td>0.3</td>
+<td>threshold at which block starts smoking</td>
+</tr>
+<tr>
+<td>flashThreshold</td>
+<td>float</td>
+<td>0.46</td>
+<td>heat threshold at which lights start flashing</td>
+</tr>
+<tr>
+<td>explosionRadius</td>
+<td>int</td>
+<td>19</td>
+<td></td>
+</tr>
+<tr>
+<td>explosionDamage</td>
+<td>int</td>
+<td>1250</td>
+<td></td>
+</tr>
+<tr>
+<td>coolantPower</td>
+<td>float</td>
+<td>0.5</td>
+<td>heat removed per unit of coolant</td>
+</tr>
+<tr>
+<td>smoothLight</td>
+<td>float</td>
+<td>0.0</td>
+<td></td>
+</tr>
+<tr>
+<td>fuelItem</td>
+<td>Item</td>
+<td>thorium</td>
+<td></td>
+</tr>
+<tr>
+<td>topRegion</td>
+<td>TextureRegion</td>
+<td>null</td>
+<td></td>
+</tr>
+<tr>
+<td>lightsRegion</td>
+<td>TextureRegion</td>
+<td>null</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="overflowduct">OverflowDuct</h2>
+<p><em>extends <a href="#block">Block</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>speed</td>
+<td>float</td>
+<td>5.0</td>
+<td></td>
+</tr>
+<tr>
+<td>topRegion</td>
+<td>TextureRegion</td>
+<td>null</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="overflowgate">OverflowGate</h2>
+<p><em>extends <a href="#block">Block</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>speed</td>
+<td>float</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>invert</td>
+<td>boolean</td>
+<td>false</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="payloaddeconstructor">PayloadDeconstructor</h2>
+<p><em>extends <a href="#payloadblock">PayloadBlock</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>maxPayloadSize</td>
+<td>float</td>
+<td>4.0</td>
+<td></td>
+</tr>
+<tr>
+<td>deconstructSpeed</td>
+<td>float</td>
+<td>2.5</td>
+<td></td>
+</tr>
+<tr>
+<td>dumpRate</td>
+<td>int</td>
+<td>4</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="payloadloader">PayloadLoader</h2>
+<p><em>extends <a href="#payloadblock">PayloadBlock</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>timerLoad</td>
+<td>int</td>
+<td>1</td>
+<td></td>
+</tr>
+<tr>
+<td>loadTime</td>
+<td>float</td>
+<td>2.0</td>
+<td></td>
+</tr>
+<tr>
+<td>itemsLoaded</td>
+<td>int</td>
+<td>8</td>
+<td></td>
+</tr>
+<tr>
+<td>liquidsLoaded</td>
+<td>float</td>
+<td>40.0</td>
+<td></td>
+</tr>
+<tr>
+<td>maxBlockSize</td>
+<td>int</td>
+<td>3</td>
+<td></td>
+</tr>
+<tr>
+<td>maxPowerConsumption</td>
+<td>float</td>
+<td>40.0</td>
+<td></td>
+</tr>
+<tr>
+<td>loadPowerDynamic</td>
+<td>boolean</td>
+<td>true</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="payloadrouter">PayloadRouter</h2>
+<p><em>extends <a href="#payloadconveyor">PayloadConveyor</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>overRegion</td>
+<td>TextureRegion</td>
+<td>null</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="payloadunloader">PayloadUnloader</h2>
+<p><em>extends <a href="#payloadloader">PayloadLoader</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>offloadSpeed</td>
+<td>int</td>
+<td>4</td>
+<td></td>
+</tr>
+<tr>
+<td>maxPowerUnload</td>
+<td>float</td>
+<td>80.0</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="powerblock">PowerBlock</h2>
+<p><em>extends <a href="#block">Block</a></em></p>
+<h2 id="powersource">PowerSource</h2>
+<p><em>extends <a href="#powernode">PowerNode</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>powerProduction</td>
+<td>float</td>
+<td>10000.0</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="prop">Prop</h2>
+<p><em>extends <a href="#block">Block</a></em></p>
+<h2 id="reloadturret">ReloadTurret</h2>
+<p><em>extends <a href="#baseturret">BaseTurret</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>reload</td>
+<td>float</td>
+<td>10.0</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="powerturret">PowerTurret</h2>
+<p><em>extends <a href="#turret">Turret</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>shootType</td>
+<td>BulletType</td>
+<td>null</td>
+<td></td>
+</tr>
+</tbody>
+</table>
 <h2 id="laserturret">LaserTurret</h2>
 <p><em>extends <a href="#powerturret">PowerTurret</a></em></p>
 <p>A turret that fires a continuous beam with a delay between shots. Liquid coolant is required. Yes, this class name is awful. NEEDS RENAME</p>
@@ -11156,56 +11718,6 @@
 </tr>
 </tbody>
 </table>
-<h2 id="liquidbridge">LiquidBridge</h2>
-<p><em>extends <a href="#itembridge">ItemBridge</a></em></p>
-<h2 id="liquidjunction">LiquidJunction</h2>
-<p><em>extends <a href="#liquidblock">LiquidBlock</a></em></p>
-<h2 id="liquidrouter">LiquidRouter</h2>
-<p><em>extends <a href="#liquidblock">LiquidBlock</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>liquidPadding</td>
-<td>float</td>
-<td>0.0</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<h2 id="liquidsource">LiquidSource</h2>
-<p><em>extends <a href="#block">Block</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>crossRegion</td>
-<td>TextureRegion</td>
-<td>null</td>
-<td></td>
-</tr>
-<tr>
-<td>bottomRegion</td>
-<td>TextureRegion</td>
-<td>null</td>
-<td></td>
-</tr>
-</tbody>
-</table>
 <h2 id="liquidturret">LiquidTurret</h2>
 <p><em>extends <a href="#turret">Turret</a></em></p>
 <table>
@@ -11228,78 +11740,6 @@
 <td>extinguish</td>
 <td>boolean</td>
 <td>true</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<h2 id="liquidvoid">LiquidVoid</h2>
-<p><em>extends <a href="#block">Block</a></em></p>
-<h2 id="logicblock">LogicBlock</h2>
-<p><em>extends <a href="#block">Block</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>maxInstructionScale</td>
-<td>int</td>
-<td>5</td>
-<td></td>
-</tr>
-<tr>
-<td>instructionsPerTick</td>
-<td>int</td>
-<td>1</td>
-<td></td>
-</tr>
-<tr>
-<td>maxInstructionsPerTick</td>
-<td>int</td>
-<td>40</td>
-<td></td>
-</tr>
-<tr>
-<td>range</td>
-<td>float</td>
-<td>80.0</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<h2 id="logicdisplay">LogicDisplay</h2>
-<p><em>extends <a href="#block">Block</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>maxSides</td>
-<td>int</td>
-<td>25</td>
-<td></td>
-</tr>
-<tr>
-<td>displaySize</td>
-<td>int</td>
-<td>64</td>
-<td></td>
-</tr>
-<tr>
-<td>scaleFactor</td>
-<td>float</td>
-<td>1.0</td>
 <td></td>
 </tr>
 </tbody>
@@ -11410,100 +11850,6 @@
 </tr>
 </tbody>
 </table>
-<h2 id="memoryblock">MemoryBlock</h2>
-<p><em>extends <a href="#block">Block</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>memoryCapacity</td>
-<td>int</td>
-<td>32</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<h2 id="mendprojector">MendProjector</h2>
-<p><em>extends <a href="#block">Block</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>timerUse</td>
-<td>int</td>
-<td>1</td>
-<td></td>
-</tr>
-<tr>
-<td>baseColor</td>
-<td>Color</td>
-<td>84f491ff</td>
-<td></td>
-</tr>
-<tr>
-<td>phaseColor</td>
-<td>Color</td>
-<td>84f491ff</td>
-<td></td>
-</tr>
-<tr>
-<td>topRegion</td>
-<td>TextureRegion</td>
-<td>null</td>
-<td></td>
-</tr>
-<tr>
-<td>reload</td>
-<td>float</td>
-<td>250.0</td>
-<td></td>
-</tr>
-<tr>
-<td>range</td>
-<td>float</td>
-<td>60.0</td>
-<td></td>
-</tr>
-<tr>
-<td>healPercent</td>
-<td>float</td>
-<td>12.0</td>
-<td></td>
-</tr>
-<tr>
-<td>phaseBoost</td>
-<td>float</td>
-<td>12.0</td>
-<td></td>
-</tr>
-<tr>
-<td>phaseRangeBoost</td>
-<td>float</td>
-<td>50.0</td>
-<td></td>
-</tr>
-<tr>
-<td>useTime</td>
-<td>float</td>
-<td>400.0</td>
-<td></td>
-</tr>
-</tbody>
-</table>
 <h2 id="messageblock">MessageBlock</h2>
 <p><em>extends <a href="#block">Block</a></em></p>
 <table>
@@ -11526,122 +11872,6 @@
 <td>maxNewlines</td>
 <td>int</td>
 <td>24</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<h2 id="nuclearreactor">NuclearReactor</h2>
-<p><em>extends <a href="#powergenerator">PowerGenerator</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>timerFuel</td>
-<td>int</td>
-<td>1</td>
-<td></td>
-</tr>
-<tr>
-<td>tr</td>
-<td>Vec2</td>
-<td>(0.0,0.0)</td>
-<td></td>
-</tr>
-<tr>
-<td>lightColor</td>
-<td>Color</td>
-<td>7f19eaff</td>
-<td></td>
-</tr>
-<tr>
-<td>coolColor</td>
-<td>Color</td>
-<td>ffffff00</td>
-<td></td>
-</tr>
-<tr>
-<td>hotColor</td>
-<td>Color</td>
-<td>ff9575a3</td>
-<td></td>
-</tr>
-<tr>
-<td>explodeEffect</td>
-<td>Effect</td>
-<td>reactorExplosion</td>
-<td></td>
-</tr>
-<tr>
-<td>itemDuration</td>
-<td>float</td>
-<td>120.0</td>
-<td>ticks to consume 1 fuel</td>
-</tr>
-<tr>
-<td>heating</td>
-<td>float</td>
-<td>0.01</td>
-<td>heating per frame * fullness</td>
-</tr>
-<tr>
-<td>smokeThreshold</td>
-<td>float</td>
-<td>0.3</td>
-<td>threshold at which block starts smoking</td>
-</tr>
-<tr>
-<td>flashThreshold</td>
-<td>float</td>
-<td>0.46</td>
-<td>heat threshold at which lights start flashing</td>
-</tr>
-<tr>
-<td>explosionRadius</td>
-<td>int</td>
-<td>19</td>
-<td></td>
-</tr>
-<tr>
-<td>explosionDamage</td>
-<td>int</td>
-<td>1250</td>
-<td></td>
-</tr>
-<tr>
-<td>coolantPower</td>
-<td>float</td>
-<td>0.5</td>
-<td>heat removed per unit of coolant</td>
-</tr>
-<tr>
-<td>smoothLight</td>
-<td>float</td>
-<td>0.0</td>
-<td></td>
-</tr>
-<tr>
-<td>fuelItem</td>
-<td>Item</td>
-<td>thorium</td>
-<td></td>
-</tr>
-<tr>
-<td>topRegion</td>
-<td>TextureRegion</td>
-<td>null</td>
-<td></td>
-</tr>
-<tr>
-<td>lightsRegion</td>
-<td>TextureRegion</td>
-<td>null</td>
 <td></td>
 </tr>
 </tbody>
@@ -11729,8 +11959,8 @@
 </tr>
 </tbody>
 </table>
-<h2 id="overflowduct">OverflowDuct</h2>
-<p><em>extends <a href="#block">Block</a></em></p>
+<h2 id="payloadammoturret">PayloadAmmoTurret</h2>
+<p><em>extends <a href="#turret">Turret</a></em></p>
 <table>
 <thead>
 <tr>
@@ -11742,41 +11972,9 @@
 </thead>
 <tbody>
 <tr>
-<td>speed</td>
-<td>float</td>
-<td>5.0</td>
-<td></td>
-</tr>
-<tr>
-<td>topRegion</td>
-<td>TextureRegion</td>
-<td>null</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<h2 id="overflowgate">OverflowGate</h2>
-<p><em>extends <a href="#block">Block</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>speed</td>
-<td>float</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>invert</td>
-<td>boolean</td>
-<td>false</td>
+<td>ammoTypes</td>
+<td>ObjectMap<UnlockableContent,BulletType></td>
+<td>new ObjectMap&lt;&gt;()</td>
 <td></td>
 </tr>
 </tbody>
@@ -11877,94 +12075,6 @@
 <td>payloadLimit</td>
 <td>float</td>
 <td>3.0</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<h2 id="payloaddeconstructor">PayloadDeconstructor</h2>
-<p><em>extends <a href="#payloadblock">PayloadBlock</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>maxPayloadSize</td>
-<td>float</td>
-<td>4.0</td>
-<td></td>
-</tr>
-<tr>
-<td>deconstructSpeed</td>
-<td>float</td>
-<td>2.5</td>
-<td></td>
-</tr>
-<tr>
-<td>dumpRate</td>
-<td>int</td>
-<td>4</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<h2 id="payloadloader">PayloadLoader</h2>
-<p><em>extends <a href="#payloadblock">PayloadBlock</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>timerLoad</td>
-<td>int</td>
-<td>1</td>
-<td></td>
-</tr>
-<tr>
-<td>loadTime</td>
-<td>float</td>
-<td>2.0</td>
-<td></td>
-</tr>
-<tr>
-<td>itemsLoaded</td>
-<td>int</td>
-<td>8</td>
-<td></td>
-</tr>
-<tr>
-<td>liquidsLoaded</td>
-<td>float</td>
-<td>40.0</td>
-<td></td>
-</tr>
-<tr>
-<td>maxBlockSize</td>
-<td>int</td>
-<td>3</td>
-<td></td>
-</tr>
-<tr>
-<td>maxPowerConsumption</td>
-<td>float</td>
-<td>40.0</td>
-<td></td>
-</tr>
-<tr>
-<td>loadPowerDynamic</td>
-<td>boolean</td>
-<td>true</td>
 <td></td>
 </tr>
 </tbody>
@@ -12121,55 +12231,9 @@
 </tr>
 </tbody>
 </table>
-<h2 id="payloadrouter">PayloadRouter</h2>
-<p><em>extends <a href="#payloadconveyor">PayloadConveyor</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>overRegion</td>
-<td>TextureRegion</td>
-<td>null</td>
-<td></td>
-</tr>
-</tbody>
-</table>
 <h2 id="payloadsource">PayloadSource</h2>
 <p><em>extends <a href="#payloadblock">PayloadBlock</a></em></p>
 <p>Generic building that produces other buildings.</p>
-<h2 id="payloadunloader">PayloadUnloader</h2>
-<p><em>extends <a href="#payloadloader">PayloadLoader</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>offloadSpeed</td>
-<td>int</td>
-<td>4</td>
-<td></td>
-</tr>
-<tr>
-<td>maxPowerUnload</td>
-<td>float</td>
-<td>80.0</td>
-<td></td>
-</tr>
-</tbody>
-</table>
 <h2 id="payloadvoid">PayloadVoid</h2>
 <p><em>extends <a href="#payloadblock">PayloadBlock</a></em></p>
 <table>
@@ -12276,8 +12340,6 @@
 </tr>
 </tbody>
 </table>
-<h2 id="powerblock">PowerBlock</h2>
-<p><em>extends <a href="#block">Block</a></em></p>
 <h2 id="powerdiode">PowerDiode</h2>
 <p><em>extends <a href="#block">Block</a></em></p>
 <table>
@@ -12293,68 +12355,6 @@
 <tr>
 <td>arrow</td>
 <td>TextureRegion</td>
-<td>null</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<h2 id="powersource">PowerSource</h2>
-<p><em>extends <a href="#powernode">PowerNode</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>powerProduction</td>
-<td>float</td>
-<td>10000.0</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<h2 id="prop">Prop</h2>
-<p><em>extends <a href="#block">Block</a></em></p>
-<h2 id="reloadturret">ReloadTurret</h2>
-<p><em>extends <a href="#baseturret">BaseTurret</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>reload</td>
-<td>float</td>
-<td>10.0</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<h2 id="powerturret">PowerTurret</h2>
-<p><em>extends <a href="#turret">Turret</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>shootType</td>
-<td>BulletType</td>
 <td>null</td>
 <td></td>
 </tr>
@@ -21969,7 +21969,7 @@ amount: 0.5
     <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tracking"], "search": "../../assets/javascripts/workers/search.b028fd86.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
     
     
-      <script src="../../assets/javascripts/bundle.0f659f14.min.js"></script>
+      <script src="../../assets/javascripts/bundle.7f366e99.min.js"></script>
       
     
   </body>
