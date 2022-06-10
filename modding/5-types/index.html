@@ -8680,6 +8680,476 @@
 </tr>
 </tbody>
 </table>
+<h2 id="floor">Floor</h2>
+<p><em>extends <a href="#block">Block</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>edge</td>
+<td>String</td>
+<td>"stone"</td>
+<td>edge fallback, used mainly for ores</td>
+</tr>
+<tr>
+<td>speedMultiplier</td>
+<td>float</td>
+<td>1.0</td>
+<td>Multiplies unit velocity by this when walked on.</td>
+</tr>
+<tr>
+<td>dragMultiplier</td>
+<td>float</td>
+<td>1.0</td>
+<td>Multiplies unit drag by this when walked on.</td>
+</tr>
+<tr>
+<td>damageTaken</td>
+<td>float</td>
+<td>0.0</td>
+<td>Damage taken per tick on this tile.</td>
+</tr>
+<tr>
+<td>drownTime</td>
+<td>float</td>
+<td>0.0</td>
+<td>How many ticks it takes to drown on this. 0 to disable.</td>
+</tr>
+<tr>
+<td>walkEffect</td>
+<td>Effect</td>
+<td>none</td>
+<td>Effect when walking on this floor.</td>
+</tr>
+<tr>
+<td>walkSound</td>
+<td>Sound</td>
+<td>none</td>
+<td>Sound made when walking.</td>
+</tr>
+<tr>
+<td>walkSoundVolume</td>
+<td>float</td>
+<td>0.1</td>
+<td>Volume of sound made when walking.</td>
+</tr>
+<tr>
+<td>walkSoundPitchMin</td>
+<td>float</td>
+<td>0.8</td>
+<td>Volume of sound made when walking.</td>
+</tr>
+<tr>
+<td>walkSoundPitchMax</td>
+<td>float</td>
+<td>1.2</td>
+<td>Volume of sound made when walking.</td>
+</tr>
+<tr>
+<td>drownUpdateEffect</td>
+<td>Effect</td>
+<td>bubble</td>
+<td>Effect displayed when drowning on this floor.</td>
+</tr>
+<tr>
+<td>status</td>
+<td>StatusEffect</td>
+<td>none</td>
+<td>Status effect applied when walking on.</td>
+</tr>
+<tr>
+<td>statusDuration</td>
+<td>float</td>
+<td>60.0</td>
+<td>Intensity of applied status effect.</td>
+</tr>
+<tr>
+<td>liquidDrop</td>
+<td>Liquid</td>
+<td>null</td>
+<td>liquids that drop from this block, used for pumps.</td>
+</tr>
+<tr>
+<td>liquidMultiplier</td>
+<td>float</td>
+<td>1.0</td>
+<td>Multiplier for pumped liquids, used for deep water.</td>
+</tr>
+<tr>
+<td>isLiquid</td>
+<td>boolean</td>
+<td>false</td>
+<td>whether this block is liquid.</td>
+</tr>
+<tr>
+<td>overlayAlpha</td>
+<td>float</td>
+<td>0.65</td>
+<td>for liquid floors, this is the opacity of the overlay drawn on top.</td>
+</tr>
+<tr>
+<td>supportsOverlay</td>
+<td>boolean</td>
+<td>false</td>
+<td>whether this floor supports an overlay floor</td>
+</tr>
+<tr>
+<td>shallow</td>
+<td>boolean</td>
+<td>false</td>
+<td>shallow water flag used for generation</td>
+</tr>
+<tr>
+<td>blendGroup</td>
+<td>Block</td>
+<td>this</td>
+<td>Group of blocks that this block does not draw edges on.</td>
+</tr>
+<tr>
+<td>oreDefault</td>
+<td>boolean</td>
+<td>false</td>
+<td>Whether this ore generates in maps by default.</td>
+</tr>
+<tr>
+<td>oreScale</td>
+<td>float</td>
+<td>24.0</td>
+<td>Ore generation params.</td>
+</tr>
+<tr>
+<td>oreThreshold</td>
+<td>float</td>
+<td>0.828</td>
+<td>Ore generation params.</td>
+</tr>
+<tr>
+<td>wall</td>
+<td>Block</td>
+<td>air</td>
+<td>Wall variant of this block. May be Blocks.air if not found.</td>
+</tr>
+<tr>
+<td>decoration</td>
+<td>Block</td>
+<td>air</td>
+<td>Decoration block. Usually a rock. May be air.</td>
+</tr>
+<tr>
+<td>canShadow</td>
+<td>boolean</td>
+<td>true</td>
+<td>Whether units can draw shadows over this.</td>
+</tr>
+<tr>
+<td>needsSurface</td>
+<td>boolean</td>
+<td>true</td>
+<td>Whether this overlay needs a surface to be on. False for floating blocks, like spawns.</td>
+</tr>
+<tr>
+<td>allowCorePlacement</td>
+<td>boolean</td>
+<td>false</td>
+<td>If true, cores can be placed on this floor.</td>
+</tr>
+<tr>
+<td>wallOre</td>
+<td>boolean</td>
+<td>false</td>
+<td>If true, this ore is allowed on walls.</td>
+</tr>
+<tr>
+<td>blendId</td>
+<td>int</td>
+<td>-1</td>
+<td>Actual ID used for blend groups. Internal.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="liquidbridge">LiquidBridge</h2>
+<p><em>extends <a href="#itembridge">ItemBridge</a></em></p>
+<h2 id="mendprojector">MendProjector</h2>
+<p><em>extends <a href="#block">Block</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>timerUse</td>
+<td>int</td>
+<td>1</td>
+<td></td>
+</tr>
+<tr>
+<td>baseColor</td>
+<td>Color</td>
+<td>84f491ff</td>
+<td></td>
+</tr>
+<tr>
+<td>phaseColor</td>
+<td>Color</td>
+<td>84f491ff</td>
+<td></td>
+</tr>
+<tr>
+<td>topRegion</td>
+<td>TextureRegion</td>
+<td>null</td>
+<td></td>
+</tr>
+<tr>
+<td>reload</td>
+<td>float</td>
+<td>250.0</td>
+<td></td>
+</tr>
+<tr>
+<td>range</td>
+<td>float</td>
+<td>60.0</td>
+<td></td>
+</tr>
+<tr>
+<td>healPercent</td>
+<td>float</td>
+<td>12.0</td>
+<td></td>
+</tr>
+<tr>
+<td>phaseBoost</td>
+<td>float</td>
+<td>12.0</td>
+<td></td>
+</tr>
+<tr>
+<td>phaseRangeBoost</td>
+<td>float</td>
+<td>50.0</td>
+<td></td>
+</tr>
+<tr>
+<td>useTime</td>
+<td>float</td>
+<td>400.0</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="payloadammoturret">PayloadAmmoTurret</h2>
+<p><em>extends <a href="#turret">Turret</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ammoTypes</td>
+<td>ObjectMap<UnlockableContent,BulletType></td>
+<td>new ObjectMap&lt;&gt;()</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="payloadmassdriver">PayloadMassDriver</h2>
+<p><em>extends <a href="#payloadblock">PayloadBlock</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>range</td>
+<td>float</td>
+<td>100.0</td>
+<td></td>
+</tr>
+<tr>
+<td>rotateSpeed</td>
+<td>float</td>
+<td>2.0</td>
+<td></td>
+</tr>
+<tr>
+<td>length</td>
+<td>float</td>
+<td>11.125</td>
+<td></td>
+</tr>
+<tr>
+<td>knockback</td>
+<td>float</td>
+<td>5.0</td>
+<td></td>
+</tr>
+<tr>
+<td>reload</td>
+<td>float</td>
+<td>30.0</td>
+<td></td>
+</tr>
+<tr>
+<td>chargeTime</td>
+<td>float</td>
+<td>100.0</td>
+<td></td>
+</tr>
+<tr>
+<td>maxPayloadSize</td>
+<td>float</td>
+<td>3.0</td>
+<td></td>
+</tr>
+<tr>
+<td>grabWidth</td>
+<td>float</td>
+<td>8.0</td>
+<td></td>
+</tr>
+<tr>
+<td>grabHeight</td>
+<td>float</td>
+<td>2.75</td>
+<td></td>
+</tr>
+<tr>
+<td>shootEffect</td>
+<td>Effect</td>
+<td>shootBig2</td>
+<td></td>
+</tr>
+<tr>
+<td>smokeEffect</td>
+<td>Effect</td>
+<td>shootPayloadDriver</td>
+<td></td>
+</tr>
+<tr>
+<td>receiveEffect</td>
+<td>Effect</td>
+<td>payloadReceive</td>
+<td></td>
+</tr>
+<tr>
+<td>shootSound</td>
+<td>Sound</td>
+<td>shootBig</td>
+<td></td>
+</tr>
+<tr>
+<td>shake</td>
+<td>float</td>
+<td>3.0</td>
+<td></td>
+</tr>
+<tr>
+<td>transferEffect</td>
+<td>Effect</td>
+<td>flyingUnitLow - 1)</td>
+<td></td>
+</tr>
+<tr>
+<td>baseRegion</td>
+<td>TextureRegion</td>
+<td>null</td>
+<td></td>
+</tr>
+<tr>
+<td>capRegion</td>
+<td>TextureRegion</td>
+<td>null</td>
+<td></td>
+</tr>
+<tr>
+<td>leftRegion</td>
+<td>TextureRegion</td>
+<td>null</td>
+<td></td>
+</tr>
+<tr>
+<td>rightRegion</td>
+<td>TextureRegion</td>
+<td>null</td>
+<td></td>
+</tr>
+<tr>
+<td>capOutlineRegion</td>
+<td>TextureRegion</td>
+<td>null</td>
+<td></td>
+</tr>
+<tr>
+<td>leftOutlineRegion</td>
+<td>TextureRegion</td>
+<td>null</td>
+<td></td>
+</tr>
+<tr>
+<td>rightOutlineRegion</td>
+<td>TextureRegion</td>
+<td>null</td>
+<td></td>
+</tr>
+<tr>
+<td>arrow</td>
+<td>TextureRegion</td>
+<td>null</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="payloadvoid">PayloadVoid</h2>
+<p><em>extends <a href="#payloadblock">PayloadBlock</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>incinerateEffect</td>
+<td>Effect</td>
+<td>blastExplosion</td>
+<td></td>
+</tr>
+<tr>
+<td>incinerateSound</td>
+<td>Sound</td>
+<td>bang</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="powerdistributor">PowerDistributor</h2>
+<p><em>extends <a href="#powerblock">PowerBlock</a></em></p>
 <h2 id="battery">Battery</h2>
 <p><em>extends <a href="#powerdistributor">PowerDistributor</a></em></p>
 <table>
@@ -10071,200 +10541,6 @@
 </tr>
 </tbody>
 </table>
-<h2 id="floor">Floor</h2>
-<p><em>extends <a href="#block">Block</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>edge</td>
-<td>String</td>
-<td>"stone"</td>
-<td>edge fallback, used mainly for ores</td>
-</tr>
-<tr>
-<td>speedMultiplier</td>
-<td>float</td>
-<td>1.0</td>
-<td>Multiplies unit velocity by this when walked on.</td>
-</tr>
-<tr>
-<td>dragMultiplier</td>
-<td>float</td>
-<td>1.0</td>
-<td>Multiplies unit drag by this when walked on.</td>
-</tr>
-<tr>
-<td>damageTaken</td>
-<td>float</td>
-<td>0.0</td>
-<td>Damage taken per tick on this tile.</td>
-</tr>
-<tr>
-<td>drownTime</td>
-<td>float</td>
-<td>0.0</td>
-<td>How many ticks it takes to drown on this. 0 to disable.</td>
-</tr>
-<tr>
-<td>walkEffect</td>
-<td>Effect</td>
-<td>none</td>
-<td>Effect when walking on this floor.</td>
-</tr>
-<tr>
-<td>walkSound</td>
-<td>Sound</td>
-<td>none</td>
-<td>Sound made when walking.</td>
-</tr>
-<tr>
-<td>walkSoundVolume</td>
-<td>float</td>
-<td>0.1</td>
-<td>Volume of sound made when walking.</td>
-</tr>
-<tr>
-<td>walkSoundPitchMin</td>
-<td>float</td>
-<td>0.8</td>
-<td>Volume of sound made when walking.</td>
-</tr>
-<tr>
-<td>walkSoundPitchMax</td>
-<td>float</td>
-<td>1.2</td>
-<td>Volume of sound made when walking.</td>
-</tr>
-<tr>
-<td>drownUpdateEffect</td>
-<td>Effect</td>
-<td>bubble</td>
-<td>Effect displayed when drowning on this floor.</td>
-</tr>
-<tr>
-<td>status</td>
-<td>StatusEffect</td>
-<td>none</td>
-<td>Status effect applied when walking on.</td>
-</tr>
-<tr>
-<td>statusDuration</td>
-<td>float</td>
-<td>60.0</td>
-<td>Intensity of applied status effect.</td>
-</tr>
-<tr>
-<td>liquidDrop</td>
-<td>Liquid</td>
-<td>null</td>
-<td>liquids that drop from this block, used for pumps.</td>
-</tr>
-<tr>
-<td>liquidMultiplier</td>
-<td>float</td>
-<td>1.0</td>
-<td>Multiplier for pumped liquids, used for deep water.</td>
-</tr>
-<tr>
-<td>isLiquid</td>
-<td>boolean</td>
-<td>false</td>
-<td>whether this block is liquid.</td>
-</tr>
-<tr>
-<td>overlayAlpha</td>
-<td>float</td>
-<td>0.65</td>
-<td>for liquid floors, this is the opacity of the overlay drawn on top.</td>
-</tr>
-<tr>
-<td>supportsOverlay</td>
-<td>boolean</td>
-<td>false</td>
-<td>whether this floor supports an overlay floor</td>
-</tr>
-<tr>
-<td>shallow</td>
-<td>boolean</td>
-<td>false</td>
-<td>shallow water flag used for generation</td>
-</tr>
-<tr>
-<td>blendGroup</td>
-<td>Block</td>
-<td>this</td>
-<td>Group of blocks that this block does not draw edges on.</td>
-</tr>
-<tr>
-<td>oreDefault</td>
-<td>boolean</td>
-<td>false</td>
-<td>Whether this ore generates in maps by default.</td>
-</tr>
-<tr>
-<td>oreScale</td>
-<td>float</td>
-<td>24.0</td>
-<td>Ore generation params.</td>
-</tr>
-<tr>
-<td>oreThreshold</td>
-<td>float</td>
-<td>0.828</td>
-<td>Ore generation params.</td>
-</tr>
-<tr>
-<td>wall</td>
-<td>Block</td>
-<td>air</td>
-<td>Wall variant of this block. May be Blocks.air if not found.</td>
-</tr>
-<tr>
-<td>decoration</td>
-<td>Block</td>
-<td>air</td>
-<td>Decoration block. Usually a rock. May be air.</td>
-</tr>
-<tr>
-<td>canShadow</td>
-<td>boolean</td>
-<td>true</td>
-<td>Whether units can draw shadows over this.</td>
-</tr>
-<tr>
-<td>needsSurface</td>
-<td>boolean</td>
-<td>true</td>
-<td>Whether this overlay needs a surface to be on. False for floating blocks, like spawns.</td>
-</tr>
-<tr>
-<td>allowCorePlacement</td>
-<td>boolean</td>
-<td>false</td>
-<td>If true, cores can be placed on this floor.</td>
-</tr>
-<tr>
-<td>wallOre</td>
-<td>boolean</td>
-<td>false</td>
-<td>If true, this ore is allowed on walls.</td>
-</tr>
-<tr>
-<td>blendId</td>
-<td>int</td>
-<td>-1</td>
-<td>Actual ID used for blend groups. Internal.</td>
-</tr>
-</tbody>
-</table>
 <h2 id="emptyfloor">EmptyFloor</h2>
 <p><em>extends <a href="#floor">Floor</a></em></p>
 <p>Empty floor is <em>not</em> equivalent to air. Unlike air, it is solid, and still draws neighboring tile edges.</p>
@@ -10373,7 +10649,7 @@
 <tr>
 <td>coolantConsumer</td>
 <td>Consume</td>
-<td>mindustry.world.consumers.ConsumeCoolant@414d466e</td>
+<td>mindustry.world.consumers.ConsumeCoolant@78e59b04</td>
 <td></td>
 </tr>
 </tbody>
@@ -11021,8 +11297,6 @@
 </tr>
 </tbody>
 </table>
-<h2 id="liquidbridge">LiquidBridge</h2>
-<p><em>extends <a href="#itembridge">ItemBridge</a></em></p>
 <h2 id="liquidjunction">LiquidJunction</h2>
 <p><em>extends <a href="#liquidblock">LiquidBlock</a></em></p>
 <h2 id="liquidrouter">LiquidRouter</h2>
@@ -11331,80 +11605,6 @@
 </tr>
 </tbody>
 </table>
-<h2 id="mendprojector">MendProjector</h2>
-<p><em>extends <a href="#block">Block</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>timerUse</td>
-<td>int</td>
-<td>1</td>
-<td></td>
-</tr>
-<tr>
-<td>baseColor</td>
-<td>Color</td>
-<td>84f491ff</td>
-<td></td>
-</tr>
-<tr>
-<td>phaseColor</td>
-<td>Color</td>
-<td>84f491ff</td>
-<td></td>
-</tr>
-<tr>
-<td>topRegion</td>
-<td>TextureRegion</td>
-<td>null</td>
-<td></td>
-</tr>
-<tr>
-<td>reload</td>
-<td>float</td>
-<td>250.0</td>
-<td></td>
-</tr>
-<tr>
-<td>range</td>
-<td>float</td>
-<td>60.0</td>
-<td></td>
-</tr>
-<tr>
-<td>healPercent</td>
-<td>float</td>
-<td>12.0</td>
-<td></td>
-</tr>
-<tr>
-<td>phaseBoost</td>
-<td>float</td>
-<td>12.0</td>
-<td></td>
-</tr>
-<tr>
-<td>phaseRangeBoost</td>
-<td>float</td>
-<td>50.0</td>
-<td></td>
-</tr>
-<tr>
-<td>useTime</td>
-<td>float</td>
-<td>400.0</td>
-<td></td>
-</tr>
-</tbody>
-</table>
 <h2 id="messageblock">MessageBlock</h2>
 <p><em>extends <a href="#block">Block</a></em></p>
 <table>
@@ -11685,26 +11885,6 @@
 </tr>
 </tbody>
 </table>
-<h2 id="payloadammoturret">PayloadAmmoTurret</h2>
-<p><em>extends <a href="#turret">Turret</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>ammoTypes</td>
-<td>ObjectMap<UnlockableContent,BulletType></td>
-<td>new ObjectMap&lt;&gt;()</td>
-<td></td>
-</tr>
-</tbody>
-</table>
 <h2 id="payloadblock">PayloadBlock</h2>
 <p><em>extends <a href="#block">Block</a></em></p>
 <table>
@@ -11893,158 +12073,6 @@
 </tr>
 </tbody>
 </table>
-<h2 id="payloadmassdriver">PayloadMassDriver</h2>
-<p><em>extends <a href="#payloadblock">PayloadBlock</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>range</td>
-<td>float</td>
-<td>100.0</td>
-<td></td>
-</tr>
-<tr>
-<td>rotateSpeed</td>
-<td>float</td>
-<td>2.0</td>
-<td></td>
-</tr>
-<tr>
-<td>length</td>
-<td>float</td>
-<td>11.125</td>
-<td></td>
-</tr>
-<tr>
-<td>knockback</td>
-<td>float</td>
-<td>5.0</td>
-<td></td>
-</tr>
-<tr>
-<td>reload</td>
-<td>float</td>
-<td>30.0</td>
-<td></td>
-</tr>
-<tr>
-<td>chargeTime</td>
-<td>float</td>
-<td>100.0</td>
-<td></td>
-</tr>
-<tr>
-<td>maxPayloadSize</td>
-<td>float</td>
-<td>3.0</td>
-<td></td>
-</tr>
-<tr>
-<td>grabWidth</td>
-<td>float</td>
-<td>8.0</td>
-<td></td>
-</tr>
-<tr>
-<td>grabHeight</td>
-<td>float</td>
-<td>2.75</td>
-<td></td>
-</tr>
-<tr>
-<td>shootEffect</td>
-<td>Effect</td>
-<td>shootBig2</td>
-<td></td>
-</tr>
-<tr>
-<td>smokeEffect</td>
-<td>Effect</td>
-<td>shootPayloadDriver</td>
-<td></td>
-</tr>
-<tr>
-<td>receiveEffect</td>
-<td>Effect</td>
-<td>payloadReceive</td>
-<td></td>
-</tr>
-<tr>
-<td>shootSound</td>
-<td>Sound</td>
-<td>shootBig</td>
-<td></td>
-</tr>
-<tr>
-<td>shake</td>
-<td>float</td>
-<td>3.0</td>
-<td></td>
-</tr>
-<tr>
-<td>transferEffect</td>
-<td>Effect</td>
-<td>flyingUnitLow - 1)</td>
-<td></td>
-</tr>
-<tr>
-<td>baseRegion</td>
-<td>TextureRegion</td>
-<td>null</td>
-<td></td>
-</tr>
-<tr>
-<td>capRegion</td>
-<td>TextureRegion</td>
-<td>null</td>
-<td></td>
-</tr>
-<tr>
-<td>leftRegion</td>
-<td>TextureRegion</td>
-<td>null</td>
-<td></td>
-</tr>
-<tr>
-<td>rightRegion</td>
-<td>TextureRegion</td>
-<td>null</td>
-<td></td>
-</tr>
-<tr>
-<td>capOutlineRegion</td>
-<td>TextureRegion</td>
-<td>null</td>
-<td></td>
-</tr>
-<tr>
-<td>leftOutlineRegion</td>
-<td>TextureRegion</td>
-<td>null</td>
-<td></td>
-</tr>
-<tr>
-<td>rightOutlineRegion</td>
-<td>TextureRegion</td>
-<td>null</td>
-<td></td>
-</tr>
-<tr>
-<td>arrow</td>
-<td>TextureRegion</td>
-<td>null</td>
-<td></td>
-</tr>
-</tbody>
-</table>
 <h2 id="payloadrouter">PayloadRouter</h2>
 <p><em>extends <a href="#payloadconveyor">PayloadConveyor</a></em></p>
 <table>
@@ -12090,32 +12118,6 @@
 <td>maxPowerUnload</td>
 <td>float</td>
 <td>80.0</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<h2 id="payloadvoid">PayloadVoid</h2>
-<p><em>extends <a href="#payloadblock">PayloadBlock</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>incinerateEffect</td>
-<td>Effect</td>
-<td>blastExplosion</td>
-<td></td>
-</tr>
-<tr>
-<td>incinerateSound</td>
-<td>Sound</td>
-<td>bang</td>
 <td></td>
 </tr>
 </tbody>
@@ -12222,8 +12224,6 @@
 </tr>
 </tbody>
 </table>
-<h2 id="powerdistributor">PowerDistributor</h2>
-<p><em>extends <a href="#powerblock">PowerBlock</a></em></p>
 <h2 id="powergenerator">PowerGenerator</h2>
 <p><em>extends <a href="#powerdistributor">PowerDistributor</a></em></p>
 <table>
@@ -12344,6 +12344,30 @@
 </tr>
 </tbody>
 </table>
+<h2 id="powerturret">PowerTurret</h2>
+<p><em>extends <a href="#turret">Turret</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>shootType</td>
+<td>BulletType</td>
+<td>null</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="powervoid">PowerVoid</h2>
+<p><em>extends <a href="#powerblock">PowerBlock</a></em></p>
+<h2 id="prop">Prop</h2>
+<p><em>extends <a href="#block">Block</a></em></p>
 <h2 id="pump">Pump</h2>
 <p><em>extends <a href="#liquidblock">LiquidBlock</a></em></p>
 <table>
@@ -12432,50 +12456,6 @@
 </tr>
 </tbody>
 </table>
-<h2 id="reloadturret">ReloadTurret</h2>
-<p><em>extends <a href="#baseturret">BaseTurret</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>reload</td>
-<td>float</td>
-<td>10.0</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<h2 id="powerturret">PowerTurret</h2>
-<p><em>extends <a href="#turret">Turret</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>shootType</td>
-<td>BulletType</td>
-<td>null</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<h2 id="powervoid">PowerVoid</h2>
-<p><em>extends <a href="#powerblock">PowerBlock</a></em></p>
-<h2 id="prop">Prop</h2>
-<p><em>extends <a href="#block">Block</a></em></p>
 <h2 id="reconstructor">Reconstructor</h2>
 <p><em>extends <a href="#unitblock">UnitBlock</a></em></p>
 <table>
@@ -12566,6 +12546,26 @@
 <td>effect</td>
 <td>Effect</td>
 <td>regenParticle</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="reloadturret">ReloadTurret</h2>
+<p><em>extends <a href="#baseturret">BaseTurret</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>reload</td>
+<td>float</td>
+<td>10.0</td>
 <td></td>
 </tr>
 </tbody>
@@ -16095,7 +16095,7 @@ Use the standard Floor class instead.</p>
 <tr>
 <td>id</td>
 <td>int</td>
-<td>345</td>
+<td>350</td>
 <td></td>
 </tr>
 <tr>
@@ -20812,6 +20812,36 @@ Z layer of child effects is ignored.</p>
 </tr>
 </tbody>
 </table>
+<h2 id="pointdefenseweapon">PointDefenseWeapon</h2>
+<p><em>extends <a href="#weapon">Weapon</a></em></p>
+<p>Note that this requires several things:
+- A bullet with positive maxRange
+- A bullet with positive damage
+- Rotation</p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>color</td>
+<td>Color</td>
+<td>ffffffff</td>
+<td></td>
+</tr>
+<tr>
+<td>beamEffect</td>
+<td>Effect</td>
+<td>pointBeam</td>
+<td></td>
+</tr>
+</tbody>
+</table>
 <h2 id="regenability">RegenAbility</h2>
 <p><em>extends <a href="#ability">Ability</a></em></p>
 <table>
@@ -20835,6 +20865,130 @@ Z layer of child effects is ignored.</p>
 <td>float</td>
 <td>0.0</td>
 <td>Amount healed as a flat amount per tick.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="repairbeamweapon">RepairBeamWeapon</h2>
+<p><em>extends <a href="#weapon">Weapon</a></em></p>
+<p>Note that this weapon requires a bullet with a positive maxRange.
+Rotation must be set to true. Fixed repair points are not supported.</p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>targetBuildings</td>
+<td>boolean</td>
+<td>false</td>
+<td></td>
+</tr>
+<tr>
+<td>targetUnits</td>
+<td>boolean</td>
+<td>true</td>
+<td></td>
+</tr>
+<tr>
+<td>repairSpeed</td>
+<td>float</td>
+<td>0.3</td>
+<td></td>
+</tr>
+<tr>
+<td>fractionRepairSpeed</td>
+<td>float</td>
+<td>0.0</td>
+<td></td>
+</tr>
+<tr>
+<td>beamWidth</td>
+<td>float</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>pulseRadius</td>
+<td>float</td>
+<td>6.0</td>
+<td></td>
+</tr>
+<tr>
+<td>pulseStroke</td>
+<td>float</td>
+<td>2.0</td>
+<td></td>
+</tr>
+<tr>
+<td>widthSinMag</td>
+<td>float</td>
+<td>0.0</td>
+<td></td>
+</tr>
+<tr>
+<td>widthSinScl</td>
+<td>float</td>
+<td>4.0</td>
+<td></td>
+</tr>
+<tr>
+<td>recentDamageMultiplier</td>
+<td>float</td>
+<td>0.1</td>
+<td></td>
+</tr>
+<tr>
+<td>laser</td>
+<td>TextureRegion</td>
+<td>null</td>
+<td></td>
+</tr>
+<tr>
+<td>laserEnd</td>
+<td>TextureRegion</td>
+<td>null</td>
+<td></td>
+</tr>
+<tr>
+<td>laserTop</td>
+<td>TextureRegion</td>
+<td>null</td>
+<td></td>
+</tr>
+<tr>
+<td>laserTopEnd</td>
+<td>TextureRegion</td>
+<td>null</td>
+<td></td>
+</tr>
+<tr>
+<td>laserColor</td>
+<td>Color</td>
+<td>98ffa9ff</td>
+<td></td>
+</tr>
+<tr>
+<td>laserTopColor</td>
+<td>Color</td>
+<td>ffffffff</td>
+<td></td>
+</tr>
+<tr>
+<td>healColor</td>
+<td>Color</td>
+<td>98ffa9ff</td>
+<td></td>
+</tr>
+<tr>
+<td>healEffect</td>
+<td>Effect</td>
+<td>healBlockFull</td>
+<td></td>
 </tr>
 </tbody>
 </table>
@@ -20878,6 +21032,154 @@ Z layer of child effects is ignored.</p>
 <td>activeEffect</td>
 <td>Effect</td>
 <td>healWaveDynamic</td>
+<td></td>
+</tr>
+<tr>
+<td>parentizeEffects</td>
+<td>boolean</td>
+<td>false</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="shieldarcability">ShieldArcAbility</h2>
+<p><em>extends <a href="#ability">Ability</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>radius</td>
+<td>float</td>
+<td>60.0</td>
+<td>Shield radius.</td>
+</tr>
+<tr>
+<td>regen</td>
+<td>float</td>
+<td>0.1</td>
+<td>Shield regen speed in damage/tick.</td>
+</tr>
+<tr>
+<td>max</td>
+<td>float</td>
+<td>200.0</td>
+<td>Maximum shield.</td>
+</tr>
+<tr>
+<td>cooldown</td>
+<td>float</td>
+<td>300.0</td>
+<td>Cooldown after the shield is broken, in ticks.</td>
+</tr>
+<tr>
+<td>angle</td>
+<td>float</td>
+<td>80.0</td>
+<td>Angle of shield arc.</td>
+</tr>
+<tr>
+<td>angleOffset</td>
+<td>float</td>
+<td>0.0</td>
+<td>Offset parameters for shield.</td>
+</tr>
+<tr>
+<td>x</td>
+<td>float</td>
+<td>0.0</td>
+<td>Offset parameters for shield.</td>
+</tr>
+<tr>
+<td>y</td>
+<td>float</td>
+<td>0.0</td>
+<td>Offset parameters for shield.</td>
+</tr>
+<tr>
+<td>whenShooting</td>
+<td>boolean</td>
+<td>true</td>
+<td>If true, only activates when shooting.</td>
+</tr>
+<tr>
+<td>width</td>
+<td>float</td>
+<td>6.0</td>
+<td>Width of shield line.</td>
+</tr>
+<tr>
+<td>drawArc</td>
+<td>boolean</td>
+<td>true</td>
+<td>Whether to draw the arc line.</td>
+</tr>
+<tr>
+<td>region</td>
+<td>String</td>
+<td>null</td>
+<td>If not null, will be drawn on top.</td>
+</tr>
+<tr>
+<td>offsetRegion</td>
+<td>boolean</td>
+<td>false</td>
+<td>If true, sprite position will be influenced by x/y.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="shieldregenfieldability">ShieldRegenFieldAbility</h2>
+<p><em>extends <a href="#ability">Ability</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>amount</td>
+<td>float</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>max</td>
+<td>float</td>
+<td>100.0</td>
+<td></td>
+</tr>
+<tr>
+<td>reload</td>
+<td>float</td>
+<td>100.0</td>
+<td></td>
+</tr>
+<tr>
+<td>range</td>
+<td>float</td>
+<td>60.0</td>
+<td></td>
+</tr>
+<tr>
+<td>applyEffect</td>
+<td>Effect</td>
+<td>shieldApply</td>
+<td></td>
+</tr>
+<tr>
+<td>activeEffect</td>
+<td>Effect</td>
+<td>shieldWave</td>
 <td></td>
 </tr>
 <tr>
@@ -20958,6 +21260,184 @@ Z layer of child effects is ignored.</p>
 <td>effectSizeParam</td>
 <td>boolean</td>
 <td>true</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="suppressionfieldability">SuppressionFieldAbility</h2>
+<p><em>extends <a href="#ability">Ability</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>reload</td>
+<td>float</td>
+<td>90.0</td>
+<td></td>
+</tr>
+<tr>
+<td>range</td>
+<td>float</td>
+<td>200.0</td>
+<td></td>
+</tr>
+<tr>
+<td>orbRadius</td>
+<td>float</td>
+<td>4.1</td>
+<td></td>
+</tr>
+<tr>
+<td>orbMidScl</td>
+<td>float</td>
+<td>0.33</td>
+<td></td>
+</tr>
+<tr>
+<td>orbSinScl</td>
+<td>float</td>
+<td>8.0</td>
+<td></td>
+</tr>
+<tr>
+<td>orbSinMag</td>
+<td>float</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>color</td>
+<td>Color</td>
+<td>a393feff</td>
+<td></td>
+</tr>
+<tr>
+<td>layer</td>
+<td>float</td>
+<td>110.0</td>
+<td></td>
+</tr>
+<tr>
+<td>x</td>
+<td>float</td>
+<td>0.0</td>
+<td></td>
+</tr>
+<tr>
+<td>y</td>
+<td>float</td>
+<td>0.0</td>
+<td></td>
+</tr>
+<tr>
+<td>particles</td>
+<td>int</td>
+<td>15</td>
+<td></td>
+</tr>
+<tr>
+<td>particleSize</td>
+<td>float</td>
+<td>4.0</td>
+<td></td>
+</tr>
+<tr>
+<td>particleLen</td>
+<td>float</td>
+<td>7.0</td>
+<td></td>
+</tr>
+<tr>
+<td>rotateScl</td>
+<td>float</td>
+<td>3.0</td>
+<td></td>
+</tr>
+<tr>
+<td>particleLife</td>
+<td>float</td>
+<td>110.0</td>
+<td></td>
+</tr>
+<tr>
+<td>active</td>
+<td>boolean</td>
+<td>true</td>
+<td></td>
+</tr>
+<tr>
+<td>particleInterp</td>
+<td>Interp</td>
+<td>apply(f))</td>
+<td></td>
+</tr>
+<tr>
+<td>particleColor</td>
+<td>Color</td>
+<td>665c9fff</td>
+<td></td>
+</tr>
+<tr>
+<td>applyParticleChance</td>
+<td>float</td>
+<td>13.0</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="unitspawnability">UnitSpawnAbility</h2>
+<p><em>extends <a href="#ability">Ability</a></em></p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>type</th>
+<th>default</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>unit</td>
+<td>UnitType</td>
+<td>null</td>
+<td></td>
+</tr>
+<tr>
+<td>spawnTime</td>
+<td>float</td>
+<td>60.0</td>
+<td></td>
+</tr>
+<tr>
+<td>spawnX</td>
+<td>float</td>
+<td>0.0</td>
+<td></td>
+</tr>
+<tr>
+<td>spawnY</td>
+<td>float</td>
+<td>0.0</td>
+<td></td>
+</tr>
+<tr>
+<td>spawnEffect</td>
+<td>Effect</td>
+<td>spawn</td>
+<td></td>
+</tr>
+<tr>
+<td>parentizeEffects</td>
+<td>boolean</td>
+<td>false</td>
 <td></td>
 </tr>
 </tbody>
@@ -21321,486 +21801,6 @@ Z layer of child effects is ignored.</p>
 <td>Seq<DrawPart></td>
 <td>class)</td>
 <td>extra animated parts</td>
-</tr>
-</tbody>
-</table>
-<h2 id="pointdefenseweapon">PointDefenseWeapon</h2>
-<p><em>extends <a href="#weapon">Weapon</a></em></p>
-<p>Note that this requires several things:
-- A bullet with positive maxRange
-- A bullet with positive damage
-- Rotation</p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>color</td>
-<td>Color</td>
-<td>ffffffff</td>
-<td></td>
-</tr>
-<tr>
-<td>beamEffect</td>
-<td>Effect</td>
-<td>pointBeam</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<h2 id="repairbeamweapon">RepairBeamWeapon</h2>
-<p><em>extends <a href="#weapon">Weapon</a></em></p>
-<p>Note that this weapon requires a bullet with a positive maxRange.
-Rotation must be set to true. Fixed repair points are not supported.</p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>targetBuildings</td>
-<td>boolean</td>
-<td>false</td>
-<td></td>
-</tr>
-<tr>
-<td>targetUnits</td>
-<td>boolean</td>
-<td>true</td>
-<td></td>
-</tr>
-<tr>
-<td>repairSpeed</td>
-<td>float</td>
-<td>0.3</td>
-<td></td>
-</tr>
-<tr>
-<td>fractionRepairSpeed</td>
-<td>float</td>
-<td>0.0</td>
-<td></td>
-</tr>
-<tr>
-<td>beamWidth</td>
-<td>float</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>pulseRadius</td>
-<td>float</td>
-<td>6.0</td>
-<td></td>
-</tr>
-<tr>
-<td>pulseStroke</td>
-<td>float</td>
-<td>2.0</td>
-<td></td>
-</tr>
-<tr>
-<td>widthSinMag</td>
-<td>float</td>
-<td>0.0</td>
-<td></td>
-</tr>
-<tr>
-<td>widthSinScl</td>
-<td>float</td>
-<td>4.0</td>
-<td></td>
-</tr>
-<tr>
-<td>recentDamageMultiplier</td>
-<td>float</td>
-<td>0.1</td>
-<td></td>
-</tr>
-<tr>
-<td>laser</td>
-<td>TextureRegion</td>
-<td>null</td>
-<td></td>
-</tr>
-<tr>
-<td>laserEnd</td>
-<td>TextureRegion</td>
-<td>null</td>
-<td></td>
-</tr>
-<tr>
-<td>laserTop</td>
-<td>TextureRegion</td>
-<td>null</td>
-<td></td>
-</tr>
-<tr>
-<td>laserTopEnd</td>
-<td>TextureRegion</td>
-<td>null</td>
-<td></td>
-</tr>
-<tr>
-<td>laserColor</td>
-<td>Color</td>
-<td>98ffa9ff</td>
-<td></td>
-</tr>
-<tr>
-<td>laserTopColor</td>
-<td>Color</td>
-<td>ffffffff</td>
-<td></td>
-</tr>
-<tr>
-<td>healColor</td>
-<td>Color</td>
-<td>98ffa9ff</td>
-<td></td>
-</tr>
-<tr>
-<td>healEffect</td>
-<td>Effect</td>
-<td>healBlockFull</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<h2 id="shieldarcability">ShieldArcAbility</h2>
-<p><em>extends <a href="#ability">Ability</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>radius</td>
-<td>float</td>
-<td>60.0</td>
-<td>Shield radius.</td>
-</tr>
-<tr>
-<td>regen</td>
-<td>float</td>
-<td>0.1</td>
-<td>Shield regen speed in damage/tick.</td>
-</tr>
-<tr>
-<td>max</td>
-<td>float</td>
-<td>200.0</td>
-<td>Maximum shield.</td>
-</tr>
-<tr>
-<td>cooldown</td>
-<td>float</td>
-<td>300.0</td>
-<td>Cooldown after the shield is broken, in ticks.</td>
-</tr>
-<tr>
-<td>angle</td>
-<td>float</td>
-<td>80.0</td>
-<td>Angle of shield arc.</td>
-</tr>
-<tr>
-<td>angleOffset</td>
-<td>float</td>
-<td>0.0</td>
-<td>Offset parameters for shield.</td>
-</tr>
-<tr>
-<td>x</td>
-<td>float</td>
-<td>0.0</td>
-<td>Offset parameters for shield.</td>
-</tr>
-<tr>
-<td>y</td>
-<td>float</td>
-<td>0.0</td>
-<td>Offset parameters for shield.</td>
-</tr>
-<tr>
-<td>whenShooting</td>
-<td>boolean</td>
-<td>true</td>
-<td>If true, only activates when shooting.</td>
-</tr>
-<tr>
-<td>width</td>
-<td>float</td>
-<td>6.0</td>
-<td>Width of shield line.</td>
-</tr>
-<tr>
-<td>drawArc</td>
-<td>boolean</td>
-<td>true</td>
-<td>Whether to draw the arc line.</td>
-</tr>
-<tr>
-<td>region</td>
-<td>String</td>
-<td>null</td>
-<td>If not null, will be drawn on top.</td>
-</tr>
-<tr>
-<td>offsetRegion</td>
-<td>boolean</td>
-<td>false</td>
-<td>If true, sprite position will be influenced by x/y.</td>
-</tr>
-</tbody>
-</table>
-<h2 id="shieldregenfieldability">ShieldRegenFieldAbility</h2>
-<p><em>extends <a href="#ability">Ability</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>amount</td>
-<td>float</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>max</td>
-<td>float</td>
-<td>100.0</td>
-<td></td>
-</tr>
-<tr>
-<td>reload</td>
-<td>float</td>
-<td>100.0</td>
-<td></td>
-</tr>
-<tr>
-<td>range</td>
-<td>float</td>
-<td>60.0</td>
-<td></td>
-</tr>
-<tr>
-<td>applyEffect</td>
-<td>Effect</td>
-<td>shieldApply</td>
-<td></td>
-</tr>
-<tr>
-<td>activeEffect</td>
-<td>Effect</td>
-<td>shieldWave</td>
-<td></td>
-</tr>
-<tr>
-<td>parentizeEffects</td>
-<td>boolean</td>
-<td>false</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<h2 id="suppressionfieldability">SuppressionFieldAbility</h2>
-<p><em>extends <a href="#ability">Ability</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>reload</td>
-<td>float</td>
-<td>90.0</td>
-<td></td>
-</tr>
-<tr>
-<td>range</td>
-<td>float</td>
-<td>200.0</td>
-<td></td>
-</tr>
-<tr>
-<td>orbRadius</td>
-<td>float</td>
-<td>4.1</td>
-<td></td>
-</tr>
-<tr>
-<td>orbMidScl</td>
-<td>float</td>
-<td>0.33</td>
-<td></td>
-</tr>
-<tr>
-<td>orbSinScl</td>
-<td>float</td>
-<td>8.0</td>
-<td></td>
-</tr>
-<tr>
-<td>orbSinMag</td>
-<td>float</td>
-<td>1.0</td>
-<td></td>
-</tr>
-<tr>
-<td>color</td>
-<td>Color</td>
-<td>a393feff</td>
-<td></td>
-</tr>
-<tr>
-<td>layer</td>
-<td>float</td>
-<td>110.0</td>
-<td></td>
-</tr>
-<tr>
-<td>x</td>
-<td>float</td>
-<td>0.0</td>
-<td></td>
-</tr>
-<tr>
-<td>y</td>
-<td>float</td>
-<td>0.0</td>
-<td></td>
-</tr>
-<tr>
-<td>particles</td>
-<td>int</td>
-<td>15</td>
-<td></td>
-</tr>
-<tr>
-<td>particleSize</td>
-<td>float</td>
-<td>4.0</td>
-<td></td>
-</tr>
-<tr>
-<td>particleLen</td>
-<td>float</td>
-<td>7.0</td>
-<td></td>
-</tr>
-<tr>
-<td>rotateScl</td>
-<td>float</td>
-<td>3.0</td>
-<td></td>
-</tr>
-<tr>
-<td>particleLife</td>
-<td>float</td>
-<td>110.0</td>
-<td></td>
-</tr>
-<tr>
-<td>active</td>
-<td>boolean</td>
-<td>true</td>
-<td></td>
-</tr>
-<tr>
-<td>particleInterp</td>
-<td>Interp</td>
-<td>apply(f))</td>
-<td></td>
-</tr>
-<tr>
-<td>particleColor</td>
-<td>Color</td>
-<td>665c9fff</td>
-<td></td>
-</tr>
-<tr>
-<td>applyParticleChance</td>
-<td>float</td>
-<td>13.0</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<h2 id="unitspawnability">UnitSpawnAbility</h2>
-<p><em>extends <a href="#ability">Ability</a></em></p>
-<table>
-<thead>
-<tr>
-<th>field</th>
-<th>type</th>
-<th>default</th>
-<th>notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>unit</td>
-<td>UnitType</td>
-<td>null</td>
-<td></td>
-</tr>
-<tr>
-<td>spawnTime</td>
-<td>float</td>
-<td>60.0</td>
-<td></td>
-</tr>
-<tr>
-<td>spawnX</td>
-<td>float</td>
-<td>0.0</td>
-<td></td>
-</tr>
-<tr>
-<td>spawnY</td>
-<td>float</td>
-<td>0.0</td>
-<td></td>
-</tr>
-<tr>
-<td>spawnEffect</td>
-<td>Effect</td>
-<td>spawn</td>
-<td></td>
-</tr>
-<tr>
-<td>parentizeEffects</td>
-<td>boolean</td>
-<td>false</td>
-<td></td>
 </tr>
 </tbody>
 </table>
