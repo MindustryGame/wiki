@@ -26,7 +26,7 @@ The advantages of manually editing code as opposed to the Visual Editor are:
 * Denser than the Visual Editor; more code can be seen at a time
 * Typing is faster than dragging-and-dropping across long walls of code
 * Can be used to make quick pieces of code for demonstration without opening Mindustry
-* Syntax highlighting in some editors, such as [VS Code (plugin)](https://marketplace.visualstudio.com/items?itemName=vortetty.masm), [Emacs (package)](https://github.com/vednoc/masm-mode), [Vim (plugin)](https://github.com/purofle/vim-mindustry-logic), and [Sublime Text (package)](https://github.com/gigamicro/Mindustry4Sublime)
+* Syntax highlighting in some editors, such as [VS Code (plugin)](https://marketplace.visualstudio.com/items?itemName=vortetty.mindustry-logic), [Emacs (package)](https://github.com/vednoc/masm-mode), [Vim (plugin)](https://github.com/purofle/vim-mindustry-logic), and [Sublime Text (package)](https://github.com/gigamicro/Mindustry4Sublime)
 * A text block does not block part of the parameter text
 * Ability to save and access code outside of Mindustry
 
