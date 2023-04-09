@@ -380,6 +380,8 @@ The process of drawing units can be roughly divided into 5 stages:
 
 > written by Zhenьkotron#9493, proofread by Geschiedenis#4783, grammar fixed by BalaM314#4781.
 
+In the provided [link](https://youtu.be/wzitO-EESGY), you can find a video on how Anuke, the creator of Mindustry, creates his own sprites
+
 ### **Outlines**
 It is recommended to leave a space of at least 4 pixels around the edges of turret and unit sprites. This space will allow the game to automatically add outlines to the sprites.
 
@@ -395,7 +397,7 @@ Floors only have 2 color tones, and the number of variations is up to you.
 
   - Vanilla Examples :
     
-    - <img src="/wiki/images/modding/spriting/sprite-examples/floors/vanilla/basalt1.png"> <img src="/wiki/images/modding/spriting/sprite-examples/floors/vanilla/basalt2.png"> <img src="/wiki/images/modding/spriting/sprite-examples/floors/vanilla/basalt3.png">
+    - ![basalt1](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/environment/basalt1.png) ![basalt2](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/environment/basalt2.png) ![basalt3](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/environment/basalt3.png)
   
     - <img src="/wiki/images/modding/spriting/sprite-examples/floors/vanilla/beryllic-stone1.png"> <img src="/wiki/images/modding/spriting/sprite-examples/floors/vanilla/beryllic-stone2.png"> <img src="/wiki/images/modding/spriting/sprite-examples/floors/vanilla/beryllic-stone3.png">
   
