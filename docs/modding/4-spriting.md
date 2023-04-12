@@ -1,6 +1,6 @@
 # Spriting
 
-Spriting is a crucial aspect of Mindustry modding, as any custom creations would appear as "oh-no" sprite without it. However, the spriting style in Mindustry is intentionally simple and restrictive, which may differ from other games. Deviations from this style may result in graphics that appear out of place within the game.
+Spriting is a crucial aspect of Mindustry modding, as any custom creations would appear as placeholder <img width="15" src="https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets/sprites/error.png"> sprite without it. However, the spriting style in Mindustry is intentionally simple and restrictive, which may differ from other games. Deviations from this style may result in graphics that appear out of place within the game.
 
 As such, it is important to ensure that any custom creations align with the established spriting style of Mindustry to maintain consistency and visual appeal. By adhering to this style, the game remains true to its aesthetic and continues to provide an engaging experience for players.
 
@@ -37,7 +37,7 @@ It is highly recommended that you use spriting software that supports transparen
       - Does not have the capability to export individual layers.
 
   4. **[Pixilart](https://www.pixilart.com/)**
-      - AnPixilart is an online pixel art software that offers more features than Piskel, although it lacks a mirror tool. If you are more familiar with Pixilart, it may be a better choice over Piskel. 
+      - An online pixel art software that offers more features than Piskel, although it lacks a mirror tool. If you are more familiar with Pixilart, it may be a better choice over Piskel. 
       - Bloated for spriting in Mindustry style
 
   5. **[Paint.NET](https://www.getpaint.net/)**
@@ -109,7 +109,7 @@ For sprites in mods, check each `load()` method within the block class, if there
 
 Like many games, Mindustry has a specific colour palette that should be followed when creating custom sprites. As a beginner, it is highly recommended adhering to these colours to ensure that your sprites doesn't look out of place within the game itself.
 
-Using colours outside of this palette without proper experience or knowledge may result in sprites that appear out of place or, at worst, heretical. It can also cause significant disturbance in the #spriting Discord channel in the Mindustry Discord server.
+Using colours outside of this palette without proper experience or knowledge may result in sprites that appear out of place or worse. It can also cause significant disturbance in the #spriting Discord channel in the Mindustry Discord server.
 
 Block Colour Pallete:
 
@@ -128,6 +128,8 @@ The art style of Mindustry is deliberately simple yet restrictive. To ensure tha
 To create depth and a three-dimensional appearance within the confines of a 2D game, Mindustry utilizes a shading technique. Specifically, **elevations** are marked with a **lighter tone**, **flat** areas with a **midtone**, and **depressions** with a **darker tone**.
 
 To effectively apply this shading technique, it is recommended to envision the object in 3D and then translate it into a 2D sprite. This can help ensure that the sprite blends seamlessly with the overall aesthetic of Mindustry.
+
+![](https://raw.githubusercontent.com/Eschatologue/wiki/master/docs/images/modding/spriting/spriting-orthographic-shadings.png)
 
 It's important to note that the established spriting guidelines for Mindustry are just that - guidelines. However, it's recommended that beginners adhere to these guidelines until they have successfully created a sprite or at the very least understood the Mindustry sprites styles, as bending the rules without experience can result in less than desirable outcomes.
 
