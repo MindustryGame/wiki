@@ -129,7 +129,9 @@ To create depth and a three-dimensional appearance within the confines of a 2D g
 
 To effectively apply this shading technique, it is recommended to envision the object in 3D and then translate it into a 2D sprite. This can help ensure that the sprite blends seamlessly with the overall aesthetic of Mindustry.
 
-![](https://raw.githubusercontent.com/Eschatologue/wiki/master/docs/images/modding/spriting/spriting-orthographic-shadings.png)
+<p align="center">
+  <img width=520 src="https://raw.githubusercontent.com/Eschatologue/wiki/master/docs/images/modding/spriting/spriting-orthographic-shadings.png">
+</p>
 
 It's important to note that the established spriting guidelines for Mindustry are just that - guidelines. However, it's recommended that beginners adhere to these guidelines until they have successfully created a sprite or at the very least understood the Mindustry sprites styles, as bending the rules without experience can result in less than desirable outcomes.
 
