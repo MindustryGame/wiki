@@ -11412,6 +11412,18 @@
 <td>Whether to move the bullet back depending on delta to fix some delta-time related issues. Do not change unless you know what you're doing.</td>
 </tr>
 <tr>
+<td>ignoreSpawnAngle</td>
+<td>boolean</td>
+<td>false</td>
+<td>If true, the angle param in create is ignored.</td>
+</tr>
+<tr>
+<td>createChance</td>
+<td>float</td>
+<td>1.0</td>
+<td>Chance for this bullet to be created.</td>
+</tr>
+<tr>
 <td>maxRange</td>
 <td>float</td>
 <td>-1.0</td>
@@ -11628,6 +11640,12 @@
 <td>Unit spawned when this bullet hits something or despawns due to it hitting the end of its lifetime.</td>
 </tr>
 <tr>
+<td>despawnUnitChance</td>
+<td>float</td>
+<td>1.0</td>
+<td>The chance for despawn units to spawn.</td>
+</tr>
+<tr>
 <td>despawnUnitCount</td>
 <td>int</td>
 <td>1</td>
@@ -11638,6 +11656,12 @@
 <td>float</td>
 <td>0.1</td>
 <td>Random offset distance from the original bullet despawn/hit coordinate.</td>
+</tr>
+<tr>
+<td>faceOutwards</td>
+<td>boolean</td>
+<td>false</td>
+<td>If true, units spawned when this bullet despawns face away from the bullet instead of the same direction as the bullet.</td>
 </tr>
 <tr>
 <td>parts</td>
