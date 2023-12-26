@@ -53,7 +53,7 @@ Every platform has a different user application data directory, and this is wher
 
 ## Hjson
 
-Mindustry uses [Hjson](https://hjson.org/), which for anyone who knows Json, is simply a superset of the very popular serialization language known as [Json](https://en.wikipedia.org/wiki/JSON). &#x2013; This means that any valid Json will work, but you get extra useful stuff:
+Mindustry uses [Hjson](https://hjson.github.io/), which for anyone who knows Json, is simply a superset of the very popular serialization language known as [Json](https://en.wikipedia.org/wiki/JSON). &#x2013; This means that any valid Json will work, but you get extra useful stuff:
 
     # single line comment
     
