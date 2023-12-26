@@ -41,7 +41,7 @@ Your project directory should look something like this:
 Every platform has a different user application data directory, and this is where your mods should be placed:
 
 -   Linux: `~/.local/share/Mindustry/mods/`
--   Steam: `steam/steamapps/common/Mindustry/mods/`
+-   Steam: `steam/steamapps/common/Mindustry/saves/mods/`
 -   Windows: `%appdata%/Mindustry/mods/`
 -   MacOS: `~/Library/Application Support/Mindustry/mods/`
 
