@@ -17109,6 +17109,12 @@
 <td>Whether to swap the diagonal placement modes.</td>
 </tr>
 <tr>
+<td>allowRectanglePlacement</td>
+<td>boolean</td>
+<td>false</td>
+<td>Whether to allow rectangular placement, as opposed to a line. Only supported for 1x1 blocks currently!</td>
+</tr>
+<tr>
 <td>schematicPriority</td>
 <td>int</td>
 <td>0</td>
@@ -17311,6 +17317,12 @@
 <td>boolean</td>
 <td>false</td>
 <td>If true, this block deconstructs immediately. Instant deconstruction implies no resource refund.</td>
+</tr>
+<tr>
+<td>instantBuild</td>
+<td>boolean</td>
+<td>false</td>
+<td>If true, this block constructs immediately. This implies no resource requirement, and ignores configs - do not use, this is for performance only!</td>
 </tr>
 <tr>
 <td>placeEffect</td>
