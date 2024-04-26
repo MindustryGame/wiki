@@ -244,7 +244,7 @@ Turrets in general has 2 to 3 color type with 2 tone for each:
     
     - One example of this is the "Skyhammer" from [Unlimited Armament Works](https://github.com/Eschatologue/Unlimited-Armament-Works)
       
-      - ![Skyhammer](https://raw.githubusercontent.com/Eschatologue/Unlimited-Armament-Works/master/assets/sprites/blocks/turrets/ART/skyhammer.png)
+      - ![Skyhammer](https://github.com/Eschatologue/Unlimited-Armament-Works/blob/master/assets/sprites/blocks/turrets/artillery/skyhammer/skyhammer-preview.png?raw=true)
 
 ---
 
