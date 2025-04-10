@@ -52,6 +52,4 @@
 - Outlines are now automatically generated for unit & weapon sprites. Leg regions are currently exempt.
 - All mod sprites are now automatically alpha-bled at load time when linear filtering is enabled - there is no need to do so manually.
 
-*More changes to come.*
-
 I will be introducing `@Deprecated` compatibility methods for most significant changes as needed. Ideally, most 6.0 java mods should still work with 7.0.
