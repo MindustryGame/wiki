@@ -4,7 +4,7 @@ This guide is incomplete. As v8 has not been fully released yet, it will continu
 
 ## JSON Mods
 
-Congratulations, if you have a JSON mod, you probably don't need to do anything. All existing JSON mods should still work, albeit with some changes to the way content is displayed on certain planets. See the section on 'Planets' below.
+If you have a JSON mod, you *probably* don't need to do anything. All existing JSON mods should still work, albeit with some changes to the way content is displayed on certain planets. See the section on 'Planets' below.
 
 ## Java/JS Mods
 
