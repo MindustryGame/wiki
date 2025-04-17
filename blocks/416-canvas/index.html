@@ -8,13 +8,13 @@
       
       
       
-        <link rel="canonical" href="https://mindustrygame.github.io/wiki/blocks/417-world-processor/">
+        <link rel="canonical" href="https://mindustrygame.github.io/wiki/blocks/416-canvas/">
       
       
-        <link rel="prev" href="../416-reinforced-message/">
+        <link rel="prev" href="../415-tile-logic-display/">
       
       
-        <link rel="next" href="../418-world-cell/">
+        <link rel="next" href="../417-reinforced-message/">
       
       
       <link rel="icon" href="../../images/favicon.png">
@@ -22,7 +22,7 @@
     
     
       
-        <title>World Processor - Mindustry Wiki</title>
+        <title>Canvas - Mindustry Wiki</title>
       
     
     
@@ -68,7 +68,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#world-processor" class="md-skip">
+        <a href="#canvas" class="md-skip">
           Skip to content
         </a>
       
@@ -103,7 +103,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              World Processor
+              Canvas
             
           </span>
         </div>
@@ -8766,6 +8766,29 @@
   
   
     <li class="md-nav__item">
+      <a href="../../Modding%20Classes/TileableLogicDisplay/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    TileableLogicDisplay
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../../Modding%20Classes/TractorBeamTurret/" class="md-nav__link">
         
   
@@ -15069,35 +15092,12 @@
   
   
     <li class="md-nav__item">
-      <a href="../415-canvas/" class="md-nav__link">
+      <a href="../415-tile-logic-display/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
-    Canvas
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../416-reinforced-message/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    Reinforced Message
+    Tiled Logic Display
     
   </span>
   
@@ -15129,7 +15129,7 @@
   
   
   <span class="md-ellipsis">
-    World Processor
+    Canvas
     
   </span>
   
@@ -15148,7 +15148,53 @@
   
   
     <li class="md-nav__item">
-      <a href="../418-world-cell/" class="md-nav__link">
+      <a href="../417-reinforced-message/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Reinforced Message
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../418-world-processor/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    World Processor
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../419-world-cell/" class="md-nav__link">
         
   
   
@@ -15171,7 +15217,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../419-world-message/" class="md-nav__link">
+      <a href="../420-world-message/" class="md-nav__link">
         
   
   
@@ -15194,7 +15240,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../420-world-switch/" class="md-nav__link">
+      <a href="../421-world-switch/" class="md-nav__link">
         
   
   
@@ -18306,7 +18352,8 @@
   
 
 
-<h1 id="world-processor"><img id="spr" src="/wiki/images/block-world-processor-ui.png"></img> World Processor</h1>
+<h1 id="canvas"><img id="spr" src="/wiki/images/block-canvas-ui.png"></img> Canvas</h1>
+<p><em>"Displays a simple image with a pre-defined palette. Editable."</em></p>
 <table>
 <thead>
 <tr>
@@ -18321,11 +18368,19 @@
 </tr>
 <tr>
 <td>Health</td>
-<td>40</td>
+<td>255</td>
 </tr>
 <tr>
 <td>Size</td>
-<td>1x1</td>
+<td>2x2</td>
+</tr>
+<tr>
+<td>Build Time</td>
+<td>0.33  seconds</td>
+</tr>
+<tr>
+<td>Build Cost</td>
+<td><a href="/wiki/items/9-silicon"><img id="spr" src="/wiki/images/item-silicon.png"/></a> 10 <a href="/wiki/items/16-beryllium"><img id="spr" src="/wiki/images/item-beryllium.png"/></a> 10</td>
 </tr>
 </tbody>
 </table>

@@ -8,13 +8,13 @@
       
       
       
-        <link rel="canonical" href="https://mindustrygame.github.io/wiki/blocks/419-world-message/">
+        <link rel="canonical" href="https://mindustrygame.github.io/wiki/blocks/417-reinforced-message/">
       
       
-        <link rel="prev" href="../418-world-cell/">
+        <link rel="prev" href="../416-canvas/">
       
       
-        <link rel="next" href="../420-world-switch/">
+        <link rel="next" href="../418-world-processor/">
       
       
       <link rel="icon" href="../../images/favicon.png">
@@ -22,7 +22,7 @@
     
     
       
-        <title>World Message - Mindustry Wiki</title>
+        <title>Reinforced Message - Mindustry Wiki</title>
       
     
     
@@ -68,7 +68,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#world-message" class="md-skip">
+        <a href="#reinforced-message" class="md-skip">
           Skip to content
         </a>
       
@@ -103,7 +103,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              World Message
+              Reinforced Message
             
           </span>
         </div>
@@ -8766,6 +8766,29 @@
   
   
     <li class="md-nav__item">
+      <a href="../../Modding%20Classes/TileableLogicDisplay/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    TileableLogicDisplay
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../../Modding%20Classes/TractorBeamTurret/" class="md-nav__link">
         
   
@@ -15069,81 +15092,35 @@
   
   
     <li class="md-nav__item">
-      <a href="../415-canvas/" class="md-nav__link">
+      <a href="../415-tile-logic-display/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Tiled Logic Display
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../416-canvas/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     Canvas
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../416-reinforced-message/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    Reinforced Message
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../417-world-processor/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    World Processor
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../418-world-cell/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    World Cell
     
   </span>
   
@@ -15175,7 +15152,7 @@
   
   
   <span class="md-ellipsis">
-    World Message
+    Reinforced Message
     
   </span>
   
@@ -15194,7 +15171,76 @@
   
   
     <li class="md-nav__item">
-      <a href="../420-world-switch/" class="md-nav__link">
+      <a href="../418-world-processor/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    World Processor
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../419-world-cell/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    World Cell
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../420-world-message/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    World Message
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../421-world-switch/" class="md-nav__link">
         
   
   
@@ -18306,8 +18352,8 @@
   
 
 
-<h1 id="world-message"><img id="spr" src="/wiki/images/block-world-message-ui.png"></img> World Message</h1>
-<p><em>"A message block for use in mapmaking. Cannot be destroyed."</em></p>
+<h1 id="reinforced-message"><img id="spr" src="/wiki/images/block-reinforced-message-ui.png"></img> Reinforced Message</h1>
+<p><em>"Stores a message for communication between allies."</em></p>
 <table>
 <thead>
 <tr>
@@ -18322,11 +18368,19 @@
 </tr>
 <tr>
 <td>Health</td>
-<td>40</td>
+<td>100</td>
 </tr>
 <tr>
 <td>Size</td>
 <td>1x1</td>
+</tr>
+<tr>
+<td>Build Time</td>
+<td>0.26  seconds</td>
+</tr>
+<tr>
+<td>Build Cost</td>
+<td><a href="/wiki/items/3-graphite"><img id="spr" src="/wiki/images/item-graphite.png"/></a> 10 <a href="/wiki/items/16-beryllium"><img id="spr" src="/wiki/images/item-beryllium.png"/></a> 5</td>
 </tr>
 </tbody>
 </table>
