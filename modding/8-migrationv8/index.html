@@ -16467,6 +16467,15 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#misc" class="md-nav__link">
+    <span class="md-ellipsis">
+      Misc
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#blocks" class="md-nav__link">
     <span class="md-ellipsis">
       Blocks
@@ -18437,6 +18446,15 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#misc" class="md-nav__link">
+    <span class="md-ellipsis">
+      Misc
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#blocks" class="md-nav__link">
     <span class="md-ellipsis">
       Blocks
@@ -18487,6 +18505,11 @@
 <h2 id="json-mods">JSON Mods</h2>
 <p>If you have a JSON mod, you <em>probably</em> don't need to do anything. All existing JSON mods should still work, albeit with some changes to the way content is displayed on certain planets. See the section on 'Planets' below.</p>
 <h2 id="javajs-mods">Java/JS Mods</h2>
+<h2 id="misc">Misc</h2>
+<ul>
+<li><code>Binding</code> keybind values are now in camelCase.</li>
+<li>The old keybind system has been completely reworked to allow for custom mod keybinds - see <code>arc.input.KeyBind#add</code>. <code>Core.keybinds</code> has been removed, use the <code>Keybind</code> class instead.</li>
+</ul>
 <h2 id="blocks">Blocks</h2>
 <ul>
 <li>Most unnecessary 'getter' methods (e.g. <code>void tile(Tile), Tile tile(), block()</code>) for <code>Building</code> have been removed. There was no reason to use these in the first place, but if your mod happened to do that, you'll need to access the field directly instead.</li>
