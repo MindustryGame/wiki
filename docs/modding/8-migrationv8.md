@@ -8,6 +8,11 @@ If you have a JSON mod, you *probably* don't need to do anything. All existing J
 
 ## Java/JS Mods
 
+## Misc
+
+- `Binding` keybind values are now in camelCase.
+- The old keybind system has been completely reworked to allow for custom mod keybinds - see `arc.input.KeyBind#add`. `Core.keybinds` has been removed, use the `Keybind` class instead.
+
 ## Blocks
 
 - Most unnecessary 'getter' methods (e.g. `void tile(Tile), Tile tile(), block()`) for `Building` have been removed. There was no reason to use these in the first place, but if your mod happened to do that, you'll need to access the field directly instead.
