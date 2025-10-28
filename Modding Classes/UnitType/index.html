@@ -19714,13 +19714,13 @@
 <tr>
 <td>abilities</td>
 <td>Seq<Ability></td>
-<td>new Seq&lt;&gt;()</td>
+<td>[]</td>
 <td>list of "abilities", which are various behaviors that update each frame</td>
 </tr>
 <tr>
 <td>weapons</td>
 <td>Seq<Weapon></td>
-<td>new Seq&lt;&gt;()</td>
+<td>[]</td>
 <td>All weapons that this unit will shoot with.</td>
 </tr>
 <tr>
@@ -19792,13 +19792,13 @@
 <tr>
 <td>parts</td>
 <td>Seq<DrawPart></td>
-<td>class)</td>
+<td>[]</td>
 <td>extra (usually animated) visual parts</td>
 </tr>
 <tr>
 <td>engines</td>
 <td>Seq<UnitEngine></td>
-<td>new Seq&lt;&gt;()</td>
+<td>[]</td>
 <td>list of engines, or "thrusters"</td>
 </tr>
 <tr>
@@ -19870,7 +19870,7 @@
 <tr>
 <td>commands</td>
 <td>Seq<UnitCommand></td>
-<td>new Seq&lt;&gt;()</td>
+<td>[]</td>
 <td>Commands available to this unit through RTS controls. An empty array means commands will be assigned based on unit capabilities in init().</td>
 </tr>
 <tr>
@@ -19882,7 +19882,7 @@
 <tr>
 <td>stances</td>
 <td>Seq<UnitStance></td>
-<td>new Seq&lt;&gt;()</td>
+<td>[]</td>
 <td>Stances this unit can have.  An empty array means stances will be assigned based on unit capabilities in init().</td>
 </tr>
 <tr>
@@ -19966,7 +19966,7 @@
 <tr>
 <td>mineItems</td>
 <td>Seq<Item></td>
-<td>thorium)</td>
+<td>[Copper, Lead, Titanium, Thorium]</td>
 <td>Target items to mine. Used in MinerAI</td>
 </tr>
 <tr>
