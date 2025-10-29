@@ -19133,6 +19133,7 @@ To reload patches while the server is still running, use the <code>reloadpatches
 <li>Values that depend on other values will not be re-assigned. For example, changing the item build requirements for a block will <em>not</em> change its build time as it would in a mod.</li>
 <li>Environmental (static) blocks cannot use textures that are outside the environmental atlas page. In other words, you can make grass use the snow sprite, but you cannot make grass use the router sprite; it will display an error texture in-game.</li>
 <li>Textures will not be reloaded after a patch is applied. For example, if you change the <code>suffix</code> or <code>name</code> of a <code>DrawRegion</code>, it will not do anything, because <code>load</code> will not be called again. Create an entirely new object instead.</li>
+<li>Reassigning health of units/blocks will not update the current health of any existing units/blocks. If you increase the maximum health of a block, all <em>existing</em> buildings of that type on the map will appear damaged.</li>
 <li>It is quite possible for patches to crash or freeze the game. Please report this if it happens, but keep in mind that I may not be able to fix <em>all</em> of these issues - keep it reasonable. Bug reports of the form "I made this unit spawn 9 trillion bullets and my game froze" will be ignored.</li>
 </ul>
 <h1 id="extra-examples">Extra Examples</h1>
