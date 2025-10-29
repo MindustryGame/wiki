@@ -9,6 +9,7 @@ theme:
   custom_dir: overrides
   features:
     - navigation.tracking
+    - content.code.copy
 extra_css:
   - 'stylesheets/style.css'
 markdown_extensions:
@@ -19,6 +20,3 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
-theme:
-  features:
-    - content.code.copy
