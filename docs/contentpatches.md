@@ -142,6 +142,13 @@ unit.flare.weapons: [
 
 This syntax works for fields of type `T[]`, `Seq<T>` and `ObjectSet`.
 
+# General Information
+
+- Time values are generally measured in *ticks* (sometimes called 'frames'), which are 1/60th of a second (60 ticks = 1 second). If a field describes a duration, it is probably in ticks. If a field describes a rate of consumption, it is probably in "units per tick".
+- Distances, positions and sizes are generally measured in 'world units', which are 1/8th of a tile. This is because Mindustry used to have 8x8 sprites, and 1 world unit used to be 1 pixel. This *is* horrible and unintuitive, but it remains for historical reasons.
+- When you interact with coordinates through a logic processor, they are *internally* converted to and from world units. Patches modify fields directly, and don't have this luxury.
+- Item and liquid stacks can be defined as 'name/amount'. For example, a `ItemStack` field can have a value of `thorium/100`.
+
 # Caveats & Limitations
 
 - Creating or assigning unit weapons with `mirror: true` will not work, as initialization is not re-run for units. You will have to manually create a mirrored version and assign `x/shootX/flipSprite`.
