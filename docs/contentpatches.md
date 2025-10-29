@@ -142,6 +142,19 @@ unit.flare.weapons: [
 
 This syntax works for fields of type `T[]`, `Seq<T>` and `ObjectSet`.
 
+# Caveats & Limitations
+
+- Creating or assigning unit weapons with `mirror: true` will not work, as initialization is not re-run for units. You will have to manually create a mirrored version and assign `x/y/shootX/flipSprite`.
+- Unit `range` and `maxRange` will not update even if you increase the lifetime or speed of a unit's bullet. These values have to be assigned manually.
+- Similarly, unit fields won't update if you reassign its type. Reassigned naval units will still drown unless this is manually changed, for example.
+- `clipSize` will not update for blocks or units, even if you make them draw larger sprites. Assign this manually.
+- Many consumer types will not work for blocks that were not designed to support them. As a general rule, if it isn't used in vanilla, it probably isn't well supported.
+- Sizes of blocks cannot be reassigned, as it would catastrophically break saves, and is completely non-functional for most transport blocks.
+- Values that depend on other values will not be re-assigned. For example, changing the item build requirements for a block will *not* change its build time as it would in a mod.
+- Environmental (static) blocks cannot use textures that are outside the environmental atlas page. In other words, you can make grass use the snow sprite, but you cannot make grass use the router sprite; it will display an error texture in-game.
+- Textures will not be reloaded after a patch is applied. For example, if you change the `suffix` or `name` of a `DrawRegion`, it will not do anything, because `load` will not be called again. Create an entirely new object instead.
+- It is quite possible for patches to crash or freeze the game. Please report this if it happens, but keep in mind that I may not be able to fix *all* of these issues.
+
 # Extra Examples
 
 ## 'Duoification'
