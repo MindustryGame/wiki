@@ -160,6 +160,7 @@ This syntax works for fields of type `T[]`, `Seq<T>` and `ObjectSet`.
 - Values that depend on other values will not be re-assigned. For example, changing the item build requirements for a block will *not* change its build time as it would in a mod.
 - Environmental (static) blocks cannot use textures that are outside the environmental atlas page. In other words, you can make grass use the snow sprite, but you cannot make grass use the router sprite; it will display an error texture in-game.
 - Textures will not be reloaded after a patch is applied. For example, if you change the `suffix` or `name` of a `DrawRegion`, it will not do anything, because `load` will not be called again. Create an entirely new object instead.
+- Reassigning health of units/blocks will not update the current health of any existing units/blocks. If you increase the maximum health of a block, all *existing* buildings of that type on the map will appear damaged.
 - It is quite possible for patches to crash or freeze the game. Please report this if it happens, but keep in mind that I may not be able to fix *all* of these issues - keep it reasonable. Bug reports of the form "I made this unit spawn 9 trillion bullets and my game froze" will be ignored.
 
 # Extra Examples
