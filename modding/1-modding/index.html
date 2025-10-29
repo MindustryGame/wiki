@@ -19281,7 +19281,7 @@
 To make mods all you really need is any computer with a text editor.</p>
 <h2 id="directory-structure">Directory Structure</h2>
 <p>Your project directory should look something like this:</p>
-<pre><code>project
+<div class="language-text highlight"><pre><span></span><code>project
 ├── mod.hjson
 ├── content
 │   ├── items
@@ -19295,7 +19295,7 @@ To make mods all you really need is any computer with a text editor.</p>
 ├── scripts
 ├── sprites-override
 └── sprites
-</code></pre>
+</code></pre></div>
 <ul>
 <li><code>mod.hjson</code> (required) metadata file for your mod,</li>
 <li><code>content/*</code> directories for game <a href="#content">Content</a>,</li>
@@ -19321,7 +19321,7 @@ To make mods all you really need is any computer with a text editor.</p>
 </ul>
 <h2 id="hjson">Hjson</h2>
 <p>Mindustry uses <a href="https://hjson.github.io/">Hjson</a>, which for anyone who knows Json, is simply a superset of the very popular serialization language known as <a href="https://en.wikipedia.org/wiki/JSON">Json</a>. &#x2013; This means that any valid Json will work, but you get extra useful stuff:</p>
-<pre><code># single line comment
+<div class="language-text highlight"><pre><span></span><code># single line comment
 
 // single line comment
 
@@ -19331,10 +19331,10 @@ comment */
 key1: single line string
 
 key2:
-'''
+&#39;&#39;&#39;
 multiline
 string
-'''
+&#39;&#39;&#39;
 
 key3: [ value 1
         value 2
@@ -19342,19 +19342,19 @@ key3: [ value 1
 
 key4: { key1: string
         key2: 0 }
-</code></pre>
+</code></pre></div>
 <p>If you don't know any of those words. &#x2013; A serialization language, is simply a language which encodes information for a program, and <em>encode</em> means to translate informantion from one form to another, and in this case, to translate text into Java data structures.</p>
 <h2 id="modhjson"><code>mod.hjson</code></h2>
 <p>At the root of your project directory, you must have a <code>mod.json</code> which defines the basic metadata for your project. This file can also be (optionally) named <code>mod.hjson</code> to potentially help your text editor pick better syntax highlighting.</p>
-<pre><code>name: "mod-name"
-displayName: "This isn't a mod."
+<div class="language-text highlight"><pre><span></span><code>name: &quot;mod-name&quot;
+displayName: &quot;This isn&#39;t a mod.&quot;
 author: Yourself
-description: "Bbfashbjhcbabfhsbafbhajbf"
-version: "1.0"
-minGameVersion: "152.2"
+description: &quot;Bbfashbjhcbabfhsbafbhajbf&quot;
+version: &quot;1.0&quot;
+minGameVersion: &quot;152.2&quot;
 dependencies: [ ]
 hidden: false
-</code></pre>
+</code></pre></div>
 <ul>
 <li><code>name</code> will be used to reference to your mod, so name it carefully. Should be in kebab-case (no capital letters, spaces are filled with '-') and shouldn't have any color formatting.</li>
 <li><code>displayName</code> this will be used as a display name for the UI, which you can use to add formatting to said name.</li>
@@ -19377,11 +19377,11 @@ hidden: false
 <li><code>content/items/metals/iron.hjson</code>, which would respectively create an item named <code>iron</code>.</li>
 </ul>
 <p>The content of these files will tend to look something like this:</p>
-<pre><code>type: TypeOfThing
+<div class="language-text highlight"><pre><span></span><code>type: TypeOfThing
 name: Name Of Thing
 description: Description of thing.
 # ... more fields here ...
-</code></pre>
+</code></pre></div>
 <table>
 <thead>
 <tr>
@@ -19416,24 +19416,24 @@ description: Description of thing.
 <p>What you can expect a field to do is up to the specific type, some types do absolutely nothing with their fields, and work mostly as a base types will extend from. One such type is <code>Block</code>.</p>
 <p>In this unit example, the type of the unit is <code>flying</code>. The type of the <code>bullet</code> is <code>BulletType</code>, so you can use <code>MissileBulletType</code>, because <code>MissileBulletType</code> extends <code>BulletType</code>.</p>
 <p>One could also use <code>mech</code>, <code>legs</code>, <code>naval</code> or <code>payload</code> as the unit type here.</p>
-<pre><code class="language-hjson">type: flying
-weapons: [
-  {
-    bullet: {
-      type: MissileBulletType
-      damage: 9000
-    }
-  }
-]
-</code></pre>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>type: flying
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>weapons: [
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>  {
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>    bullet: {
+</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>      type: MissileBulletType
+</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>      damage: 9000
+</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>    }
+</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>  }
+</span><span id="__span-0-9"><a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>]
+</span></code></pre></div>
 <p>As of build <code>125.1</code>, types can also be the <em>fully-qualified class name</em> of a Java class. </p>
 <p>For example, to specify a block as a <code>MendProjector</code>, you may write
 <code>type: mindustry.world.blocks.defense.MendProjector</code> instead of <code>type: MendProjector</code>.</p>
 <p>While not particularly useful for vanilla types, this can be used to load block types <em>from other Java mods</em> as dependencies.</p>
 <h2 id="tech-tree">Tech Tree</h2>
 <p>Much like <code>type</code> there exist another magical field known as <code>research</code> which can go at the root of any block object to put it in the techtree.</p>
-<pre><code>research: duo
-</code></pre>
+<div class="language-text highlight"><pre><span></span><code>research: duo
+</code></pre></div>
 <p>This would put your block after <code>duo</code> in the techtree, and to put it after your own mods block you would write your <code>&lt;block-name&gt;</code>, a mod name prefix is only required if you're using the content from another mod.</p>
 <p>Research costs:</p>
 <table>
@@ -19460,19 +19460,19 @@ weapons: [
 <p>The cost is then rounded down to the nearest 10, 100, 1k, 10k, or 100k depending on how expensive the cost is.</p>
 <p><code>requirements</code> is the cost of the block or unit. Units use their build cost/upgrade cost for the calculations.</p>
 <p>If you want to set custom research requirements use this object in place of just a name:</p>
-<pre><code>research: {
+<div class="language-text highlight"><pre><span></span><code>research: {
   parent: duo
   requirements: [
     copper/100
   ]
 }
-</code></pre>
+</code></pre></div>
 <p>This can be used to override block or unit costs, or make resources need to be researched instead of just having to produce it.</p>
 <h2 id="sprites">Sprites</h2>
 <p>All you need to make sprites, is an image editor that supports transparency <em>(aka: not paint).</em> Block sprites should be <code>32 * size</code>, so a <code>2x2</code> block would require a <code>64x64</code> image. Images must be PNG files with a 32-bit RGBA pixel format.
 <strong>Any other pixel format, such as 16-bit RGBA, may cause Mindustry to crash with a "Pixmap decode error".</strong> You can use the command-line tool <code>file</code> to print information about your sprites:</p>
-<pre><code>file sprites/**.png
-</code></pre>
+<div class="language-text highlight"><pre><span></span><code>file sprites/**.png
+</code></pre></div>
 <p>If any of them are not 32-bit RGBA formatted, fix them.</p>
 <p>Sprites can simply be dropped in the <code>sprites/</code> subdirectory. The content parser will look through it recursively.
 Images are packed into an "atlas" for efficient for rendering. The first directory in <code>sprites/</code>, e.g. <code>sprites/blocks</code>, determines the page in this atlas that sprites are put in. Putting a block's sprite in the <code>units</code> page is likely to cause lots of lag; thus, you should try to organize things similarly to how the <a href="https://github.com/Anuken/Mindustry/tree/master/core/assets-raw/sprites">vanilla game does</a>.</p>
@@ -19493,11 +19493,11 @@ You can also use this to create sprites with nice short names like <code>cat</co
 <p><code>artillery</code> <code>back</code> <code>bang</code> <code>beam</code> <code>bigshot</code> <code>bioLoop</code> <code>blaster</code> <code>bolt</code> <code>boom</code> <code>breaks</code> <code>build</code> <code>buttonClick</code> <code>cannon</code> <code>chatMessage</code> <code>click</code> <code>combustion</code> <code>conveyor</code> <code>corexplode</code> <code>cutter</code> <code>door</code> <code>drill</code> <code>drillCharge</code> <code>drillImpact</code> <code>dullExplosion</code> <code>electricHum</code> <code>explosion</code> <code>explosionbig</code> <code>extractLoop</code> <code>fire</code> <code>flame</code> <code>flame2</code> <code>flux</code> <code>glow</code> <code>grinding</code> <code>hum</code> <code>largeCannon</code> <code>largeExplosion</code> <code>laser</code> <code>laserbeam</code> <code>laserbig</code> <code>laserblast</code> <code>lasercharge</code> <code>lasercharge2</code> <code>lasershoot</code> <code>machine</code> <code>malignShoot</code> <code>mediumCannon</code> <code>message</code> <code>mineDeploy</code> <code>minebeam</code> <code>missile</code> <code>missileLarge</code> <code>missileLaunch</code> <code>missileSmall</code> <code>missileTrail</code> <code>mud</code> <code>noammo</code> <code>pew</code> <code>place</code> <code>plantBreak</code> <code>plasmaboom</code> <code>plasmadrop</code> <code>press</code> <code>pulse</code> <code>pulseBlast</code> <code>railgun</code> <code>rain</code> <code>release</code> <code>respawn</code> <code>respawning</code> <code>rockBreak</code> <code>sap</code> <code>shield</code> <code>shockBlast</code> <code>shoot</code> <code>shootAlt</code> <code>shootAltLong</code> <code>shootBig</code> <code>shootSmite</code> <code>shootSnap</code> <code>shotgun</code> <code>smelter</code> <code>spark</code> <code>spellLoop</code> <code>splash</code> <code>spray</code> <code>steam</code> <code>swish</code> <code>techloop</code> <code>thruster</code> <code>titanExplosion</code> <code>torch</code> <code>tractorbeam</code> <code>unlock</code> <code>wave</code> <code>wind</code> <code>wind2</code> <code>wind3</code> <code>windhowl</code> <code>none</code></p>
 <h2 id="dependencies">Dependencies</h2>
 <p>You can add dependencies to your mod by simple adding other mods name in your <code>mod.json</code>:</p>
-<pre><code>dependencies: [
+<div class="language-text highlight"><pre><span></span><code>dependencies: [
   other-mod-name
   not-a-mod
 ]
-</code></pre>
+</code></pre></div>
 <p>The name of dependencies are lower-cased and spaces are replaced with <code>-</code> hyphens, for example <code>Other MOD NamE</code> becomes <code>other-mod-name</code>.</p>
 <p>To reference the other mods assets, you must prefix the asset with the other mods name:</p>
 <ul>
@@ -19508,9 +19508,9 @@ You can also use this to create sprites with nice short names like <code>cat</co
 <h2 id="bundles">Bundles</h2>
 <p>An optional addition to your mod is called bundles. The main use of bundles are give translations of your content, but there's no reason you couldn't use them in English. These are plaintext files which go in the <code>bundles/</code> subdirectory, and they should be named something like <code>bundle_ru.properties</code> (for Russian).</p>
 <p>The contents of this file is very simple:</p>
-<pre><code>block.example-mod-silver-wall.name = Серебряная Стена
+<div class="language-text highlight"><pre><span></span><code>block.example-mod-silver-wall.name = Серебряная Стена
 block.example-mod-silver-wall.description = Стена из серебра.
-</code></pre>
+</code></pre></div>
 <p>If you've read the first few sections of this guide, you'll spot it right away:</p>
 <ul>
 <li><code>&lt;content type&gt;.&lt;mod name&gt;-&lt;content name&gt;.name</code></li>
@@ -19595,7 +19595,7 @@ block.example-mod-silver-wall.description = Стена из серебра.
     
     
       
-      <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tracking"], "search": "../../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tracking", "content.code.copy"], "search": "../../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
       <script src="../../assets/javascripts/bundle.f55a23d4.min.js"></script>

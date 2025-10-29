@@ -19526,20 +19526,20 @@
 <h4 id="counter-variable-number">@counter <code>variable</code> <code>number</code></h4>
 <p>A variable that represents the next line the processor will read code from, equivalent to <code>%IP</code> in x86. It can be changed like any other variable as another way to perform jumps.</p>
 <p>An (advanced) example of setting <code>@counter</code> to jump to a function, then jump back to the caller:</p>
-<pre><code>op add retAddr @counter 1 # Save where we will continue after the function returns by adding 1 to the counter
-set @counter myFunc       # Jump to the line representing myFunc
-...
-set @counter retAddr      # Return to the line set earlier after the function is called
-</code></pre>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>op add retAddr @counter 1 # Save where we will continue after the function returns by adding 1 to the counter
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>set @counter myFunc       # Jump to the line representing myFunc
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>...
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>set @counter retAddr      # Return to the line set earlier after the function is called
+</span></code></pre></div>
 <h3 id="links">Links</h3>
 <h4 id="links-constant-number">@links <code>constant</code> <code>number</code></h4>
 <p>A constant that equals the number of buildings linked to the processor. It is changed by the processor when blocks are linked or unlinked.</p>
 <p>You can use this along with <code>getlink</code> to loop through all linked buildings, like so:</p>
-<pre><code>set linkIter 0                  # Create iterator variable
-getlink block linkIter          # Get Building Object of the &quot;linkIter&quot;th linked building.
-# Do what you want with the building here
-jump 1 lessThan linkIter @links # Loop
-</code></pre>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>set linkIter 0                  # Create iterator variable
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>getlink block linkIter          # Get Building Object of the &quot;linkIter&quot;th linked building.
+</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a># Do what you want with the building here
+</span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a>jump 1 lessThan linkIter @links # Loop
+</span></code></pre></div>
 <h4 id="constant-building"><buidingName><n> <code>constant</code> <code>Building</code></h4>
 <p>This is really multiple constants, one for each building linked to the processor. They are removed or added whenever a building is unlinked or linked to the processor.</p>
 <p><code>buildingName</code> represents the building's <strong>internal name</strong>, which you can find in the rest of the Wiki. </p>
@@ -19613,7 +19613,7 @@ jump 1 lessThan linkIter @links # Loop
     
     
       
-      <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tracking"], "search": "../../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tracking", "content.code.copy"], "search": "../../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
       <script src="../../assets/javascripts/bundle.f55a23d4.min.js"></script>

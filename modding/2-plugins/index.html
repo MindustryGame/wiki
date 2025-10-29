@@ -19136,12 +19136,12 @@
 <p>Jar/JVM mods use the same <code>mod.hjson</code> meta file that standard mods do, with one addition: The <em>fully qualified main class</em> can be specified with <code>main: "mypackage.MyMod"</code>. This class should extend <code>mindustry.mod.Mod</code>.</p>
 <p>If a main class is not specified, it defaults to <code>modnameinlowercase.ModName + "Mod".</code></p>
 <p>A simple <code>mod.hjson</code> for a Java mod could look like this:</p>
-<pre><code class="language-hjson">name: &quot;Nothing&quot;
-author: &quot;Yourself&quot;
-main: &quot;nothing.NothingMod&quot;
-description: &quot;...&quot;
-version: &quot;99.99&quot;
-</code></pre>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>name: &quot;Nothing&quot;
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>author: &quot;Yourself&quot;
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>main: &quot;nothing.NothingMod&quot;
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>description: &quot;...&quot;
+</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>version: &quot;99.99&quot;
+</span></code></pre></div>
 <p>See the <a href="https://github.com/Anuken/MindustryJavaModTemplate">example Java mod repo</a> or the <a href="https://github.com/Anuken/MindustryKotlinModTemplate">example Kotlin mod repo</a> for more instructions.</p>
 <h2 id="plugins">Plugins</h2>
 <p>Plugins are Java mods that are intended to be run on servers only. Usually, these add <em>new commands</em> or <em>new gamemodes</em>.
@@ -19213,7 +19213,7 @@ All plugin main classes should extend <code>mindustry.mod.Plugin</code>. This ma
     
     
       
-      <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tracking"], "search": "../../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tracking", "content.code.copy"], "search": "../../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
       <script src="../../assets/javascripts/bundle.f55a23d4.min.js"></script>

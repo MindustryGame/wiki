@@ -19022,77 +19022,70 @@
 <p>Mindustry uses JavaScript for mod scripting. Scripts use the <code>js</code> extension and are placed in the <code>scripts/</code> subdirectory.</p>
 <p>Execution starts with the file named <code>main.js</code>. Any other script files can be imported by the main file with <code>require("script_name")</code>. 
 A typical setup looks like this:</p>
-<p><em>scripts/main.js</em>:</p>
-<pre><code class="language-js">
-require(&quot;blocks&quot;);
-require(&quot;items&quot;);
-
-</code></pre>
-<p><em>scripts/blocks.js</em>:</p>
-<pre><code class="language-js">const myBlock = extend(Conveyor, &quot;terrible-conveyor&quot;, {
-  // various overrides...
-  size: 3,
-  health: 200
-  //...
-});
-</code></pre>
-<p><em>scripts/items.js</em>:</p>
-<pre><code class="language-js">
-const terribleium = Item(&quot;terribleium&quot;);
-terribleium.color = Color.valueOf(&quot;ff0000&quot;);
-//...
-
-</code></pre>
+<p><em>scripts/main.js</em>:
+<div class="language-js highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="nx">require</span><span class="p">(</span><span class="s2">&quot;blocks&quot;</span><span class="p">);</span>
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="nx">require</span><span class="p">(</span><span class="s2">&quot;items&quot;</span><span class="p">);</span>
+</span></code></pre></div></p>
+<p><em>scripts/blocks.js</em>:
+<div class="language-js highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="kd">const</span><span class="w"> </span><span class="nx">myBlock</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">extend</span><span class="p">(</span><span class="nx">Conveyor</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;terrible-conveyor&quot;</span><span class="p">,</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="w">  </span><span class="c1">// various overrides...</span>
+</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="w">  </span><span class="nx">size</span><span class="o">:</span><span class="w"> </span><span class="mf">3</span><span class="p">,</span>
+</span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a><span class="w">  </span><span class="nx">health</span><span class="o">:</span><span class="w"> </span><span class="mf">200</span>
+</span><span id="__span-1-5"><a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a><span class="w">  </span><span class="c1">//...</span>
+</span><span id="__span-1-6"><a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a><span class="p">});</span>
+</span></code></pre></div></p>
+<p><em>scripts/items.js</em>:
+<div class="language-js highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="kd">const</span><span class="w"> </span><span class="nx">terribleium</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">Item</span><span class="p">(</span><span class="s2">&quot;terribleium&quot;</span><span class="p">);</span>
+</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="nx">terribleium</span><span class="p">.</span><span class="nx">color</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">Color</span><span class="p">.</span><span class="nx">valueOf</span><span class="p">(</span><span class="s2">&quot;ff0000&quot;</span><span class="p">);</span>
+</span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a><span class="c1">//...</span>
+</span></code></pre></div></p>
 <h1 id="examples">Examples</h1>
 <h2 id="listening-to-events">Listening to events</h2>
 <p><img src="/wiki/images/misc/modding-pathetic.gif"></p>
-<pre><code class="language-js">
-// listen for the event where a unit is destroyed
-Events.on(UnitDestroyEvent, event =&gt; {
-  // display toast on top of screen when the unit was a player
-  if(event.unit.isPlayer()){
-    Vars.ui.hudfrag.showToast(&quot;Pathetic.&quot;);
-  }
-})
-
-</code></pre>
+<div class="language-js highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="c1">// listen for the event where a unit is destroyed</span>
+</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="nx">Events</span><span class="p">.</span><span class="nx">on</span><span class="p">(</span><span class="nx">UnitDestroyEvent</span><span class="p">,</span><span class="w"> </span><span class="nx">event</span><span class="w"> </span><span class="p">=&gt;</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a><span class="w">  </span><span class="c1">// display toast on top of screen when the unit was a player</span>
+</span><span id="__span-3-4"><a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a><span class="w">  </span><span class="k">if</span><span class="p">(</span><span class="nx">event</span><span class="p">.</span><span class="nx">unit</span><span class="p">.</span><span class="nx">isPlayer</span><span class="p">()){</span>
+</span><span id="__span-3-5"><a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a><span class="w">    </span><span class="nx">Vars</span><span class="p">.</span><span class="nx">ui</span><span class="p">.</span><span class="nx">hudfrag</span><span class="p">.</span><span class="nx">showToast</span><span class="p">(</span><span class="s2">&quot;Pathetic.&quot;</span><span class="p">);</span>
+</span><span id="__span-3-6"><a id="__codelineno-3-6" name="__codelineno-3-6" href="#__codelineno-3-6"></a><span class="w">  </span><span class="p">}</span>
+</span><span id="__span-3-7"><a id="__codelineno-3-7" name="__codelineno-3-7" href="#__codelineno-3-7"></a><span class="p">})</span>
+</span></code></pre></div>
 <p>The easiest way to find events you can listen to is to look at source file: <a href="https://github.com/Anuken/Mindustry/blob/master/core/src/mindustry/game/EventType.java">Mindustry/blob/master/core/src/mindustry/game/EventType.java</a></p>
 <h2 id="displaying-a-dialog-box">Displaying a dialog box</h2>
-<pre><code class="language-js">const myDialog = new BaseDialog(&quot;Dialog Title&quot;);
-// Add &quot;go back&quot; button
-myDialog.addCloseButton();
-// Add text to the main content
-myDialog.cont.add(&quot;Goodbye.&quot;);
-// Show dialog
-myDialog.show();
-</code></pre>
+<div class="language-js highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="kd">const</span><span class="w"> </span><span class="nx">myDialog</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="ow">new</span><span class="w"> </span><span class="nx">BaseDialog</span><span class="p">(</span><span class="s2">&quot;Dialog Title&quot;</span><span class="p">);</span>
+</span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a><span class="c1">// Add &quot;go back&quot; button</span>
+</span><span id="__span-4-3"><a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a><span class="nx">myDialog</span><span class="p">.</span><span class="nx">addCloseButton</span><span class="p">();</span>
+</span><span id="__span-4-4"><a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a><span class="c1">// Add text to the main content</span>
+</span><span id="__span-4-5"><a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a><span class="nx">myDialog</span><span class="p">.</span><span class="nx">cont</span><span class="p">.</span><span class="nx">add</span><span class="p">(</span><span class="s2">&quot;Goodbye.&quot;</span><span class="p">);</span>
+</span><span id="__span-4-6"><a id="__codelineno-4-6" name="__codelineno-4-6" href="#__codelineno-4-6"></a><span class="c1">// Show dialog</span>
+</span><span id="__span-4-7"><a id="__codelineno-4-7" name="__codelineno-4-7" href="#__codelineno-4-7"></a><span class="nx">myDialog</span><span class="p">.</span><span class="nx">show</span><span class="p">();</span>
+</span></code></pre></div>
 <h2 id="play-some-custom-sounds">Play some custom sounds</h2>
 <p>Playing custom audio is easy, provided you store your sound clip as a <code>.mp3</code> or <code>.ogg</code> file in your <code>/sounds</code> directory.</p>
 <p>For this example, we have stored <code>example.mp3</code> at <code>/sounds/example.mp3</code>.</p>
 <h3 id="using-a-lib-to-load-the-sound">Using a lib to load the sound</h3>
-<p><em>scripts/alib.js</em>:</p>
-<pre><code class="language-js">exports.loadSound = (() =&gt; {
-    const cache = {};
-    return (path) =&gt; {
-        const c = cache[path];
-        if (c === undefined) {
-            return cache[path] = loadSound(path);
-        }
-        return c;
-    }
-})();
-
-</code></pre>
+<p><em>scripts/alib.js</em>:
+<div class="language-js highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="nx">exports</span><span class="p">.</span><span class="nx">loadSound</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">(()</span><span class="w"> </span><span class="p">=&gt;</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-5-2"><a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a><span class="w">    </span><span class="kd">const</span><span class="w"> </span><span class="nx">cache</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">{};</span>
+</span><span id="__span-5-3"><a id="__codelineno-5-3" name="__codelineno-5-3" href="#__codelineno-5-3"></a><span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="p">(</span><span class="nx">path</span><span class="p">)</span><span class="w"> </span><span class="p">=&gt;</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-5-4"><a id="__codelineno-5-4" name="__codelineno-5-4" href="#__codelineno-5-4"></a><span class="w">        </span><span class="kd">const</span><span class="w"> </span><span class="nx">c</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">cache</span><span class="p">[</span><span class="nx">path</span><span class="p">];</span>
+</span><span id="__span-5-5"><a id="__codelineno-5-5" name="__codelineno-5-5" href="#__codelineno-5-5"></a><span class="w">        </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="nx">c</span><span class="w"> </span><span class="o">===</span><span class="w"> </span><span class="kc">undefined</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-5-6"><a id="__codelineno-5-6" name="__codelineno-5-6" href="#__codelineno-5-6"></a><span class="w">            </span><span class="k">return</span><span class="w"> </span><span class="nx">cache</span><span class="p">[</span><span class="nx">path</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">loadSound</span><span class="p">(</span><span class="nx">path</span><span class="p">);</span>
+</span><span id="__span-5-7"><a id="__codelineno-5-7" name="__codelineno-5-7" href="#__codelineno-5-7"></a><span class="w">        </span><span class="p">}</span>
+</span><span id="__span-5-8"><a id="__codelineno-5-8" name="__codelineno-5-8" href="#__codelineno-5-8"></a><span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="nx">c</span><span class="p">;</span>
+</span><span id="__span-5-9"><a id="__codelineno-5-9" name="__codelineno-5-9" href="#__codelineno-5-9"></a><span class="w">    </span><span class="p">}</span>
+</span><span id="__span-5-10"><a id="__codelineno-5-10" name="__codelineno-5-10" href="#__codelineno-5-10"></a><span class="p">})();</span>
+</span></code></pre></div></p>
 <p><em>scripts/main.js</em>:</p>
-<pre><code class="language-js">const lib = require(&quot;alib&quot;);
-
-Events.on(WaveEvent, event =&gt; {
-    // loads example.mp3
-    const mySound = lib.loadSound(&quot;example&quot;);
-    // engine will spawn this sound at this location (X,Y)
-    mySound.at(1, 1);
-})
-</code></pre>
+<div class="language-js highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a><span class="kd">const</span><span class="w"> </span><span class="nx">lib</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">require</span><span class="p">(</span><span class="s2">&quot;alib&quot;</span><span class="p">);</span>
+</span><span id="__span-6-2"><a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a>
+</span><span id="__span-6-3"><a id="__codelineno-6-3" name="__codelineno-6-3" href="#__codelineno-6-3"></a><span class="nx">Events</span><span class="p">.</span><span class="nx">on</span><span class="p">(</span><span class="nx">WaveEvent</span><span class="p">,</span><span class="w"> </span><span class="nx">event</span><span class="w"> </span><span class="p">=&gt;</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-6-4"><a id="__codelineno-6-4" name="__codelineno-6-4" href="#__codelineno-6-4"></a><span class="w">    </span><span class="c1">// loads example.mp3</span>
+</span><span id="__span-6-5"><a id="__codelineno-6-5" name="__codelineno-6-5" href="#__codelineno-6-5"></a><span class="w">    </span><span class="kd">const</span><span class="w"> </span><span class="nx">mySound</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">lib</span><span class="p">.</span><span class="nx">loadSound</span><span class="p">(</span><span class="s2">&quot;example&quot;</span><span class="p">);</span>
+</span><span id="__span-6-6"><a id="__codelineno-6-6" name="__codelineno-6-6" href="#__codelineno-6-6"></a><span class="w">    </span><span class="c1">// engine will spawn this sound at this location (X,Y)</span>
+</span><span id="__span-6-7"><a id="__codelineno-6-7" name="__codelineno-6-7" href="#__codelineno-6-7"></a><span class="w">    </span><span class="nx">mySound</span><span class="p">.</span><span class="nx">at</span><span class="p">(</span><span class="mf">1</span><span class="p">,</span><span class="w"> </span><span class="mf">1</span><span class="p">);</span>
+</span><span id="__span-6-8"><a id="__codelineno-6-8" name="__codelineno-6-8" href="#__codelineno-6-8"></a><span class="p">})</span>
+</span></code></pre></div>
 <p>//TODO test these out and add more examples</p>
 
 
@@ -19142,7 +19135,7 @@ Events.on(WaveEvent, event =&gt; {
     
     
       
-      <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tracking"], "search": "../../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tracking", "content.code.copy"], "search": "../../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
       <script src="../../assets/javascripts/bundle.f55a23d4.min.js"></script>
