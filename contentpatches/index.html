@@ -19115,6 +19115,13 @@ To reload patches while the server is still running, use the <code>reloadpatches
 </span><span id="__span-6-13"><a id="__codelineno-6-13" name="__codelineno-6-13" href="#__codelineno-6-13"></a><span class="p">]</span>
 </span></code></pre></div>
 <p>This syntax works for fields of type <code>T[]</code>, <code>Seq&lt;T&gt;</code> and <code>ObjectSet</code>.</p>
+<h1 id="general-information">General Information</h1>
+<ul>
+<li>Time values are generally measured in <em>ticks</em> (sometimes called 'frames'), which are 1/60th of a second (60 ticks = 1 second). If a field describes a duration, it is probably in ticks. If a field describes a rate of consumption, it is probably in "units per tick".</li>
+<li>Distances, positions and sizes are generally measured in 'world units', which are 1/8th of a tile. This is because Mindustry used to have 8x8 sprites, and 1 world unit used to be 1 pixel. This <em>is</em> horrible and unintuitive, but it remains for historical reasons.</li>
+<li>When you interact with coordinates through a logic processor, they are <em>internally</em> converted to and from world units. Patches modify fields directly, and don't have this luxury.</li>
+<li>Item and liquid stacks can be defined as 'name/amount'. For example, a <code>ItemStack</code> field can have a value of <code>thorium/100</code>.</li>
+</ul>
 <h1 id="caveats-limitations">Caveats &amp; Limitations</h1>
 <ul>
 <li>Creating or assigning unit weapons with <code>mirror: true</code> will not work, as initialization is not re-run for units. You will have to manually create a mirrored version and assign <code>x/shootX/flipSprite</code>.</li>
