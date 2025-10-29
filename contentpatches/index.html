@@ -19115,6 +19115,19 @@ To reload patches while the server is still running, use the <code>reloadpatches
 </span><span id="__span-6-13"><a id="__codelineno-6-13" name="__codelineno-6-13" href="#__codelineno-6-13"></a><span class="p">]</span>
 </span></code></pre></div>
 <p>This syntax works for fields of type <code>T[]</code>, <code>Seq&lt;T&gt;</code> and <code>ObjectSet</code>.</p>
+<h1 id="caveats-limitations">Caveats &amp; Limitations</h1>
+<ul>
+<li>Creating or assigning unit weapons with <code>mirror: true</code> will not work, as initialization is not re-run for units. You will have to manually create a mirrored version and assign <code>x/y/shootX/flipSprite</code>.</li>
+<li>Unit <code>range</code> and <code>maxRange</code> will not update even if you increase the lifetime or speed of a unit's bullet. These values have to be assigned manually.</li>
+<li>Similarly, unit fields won't update if you reassign its type. Reassigned naval units will still drown unless this is manually changed, for example.</li>
+<li><code>clipSize</code> will not update for blocks or units, even if you make them draw larger sprites. Assign this manually.</li>
+<li>Many consumer types will not work for blocks that were not designed to support them. As a general rule, if it isn't used in vanilla, it probably isn't well supported.</li>
+<li>Sizes of blocks cannot be reassigned, as it would catastrophically break saves, and is completely non-functional for most transport blocks.</li>
+<li>Values that depend on other values will not be re-assigned. For example, changing the item build requirements for a block will <em>not</em> change its build time as it would in a mod.</li>
+<li>Environmental (static) blocks cannot use textures that are outside the environmental atlas page. In other words, you can make grass use the snow sprite, but you cannot make grass use the router sprite; it will display an error texture in-game.</li>
+<li>Textures will not be reloaded after a patch is applied. For example, if you change the <code>suffix</code> or <code>name</code> of a <code>DrawRegion</code>, it will not do anything, because <code>load</code> will not be called again. Create an entirely new object instead.</li>
+<li>It is quite possible for patches to crash or freeze the game. Please report this if it happens, but keep in mind that I may not be able to fix <em>all</em> of these issues.</li>
+</ul>
 <h1 id="extra-examples">Extra Examples</h1>
 <h2 id="duoification">'Duoification'</h2>
 <div class="language-json5 highlight"><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a><span class="c1">//once again, names are optional, but help identify a patchset in the list</span>
