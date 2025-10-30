@@ -291,4 +291,25 @@ unit.pulsar.abilities.+: [
     max: 1000
   }
 ]
+
+```
+
+## Adding Unit Plans
+
+```json5
+//make the ground factory produce flares
+block.ground-factory.plans.+: {
+  unit: flare
+  //require 10 surge alloy to build
+  requirements: [surge-alloy/10]
+  //take 100 ticks to build
+  time: 100
+}
+```
+
+## Modifying Unit Factory Plans
+
+```json5
+//make daggers (the first plan of the ground factory, or index 0) take 60 ticks to build, or 1 second 
+block.ground-factory.plans.0.time: 60
 ```
