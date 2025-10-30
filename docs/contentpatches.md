@@ -263,7 +263,7 @@ unit: {
 ## Modifying Turret Ammo
 
 ```json5
-block.fuse.ammo: {
+block.fuse.ammoTypes: {
   //remove titanium ammo from the ammo map by using the special "-" value
   titanium: "-"
   //add surge alloy ammo that shoots a laser
