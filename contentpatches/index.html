@@ -19256,6 +19256,20 @@ To reload patches while the server is still running, use the <code>reloadpatches
 </span><span id="__span-9-7"><a id="__codelineno-9-7" name="__codelineno-9-7" href="#__codelineno-9-7"></a><span class="w">  </span><span class="p">}</span>
 </span><span id="__span-9-8"><a id="__codelineno-9-8" name="__codelineno-9-8" href="#__codelineno-9-8"></a><span class="p">]</span>
 </span></code></pre></div>
+<h2 id="adding-unit-plans">Adding Unit Plans</h2>
+<div class="language-json5 highlight"><pre><span></span><code><span id="__span-10-1"><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a><span class="c1">//make the ground factory produce flares</span>
+</span><span id="__span-10-2"><a id="__codelineno-10-2" name="__codelineno-10-2" href="#__codelineno-10-2"></a><span class="err">block.ground-factory.plans.+</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-10-3"><a id="__codelineno-10-3" name="__codelineno-10-3" href="#__codelineno-10-3"></a><span class="w">  </span><span class="nv">unit</span><span class="p">:</span><span class="w"> </span><span class="err">flare</span>
+</span><span id="__span-10-4"><a id="__codelineno-10-4" name="__codelineno-10-4" href="#__codelineno-10-4"></a><span class="w">  </span><span class="c1">//require 10 surge alloy to build</span>
+</span><span id="__span-10-5"><a id="__codelineno-10-5" name="__codelineno-10-5" href="#__codelineno-10-5"></a><span class="w">  </span><span class="err">requirements</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="err">surge-alloy/</span><span class="mf">10</span><span class="p">]</span>
+</span><span id="__span-10-6"><a id="__codelineno-10-6" name="__codelineno-10-6" href="#__codelineno-10-6"></a><span class="w">  </span><span class="c1">//take 100 ticks to build</span>
+</span><span id="__span-10-7"><a id="__codelineno-10-7" name="__codelineno-10-7" href="#__codelineno-10-7"></a><span class="w">  </span><span class="err">time</span><span class="p">:</span><span class="w"> </span><span class="mf">100</span>
+</span><span id="__span-10-8"><a id="__codelineno-10-8" name="__codelineno-10-8" href="#__codelineno-10-8"></a><span class="p">}</span>
+</span></code></pre></div>
+<h2 id="modifying-unit-factory-plans">Modifying Unit Factory Plans</h2>
+<div class="language-json5 highlight"><pre><span></span><code><span id="__span-11-1"><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a><span class="c1">//make daggers (the first plan of the ground factory, or index 0) take 60 ticks to build, or 1 second </span>
+</span><span id="__span-11-2"><a id="__codelineno-11-2" name="__codelineno-11-2" href="#__codelineno-11-2"></a><span class="err">block.ground-factory.plans</span><span class="mf">.0.</span><span class="err">time</span><span class="p">:</span><span class="w"> </span><span class="mf">60</span>
+</span></code></pre></div>
 
 
 
