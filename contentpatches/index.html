@@ -19078,11 +19078,11 @@ To reload patches while the server is still running, use the <code>reloadpatches
 <h2 id="accessing-arrayssequences">Accessing Arrays/Sequences</h2>
 <p>When accessing an array (T[]) or sequence (Seq<T>) is necessary, you may want to do it like so:</p>
 <div class="language-json5 highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="c1">//greatly offsets one of dagger&#39;s two weapons</span>
-</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="err">unit.dagger.weapons</span><span class="mf">.0.</span><span class="err">x</span><span class="w"> </span><span class="err">=</span><span class="w"> </span><span class="mf">100</span>
+</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="err">unit.dagger.weapons</span><span class="mf">.0.</span><span class="err">x</span><span class="p">:</span><span class="w"> </span><span class="mf">100</span>
 </span></code></pre></div>
 <p>Note that modifying the bullet of <em>mirrored</em> weapons will affect both sides, as they share the same bullet type:</p>
 <div class="language-json5 highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="c1">//this wall make *both* dagger weapons deal 55 damage</span>
-</span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a><span class="err">unit.dagger.weapons</span><span class="mf">.0.</span><span class="err">bullet.damage</span><span class="w"> </span><span class="err">=</span><span class="w"> </span><span class="mf">55</span>
+</span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a><span class="err">unit.dagger.weapons</span><span class="mf">.0.</span><span class="err">bullet.damage</span><span class="p">:</span><span class="w"> </span><span class="mf">55</span>
 </span></code></pre></div>
 <h2 id="adding-vs-overwriting-to-arrayssequences">Adding vs Overwriting to Arrays/Sequences</h2>
 <p>Sometimes, it may be necessary to <em>add</em> to a sequence, instead of overwriting it, like so:</p>
