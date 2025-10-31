@@ -93,14 +93,14 @@ When accessing an array (T[]) or sequence (Seq<T>) is necessary, you may want to
 
 ```json5
 //greatly offsets one of dagger's two weapons
-unit.dagger.weapons.0.x = 100
+unit.dagger.weapons.0.x: 100
 ```
 
 Note that modifying the bullet of *mirrored* weapons will affect both sides, as they share the same bullet type:
 
 ```json5
 //this wall make *both* dagger weapons deal 55 damage
-unit.dagger.weapons.0.bullet.damage = 55
+unit.dagger.weapons.0.bullet.damage: 55
 ```
 
 ## Adding vs Overwriting to Arrays/Sequences
