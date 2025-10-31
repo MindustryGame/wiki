@@ -12,6 +12,7 @@ If you have a JSON mod, you *probably* don't need to do anything. All existing J
 
 - `Binding` keybind values are now in camelCase.
 - The old keybind system has been completely reworked to allow for custom mod keybinds - see `arc.input.KeyBind#add`. `Core.keybinds` has been removed, use the `Keybind` class instead.
+- Calling `Core.atlas.getPixmap` outside of `createIcons` is no longer allowed. If your content needs to generate icons, do so by overriding `createIcons`. Otherwise, you cannot access image data of the packed data; it was a massive memory leak.
 
 ## Blocks
 
