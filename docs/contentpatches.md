@@ -313,3 +313,10 @@ block.ground-factory.plans.+: {
 //make daggers (the first plan of the ground factory, or index 0) take 60 ticks to build, or 1 second 
 block.ground-factory.plans.0.time: 60
 ```
+
+## Modifying Block Requirements
+
+```json5
+//make duo cost 5 titanium and 20 surge alloy
+block.duo.requirements: [titanium/5, surge-alloy/20]
+```
