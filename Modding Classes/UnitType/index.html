@@ -18,7 +18,7 @@
       
       
       <link rel="icon" href="../../images/favicon.png">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.22">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.23">
     
     
       
@@ -19112,277 +19112,277 @@
 <td>boostMultiplier</td>
 <td>float</td>
 <td>1.0</td>
-<td>movement speed (world units/t)</td>
+<td>multiplier for speed when boosting</td>
 </tr>
 <tr>
 <td>rotateSpeed</td>
 <td>float</td>
 <td>5.0</td>
-<td>movement speed (world units/t)</td>
+<td>body rotation speed in degrees/t</td>
 </tr>
 <tr>
 <td>baseRotateSpeed</td>
 <td>float</td>
 <td>5.0</td>
-<td>movement speed (world units/t)</td>
+<td>mech base rotation speed in degrees/t</td>
 </tr>
 <tr>
 <td>drag</td>
 <td>float</td>
 <td>0.3</td>
-<td>movement speed (world units/t)</td>
+<td>movement drag as fraction</td>
 </tr>
 <tr>
 <td>accel</td>
 <td>float</td>
 <td>0.5</td>
-<td>movement speed (world units/t)</td>
+<td>acceleration as fraction of speed</td>
 </tr>
 <tr>
 <td>hitSize</td>
 <td>float</td>
 <td>6.0</td>
-<td>movement speed (world units/t)</td>
+<td>size of one side of the hitbox square</td>
 </tr>
 <tr>
 <td>deathShake</td>
 <td>float</td>
 <td>-1.0</td>
-<td>movement speed (world units/t)</td>
+<td>shake on unit death</td>
 </tr>
 <tr>
 <td>stepShake</td>
 <td>float</td>
 <td>-1.0</td>
-<td>movement speed (world units/t)</td>
+<td>shake on each step for leg/mech units</td>
 </tr>
 <tr>
 <td>rippleScale</td>
 <td>float</td>
 <td>1.0</td>
-<td>movement speed (world units/t)</td>
+<td>ripple / dust size for legged units</td>
 </tr>
 <tr>
 <td>riseSpeed</td>
 <td>float</td>
 <td>0.08</td>
-<td>movement speed (world units/t)</td>
+<td>boosting rise speed as fraction</td>
 </tr>
 <tr>
 <td>fallSpeed</td>
 <td>float</td>
 <td>0.018</td>
-<td>movement speed (world units/t)</td>
+<td>how fast this unit falls when not boosting</td>
 </tr>
 <tr>
 <td>missileAccelTime</td>
 <td>float</td>
 <td>0.0</td>
-<td>movement speed (world units/t)</td>
+<td>how many ticks it takes this missile to accelerate to full speed</td>
 </tr>
 <tr>
 <td>health</td>
 <td>float</td>
 <td>200.0</td>
-<td>movement speed (world units/t)</td>
+<td>raw health amount</td>
 </tr>
 <tr>
 <td>armor</td>
 <td>float</td>
 <td>0.0</td>
-<td>movement speed (world units/t)</td>
+<td>incoming damage is reduced by this amount</td>
 </tr>
 <tr>
 <td>range</td>
 <td>float</td>
 <td>-1.0</td>
-<td>movement speed (world units/t)</td>
+<td>minimum range of any weapon; used for approaching targets. can be overridden by setting a value &gt; 0.</td>
 </tr>
 <tr>
 <td>maxRange</td>
 <td>float</td>
 <td>-1.0</td>
-<td>movement speed (world units/t)</td>
+<td>maximum range of any weapon</td>
 </tr>
 <tr>
 <td>mineRange</td>
 <td>float</td>
 <td>70.0</td>
-<td>movement speed (world units/t)</td>
+<td>range at which this unit can mine ores</td>
 </tr>
 <tr>
 <td>buildRange</td>
 <td>float</td>
 <td>220.0</td>
-<td>movement speed (world units/t)</td>
+<td>range at which this unit can build</td>
 </tr>
 <tr>
 <td>crashDamageMultiplier</td>
 <td>float</td>
 <td>1.0</td>
-<td>movement speed (world units/t)</td>
+<td>multiplier for damage this (flying) unit deals when crashing on enemy things</td>
 </tr>
 <tr>
 <td>wreckHealthMultiplier</td>
 <td>float</td>
 <td>0.25</td>
-<td>movement speed (world units/t)</td>
+<td>multiplier for health that this flying unit has for its wreck, based on its max health.</td>
 </tr>
 <tr>
 <td>dpsEstimate</td>
 <td>float</td>
 <td>-1.0</td>
-<td>movement speed (world units/t)</td>
+<td>a VERY ROUGH estimate of unit DPS; initialized in init()</td>
 </tr>
 <tr>
 <td>clipSize</td>
 <td>float</td>
 <td>-1.0</td>
-<td>movement speed (world units/t)</td>
+<td>graphics clipping size; &lt;0 to calculate automatically</td>
 </tr>
 <tr>
 <td>drownTimeMultiplier</td>
 <td>float</td>
 <td>1.0</td>
-<td>movement speed (world units/t)</td>
+<td>multiplier for how slowly this unit drowns - higher numbers, slower drowning.</td>
 </tr>
 <tr>
 <td>strafePenalty</td>
 <td>float</td>
 <td>0.5</td>
-<td>movement speed (world units/t)</td>
+<td>fractional movement speed penalty for this unit when it is moving in the opposite direction that it is facing</td>
 </tr>
 <tr>
 <td>researchCostMultiplier</td>
 <td>float</td>
 <td>50.0</td>
-<td>movement speed (world units/t)</td>
+<td>multiplier for cost of research in tech tree</td>
 </tr>
 <tr>
 <td>groundLayer</td>
 <td>float</td>
 <td>60.0</td>
-<td>movement speed (world units/t)</td>
+<td>for ground units, the layer upon which this unit is drawn</td>
 </tr>
 <tr>
 <td>flyingLayer</td>
 <td>float</td>
 <td>-1.0</td>
-<td>movement speed (world units/t)</td>
+<td>For units that fly, the layer upon which this unit is drawn. If no value is set, defaults to Layer.flyingUnitLow or Layer.flyingUnit depending on lowAltitude</td>
 </tr>
 <tr>
 <td>payloadCapacity</td>
 <td>float</td>
 <td>8.0</td>
-<td>movement speed (world units/t)</td>
+<td>Payload capacity of this unit in world units^2</td>
 </tr>
 <tr>
 <td>buildSpeed</td>
 <td>float</td>
 <td>-1.0</td>
-<td>movement speed (world units/t)</td>
+<td>building speed multiplier; &lt;0 to disable.</td>
 </tr>
 <tr>
 <td>aimDst</td>
 <td>float</td>
 <td>-1.0</td>
-<td>movement speed (world units/t)</td>
+<td>Minimum distance from this unit that weapons can target. Prevents units from firing "inside" the unit.</td>
 </tr>
 <tr>
 <td>buildBeamOffset</td>
 <td>float</td>
 <td>3.8</td>
-<td>movement speed (world units/t)</td>
+<td>Visual offset of the build beam from the front.</td>
 </tr>
 <tr>
 <td>mineBeamOffset</td>
 <td>float</td>
 <td>-Infinity</td>
-<td>movement speed (world units/t)</td>
+<td>Visual offset of the mining beam from the front. Defaults to half the hitsize.</td>
 </tr>
 <tr>
 <td>targetPriority</td>
 <td>float</td>
 <td>0.0</td>
-<td>movement speed (world units/t)</td>
+<td>WIP: Units of low priority will always be ignored in favor of those with higher priority, regardless of distance.</td>
 </tr>
 <tr>
 <td>shadowElevation</td>
 <td>float</td>
 <td>-1.0</td>
-<td>movement speed (world units/t)</td>
+<td>Elevation of shadow drawn under this (ground) unit. Visual only.</td>
 </tr>
 <tr>
 <td>shadowElevationScl</td>
 <td>float</td>
 <td>1.0</td>
-<td>movement speed (world units/t)</td>
+<td>Scale for length of shadow drawn under this unit. Does nothing if this unit has no shadow.</td>
 </tr>
 <tr>
 <td>engineOffset</td>
 <td>float</td>
 <td>5.0</td>
-<td>movement speed (world units/t)</td>
+<td>backwards engine offset from center of unit</td>
 </tr>
 <tr>
 <td>engineSize</td>
 <td>float</td>
 <td>2.5</td>
-<td>movement speed (world units/t)</td>
+<td>main engine radius</td>
 </tr>
 <tr>
 <td>engineLayer</td>
 <td>float</td>
 <td>-1.0</td>
-<td>movement speed (world units/t)</td>
+<td>layer of all engines (&lt;0 for default)</td>
 </tr>
 <tr>
 <td>itemOffsetY</td>
 <td>float</td>
 <td>3.0</td>
-<td>movement speed (world units/t)</td>
+<td>visual backwards offset of items on unit</td>
 </tr>
 <tr>
 <td>lightRadius</td>
 <td>float</td>
 <td>-1.0</td>
-<td>movement speed (world units/t)</td>
+<td>radius of light emitted, &lt;0 for default</td>
 </tr>
 <tr>
 <td>lightOpacity</td>
 <td>float</td>
 <td>0.6</td>
-<td>movement speed (world units/t)</td>
+<td>light color opacity</td>
 </tr>
 <tr>
 <td>softShadowScl</td>
 <td>float</td>
 <td>1.0</td>
-<td>movement speed (world units/t)</td>
+<td>scale of soft shadow - its size is calculated based off of region size</td>
 </tr>
 <tr>
 <td>fogRadius</td>
 <td>float</td>
 <td>-1.0</td>
-<td>movement speed (world units/t)</td>
+<td>fog view radius in tiles. &lt;0 for automatic radius.</td>
 </tr>
 <tr>
 <td>waveTrailX</td>
 <td>float</td>
 <td>4.0</td>
-<td>movement speed (world units/t)</td>
+<td>horizontal offset of wave trail in naval units</td>
 </tr>
 <tr>
 <td>waveTrailY</td>
 <td>float</td>
 <td>-3.0</td>
-<td>movement speed (world units/t)</td>
+<td>vertical offset of wave trail in naval units</td>
 </tr>
 <tr>
 <td>trailScl</td>
 <td>float</td>
 <td>1.0</td>
-<td>movement speed (world units/t)</td>
+<td>width of all trails (including naval ones)</td>
 </tr>
 <tr>
 <td>isEnemy</td>
@@ -19394,383 +19394,383 @@
 <td>flying</td>
 <td>boolean</td>
 <td>false</td>
-<td>if true, this unit counts as an enemy in the wave counter (usually false for support-only units)</td>
+<td>if true, the unit is always at elevation 1</td>
 </tr>
 <tr>
 <td>wobble</td>
 <td>boolean</td>
 <td>true</td>
-<td>if true, this unit counts as an enemy in the wave counter (usually false for support-only units)</td>
+<td>whether this flying unit should wobble around</td>
 </tr>
 <tr>
 <td>targetAir</td>
 <td>boolean</td>
 <td>true</td>
-<td>if true, this unit counts as an enemy in the wave counter (usually false for support-only units)</td>
+<td>whether this unit tries to attack air units</td>
 </tr>
 <tr>
 <td>targetGround</td>
 <td>boolean</td>
 <td>true</td>
-<td>if true, this unit counts as an enemy in the wave counter (usually false for support-only units)</td>
+<td>whether this unit tries to attack ground units</td>
 </tr>
 <tr>
 <td>faceTarget</td>
 <td>boolean</td>
 <td>true</td>
-<td>if true, this unit counts as an enemy in the wave counter (usually false for support-only units)</td>
+<td>if true, this unit will attempt to face its target when shooting/aiming at it</td>
 </tr>
 <tr>
 <td>circleTarget</td>
 <td>boolean</td>
 <td>false</td>
-<td>if true, this unit counts as an enemy in the wave counter (usually false for support-only units)</td>
+<td>AI flag: if true, this flying unit circles around its target like a bomber</td>
 </tr>
 <tr>
 <td>autoDropBombs</td>
 <td>boolean</td>
 <td>false</td>
-<td>if true, this unit counts as an enemy in the wave counter (usually false for support-only units)</td>
+<td>AI flag: if true, this unit will drop bombs under itself even when it is not next to its 'real' target. used for carpet bombers</td>
 </tr>
 <tr>
 <td>targetBuildingsMobile</td>
 <td>boolean</td>
 <td>true</td>
-<td>if true, this unit counts as an enemy in the wave counter (usually false for support-only units)</td>
+<td>For the mobile version only: If false, this unit will not auto-target buildings to attach when a player controls it.</td>
 </tr>
 <tr>
 <td>canBoost</td>
 <td>boolean</td>
 <td>false</td>
-<td>if true, this unit counts as an enemy in the wave counter (usually false for support-only units)</td>
+<td>if true, this unit can boost into the air if a player/processors controls it</td>
 </tr>
 <tr>
 <td>boostWhenBuilding</td>
 <td>boolean</td>
 <td>true</td>
-<td>if true, this unit counts as an enemy in the wave counter (usually false for support-only units)</td>
+<td>if true, this unit will always boost when using builder AI</td>
 </tr>
 <tr>
 <td>boostWhenMining</td>
 <td>boolean</td>
 <td>true</td>
-<td>if true, this unit counts as an enemy in the wave counter (usually false for support-only units)</td>
+<td>if true, this unit will always boost when using miner AI</td>
 </tr>
 <tr>
 <td>logicControllable</td>
 <td>boolean</td>
 <td>true</td>
-<td>if true, this unit counts as an enemy in the wave counter (usually false for support-only units)</td>
+<td>if false, logic processors cannot control this unit</td>
 </tr>
 <tr>
 <td>playerControllable</td>
 <td>boolean</td>
 <td>true</td>
-<td>if true, this unit counts as an enemy in the wave counter (usually false for support-only units)</td>
+<td>if false, players cannot control this unit</td>
 </tr>
 <tr>
 <td>controlSelectGlobal</td>
 <td>boolean</td>
 <td>true</td>
-<td>if true, this unit counts as an enemy in the wave counter (usually false for support-only units)</td>
+<td>If true, the unit can be selected with the global selection hotkey (shift+g).</td>
 </tr>
 <tr>
 <td>allowedInPayloads</td>
 <td>boolean</td>
 <td>true</td>
-<td>if true, this unit counts as an enemy in the wave counter (usually false for support-only units)</td>
+<td>if false, this unit cannot be moved into payloads</td>
 </tr>
 <tr>
 <td>hittable</td>
 <td>boolean</td>
 <td>true</td>
-<td>if true, this unit counts as an enemy in the wave counter (usually false for support-only units)</td>
+<td>if false, this unit cannot be hit by bullets or explosions</td>
 </tr>
 <tr>
 <td>killable</td>
 <td>boolean</td>
 <td>true</td>
-<td>if true, this unit counts as an enemy in the wave counter (usually false for support-only units)</td>
+<td>if false, this unit does not take damage and cannot be kill() / destroy()-ed.</td>
 </tr>
 <tr>
 <td>targetable</td>
 <td>boolean</td>
 <td>true</td>
-<td>if true, this unit counts as an enemy in the wave counter (usually false for support-only units)</td>
+<td>if false, this unit is not targeted by anything.</td>
 </tr>
 <tr>
 <td>vulnerableWithPayloads</td>
 <td>boolean</td>
 <td>false</td>
-<td>if true, this unit counts as an enemy in the wave counter (usually false for support-only units)</td>
+<td>if true, this unit can be hit/targeted when it has payloads (assuming hittable/targetable is false)</td>
 </tr>
 <tr>
 <td>pickupUnits</td>
 <td>boolean</td>
 <td>true</td>
-<td>if true, this unit counts as an enemy in the wave counter (usually false for support-only units)</td>
+<td>if true, this payload unit can pick up units</td>
 </tr>
 <tr>
 <td>physics</td>
 <td>boolean</td>
 <td>true</td>
-<td>if true, this unit counts as an enemy in the wave counter (usually false for support-only units)</td>
+<td>if false, this unit does not physically collide with others.</td>
 </tr>
 <tr>
 <td>canDrown</td>
 <td>boolean</td>
 <td>true</td>
-<td>if true, this unit counts as an enemy in the wave counter (usually false for support-only units)</td>
+<td>if true, this ground unit will drown in deep liquids.</td>
 </tr>
 <tr>
 <td>useUnitCap</td>
 <td>boolean</td>
 <td>true</td>
-<td>if true, this unit counts as an enemy in the wave counter (usually false for support-only units)</td>
+<td>if false, this unit ignores the unit cap and can be spawned infinitely</td>
 </tr>
 <tr>
 <td>coreUnitDock</td>
 <td>boolean</td>
 <td>false</td>
-<td>if true, this unit counts as an enemy in the wave counter (usually false for support-only units)</td>
+<td>if true, this core unit will "dock" to other units, making it re-appear when "undocking".</td>
 </tr>
 <tr>
 <td>createWreck</td>
 <td>boolean</td>
 <td>true</td>
-<td>if true, this unit counts as an enemy in the wave counter (usually false for support-only units)</td>
+<td>if false, no falling "corpse" is created when this unit dies.</td>
 </tr>
 <tr>
 <td>createScorch</td>
 <td>boolean</td>
 <td>true</td>
-<td>if true, this unit counts as an enemy in the wave counter (usually false for support-only units)</td>
+<td>if false, no scorch marks are created when this unit dies</td>
 </tr>
 <tr>
 <td>lowAltitude</td>
 <td>boolean</td>
 <td>false</td>
-<td>if true, this unit counts as an enemy in the wave counter (usually false for support-only units)</td>
+<td>if true, this unit will be drawn under effects/bullets; this is a visual change only.</td>
 </tr>
 <tr>
 <td>rotateToBuilding</td>
 <td>boolean</td>
 <td>true</td>
-<td>if true, this unit counts as an enemy in the wave counter (usually false for support-only units)</td>
+<td>if true, this unit will look at whatever it is building</td>
 </tr>
 <tr>
 <td>allowLegStep</td>
 <td>boolean</td>
 <td>false</td>
-<td>if true, this unit counts as an enemy in the wave counter (usually false for support-only units)</td>
+<td>if true and this is a legged unit, this unit can walk over blocks.</td>
 </tr>
 <tr>
 <td>legPhysicsLayer</td>
 <td>boolean</td>
 <td>true</td>
-<td>if true, this unit counts as an enemy in the wave counter (usually false for support-only units)</td>
+<td>for legged units, setting this to false forces it to be on the ground physics layer.</td>
 </tr>
 <tr>
 <td>hovering</td>
 <td>boolean</td>
 <td>false</td>
-<td>if true, this unit counts as an enemy in the wave counter (usually false for support-only units)</td>
+<td>if true, this unit will not be affected by the floor under it.</td>
 </tr>
 <tr>
 <td>omniMovement</td>
 <td>boolean</td>
 <td>true</td>
-<td>if true, this unit counts as an enemy in the wave counter (usually false for support-only units)</td>
+<td>if true, this unit can move in any direction regardless of rotation. if false, this unit can only move in the direction it is facing.</td>
 </tr>
 <tr>
 <td>rotateMoveFirst</td>
 <td>boolean</td>
 <td>false</td>
-<td>if true, this unit counts as an enemy in the wave counter (usually false for support-only units)</td>
+<td>if true, the unit faces its moving direction before actually moving.</td>
 </tr>
 <tr>
 <td>healFlash</td>
 <td>boolean</td>
 <td>true</td>
-<td>if true, this unit counts as an enemy in the wave counter (usually false for support-only units)</td>
+<td>if true, this unit flashes when being healed</td>
 </tr>
 <tr>
 <td>canHeal</td>
 <td>boolean</td>
 <td>false</td>
-<td>if true, this unit counts as an enemy in the wave counter (usually false for support-only units)</td>
+<td>whether the unit can heal blocks. Initialized in init()</td>
 </tr>
 <tr>
 <td>singleTarget</td>
 <td>boolean</td>
 <td>false</td>
-<td>if true, this unit counts as an enemy in the wave counter (usually false for support-only units)</td>
+<td>if true, all weapons will attack the same target.</td>
 </tr>
 <tr>
 <td>forceMultiTarget</td>
 <td>boolean</td>
 <td>false</td>
-<td>if true, this unit counts as an enemy in the wave counter (usually false for support-only units)</td>
+<td>if true, this unit will be able to have multiple targets, even if it only has one mirrored weapon.</td>
 </tr>
 <tr>
 <td>canAttack</td>
 <td>boolean</td>
 <td>true</td>
-<td>if true, this unit counts as an enemy in the wave counter (usually false for support-only units)</td>
+<td>if false, this unit has no weapons that can attack.</td>
 </tr>
 <tr>
 <td>hidden</td>
 <td>boolean</td>
 <td>false</td>
-<td>if true, this unit counts as an enemy in the wave counter (usually false for support-only units)</td>
+<td>if true, this unit won't show up in the database or various other UIs.</td>
 </tr>
 <tr>
 <td>internal</td>
 <td>boolean</td>
 <td>false</td>
-<td>if true, this unit counts as an enemy in the wave counter (usually false for support-only units)</td>
+<td>if true, this unit is for internal use only and does not have a sprite generated.</td>
 </tr>
 <tr>
 <td>internalGenerateSprites</td>
 <td>boolean</td>
 <td>false</td>
-<td>if true, this unit counts as an enemy in the wave counter (usually false for support-only units)</td>
+<td>For certain units, generating sprites is still necessary, despite being internal.</td>
 </tr>
 <tr>
 <td>bounded</td>
 <td>boolean</td>
 <td>true</td>
-<td>if true, this unit counts as an enemy in the wave counter (usually false for support-only units)</td>
+<td>If false, this unit is not pushed away from map edges.</td>
 </tr>
 <tr>
 <td>naval</td>
 <td>boolean</td>
 <td>false</td>
-<td>if true, this unit counts as an enemy in the wave counter (usually false for support-only units)</td>
+<td>if true, this unit is detected as naval - do NOT assign this manually! Initialized in init()</td>
 </tr>
 <tr>
 <td>autoFindTarget</td>
 <td>boolean</td>
 <td>true</td>
-<td>if true, this unit counts as an enemy in the wave counter (usually false for support-only units)</td>
+<td>if false, RTS AI controlled units do not automatically attack things while moving. This is automatically assigned.</td>
 </tr>
 <tr>
 <td>targetUnderBlocks</td>
 <td>boolean</td>
 <td>true</td>
-<td>if true, this unit counts as an enemy in the wave counter (usually false for support-only units)</td>
+<td>If false, 'under' blocks like conveyors are not targeted.</td>
 </tr>
 <tr>
 <td>alwaysShootWhenMoving</td>
 <td>boolean</td>
 <td>false</td>
-<td>if true, this unit counts as an enemy in the wave counter (usually false for support-only units)</td>
+<td>if true, this unit will always shoot while moving regardless of slowdown</td>
 </tr>
 <tr>
 <td>hoverable</td>
 <td>boolean</td>
 <td>true</td>
-<td>if true, this unit counts as an enemy in the wave counter (usually false for support-only units)</td>
+<td>whether this unit has a hover tooltip</td>
 </tr>
 <tr>
 <td>alwaysCreateOutline</td>
 <td>boolean</td>
 <td>false</td>
-<td>if true, this unit counts as an enemy in the wave counter (usually false for support-only units)</td>
+<td>if true, this modded unit always has a -outline region generated for its base. Normally, outlines are ignored if there are no top = false weapons.</td>
 </tr>
 <tr>
 <td>generateFullIcon</td>
 <td>boolean</td>
 <td>true</td>
-<td>if true, this unit counts as an enemy in the wave counter (usually false for support-only units)</td>
+<td>for vanilla content only - if false, skips the full icon generation step.</td>
 </tr>
 <tr>
 <td>squareShape</td>
 <td>boolean</td>
 <td>false</td>
-<td>if true, this unit counts as an enemy in the wave counter (usually false for support-only units)</td>
+<td>if true, this unit has a square shadow.</td>
 </tr>
 <tr>
 <td>drawBuildBeam</td>
 <td>boolean</td>
 <td>true</td>
-<td>if true, this unit counts as an enemy in the wave counter (usually false for support-only units)</td>
+<td>if true, this unit will draw its building beam towards blocks.</td>
 </tr>
 <tr>
 <td>drawMineBeam</td>
 <td>boolean</td>
 <td>true</td>
-<td>if true, this unit counts as an enemy in the wave counter (usually false for support-only units)</td>
+<td>if true, this unit will draw its mining beam towards blocks</td>
 </tr>
 <tr>
 <td>drawCell</td>
 <td>boolean</td>
 <td>true</td>
-<td>if true, this unit counts as an enemy in the wave counter (usually false for support-only units)</td>
+<td>if false, the team indicator/cell is not drawn.</td>
 </tr>
 <tr>
 <td>drawItems</td>
 <td>boolean</td>
 <td>true</td>
-<td>if true, this unit counts as an enemy in the wave counter (usually false for support-only units)</td>
+<td>if false, carried items are not drawn.</td>
 </tr>
 <tr>
 <td>drawShields</td>
 <td>boolean</td>
 <td>true</td>
-<td>if true, this unit counts as an enemy in the wave counter (usually false for support-only units)</td>
+<td>if false, the unit shield (usually seen in waves) is not drawn.</td>
 </tr>
 <tr>
 <td>drawBody</td>
 <td>boolean</td>
 <td>true</td>
-<td>if true, this unit counts as an enemy in the wave counter (usually false for support-only units)</td>
+<td>if false, the unit body is not drawn.</td>
 </tr>
 <tr>
 <td>drawSoftShadow</td>
 <td>boolean</td>
 <td>true</td>
-<td>if true, this unit counts as an enemy in the wave counter (usually false for support-only units)</td>
+<td>if false, the soft shadow is not drawn.</td>
 </tr>
 <tr>
 <td>drawMinimap</td>
 <td>boolean</td>
 <td>true</td>
-<td>if true, this unit counts as an enemy in the wave counter (usually false for support-only units)</td>
+<td>if false, the unit is not drawn on the minimap.</td>
 </tr>
 <tr>
 <td>aiController</td>
-<td>Prov&lt;? extends UnitController&gt;</td>
+<td>Prov of ? extends UnitController</td>
 <td>{code}</td>
 <td>The default AI controller to assign on creation.</td>
 </tr>
 <tr>
 <td>controller</td>
-<td>Func<Unit,? extends UnitController></td>
+<td>Func of Unit, ? extends UnitController</td>
 <td>get() : new CommandAI()</td>
 <td>Function that chooses AI controller based on unit entity.</td>
 </tr>
 <tr>
 <td>constructor</td>
-<td>Prov&lt;? extends Unit&gt;</td>
+<td>Prov of ? extends Unit</td>
 <td>null</td>
 <td>Creates a new instance of this unit class.</td>
 </tr>
 <tr>
 <td>abilities</td>
-<td>Seq<Ability></td>
+<td>Seq of Ability</td>
 <td>[]</td>
 <td>list of "abilities", which are various behaviors that update each frame</td>
 </tr>
 <tr>
 <td>weapons</td>
-<td>Seq<Weapon></td>
+<td>Seq of Weapon</td>
 <td>[]</td>
 <td>All weapons that this unit will shoot with.</td>
 </tr>
 <tr>
 <td>immunities</td>
-<td>ObjectSet<StatusEffect></td>
+<td>ObjectSet of StatusEffect</td>
 <td>new ObjectSet&lt;&gt;()</td>
 <td>None of the status effects in this set can be applied to this unit.</td>
 </tr>
@@ -19836,13 +19836,13 @@
 </tr>
 <tr>
 <td>parts</td>
-<td>Seq<DrawPart></td>
+<td>Seq of DrawPart</td>
 <td>[]</td>
 <td>extra (usually animated) visual parts</td>
 </tr>
 <tr>
 <td>engines</td>
-<td>Seq<UnitEngine></td>
+<td>Seq of UnitEngine</td>
 <td>[]</td>
 <td>list of engines, or "thrusters"</td>
 </tr>
@@ -19914,7 +19914,7 @@
 </tr>
 <tr>
 <td>commands</td>
-<td>Seq<UnitCommand></td>
+<td>Seq of UnitCommand</td>
 <td>[]</td>
 <td>Commands available to this unit through RTS controls. An empty array means commands will be assigned based on unit capabilities in init().</td>
 </tr>
@@ -19926,7 +19926,7 @@
 </tr>
 <tr>
 <td>stances</td>
-<td>Seq<UnitStance></td>
+<td>Seq of UnitStance</td>
 <td>[]</td>
 <td>Stances this unit can have.  An empty array means stances will be assigned based on unit capabilities in init().</td>
 </tr>
@@ -20010,7 +20010,7 @@
 </tr>
 <tr>
 <td>mineItems</td>
-<td>Seq<Item></td>
+<td>Seq of Item</td>
 <td>[Copper, Lead, Titanium, Thorium]</td>
 <td>Target items to mine. Used in MinerAI</td>
 </tr>
@@ -20036,85 +20036,85 @@
 <td>legSpeed</td>
 <td>float</td>
 <td>0.1</td>
-<td>total length of a leg (both segments)</td>
+<td>how fast individual legs move towards their destination (non-linear)</td>
 </tr>
 <tr>
 <td>legForwardScl</td>
 <td>float</td>
 <td>1.0</td>
-<td>total length of a leg (both segments)</td>
+<td>scale for how far in front (relative to unit velocity) legs try to place themselves; if legs lag behind a unit, increase this number</td>
 </tr>
 <tr>
 <td>legBaseOffset</td>
 <td>float</td>
 <td>0.0</td>
-<td>total length of a leg (both segments)</td>
+<td>leg offset from the center of the unit</td>
 </tr>
 <tr>
 <td>legMoveSpace</td>
 <td>float</td>
 <td>1.0</td>
-<td>total length of a leg (both segments)</td>
+<td>scaling for space between leg movements</td>
 </tr>
 <tr>
 <td>legExtension</td>
 <td>float</td>
 <td>0.0</td>
-<td>total length of a leg (both segments)</td>
+<td>for legs without "joints", this is how much the second leg sprite is moved "back" by, so it covers the joint region (it's hard to explain without an image)</td>
 </tr>
 <tr>
 <td>legPairOffset</td>
 <td>float</td>
 <td>0.0</td>
-<td>total length of a leg (both segments)</td>
+<td>Higher values of this field make groups of legs move less in-sync with each other.</td>
 </tr>
 <tr>
 <td>legLengthScl</td>
 <td>float</td>
 <td>1.0</td>
-<td>total length of a leg (both segments)</td>
+<td>scaling for how far away legs <em>try</em> to be from the body (not their actual length); e.g. if set to 0.5, legs will appear somewhat folded</td>
 </tr>
 <tr>
 <td>legStraightLength</td>
 <td>float</td>
 <td>1.0</td>
-<td>total length of a leg (both segments)</td>
+<td>if legStraightness &gt; 0, this is the scale for how far away legs are from the body horizontally</td>
 </tr>
 <tr>
 <td>legMaxLength</td>
 <td>float</td>
 <td>1.75</td>
-<td>total length of a leg (both segments)</td>
+<td>maximum length of an individual leg as fraction of real length</td>
 </tr>
 <tr>
 <td>legMinLength</td>
 <td>float</td>
 <td>0.0</td>
-<td>total length of a leg (both segments)</td>
+<td>minimum length of an individual leg as fraction of real length</td>
 </tr>
 <tr>
 <td>legSplashDamage</td>
 <td>float</td>
 <td>0.0</td>
-<td>total length of a leg (both segments)</td>
+<td>splash damage dealt when a leg touches the ground</td>
 </tr>
 <tr>
 <td>legSplashRange</td>
 <td>float</td>
 <td>5.0</td>
-<td>total length of a leg (both segments)</td>
+<td>splash damage radius of legs</td>
 </tr>
 <tr>
 <td>baseLegStraightness</td>
 <td>float</td>
 <td>0.0</td>
-<td>total length of a leg (both segments)</td>
+<td>how straight the leg base/origin is (0 = circular, 1 = line)</td>
 </tr>
 <tr>
 <td>legStraightness</td>
 <td>float</td>
 <td>0.0</td>
-<td>total length of a leg (both segments)</td>
+<td>how straight the leg outward angles are (0 = circular, 1 = horizontal line)</td>
 </tr>
 <tr>
 <td>legBaseUnder</td>
@@ -20258,55 +20258,55 @@
 <td>segmentScl</td>
 <td>float</td>
 <td>4.0</td>
-<td>magnitude of sine offset between segments</td>
+<td>scale of sine offset between segments</td>
 </tr>
 <tr>
 <td>segmentPhase</td>
 <td>float</td>
 <td>5.0</td>
-<td>magnitude of sine offset between segments</td>
+<td>index multiplier of sine offset between segments</td>
 </tr>
 <tr>
 <td>segmentRotSpeed</td>
 <td>float</td>
 <td>1.0</td>
-<td>magnitude of sine offset between segments</td>
+<td>how fast each segment moves towards the next one</td>
 </tr>
 <tr>
 <td>segmentMaxRot</td>
 <td>float</td>
 <td>30.0</td>
-<td>magnitude of sine offset between segments</td>
+<td>maximum difference between segment angles</td>
 </tr>
 <tr>
 <td>segmentSpacing</td>
 <td>float</td>
 <td>-1.0</td>
-<td>magnitude of sine offset between segments</td>
+<td>spacing between separate unit segments (only used for multi-unit worms)</td>
 </tr>
 <tr>
 <td>segmentRotationRange</td>
 <td>float</td>
 <td>80.0</td>
-<td>magnitude of sine offset between segments</td>
+<td>rotation between segments is clamped to this range</td>
 </tr>
 <tr>
 <td>crawlSlowdown</td>
 <td>float</td>
 <td>0.5</td>
-<td>magnitude of sine offset between segments</td>
+<td>speed multiplier this unit will have when crawlSlowdownFrac is met.</td>
 </tr>
 <tr>
 <td>crushDamage</td>
 <td>float</td>
 <td>0.0</td>
-<td>magnitude of sine offset between segments</td>
+<td>damage dealt to blocks under this tank/crawler every frame.</td>
 </tr>
 <tr>
 <td>crawlSlowdownFrac</td>
 <td>float</td>
 <td>0.55</td>
-<td>magnitude of sine offset between segments</td>
+<td>the fraction of solids under this block necessary for it to reach crawlSlowdown.</td>
 </tr>
 <tr>
 <td>lifetime</td>
