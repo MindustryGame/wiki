@@ -23128,7 +23128,7 @@ They will automatically be applied to any map <em>after</em> any other data patc
 <p>If you've done everything correctly, the server should log the amount of patch files loaded upon startup. Any warnings or errors will also be printed to the console.
 To reload patches while the server is still running, use the <code>reloadpatches</code> command.</p>
 <h1 id="data-patch-basics">Data Patch Basics</h1>
-<p>Data patches follow a heirarchy. At the first level, you define the type of content to be changed: <code>block</code>, <code>liquid</code>, <code>item</code>, <code>unit</code>, <code>weather</code>, etc.</p>
+<p>Data patches follow a hierarchy. At the first level, you define the type of content to be changed: <code>block</code>, <code>liquid</code>, <code>item</code>, <code>unit</code>, <code>weather</code>, etc.</p>
 <p>At the <em>second</em> level, you define the name of the content to be edited, e.g. <code>conveyor</code>, <code>copper</code>, <code>copper-wall-large</code>. These names are <em>case-sensitive</em>, and will be shown under the content's name in the Core Database if you have the console enabled.</p>
 <p>At the <em>third</em> level, you define the properties you will be changing, and their corresponding values. As an example:</p>
 <div class="language-json5 highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="err">block</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
