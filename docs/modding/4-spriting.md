@@ -171,9 +171,9 @@ Modded Examples:
   
     - <img src="/wiki/images/modding/spriting/sprite-examples/flintyx-unit-bunker.png" draggable="false">
   
-  - Steam Press by Geschiedenis #4783 from [Unlimited Armament Works](https://github.com/Eschatologue/Unlimited-Armament-Works)
+  - Surge Mixer by Geschiedenis #4783 from [Unlimited Armament Works](https://github.com/Eschatologue/Unlimited-Armament-Works)
     
-    - ![](https://raw.githubusercontent.com/Eschatologue/Unlimited-Armament-Works/master/assets/sprites/blocks/production/steam-press.png)
+    - ![](https://raw.githubusercontent.com/Eschatologue/Unlimited-Armament-Works/master/assets/sprites/blocks/production/surge-mixer.png)
 
 
 ---
@@ -407,8 +407,8 @@ Walls also have an optional 2x2 version, which is randomly mixed in with the 1x1
 Ores are overlaid on top of floors, so they should look decent across all floor textures they will likely be placed on.
 
   - Vanilla Examples :
-    - ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/environment/thorium1.png) ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/environment/thorium2.png) ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/environment/thorium3.png)
-    - ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/environment/scrap1.png) ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/environment/scrap2.png) ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/environment/scrap3.png)
+    - ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/environment/ore-thorium1.png) ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/environment/ore-thorium2.png) ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/environment/ore-thorium3.png)
+    - ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/environment/ore-scrap1.png) ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/environment/ore-scrap2.png) ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/environment/ore-scrap3.png)
   - Modded Examples : 
     - ![](https://raw.githubusercontent.com/Sh1penfire/Endless-Rusting/master/assets/sprites/blocks/environment/melonaleum1.png) ![](https://raw.githubusercontent.com/Sh1penfire/Endless-Rusting/master/assets/sprites/blocks/environment/melonaleum2.png) 
     - ![](https://raw.githubusercontent.com/Sh1penfire/Endless-Rusting/master/assets/sprites/blocks/environment/taconite1.png) ![](https://raw.githubusercontent.com/Sh1penfire/Endless-Rusting/master/assets/sprites/blocks/environment/taconite2.png) ![](https://raw.githubusercontent.com/Sh1penfire/Endless-Rusting/master/assets/sprites/blocks/environment/taconite3.png)  
