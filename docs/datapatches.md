@@ -53,7 +53,7 @@ To reload patches while the server is still running, use the `reloadpatches` com
 
 # Data Patch Basics
 
-Data patches follow a heirarchy. At the first level, you define the type of content to be changed: `block`, `liquid`, `item`, `unit`, `weather`, etc.
+Data patches follow a hierarchy. At the first level, you define the type of content to be changed: `block`, `liquid`, `item`, `unit`, `weather`, etc.
 
 At the *second* level, you define the name of the content to be edited, e.g. `conveyor`, `copper`, `copper-wall-large`. These names are *case-sensitive*, and will be shown under the content's name in the Core Database if you have the console enabled.
 
