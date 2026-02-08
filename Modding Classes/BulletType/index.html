@@ -23670,7 +23670,7 @@
 <td>minRangeChange</td>
 <td>float</td>
 <td>0.0</td>
-<td>When used in a turret with multiple ammoo types, this can be set to a non-zero value to influence minRange</td>
+<td>When used in a turret with multiple ammo types, this can be set to a non-zero value to influence minRange</td>
 </tr>
 <tr>
 <td>healPercent</td>
@@ -23718,19 +23718,25 @@
 <td>despawnHit</td>
 <td>boolean</td>
 <td>false</td>
-<td>Whether to create hit effects on despawn. Forced to true if this bullet has any special effects like splash damage.</td>
+<td>Whether to create hit effects on despawn. Forced to true if this bullet has any special effects like splash damage. Disable setDefaults to avoid override</td>
 </tr>
 <tr>
 <td>fragOnHit</td>
 <td>boolean</td>
 <td>true</td>
-<td>If true, this bullet will create bullets when it hits anything, not just when it despawns.</td>
+<td>If true, this bullet will create bullets when it hits anything</td>
+</tr>
+<tr>
+<td>fragOnDespawn</td>
+<td>boolean</td>
+<td>true</td>
+<td>If true, this bullet will create bullets when it despawns</td>
 </tr>
 <tr>
 <td>fragOnAbsorb</td>
 <td>boolean</td>
 <td>true</td>
-<td>If false, this bullet will not create fraags when absorbed by a shield.</td>
+<td>If false, this bullet will not create frags when absorbed by a shield.</td>
 </tr>
 <tr>
 <td>pierceArmor</td>
