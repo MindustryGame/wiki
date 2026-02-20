@@ -5,6 +5,5 @@
   maxWidth: 2048,
   maxHeight: 2048,
   fast: true,
-  stripWhitespaceCenter: true,
-  ignoredWhitespaceStrings: ["effects/"]
+  stripWhitespaceCenter: true
 }
