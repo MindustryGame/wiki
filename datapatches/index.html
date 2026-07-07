@@ -23383,12 +23383,29 @@
 </ul>
 <p>Some of the things that data patches <strong>cannot</strong> do:</p>
 <ul>
-<li>Introduce new textures or assets into the game</li>
 <li>Introduce new mechanics not present in vanilla</li>
-<li>Change the types of blocks (e.g. wall into turret)</li>
-<li>Add new content (items, blocks, units, etc)</li>
+<li>Change the types of existing blocks (e.g. wall into turret)</li>
 </ul>
-<p>Balance patches are <em>not</em> a replacement for mods; they can only tweak existing content.</p>
+<p>Balance patches are <em>not</em> a replacement for mods; they can only tweak existing content and mechanics.</p>
+<h1 id="a-note-on-adding-new-content">A Note On Adding New Content</h1>
+<p>If your goal is to <em>add</em> new content with the system introduced in Build 159, the system is a bit different from data <em>patches</em>.</p>
+<p>There is no comprehensive guide yet, but here's a brief overview of how it works:</p>
+<ul>
+<li>Content has the same format as in JSON mods, with some limitations.</li>
+<li>Unsupported features:</li>
+<li>Planets (not useful in maps/servers)</li>
+<li>Sectors, for the same reason</li>
+<li>Tech tree additions/modifications</li>
+<li>Directly reassigning texture regions is not possible; they are loaded based on content name.</li>
+<li>For example, you cannot set <code>uiIcon: "cat"</code> for a block, as you can with patches.</li>
+<li>You need to have an image with the block name loaded as an asset instead.</li>
+<li>For example, if you have a new block or item named "cat", you will need to import "cat.png" in the image tab, and it will automatically be loaded as the block's icon/sprite.</li>
+<li>Different blocks have different image naming schemes, which can get quite complicated. This is not yet documented.</li>
+<li>Since you are defining <em>new</em> content, not patches, field selectors are not supported.</li>
+<li>This includes trying to assign things like: <code>weapons.0.name</code>, <code>weapons.+</code>, etc. You can only assign to <em>one</em> field at a time directly.</li>
+<li>All assets and content have the <code>dp-</code> prefix.</li>
+<li>For example: if you import a PNG called "cat-weapon", the sprite name will be "dp-cat-weapon" in texture markers and weapon names. The same goes for sounds.</li>
+</ul>
 <h1 id="writing-a-trivial-data-patch">Writing A Trivial Data Patch</h1>
 <p>Data patches are written in JSON or HJSON (a superset of JSON). You will need a text editor to write them; there is currently no in-game editor for patches.</p>
 <p>For the sake of brevity, this guide will only show how to write patches in HJSON.</p>
