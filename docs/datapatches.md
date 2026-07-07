@@ -14,12 +14,31 @@ Some things that data patches **can** do:
 
 Some of the things that data patches **cannot** do:
 
-- Introduce new textures or assets into the game
 - Introduce new mechanics not present in vanilla
-- Change the types of blocks (e.g. wall into turret)
-- Add new content (items, blocks, units, etc)
+- Change the types of existing blocks (e.g. wall into turret)
 
-Balance patches are *not* a replacement for mods; they can only tweak existing content.
+Balance patches are *not* a replacement for mods; they can only tweak existing content and mechanics.
+
+# A Note On Adding New Content
+
+If your goal is to *add* new content with the system introduced in Build 159, the system is a bit different from data *patches*.
+
+There is no comprehensive guide yet, but here's a brief overview of how it works:
+
+- Content has the same format as in JSON mods, with some limitations.
+- Unsupported features:
+  - Planets (not useful in maps/servers)
+  - Sectors, for the same reason
+  - Tech tree additions/modifications
+- Directly reassigning texture regions is not possible; they are loaded based on content name.
+  - For example, you cannot set `uiIcon: "cat"` for a block, as you can with patches.
+  - You need to have an image with the block name loaded as an asset instead.
+  - For example, if you have a new block or item named "cat", you will need to import "cat.png" in the image tab, and it will automatically be loaded as the block's icon/sprite.
+  - Different blocks have different image naming schemes, which can get quite complicated. This is not yet documented.
+- Since you are defining *new* content, not patches, field selectors are not supported.
+  - This includes trying to assign things like: `weapons.0.name`, `weapons.+`, etc. You can only assign to *one* field at a time directly.
+- All assets and content have the `dp-` prefix.
+  - For example: if you import a PNG called "cat-weapon", the sprite name will be "dp-cat-weapon" in texture markers and weapon names. The same goes for sounds.
 
 # Writing A Trivial Data Patch
 
