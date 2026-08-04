@@ -189,7 +189,7 @@ Nodes accept a `condition` string. If it evaluates false, that node is skipped e
 
 Supported conditions: `"portrait"`, `"landscape"`, or `"<width|height> <op> <number>"` where `op` is one of `>=`, `>`, `<=`, `<`.
 
-```
+```js
 table{
   condition: "landscape"
   row
@@ -268,7 +268,7 @@ The target player's name is baked directly into the `clicked` result string (`"k
 
 ### Vote-kick confirmation with a slider threshold
 
-```
+```js
 defaults{
   pad: 6
   width: 300
@@ -300,7 +300,7 @@ The server reads `result.getFloat("threshold")` when `startVote` is returned.
 
 ### Server settings panel with checkboxes and grouped buttons
 
-```
+```js
 defaults{
   pad: 8
 }
@@ -329,7 +329,7 @@ table{
   }
   button: "Easy"{ //also shorthand for text
     group: difficulty
-    id: diffEasy
+    id: diffEasy //no clicked: here because it shouldn't close the dialog
     style: togglet
   }
   button: "Normal"{
@@ -352,7 +352,7 @@ button: "Save"{
 }
 ```
 
-`group: difficulty` makes the three difficulty buttons mutually exclusive (a `ButtonGroup`), and their `checked` state comes back in `values` for any id'd checkable element, so the server can read which one is currently selected next time any button fires.
+`group: difficulty` makes the three difficulty buttons mutually exclusive (a `ButtonGroup`), and their `checked` state comes back in `values` for any id'd checkable element, so the server can read which one is currently selected when 'save' is pressed.
 
 ## Cell properties
 
@@ -401,7 +401,7 @@ Note: `defaults{}` blocks apply cell properties to every sibling node added afte
 | `imageButton` | Icon-only button. Supports `icon`, `style`, `clicked`, `group`, `checked`.                                                                                            | `imageButton{ icon: ok clicked: confirm }` |
 | `field` | Text input. Supports `text`, `hint`, `maxLength`, `style`, and `id` to read back the value.                                                                           | `field{ id: search hint: "Search..." growX: true }` |
 | `check` | Checkbox. Supports `text`, `checked`, `style`, `group`, `id`.                                                                                                         | `check{ id: ranked text: "Ranked only" checked: true }` |
-| `slider` | Slider. Supports `min`, `max`, `step`, `defaultValue`, `style`, `id`.                                                                                                 | `slider{ id: kickVotes min: 1 max: 10 step: 1 defaultValue: 3 }` |
+| `slider` | Slider. Supports `min`, `max`, `step`, `defaultValue`, `style`, `id`, `text`. Text can be a format string that contains `{0}` from a bundle.                                                                                                 | `slider{ id: kickVotes min: 1 max: 10 step: 1 defaultValue: 3 text: "Votes: " }` |
 | `space` | Empty cell, useful as a spacer.                                                                                                                                       | `space` |
 | `buttonTable` | A `Button` that also acts as a container for other nodes (a whole clickable table). Supports `style`, `clicked`, `group`.                                             | `buttonTable{ clicked: pick1 label: "Map 1" }` |
 | `defaults` | Not a real element; sets cell property defaults for later siblings in this block.                                                                                     | `defaults{ pad: 4 }` |
