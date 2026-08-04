@@ -309,15 +309,13 @@ check{
   text: "Enable bingus"
   checked: true
 }
-
 check{
   id: frogs
   text: "Enable frogs"
   checked: false
 }
 row
-label{
-  text: "Difficulty"
+label: "Difficulty"{ //placing it here is shorthand for text
   colspan: 2
   labelAlign: center
   fillX: true
@@ -329,31 +327,24 @@ table{
     width: 200
     height: 50
   }
-  button{
-    //no click listener on these as they shouldn't close the dialog
-    text: "Easy"
+  button: "Easy"{ //also shorthand for text
     group: difficulty
     id: diffEasy
-    //must have a toggleable style to work (see styles at the end of this doc)
     style: togglet
   }
-  button{
-    text: "Normal"
+  button: "Normal"{
     group: difficulty
     id: diffNormal
     style: togglet
   }
-  button{
-    text: "Insufferable"
+  button: "Insufferable"{
     group: difficulty
     id: diffInsufferable
     style: togglet
   }
 }
 row
-button{
-  text: "Save"
-  //this closes the dialog
+button: "Save"{
   clicked: save
   colspan: 2
   fillX: true
