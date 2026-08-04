@@ -2,9 +2,9 @@
 
 ## Why this system exists
 
-Servers were previously limited to `Call.menu` - a plain grid of buttons, and nothing else. This is very limited.
+Servers were previously limited to `Call.menu`, which only allowed a plain grid of buttons, and nothing else.
 
-This sytem adds a way to build a dynamic, serializable UI tree on the server, with support for multiple return values per dialog.
+UI builders add a way to create a dynamic, serializable UI tree on the server, with support for multiple return values per dialog.
 
 *Note: This system is only available in build 160+.*
 
