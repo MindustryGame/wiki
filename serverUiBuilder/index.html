@@ -23865,10 +23865,10 @@
 </span><span id="__span-2-22"><a id="__codelineno-2-22" name="__codelineno-2-22" href="#__codelineno-2-22"></a><span class="s">&quot;&quot;&quot;</span><span class="p">).</span><span class="na">id</span><span class="p">(</span><span class="n">voteId</span><span class="p">).</span><span class="na">title</span><span class="p">(</span><span class="s">&quot;Select Map&quot;</span><span class="p">).</span><span class="na">show</span><span class="p">(</span><span class="n">player</span><span class="p">);</span>
 </span></code></pre></div>
 <h2 id="editing-previewing-dsl">Editing &amp; previewing DSL</h2>
-<p>For syntax highlighting, validation and autocomplete, consider installing the <a href="https://github.com/Anuken/MindustryUiDslVSCode">Mindustry UI DSL VSCode plugin</a>.</p>
-<p>Once you have that set up, open a <code>.msui</code> file in VSCode. Launch Mindustry, and in the console (enabled in Developer options, opened with F8), type:</p>
+<p>For syntax highlighting, validation and autocomplete, consider installing the <a href="https://github.com/Anuken/MindustryUiDslVSCode">VSCode plugin</a> or the <a href="https://github.com/Anuken/MindustryUiDslIntelliJ">IntelliJ plugin</a>.</p>
+<p>Once you have that set up, open a <code>.msui</code> file in your preferred editor. Launch Mindustry, and in the console (enabled in Developer options, opened with F8), type:</p>
 <p><code>UiHotReload.show()</code></p>
-<p>This will open a file chooser window. Select your <code>.msui</code> file. The in-game dialog will now automatically display the layout file you're working on, and live-reload it when the file changes in VSCode.</p>
+<p>This will open a file chooser window. Select your <code>.msui</code> file. The in-game dialog will now automatically display the layout file you're working on, and live-reload it when the file changes.</p>
 <h2 id="conditional-layout-portrait-vs-landscape">Conditional layout (portrait vs landscape)</h2>
 <p>Nodes accept a <code>condition</code> string. If it evaluates false, that node is skipped entirely (not just hidden). This is checked on the client at build time, so it naturally reacts to whatever screen shape that specific player has.</p>
 <p>Supported conditions: <code>"portrait"</code>, <code>"landscape"</code>, or <code>"&lt;width|height&gt; &lt;op&gt; &lt;number&gt;"</code> where <code>op</code> is one of <code>&gt;=</code>, <code>&gt;</code>, <code>&lt;=</code>, <code>&lt;</code>.</p>
