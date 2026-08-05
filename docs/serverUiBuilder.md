@@ -187,7 +187,7 @@ button{
 
 For syntax highlighting, validation and autocomplete, consider installing the [Mindustry UI DSL VSCode plugin](https://github.com/Anuken/MindustryUiDslVSCode).
 
-Once you have that set up, open a `.msui` file in VSCode. The, launch Mindustry, and in the console (enabled in Developer options, opened with F8), type:
+Once you have that set up, open a `.msui` file in VSCode. Launch Mindustry, and in the console (enabled in Developer options, opened with F8), type:
 
 `UiHotReload.show()`
 
