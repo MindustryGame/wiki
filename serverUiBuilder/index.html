@@ -398,6 +398,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#editing-previewing-dsl" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Editing &amp; previewing DSL
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#conditional-layout-portrait-vs-landscape" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -23571,6 +23582,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#editing-previewing-dsl" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Editing &amp; previewing DSL
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#conditional-layout-portrait-vs-landscape" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -23842,6 +23864,11 @@
 </span><span id="__span-2-21"><a id="__codelineno-2-21" name="__codelineno-2-21" href="#__codelineno-2-21"></a><span class="s">}</span>
 </span><span id="__span-2-22"><a id="__codelineno-2-22" name="__codelineno-2-22" href="#__codelineno-2-22"></a><span class="s">&quot;&quot;&quot;</span><span class="p">).</span><span class="na">id</span><span class="p">(</span><span class="n">voteId</span><span class="p">).</span><span class="na">title</span><span class="p">(</span><span class="s">&quot;Select Map&quot;</span><span class="p">).</span><span class="na">show</span><span class="p">(</span><span class="n">player</span><span class="p">);</span>
 </span></code></pre></div>
+<h2 id="editing-previewing-dsl">Editing &amp; previewing DSL</h2>
+<p>For syntax highlighting, validation and autocomplete, consider installing the <a href="https://github.com/Anuken/MindustryUiDslVSCode">Mindustry UI DSL VSCode plugin</a>.</p>
+<p>Once you have that set up, open a <code>.msui</code> file in VSCode. The, launch Mindustry, and in the console (enabled in Developer options, opened with F8), type:</p>
+<p><code>UiHotReload.show()</code></p>
+<p>This will open a file chooser window. Select your <code>.msui</code> file. The in-game dialog will now automatically display the layout file you're working on, and live-reload it when the file changes in VSCode.</p>
 <h2 id="conditional-layout-portrait-vs-landscape">Conditional layout (portrait vs landscape)</h2>
 <p>Nodes accept a <code>condition</code> string. If it evaluates false, that node is skipped entirely (not just hidden). This is checked on the client at build time, so it naturally reacts to whatever screen shape that specific player has.</p>
 <p>Supported conditions: <code>"portrait"</code>, <code>"landscape"</code>, or <code>"&lt;width|height&gt; &lt;op&gt; &lt;number&gt;"</code> where <code>op</code> is one of <code>&gt;=</code>, <code>&gt;</code>, <code>&lt;=</code>, <code>&lt;</code>.</p>
@@ -24133,9 +24160,15 @@
 <td>int</td>
 <td>Number of columns this cell spans.</td>
 </tr>
+<tr>
+<td><code>color</code></td>
+<td>string</td>
+<td>Tint color for the cell (hex string or color name, e.g. <code>"white"</code> or <code>"ffaa00"</code>). Applies to any node's cell regardless of type.</td>
+</tr>
 </tbody>
 </table>
 <p>Note: <code>defaults{}</code> blocks apply cell properties to every sibling node added after them within the same table body, but don't reach into nested <code>table{}</code>/<code>pane{}</code> blocks.</p>
+<p>Note: <code>disabled</code> (bool) is also applied at the cell level, but only has an effect on elements implementing <code>Disableable</code> — <code>button</code>, <code>imageButton</code>, <code>field</code>, <code>check</code>, <code>slider</code>, and <code>buttonTable</code>. It sets the element's initial disabled state.</p>
 <h2 id="elements">Elements</h2>
 <table>
 <thead>
@@ -24168,27 +24201,27 @@
 </tr>
 <tr>
 <td><code>button</code></td>
-<td>Text button, optional icon. Supports <code>text</code>, <code>icon</code>, <code>style</code>, <code>clicked</code>, <code>group</code>, <code>checked</code>.</td>
+<td>Text button, optional icon. Supports <code>text</code>, <code>icon</code>, <code>style</code>, <code>clicked</code>, <code>group</code>, <code>checked</code>, <code>disabled</code>.</td>
 <td><code>button{ text: "Vote" clicked: vote1 }</code></td>
 </tr>
 <tr>
 <td><code>imageButton</code></td>
-<td>Icon-only button. Supports <code>icon</code>, <code>style</code>, <code>clicked</code>, <code>group</code>, <code>checked</code>.</td>
+<td>Icon-only button. Supports <code>icon</code>, <code>style</code>, <code>clicked</code>, <code>group</code>, <code>checked</code>, <code>disabled</code>.</td>
 <td><code>imageButton{ icon: ok clicked: confirm }</code></td>
 </tr>
 <tr>
 <td><code>field</code></td>
-<td>Text input. Supports <code>text</code>, <code>hint</code>, <code>maxLength</code>, <code>style</code>, and <code>id</code> to read back the value.</td>
+<td>Text input. Supports <code>text</code>, <code>hint</code>, <code>maxLength</code>, <code>style</code>, <code>disabled</code>, and <code>id</code> to read back the value.</td>
 <td><code>field{ id: search hint: "Search..." growX: true }</code></td>
 </tr>
 <tr>
 <td><code>check</code></td>
-<td>Checkbox. Supports <code>text</code>, <code>checked</code>, <code>style</code>, <code>group</code>, <code>id</code>.</td>
+<td>Checkbox. Supports <code>text</code>, <code>checked</code>, <code>style</code>, <code>group</code>, <code>disabled</code>, <code>id</code>.</td>
 <td><code>check{ id: ranked text: "Ranked only" checked: true }</code></td>
 </tr>
 <tr>
 <td><code>slider</code></td>
-<td>Slider. Supports <code>min</code>, <code>max</code>, <code>step</code>, <code>defaultValue</code>, <code>style</code>, <code>id</code>, <code>text</code>. Text can be a format string that contains <code>{0}</code> from a bundle.</td>
+<td>Slider. Supports <code>min</code>, <code>max</code>, <code>step</code>, <code>defaultValue</code>, <code>style</code>, <code>disabled</code>, <code>id</code>, <code>text</code>. Text can be a format string that contains <code>{0}</code> from a bundle.</td>
 <td><code>slider{ id: kickVotes min: 1 max: 10 step: 1 defaultValue: 3 text: "Votes: " }</code></td>
 </tr>
 <tr>
@@ -24198,7 +24231,7 @@
 </tr>
 <tr>
 <td><code>buttonTable</code></td>
-<td>A <code>Button</code> that also acts as a container for other nodes (a whole clickable table). Supports <code>style</code>, <code>clicked</code>, <code>group</code>.</td>
+<td>A <code>Button</code> that also acts as a container for other nodes (a whole clickable table). Supports <code>style</code>, <code>clicked</code>, <code>group</code>, <code>margin</code>, <code>disabled</code>.</td>
 <td><code>buttonTable{ clicked: pick1 label: "Map 1" }</code></td>
 </tr>
 <tr>
