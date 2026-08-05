@@ -185,13 +185,13 @@ button{
 
 ## Editing & previewing DSL
 
-For syntax highlighting, validation and autocomplete, consider installing the [Mindustry UI DSL VSCode plugin](https://github.com/Anuken/MindustryUiDslVSCode).
+For syntax highlighting, validation and autocomplete, consider installing the [VSCode plugin](https://github.com/Anuken/MindustryUiDslVSCode) or the [IntelliJ plugin](https://github.com/Anuken/MindustryUiDslIntelliJ).
 
-Once you have that set up, open a `.msui` file in VSCode. Launch Mindustry, and in the console (enabled in Developer options, opened with F8), type:
+Once you have that set up, open a `.msui` file in your preferred editor. Launch Mindustry, and in the console (enabled in Developer options, opened with F8), type:
 
 `UiHotReload.show()`
 
-This will open a file chooser window. Select your `.msui` file. The in-game dialog will now automatically display the layout file you're working on, and live-reload it when the file changes in VSCode.
+This will open a file chooser window. Select your `.msui` file. The in-game dialog will now automatically display the layout file you're working on, and live-reload it when the file changes.
 
 ## Conditional layout (portrait vs landscape)
 
