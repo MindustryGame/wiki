@@ -183,6 +183,16 @@ button{
 """).id(voteId).title("Select Map").show(player);
 ```
 
+## Editing & previewing DSL
+
+For syntax highlighting, validation and autocomplete, consider installing the [Mindustry UI DSL VSCode plugin](https://github.com/Anuken/MindustryUiDslVSCode).
+
+Once you have that set up, open a `.msui` file in VSCode. The, launch Mindustry, and in the console (enabled in Developer options, opened with F8), type:
+
+`UiHotReload.show()`
+
+This will open a file chooser window. Select your `.msui` file. The in-game dialog will now automatically display the layout file you're working on, and live-reload it when the file changes in VSCode.
+
 ## Conditional layout (portrait vs landscape)
 
 Nodes accept a `condition` string. If it evaluates false, that node is skipped entirely (not just hidden). This is checked on the client at build time, so it naturally reacts to whatever screen shape that specific player has.
@@ -386,8 +396,11 @@ These apply to the *cell* a node occupies in its parent table, mirroring `scene2
 | `padRight` | float | Right padding.                                                                                                        |
 | `align` | string | Alignment within the cell (`top`, `bottom`, `left`, `right`, `center`, `topLeft`, `botLeft`, `topRight`, `botRight`). |
 | `colspan` | int | Number of columns this cell spans.                                                                                    |
+| `color` | string | Tint color for the cell (hex string or color name, e.g. `"white"` or `"ffaa00"`). Applies to any node's cell regardless of type. |
 
 Note: `defaults{}` blocks apply cell properties to every sibling node added after them within the same table body, but don't reach into nested `table{}`/`pane{}` blocks.
+
+Note: `disabled` (bool) is also applied at the cell level, but only has an effect on elements implementing `Disableable` — `button`, `imageButton`, `field`, `check`, `slider`, and `buttonTable`. It sets the element's initial disabled state.
 
 ## Elements
 
@@ -397,13 +410,13 @@ Note: `defaults{}` blocks apply cell properties to every sibling node added afte
 | `pane` | Scrollable container wrapping an inner table. Supports `style`.                                                                                                       | `pane{ label: "scrollable content" }` |
 | `label` | Text label. Supports `text`, `wrap`, `style`, `labelAlign`. Resolves `@bundleKey` text itself, which can be sourced from bundles in the server assets/bundles folder. | `label: "Hello"` |
 | `image` | An image from the texture atlas or an icon. Supports `region`/`icon`, `scaling`, `size`.                                                                              | `image{ region: "ok" size: 300 }` |
-| `button` | Text button, optional icon. Supports `text`, `icon`, `style`, `clicked`, `group`, `checked`.                                                                          | `button{ text: "Vote" clicked: vote1 }` |
-| `imageButton` | Icon-only button. Supports `icon`, `style`, `clicked`, `group`, `checked`.                                                                                            | `imageButton{ icon: ok clicked: confirm }` |
-| `field` | Text input. Supports `text`, `hint`, `maxLength`, `style`, and `id` to read back the value.                                                                           | `field{ id: search hint: "Search..." growX: true }` |
-| `check` | Checkbox. Supports `text`, `checked`, `style`, `group`, `id`.                                                                                                         | `check{ id: ranked text: "Ranked only" checked: true }` |
-| `slider` | Slider. Supports `min`, `max`, `step`, `defaultValue`, `style`, `id`, `text`. Text can be a format string that contains `{0}` from a bundle.                                                                                                 | `slider{ id: kickVotes min: 1 max: 10 step: 1 defaultValue: 3 text: "Votes: " }` |
+| `button` | Text button, optional icon. Supports `text`, `icon`, `style`, `clicked`, `group`, `checked`, `disabled`.                                                                          | `button{ text: "Vote" clicked: vote1 }` |
+| `imageButton` | Icon-only button. Supports `icon`, `style`, `clicked`, `group`, `checked`, `disabled`.                                                                                            | `imageButton{ icon: ok clicked: confirm }` |
+| `field` | Text input. Supports `text`, `hint`, `maxLength`, `style`, `disabled`, and `id` to read back the value.                                                                           | `field{ id: search hint: "Search..." growX: true }` |
+| `check` | Checkbox. Supports `text`, `checked`, `style`, `group`, `disabled`, `id`.                                                                                                         | `check{ id: ranked text: "Ranked only" checked: true }` |
+| `slider` | Slider. Supports `min`, `max`, `step`, `defaultValue`, `style`, `disabled`, `id`, `text`. Text can be a format string that contains `{0}` from a bundle.                                                                                                 | `slider{ id: kickVotes min: 1 max: 10 step: 1 defaultValue: 3 text: "Votes: " }` |
 | `space` | Empty cell, useful as a spacer.                                                                                                                                       | `space` |
-| `buttonTable` | A `Button` that also acts as a container for other nodes (a whole clickable table). Supports `style`, `clicked`, `group`.                                             | `buttonTable{ clicked: pick1 label: "Map 1" }` |
+| `buttonTable` | A `Button` that also acts as a container for other nodes (a whole clickable table). Supports `style`, `clicked`, `group`, `margin`, `disabled`.                                             | `buttonTable{ clicked: pick1 label: "Map 1" }` |
 | `defaults` | Not a real element; sets cell property defaults for later siblings in this block.                                                                                     | `defaults{ pad: 4 }` |
 | `row` | Not a node; ends the current row and starts a new one.                                                                                                                | `row` |
 
