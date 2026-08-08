@@ -185,7 +185,7 @@ button{
 
 ## Editing & previewing DSL
 
-For syntax highlighting, validation and autocomplete, consider installing the [VSCode plugin](https://github.com/Anuken/MindustryUiDslVSCode) or the [IntelliJ plugin](https://github.com/Anuken/MindustryUiDslIntelliJ).
+For syntax highlighting, validation and autocomplete, consider installing the [IntelliJ plugin](https://github.com/Anuken/MindustryUiDslIntelliJ).
 
 Once you have that set up, open a `.msui` file in your preferred editor. Launch Mindustry, and in the console (enabled in Developer options, opened with F8), type:
 
