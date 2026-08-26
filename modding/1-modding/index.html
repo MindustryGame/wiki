@@ -23782,58 +23782,56 @@ To make mods, all you really need is any computer with a text editor.</p>
 </ul>
 <h2 id="hjson">HJSON</h2>
 <p>Mindustry uses <a href="https://hjson.github.io/">Hjson</a>, which, for anyone who knows JSON, is simply a superset of the very popular serialization language known as <a href="https://en.wikipedia.org/wiki/JSON">Json</a>. This means that any valid JSON will work, but you get extra useful stuff:
-<div class="language-php highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="x"># single line comment</span>
+<div class="language-js highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="err">#</span><span class="w"> </span><span class="nx">single</span><span class="w"> </span><span class="nx">line</span><span class="w"> </span><span class="nx">comment</span>
 </span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>
-</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="x">// single line comment</span>
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="c1">// single line comment</span>
 </span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>
-</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="x">/* multiline</span>
-</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a><span class="x">   comment */</span>
+</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="cm">/* multiline</span>
+</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a><span class="cm">   comment */</span>
 </span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>
-</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a><span class="x">key1: &quot;single line string&quot;</span>
+</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a><span class="nx">key1</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;single line string&quot;</span>
 </span><span id="__span-0-9"><a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>
-</span><span id="__span-0-10"><a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a><span class="x">key2:</span>
-</span><span id="__span-0-11"><a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a><span class="x">  &#39;&#39;&#39;</span>
-</span><span id="__span-0-12"><a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a><span class="x">  multiline</span>
-</span><span id="__span-0-13"><a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a><span class="x">  string</span>
-</span><span id="__span-0-14"><a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a><span class="x">  &#39;&#39;&#39;</span>
+</span><span id="__span-0-10"><a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a><span class="nx">key2</span><span class="o">:</span>
+</span><span id="__span-0-11"><a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a><span class="w">  </span><span class="s1">&#39;&#39;&#39;</span>
+</span><span id="__span-0-12"><a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a><span class="s1">  multiline</span>
+</span><span id="__span-0-13"><a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a><span class="s1">  string</span>
+</span><span id="__span-0-14"><a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a><span class="s1">  &#39;&#39;&#39;</span>
 </span><span id="__span-0-15"><a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a>
-</span><span id="__span-0-16"><a id="__codelineno-0-16" name="__codelineno-0-16" href="#__codelineno-0-16"></a><span class="x">key3: [</span>
-</span><span id="__span-0-17"><a id="__codelineno-0-17" name="__codelineno-0-17" href="#__codelineno-0-17"></a><span class="x">  //quotes and commas are optional for strings</span>
-</span><span id="__span-0-18"><a id="__codelineno-0-18" name="__codelineno-0-18" href="#__codelineno-0-18"></a><span class="x">  value1</span>
-</span><span id="__span-0-19"><a id="__codelineno-0-19" name="__codelineno-0-19" href="#__codelineno-0-19"></a><span class="x">  value2</span>
-</span><span id="__span-0-20"><a id="__codelineno-0-20" name="__codelineno-0-20" href="#__codelineno-0-20"></a><span class="x">  value3</span>
-</span><span id="__span-0-21"><a id="__codelineno-0-21" name="__codelineno-0-21" href="#__codelineno-0-21"></a><span class="x">]</span>
+</span><span id="__span-0-16"><a id="__codelineno-0-16" name="__codelineno-0-16" href="#__codelineno-0-16"></a><span class="nx">key3</span><span class="o">:</span><span class="w"> </span><span class="p">[</span>
+</span><span id="__span-0-17"><a id="__codelineno-0-17" name="__codelineno-0-17" href="#__codelineno-0-17"></a><span class="w">  </span><span class="c1">//quotes and commas are optional for strings</span>
+</span><span id="__span-0-18"><a id="__codelineno-0-18" name="__codelineno-0-18" href="#__codelineno-0-18"></a><span class="w">  </span><span class="nx">value1</span>
+</span><span id="__span-0-19"><a id="__codelineno-0-19" name="__codelineno-0-19" href="#__codelineno-0-19"></a><span class="w">  </span><span class="nx">value2</span>
+</span><span id="__span-0-20"><a id="__codelineno-0-20" name="__codelineno-0-20" href="#__codelineno-0-20"></a><span class="w">  </span><span class="nx">value3</span>
+</span><span id="__span-0-21"><a id="__codelineno-0-21" name="__codelineno-0-21" href="#__codelineno-0-21"></a><span class="p">]</span>
 </span><span id="__span-0-22"><a id="__codelineno-0-22" name="__codelineno-0-22" href="#__codelineno-0-22"></a>
-</span><span id="__span-0-23"><a id="__codelineno-0-23" name="__codelineno-0-23" href="#__codelineno-0-23"></a><span class="x">key4: {</span>
-</span><span id="__span-0-24"><a id="__codelineno-0-24" name="__codelineno-0-24" href="#__codelineno-0-24"></a><span class="x">  key1: astring</span>
-</span><span id="__span-0-25"><a id="__codelineno-0-25" name="__codelineno-0-25" href="#__codelineno-0-25"></a><span class="x">  key2: 0</span>
-</span><span id="__span-0-26"><a id="__codelineno-0-26" name="__codelineno-0-26" href="#__codelineno-0-26"></a><span class="x">}</span>
+</span><span id="__span-0-23"><a id="__codelineno-0-23" name="__codelineno-0-23" href="#__codelineno-0-23"></a><span class="nx">key4</span><span class="o">:</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-0-24"><a id="__codelineno-0-24" name="__codelineno-0-24" href="#__codelineno-0-24"></a><span class="w">  </span><span class="nx">key1</span><span class="o">:</span><span class="w"> </span><span class="nx">astring</span>
+</span><span id="__span-0-25"><a id="__codelineno-0-25" name="__codelineno-0-25" href="#__codelineno-0-25"></a><span class="w">  </span><span class="nx">key2</span><span class="o">:</span><span class="w"> </span><span class="mf">0</span>
+</span><span id="__span-0-26"><a id="__codelineno-0-26" name="__codelineno-0-26" href="#__codelineno-0-26"></a><span class="p">}</span>
 </span><span id="__span-0-27"><a id="__codelineno-0-27" name="__codelineno-0-27" href="#__codelineno-0-27"></a>
-</span><span id="__span-0-28"><a id="__codelineno-0-28" name="__codelineno-0-28" href="#__codelineno-0-28"></a><span class="x">//unlike the official HJSON spec, multiple quoteless strings are allowed in the same line in an array</span>
+</span><span id="__span-0-28"><a id="__codelineno-0-28" name="__codelineno-0-28" href="#__codelineno-0-28"></a><span class="c1">//unlike the official HJSON spec, multiple quoteless strings are allowed in the same line in an array</span>
 </span><span id="__span-0-29"><a id="__codelineno-0-29" name="__codelineno-0-29" href="#__codelineno-0-29"></a>
-</span><span id="__span-0-30"><a id="__codelineno-0-30" name="__codelineno-0-30" href="#__codelineno-0-30"></a><span class="x">arrayExample: [several, words, that, will, work]</span>
+</span><span id="__span-0-30"><a id="__codelineno-0-30" name="__codelineno-0-30" href="#__codelineno-0-30"></a><span class="nx">arrayExample</span><span class="o">:</span><span class="w"> </span><span class="p">[</span><span class="nx">several</span><span class="p">,</span><span class="w"> </span><span class="nx">words</span><span class="p">,</span><span class="w"> </span><span class="nx">that</span><span class="p">,</span><span class="w"> </span><span class="nx">will</span><span class="p">,</span><span class="w"> </span><span class="nx">work</span><span class="p">]</span>
 </span></code></pre></div>
 If you don't know any of those words: a serialization language is simply a language which encodes information for a program, and <em>encode</em> means to translate information from one form to another, in this case, to translate text into Java data structures.</p>
 <p>It is worth noting that the 'official' HJSON standard is dead, and contains several serious flaws. The Mindustry HJSON parser uses a slightly modified format that allows quoteless multiline arrays, for example.</p>
 <h2 id="modhjson"><code>mod.hjson</code></h2>
-<p>At the root of your project directory, you must have a <code>mod.hjson</code>, which defines the basic metadata for your project. </p>
-<div class="language-text highlight"><pre><span></span><code>name: &quot;mod-name&quot;
-displayName: &quot;This isn&#39;t a mod.&quot;
-author: Yourself
-description: &quot;A short description of your mod.&quot;
-version: &quot;1.0&quot;
-minGameVersion: &quot;159.7&quot;
-dependencies: [ ]
-hidden: false
-</code></pre></div>
-<ul>
-<li><code>name</code> will be used to reference to your mod, so name it carefully. Should be in kebab-case (no capital letters, spaces are filled with '-') and shouldn't have any color formatting.</li>
-<li><code>displayName</code> this will be used as a display name for the UI, which you can use to add formatting to said name.</li>
-<li><code>description</code> of the mod will be rendered in the ingame mod manager, so keep it short and to the point.</li>
-<li><code>dependencies</code> is optional, if you want to know more about that, go to the <a href="#dependencies">dependencies</a> section.</li>
-<li><code>minGameVersion</code> is the minimum build version of the game. This is <strong>required</strong> to be a number greater than 105.</li>
-<li><code>hidden</code> is whether or not this mod is essential for multiplayer, false by default. Texture packs, JS plugins, etc. should set this to true, so they don't cause version-mismatch conflicts between servers and clients. As a rule of thumb, if your mod creates content it shouldn't be hidden.</li>
-</ul>
+<p>At the root of your project directory, you must have a <code>mod.hjson</code>, which defines the basic metadata for your project. 
+<div class="language-js highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="nx">name</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;mod-name&quot;</span>
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="nx">displayName</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;This isn&#39;t a mod.&quot;</span>
+</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="nx">author</span><span class="o">:</span><span class="w"> </span><span class="nx">Yourself</span>
+</span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a><span class="nx">description</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;A short description of your mod.&quot;</span>
+</span><span id="__span-1-5"><a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a><span class="nx">version</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;1.0&quot;</span>
+</span><span id="__span-1-6"><a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a><span class="nx">minGameVersion</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;159.7&quot;</span>
+</span><span id="__span-1-7"><a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a><span class="nx">dependencies</span><span class="o">:</span><span class="w"> </span><span class="p">[</span><span class="w"> </span><span class="p">]</span>
+</span><span id="__span-1-8"><a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a><span class="nx">hidden</span><span class="o">:</span><span class="w"> </span><span class="kc">false</span>
+</span></code></pre></div>
+-   <code>name</code> will be used to reference to your mod, so name it carefully. Should be in kebab-case (no capital letters, spaces are filled with '-') and shouldn't have any color formatting.
+-   <code>displayName</code> this will be used as a display name for the UI, which you can use to add formatting to said name.
+-   <code>description</code> of the mod will be rendered in the ingame mod manager, so keep it short and to the point.
+-   <code>dependencies</code> is optional, if you want to know more about that, go to the <a href="#dependencies">dependencies</a> section.
+-   <code>minGameVersion</code> is the minimum build version of the game. This is <strong>required</strong> to be a number greater than 105.
+-   <code>hidden</code> is whether or not this mod is essential for multiplayer, false by default. Texture packs, JS plugins, etc. should set this to true, so they don't cause version-mismatch conflicts between servers and clients. As a rule of thumb, if your mod creates content it shouldn't be hidden.</p>
 <h2 id="content">Content</h2>
 <p>At the root of your project directory you can have a <code>content/</code> directory. This is where all the Json/Hjson data goes. Inside of <code>content/</code> you have subdirectories for the various kinds of content; these are the current common ones:</p>
 <ul>
@@ -23887,15 +23885,15 @@ description: Description of thing.
 <p>What you can expect a field to do is up to the specific type; some types do absolutely nothing with their fields, and mostly serve as a base for other types to extend from. One such type is <code>Block</code>.</p>
 <p>In this unit example, the type of the unit is <code>flying</code>. The type of the <code>bullet</code> is <code>BulletType</code>, so you can use <code>MissileBulletType</code>, because <code>MissileBulletType</code> extends <code>BulletType</code>.</p>
 <p>Other unit types include <code>mech</code>, <code>legs</code>, <code>naval</code>, <code>payload</code>, <code>tank</code>, <code>hover</code>, <code>crawl</code>, <code>missile</code> and <code>tether</code>.</p>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>type: flying
-</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>weapons: [
-</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a>  {
-</span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a>    bullet: {
-</span><span id="__span-1-5"><a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a>      type: MissileBulletType
-</span><span id="__span-1-6"><a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a>      damage: 9000
-</span><span id="__span-1-7"><a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a>    }
-</span><span id="__span-1-8"><a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a>  }
-</span><span id="__span-1-9"><a id="__codelineno-1-9" name="__codelineno-1-9" href="#__codelineno-1-9"></a>]
+<div class="language-js highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="nx">type</span><span class="o">:</span><span class="w"> </span><span class="nx">flying</span>
+</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="nx">weapons</span><span class="o">:</span><span class="w"> </span><span class="p">[</span>
+</span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a><span class="w">  </span><span class="p">{</span>
+</span><span id="__span-2-4"><a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a><span class="w">    </span><span class="nx">bullet</span><span class="o">:</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-2-5"><a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a><span class="w">      </span><span class="nx">type</span><span class="o">:</span><span class="w"> </span><span class="nx">MissileBulletType</span>
+</span><span id="__span-2-6"><a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a><span class="w">      </span><span class="nx">damage</span><span class="o">:</span><span class="w"> </span><span class="mf">9000</span>
+</span><span id="__span-2-7"><a id="__codelineno-2-7" name="__codelineno-2-7" href="#__codelineno-2-7"></a><span class="w">    </span><span class="p">}</span>
+</span><span id="__span-2-8"><a id="__codelineno-2-8" name="__codelineno-2-8" href="#__codelineno-2-8"></a><span class="w">  </span><span class="p">}</span>
+</span><span id="__span-2-9"><a id="__codelineno-2-9" name="__codelineno-2-9" href="#__codelineno-2-9"></a><span class="p">]</span>
 </span></code></pre></div>
 <p>As of build <code>125.1</code>, types can also be the <em>fully-qualified class name</em> of a Java class. </p>
 <p>For example, to specify a block as a <code>MendProjector</code>, you may write
@@ -23930,15 +23928,15 @@ description: Description of thing.
 </table>
 <p>The cost is then rounded to the nearest 10, 100, 1k, or 100k depending on how large the cost is (rounding isn't always downward).</p>
 <p><code>requirements</code> is the cost of the block or unit. Units use their build cost/upgrade cost for the calculations.</p>
-<p>If you want to set custom research requirements use this object in place of just a name:</p>
-<div class="language-text highlight"><pre><span></span><code>research: {
-  parent: duo
-  requirements: [
-    copper/100
-  ]
-}
-</code></pre></div>
-<p>This can be used to override block or unit costs, or make resources need to be researched instead of just having to produce it.</p>
+<p>If you want to set custom research requirements use this object in place of just a name:
+<div class="language-js highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="nx">research</span><span class="o">:</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="w">  </span><span class="nx">parent</span><span class="o">:</span><span class="w"> </span><span class="nx">duo</span>
+</span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a><span class="w">  </span><span class="nx">requirements</span><span class="o">:</span><span class="w"> </span><span class="p">[</span>
+</span><span id="__span-3-4"><a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a><span class="w">    </span><span class="nx">copper</span><span class="o">/</span><span class="mf">100</span>
+</span><span id="__span-3-5"><a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a><span class="w">  </span><span class="p">]</span>
+</span><span id="__span-3-6"><a id="__codelineno-3-6" name="__codelineno-3-6" href="#__codelineno-3-6"></a><span class="p">}</span>
+</span></code></pre></div>
+This can be used to override block or unit costs, or make resources need to be researched instead of just having to produce it.</p>
 <h2 id="sprites">Sprites</h2>
 <p>All you need to make sprites, is an image editor that supports transparency <em>(aka: not paint).</em> Block sprites should be <code>32 * size</code>, so a <code>2x2</code> block would require a <code>64x64</code> image. Images must be PNG files with a 32-bit RGBA pixel format.
 <strong>Any other pixel format, such as 16-bit RGBA, may cause Mindustry to crash with a "Pixmap decode error".</strong> You can use the command-line tool <code>file</code> to print information about your sprites:</p>
@@ -23963,13 +23961,13 @@ You can also use this to create sprites with nice short names like <code>cat</co
 <p>Here's a list of built-in sounds:</p>
 <p><code>acceleratorCharge</code> <code>acceleratorConstruct</code> <code>acceleratorLaunch</code> <code>acceleratorLightning1</code> <code>acceleratorLightning2</code> <code>beamHeal</code> <code>beamLustre</code> <code>beamMeltdown</code> <code>beamParallax</code> <code>beamPlasma</code> <code>beamPlasmaSmall</code> <code>blockBreak1</code> <code>blockBreak2</code> <code>blockBreak3</code> <code>blockExplode1</code> <code>blockExplode1Alt</code> <code>blockExplode2</code> <code>blockExplode2Alt</code> <code>blockExplode3</code> <code>blockExplodeElectric</code> <code>blockExplodeElectricBig</code> <code>blockExplodeExplosive</code> <code>blockExplodeExplosiveAlt</code> <code>blockExplodeFlammable</code> <code>blockExplodeWall</code> <code>blockHeal</code> <code>blockPlace1</code> <code>blockPlace2</code> <code>blockPlace3</code> <code>blockRepair</code> <code>blockRotate</code> <code>chargeCorvus</code> <code>chargeLancer</code> <code>chargeVela</code> <code>click</code> <code>coreLand</code> <code>coreLaunch</code> <code>door</code> <code>drillCharge</code> <code>drillImpact</code> <code>explosion</code> <code>explosionAfflict</code> <code>explosionArtillery</code> <code>explosionArtilleryShock</code> <code>explosionArtilleryShockBig</code> <code>explosionCleroi</code> <code>explosionCore</code> <code>explosionCrawler</code> <code>explosionDull</code> <code>explosionMissile</code> <code>explosionNavanax</code> <code>explosionObviate</code> <code>explosionPlasmaSmall</code> <code>explosionQuad</code> <code>explosionReactor</code> <code>explosionReactor2</code> <code>explosionReactorNeoplasm</code> <code>explosionTitan</code> <code>healWave</code> <code>loopBio</code> <code>loopBuild</code> <code>loopCircuit</code> <code>loopCombustion</code> <code>loopConveyor</code> <code>loopCultivator</code> <code>loopCutter</code> <code>loopDifferential</code> <code>loopDrill</code> <code>loopElectricHum</code> <code>loopExtract</code> <code>loopFire</code> <code>loopFlux</code> <code>loopGlow</code> <code>loopGrind</code> <code>loopHover</code> <code>loopHover2</code> <code>loopHum</code> <code>loopMachine</code> <code>loopMachine2</code> <code>loopMachineSpin</code> <code>loopMalign</code> <code>loopMineBeam</code> <code>loopMissileTrail</code> <code>loopPulse</code> <code>loopRegen</code> <code>loopShield</code> <code>loopSmelter</code> <code>loopSpray</code> <code>loopSteam</code> <code>loopTech</code> <code>loopThoriumReactor</code> <code>loopThruster</code> <code>loopUnitBuilding</code> <code>massdriver</code> <code>massdriverReceive</code> <code>mechStep</code> <code>mechStepHeavy</code> <code>mechStepSmall</code> <code>padLand</code> <code>padLaunch</code> <code>payloadDrop1</code> <code>payloadDrop2</code> <code>payloadDrop3</code> <code>payloadPickup</code> <code>plantBreak</code> <code>rain</code> <code>rockBreak</code> <code>shieldBreak</code> <code>shieldBreakSmall</code> <code>shieldHit</code> <code>shieldWave</code> <code>shipMove</code> <code>shipMoveBig</code> <code>shockBullet</code> <code>shockwaveTower</code> <code>shoot</code> <code>shootAfflict</code> <code>shootAlpha</code> <code>shootArc</code> <code>shootArtillery</code> <code>shootArtillerySap</code> <code>shootArtillerySapBig</code> <code>shootArtillerySmall</code> <code>shootAtrax</code> <code>shootAvert</code> <code>shootBeamPlasma</code> <code>shootBeamPlasmaSmall</code> <code>shootBreach</code> <code>shootBreachCarbide</code> <code>shootCleroi</code> <code>shootCollaris</code> <code>shootConquer</code> <code>shootCorvus</code> <code>shootCyclone</code> <code>shootDiffuse</code> <code>shootDisperse</code> <code>shootDuo</code> <code>shootEclipse</code> <code>shootElude</code> <code>shootEnergyField</code> <code>shootFlame</code> <code>shootFlamePlasma</code> <code>shootForeshadow</code> <code>shootFuse</code> <code>shootHorizon</code> <code>shootLancer</code> <code>shootLaser</code> <code>shootLocus</code> <code>shootMalign</code> <code>shootMeltdown</code> <code>shootMerui</code> <code>shootMissile</code> <code>shootMissileLarge</code> <code>shootMissileLong</code> <code>shootMissilePlasma</code> <code>shootMissilePlasmaShort</code> <code>shootMissileShort</code> <code>shootMissileSmall</code> <code>shootNavanax</code> <code>shootOmura</code> <code>shootPayload</code> <code>shootPulsar</code> <code>shootQuad</code> <code>shootReign</code> <code>shootRetusa</code> <code>shootRipple</code> <code>shootSalvo</code> <code>shootSap</code> <code>shootScathe</code> <code>shootScatter</code> <code>shootScepter</code> <code>shootScepterSecondary</code> <code>shootSegment</code> <code>shootSmite</code> <code>shootSpectre</code> <code>shootStell</code> <code>shootSublimate</code> <code>shootTank</code> <code>shootToxopidShotgun</code> <code>stepMud</code> <code>stepWater</code> <code>tankMove</code> <code>tankMoveHeavy</code> <code>tankMoveSmall</code> <code>uiBack</code> <code>uiButton</code> <code>uiChat</code> <code>uiFavorite</code> <code>uiNotify</code> <code>uiUnlock</code> <code>unitCreate</code> <code>unitCreateBig</code> <code>unitExplode1</code> <code>unitExplode2</code> <code>unitExplode3</code> <code>walkerStep</code> <code>walkerStepSmall</code> <code>walkerStepTiny</code> <code>waveSpawn</code> <code>wind</code> <code>wind2</code> <code>wind3</code> <code>windHowl</code> <code>wreckFall</code> <code>wreckFallBig</code> <code>none</code> <code>unset</code></p>
 <h2 id="dependencies">Dependencies</h2>
-<p>You can add dependencies to your mod by simple adding other mods name in your <code>mod.json</code>:</p>
-<div class="language-text highlight"><pre><span></span><code>dependencies: [
-  other-mod-name
-  not-a-mod
-]
-</code></pre></div>
-<p>The name of dependencies are lower-cased and spaces are replaced with <code>-</code> hyphens, for example <code>Other MOD NamE</code> becomes <code>other-mod-name</code>.</p>
+<p>You can add dependencies to your mod by simple adding other mods name in your <code>mod.json</code>:
+<div class="language-js highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="nx">dependencies</span><span class="o">:</span><span class="w"> </span><span class="p">[</span>
+</span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a><span class="w">  </span><span class="nx">other</span><span class="o">-</span><span class="nx">mod</span><span class="o">-</span><span class="nx">name</span>
+</span><span id="__span-4-3"><a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a><span class="w">  </span><span class="nx">not</span><span class="o">-</span><span class="nx">a</span><span class="o">-</span><span class="nx">mod</span>
+</span><span id="__span-4-4"><a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a><span class="p">]</span>
+</span></code></pre></div>
+The name of dependencies are lower-cased and spaces are replaced with <code>-</code> hyphens, for example <code>Other MOD NamE</code> becomes <code>other-mod-name</code>.</p>
 <p>To reference the other mods assets, you must prefix the asset with the other mods name:</p>
 <ul>
 <li><code>other-mod-name-not-copper</code> would reference <code>not-copper</code> in <code>other-mod-name</code></li>
@@ -24010,13 +24008,11 @@ block.example-mod-silver-wall.description = Стена из серебра.
 </ul>
 <h2 id="faq">FAQ</h2>
 <ul>
-<li><code>time</code> in game is calculated through <code>ticks</code>;</li>
-<li><code>ticks</code> <em>sometimes called <code>frames</code>,</em> are assumed to be 1/60th of a second;</li>
-<li><code>tilesize</code> is 8 units internally;</li>
-<li>to calculate range out of <code>lifetime</code> and <code>speed</code> you can do <code>lifetime * speed = range</code>;</li>
-<li><em>Abstract</em> what is <code>abstract</code>? All you need to know about abstract types is that they cannot be instantiated/initialized by themselves. If you do so, you'll  get an <em>"initialization exception"</em> of some kind;</li>
-<li>what is a <code>NullPointerException</code>? This is an error message that indicates a field is null and shouldn't be null, meaning one of the required fields may be missing;</li>
-<li><em>bleeding-edge</em> what is <code>bleeding-edge</code>? This is the developer version of Mindustry, specifically it's refering to the Github master branch. Changes on bleeding-edge usually make it into Mindustry in the next release.</li>
+<li><code>time</code> in game is calculated through <code>ticks</code>; <code>ticks</code>, <em>sometimes called <code>frames</code>,</em> are 1/60th of a second;</li>
+<li><code>tilesize</code> is 8 world units internally; most values such as hitbox sizes are measured in these world units;</li>
+<li>to calculate range out of <code>lifetime</code> and <code>speed</code>, you can do <code>lifetime * speed = range</code>;</li>
+<li>What is a <code>NullPointerException</code>? This is an error message that indicates a field is null and shouldn't be null, meaning one of the required fields may be missing;</li>
+<li><em>bleeding-edge</em> what is <code>bleeding-edge</code>? This is latest the development version of Mindustry; specifically it refers to the latest commit on the Github master branch. Changes on bleeding-edge usually make it into Mindustry in the next release.</li>
 </ul>
 
 
