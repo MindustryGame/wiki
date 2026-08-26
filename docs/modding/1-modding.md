@@ -63,7 +63,7 @@ Every platform has a different user application data directory, and this is wher
 ## HJSON
 
 Mindustry uses [Hjson](https://hjson.github.io/), which, for anyone who knows JSON, is simply a superset of the very popular serialization language known as [Json](https://en.wikipedia.org/wiki/JSON). This means that any valid JSON will work, but you get extra useful stuff:
-```php
+```js
 # single line comment
 
 // single line comment
@@ -102,16 +102,16 @@ It is worth noting that the 'official' HJSON standard is dead, and contains seve
 ## `mod.hjson`
 
 At the root of your project directory, you must have a `mod.hjson`, which defines the basic metadata for your project. 
-
-    name: "mod-name"
-    displayName: "This isn't a mod."
-    author: Yourself
-    description: "A short description of your mod."
-    version: "1.0"
-    minGameVersion: "$latestRelease"
-    dependencies: [ ]
-    hidden: false
-
+```js
+name: "mod-name"
+displayName: "This isn't a mod."
+author: Yourself
+description: "A short description of your mod."
+version: "1.0"
+minGameVersion: "$latestRelease"
+dependencies: [ ]
+hidden: false
+```
 -   `name` will be used to reference to your mod, so name it carefully. Should be in kebab-case (no capital letters, spaces are filled with '-') and shouldn't have any color formatting.
 -   `displayName` this will be used as a display name for the UI, which you can use to add formatting to said name.
 -   `description` of the mod will be rendered in the ingame mod manager, so keep it short and to the point.
@@ -166,7 +166,7 @@ In this unit example, the type of the unit is `flying`. The type of the `bullet`
 
 Other unit types include `mech`, `legs`, `naval`, `payload`, `tank`, `hover`, `crawl`, `missile` and `tether`.
 
-```hjson
+```js
 type: flying
 weapons: [
   {
@@ -205,14 +205,14 @@ The cost is then rounded to the nearest 10, 100, 1k, or 100k depending on how la
 `requirements` is the cost of the block or unit. Units use their build cost/upgrade cost for the calculations.
 
 If you want to set custom research requirements use this object in place of just a name:
-
-    research: {
-      parent: duo
-      requirements: [
-        copper/100
-      ]
-    }
-
+```js
+research: {
+  parent: duo
+  requirements: [
+    copper/100
+  ]
+}
+```
 This can be used to override block or unit costs, or make resources need to be researched instead of just having to produce it.
 
 ## Sprites
@@ -256,12 +256,12 @@ $sounds
 ## Dependencies
 
 You can add dependencies to your mod by simple adding other mods name in your `mod.json`:
-
-    dependencies: [
-      other-mod-name
-      not-a-mod
-    ]
-
+```js
+dependencies: [
+  other-mod-name
+  not-a-mod
+]
+```
 The name of dependencies are lower-cased and spaces are replaced with `-` hyphens, for example `Other MOD NamE` becomes `other-mod-name`.
 
 To reference the other mods assets, you must prefix the asset with the other mods name:
@@ -318,12 +318,10 @@ All you need understand is how to open repositories on GitHub, stage and commit 
 
 ## FAQ
 
--   `time` in game is calculated through `ticks`;
--   `ticks` *sometimes called `frames`,* are assumed to be 1/60th of a second;
--   `tilesize` is 8 units internally;
--   to calculate range out of `lifetime` and `speed` you can do `lifetime * speed = range`;
--   *Abstract* what is `abstract`? All you need to know about abstract types is that they cannot be instantiated/initialized by themselves. If you do so, you'll  get an *"initialization exception"* of some kind;
--   what is a `NullPointerException`? This is an error message that indicates a field is null and shouldn't be null, meaning one of the required fields may be missing;
--   *bleeding-edge* what is `bleeding-edge`? This is the developer version of Mindustry, specifically it's refering to the Github master branch. Changes on bleeding-edge usually make it into Mindustry in the next release.
+-   `time` in game is calculated through `ticks`; `ticks`, *sometimes called `frames`,* are 1/60th of a second;
+-   `tilesize` is 8 world units internally; most values such as hitbox sizes are measured in these world units;
+-   to calculate range out of `lifetime` and `speed`, you can do `lifetime * speed = range`;
+-   What is a `NullPointerException`? This is an error message that indicates a field is null and shouldn't be null, meaning one of the required fields may be missing;
+-   *bleeding-edge* what is `bleeding-edge`? This is latest the development version of Mindustry; specifically it refers to the latest commit on the Github master branch. Changes on bleeding-edge usually make it into Mindustry in the next release.
 
 
