@@ -99,5 +99,3 @@ Events.on(WaveEvent, event => {
     mySound.at(1, 1);
 })
 ```
-
-//TODO test these out and add more examples

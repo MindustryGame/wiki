@@ -20,7 +20,7 @@ It is highly recommended that you use spriting software that supports transparen
     - It is **paid** software, but you can **[compile the source code on your own](https://github.com/aseprite/aseprite/blob/main/INSTALL.md#compiling)**. Please buy a license to support its developers.
       - Has many features useful for Mindustry spriting such as:
          - Mirroring
-         - Pallete Control
+         - Palette Control
          - Animation
          - Layering (Can also export individual layers)
   
@@ -36,17 +36,17 @@ It is highly recommended that you use spriting software that supports transparen
       - Pretty bloated for spriting in Mindustry style.
 
   5. **[Paint.NET](https://www.getpaint.net/)**
-      - Very basic painting software, not to be confused with Paint 3D, Paint&#46;NET is usable but not as convenient as the above mentioned.
+      - Very basic painting software (not to be confused with Paint 3D). Paint&#46;NET is usable but not as convenient as the software mentioned above.
       - Paint&#46;NET lacks basic features needed for spriting in mindustry style. You can get some of these missing features with plugins.
       - That said, it is not recommended to use this for the sake of convenience. If you can download Paint&#46;NET, you can probably download Piskel or LibreSprite instead, which are meant for pixel art.
 
 ### **Mobile**
 1. **[Novix Pixel Editor](https://play.google.com/store/apps/details?id=io.anuke.novix)**
-     - Old and reliable, made and abandoned by Anuke, it is simple, has no ads, though a bit old, it is still reliable as a spriting tool for mobile users, also supports the mirror tool.
+     - Old and reliable, made (and since abandoned) by Anuke. It's simple, has no ads, and despite its age is still a solid spriting tool for mobile users; it also supports the mirror tool.
      - Occasionally breaks if spriting a larger sprite.
   
 2.  **[Pixel Studio](https://play.google.com/store/apps/details?id=com.PixelStudio)**
-    - One of the most popular pixel art software.
+    - One of the most popular pixel art apps.
     - Has most of the features you need and it can also link with its PC version.
     - Has ads
 
@@ -72,12 +72,12 @@ You are not limited to these sizes; the game will still load sprites bigger or s
 For these content types, the minimum sprite size is `32px`; you can use larger images, but the game will squish them down to `32px`. The game will not enlarge smaller images, so `32px` is the minimum.
 
 ### Units
-Unit sprite sizes are more lenient than others, though try not to go below `48px`. The bigger your units are, the more you will have to adjust their `hitSize`(hitbox size).
+Unit sprite sizes are more lenient than others, though try not to go below `48px`. The bigger your units are, the more you will have to adjust their `hitSize` (hitbox size).
 
 ## **Storing Sprites**
-Sprites can be dropped in the `sprites/` subdirectory of your mod if it is hJSON, or `src/assets/sprites/` if it is a Java mod. The content parser will look through it recursively. 
+Sprites can be dropped in the `sprites/` subdirectory of your mod if it is HJSON, or `src/assets/sprites/` if it is a Java mod. The content parser will look through it recursively. 
 
-Images are packed into an "atlas" for efficient rendering. The first directory in sprites/, e.g., `sprites/blocks`, determines the page in this atlas that sprites are put in. Putting a block's sprite in the units folder is likely to cause lots of lag; thus, you should try to organize things similarly to how the vanilla game does.
+Images are packed into an "atlas" for efficient rendering. The first directory in `sprites/`, e.g., `sprites/blocks`, determines the page in this atlas that sprites are put in. Putting a block's sprite in the units folder is likely to cause lots of lag; thus, you should try to organize things similarly to how the vanilla game does.
 
 The game will look for sprites for content based on its name. `content/blocks/test-turret.json` has the name `test-turret`, and similarly, `sprites/test-turret.png` has the name `test-turret`, so it will be used by this content.
 - Blocks should be stored in `sprites/blocks`
@@ -93,22 +93,22 @@ Overriding existing sprites is possible; for this, sprites must be placed at `sp
 ## **Suffixes**
 The game also can look for multiple sprites for a single block.
 
-For turrets, the game could look for the suffix `<name>-heat`(`test-turret-heat.png`).
+For turrets, the game could look for the suffix `<name>-heat` (`test-turret-heat.png`).
 
-For blocks and crafters/smelters, the game may look for `<name>-top`, and `<name>-liquid`, which will be documented in their section.
+For blocks and crafters/smelters, the game may look for `<name>-top` and `<name>-liquid`, which will be documented in their section.
 
 You can read the source code for each respective block class for what sprites they can load for more details. See the lines with `@Load`.
 For sprites in mods, check each `load()` method within the block class, if there is one.
 
-## **Color Pallete**
+## **Color Palette**
 
 Just like every game out there, Mindustry has its color palette. For beginners, it is highly recommended to stick to these specific colors for your sprites, or it may look out of place at best and even become heretical at worst. It may inflict great disturbance upon the #spriting Discord channel.
 
-Block Color Pallete:
+Block Color Palette:
 
 <img src="/wiki/images/modding/spriting/pal-mindustry.png">
 
-Environment Color Pallete
+Environment Color Palette
 
 <img src="/wiki/images/modding/spriting/pal-mindustry-evn.png">
 
@@ -131,7 +131,7 @@ This is only a guideline, however if you bend it without having made successful 
 
 We will use the Surge Smelter as an example.
 
-With blocks, the light source is near the **top right** corner, and the shadows are in the **bottom left**. Pixels in the top right, which are close to the light source, should be light colored. Likewise, pixels in the bottom right should be dark. It works best to have a diagonal line through the middle separating them.
+With blocks, the light source is near the **top right** corner, and the shadows are in the **bottom left**. Pixels in the top right, which are close to the light source, should be light colored. Likewise, pixels in the bottom left should be dark. It works best to have a diagonal line through the middle separating them.
 
 Most blocks have 3 color types:
 
@@ -143,7 +143,7 @@ Most blocks have 3 color types:
   
   - Decal color, which also has 3 shades:
     
-    - ![](https://via.placeholder.com/15/feb380/000000?text=+) `FEB380` | Lght Tone 
+    - ![](https://via.placeholder.com/15/feb380/000000?text=+) `FEB380` | Light Tone 
     - ![](https://via.placeholder.com/15/ea8878/000000?text=+) `EA8878` | Midtone 
     - ![](https://via.placeholder.com/15/bc5452/000000?text=+) `BC5452` | Dark Tone
    
@@ -151,7 +151,7 @@ Most blocks have 3 color types:
     
     - ![](https://via.placeholder.com/15/4a4b53/000000?text=+) `4a4b53`
 
-**Base Color** represents the primary color of the block. It is recommmended to only use shades of gray for crafters, as all vanilla crafters do.
+**Base Color** represents the primary color of the block. It is recommended to only use shades of gray for crafters, as all vanilla crafters do.
 
 **Decal Color** is the accent color on your block. It represents the block's **role** or **purpose** and a way to differentiate them from each other. To pick what decal color to use for your blocks, you should think about your block's purpose. For example:
 
@@ -180,13 +180,13 @@ Modded Examples:
 
 ### **Turret Shading**
 
-With Turret shading, the light source is on the **right side**, and the shadows are on the **left**.
+With turret shading, the light source is on the **right side**, and the shadows are on the **left**.
 
 ![ripple](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/turrets/ripple.png)
 
 We will use the '**Ripple**' as an example for this part.
 
-Turrets in general has 2 to 3 color type with 2 tone for each:
+Turrets in general have 2 to 3 color types, with 2 tones for each:
 
 - Base color
 
@@ -202,7 +202,7 @@ Turrets in general has 2 to 3 color type with 2 tone for each:
   
   - ![](https://via.placeholder.com/15/2c2d38/000000?text=+) `2C2D38` 
 
-**Base Color** or Body-Color, is the primary color of the turret. This can be classic copper brown, white, dark grey, or a custom color(from the palette!).
+**Base Color**, or Body-Color, is the primary color of the turret. This can be classic copper brown, white, dark grey, or a custom color (from the palette!).
 
   - Copper Brown
     - ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/turrets/duo.png) ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/turrets/scorch.png) ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/turrets/hail.png)
@@ -214,7 +214,7 @@ Turrets in general has 2 to 3 color type with 2 tone for each:
   - White
     
     - ![Arc](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/turrets/arc.png) ![Lancer](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/turrets/lancer.png) ![Parallax](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/defense/parallax.png) ![Segment](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/defense/segment.png)
-    - Usually represents turret that uses power instead of items to shoot, such as **Arc**, **Lancer**, **Paralax**, **Segment**.
+    - Usually represents turret that uses power instead of items to shoot, such as **Arc**, **Lancer**, **Parallax**, **Segment**.
   
       - ![](https://via.placeholder.com/15/f4f4f4/000000?text=+) `F4F4F4` 
       - ![](https://via.placeholder.com/15/c1c3d4/000000?text=+) `C1C3D4`
@@ -281,7 +281,7 @@ Parts that get lit by the light will have a lighter tone, while the ones that ar
 
 <img src="/wiki/images/modding/spriting/spriting-unit-shading-illustration.png" draggable="false">
 
-Above are the rough illustration of units if imagined in 3D.
+Above is a rough illustration of units if imagined in 3D.
 
 - Base color, has 3 tones as usual: 
   
@@ -330,7 +330,7 @@ Unit Cells are sprites used to differentiate units between teams; they are separ
 
 ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/units/fortress.png) ![](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/units/fortress-cell.png)
 
-Above is a fortress with its cell. The game will automatically replace the **white**(#FFFFF) and **tan**(#DCC6C6) colors with shades of team color. Your cell sprites should only have the two shades below:
+Above is a fortress with its cell. The game will automatically replace the **white** (#FFFFFF) and **tan** (#DCC6C6) colors with shades of team color. Your cell sprites should only have the two shades below:
 
   - ![](https://via.placeholder.com/15/ffffff/000000?text=+) `FFFFFF` | Light Tone 
   - ![](https://via.placeholder.com/15/dcc6c6/000000?text=+) `DCC6C6` | Dark Tone 
@@ -371,7 +371,7 @@ Leave 4 pixels of space around the edges of turret sprites and unit sprites, as 
 
 ---
 
-### **Evironmental Sprites**
+### **Environmental Sprites**
 Environmental sprites are a bit different from the rest of the Mindustry spriting style, which is that the **45° increment rule doesn't apply**.
 
 Environmental sprites will make up most, if not the majority, of a Mindustry game, so it should be in your best interest that the sprite you've made is subtle enough and looks great despite being tiled over and over again.
@@ -416,7 +416,7 @@ Ores are overlaid on top of floors, so they should look decent across all floor 
 > Sprites by Sh1penfire from [Endless-Rusting](https://github.com/Sh1penfire/Endless-Rusting)
 
 #### **Props**
-Props(or boulders) are player breakable environmental blocks that will occur randomly over a floor, they have their own files, separate from environmental sprites.
+Props (or boulders) are player-breakable environmental blocks that occur randomly over a floor; they have their own files, separate from environmental sprites.
 
   - Examples :
 
@@ -428,7 +428,7 @@ Props(or boulders) are player breakable environmental blocks that will occur ran
 
 <img src="/wiki/images/modding/spriting/spriting-props-white-tree-screenshot.png" draggable="false">
 
-Trees are drawn above most types of blocks, units can also pass through them, and they only act as additional foliage for maps.
+Trees are drawn above most types of blocks; units can also pass through them, and they only act as additional foliage for maps.
 
 Keep in mind that trees in particular have shadow sprites, you have to make these manually.
 

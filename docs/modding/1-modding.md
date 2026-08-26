@@ -3,9 +3,9 @@
 
 Mindustry mods are simply directories of assets. There are many ways to use the modding API, depending on exactly what you want to do, and how far you're willing to go to do it.
 
-You could just resprite existing game content, you can create new game content with the simpler Json API (which is the main focus of this documentation), you can add custom sounds (or reuse existing ones). It's possible to add maps to campaign mode, and add scripts to program special behavior into your mod, like custom effects. 
+You could just resprite existing game content, or create new game content with the simpler Json API (which is the main focus of this documentation). You can add custom sounds (or reuse existing ones), add maps to campaign mode, and add scripts to program special behavior into your mod, like custom effects.
 
-Sharing your mod is as simple as giving someone your project directory; mods are also cross platform to any platform that supports them. You'll want to use [GitHub](#github) (*or a similar service*) for hosting your source code.
+Sharing your mod is as simple as giving someone your project directory; mods work on any platform that supports them. You'll want to use [GitHub](#github) (*or a similar service*) for hosting your source code.
 To make mods all you really need is any computer with a text editor.
 
 
@@ -53,7 +53,7 @@ Every platform has a different user application data directory, and this is wher
 
 ## Hjson
 
-Mindustry uses [Hjson](https://hjson.github.io/), which for anyone who knows Json, is simply a superset of the very popular serialization language known as [Json](https://en.wikipedia.org/wiki/JSON). &#x2013; This means that any valid Json will work, but you get extra useful stuff:
+Mindustry uses [Hjson](https://hjson.github.io/), which, for anyone who knows JSON, is simply a superset of the very popular serialization language known as [Json](https://en.wikipedia.org/wiki/JSON). This means that any valid Json will work, but you get extra useful stuff:
 
     # single line comment
     
@@ -77,7 +77,7 @@ Mindustry uses [Hjson](https://hjson.github.io/), which for anyone who knows Jso
     key4: { key1: string
             key2: 0 }
 
-If you don't know any of those words. &#x2013; A serialization language, is simply a language which encodes information for a program, and *encode* means to translate informantion from one form to another, and in this case, to translate text into Java data structures.
+If you don't know any of those words: a serialization language is simply a language which encodes information for a program, and *encode* means to translate information from one form to another, in this case, to translate text into Java data structures.
 
 
 
@@ -88,7 +88,7 @@ At the root of your project directory, you must have a `mod.json` which defines 
     name: "mod-name"
     displayName: "This isn't a mod."
     author: Yourself
-    description: "Bbfashbjhcbabfhsbafbhajbf"
+    description: "A short description of your mod."
     version: "1.0"
     minGameVersion: "$latestRelease"
     dependencies: [ ]
@@ -99,13 +99,13 @@ At the root of your project directory, you must have a `mod.json` which defines 
 -   `description` of the mod will be rendered in the ingame mod manager, so keep it short and to the point.
 -   `dependencies` is optional, if you want to know more about that, go to the [dependencies](#dependencies) section.
 -   `minGameVersion` is the minimum build version of the game. This is **required** to be a number greater than 105.
--   `hidden` is whether or not this mod is essential for multiplayer, false by default. Texture packs, JS plugins, etc. should use this as to not cause conflicts with servers and clients respectively. As a rule of thumb, if your mod creates content it shouldn't be hidden.
+-   `hidden` is whether or not this mod is essential for multiplayer, false by default. Texture packs, JS plugins, etc. should set this to true, so they don't cause version-mismatch conflicts between servers and clients. As a rule of thumb, if your mod creates content it shouldn't be hidden.
 
 
 
 ## Content
 
-At the root of your project directory you can have a `content/` directory, this is where all the Json/Hjson data goes. Inside of `content/` you have subdirectories for the various kinds of content, these are the current common ones:
+At the root of your project directory you can have a `content/` directory. This is where all the Json/Hjson data goes. Inside of `content/` you have subdirectories for the various kinds of content; these are the current common ones:
 
 -   `content/items/` for [items](#item), like `copper` and `surge-alloy`;
 -   `content/blocks/` for [blocks](#block), like turrets and floors;
@@ -114,7 +114,7 @@ At the root of your project directory you can have a `content/` directory, this 
 
 Note that each one of these subdirectories needs a specific content type. The filenames of these files is important, because the stem name of your path *(filename without the extension)* is used to reference it.
 
-Furthermore the files within these `content/<content-type>/*` directories may be arbitrarly nested into other sub-directories of any name, to help you organize them further, for example:
+Furthermore, the files within these `content/<content-type>/*` directories may be arbitrarily nested into other sub-directories of any name, to help you organize them further, for example:
 
 -   `content/items/metals/iron.hjson`, which would respectively create an item named `iron`.
 
@@ -133,7 +133,7 @@ The content of these files will tend to look something like this:
 
 Other fields included will be the fields of the type itself.
 
-A side note, `name` and `description` are not required to be in the json structure. You can define them for any language with (Bundles)[#bundles]. However, if they are not present in either then the name will be <type>.<modname>-<stemname>.name and an empty description respectively.
+As a side note, `name` and `description` are not required to be in the json structure. You can define them for any language with [Bundles](#bundles). However, if they are not present in either, the name will default to `<type>.<modname>-<stemname>.name` and the description will be empty.
 
 
 ## Types
@@ -142,11 +142,11 @@ Types have numerous fields, but the important one is `type`; this is a special f
 
 Types *extend* each other, so if `MissileBulletType` extends `BasicBulletType`, you'll have access to all the fields of `BasicBulletType` inside of `MissileBulletType` like `damage`, `lifetime` and `speed`. Fields are case sensitive: `hitSize =/= hitsize`.
 
-What you can expect a field to do is up to the specific type, some types do absolutely nothing with their fields, and work mostly as a base types will extend from. One such type is `Block`.
+What you can expect a field to do is up to the specific type; some types do absolutely nothing with their fields, and mostly serve as a base for other types to extend from. One such type is `Block`.
 
 In this unit example, the type of the unit is `flying`. The type of the `bullet` is `BulletType`, so you can use `MissileBulletType`, because `MissileBulletType` extends `BulletType`.
 
-One could also use `mech`, `legs`, `naval` or `payload` as the unit type here.
+Other unit types include `mech`, `legs`, `naval`, `payload`, `tank`, `hover`, `crawl`, `missile` and `tether`.
 
 ```hjson
 type: flying
@@ -179,10 +179,10 @@ Research costs:
 
 |type|cost|notes|
 |---|---|---|
-|blocks|`requirements ^ 1.1 * 20 * researchCostMultiplier`|`researchCostMultiplier` is a stat that can be set on blocks|
-|units|`requirements ^ 1.1 * 50`|---|
+|blocks|`60 * researchCostMultiplier + requirements ^ 1.11 * 20 * researchCostMultiplier`|`researchCostMultiplier` is a stat that can be set on blocks, default `1`|
+|units|`requirements * researchCostMultiplier`|`researchCostMultiplier` defaults to `50` on `UnitType`|
 
-The cost is then rounded down to the nearest 10, 100, 1k, 10k, or 100k depending on how expensive the cost is.
+The cost is then rounded to the nearest 10, 100, 1k, or 100k depending on how large the cost is (rounding isn't always downward).
 
 `requirements` is the cost of the block or unit. Units use their build cost/upgrade cost for the calculations.
 
@@ -217,7 +217,7 @@ You can find all the vanilla sprites here:
 
 -   <https://github.com/Anuken/Mindustry/tree/master/core/assets-raw/sprites>
 
-Another thing to know about sprites is that some of them are modified by the game. Turrets specifically have a black border added to them, so you must account for that while making your sprites, leaving transparent space around turrets for example: [Ripple](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/turrets/ripple.png)
+Another thing to know about sprites is that some of them are modified by the game. Turrets specifically have a dark gray border added to them, so you must account for that while making your sprites, leaving transparent space around turrets for example: [Ripple](https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/turrets/ripple.png)
 
 To override ingame content sprites, you can simply put them in `sprites-override/`.
 This removes the `<modname>-` prefix to their id, which allows them to override sprites from vanilla and even other mods.

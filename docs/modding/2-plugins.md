@@ -7,7 +7,7 @@ Theoretically, all JVM languages should be supported.
 Jar/JVM mods use the same `mod.hjson` meta file that standard mods do, with one addition: The *fully qualified main class* can be specified with `main: "mypackage.MyMod"`. This class should extend `mindustry.mod.Mod`.
 
 
-If a main class is not specified, it defaults to `modnameinlowercase.ModName + "Mod".`
+If a main class is not specified, it defaults to `modnameinlowercase.ModName + "Mod"`.
 
 A simple `mod.hjson` for a Java mod could look like this:
 

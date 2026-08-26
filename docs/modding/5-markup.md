@@ -2,14 +2,14 @@
 
 The text renderer uses a simple markup language for coloring text.
 
--   `[name]` sets the color by name, there's a few [built-in colors](#built-in-colors);
+-   `[name]` sets the color by name, there are a few [built-in colors](#built-in-colors);
 -   `[#rrggbb]` / `[#rrggbbaa]` sets the color by hex value, with each value being anything from `00` to `ff`:
     -   `rr` is the red value,
     -   `gg` is the green value,
     -   `bb` is the blue value,
     -   `aa` is the alpha value;
 -   `[]` sets the color back to the previous color;
--   `[[` escapes the left bracket, so you can write `[[red]` to write and it'll render as `[red]`.
+-   `[[` escapes the left bracket, so you can write `[[red]` and it'll render as `[red]`.
 
 Notes:
 

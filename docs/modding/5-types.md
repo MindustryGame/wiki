@@ -25,7 +25,7 @@ $blockGroups
 
 ## ItemStack
 
-A `ItemStack` can be a string or an object. It's used to describe the type and amount of items to a machine.
+An `ItemStack` can be a string or an object. It's used to describe the type and amount of items to a machine.
 
 As a `string`:
 
@@ -74,8 +74,8 @@ Categories for building menu:
 -   `defense` Walls and other defensive structures;
 -   `crafting` Blocks that craft things;
 -   `units` Blocks that create units;
--   `logic` Blocks that are related to logic operations;
--   `effect` Things for storage or passive effects.
+-   `effect` Things for storage or passive effects;
+-   `logic` Blocks that are related to logic operations.
 
 
 ## Color
@@ -93,17 +93,30 @@ Color is a hexadecimal string, `<rr><gg><bb>` for example:
 
 ## CacheLayer
 
-Flags used by for cache render:
+Layers used for cache rendering, in draw order:
 
--   `normal` normal layer;
--   `walls` walls layer;
 -   `water` water layer, adding tile water shaders, and giving wave reflections;
+-   `mud` mud layer, similar to water but for mud tiles;
+-   `cryofluid` cryofluid layer, giving the icy blue shader used by cryofluid pools;
 -   `tar` tar layer, adding tar shaders, making it darker and giving it some bubble reflections;
+-   `slag` slag layer, giving molten slag its glow shader;
+-   `arkycite` arkycite layer, used for the arkycite liquid on Erekir;
+-   `space` space layer, used for background space tiles;
+-   `normal` normal layer, the default for most floors;
+-   `walls` walls layer;
+
+`CacheLayer` is a class rather than an enum, so mods can register their own layers with `CacheLayer.add`.
 
 ## TargetPriority
 
-A higher ordinal means a higher priority. Higher priority blocks will always get targeted over those of lower priority, regardless of distance.
+A set of float constants; a higher value means a higher priority. Higher priority blocks will always get targeted over those of lower priority, regardless of distance.
 
-1.  `base`
-2.  `turret`
+|priority|value|notes|
+|---|---|---|
+|`wall`|-3|nobody cares about walls|
+|`under`|-2|for blocks with `underBullets`|
+|`transport`|-1|conveyors and other transport infrastructure|
+|`base`|0|most blocks|
+|`turret`|1|turrets, since they deal damage|
+|`core`|2|the core is always the top priority|
 
