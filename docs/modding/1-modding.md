@@ -63,31 +63,41 @@ Every platform has a different user application data directory, and this is wher
 ## HJSON
 
 Mindustry uses [Hjson](https://hjson.github.io/), which, for anyone who knows JSON, is simply a superset of the very popular serialization language known as [Json](https://en.wikipedia.org/wiki/JSON). This means that any valid JSON will work, but you get extra useful stuff:
+```php
+# single line comment
 
-    # single line comment
-    
-    // single line comment
-    
-    /* multiline
-    comment */
-    
-    key1: single line string
-    
-    key2:
-    '''
-    multiline
-    string
-    '''
-    
-    key3: [ value1
-            value2
-            value3 ]
-    
-    key4: { key1: string
-            key2: 0 }
+// single line comment
 
+/* multiline
+   comment */
+
+key1: "single line string"
+
+key2:
+  '''
+  multiline
+  string
+  '''
+
+key3: [
+  //quotes and commas are optional for strings
+  value1
+  value2
+  value3
+]
+
+key4: {
+  key1: astring
+  key2: 0
+}
+
+//unlike the official HJSON spec, multiple quoteless strings are allowed in the same line in an array
+
+arrayExample: [several, words, that, will, work]
+```
 If you don't know any of those words: a serialization language is simply a language which encodes information for a program, and *encode* means to translate information from one form to another, in this case, to translate text into Java data structures.
 
+It is worth noting that the 'official' HJSON standard is dead, and contains several serious flaws. The Mindustry HJSON parser uses a slightly modified format that allows quoteless multiline arrays, for example.
 
 ## `mod.hjson`
 
