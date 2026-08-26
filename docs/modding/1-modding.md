@@ -6,8 +6,15 @@ Mindustry mods are simply directories of assets. There are many ways to use the 
 You could just resprite existing game content, or create new game content with the simpler Json API (which is the main focus of this documentation). You can add custom sounds (or reuse existing ones), add maps to campaign mode, and add scripts to program special behavior into your mod, like custom effects.
 
 Sharing your mod is as simple as giving someone your project directory; mods work on any platform that supports them. You'll want to use [GitHub](#github) (*or a similar service*) for hosting your source code.
-To make mods all you really need is any computer with a text editor.
+To make mods, all you really need is any computer with a text editor.
 
+## Editing
+
+If you are using HJSON for your mods, it is recommended to use [Visual Studio Code](https://code.visualstudio.com/) with the [Mindustry HJSON](https://github.com/Anuken/MindustryHJsonVSCode/releases/latest) extension.
+
+To install the extension, download `mindustry-hjson-x.x.x.vsix` from the linked release page. In VSCode, open the Extensions tab, click the three dots in the top right -> "Install From VSIX..." -> select the downloaded VSIX file.
+
+The extension provides autocomplete, syntax highlighting and warnings for unknown or invalid fields in content.
 
 ## Directory Structure
 
@@ -18,6 +25,8 @@ Your project directory should look something like this:
     ├── content
     │   ├── items
     │   ├── blocks
+    │   ├── liquids
+    │   ├── weather
     │   ├── liquids
     │   └── units
     ├── maps
@@ -51,9 +60,9 @@ Every platform has a different user application data directory, and this is wher
 -   incorrect: `My Custom Block.json`
 
 
-## Hjson
+## HJSON
 
-Mindustry uses [Hjson](https://hjson.github.io/), which, for anyone who knows JSON, is simply a superset of the very popular serialization language known as [Json](https://en.wikipedia.org/wiki/JSON). This means that any valid Json will work, but you get extra useful stuff:
+Mindustry uses [Hjson](https://hjson.github.io/), which, for anyone who knows JSON, is simply a superset of the very popular serialization language known as [Json](https://en.wikipedia.org/wiki/JSON). This means that any valid JSON will work, but you get extra useful stuff:
 
     # single line comment
     
@@ -70,9 +79,9 @@ Mindustry uses [Hjson](https://hjson.github.io/), which, for anyone who knows JS
     string
     '''
     
-    key3: [ value 1
-            value 2
-            value 3 ]
+    key3: [ value1
+            value2
+            value3 ]
     
     key4: { key1: string
             key2: 0 }
@@ -80,10 +89,9 @@ Mindustry uses [Hjson](https://hjson.github.io/), which, for anyone who knows JS
 If you don't know any of those words: a serialization language is simply a language which encodes information for a program, and *encode* means to translate information from one form to another, in this case, to translate text into Java data structures.
 
 
-
 ## `mod.hjson`
 
-At the root of your project directory, you must have a `mod.json` which defines the basic metadata for your project. This file can also be (optionally) named `mod.hjson` to potentially help your text editor pick better syntax highlighting.
+At the root of your project directory, you must have a `mod.hjson`, which defines the basic metadata for your project. 
 
     name: "mod-name"
     displayName: "This isn't a mod."
