@@ -20812,6 +20812,17 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#editing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Editing
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#directory-structure" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -20826,7 +20837,7 @@
   <a href="#hjson" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Hjson
+        HJSON
       
     </span>
   </a>
@@ -23556,6 +23567,17 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#editing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Editing
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#directory-structure" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -23570,7 +23592,7 @@
   <a href="#hjson" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Hjson
+        HJSON
       
     </span>
   </a>
@@ -23711,7 +23733,11 @@
 <p>Mindustry mods are simply directories of assets. There are many ways to use the modding API, depending on exactly what you want to do, and how far you're willing to go to do it.</p>
 <p>You could just resprite existing game content, or create new game content with the simpler Json API (which is the main focus of this documentation). You can add custom sounds (or reuse existing ones), add maps to campaign mode, and add scripts to program special behavior into your mod, like custom effects.</p>
 <p>Sharing your mod is as simple as giving someone your project directory; mods work on any platform that supports them. You'll want to use <a href="#github">GitHub</a> (<em>or a similar service</em>) for hosting your source code.
-To make mods all you really need is any computer with a text editor.</p>
+To make mods, all you really need is any computer with a text editor.</p>
+<h2 id="editing">Editing</h2>
+<p>If you are using HJSON for your mods, it is recommended to use <a href="https://code.visualstudio.com/">Visual Studio Code</a> with the <a href="https://github.com/Anuken/MindustryHJsonVSCode/releases/latest">Mindustry HJSON</a> extension.</p>
+<p>To install the extension, download <code>mindustry-hjson-x.x.x.vsix</code> from the linked release page. In VSCode, open the Extensions tab, click the three dots in the top right -&gt; "Install From VSIX..." -&gt; select the downloaded VSIX file.</p>
+<p>The extension provides autocomplete, syntax highlighting and warnings for unknown or invalid fields in content.</p>
 <h2 id="directory-structure">Directory Structure</h2>
 <p>Your project directory should look something like this:</p>
 <div class="language-text highlight"><pre><span></span><code>project
@@ -23719,6 +23745,8 @@ To make mods all you really need is any computer with a text editor.</p>
 ├── content
 │   ├── items
 │   ├── blocks
+│   ├── liquids
+│   ├── weather
 │   ├── liquids
 │   └── units
 ├── maps
@@ -23752,8 +23780,8 @@ To make mods all you really need is any computer with a text editor.</p>
 <li>correct: <code>my-custom-block.json</code></li>
 <li>incorrect: <code>My Custom Block.json</code></li>
 </ul>
-<h2 id="hjson">Hjson</h2>
-<p>Mindustry uses <a href="https://hjson.github.io/">Hjson</a>, which, for anyone who knows JSON, is simply a superset of the very popular serialization language known as <a href="https://en.wikipedia.org/wiki/JSON">Json</a>. This means that any valid Json will work, but you get extra useful stuff:</p>
+<h2 id="hjson">HJSON</h2>
+<p>Mindustry uses <a href="https://hjson.github.io/">Hjson</a>, which, for anyone who knows JSON, is simply a superset of the very popular serialization language known as <a href="https://en.wikipedia.org/wiki/JSON">Json</a>. This means that any valid JSON will work, but you get extra useful stuff:</p>
 <div class="language-text highlight"><pre><span></span><code># single line comment
 
 // single line comment
@@ -23769,16 +23797,16 @@ multiline
 string
 &#39;&#39;&#39;
 
-key3: [ value 1
-        value 2
-        value 3 ]
+key3: [ value1
+        value2
+        value3 ]
 
 key4: { key1: string
         key2: 0 }
 </code></pre></div>
 <p>If you don't know any of those words: a serialization language is simply a language which encodes information for a program, and <em>encode</em> means to translate information from one form to another, in this case, to translate text into Java data structures.</p>
 <h2 id="modhjson"><code>mod.hjson</code></h2>
-<p>At the root of your project directory, you must have a <code>mod.json</code> which defines the basic metadata for your project. This file can also be (optionally) named <code>mod.hjson</code> to potentially help your text editor pick better syntax highlighting.</p>
+<p>At the root of your project directory, you must have a <code>mod.hjson</code>, which defines the basic metadata for your project. </p>
 <div class="language-text highlight"><pre><span></span><code>name: &quot;mod-name&quot;
 displayName: &quot;This isn&#39;t a mod.&quot;
 author: Yourself
