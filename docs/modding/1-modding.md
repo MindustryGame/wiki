@@ -42,8 +42,8 @@ Your project directory should look something like this:
 -   `maps/` directory for in-game maps,
 -   `bundles/` directory for [Bundles](#bundles),
 -   `sounds/` directory for [Sound](#sound) files,
--   `schematics/` directory for [Schematic](#schematic) files,
--   `scripts/` directory for [Scripts](#scripts),
+-   `schematics/` directory for schematic files,
+-   `scripts/` directory for Javascript script file,
 -   `sprites-override/` [Sprites](#sprites) directory for overriding ingame content,
 -   `sprites/` [Sprites](#sprites) directory for your content,
 
