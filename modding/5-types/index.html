@@ -23656,7 +23656,7 @@
 <li><code>heat</code></li>
 </ul>
 <h2 id="itemstack">ItemStack</h2>
-<p>A <code>ItemStack</code> can be a string or an object. It's used to describe the type and amount of items to a machine.</p>
+<p>An <code>ItemStack</code> can be a string or an object. It's used to describe the type and amount of items to a machine.</p>
 <p>As a <code>string</code>:</p>
 <div class="language-text highlight"><pre><span></span><code>copper/5
 </code></pre></div>
@@ -23726,8 +23726,8 @@ amount: 0.5
 <li><code>defense</code> Walls and other defensive structures;</li>
 <li><code>crafting</code> Blocks that craft things;</li>
 <li><code>units</code> Blocks that create units;</li>
-<li><code>logic</code> Blocks that are related to logic operations;</li>
-<li><code>effect</code> Things for storage or passive effects.</li>
+<li><code>effect</code> Things for storage or passive effects;</li>
+<li><code>logic</code> Blocks that are related to logic operations.</li>
 </ul>
 <h2 id="color">Color</h2>
 <p>Color is a hexadecimal string, <code>&lt;rr&gt;&lt;gg&gt;&lt;bb&gt;</code> for example:</p>
@@ -23740,19 +23740,62 @@ amount: 0.5
 <li>etc.</li>
 </ul>
 <h2 id="cachelayer">CacheLayer</h2>
-<p>Flags used by for cache render:</p>
+<p>Layers used for cache rendering, in draw order:</p>
 <ul>
-<li><code>normal</code> normal layer;</li>
-<li><code>walls</code> walls layer;</li>
 <li><code>water</code> water layer, adding tile water shaders, and giving wave reflections;</li>
+<li><code>mud</code> mud layer, similar to water but for mud tiles;</li>
+<li><code>cryofluid</code> cryofluid layer, giving the icy blue shader used by cryofluid pools;</li>
 <li><code>tar</code> tar layer, adding tar shaders, making it darker and giving it some bubble reflections;</li>
+<li><code>slag</code> slag layer, giving molten slag its glow shader;</li>
+<li><code>arkycite</code> arkycite layer, used for the arkycite liquid on Erekir;</li>
+<li><code>space</code> space layer, used for background space tiles;</li>
+<li><code>normal</code> normal layer, the default for most floors;</li>
+<li><code>walls</code> walls layer;</li>
 </ul>
+<p><code>CacheLayer</code> is a class rather than an enum, so mods can register their own layers with <code>CacheLayer.add</code>.</p>
 <h2 id="targetpriority">TargetPriority</h2>
-<p>A higher ordinal means a higher priority. Higher priority blocks will always get targeted over those of lower priority, regardless of distance.</p>
-<ol>
-<li><code>base</code></li>
-<li><code>turret</code></li>
-</ol>
+<p>A set of float constants; a higher value means a higher priority. Higher priority blocks will always get targeted over those of lower priority, regardless of distance.</p>
+<table>
+<thead>
+<tr>
+<th>priority</th>
+<th>value</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>wall</code></td>
+<td>-3</td>
+<td>nobody cares about walls</td>
+</tr>
+<tr>
+<td><code>under</code></td>
+<td>-2</td>
+<td>for blocks with <code>underBullets</code></td>
+</tr>
+<tr>
+<td><code>transport</code></td>
+<td>-1</td>
+<td>conveyors and other transport infrastructure</td>
+</tr>
+<tr>
+<td><code>base</code></td>
+<td>0</td>
+<td>most blocks</td>
+</tr>
+<tr>
+<td><code>turret</code></td>
+<td>1</td>
+<td>turrets, since they deal damage</td>
+</tr>
+<tr>
+<td><code>core</code></td>
+<td>2</td>
+<td>the core is always the top priority</td>
+</tr>
+</tbody>
+</table>
 
 
 

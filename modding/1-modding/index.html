@@ -23709,8 +23709,8 @@
 
 <h1 id="modding-introduction">Modding Introduction</h1>
 <p>Mindustry mods are simply directories of assets. There are many ways to use the modding API, depending on exactly what you want to do, and how far you're willing to go to do it.</p>
-<p>You could just resprite existing game content, you can create new game content with the simpler Json API (which is the main focus of this documentation), you can add custom sounds (or reuse existing ones). It's possible to add maps to campaign mode, and add scripts to program special behavior into your mod, like custom effects. </p>
-<p>Sharing your mod is as simple as giving someone your project directory; mods are also cross platform to any platform that supports them. You'll want to use <a href="#github">GitHub</a> (<em>or a similar service</em>) for hosting your source code.
+<p>You could just resprite existing game content, or create new game content with the simpler Json API (which is the main focus of this documentation). You can add custom sounds (or reuse existing ones), add maps to campaign mode, and add scripts to program special behavior into your mod, like custom effects.</p>
+<p>Sharing your mod is as simple as giving someone your project directory; mods work on any platform that supports them. You'll want to use <a href="#github">GitHub</a> (<em>or a similar service</em>) for hosting your source code.
 To make mods all you really need is any computer with a text editor.</p>
 <h2 id="directory-structure">Directory Structure</h2>
 <p>Your project directory should look something like this:</p>
@@ -23753,7 +23753,7 @@ To make mods all you really need is any computer with a text editor.</p>
 <li>incorrect: <code>My Custom Block.json</code></li>
 </ul>
 <h2 id="hjson">Hjson</h2>
-<p>Mindustry uses <a href="https://hjson.github.io/">Hjson</a>, which for anyone who knows Json, is simply a superset of the very popular serialization language known as <a href="https://en.wikipedia.org/wiki/JSON">Json</a>. &#x2013; This means that any valid Json will work, but you get extra useful stuff:</p>
+<p>Mindustry uses <a href="https://hjson.github.io/">Hjson</a>, which, for anyone who knows JSON, is simply a superset of the very popular serialization language known as <a href="https://en.wikipedia.org/wiki/JSON">Json</a>. This means that any valid Json will work, but you get extra useful stuff:</p>
 <div class="language-text highlight"><pre><span></span><code># single line comment
 
 // single line comment
@@ -23776,13 +23776,13 @@ key3: [ value 1
 key4: { key1: string
         key2: 0 }
 </code></pre></div>
-<p>If you don't know any of those words. &#x2013; A serialization language, is simply a language which encodes information for a program, and <em>encode</em> means to translate informantion from one form to another, and in this case, to translate text into Java data structures.</p>
+<p>If you don't know any of those words: a serialization language is simply a language which encodes information for a program, and <em>encode</em> means to translate information from one form to another, in this case, to translate text into Java data structures.</p>
 <h2 id="modhjson"><code>mod.hjson</code></h2>
 <p>At the root of your project directory, you must have a <code>mod.json</code> which defines the basic metadata for your project. This file can also be (optionally) named <code>mod.hjson</code> to potentially help your text editor pick better syntax highlighting.</p>
 <div class="language-text highlight"><pre><span></span><code>name: &quot;mod-name&quot;
 displayName: &quot;This isn&#39;t a mod.&quot;
 author: Yourself
-description: &quot;Bbfashbjhcbabfhsbafbhajbf&quot;
+description: &quot;A short description of your mod.&quot;
 version: &quot;1.0&quot;
 minGameVersion: &quot;159.7&quot;
 dependencies: [ ]
@@ -23794,10 +23794,10 @@ hidden: false
 <li><code>description</code> of the mod will be rendered in the ingame mod manager, so keep it short and to the point.</li>
 <li><code>dependencies</code> is optional, if you want to know more about that, go to the <a href="#dependencies">dependencies</a> section.</li>
 <li><code>minGameVersion</code> is the minimum build version of the game. This is <strong>required</strong> to be a number greater than 105.</li>
-<li><code>hidden</code> is whether or not this mod is essential for multiplayer, false by default. Texture packs, JS plugins, etc. should use this as to not cause conflicts with servers and clients respectively. As a rule of thumb, if your mod creates content it shouldn't be hidden.</li>
+<li><code>hidden</code> is whether or not this mod is essential for multiplayer, false by default. Texture packs, JS plugins, etc. should set this to true, so they don't cause version-mismatch conflicts between servers and clients. As a rule of thumb, if your mod creates content it shouldn't be hidden.</li>
 </ul>
 <h2 id="content">Content</h2>
-<p>At the root of your project directory you can have a <code>content/</code> directory, this is where all the Json/Hjson data goes. Inside of <code>content/</code> you have subdirectories for the various kinds of content, these are the current common ones:</p>
+<p>At the root of your project directory you can have a <code>content/</code> directory. This is where all the Json/Hjson data goes. Inside of <code>content/</code> you have subdirectories for the various kinds of content; these are the current common ones:</p>
 <ul>
 <li><code>content/items/</code> for <a href="#item">items</a>, like <code>copper</code> and <code>surge-alloy</code>;</li>
 <li><code>content/blocks/</code> for <a href="#block">blocks</a>, like turrets and floors;</li>
@@ -23805,7 +23805,7 @@ hidden: false
 <li><code>content/units/</code> for flying or ground <a href="#unittype">units</a>, like <code>eclipse</code> and <code>dagger</code>;</li>
 </ul>
 <p>Note that each one of these subdirectories needs a specific content type. The filenames of these files is important, because the stem name of your path <em>(filename without the extension)</em> is used to reference it.</p>
-<p>Furthermore the files within these <code>content/&lt;content-type&gt;/*</code> directories may be arbitrarly nested into other sub-directories of any name, to help you organize them further, for example:</p>
+<p>Furthermore, the files within these <code>content/&lt;content-type&gt;/*</code> directories may be arbitrarily nested into other sub-directories of any name, to help you organize them further, for example:</p>
 <ul>
 <li><code>content/items/metals/iron.hjson</code>, which would respectively create an item named <code>iron</code>.</li>
 </ul>
@@ -23842,13 +23842,13 @@ description: Description of thing.
 </tbody>
 </table>
 <p>Other fields included will be the fields of the type itself.</p>
-<p>A side note, <code>name</code> and <code>description</code> are not required to be in the json structure. You can define them for any language with (Bundles)[#bundles]. However, if they are not present in either then the name will be <type>.<modname>-<stemname>.name and an empty description respectively.</p>
+<p>As a side note, <code>name</code> and <code>description</code> are not required to be in the json structure. You can define them for any language with <a href="#bundles">Bundles</a>. However, if they are not present in either, the name will default to <code>&lt;type&gt;.&lt;modname&gt;-&lt;stemname&gt;.name</code> and the description will be empty.</p>
 <h2 id="types">Types</h2>
 <p>Types have numerous fields, but the important one is <code>type</code>; this is a special field used by the content parser, that changes which type your object is. <em>A <code>Router</code> type can't be a <code>Turret</code> type</em>, as they're just completely different.</p>
 <p>Types <em>extend</em> each other, so if <code>MissileBulletType</code> extends <code>BasicBulletType</code>, you'll have access to all the fields of <code>BasicBulletType</code> inside of <code>MissileBulletType</code> like <code>damage</code>, <code>lifetime</code> and <code>speed</code>. Fields are case sensitive: <code>hitSize =/= hitsize</code>.</p>
-<p>What you can expect a field to do is up to the specific type, some types do absolutely nothing with their fields, and work mostly as a base types will extend from. One such type is <code>Block</code>.</p>
+<p>What you can expect a field to do is up to the specific type; some types do absolutely nothing with their fields, and mostly serve as a base for other types to extend from. One such type is <code>Block</code>.</p>
 <p>In this unit example, the type of the unit is <code>flying</code>. The type of the <code>bullet</code> is <code>BulletType</code>, so you can use <code>MissileBulletType</code>, because <code>MissileBulletType</code> extends <code>BulletType</code>.</p>
-<p>One could also use <code>mech</code>, <code>legs</code>, <code>naval</code> or <code>payload</code> as the unit type here.</p>
+<p>Other unit types include <code>mech</code>, <code>legs</code>, <code>naval</code>, <code>payload</code>, <code>tank</code>, <code>hover</code>, <code>crawl</code>, <code>missile</code> and <code>tether</code>.</p>
 <div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>type: flying
 </span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>weapons: [
 </span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>  {
@@ -23880,17 +23880,17 @@ description: Description of thing.
 <tbody>
 <tr>
 <td>blocks</td>
-<td><code>requirements ^ 1.1 * 20 * researchCostMultiplier</code></td>
-<td><code>researchCostMultiplier</code> is a stat that can be set on blocks</td>
+<td><code>60 * researchCostMultiplier + requirements ^ 1.11 * 20 * researchCostMultiplier</code></td>
+<td><code>researchCostMultiplier</code> is a stat that can be set on blocks, default <code>1</code></td>
 </tr>
 <tr>
 <td>units</td>
-<td><code>requirements ^ 1.1 * 50</code></td>
-<td>---</td>
+<td><code>requirements * researchCostMultiplier</code></td>
+<td><code>researchCostMultiplier</code> defaults to <code>50</code> on <code>UnitType</code></td>
 </tr>
 </tbody>
 </table>
-<p>The cost is then rounded down to the nearest 10, 100, 1k, 10k, or 100k depending on how expensive the cost is.</p>
+<p>The cost is then rounded to the nearest 10, 100, 1k, or 100k depending on how large the cost is (rounding isn't always downward).</p>
 <p><code>requirements</code> is the cost of the block or unit. Units use their build cost/upgrade cost for the calculations.</p>
 <p>If you want to set custom research requirements use this object in place of just a name:</p>
 <div class="language-text highlight"><pre><span></span><code>research: {
@@ -23915,7 +23915,7 @@ Images are packed into an "atlas" for efficient for rendering. The first directo
 <ul>
 <li><a href="https://github.com/Anuken/Mindustry/tree/master/core/assets-raw/sprites">https://github.com/Anuken/Mindustry/tree/master/core/assets-raw/sprites</a></li>
 </ul>
-<p>Another thing to know about sprites is that some of them are modified by the game. Turrets specifically have a black border added to them, so you must account for that while making your sprites, leaving transparent space around turrets for example: <a href="https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/turrets/ripple.png">Ripple</a></p>
+<p>Another thing to know about sprites is that some of them are modified by the game. Turrets specifically have a dark gray border added to them, so you must account for that while making your sprites, leaving transparent space around turrets for example: <a href="https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/blocks/turrets/ripple.png">Ripple</a></p>
 <p>To override ingame content sprites, you can simply put them in <code>sprites-override/</code>.
 This removes the <code>&lt;modname&gt;-</code> prefix to their id, which allows them to override sprites from vanilla and even other mods.
 You can also use this to create sprites with nice short names like <code>cat</code> for easy use with scripts, just beware of name collisions with other mods.</p>
