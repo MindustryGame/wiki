@@ -11718,6 +11718,34 @@
   
   
     <li class="md-nav__item">
+      <a href="../TriangleEffect/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    TriangleEffect
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../Turret/" class="md-nav__link">
         
   
@@ -23719,6 +23747,18 @@
 <td>extra velocity that is added as a fraction</td>
 </tr>
 <tr>
+<td>lifeRnd</td>
+<td>float</td>
+<td>0.0</td>
+<td>fraction of lifetime that is random</td>
+</tr>
+<tr>
+<td>extraLife</td>
+<td>float</td>
+<td>0.0</td>
+<td>extra lifetime that is added as a fraction</td>
+</tr>
+<tr>
 <td>shootCone</td>
 <td>float</td>
 <td>5.0</td>
@@ -23782,7 +23822,13 @@
 <td>minShootVelocity</td>
 <td>float</td>
 <td>-1.0</td>
-<td>min velocity required for this weapon to shoot</td>
+<td>min velocity required for this weapon to shoot. -1 to disable the limit.</td>
+</tr>
+<tr>
+<td>maxShootVelocity</td>
+<td>float</td>
+<td>-1.0</td>
+<td>max velocity at which this weapon to shoot. -1 to disable the limit.</td>
 </tr>
 <tr>
 <td>parentizeEffects</td>

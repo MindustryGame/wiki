@@ -11772,6 +11772,34 @@
   
   
     <li class="md-nav__item">
+      <a href="../TriangleEffect/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    TriangleEffect
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../Turret/" class="md-nav__link">
         
   
@@ -23480,25 +23508,25 @@
 <td>colorFrom</td>
 <td>Color</td>
 <td>ffffffff</td>
-<td></td>
+<td>Particle color.</td>
 </tr>
 <tr>
 <td>colorTo</td>
 <td>Color</td>
 <td>ffffffff</td>
-<td></td>
+<td>Particle color.</td>
 </tr>
 <tr>
 <td>particles</td>
 <td>int</td>
 <td>6</td>
-<td></td>
+<td>Number of particles created.</td>
 </tr>
 <tr>
 <td>randLength</td>
 <td>boolean</td>
 <td>true</td>
-<td></td>
+<td>If true, the particle's length is set in a random range from 0 to length.</td>
 </tr>
 <tr>
 <td>casingFlip</td>
@@ -23537,34 +23565,40 @@
 <td>Particle size interpolation. Null to use interp.</td>
 </tr>
 <tr>
+<td>colorInterp</td>
+<td>Interp</td>
+<td>null</td>
+<td>Particle color interpolation. Null to use interp.</td>
+</tr>
+<tr>
 <td>offsetX</td>
 <td>float</td>
 <td>0.0</td>
-<td></td>
+<td>Offset position of the particle.</td>
 </tr>
 <tr>
 <td>offsetY</td>
 <td>float</td>
 <td>0.0</td>
-<td></td>
+<td>Offset position of the particle.</td>
 </tr>
 <tr>
 <td>lightScl</td>
 <td>float</td>
 <td>2.0</td>
-<td></td>
+<td>Particle light properties.</td>
 </tr>
 <tr>
 <td>lightOpacity</td>
 <td>float</td>
 <td>0.6</td>
-<td></td>
+<td>Particle light properties.</td>
 </tr>
 <tr>
 <td>lightColor</td>
 <td>Color</td>
 <td>null</td>
-<td></td>
+<td>Color of the light each particle emits.</td>
 </tr>
 <tr>
 <td>spin</td>
@@ -23591,6 +23625,18 @@
 <td>Controls the amount of ticks the effect waits before changing size.</td>
 </tr>
 <tr>
+<td>widthChangeStart</td>
+<td>float</td>
+<td>0.0</td>
+<td>Controls the amount of ticks the effect waits before changing width.</td>
+</tr>
+<tr>
+<td>heightChangeStart</td>
+<td>float</td>
+<td>0.0</td>
+<td>Controls the amount of ticks the effect waits before changing height.</td>
+</tr>
+<tr>
 <td>useRotation</td>
 <td>boolean</td>
 <td>true</td>
@@ -23607,6 +23653,42 @@
 <td>String</td>
 <td>"circle"</td>
 <td>Sprite to draw.</td>
+</tr>
+<tr>
+<td>widthFrom</td>
+<td>float</td>
+<td>1.0</td>
+<td>Particle width and height properties as a ratio of its radius. Does nothing to line particles.</td>
+</tr>
+<tr>
+<td>widthTo</td>
+<td>float</td>
+<td>1.0</td>
+<td>Particle width and height properties as a ratio of its radius. Does nothing to line particles.</td>
+</tr>
+<tr>
+<td>heightFrom</td>
+<td>float</td>
+<td>1.0</td>
+<td>Particle width and height properties as a ratio of its radius. Does nothing to line particles.</td>
+</tr>
+<tr>
+<td>heightTo</td>
+<td>float</td>
+<td>1.0</td>
+<td>Particle width and height properties as a ratio of its radius. Does nothing to line particles.</td>
+</tr>
+<tr>
+<td>widthInterp</td>
+<td>Interp</td>
+<td>null</td>
+<td>Particle width interpolation. Null to use sizeInterp.</td>
+</tr>
+<tr>
+<td>heightInterp</td>
+<td>Interp</td>
+<td>null</td>
+<td>Particle height interpolation. Null to use sizeInterp.</td>
 </tr>
 <tr>
 <td>line</td>
