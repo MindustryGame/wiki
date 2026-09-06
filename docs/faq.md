@@ -8,7 +8,7 @@ If you're on the same wifi or hotspot network, it should be easy. Start playing 
 
 If you are sure that you are on the same network, and you still can't find their game, considering using a wifi hotspot instead of a public network. Some public wifi networks simply do not allow server discovery.
 
-If you're using a wifi hotspot and you still can't find a friend's game, you could try connecting directly via IP. Instead of looking for the game, find the internal IP of the hosting device (look up how to find it for the specific device you're using), and have the other player type in that IP in the Play > Join Game > Add Server button.
+If you're using a Wi-Fi hotspot and you still can't find a friend's game, you could try connecting directly via IP. Instead of looking for the game, find the internal IP of the hosting device (look up how to find it for the specific device you're using), and have the other player type in that IP in the Play > Join Game > Add Server button.
 
 ## How can I play with someone across networks?
 
@@ -35,19 +35,11 @@ Note that the file chooser will only display files with an .msav extension. If y
 
 Open your map in the editor. Open the menu, then press "Export". Select a directory, type in a filename and press "Save".
 
-## I don't like the current version of Mindustry for some reason, what do I do?
-
-Just download Mindustry Classic for the old experience. It's identical to build 3.5 40, albeit with some minor bugfixes.
-
-PC/Android APK: [https://anuke.itch.io/mindustry-classic](https://anuke.itch.io/mindustry-classic)
-
-You can also find it by searching "mindustry classic" on the Google Play store.
-
 ## Does Mindustry run on a Raspberry Pi?
 
 While the game itself could theoretically support it, no, it does not support the Raspberry Pi.
 
-However, the dedicated server will run on a Pi as long as you have the right version of Java installed. Note that the 3.5/Classic dedicated server will not run on a Pi; only 4.0 and above is supported.
+However, the dedicated server will run on a Pi as long as you have the right version of Java installed.
 
 ## Where is the game's source code?
 
@@ -98,4 +90,4 @@ On the App Store, distributing the game there costs a lot, as a developer will n
 - Report bugs that you find on the GitHub repository. **Please remember to use the templates properly**, as doing so will make your issue more organized and follow a common pattern, making Anuke's job easier. If you know how to program in Java, feel free to help Anuke out and fix said bugs, then open a PR. 
 - Donations to Anuke are open on the Itch.io page if you would like to give a monetary contribution. You can also buy the game on Steam.
 - If you are fluent in a language that Mindustry doesn't support yet, or if you want to contribute to the ones already there, stop by the #translations channel, and ask about it. You can contribute to the current bundles and open a PR in the game's repo.
-- If you want to contribute to this wiki, please contact Anuke or Luxray5474. They'll let you know what you should do and how we roll.
+- If you want to contribute to this wiki, open a PR on the repository, which is linked at the top right.
