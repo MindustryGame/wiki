@@ -7,6 +7,17 @@ theme:
   favicon: images/favicon.png
   logo: images/favicon.png
   custom_dir: overrides
+  palette:
+    - scheme: slate
+      primary: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+    - scheme: default
+      primary: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
   features:
     - navigation.tracking
     - content.code.copy
