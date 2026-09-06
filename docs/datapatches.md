@@ -27,18 +27,18 @@ There is no comprehensive guide yet, but here's a brief overview of how it works
 
 - Content has the same format as in JSON mods, with some limitations.
 - Unsupported features:
-  - Planets (not useful in maps/servers)
-  - Sectors, for the same reason
-  - Tech tree additions/modifications
+    - Planets (not useful in maps/servers)
+    - Sectors, for the same reason
+    - Tech tree additions/modifications
 - Directly reassigning texture regions is not possible; they are loaded based on content name.
-  - For example, you cannot set `uiIcon: "cat"` for a block, as you can with patches.
-  - You need to have an image with the block name loaded as an asset instead.
-  - For example, if you have a new block or item named "cat", you will need to import "cat.png" in the image tab, and it will automatically be loaded as the block's icon/sprite.
-  - Different blocks have different image naming schemes, which can get quite complicated. This is not yet documented.
+    - For example, you cannot set `uiIcon: "cat"` for a block, as you can with patches.
+    - You need to have an image with the block name loaded as an asset instead.
+    - For example, if you have a new block or item named "cat", you will need to import "cat.png" in the image tab, and it will automatically be loaded as the block's icon/sprite.
+    - Different blocks have different image naming schemes, which can get quite complicated. This is not yet documented.
 - Since you are defining *new* content, not patches, field selectors are not supported.
-  - This includes trying to assign things like: `weapons.0.name`, `weapons.+`, etc. You can only assign to *one* field at a time directly.
+    - This includes trying to assign things like: `weapons.0.name`, `weapons.+`, etc. You can only assign to *one* field at a time directly.
 - All assets and content have the `dp-` prefix.
-  - For example: if you import a PNG called "cat-weapon", the sprite name will be "dp-cat-weapon" in texture markers and weapon names. The same goes for sounds.
+    - For example: if you import a PNG called "cat-weapon", the sprite name will be "dp-cat-weapon" in texture markers and weapon names. The same goes for sounds.
 
 # Writing A Trivial Data Patch
 
