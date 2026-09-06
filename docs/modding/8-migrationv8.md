@@ -1,7 +1,5 @@
 # 8.0 Migration Guide
 
-This guide is incomplete. As v8 has not been fully released yet, it will continue to change until v8 fully stabilizes.
-
 ## JSON Mods
 
 If you have a JSON mod, you *probably* don't need to do anything. All existing JSON mods should still work, albeit with some changes to the way content is displayed on certain planets. See the section on 'Planets' below.
@@ -29,4 +27,4 @@ If you have a JSON mod, you *probably* don't need to do anything. All existing J
 
 ## Planets
 
-- All fields related to visibility of items (`itemWhitelist`, `hiddenItems`, `Rules.hiddenBuildItems`) have been removed. In order to make content show up on planet, change its `shownPlanets` field. If you have a tech tree set up for a planet, this will be done automatically.
+- All fields related to visibility of items (`itemWhitelist`, `hiddenItems`, `Rules.hiddenBuildItems`) have been removed. In order to make content show up on a specific planet, change its `shownPlanets` field to include that planet. If you have a tech tree set up for a planet, this will be done automatically.
