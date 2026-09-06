@@ -14,7 +14,7 @@ If you are using HJSON for your mods, it is recommended to use [Visual Studio Co
 
 To install the extension, download `mindustry-hjson-x.x.x.vsix` from the linked release page. In VSCode, open the Extensions tab, click the three dots in the top right -> "Install From VSIX..." -> select the downloaded VSIX file.
 
-The extension provides autocomplete, syntax highlighting and warnings for unknown or invalid fields in content.
+The extension provides autocomplete, syntax highlighting, and warnings for unknown or invalid fields in content.
 
 ## Directory Structure
 
@@ -62,7 +62,7 @@ Every platform has a different user application data directory, and this is wher
 
 ## HJSON
 
-Mindustry uses [Hjson](https://hjson.github.io/), which, for anyone who knows JSON, is simply a superset of the very popular serialization language known as [Json](https://en.wikipedia.org/wiki/JSON). This means that any valid JSON will work, but you get extra useful stuff:
+Mindustry uses [Hjson](https://hjson.github.io/), which is a superset of the very popular format known as [JSON ](https://en.wikipedia.org/wiki/JSON). This means that any valid JSON will work, but you get extra features as well:
 ```js
 # single line comment
 
@@ -116,14 +116,14 @@ hidden: false
 -   `displayName` this will be used as a display name for the UI, which you can use to add formatting to said name.
 -   `description` of the mod will be rendered in the ingame mod manager, so keep it short and to the point.
 -   `dependencies` is optional, if you want to know more about that, go to the [dependencies](#dependencies) section.
--   `minGameVersion` is the minimum build version of the game. This is **required** to be a number greater than 105.
+-   `minGameVersion` is the minimum build version of the game. This is **required** to be a number greater than 136.
 -   `hidden` is whether or not this mod is essential for multiplayer, false by default. Texture packs, JS plugins, etc. should set this to true, so they don't cause version-mismatch conflicts between servers and clients. As a rule of thumb, if your mod creates content it shouldn't be hidden.
 
 
 
 ## Content
 
-At the root of your project directory you can have a `content/` directory. This is where all the Json/Hjson data goes. Inside of `content/` you have subdirectories for the various kinds of content; these are the current common ones:
+At the root of your project directory you can have a `content/` directory. This is where all the JSON/HJSON data goes. Inside of `content/` you have subdirectories for the various kinds of content; these are the current common ones:
 
 -   `content/items/` for [items](#item), like `copper` and `surge-alloy`;
 -   `content/blocks/` for [blocks](#block), like turrets and floors;
@@ -178,16 +178,9 @@ weapons: [
 ]
 ```
 
-As of build `125.1`, types can also be the *fully-qualified class name* of a Java class. 
-
-For example, to specify a block as a `MendProjector`, you may write
-`type: mindustry.world.blocks.defense.MendProjector` instead of `type: MendProjector`.
-
-While not particularly useful for vanilla types, this can be used to load block types *from other Java mods* as dependencies.
-
 ## Tech Tree
 
-Much like `type` there exist another magical field known as `research` which can go at the root of any block object to put it in the techtree.
+Much like `type`, there exists another field called `research`, which can go at the root of any content object to place it in the techtree.
 
     research: duo
 
@@ -204,7 +197,7 @@ The cost is then rounded to the nearest 10, 100, 1k, or 100k depending on how la
 
 `requirements` is the cost of the block or unit. Units use their build cost/upgrade cost for the calculations.
 
-If you want to set custom research requirements use this object in place of just a name:
+If you want to set custom research requirements, use this object in place of just a name:
 ```js
 research: {
   parent: duo
@@ -213,7 +206,7 @@ research: {
   ]
 }
 ```
-This can be used to override block or unit costs, or make resources need to be researched instead of just having to produce it.
+This can be used to override block or unit costs, or make resources need to be researched instead of just having to produce them.
 
 ## Sprites
 
@@ -227,7 +220,7 @@ If any of them are not 32-bit RGBA formatted, fix them.
 Sprites can simply be dropped in the `sprites/` subdirectory. The content parser will look through it recursively.
 Images are packed into an "atlas" for efficient for rendering. The first directory in `sprites/`, e.g. `sprites/blocks`, determines the page in this atlas that sprites are put in. Putting a block's sprite in the `units` page is likely to cause lots of lag; thus, you should try to organize things similarly to how the [vanilla game does](https://github.com/Anuken/Mindustry/tree/master/core/assets-raw/sprites).
 
-Content is going to look for sprites relative to it's own name. `content/blocks/my-hail.json` has the name `my-hail` and similarly `sprites/my-hail.png` has the name `my-hail`, so it'll be used by this content.
+Content is going to look for sprites relative to its own name. `content/blocks/my-hail.json` has the name `my-hail`, and, similarly `sprites/my-hail.png` has the name `my-hail`, so it'll be used by this content.
 
 Content may look for multiple sprites. `my-hail` could be a turret, and it could look for the suffix `<name>-heat` and what this means is it'll look for `my-hail-heat`.
 
@@ -239,13 +232,12 @@ Another thing to know about sprites is that some of them are modified by the gam
 
 To override ingame content sprites, you can simply put them in `sprites-override/`.
 This removes the `<modname>-` prefix to their id, which allows them to override sprites from vanilla and even other mods.
-You can also use this to create sprites with nice short names like `cat` for easy use with scripts, just beware of name collisions with other mods.
 
 
 
 ## Sound
 
-Custom sounds can be added through the modding system by dropping them in the `sounds/` subdirectory. It doesn't matter where you put them after that. Two formats are supported: `ogg` and `mp3`. Note that `mp3` files cannot loop seamlessly, so try to use `ogg` whenever possible.
+Custom sounds can be added through the modding system by dropping them in the `sounds/` subdirectory. Two formats are supported: `ogg` and `mp3`. Note that `mp3` files cannot loop seamlessly, so try to use `ogg` whenever possible.
 
 Just like any other assets, you reference them by the stem of your filenames, so `pewpew.ogg` and `pewpew.mp3` can be referenced with `pewpew` from a field of type `Sound`.
 
@@ -321,7 +313,7 @@ All you need understand is how to open repositories on GitHub, stage and commit 
 -   `time` in game is calculated through `ticks`; `ticks`, *sometimes called `frames`,* are 1/60th of a second;
 -   `tilesize` is 8 world units internally; most values such as hitbox sizes are measured in these world units;
 -   to calculate range out of `lifetime` and `speed`, you can do `lifetime * speed = range`;
--   What is a `NullPointerException`? This is an error message that indicates a field is null and shouldn't be null, meaning one of the required fields may be missing;
--   *bleeding-edge* what is `bleeding-edge`? This is latest the development version of Mindustry; specifically it refers to the latest commit on the Github master branch. Changes on bleeding-edge usually make it into Mindustry in the next release.
+-   `NullPointerException` is an error message that indicates a field is null and shouldn't be null, meaning one of the required fields may be missing;
+-   *bleeding-edge* is latest the development version of Mindustry; specifically it refers to the latest commit on the Github master branch. Changes on bleeding-edge usually make it into Mindustry in the next release.
 
 
