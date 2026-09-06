@@ -5,7 +5,7 @@ span.expandable { cursor:pointer; }
 }
 
 .wy-side-nav-search {
-  background-color: #d4816b;
+  background-color: #473b60;
 }
 
 .wy-side-nav-search input[type=text] {
@@ -13,7 +13,7 @@ span.expandable { cursor:pointer; }
 }
 
 .md-header {
-  background-color: #d4816b !important;
+  background-color: #473b60 !important;
 }
 
 .md-header-nav__topic {
