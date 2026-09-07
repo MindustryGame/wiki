@@ -4,3 +4,4 @@
 .obsidian/app.json
 *.json
 .obsidian/workspace
+.idea/
