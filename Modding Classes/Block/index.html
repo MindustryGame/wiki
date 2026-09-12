@@ -24283,6 +24283,12 @@
 <td>If true, this block won't be affected by the onlyDepositCore rule.</td>
 </tr>
 <tr>
+<td>allowedInPayloads</td>
+<td>boolean</td>
+<td>true</td>
+<td>If false, this block cannot be placed in payloads.</td>
+</tr>
+<tr>
 <td>depositCooldown</td>
 <td>float</td>
 <td>-1.0</td>
@@ -24592,7 +24598,7 @@
 <td>canPickup</td>
 <td>boolean</td>
 <td>true</td>
-<td>if true, this block can be picked up in payloads</td>
+<td>@deprecated use allowedInPayloads instead</td>
 </tr>
 <tr>
 <td>deconstructDropAllLiquid</td>
