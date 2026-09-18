@@ -24021,6 +24021,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#mod-releases" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Mod Releases
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#faq" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -24430,6 +24441,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#mod-releases" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Mod Releases
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#faq" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -24732,13 +24754,42 @@ block.example-mod-silver-wall.description = Стена из серебра.
 <li>with the zip file, for example <code>https://github.com/Anuken/MindustryJavaModTemplate/archive/master.zip</code>, which would download the repository as a zip file, and put in mod directory (unzipping is not required);</li>
 <li>add the topic/tag <code>mindustry-mod</code> on your repository, which should add it to the topic search and the <a href="https://github.com/Anuken/MindustryMods">Mod scraper</a>.</li>
 </ul>
+<h2 id="mod-releases">Mod Releases</h2>
+<p>Mindustry downloads mods as follows:</p>
+<ul>
+<li>If the mod is Java-based, a release with a valid JAR file is required.</li>
+<li>The most recent Github release matching the game's version is prioritized.</li>
+<li>Setting the target game version for a release can be done by putting it in the release name in square brackets.</li>
+<li>For example, putting <code>Frog Mod [v160]</code> will make the release target build 160, and any revision, such as 160.3.</li>
+<li>Writing <code>[v160.3]</code> (specifying a revision) will make it <strong>only</strong> target that revision; it will not be targeted to 160.1 or 160.4.</li>
+<li>If there are no releases targeting the game version, the newest release is downloaded.</li>
+<li>For JS and JSON mods, the latest commit on the main branch is downloaded.</li>
+<li>This makes it simpler to download and manage these mods for beginners.</li>
+<li>It is recommended to have a separate branch for active development.</li>
+<li>For non-Java mods, releases without a matching target game version tag in their title are ignored.</li>
+<li>For example, if you have a JSON/JS mod, and the user is using Mindustry <code>Build 160</code>, it will only download a release if it has <code>[v160]</code> at the end of its title. Otherwise, it will download the latest commit on the main branch.</li>
+</ul>
+<p>Practical example: Let's say I want to have a mod that has both v8 and v9 versions. Here's how I would do it:
+- Create a v8 branch with the code you want to be v8-specific.
+- Make sure <code>minGameVersion: 160</code> is in that branch's <code>mod.hjson</code>.
+- Create a release with the name <code>My Spectacular Mod [v160]</code>, and upload the JAR built from the v8 source, targeting the v8 branch.
+  - Everyone running Mindustry v8 (<code>build 160</code>) will download this release instead of the latest one. 
+- For the v9 release, simply create a release as you would normally, with no version tags in the title, and include <code>minGameVersion: 161</code> (or whichever build you are targeting) in your <code>mod.hjson</code>
+  - Anyone who is <em>not</em> on <code>build 160</code> will automatically download this version instead upon installation.</p>
+<p>For updates:</p>
+<ul>
+<li>If you have a release that matches the Mindustry version the game is running, it will check for updates based on the <code>version</code> in your <code>mod.hjson</code> in the repository at the release tag.</li>
+<li>Otherwise, if there are no exact matching releases, it checks based on the <code>version</code> in the <code>mod.hjson</code> <em>at the latest commit of your repository.</em></li>
+<li>Version strings should be valid <a href="https://semver.org/">semver</a>. Essentially: three numbers separated by periods, e.g. <code>1.3.5</code>. If you write versions in other formats, the update checker might get confused. Whatever you do, do <strong>not</strong> write versions in wacky formats like <code>build-123-1.5.6 beta-3</code>.</li>
+<li>If you don't update your <code>mod.hjson</code>'s version string when you make a release, the game won't know that an update is an available.</li>
+</ul>
 <h2 id="faq">FAQ</h2>
 <ul>
 <li><code>time</code> in game is calculated through <code>ticks</code>; <code>ticks</code>, <em>sometimes called <code>frames</code>,</em> are 1/60th of a second;</li>
 <li><code>tilesize</code> is 8 world units internally; most values such as hitbox sizes are measured in these world units;</li>
 <li>to calculate range out of <code>lifetime</code> and <code>speed</code>, you can do <code>lifetime * speed = range</code>;</li>
 <li><code>NullPointerException</code> is an error message that indicates a field is null and shouldn't be null, meaning one of the required fields may be missing;</li>
-<li><em>bleeding-edge</em> is latest the development version of Mindustry; specifically it refers to the latest commit on the Github master branch. Changes on bleeding-edge usually make it into Mindustry in the next release.</li>
+<li><em>bleeding-edge</em> is latest the development version of Mindustry; specifically, it refers to the latest commit on the Github master branch. Changes on bleeding-edge usually make it into Mindustry in the next release.</li>
 </ul>
 
 
