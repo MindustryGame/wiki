@@ -53,6 +53,7 @@ Every platform has a different user application data directory, and this is wher
 -   Steam: `steam/steamapps/common/Mindustry/saves/mods/`
 -   Windows: `%appdata%/Mindustry/mods/`
 -   MacOS: `~/Library/Application Support/Mindustry/mods/`
+-   Android: `/storage/emulated/0/Android/data/io.anuke.mindustry/files/mods`
 
 *Note that your filenames should be lowercased and hyphen separated:*
 
