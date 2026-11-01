@@ -37,7 +37,7 @@ Your project directory should look something like this:
     ├── sprites-override
     └── sprites
 
--   `mod.hjson` (required) metadata file for your mod,
+-   `mod.hjson` or `mod.json` (one required) metadata file for your mod,
 -   `content/*` directories for game [Content](#content),
 -   `maps/` directory for in-game maps,
 -   `bundles/` directory for [Bundles](#bundles),
@@ -102,7 +102,7 @@ It is worth noting that the 'official' HJSON standard is dead, and contains seve
 
 ## `mod.hjson`
 
-At the root of your project directory, you must have a `mod.hjson`, which defines the basic metadata for your project. 
+At the root of your project directory, you must have either a `mod.hjson` or a `mod.json` file, which defines the basic metadata for your project. Both filenames are supported by the mod loader; the example below uses HJSON syntax.
 ```js
 name: "mod-name"
 displayName: "This isn't a mod."
